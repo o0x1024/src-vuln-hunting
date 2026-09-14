@@ -21,3 +21,7 @@
 - [PS-race · Race conditions](https://portswigger.net/web-security/race-conditions)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 归档案例补充：先分清生命周期与竞态
+
+取消后券已释放但旧订单仍可结算，可能是跨阶段约束缺失，不能仅因用了两台设备就命名为竞态。重复创建优惠订单也可能在支付时被正确拒绝；分别保存创建、预占、支付和最终核销结果。见 [K02](../research/crawl-xz-patterns.md)。

@@ -34,3 +34,7 @@
 - [PS-deserialize · Insecure deserialization](https://portswigger.net/web-security/deserialization)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 归档案例补充：调用点与输入类型
+
+JSON 外层解析、对象恢复和后续转换可能分别触发不同逻辑；记录真实调用点、重载、依赖、str/bytes 与中间规范化。检查器接受或拒绝与恢复器不同只是线索，类加载不等于执行。CTF 人为添加的 gadget 和配置只作为前提，不能迁移为部署结论。见 [K12](../research/crawl-xz-patterns.md)。

@@ -26,3 +26,7 @@ X 的 #bugbounty / #infosec 是发现线索的入口，不是技术标准。引�
 ## 报告迁移
 
 遵循 [HackerOne Quality Reports](https://docs.hackerone.com/en/articles/8475116-quality-reports) 的可复核原则：必要前提、预期与实际、最小复现和影响彼此对应。SRC 的收录与评级以当前项目规则为准；历史奖金、CVSS 和 HackerOne 分类均不覆盖本项目规则。复核当前规则不等于重新请求已经存在的测试授权。
+
+## 国内社区归档
+
+先知/奇安信的 crawl_xz 快照按 [归档研究检索](crawl-xz-integration.md) 使用。先检索少量条目，再核对读取范围、版本与影响链；机器筛选不等于采纳，采纳机制不等于复现历史漏洞。

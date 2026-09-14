@@ -34,3 +34,7 @@
 - [PS-sql · SQL injection](https://portswigger.net/web-security/sql-injection)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 归档案例补充：查询分支与条件差异
+
+ORM 的条件绑定与原始表达式可能走不同实现，跟到具体重载与参数绑定，不按框架名定性。错误类别作为观察通道时，先用受控常量的成对条件排除业务校验和网关干扰；不以真实字段逐字取数替代最小证明。见 [K05、K13](../research/crawl-xz-patterns.md)。

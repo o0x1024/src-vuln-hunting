@@ -39,3 +39,7 @@ Agent 输出角色×对象×动作×状态矩阵；工具管理独立会话并�
 - [OWASP-api3 · API3:2023 Broken Object Property Level Authorization](https://owasp.org/API-Security/editions/2023/en/0xa3-broken-object-property-level-authorization/)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 归档案例补充：关联入口和子对象
+
+详情拒绝不代替列表、导出及下载的授权检查；父任务有权限也不代替引用子任务的权限。候选来自正常流量或获准源码，使用受控对象观察后台实际效果。共享令牌查无记录时检查失败分支，排除合法分享。见 [K03、K06–K07](../research/crawl-xz-patterns.md)。

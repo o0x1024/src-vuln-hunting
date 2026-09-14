@@ -50,3 +50,7 @@ Cloudflare 和 AWS 的厂商资料用于约束假设；没有该目标配置时�
 - [PMNH-waf · RCE via SSTI on Spring Boot Error Page with Akamai WAF Bypass](https://www.pmnh.site/post/writeup_spring_el_waf_bypass/)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 归档案例补充：内容编码和双解析器
+
+对目标确实支持的 Content-Encoding，先用小型普通标记核对压缩前后大小、媒体类型、最终解码值和同一业务路径；415、不解析 body、忽略字段分别记录。不能继承文章的产品成功率，也不构造高膨胀数据。验证器与恢复器的实现/版本/输入类型必须分别记录，CTF 额外依赖不能视为目标已有。见 [K11–K12](../research/crawl-xz-patterns.md)。

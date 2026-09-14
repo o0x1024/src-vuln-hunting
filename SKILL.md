@@ -37,6 +37,9 @@ description: 指导 AI 助手在明确授权的 SRC/众测项目中自动化挖�
 |---|---|
 | 发现资产、接口、指纹 | [资产发现](references/asset-discovery.md) |
 | 选择高频覆盖或条件专题 | [检测入口](references/vuln-detection.md)、[专题索引](references/vulnerability-catalog.md) |
+| 检索先知/奇安信归档、迁移历史研究 | [归档研究检索](references/research/crawl-xz-integration.md) |
+| 已获准源码、框架路由或补丁分析 | [源码审计](references/source-audit.md) |
+| 小程序身份/接口、文档导出/后台渲染 | [小程序](references/by-type/miniapp-security.md)、[文档处理](references/by-type/document-rendering.md) |
 | 采纳 HackerOne/X 技巧、核对历史案例 | [社区经验](references/research/community-notes.md) |
 | 对象、功能、租户授权 | [访问控制](references/by-type/idor-access-control.md) |
 | 登录、会话与联邦身份 | [认证与会话](references/by-type/authn-session.md) |

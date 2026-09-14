@@ -35,3 +35,7 @@
 - [PS-logic · Business logic vulnerabilities](https://portswigger.net/web-security/logic-flaws)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 归档案例补充：信任回流与旧支付状态
+
+商品/价格信息经客户端重新封装后回到订单服务，仍核对服务端是否重新绑定商品、数量、权益与结算值；能重算加密参数不等于已造成少付。优惠券预占、取消返还、旧支付凭据与再次核销应放在同一状态机，分别检查串行生命周期问题和并发问题。证据以实际履约/核销为准，细节见 [K01–K02](../research/crawl-xz-patterns.md)。

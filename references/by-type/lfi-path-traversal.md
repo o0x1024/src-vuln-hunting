@@ -34,3 +34,7 @@
 - [PS-path · Path traversal](https://portswigger.net/web-security/file-path-traversal)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 归档案例补充：落盘与执行分开
+
+检查文档容器/归档条目最终解析路径及异常后的残留，不将字符串中的路径符号直接认定为穿越；隔离自建文件写出允许根目录的能力也不自动证明代码执行。见 [K10](../research/crawl-xz-patterns.md)。

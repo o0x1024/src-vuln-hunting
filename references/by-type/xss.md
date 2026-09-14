@@ -37,3 +37,7 @@ DOM 场景追踪 source 到实际 sink，保存浏览器运行证据。存储场
 - [H1-xss · Report #192210: Stored XSS in blog comments through Shopify API](https://hackerone.com/reports/192210)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 归档案例补充：导出消费者
+
+同一输入可能进入浏览器预览和服务端文档消费者，分别确认执行位置及权限。PDF 排版变化不等于 XSS→SSRF→文件读取链已成立，见 [文档处理](document-rendering.md)。

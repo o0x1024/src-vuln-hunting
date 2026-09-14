@@ -22,3 +22,7 @@
 - [MDN-cors · Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 归档经验纠偏
+
+跨源发送、凭据是否附带与脚本读取响应是三件事；同站不等于同源，不能把 SameSite=None 写成所有跨源证明的统一前提。使用当前浏览器实际证据及敏感内容判断，见 [K15](../research/crawl-xz-patterns.md)。

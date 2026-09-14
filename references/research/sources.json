@@ -471,8 +471,8 @@
       "accessed_at": "2026-09-14",
       "evidence_status": "read",
       "used_by": [
-        "references/by-type/csrf.md",
-        "references/by-type/cors.md"
+        "references/by-type/cors.md",
+        "references/by-type/csrf.md"
       ]
     },
     {
@@ -781,6 +781,498 @@
       "evidence_status": "post_read_concept_checked_tool_unverified",
       "used_by": [
         "references/research/community-notes.md"
+      ]
+    },
+    {
+      "id": "CX-b71b12b78ace",
+      "title": "支付类漏洞挖掘技巧总结",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/butian/2778-%E6%94%AF%E4%BB%98%E7%B1%BB%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E6%8A%80%E5%B7%A7%E6%80%BB%E7%BB%93.md",
+      "original_url": "https://forum.butian.net/share/2778",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "fc528578043c17c3c56312df7549579d6fd7199a6473858c2bb8d8145d2194e6",
+      "used_by": [
+        "references/by-type/business-logic.md"
+      ]
+    },
+    {
+      "id": "CX-052396af43c9",
+      "title": "某积分商城任意金额支付漏洞分析利用及思考",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/butian/2949-%E6%9F%90%E7%A7%AF%E5%88%86%E5%95%86%E5%9F%8E%E4%BB%BB%E6%84%8F%E9%87%91%E9%A2%9D%E6%94%AF%E4%BB%98%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E5%88%A9%E7%94%A8%E5%8F%8A%E6%80%9D%E8%80%83.md",
+      "original_url": "https://forum.butian.net/share/2949",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "f9f41b6032f763b139525065c622304e4fadc836121d28c290a4bb36929854a6",
+      "used_by": [
+        "references/by-type/business-logic.md"
+      ]
+    },
+    {
+      "id": "CX-675aaef44ca6",
+      "title": "企业SRC支付漏洞&EDUSRC&众测挖掘思路技巧操作分享-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/18389-%E4%BC%81%E4%B8%9ASRC%E6%94%AF%E4%BB%98%E6%BC%8F%E6%B4%9E%26EDUSRC%26%E4%BC%97%E6%B5%8B%E6%8C%96%E6%8E%98%E6%80%9D%E8%B7%AF%E6%8A%80%E5%B7%A7%E6%93%8D%E4%BD%9C%E5%88%86%E4%BA%AB-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/18389",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "55ff9d8f4754fe1395ecdbf2a2aa84e98e6f7e40ac4f199e3574f1f89ddcb656",
+      "used_by": [
+        "references/by-type/business-logic.md",
+        "references/by-type/race-conditions.md"
+      ]
+    },
+    {
+      "id": "CX-edb851da5cd0",
+      "title": "实战SRC挖掘｜微信小程序渗透漏洞复盘-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/18037-%E5%AE%9E%E6%88%98SRC%E6%8C%96%E6%8E%98%EF%BD%9C%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%B8%97%E9%80%8F%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%9B%98-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/18037",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "1fce4f7470d27c33817f12d96bf2034fab9ace87c017c07851d171b3e8d4acf4",
+      "used_by": [
+        "references/by-type/idor-access-control.md",
+        "references/by-type/miniapp-security.md"
+      ]
+    },
+    {
+      "id": "CX-e5989d518b20",
+      "title": "深度解析微信小程序漏洞挖掘-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/17139-%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/17139",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "891dae12d537e939b2a71ebde9f561720abc33b08bd93779b79b9af001ee4ab4",
+      "used_by": [
+        "references/by-type/idor-access-control.md",
+        "references/by-type/miniapp-security.md"
+      ]
+    },
+    {
+      "id": "CX-4b8d20df3615",
+      "title": "签名从哪来？小程序 API 请求签名的逆向与验证-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/18682-%E7%AD%BE%E5%90%8D%E4%BB%8E%E5%93%AA%E6%9D%A5%EF%BC%9F%E5%B0%8F%E7%A8%8B%E5%BA%8F%20API%20%E8%AF%B7%E6%B1%82%E7%AD%BE%E5%90%8D%E7%9A%84%E9%80%86%E5%90%91%E4%B8%8E%E9%AA%8C%E8%AF%81-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/18682",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "0bc7afbb183ba39e0ea0cae9a8862c57885de252839a45d3dee709e19d53579c",
+      "used_by": [
+        "references/by-type/authn-session.md",
+        "references/by-type/miniapp-security.md"
+      ]
+    },
+    {
+      "id": "CX-880af357cb23",
+      "title": "死磕某小程序",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/butian/2940-%E6%AD%BB%E7%A3%95%E6%9F%90%E5%B0%8F%E7%A8%8B%E5%BA%8F.md",
+      "original_url": "https://forum.butian.net/share/2940",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "43bf4093a7f9a6cb2347d9ddf1520129c346a2b757729d42f8bc49e1382c49f2",
+      "used_by": [
+        "references/by-type/authn-session.md",
+        "references/by-type/miniapp-security.md"
+      ]
+    },
+    {
+      "id": "CX-45e99409562f",
+      "title": "基于yii框架的系统审计",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/butian/2407-%E5%9F%BA%E4%BA%8Eyii%E6%A1%86%E6%9E%B6%E7%9A%84%E7%B3%BB%E7%BB%9F%E5%AE%A1%E8%AE%A1.md",
+      "original_url": "https://forum.butian.net/share/2407",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "86850707745b5d7b197e87e6c90834448764f9435f9b5979bc77da5d5503914b",
+      "used_by": [
+        "references/by-type/sql-injection.md",
+        "references/source-audit.md"
+      ]
+    },
+    {
+      "id": "CX-504158156093",
+      "title": "Jimureport1.7.8越权漏洞代码分析及修复代码分析(CVE-2024-44893)-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/17344-Jimureport1.7.8%E8%B6%8A%E6%9D%83%E6%BC%8F%E6%B4%9E%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90%E5%8F%8A%E4%BF%AE%E5%A4%8D%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90%28CVE-2024-44893%29-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/17344",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "552e13a147d23357400bd63be1b13ed2a68a6d3b1b1ee720b5bf059b79fdbd32",
+      "used_by": [
+        "references/by-type/idor-access-control.md",
+        "references/source-audit.md"
+      ]
+    },
+    {
+      "id": "CX-8cfca8b5541a",
+      "title": "xxl-job子任务越权漏洞代码分析及修复代码分析(CVE-2024-42681)-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/17435-xxl-job%E5%AD%90%E4%BB%BB%E5%8A%A1%E8%B6%8A%E6%9D%83%E6%BC%8F%E6%B4%9E%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90%E5%8F%8A%E4%BF%AE%E5%A4%8D%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90%28CVE-2024-42681%29-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/17435",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "0564bc15bd05a23cdab129b07ec8418ae86aefb3da9b617abd75ec3973fddc39",
+      "used_by": [
+        "references/by-type/idor-access-control.md",
+        "references/source-audit.md"
+      ]
+    },
+    {
+      "id": "CX-c58e22e26b2a",
+      "title": "Next.js中间件权限绕过漏洞分析（CVE-2025-29927）-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/17403-Next.js%E4%B8%AD%E9%97%B4%E4%BB%B6%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%EF%BC%88CVE-2025-29927%EF%BC%89-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/17403",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "ff54ca848b812969591aa7d95882e8f903b713a53bd30a80d31c6b03b9719a8c",
+      "used_by": [
+        "references/by-type/authn-session.md",
+        "references/source-audit.md"
+      ]
+    },
+    {
+      "id": "CX-6e67eeb66eb1",
+      "title": "记一次从xss到任意文件读取",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/butian/2409-%E8%AE%B0%E4%B8%80%E6%AC%A1%E4%BB%8Exss%E5%88%B0%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96.md",
+      "original_url": "https://forum.butian.net/share/2409",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "a4439c4fae26d7c2ac82c22571a2615d529117a27332f83fc145cd7007a27f46",
+      "used_by": [
+        "references/by-type/document-rendering.md",
+        "references/by-type/ssrf.md",
+        "references/by-type/xss.md"
+      ]
+    },
+    {
+      "id": "CX-27742e5d7da0",
+      "title": "契约锁电子签章系统 pdfverifier 远程代码执行漏洞分析（补丁包逆向分析）-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/18482-%E5%A5%91%E7%BA%A6%E9%94%81%E7%94%B5%E5%AD%90%E7%AD%BE%E7%AB%A0%E7%B3%BB%E7%BB%9F%20pdfverifier%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%EF%BC%88%E8%A1%A5%E4%B8%81%E5%8C%85%E9%80%86%E5%90%91%E5%88%86%E6%9E%90%EF%BC%89-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/18482",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "887fdbeb1af54a7b9411a4adaa1b68727a2dfe19e0919d68bd591257882f1507",
+      "used_by": [
+        "references/by-type/document-rendering.md",
+        "references/by-type/file-upload.md",
+        "references/by-type/lfi-path-traversal.md"
+      ]
+    },
+    {
+      "id": "CX-18988a234457",
+      "title": "利用解压缩报错中断绕过WAF分析-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/16642-%E5%88%A9%E7%94%A8%E8%A7%A3%E5%8E%8B%E7%BC%A9%E6%8A%A5%E9%94%99%E4%B8%AD%E6%96%AD%E7%BB%95%E8%BF%87WAF%E5%88%86%E6%9E%90-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/16642",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "91c2f59bd8b3d048a6833ce92aef1e20f08037e12529ea6fb7ee95b6cb7299e5",
+      "used_by": [
+        "references/by-type/document-rendering.md",
+        "references/by-type/file-upload.md",
+        "references/by-type/lfi-path-traversal.md"
+      ]
+    },
+    {
+      "id": "CX-dc66ff443203",
+      "title": "Content-Encoding 协议层面 WAF 绕过思路-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/18812-Content-Encoding%20%E5%8D%8F%E8%AE%AE%E5%B1%82%E9%9D%A2%20WAF%20%E7%BB%95%E8%BF%87%E6%80%9D%E8%B7%AF-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/18812",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "f8e3a95b31a579ba38fee6364f6178fe981b7f67e1fb716144be006ce0762702",
+      "used_by": [
+        "references/by-type/waf-bypass.md"
+      ]
+    },
+    {
+      "id": "CX-30ef97f948f1",
+      "title": "探究python中pickle，_pickle和pickletools的解析差异问题-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/18669-%E6%8E%A2%E7%A9%B6python%E4%B8%ADpickle%EF%BC%8C_pickle%E5%92%8Cpickletools%E7%9A%84%E8%A7%A3%E6%9E%90%E5%B7%AE%E5%BC%82%E9%97%AE%E9%A2%98-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/18669",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "4d631869090dc8174ce681ee7571034890ddfbe235e5559adf4f70c96da11607",
+      "used_by": [
+        "references/by-type/deserialization-rce.md",
+        "references/by-type/waf-bypass.md"
+      ]
+    },
+    {
+      "id": "CX-b9dc92ba081d",
+      "title": "征服 JDBC WAF：从防护到绕过的代码解析-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/18906-%E5%BE%81%E6%9C%8D%20JDBC%20WAF%EF%BC%9A%E4%BB%8E%E9%98%B2%E6%8A%A4%E5%88%B0%E7%BB%95%E8%BF%87%E7%9A%84%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/18906",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "4a0b67cf3fd0494cf6055f5ebe8f8c8e6e6ee96885e942aa8e449c3677f5a61f",
+      "used_by": [
+        "references/by-type/deserialization-rce.md",
+        "references/by-type/waf-bypass.md"
+      ]
+    },
+    {
+      "id": "CX-5a0b90e5f333",
+      "title": "JsonPickle调试分析原理及WAF绕过-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/16098-JsonPickle%E8%B0%83%E8%AF%95%E5%88%86%E6%9E%90%E5%8E%9F%E7%90%86%E5%8F%8AWAF%E7%BB%95%E8%BF%87-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/16098",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "8c4e941acecc58a2bce0611bfb9f30a15650f649770da9dcef03544ea414aaba",
+      "used_by": [
+        "references/by-type/deserialization-rce.md",
+        "references/by-type/waf-bypass.md"
+      ]
+    },
+    {
+      "id": "CX-8ec06be74dd0",
+      "title": "从源码看JsonPickle反序列化利用与绕WAF-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/16133-%E4%BB%8E%E6%BA%90%E7%A0%81%E7%9C%8BJsonPickle%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%88%A9%E7%94%A8%E4%B8%8E%E7%BB%95WAF-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/16133",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "df0473a07a4a35f6bff9b4a41650b602a70bdb09bd6cf11a54ff8f675cd1c193",
+      "used_by": [
+        "references/by-type/deserialization-rce.md",
+        "references/by-type/waf-bypass.md"
+      ]
+    },
+    {
+      "id": "CX-86637690a94b",
+      "title": "fastjson之parse和parseobject利用差异-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/16117-fastjson%E4%B9%8Bparse%E5%92%8Cparseobject%E5%88%A9%E7%94%A8%E5%B7%AE%E5%BC%82-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/16117",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "7c8609f3e3efb9ffb5f176be0b8e90ac1c30ea04f45c7974b54f813121c1a0c3",
+      "used_by": [
+        "references/by-type/deserialization-rce.md",
+        "references/by-type/waf-bypass.md"
+      ]
+    },
+    {
+      "id": "CX-b8ff578b52a8",
+      "title": "【漏洞挖掘】记一次985证书站Oracle注入绕WAF",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/butian/2996-%E3%80%90%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98%E3%80%91%E8%AE%B0%E4%B8%80%E6%AC%A1985%E8%AF%81%E4%B9%A6%E7%AB%99Oracle%E6%B3%A8%E5%85%A5%E7%BB%95WAF.md",
+      "original_url": "https://forum.butian.net/share/2996",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "4ebbaa2c538962e3d59dae43837a085fa5292ee6dd210617d9d177e8843c61b7",
+      "used_by": [
+        "references/by-type/sql-injection.md"
+      ]
+    },
+    {
+      "id": "CX-2a656f567958",
+      "title": "如何HOST碰撞挖掘隐蔽资产-先知社区",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/xianzhi/16048-%E5%A6%82%E4%BD%95HOST%E7%A2%B0%E6%92%9E%E6%8C%96%E6%8E%98%E9%9A%90%E8%94%BD%E8%B5%84%E4%BA%A7-%E5%85%88%E7%9F%A5%E7%A4%BE%E5%8C%BA.md",
+      "original_url": "https://xz.aliyun.com/news/16048",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "533b07e58c68319e796fb130fd772b696026cbaaa579601dabc9fb81d284699d",
+      "used_by": [
+        "references/asset-discovery.md",
+        "references/by-type/host-header.md"
+      ]
+    },
+    {
+      "id": "CX-4818f3195cb2",
+      "title": "CORS漏洞学习",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/butian/2901-CORS%E6%BC%8F%E6%B4%9E%E5%AD%A6%E4%B9%A0.md",
+      "original_url": "https://forum.butian.net/share/2901",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "4ebb687e68e9a489fa4525ed2bf58a09d36dc9f5262bca8e77e17ace173bcd21",
+      "used_by": [
+        "references/by-type/cors.md"
+      ]
+    },
+    {
+      "id": "CX-0e9eaa22f62f",
+      "title": "半自动化代码审计实战",
+      "url": "https://github.com/Huu1j/crawl_xz/blob/6496ea94f1e46d3fdfabdaeefebdf5fa03b24334/butian/2763-%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%8C%96%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E5%AE%9E%E6%88%98.md",
+      "original_url": "https://forum.butian.net/share/2763",
+      "publisher": "crawl_xz 社区文章归档；原文页面本轮未逐篇复核",
+      "kind": "community_archive",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "sections_reviewed",
+      "read_scope": [
+        "机制与分析/总结的相关叙述段落；未核读全部代码块、截图、工具附件或所有引用"
+      ],
+      "content_sha256": "6470eccda93e4da28176dffda4164be4f4aa39001b9009b663e5c6a3d0b8a9e8",
+      "used_by": [
+        "references/source-audit.md"
+      ]
+    },
+    {
+      "id": "NEXT-middleware",
+      "title": "Authorization Bypass in Next.js Middleware",
+      "url": "https://github.com/vercel/next.js/security/advisories/GHSA-f82v-jwr5-mffw",
+      "publisher": "Next.js maintainers",
+      "kind": "security_advisory",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "relevant_sections_read",
+      "used_by": [
+        "references/source-audit.md"
+      ]
+    },
+    {
+      "id": "RFC9110-content",
+      "title": "RFC 9110 section 8.4",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html#section-8.4",
+      "publisher": "IETF",
+      "kind": "standard_section",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "relevant_sections_read",
+      "used_by": [
+        "references/by-type/waf-bypass.md"
+      ]
+    },
+    {
+      "id": "WKHTML-options",
+      "title": "wkhtmltopdf usage options",
+      "url": "https://wkhtmltopdf.org/usage/wkhtmltopdf.txt",
+      "publisher": "wkhtmltopdf",
+      "kind": "primary_documentation",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "relevant_sections_read",
+      "used_by": [
+        "references/by-type/document-rendering.md"
       ]
     }
   ]

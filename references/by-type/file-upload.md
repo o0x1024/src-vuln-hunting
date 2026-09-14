@@ -34,3 +34,7 @@
 - [PS-upload · File upload vulnerabilities](https://portswigger.net/web-security/file-upload)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 归档案例补充：容器与失败路径
+
+外层文件名检查不代替归档条目规范化；解包或后置检查失败后需核对是否已留下受控文件。把写入位置、检查顺序和清理结果作为证据，不以“上传失败”认定没有副作用。见 [文档处理](document-rendering.md)。

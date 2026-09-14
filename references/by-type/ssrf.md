@@ -40,3 +40,7 @@ URL 导入、预览、截图、PDF、webhook、代理或下载。先确认功能
 - [PS-ssrf · SSRF](https://portswigger.net/web-security/ssrf)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 归档案例补充：文档任务归因
+
+HTML/PDF 预览、转换和后台抓取分别归因到任务与消费者；格式保留、外部回包或浏览器弹窗不能直接证明后台越界请求。优先项目指定的无害验证方式，详见 [文档处理](document-rendering.md)。

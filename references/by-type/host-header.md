@@ -21,3 +21,7 @@ Host 被反射到无敏感文本不等于账号接管；外部 Location、重置
 - [PS-host · HTTP Host header attacks](https://portswigger.net/web-security/host-header)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 归档案例补充：范围与服务身份
+
+Host/SNI/连接地址及应用资源可能指向不同边界，先逐一核对授权及服务身份。代理正常路由不是漏洞；不从历史 DNS 或共享 IP 派生无限组合请求。见 [K14](../research/crawl-xz-patterns.md)。

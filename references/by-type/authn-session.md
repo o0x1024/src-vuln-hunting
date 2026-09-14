@@ -37,3 +37,7 @@
 - [PS-auth · Authentication](https://portswigger.net/web-security/authentication)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 归档案例补充：客户端封装与中间件
+
+客户端签名重建只是恢复有效实验请求；还需核对服务端绑定的实际身份，避免把 UI 字段/新 token 当接管。中间件案例按当前部署、入口和补丁加载情况判断，维护者公告优先于转载的影响描述。见 [小程序](miniapp-security.md)、[源码审计](../source-audit.md)。
