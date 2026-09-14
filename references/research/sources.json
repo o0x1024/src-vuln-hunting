@@ -1,0 +1,787 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-09-14",
+  "interpretation": "Sources describe mechanisms and historical cases, not proof of current-target vulnerabilities. Null publication date means not established, not recent. Read means relevant visible text read; not all images, attachments, videos, or cited links. No source PoC was executed.",
+  "sources": [
+    {
+      "id": "PS-access",
+      "title": "Access control",
+      "url": "https://portswigger.net/web-security/access-control",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/idor-access-control.md"
+      ]
+    },
+    {
+      "id": "PS-auth",
+      "title": "Authentication",
+      "url": "https://portswigger.net/web-security/authentication",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/authn-session.md"
+      ]
+    },
+    {
+      "id": "PS-xss",
+      "title": "Cross-site scripting",
+      "url": "https://portswigger.net/web-security/cross-site-scripting",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/xss.md"
+      ]
+    },
+    {
+      "id": "PS-sql",
+      "title": "SQL injection",
+      "url": "https://portswigger.net/web-security/sql-injection",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/sql-injection.md"
+      ]
+    },
+    {
+      "id": "PS-csrf",
+      "title": "CSRF",
+      "url": "https://portswigger.net/web-security/csrf",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/csrf.md"
+      ]
+    },
+    {
+      "id": "PS-cors",
+      "title": "CORS",
+      "url": "https://portswigger.net/web-security/cors",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/cors.md"
+      ]
+    },
+    {
+      "id": "PS-ssrf",
+      "title": "SSRF",
+      "url": "https://portswigger.net/web-security/ssrf",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/ssrf.md"
+      ]
+    },
+    {
+      "id": "PS-upload",
+      "title": "File upload vulnerabilities",
+      "url": "https://portswigger.net/web-security/file-upload",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/file-upload.md"
+      ]
+    },
+    {
+      "id": "PS-api",
+      "title": "API testing",
+      "url": "https://portswigger.net/web-security/api-testing",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/api-property-pollution.md"
+      ]
+    },
+    {
+      "id": "PS-logic",
+      "title": "Business logic vulnerabilities",
+      "url": "https://portswigger.net/web-security/logic-flaws",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/business-logic.md"
+      ]
+    },
+    {
+      "id": "PS-race",
+      "title": "Race conditions",
+      "url": "https://portswigger.net/web-security/race-conditions",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/race-conditions.md"
+      ]
+    },
+    {
+      "id": "PS-xxe",
+      "title": "XXE",
+      "url": "https://portswigger.net/web-security/xxe",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/xxe.md"
+      ]
+    },
+    {
+      "id": "PS-nosql",
+      "title": "NoSQL injection",
+      "url": "https://portswigger.net/web-security/nosql-injection",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/nosql-injection.md"
+      ]
+    },
+    {
+      "id": "PS-graphql",
+      "title": "GraphQL API vulnerabilities",
+      "url": "https://portswigger.net/web-security/graphql",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/graphql.md"
+      ]
+    },
+    {
+      "id": "PS-ws",
+      "title": "WebSockets",
+      "url": "https://portswigger.net/web-security/websockets",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/websocket.md"
+      ]
+    },
+    {
+      "id": "PS-cswsh",
+      "title": "Cross-site WebSocket hijacking",
+      "url": "https://portswigger.net/web-security/websockets/cross-site-websocket-hijacking",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/websocket.md"
+      ]
+    },
+    {
+      "id": "PS-ssti",
+      "title": "Server-side template injection",
+      "url": "https://portswigger.net/web-security/server-side-template-injection",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/ssti.md"
+      ]
+    },
+    {
+      "id": "PS-proto",
+      "title": "Prototype pollution",
+      "url": "https://portswigger.net/web-security/prototype-pollution",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/prototype-pollution.md"
+      ]
+    },
+    {
+      "id": "PS-cmd",
+      "title": "OS command injection",
+      "url": "https://portswigger.net/web-security/os-command-injection",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/cmd-injection-rce.md"
+      ]
+    },
+    {
+      "id": "PS-deserialize",
+      "title": "Insecure deserialization",
+      "url": "https://portswigger.net/web-security/deserialization",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/deserialization-rce.md"
+      ]
+    },
+    {
+      "id": "PS-path",
+      "title": "Path traversal",
+      "url": "https://portswigger.net/web-security/file-path-traversal",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/lfi-path-traversal.md"
+      ]
+    },
+    {
+      "id": "PS-host",
+      "title": "HTTP Host header attacks",
+      "url": "https://portswigger.net/web-security/host-header",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/host-header.md"
+      ]
+    },
+    {
+      "id": "PS-cache-poison",
+      "title": "Web cache poisoning",
+      "url": "https://portswigger.net/web-security/web-cache-poisoning",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/cache-poisoning.md"
+      ]
+    },
+    {
+      "id": "PS-cache-deceive",
+      "title": "Web cache deception",
+      "url": "https://portswigger.net/web-security/web-cache-deception",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/cache-deception.md"
+      ]
+    },
+    {
+      "id": "PS-desync",
+      "title": "HTTP request smuggling",
+      "url": "https://portswigger.net/web-security/request-smuggling",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/request-smuggling.md"
+      ]
+    },
+    {
+      "id": "PS-message",
+      "title": "Controlling the web message source",
+      "url": "https://portswigger.net/web-security/dom-based/controlling-the-web-message-source",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/dom-messaging.md"
+      ]
+    },
+    {
+      "id": "PS-clobber",
+      "title": "DOM clobbering",
+      "url": "https://portswigger.net/web-security/dom-based/dom-clobbering",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/dom-messaging.md"
+      ]
+    },
+    {
+      "id": "PS-click",
+      "title": "Clickjacking",
+      "url": "https://portswigger.net/web-security/clickjacking",
+      "publisher": "PortSwigger Web Security Academy",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/clickjacking.md"
+      ]
+    },
+    {
+      "id": "H1-trends",
+      "title": "2025 Hacker-Powered Security Report: researcher signals",
+      "url": "https://www.hackerone.com/blog/2025-hpsr-researcher-signals",
+      "publisher": "HackerOne",
+      "kind": "platform_trends",
+      "published_or_version": "2025 report",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/vulnerability-catalog.md"
+      ]
+    },
+    {
+      "id": "H1-quality",
+      "title": "Quality Reports",
+      "url": "https://docs.hackerone.com/en/articles/8475116-quality-reports",
+      "publisher": "HackerOne",
+      "kind": "primary_guide",
+      "published_or_version": "2025-02-05",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/research/community-notes.md"
+      ]
+    },
+    {
+      "id": "H1-cache",
+      "title": "Report #1096609: Host header web cache poisoning",
+      "url": "https://hackerone.com/reports/1096609",
+      "publisher": "g4mm4 / Shopify on HackerOne",
+      "kind": "public_report",
+      "published_or_version": "reported 2021-02-05; disclosed 2021-04-08",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/cache-poisoning.md",
+        "references/research/community-notes.md"
+      ]
+    },
+    {
+      "id": "H1-xxe",
+      "title": "Report #312543: XXE in Site Audit",
+      "url": "https://hackerone.com/reports/312543",
+      "publisher": "ajxchapman / Semrush on HackerOne",
+      "kind": "public_report",
+      "published_or_version": "reported 2018-02-05; disclosed 2018-03-13",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/xxe.md",
+        "references/research/community-notes.md"
+      ]
+    },
+    {
+      "id": "H1-xss",
+      "title": "Report #192210: Stored XSS in blog comments through Shopify API",
+      "url": "https://hackerone.com/reports/192210",
+      "publisher": "prakharprasad / Shopify on HackerOne",
+      "kind": "public_report",
+      "published_or_version": "reported 2016-12-18; disclosed 2017-03-16",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/xss.md",
+        "references/research/community-notes.md"
+      ]
+    },
+    {
+      "id": "RFC-jwt",
+      "title": "RFC 8725: JSON Web Token Best Current Practices",
+      "url": "https://www.rfc-editor.org/rfc/rfc8725.html",
+      "publisher": "IETF",
+      "kind": "standard",
+      "published_or_version": "RFC 8725, 2020-02",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/jwt.md"
+      ]
+    },
+    {
+      "id": "RFC-oauth",
+      "title": "RFC 9700: Best Current Practice for OAuth 2.0 Security",
+      "url": "https://www.rfc-editor.org/rfc/rfc9700.html",
+      "publisher": "IETF",
+      "kind": "standard",
+      "published_or_version": "RFC 9700, 2025-01",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/oauth-oidc.md"
+      ]
+    },
+    {
+      "id": "MDN-cors",
+      "title": "Cross-Origin Resource Sharing",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS",
+      "publisher": "MDN",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/csrf.md",
+        "references/by-type/cors.md"
+      ]
+    },
+    {
+      "id": "OWASP-api3",
+      "title": "API3:2023 Broken Object Property Level Authorization",
+      "url": "https://owasp.org/API-Security/editions/2023/en/0xa3-broken-object-property-level-authorization/",
+      "publisher": "OWASP",
+      "kind": "primary_guide",
+      "published_or_version": "API Security Top 10 2023",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/idor-access-control.md",
+        "references/by-type/api-property-pollution.md",
+        "references/by-type/graphql.md"
+      ]
+    },
+    {
+      "id": "OWASP-redirect",
+      "title": "Unvalidated Redirects and Forwards",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html",
+      "publisher": "OWASP",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/open-redirect.md"
+      ]
+    },
+    {
+      "id": "OWASP-saml",
+      "title": "SAML Security Cheat Sheet",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html",
+      "publisher": "OWASP",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/saml-sso.md"
+      ]
+    },
+    {
+      "id": "OWASP-ldap",
+      "title": "Testing for LDAP Injection",
+      "url": "https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Injection_Testing/06-Testing_for_LDAP_Injection",
+      "publisher": "OWASP",
+      "kind": "primary_guide",
+      "published_or_version": "WSTG latest snapshot",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/ldap-xpath.md"
+      ]
+    },
+    {
+      "id": "OWASP-xpath",
+      "title": "Testing for XPath Injection",
+      "url": "https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/09-Testing_for_XPath_Injection",
+      "publisher": "OWASP",
+      "kind": "primary_guide",
+      "published_or_version": "WSTG v4.2",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/ldap-xpath.md"
+      ]
+    },
+    {
+      "id": "CF-normalize",
+      "title": "How URL normalization works",
+      "url": "https://developers.cloudflare.com/rules/normalization/how-it-works/",
+      "publisher": "Cloudflare",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/waf-bypass.md"
+      ]
+    },
+    {
+      "id": "AWS-waf",
+      "title": "Oversize web request components in AWS WAF",
+      "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-oversize-request-components.html",
+      "publisher": "AWS",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/waf-bypass.md"
+      ]
+    },
+    {
+      "id": "WAFFLED",
+      "title": "WAFFLED: Exploiting Parsing Discrepancies to Bypass Web Application Firewalls",
+      "url": "https://arxiv.org/abs/2503.10846",
+      "publisher": "Akhavani et al.",
+      "kind": "research_paper",
+      "published_or_version": "arXiv v4 2026-03-13; ACSAC 2025",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "abstract_read",
+      "used_by": [
+        "references/by-type/waf-bypass.md",
+        "references/research/community-notes.md"
+      ]
+    },
+    {
+      "id": "PMNH-waf",
+      "title": "RCE via SSTI on Spring Boot Error Page with Akamai WAF Bypass",
+      "url": "https://www.pmnh.site/post/writeup_spring_el_waf_bypass/",
+      "publisher": "pmnh",
+      "kind": "researcher_writeup",
+      "published_or_version": "2022-12-04",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/cmd-injection-rce.md",
+        "references/by-type/ssti.md",
+        "references/by-type/waf-bypass.md",
+        "references/research/community-notes.md"
+      ]
+    },
+    {
+      "id": "PS-cache-research",
+      "title": "Gotta cache 'em all: bending the rules of web cache exploitation",
+      "url": "https://portswigger.net/research/gotta-cache-em-all",
+      "publisher": "Martin Doyhenard / PortSwigger",
+      "kind": "original_research",
+      "published_or_version": "published 2024-08-08; updated 2026-01-08",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/cache-deception.md",
+        "references/research/community-notes.md"
+      ]
+    },
+    {
+      "id": "Android-exported",
+      "title": "android:exported",
+      "url": "https://developer.android.com/privacy-and-security/risks/android-exported",
+      "publisher": "Android Developers",
+      "kind": "primary_guide",
+      "published_or_version": "updated 2024-09-24",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/mobile-android.md",
+        "references/research/community-notes.md"
+      ]
+    },
+    {
+      "id": "Android-links",
+      "title": "Unsafe use of deep links",
+      "url": "https://developer.android.com/privacy-and-security/risks/unsafe-use-of-deeplinks",
+      "publisher": "Android Developers",
+      "kind": "primary_guide",
+      "published_or_version": "updated 2024-10-24",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/mobile-android.md",
+        "references/research/community-notes.md"
+      ]
+    },
+    {
+      "id": "Azure-dns",
+      "title": "Prevent dangling DNS entries and avoid subdomain takeover",
+      "url": "https://learn.microsoft.com/en-us/azure/security/fundamentals/subdomain-takeover",
+      "publisher": "Microsoft",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/subdomain-takeover.md"
+      ]
+    },
+    {
+      "id": "GH-secrets",
+      "title": "About secret scanning",
+      "url": "https://docs.github.com/en/code-security/secret-scanning/introduction/about-secret-scanning",
+      "publisher": "GitHub",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/info-secrets.md"
+      ]
+    },
+    {
+      "id": "GH-actions",
+      "title": "Secure use reference",
+      "url": "https://docs.github.com/en/actions/reference/security/secure-use",
+      "publisher": "GitHub",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/by-type/cicd-supply-chain.md"
+      ]
+    },
+    {
+      "id": "AWS-s3",
+      "title": "Blocking public access to your Amazon S3 storage",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html",
+      "publisher": "AWS",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/cloud/cloud-misconfiguration.md"
+      ]
+    },
+    {
+      "id": "AWS-sts",
+      "title": "get-caller-identity",
+      "url": "https://docs.aws.amazon.com/cli/latest/reference/sts/get-caller-identity.html",
+      "publisher": "AWS",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/cloud/cloud-iam.md"
+      ]
+    },
+    {
+      "id": "K8S-rbac",
+      "title": "Using RBAC Authorization",
+      "url": "https://kubernetes.io/docs/reference/access-authn-authz/rbac/",
+      "publisher": "Kubernetes",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/cloud/container-k8s-security.md"
+      ]
+    },
+    {
+      "id": "K8S-anon",
+      "title": "Anonymous requests",
+      "url": "https://kubernetes.io/docs/reference/access-authn-authz/authentication/#anonymous-requests",
+      "publisher": "Kubernetes",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-14",
+      "evidence_status": "read",
+      "used_by": [
+        "references/cloud/container-k8s-security.md"
+      ]
+    },
+    {
+      "id": "X-cache",
+      "title": "Cache report thread linking HackerOne #1096609",
+      "url": "https://x.com/bbr_bug/status/2088719154455126187",
+      "publisher": "@bbr_bug",
+      "kind": "community_lead",
+      "published_or_version": "2026-08-15 UTC",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "post_read_primary_report_checked",
+      "used_by": [
+        "references/research/community-notes.md"
+      ]
+    },
+    {
+      "id": "X-waf",
+      "title": "Link to pmnh Spring/SpEL WAF writeup",
+      "url": "https://x.com/mqst_/status/2066875947077296434",
+      "publisher": "@mqst_",
+      "kind": "community_lead",
+      "published_or_version": "2026-06-16 UTC",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "post_read_primary_writeup_checked",
+      "used_by": [
+        "references/research/community-notes.md"
+      ]
+    },
+    {
+      "id": "X-cache-research",
+      "title": "Recommendation of Martin Doyhenard cache research",
+      "url": "https://x.com/albinowax/status/1826581787180478699",
+      "publisher": "@albinowax",
+      "kind": "community_lead",
+      "published_or_version": "2024-08-22 UTC",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "post_read_primary_research_checked",
+      "used_by": [
+        "references/research/community-notes.md"
+      ]
+    },
+    {
+      "id": "X-android",
+      "title": "Android static triage workflow",
+      "url": "https://x.com/dirtycoder0124/status/2097280683924467834",
+      "publisher": "@dirtycoder0124",
+      "kind": "community_lead",
+      "published_or_version": "2026-09-08 UTC",
+      "accessed_at": "2026-09-14",
+      "evidence_status": "post_read_concept_checked_tool_unverified",
+      "used_by": [
+        "references/research/community-notes.md"
+      ]
+    }
+  ]
+}

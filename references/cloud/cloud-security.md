@@ -1,36 +1,24 @@
-# 云安全总览
+# 云安全入口
 
-## 权威信息源（检索优先级）
-- MITRE ATT&CK Enterprise Cloud Matrix（云战术/技术编号，如 T1078.004 Cloud Accounts）
-- OWASP Kubernetes Top Ten（2025 版：供应链/配置/认证/网络/密钥管理）
-- CSA Cloud Controls Matrix（云控制矩阵，安全/审计/合规基线）
-- CISA Cloud Security 指南与公告、NIST SP 800-210（云访问控制）
-- 各云厂商安全公告（AWS Security Bulletins / Azure Security / GCP Security）
+## 先确定测试视角
 
-## 云攻击面（按风险排序）
-1. 暴露的存储桶与对象存储（S3/OSS/COS/Blob）未设 ACL
-2. IAM 过度授权（Admin 滥用、跨账户信任、角色委派）
-3. 云凭证泄露（AK/SK 硬编码、环境变量、GitHub 泄露）
-4. 容器/K8s 错误配置（特权容器、RBAC 过宽、不安全镜像）
-5. 云元数据服务（169.254.169.254）SSRF 窃取临时凭证
-6. 数据库/中间件公网暴露（Redis、Mongo、ES 未鉴权）
-7. 云函数/无服务配置错误（权限过大、依赖投毒）
-8. 备份/快照/加密密钥管理缺陷（KMS 权限、备份未加密）
+公网可见资产、用户提供的策略/配置、授权云身份、自建隔离环境是不同视角。只有公网访问条件时，不能宣称完成 IAM、KMS、集群 RBAC 或网络隔离审计。云账号、订阅/项目、区域和资源标识应独立匹配 [授权](../scope-and-rules.md)。
 
-## 关键云漏洞类别映射
-- 凭证类：T1078（有效账号/云账号）、T1556.006（绕过 MFA）
-- 持久化类：T1098.001/T1098.003（新增云凭证/角色）、T1136.003（创建云账号）
-- 提权类：T1548.005（临时提升云访问）、T1484.002（信任修改）
-- 横向类：云 API 滥用（T1059.009）、恶意镜像（T1204.003）
+| 线索 | 下一步文档 | 所需前提 |
+|---|---|---|
+| 存储、数据库、备份、函数暴露 | [云配置](cloud-misconfiguration.md) | 具体资源与访问/配置规则 |
+| 身份、策略、信任、凭据位置 | [云 IAM](cloud-iam.md) | 获准身份或只读策略材料 |
+| 镜像、容器、API、RBAC | [容器与 K8s](container-k8s-security.md) | 对应工作负载/集群及测试权限 |
+| URL 导入与元数据线索 | [SSRF](../by-type/ssrf.md) | 入口及目的地/动作的授权 |
 
-## 云厂商核心检查点（AWS/Azure/GCP/阿里云）
-- IAM：最小权限、密钥轮换、MFA、信任策略
-- 存储：ACL/Policy、加密、日志、公开访问检查
-- 网络：安全组/NSG 过宽、公网暴露面
-- 计算：镜像漏洞、实例元数据防护（IMDSv2）
-- 审计：CloudTrail/日志、异常 API 调用
+## 确认原则
 
-## 云安全验证原则（沿用 skill 铁律）
-- 只验证目标在范围内的云资产；用自建云资源复现攻击链
-- 不真实窃取生产凭证、不读取真实用户数据、不做破坏性删除
-- 元数据 SSRF 验证即止（见 ssrf.md），不拖取密钥明文
+把公网可达、配置偏离基线、权限过宽与可利用漏洞分别记录。安全基线可以支持加固建议，不能自动证明实际边界突破。云元数据地址、鉴权方式、对象存储访问规则依厂商和版本不同，查相应官方文档，不套用一个路径到所有云。
+
+自建资源上证明的链条标为实验复现，不能推断目标环境具备同等权限。最小实验不包含生产凭据使用、云持久化、信任修改、资源创建计费或内部横向操作；必要条件缺失可交付待确认线索。
+
+## 资料来源
+
+按目标实际厂商/版本读取官方资料并记录链接和核对日期：[AWS 安全文档](https://docs.aws.amazon.com/security/)、[Azure 安全](https://learn.microsoft.com/en-us/azure/security/)、[Google Cloud 安全](https://cloud.google.com/security)、[阿里云文档](https://help.aliyun.com/)、[Kubernetes 安全](https://kubernetes.io/docs/concepts/security/)。
+
+[OWASP Kubernetes Top Ten](https://owasp.org/www-project-kubernetes-top-ten/) 与 [MITRE Cloud Matrix](https://attack.mitre.org/matrices/enterprise/cloud/) 可辅助覆盖分类；战术编号不充当严重等级，也不构成测试动作许可。

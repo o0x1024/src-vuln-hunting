@@ -1,30 +1,36 @@
-# 反序列化与 RCE
+# 反序列化与不安全对象处理
 
-## 触发点
-- Java：原生 ObjectInputStream、fastjson、Jackson、SnakeYAML、XStream、Shiro（rememberMe Cookie）、WebLogic、JBoss
-- PHP：unserialize()、phpggc gadget（Laravel/ThinkPHP 等）、反序列化入口（cookie/session/参数）
-- Python：pickle、PyYAML、django
-- .NET：BinaryFormatter、Newtonsoft.Json、ViewState
+## 适用信号与前提
 
-## 识别特征
-- 请求体为 base64 二进制 / `O:8:"stdClass"` PHP 对象串 / `{"@type":...}` fastjson / `a1:"..."` Jackson
-- 响应特征：Shiro rememberMe Cookie、WebLogic Console、Actuator env、堆栈含 `ObjectInputStream.readObject`
+序列化请求体、Cookie、对象类型标记、服务端调用栈或获准源码中的反序列化入口。Java/PHP/Python/.NET 各有不同格式和危险条件；Base64、rememberMe、库名本身不是漏洞。
 
-## 检测方法
-- 被动：先抓正常请求，识别序列化数据格式与入口（Cookie、参数、Body、Header）
-- 主动：发无害探测，用自建 dnslog 验证 DNS 带外回连
-- gadget 探测：通用链（URLDNS/CommonsCollections 老版本）仅做 DNS 验证，不弹 shell
+## 最小实验
 
-## 利用思路
-- 已知框架版本 → 对应已知 gadget（需确认版本 + 在范围内）
-- fastjson：`@type` 指定恶意类 → JNDI/LDAP 回连（仅在自建环境演示）
-- PHP：phpggc 生成链，配合写文件/时间差验证
-- 不出网环境：时间盲验证（sleep）、写文件到可访问目录
+先记录正常请求的格式、组件/版本和可达调用路径。优先用无害格式变更与应用错误对照识别解析，不将其直接确认为执行。
 
-## 最小化验证（铁律）
-- 用 DNS 带外/时间差证明反序列化执行即可
-- 绝不落地真实 webshell、不反弹 shell、不横向移动
-- 版本不确定时不盲目打 JNDI 链
+有具体数据流和组件依据、且动作获准时，选择本地验证过且不写文件的最小探针。带外只用唯一随机标记与受控接收端；不得盲目发送会加载远程代码的 JNDI/gadget 链。必要时仅在自建隔离环境研究链条适用性。
 
-## 报告要点
-- 入口点 + 数据格式特征、触发证据（DNS 记录/时间差）、受影响组件与版本、影响面
+## 确认与反例
+
+把“不安全反序列化”“类型实例化”“网络解析”“任意命令执行”分开判定；分别提供违反预期规则的证据。DNS 事件可以支持触发了某解析行为，不自动证明 RCE。自建环境成功不证明目标使用相同配置或依赖。
+
+排除正常数据校验、允许的类型、版本差异、类不可达、出站代理/安全扫描触发和旧带外标记。报错或解析失败只能保留线索。
+
+## 下一步、停止与报告
+
+缺少组件/链条件时转被动分析或待补证，不扩大试链集合。禁止落地文件、后门、反弹连接和内部横向操作；不为回显读取敏感数据。
+
+报告说明入口、格式、组件依据、实际触发能力、带外归因及环境差异；执行类结论使用 [验证标准](../verification.md)。
+
+## 调研补充：可执行检查点
+
+- 先确认格式、解码包装、签名位置与实际反序列化库；Base64、JSON 或 Java 魔数仅是线索。错误栈也不证明对象已被不安全实例化。
+- 优先用自建对象的无害属性变化检查是否影响不应受客户端控制的状态；完整性验证必须在危险对象恢复前生效。
+- gadget 可用性取决于运行时、依赖和触发方法；组件版本命中不能代替可达性。需要执行链时先在匹配的隔离环境验证无副作用路径。
+- 不运行未知 gadget 包、无差别链枚举或有删除/联网/持久化行为的现成 PoC。证据只支持属性篡改时就报告该影响。
+
+## 调研来源
+
+- [PS-deserialize · Insecure deserialization](https://portswigger.net/web-security/deserialization)
+
+资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。

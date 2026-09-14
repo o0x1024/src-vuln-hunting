@@ -1,38 +1,39 @@
-# XSS 技巧
+# 浏览器输入与脚本执行
 
-## 类型与触发点
-- 反射型：搜索框、URL 参数、错误信息回显
-- 存储型：昵称、评论、签名、富文本、文件上传文件名（优先级最高）
-- DOM 型：location.hash、postMessage、URL 参数直接进 sink
+## 适用信号与前提
 
-## 输出上下文与载荷
-- HTML 标签内：`<script>alert(1)</script>`、`<img src=x onerror=alert(1)>`
-- 属性内：`" onfocus=alert(1) autofocus="`、`" onmouseover="`
-- JS 上下文：`';alert(1);//`、`\';alert(1);//`、模板字符串反引号
-- 无尖括号场景：`<svg/onload=alert(1)>`、`<details open ontoggle=alert(1)>`、`javascript:alert(1)`（a href）
+搜索/评论/昵称/上传内容进入 HTML、属性、JS 或 DOM。先记录输入来源、输出上下文、编码和浏览器路径；准备获准测试页面/账号，避免触发真实用户或管理员会话。
 
-## DOM XSS
-- Source：location、document.referrer、postMessage、window.name、localStorage
-- Sink：innerHTML、document.write、eval、setTimeout/setInterval（字符串）、location 赋值、jQuery `$()`/`.html()`
-- 技巧：断点审计前端 JS，追踪参数到 sink 的完整路径
+## 最小实验
 
-## 编码与变形
-- HTML 实体、URL 编码、Unicode（`<`）、JS 十六进制转义、大小写混淆
-- 多字节截断、注释截断 `-->`、标签截断重开
+先用唯一无害字符串跟踪输入到输出位置；根据实际上下文设计仅显示测试标记的证明，不读取 Cookie 或业务数据。HTML 文本反射、属性、脚本字符串和 DOM sink 分别分析，不能通用替换。
 
-## 绕过 CSP
-- 检测：响应头 Content-Security-Policy 内容
-- unsafe-inline / unsafe-eval 配置错误可直接打
-- 白名单域名可 JSONP 劫持、可上传文件域同源、`script-src` 允许 'self' 但存在可控 JSONP 接口
-- Angular/Vue 模板注入、`<base>` 标签配合
+DOM 场景追踪 source 到实际 sink，保存浏览器运行证据。存储场景需记录写入、存储和后续触发；涉及跨账号影响时使用另一自建测试账号。通过同源测试标记或受控页面状态证明执行即可。
 
-## 影响评估（SRC 视角）
-- 存储型 XSS > 反射型；管理员后台触发 > 普通用户触发
-- 可配合 CSRF 提权、窃取敏感操作凭证；HttpOnly 限制 cookie 窃取时转向钓鱼/CSRF 链
+## 确认与反例
 
-## 最小化验证
-- 弹窗/打印 cookie（仅自己的）证明执行即可，不窃取真实用户数据
-- 记录浏览器与版本、触发条件（是否需登录/特定角色）
+需要浏览器在不应执行的目标上下文实际运行测试内容。字符串反射、出现 script 标签、静态 sink 搜索都不是充分证据。区分 HTML 注入、URL 导航、模板表达式与真正脚本执行。
 
-## 报告要点
-- 完整 URL + 触发参数 + payload、输出点上下文截图、影响面（谁可被攻击）、复现步骤
+排除已正确转义、不可达代码、sandbox/不同 origin、有效 CSP 阻断、只能本人控制开发者工具的 Self-XSS。CSP 中出现 unsafe-inline/unsafe-eval 不单独证明可利用；结合完整策略和执行路径判断。
+
+## 下一步、停止与报告
+
+规则阻断时记录该条件下未复现；新上下文需新假设。不得为证明影响窃取 Token、诱导真实用户、钓鱼或制造传播。存储测试使用自建隔离资源，按许可清理。
+
+报告记录输入到输出链、浏览器/版本、执行 origin、触发角色、交互条件及证据。类型名称不直接决定等级。遵守 [验证](../verification.md)。
+
+## 调研补充：可执行检查点
+
+- 先用唯一无害标记定位输出上下文，再选择该上下文的最小执行证明；HTML 反射、编码文本和模板表达式不是同一类证据。
+- 建立输入面→存储字段→渲染角色链：正常表单、API、导入可能写不同字段；用户视图、管理视图的处理也可能不同。只在受控查看者验证。
+- 静态 JS 找 source/sink，浏览器核对实际可达路径；CSP、沙箱、Trusted Types 和交互条件都记入结果。不得从关键词扫描推断执行。
+- HackerOne #192210 的平台说明把实际边界定位到管理端渲染；“商店允许 HTML”不能直接推广为后台也允许。这是入口/渲染面差异的历史样本。
+
+客户端消息与命名属性转 [postMessage / DOM clobbering](dom-messaging.md)。
+
+## 调研来源
+
+- [PS-xss · Cross-site scripting](https://portswigger.net/web-security/cross-site-scripting)
+- [H1-xss · Report #192210: Stored XSS in blog comments through Shopify API](https://hackerone.com/reports/192210)
+
+资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。

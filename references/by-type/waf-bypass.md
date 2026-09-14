@@ -1,43 +1,52 @@
-# WAF 绕过技巧
+# WAF 绕过与逐层解析差异
 
-## 识别 WAF
-- 拦截响应特征：403/406 页面文案（安全狗/云锁/宝塔/ModSecurity/腾讯云 WAF/阿里云 WAF/长亭雷池）
-- 响应头与 Cookie 特征、拦截后跳转/JS 弹窗
-- 工具：wafw00f
+适用信号：已有具体漏洞假设受内容过滤影响；不是通用扫描起点
 
-## 通用绕过思路
-### 1. 编码层
-- URL 编码、双重编码、UTF-8/Unicode 变体、Hex 编码、HTML 实体
-- 关键词部分编码：`s%65lect`、`sel%65ct`
+## 先定位限制发生在哪一层
 
-### 2. 空白与注释
-- `/**/`、`--+`、`#`、`%0a`/`%0b`/`%09` 换行替代空格
-- MySQL 内联注释：`/*!50000select*/`、`/*!select*/`
+保存正常请求与被拦请求、身份、时间、响应指纹和唯一变化。先区分业务拒绝、认证失败、429、机器人挑战与内容过滤；403 或产品指纹不证明具体规则。原漏洞假设没有证据时返回正常业务/数据流分析。
 
-### 3. 关键字变形
-- 字符串拼接：`concat('se','lect')`、`'ad'+'min'`（MSSQL 用 +）
-- 等价函数：`substring→mid→substr`、`sleep→benchmark`、`concat→concat_ws`
-- 大小写混合、重音符 ```` 包裹表名
+画出客户端序列化→CDN/WAF→代理→框架解析→应用解码→解释器链；未知层标 unknown。Agent 提假设，工具保留原始字节和解码表示；工具自动规范化可能消灭你想测的差异。
 
-### 4. 参数层面
-- 参数污染 HPP：`?id=1&id=2`（后端取后一个）
-- 同名参数注入、数组参数 `id[]=1` 触发报错
-- JSON/XML 提交换 Content-Type，WAF 解析差异
+## 按条件选择最小变体
 
-### 5. 协议层
-- Chunked 分块传输编码（Transfer-Encoding: chunked）分片绕过
-- Content-Type 切换：multipart/form-data、application/json、text/plain
-- 请求走私（CL.TE/TE.CL）——影响面大，仅在授权目标上谨慎验证
+| 机制 | 适用前提与实验设计 | 常见误判 |
+|---|---|---|
+| URL 规范化/编码 | 对受控普通标记先比较编码、分隔符、路径规范化；证明后端落在同一资源后，再应用原假设的最小变体。 | 假定所有层解码两次；Cloudflare 的 RFC 与额外规范化模式并不相同。 |
+| 媒体类型与 body 解析 | 已确认接口支持两种表示时，对相同无害字段比较 JSON/form/multipart 的语义；WAFFLED 摘要支持研究解析不一致这一方向。 | 切换后返回 200 实际是忽略 body、进入错误处理或未到原功能。 |
+| 重复参数/结构差异 | 用不同标记辨明网关和应用取首/末/合并/拒绝的实际行为，记录每层值；再转 API 参数污染假设。 | 默认全部框架取末值，或发送了工具自动去重后的请求。 |
+| 解释器语义等价 | 数据库、模板或命令上下文已经确定；先本地证明两种表达式等价，再验证过滤层差异。 | 只绕过关键字，但后端不再执行同一含义；把历史 JVM 方法序号当稳定接口。 |
+| 检查范围/大小边界 | 优先读取授权配置，核对 body/header/cookie 检查范围、超限动作和托管规则。只在允许的常规大小/次数内做有界测试。 | AWS 的检查上限随组件/宿主服务而变；Continue、Match、No match 都需结合规则动作及后续规则，不能写成“超限必放行”。 |
+| 路由与源站差异 | 已获准且已知属于该项目的路由/源站才可对照；Scope 在每个目的地重新核对。 | 同 IP、历史 DNS 或 Host 变体被当作新授权；无法访问就换身份/IP 规避限制。 |
 
-## 分类型绕过
-- SQLi：`information_schema` 换 `sys.schema`/`mysql.innodb_table_stats`、无 select 的报错函数、堆叠前截断
-- XSS：事件属性（onerror/onfocus/onmouseover）、无尖括号 DOM、SVG/MathML/iframe srcdoc
-- 文件上传：双扩展名 `.php.jpg`、大小写 `.PhP`、`.htaccess`/`.user.ini`、图片马（GIF89a 头）、Content-Type 伪造
+Cloudflare 和 AWS 的厂商资料用于约束假设；没有该目标配置时不假定默认值。pmnh 的历史 SpEL 案例只支持“理解实际引擎后构造语义等价表达”的方法，不能当现成通用载荷。
 
-## 工具
-- sqlmap：`--tamper=space2comment,between,randomcase` 等组合
-- Burp 插件：bypass WAF、Param Miner（HPP/隐藏参数）
+## 无害标记示例
 
-## 合规
-- 绕过仅用于**已授权目标**；探测 WAF 时避免高并发触发封禁、绝不 DDoS
-- 验证通过即止，最小化请求数量
+下列只用于辨明解析方式，不构成漏洞载荷，也不授权发送；先匹配目标已支持的接口与格式。
+
+| 对照 | 要回答的问题 |
+|---|---|
+| `term=probe-A` 与 `{"term":"probe-A"}` | 已支持 form 和 JSON 的同一接口，最终接收到的字段值是否相同？ |
+| `term=probe-A&term=probe-B` | 各层得到 A、B、数组还是拒绝？请求工具有没有先去重？ |
+| `term=probe-A` 与 `term=%70robe-A` | 在已知 URL 编码参数位置，解码前后检查的对象是否一致？不能把它套进任意 JSON 字符串。 |
+| 普通标记与 JSON 中的 `"\u0070robe-A"` | JSON 解析后是否得到同一个普通字符串？若根本不解析 JSON，过滤放行无意义。 |
+
+先通过这些对照确定真实语义，再为原漏洞选择一个有依据变体。所有样本共享原假设的预算，不为“绕过阶段”另起一套请求额度。
+
+## 实验记录与退出
+
+每个变体至少记录 `parent_hypothesis`、改变的层/字段、原始请求引用、预期后端语义、网关结果、应用结果及剩余预算。通常先做正常基线、被拦样本和一个有依据变体；若没有新增信息，不继续组合 tamper。
+
+“放行”只结束网关分支，漏洞确认仍按 SQLi/XSS/SSRF 等原专题标准。正常标记能到达、无敏感内容反射或网关 403 变 200，均不自动形成漏洞 Finding。保留未复现/条件不足的结果，不保证任何技巧可通用绕过。
+
+不启用无界载荷库、不伪装身份规避限流、不为超限测试堆大请求或提高并发。[请求走私](request-smuggling.md) 属于隔离专项；不能当作普通 WAF 变体在共享生产连接执行。
+
+## 调研来源
+
+- [CF-normalize · How URL normalization works](https://developers.cloudflare.com/rules/normalization/how-it-works/)
+- [AWS-waf · Oversize web request components in AWS WAF](https://docs.aws.amazon.com/waf/latest/developerguide/waf-oversize-request-components.html)
+- [WAFFLED · WAFFLED: Exploiting Parsing Discrepancies to Bypass Web Application Firewalls](https://arxiv.org/abs/2503.10846)
+- [PMNH-waf · RCE via SSTI on Spring Boot Error Page with Akamai WAF Bypass](https://www.pmnh.site/post/writeup_spring_el_waf_bypass/)
+
+资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
