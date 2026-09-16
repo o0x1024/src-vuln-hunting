@@ -37,6 +37,7 @@ description: 指导 AI 助手在明确授权的 SRC/众测项目中进行信息�
 
 | 当前工作 | 读取 |
 |---|---|
+| 深挖隐含假设、解释异常、迁移根因或复盘经验 | [专家式推理](references/expert-reasoning.md) |
 | 项目选题、假设发散、组合或重新分配预算 | [选题与探索](references/hunting-strategy.md) |
 | 会话重放、真实攻击前提、状态流程与结果比较 | [实验设计](references/experiment-design.md) |
 | 发现资产、接口、指纹 | [资产发现](references/asset-discovery.md) |

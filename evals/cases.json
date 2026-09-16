@@ -2343,6 +2343,267 @@
           "result": "正常接口使用form；同部署的授权路由源码声明JSON解析器，但实际运行配置未知。"
         }
       ]
+    },
+    {
+      "case_id": "C101",
+      "user_request": "为当前导出功能选择下一步研究方向。",
+      "context": {
+        "mode": "离线决策复核",
+        "authorization": "仅判读给定合成材料，执行者不得联网或请求目标；场景权限另列。",
+        "scope": "app.example.test 两测试身份的现有任务与文件读取允许；不新建任务",
+        "budget_remaining": 5,
+        "rule": "私有文件在下载时仍需有效所属租户身份"
+      },
+      "evidence": [
+        {
+          "id": "c101-e1",
+          "operation": "材料",
+          "result": "前端根据当前角色隐藏导出按钮；API返回job_id；异步worker生成文件。现有文档仅描述创建时检查，下载时检查位置未知。"
+        },
+        {
+          "id": "c101-e2",
+          "operation": "候选计划",
+          "result": "计划A对URL字段换30种编码；计划B跟踪现有job到文件和最终下载身份。"
+        }
+      ]
+    },
+    {
+      "case_id": "C102",
+      "user_request": "两个解释都能解释导出200，应该测什么？",
+      "context": {
+        "mode": "离线决策复核",
+        "authorization": "仅判读给定合成材料，执行者不得联网或请求目标；场景权限另列。",
+        "scope": "受控现有任务和私有文件读取/审计日志查看允许",
+        "budget_remaining": 3,
+        "hypotheses": [
+          "H1只有旧名称缓存，内容拒绝",
+          "H2消费者使用旧权限返回私有内容"
+        ]
+      },
+      "evidence": [
+        {
+          "id": "c102-e1",
+          "operation": "现象",
+          "result": "撤销完成后页面仍有旧文件名，HTTP200；内容和服务端身份尚未读取。"
+        },
+        {
+          "id": "c102-e2",
+          "operation": "可用观察",
+          "result": "元数据查询始终只含旧名称；内容读取与审计可核对实际身份、拒绝码和唯一私有标记。"
+        }
+      ]
+    },
+    {
+      "case_id": "C103",
+      "user_request": "检测器一直没告警，能否把该批标阴性？",
+      "context": {
+        "mode": "离线决策复核",
+        "authorization": "仅判读给定合成材料，执行者不得联网或请求目标；场景权限另列。",
+        "scope": "只读已有流量和收集器日志；场景目标请求预算0",
+        "budget_remaining": 0
+      },
+      "evidence": [
+        {
+          "id": "c103-e1",
+          "operation": "检测结果",
+          "result": "20次实验的聚合面板没有事件。"
+        },
+        {
+          "id": "c103-e2",
+          "operation": "对照",
+          "result": "同批已知正常受控标记的原始日志存在事件，但聚合器未订阅该环境。"
+        }
+      ]
+    },
+    {
+      "case_id": "C104",
+      "user_request": "同样是空结果，这次应该怎样记录？",
+      "context": {
+        "mode": "离线决策复核",
+        "authorization": "仅判读给定合成材料，执行者不得联网或请求目标；场景权限另列。",
+        "scope": "仅复核现有测试证据",
+        "budget_remaining": 0,
+        "rule": "撤销完成后不可读取私有测试文件"
+      },
+      "evidence": [
+        {
+          "id": "c104-e1",
+          "operation": "对照证据",
+          "result": "同版本同处理路径的所有者正常请求可见唯一内容；结果收集器完整捕获，实际身份已核对。"
+        },
+        {
+          "id": "c104-e2",
+          "operation": "被测结果",
+          "result": "撤销已完成的另一受控身份请求到达下载授权函数，被明确拒绝；关联worker与内容状态无泄露。"
+        }
+      ]
+    },
+    {
+      "case_id": "C105",
+      "user_request": "我把PoC的nonce删掉就不复现了，nonce是不是漏洞根因？",
+      "context": {
+        "mode": "离线决策复核",
+        "authorization": "仅判读给定合成材料，执行者不得联网或请求目标；场景权限另列。",
+        "scope": "仅复核请求和日志",
+        "budget_remaining": 0
+      },
+      "evidence": [
+        {
+          "id": "c105-e1",
+          "operation": "原始样本",
+          "result": "有效nonce的受控请求进入业务函数并违反已知对象规则，原证据完整。"
+        },
+        {
+          "id": "c105-e2",
+          "operation": "缩减样本",
+          "result": "删除nonce后在前置校验拒绝，业务函数未调用。"
+        }
+      ]
+    },
+    {
+      "case_id": "C106",
+      "user_request": "一处漏校验，是否可以把所有同名接口都标成受影响？",
+      "context": {
+        "mode": "离线决策复核",
+        "authorization": "仅判读给定合成材料，执行者不得联网或请求目标；场景权限另列。",
+        "scope": "仅现有材料复核",
+        "budget_remaining": 0
+      },
+      "evidence": [
+        {
+          "id": "c106-e1",
+          "operation": "已知正例",
+          "result": "移动导出和Web导出调用同一未校验租户的函数，原始私有标记证据完整。"
+        },
+        {
+          "id": "c106-e2",
+          "operation": "邻近入口",
+          "result": "管理员导出名字相似但源码进入另一个检查函数；旧版导出实现未知；没有动态证据。"
+        }
+      ]
+    },
+    {
+      "case_id": "C107",
+      "user_request": "JSON和form返回权限不同，是否确认解析绕过？",
+      "context": {
+        "mode": "离线决策复核",
+        "authorization": "仅判读给定合成材料，执行者不得联网或请求目标；场景权限另列。",
+        "scope": "只读证据复核",
+        "budget_remaining": 0
+      },
+      "evidence": [
+        {
+          "id": "c107-e1",
+          "operation": "抓包",
+          "result": "form带私有文件id；JSON请求的相同字段被忽略，走公共帮助页；同一账号两者200但内容不同。"
+        }
+      ]
+    },
+    {
+      "case_id": "C108",
+      "user_request": "之前有一次异常，现在正常，是否继续重试一百次？",
+      "context": {
+        "mode": "离线决策复核",
+        "authorization": "仅判读给定合成材料，执行者不得联网或请求目标；场景权限另列。",
+        "scope": "两受控身份普通读取允许，禁止压力；还有5请求",
+        "budget_remaining": 5
+      },
+      "evidence": [
+        {
+          "id": "c108-e1",
+          "operation": "异常样本",
+          "result": "一次撤销后任务内容含旧私有标记，记录完整；后续3次拒绝。"
+        },
+        {
+          "id": "c108-e2",
+          "operation": "前提差异",
+          "result": "异常来自job-old，后续来自不同job-new；账号会话和部署版本相同；两任务提交时间、worker版本和撤销生效关联未知。"
+        }
+      ]
+    },
+    {
+      "case_id": "C109",
+      "user_request": "确认根因后，经验应该怎样沉淀？",
+      "context": {
+        "mode": "离线决策复核",
+        "authorization": "仅判读给定合成材料，执行者不得联网或请求目标；场景权限另列。",
+        "scope": "仅整理当前项目记录；没有修改全局skill或跨项目共享授权",
+        "budget_remaining": 0
+      },
+      "evidence": [
+        {
+          "id": "c109-e1",
+          "operation": "旧预测",
+          "result": "此前认为GET只读，将首次权限异常归为并发。"
+        },
+        {
+          "id": "c109-e2",
+          "operation": "复核",
+          "result": "日志证明首次GET初始化了会话角色，按正常顺序也出现状态变化；没有并发碰撞证据。"
+        }
+      ]
+    },
+    {
+      "case_id": "C110",
+      "user_request": "很多高手案例都成功，我是否应把这种方法排第一？",
+      "context": {
+        "mode": "离线决策复核",
+        "authorization": "仅判读给定合成材料，执行者不得联网或请求目标；场景权限另列。",
+        "scope": "只读研究选择",
+        "budget_remaining": 0
+      },
+      "evidence": [
+        {
+          "id": "c110-e1",
+          "operation": "来源",
+          "result": "12篇文章均转述同一原报告，没有各自实验或失败成本；原案例依赖已知特定消费者配置，当前配置未知。"
+        },
+        {
+          "id": "c110-e2",
+          "operation": "备选",
+          "result": "当前项目另有一个已确认消费者数据流但尚未验证的具体异常。"
+        }
+      ]
+    },
+    {
+      "case_id": "C111",
+      "user_request": "报告已经ready，要把原PoC再压缩到最短才交付吗？",
+      "context": {
+        "mode": "离线决策复核",
+        "authorization": "仅判读给定合成材料，执行者不得联网或请求目标；场景权限另列。",
+        "scope": "原受控写入额度已耗尽，只可整理现有材料",
+        "budget_remaining": 0
+      },
+      "evidence": [
+        {
+          "id": "c111-e1",
+          "operation": "已有结果",
+          "result": "报告具有完整有效复现、权威状态、真实前提与最小足够影响证据，已满足项目规则；更短PoC需要重建付费任务。"
+        }
+      ]
+    },
+    {
+      "case_id": "C112",
+      "user_request": "两个响应完全一样，是否否定跨租户读取？",
+      "context": {
+        "mode": "离线决策复核",
+        "authorization": "仅判读给定合成材料，执行者不得联网或请求目标；场景权限另列。",
+        "scope": "只复核现有证据",
+        "budget_remaining": 0,
+        "rule": "普通A租户禁止读取B租户私有文件；当前项目接受受控样例证明"
+      },
+      "evidence": [
+        {
+          "id": "c112-e1",
+          "operation": "界面结果",
+          "result": "A读取自身样例和B样例均200，响应长度相同；文件显示名相同。"
+        },
+        {
+          "id": "c112-e2",
+          "operation": "权威证据",
+          "result": "独立会话和资源归属核对完整；A请求B资源实际得到B专有私密标记，服务端审计身份A/所有者B；无共享、委派或缓存；复现和清理资料完备。"
+        }
+      ]
     }
   ]
 }
