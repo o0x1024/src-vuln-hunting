@@ -45,6 +45,12 @@ description: 指导 AI 助手在明确授权的 SRC/众测项目中进行信息�
 | 选择高频覆盖或条件专题 | [检测入口](references/vuln-detection.md)、[专题索引](references/vulnerability-catalog.md) |
 | 检索先知/奇安信归档、迁移历史研究 | [归档研究检索](references/research/crawl-xz-integration.md) |
 | 已获准源码、框架路由或补丁分析 | [源码审计](references/source-audit.md) |
+| AI、客户端或设备材料，需要建立跨端资产/身份关系 | [AI 与设备发现](references/discovery/ai-and-devices.md) |
+| 大模型、RAG、Agent、工具或沙箱边界 | [AI 应用安全](references/by-type/ai-application.md) |
+| Android / iOS 组件、桥接、存储、网络或系统权限 | [Android](references/by-type/mobile-android.md)、[iOS](references/by-type/mobile-ios.md)，按实际平台选读 |
+| 设备绑定、协议、固件或升级链 | [IoT](references/by-type/iot-security.md) |
+| PC 本地服务、更新器，或授权车端组件 | [PC 客户端](references/by-type/desktop-client.md)、[汽车终端](references/by-type/automotive-security.md)，按实际产品选读 |
+| 当前项目采用小米 SRC 规则 | [MiSRC 版本、分层、附件与奖励资格](references/policies/xiaomi-misrc.md)；不作为其他项目默认规则 |
 | 小程序身份/接口、文档导出/后台渲染 | [小程序](references/by-type/miniapp-security.md)、[文档处理](references/by-type/document-rendering.md) |
 | 采纳 HackerOne/X 技巧、核对历史案例 | [社区经验](references/research/community-notes.md) |
 | 对象、功能、租户授权 | [访问控制](references/by-type/idor-access-control.md) |

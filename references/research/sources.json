@@ -1302,6 +1302,110 @@
       "used_by": [
         "references/expert-reasoning.md"
       ]
+    },
+    {
+      "id": "MiSRC-v11",
+      "title": "小米安全中心安全漏洞奖励规则 V11.0",
+      "url": "https://sec.xiaomi.com/#/notice/detail/244",
+      "publisher": "小米安全中心",
+      "kind": "program_policy",
+      "published_or_version": "V11.0 / 2026-09-11",
+      "accessed_at": "2026-09-17",
+      "evidence_status": "sections_read",
+      "read_scope": "Relevant visible text and tables: version, general/report/reward rules, sections 4.2.4, 4.3, 4.4, 4.5, 4.6; images, videos and attachments not reviewed. Browser-read during planning on 2026-09-17.",
+      "used_by": [
+        "references/policies/xiaomi-misrc.md",
+        "references/by-type/ai-application.md",
+        "references/by-type/iot-security.md",
+        "references/by-type/mobile-android.md",
+        "references/by-type/desktop-client.md",
+        "references/by-type/automotive-security.md"
+      ]
+    },
+    {
+      "id": "MiSRC-iot-activities",
+      "title": "MiSRC IoT守护计划入口",
+      "url": "https://sec.xiaomi.com/#/IoT",
+      "publisher": "小米安全中心",
+      "kind": "program_activity_index",
+      "published_or_version": null,
+      "accessed_at": "2026-09-17",
+      "evidence_status": "sections_read",
+      "read_scope": "Visible introduction, ended activity cards and device application process; linked activity details not reviewed. Historical indefinite wording conflicts with ended Bundle card; no active reward inferred.",
+      "used_by": [
+        "references/policies/xiaomi-misrc.md"
+      ]
+    },
+    {
+      "id": "OWASP-LLM01-2025",
+      "title": "LLM01:2025 Prompt Injection",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+      "publisher": "OWASP Gen AI Security Project",
+      "kind": "primary_guide",
+      "published_or_version": "2025",
+      "accessed_at": "2026-09-17",
+      "evidence_status": "sections_read",
+      "read_scope": "Direct/indirect injection, multimodal input, impact and privilege-control sections; no example attacks executed.",
+      "used_by": [
+        "references/by-type/ai-application.md"
+      ]
+    },
+    {
+      "id": "Android-native-bridges",
+      "title": "WebView Native bridges",
+      "url": "https://developer.android.com/privacy-and-security/risks/insecure-webview-native-bridges",
+      "publisher": "Android Developers",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-17",
+      "evidence_status": "sections_read",
+      "read_scope": "Overview, bridge origin/frame risks and impact; no APK or device testing.",
+      "used_by": [
+        "references/by-type/mobile-android.md"
+      ]
+    },
+    {
+      "id": "OWASP-MASVS-groups",
+      "title": "OWASP MASVS control groups",
+      "url": "https://mas.owasp.org/MASVS/",
+      "publisher": "OWASP Mobile Application Security",
+      "kind": "primary_guide",
+      "published_or_version": null,
+      "accessed_at": "2026-09-17",
+      "evidence_status": "sections_read",
+      "read_scope": "Control-group overview and platform topic navigation only; not a review or execution of linked MASTG tests.",
+      "used_by": [
+        "references/by-type/mobile-android.md",
+        "references/by-type/mobile-ios.md"
+      ]
+    },
+    {
+      "id": "Apple-runtime-sandbox",
+      "title": "Security of runtime process in iOS, iPadOS and visionOS",
+      "url": "https://support.apple.com/en-au/guide/security/sec15bfe098e/web",
+      "publisher": "Apple Platform Security",
+      "kind": "primary_guide",
+      "published_or_version": "2024-12-19",
+      "accessed_at": "2026-09-17",
+      "evidence_status": "sections_read",
+      "read_scope": "Sandboxing and Use of entitlements sections; no device validation or claim of reading linked API documentation.",
+      "used_by": [
+        "references/by-type/mobile-ios.md"
+      ]
+    },
+    {
+      "id": "OWASP-ISTG-project",
+      "title": "OWASP IoT Security Testing Guide project",
+      "url": "https://owasp.org/projects/iot-security-testing-guide",
+      "publisher": "OWASP",
+      "kind": "primary_project_overview",
+      "published_or_version": null,
+      "accessed_at": "2026-09-17",
+      "evidence_status": "sections_read",
+      "read_scope": "Project introduction and guide links only. Full guide endpoint failed to load; no detailed test procedures adopted or executed.",
+      "used_by": [
+        "references/by-type/iot-security.md"
+      ]
     }
   ]
 }

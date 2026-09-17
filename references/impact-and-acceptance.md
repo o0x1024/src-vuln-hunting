@@ -8,6 +8,8 @@
 
 仅有历史文章或多平台摘录时保留为样例，不能自动启用。当前用户提供的三组材料已整理为 [规则样例对照](policies/src-policy-examples.md)。未知条款只阻塞依赖它的等级/收录判断，不阻止现有授权内的正常观察与离线分析。
 
+小米项目可采用已核对来源的 [MiSRC 配置](policies/xiaomi-misrc.md)，仍须匹配当前项目/版本和产品层。技术专题保持通用；平台的 UGC、Electron、EOL、公开漏洞和附件/人工复核条件不能变成所有项目的排除项。实际权限从输入经过授权到最终消费者核对，不按 AI/App/IoT 标签自动定级。
+
 ## 验证与交付时逐步补齐的影响问题
 
 探索阶段按 [分阶段门槛](hunting-strategy.md) 保留未知；下述完整表述是补证方向和交付检查，不是提出候选的前置要求。
@@ -32,10 +34,12 @@
 | 字段 | 值与含义 |
 |---|---|
 | impact_status | demonstrated：已证明有意义的安全/业务影响；policy_minimum_met：实际证据达到当前规则明确接受的有限能力门槛，尚无更高影响证明；not_established：尚缺影响证据；none：证据支持预期行为或该条件下无有意义影响 |
-| submission_assessment | ready：达到可提交证据和当前已知收录条件；needs_evidence：缺关键技术/影响证据；rule_review：规则适用性或平台专属判定待核对；excluded：命中明确不收条件或证实无影响 |
+| submission_assessment | ready：达到可提交证据和当前已知收录条件；needs_evidence：缺关键技术/影响证据或必需提交材料/验证记录；rule_review：规则适用性或平台专属判定待核对；excluded：命中明确不收条件或证实无影响 |
 | platform_status | 未提交、待审核、已接收、重复、拒收等，只记录实际回执；未知就保留未知。ready 不等于已接收或保证获奖。 |
 
-ready 需要：目标/动作符合授权、技术事实可复核、impact_status 为 demonstrated 或 policy_minimum_met、当前规则适用且没有已知排除项。policy_minimum_met 必须引用具体条款与满足它的证据，不能凭“某 SRC 以前收过”降低门槛。若平台内部已知库不可见，记录重复状态未知即可，不能凭空保证不重复，也不因此无限等待。
+奖励资格按需另记 reward_eligibility、reward_basis 与 missing_requirements（本地说明字段，不杜撰工具 schema）。基础/专项/活动分别判断；不满足专项机型、报名或窗口，不自动取消普通项目的已有测试许可和基础报告资格。缺普通提交必需附件/人工验证时保留技术状态并将 submission_assessment 记 needs_evidence；条款是否适用不明时为 rule_review。Agent/第二模型复核不冒充平台要求的人工验证。
+
+ready 需要：目标/动作符合授权、技术事实可复核、impact_status 为 demonstrated 或 policy_minimum_met、当前规则适用且没有已知排除项，普通提交的必需材料/验证记录齐备。policy_minimum_met 必须引用具体条款与满足它的证据，不能凭“某 SRC 以前收过”降低门槛。若平台内部已知库不可见，记录重复状态未知即可，不能凭空保证不重复，也不因此无限等待。
 
 hypothesis_status=confirmed 必须确认一个违反安全/业务规则的漏洞假设；单纯过滤差异、正常计算或预期回调等观察事实放入 proven_facts/实验记录，不能为得到 confirmed 而把原假设改写成已观察现象。只审阅现象且没有漏洞假设时该状态可为空；有假设但反例已否定本次条件时用 not_reproduced，缺关键证据时用 needs_evidence。confirmed 仍不自动等于 ready。技术成立但命中平台业务排除、内部已知或修复窗口时，保留 confirmed 及原始证据，submission_assessment 可为 excluded；不把拒收改写成技术误报。
 
@@ -67,6 +71,8 @@ submission_assessment 表示当前主要处置，理由中同时保留全部已�
 | 9 | 单一目标的暴力破解（未组合形成实质危害） | 仅针对单一接口、参数、功能点或单个账号进行暴力破解（爆破），且未与其他漏洞组合形成实质危害 |
 
 注：本清单保留为本 skill 的默认投入/交付偏好，不宣称所有 SRC 均采用它，也不构成测试授权或普遍技术定性。具体项目明确收录的有效例外优先；涉及“难以利用”“大量资金”等程度判断，不能自行造数值门槛，也不能覆盖已有实际影响证据。
+
+尤其不能把第 6 项用于排除已有跨账号数据/真实工具越权证据的 AI 问题，或把第 8 项用于覆盖特定项目明确区分的持续性设备不可用。平台接受某类影响与本 skill 是否允许实际触发是两个判断；后者仍按执行边界处理。
 
 ## 规模、价值与最低证明
 
