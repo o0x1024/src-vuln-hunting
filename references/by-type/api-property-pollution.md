@@ -16,6 +16,8 @@
 
 优先补正常接口已有的字段面，不做无界字典喷洒。每个批量元素计入逻辑操作预算；独立授权判断见 [访问控制](idor-access-control.md)，过滤差异见 [WAF](waf-bypass.md)。
 
+参数名称/位置、值与类型、重复项和有依据的字段交互，按 [定向 Fuzzing](../targeted-fuzzing.md) 生成候选并根据输入是否被消费调整下一步；未知字段返回成功不等于可写。
+
 ## 调研来源
 
 - [OWASP-api3 · API3:2023 Broken Object Property Level Authorization](https://owasp.org/API-Security/editions/2023/en/0xa3-broken-object-property-level-authorization/)

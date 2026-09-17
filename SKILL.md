@@ -40,6 +40,7 @@ description: 指导 AI 助手在明确授权的 SRC/众测项目中进行信息�
 | 深挖隐含假设、解释异常、迁移根因或复盘经验 | [专家式推理](references/expert-reasoning.md) |
 | 项目选题、假设发散、组合或重新分配预算 | [选题与探索](references/hunting-strategy.md) |
 | 会话重放、真实攻击前提、状态流程与结果比较 | [实验设计](references/experiment-design.md) |
+| 按线索生成接口、参数、目录或认证输入变体并根据反馈调整 | [定向 Fuzzing](references/targeted-fuzzing.md) |
 | 发现资产、接口、指纹 | [资产发现](references/asset-discovery.md) |
 | 选择高频覆盖或条件专题 | [检测入口](references/vuln-detection.md)、[专题索引](references/vulnerability-catalog.md) |
 | 检索先知/奇安信归档、迁移历史研究 | [归档研究检索](references/research/crawl-xz-integration.md) |

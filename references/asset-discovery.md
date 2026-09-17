@@ -8,6 +8,7 @@
 |---|---|---|
 | 只有企业/产品名、根域或零散域名 | [被动来源、DNS 与服务](discovery/passive-and-services.md) | 带来源及归属依据的候选资产、服务观察 |
 | 已有站点，需要页面、JS、API 与角色覆盖 | [Web 与 API 采集](discovery/web-and-api.md) | 接口清单、参数结构、正常流程及差异 |
+| 已有路由、字段或路径线索，需要推导与确认相关入口 | [定向 Fuzzing](targeted-fuzzing.md) | 有来源的有限候选、实际处理证据与下一批依据 |
 | 已有客户端包、源码或云资源线索 | [客户端、源码与云线索](discovery/client-and-cloud.md) | 材料版本、提取位置、跨端关系及未分析部分 |
 | 合并来源、恢复或交付 | [发现记录与增量](discovery/records-and-incremental.md) | 观察、候选、队列、来源游标和发现覆盖 |
 
