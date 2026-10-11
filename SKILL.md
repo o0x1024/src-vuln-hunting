@@ -51,7 +51,10 @@ description: 指导 AI 助手在明确授权的 SRC/众测项目中进行信息�
 | Android / iOS 组件、桥接、存储、网络或系统权限 | [Android](references/by-type/mobile-android.md)、[iOS](references/by-type/mobile-ios.md)，按实际平台选读 |
 | 设备绑定、协议、固件或升级链 | [IoT](references/by-type/iot-security.md) |
 | PC 本地服务、更新器，或授权车端组件 | [PC 客户端](references/by-type/desktop-client.md)、[汽车终端](references/by-type/automotive-security.md)，按实际产品选读 |
+| 授权合约源码、部署、外部调用或资产状态 | [智能合约](references/by-type/smart-contract.md) |
 | 当前项目采用小米 SRC 规则 | [MiSRC 版本、分层、附件与奖励资格](references/policies/xiaomi-misrc.md)；不作为其他项目默认规则 |
+| 当前项目采用贝壳 BKSRC 规则 | [BKSRC 版本、等级、积分与报告要求](references/policies/beike-bksrc.md)；不作为其他项目默认规则 |
+| 当前项目采用京东 JSRC 规则 | [JSRC 业务划分、SSRF 收录标准、降级/忽略与测试红线](references/policies/jd-jsrc.md)；不作为其他项目默认规则 |
 | 小程序身份/接口、文档导出/后台渲染 | [小程序](references/by-type/miniapp-security.md)、[文档处理](references/by-type/document-rendering.md) |
 | 采纳 HackerOne/X 技巧、核对历史案例 | [社区经验](references/research/community-notes.md) |
 | 对象、功能、租户授权 | [访问控制](references/by-type/idor-access-control.md) |

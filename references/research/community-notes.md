@@ -1,5 +1,7 @@
 # HackerOne 与 X 经验的采纳规则
 
+从 x-bugbounty 材料提炼的知识已分类融入本 skill 的资产发现、业务建模、漏洞专题、源码审计与报告流程；[分类提炼](community-distillation.md) 汇总新增检查点与合并位置。使用这些知识只需读取本 skill 内的对应专题，不需要原始帖子目录、图片、OCR 或检索脚本。来源与读取范围见 [提炼来源](community-distillation-sources.json)。
+
 X 的 #bugbounty / #infosec 是发现线索的入口，不是技术标准。引用规范说明要求、原始报告说明历史案例、研究者文章说明其方法；当前目标是否成立仍由本次实验判断。查阅日期：2026-09-14。
 
 ## 本次追溯的经验

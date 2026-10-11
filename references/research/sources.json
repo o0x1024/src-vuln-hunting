@@ -1406,6 +1406,65 @@
       "used_by": [
         "references/by-type/iot-security.md"
       ]
+    },
+    {
+      "id": "JSRC-rules-v8",
+      "title": "京东外部威胁处理规则 V8.0（公告 255 引用的全文附件）",
+      "url": "https://security-jsrc.s3.cn-north-1.jdcloud-oss.com/JSRC-V8.0.pdf",
+      "publisher": "京东安全应急响应中心（JSRC）",
+      "kind": "program_policy",
+      "published_or_version": "V8.0 / 2022-06-29",
+      "accessed_at": "2026-10-09",
+      "evidence_status": "full_text_read",
+      "read_scope": "Full 24-page PDF text extracted locally (scope, process, scoring tables, general principles, rewards, FAQ). Embedded diagrams and any image-only content not reviewed; V8.0 is superseded by later V9.1 notices on points where they differ.",
+      "used_by": [
+        "references/policies/jd-jsrc.md"
+      ]
+    },
+    {
+      "id": "JSRC-notice-287-v91",
+      "title": "【JSRC 外部威胁处理规则 V9.1】（挖洞防迷路指南）上线！",
+      "url": "https://security.jd.com/#/notice/287",
+      "publisher": "京东安全应急响应中心（JSRC）",
+      "kind": "program_policy",
+      "published_or_version": "V9.1 / 2025-07-31",
+      "accessed_at": "2026-10-09",
+      "evidence_status": "sections_read",
+      "read_scope": "Notice text (business tiering summary, downgrade scenarios, non-collected types, SSRF standard, test rules) plus local OCR of its two embedded tables (business tier definitions, SSRF collection matrix). Full V9.1 document text not obtained: the page says it is behind \"read original\" but exposes no outbound link.",
+      "used_by": [
+        "references/policies/jd-jsrc.md",
+        "references/by-type/ssrf.md",
+        "references/rating-standard.md"
+      ]
+    },
+    {
+      "id": "JSRC-notice-274-norms",
+      "title": "【公告】挖洞姿势千万种，合规测试要牢记！",
+      "url": "https://security.jd.com/#/notice/274",
+      "publisher": "京东安全应急响应中心（JSRC）",
+      "kind": "program_policy",
+      "published_or_version": "2025-03-07",
+      "accessed_at": "2026-10-09",
+      "evidence_status": "read",
+      "read_scope": "Full notice text read: 16 test norms (scanner ban, account provenance, SSRF verification target, injection and authorization data limits, XSS/RCE handling, SMS limits, worm isolation, DoS and intranet bans, sensitive data handling, disclosure ban) and violation penalty clauses. No test action performed against JD assets.",
+      "used_by": [
+        "references/policies/jd-jsrc.md",
+        "references/reporting.md"
+      ]
+    },
+    {
+      "id": "JSRC-notice-258-domains",
+      "title": "【公告】关于 JSRC 暂不收取域名及其他信息更新",
+      "url": "https://security.jd.com/#/notice/258",
+      "publisher": "京东安全应急响应中心（JSRC）",
+      "kind": "program_policy",
+      "published_or_version": null,
+      "accessed_at": "2026-10-09",
+      "evidence_status": "read",
+      "read_scope": "Full notice text read: time-bound list of domains temporarily out of scope and a paused bonus activity, both pegged to a September 30 cutoff. Detail page shows no publication date and current validity is unverified; treated as historical notice, not as current authorization or exclusion.",
+      "used_by": [
+        "references/policies/jd-jsrc.md"
+      ]
     }
   ]
 }
