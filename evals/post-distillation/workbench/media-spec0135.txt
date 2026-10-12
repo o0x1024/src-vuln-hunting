@@ -1,0 +1,94 @@
+0|no_technical_content||代码背景照片；没有 recon dashboard 实现。
+1|no_technical_content||手机安全插图；没有 iOS root 执行机制。
+2|no_technical_content||重定向 N/A 状态；没有真实请求或链路。
+3|no_technical_content||重定向 P4/Triaged 状态；状态非普遍接受保证。
+4|distilled|references/by-type/xss.md|下划线无害标记在搜索结果渲染；HTML 消费不是 XSS 执行或 SSRF。
+5|no_technical_content||pamspy 空终端；没有凭据或 eBPF 轨迹。
+6|distilled|references/by-type/idor-access-control.md|订单页面带参数和 cookie 返回 HTML；实际订单 API/owner 对照与页面成功分开，不复制材料。
+7|distilled|references/discovery/passive-and-services.md|可见文章片段仅建议了解目标和子域归属；不声明外链全文已读。
+8|distilled|references/scope-and-rules.md|奖励邮件要求细节披露获明示许可；许可与金额、技术影响分开。
+9|distilled|references/by-type/csrf.md|完整 CSRF 流程图的 token/mobile/JSON/simple/CORS；Not Possible 绝对判断需纠正，实际发送与读取及变更分开。
+10|distilled|references/by-type/xss.md|函数分路 nuclei/kxss、grep= 和未加引号变量；命中只是候选，不执行管道。
+11|no_technical_content||声望排名；无机制。
+12|distilled|references/by-type/xss.md|IncomeTax 页面提示与载荷平衡文字；当前执行不等于跨用户或 ATO。
+13|distilled|references/by-type/xss.md|Opinator 登录提示；入口请求未见，不能补出攻击链。
+14|no_technical_content||Secretflow 标识；无隐私计算实现。
+15|no_technical_content||装饰插图；无漏洞机制。
+16|distilled|references/by-type/xss.md|toxssin handler 与 active 会话/来源；已有执行后的能力与初始入口分开，不采集存储或 cookie。
+17|no_technical_content||Informative/Medium 状态；没有限流请求。
+18|distilled|references/impact-and-acceptance.md|标题 HTML 改变和未证实身份窃取主张、N/A 回复；实际呈现与业务影响分开。
+19|distilled|references/by-type/sql-injection.md|登录请求 cookie 与 SELECT/数据库错误；标题 token 来源未绑定，错误非任意读写执行，不复制值。
+20|no_technical_content||Tofu 插图；无文件系统机制。
+21|no_technical_content||课程封面；未保存全文依用户覆盖。
+22|no_technical_content||APF CTF 封面；无解析步骤。
+23|no_technical_content||工具需求投票；没有实现或漏洞验证。
+24|distilled|references/discovery/client-and-cloud.md|APKLeaks 文件/模式/JSON 帮助；输入包与规则摘要、静态候选和有效秘密分开。
+25|distilled|references/discovery/passive-and-services.md|子域工具列表混合来源/生成/暴力；数量与覆盖、授权不同。
+26|no_technical_content||SQL Critical/Triaged 标签；无查询机制。
+27|distilled|references/discovery/records-and-incremental.md|headless screenshot 单 URL/列表模板；来源、跳转范围、脚本请求和隐私须保留。
+28|no_technical_content||重定向奖励；隐藏字段正文只提供候选。
+29|distilled|references/discovery/records-and-incremental.md|历史 CVE 模板输出含 Scorm/player/data 候选；标签与当前版本、实际执行另证。
+30|insufficient_technical_detail||WebView2 Office 页面与空本地 server；没有 cookie 获取或权限轨迹。
+31|distilled|references/discovery/records-and-incremental.md|cent 克隆社区模板/去重输出；记录 commit/摘要、断言与范围，不克隆或扫描。
+32|no_technical_content||SSRF 封面；无请求机制。
+33|no_technical_content||duplicate 列表；无技术内容。
+34|distilled|references/discovery/passive-and-services.md|多工具 stdout 全追加 hosts 的管道；后续可能空输入与旧结果混合，不能算完整枚举。
+35|no_technical_content||S3 泄漏标题和 Accepted/reward；读取到第三方能力链只有正文，图没有请求。
+36|distilled|references/discovery/web-and-api.md|bypass-url-parser URL/线程/超时/header/spoof help；变化与真实 handler/权限独立。
+37|no_technical_content||CSRF 报告标题列表；没有原始请求和状态变更。
+38|distilled|references/by-type/ssti.md|SSTI 算术/字符串/引擎及对象能力树；排除客户端计算，Unknown 非不受影响、读写执行不同。
+39|distilled|references/by-type/cmd-injection-rce.md|CGI 参数与 uid= 过滤；响应文本匹配不证明真实命令执行，不运行。
+40|no_technical_content||上传 XSS 封面；无存储消费者。
+41|distilled|references/reporting.md|调解请求、红acted 影响说明和日期；最小复现与实际影响而非等待保证。
+42|distilled|references/reporting.md|重新打开、严重性降低、Triaged/reward；状态与评级说明依据不同。
+43|no_technical_content||认证插图；无具体机制。
+44|no_technical_content||工作桌面照片；无 URL shortener 条件。
+45|distilled|references/discovery/web-and-api.md|wp-json/rest_route blocked/OK 示意；确认同一 handler、预期公开字段与真实身份。
+46|distilled|references/discovery/web-and-api.md|login403 与双斜杠200示意；规范化与当前内容不能仅按状态认定绕过。
+47|distilled|references/by-type/ssrf.md|历史子域/URL 管道结束于 qsreplace，仅生成候选；没有改值请求或 SSRF 证明，保持单参数、来源归属及预算，不执行。
+48|distilled|references/by-type/csrf.md|drop/swap token、Referer/Origin 图；绑定 session/主体/用途/有效期及真实浏览器发送。
+49|distilled|references/discovery/records-and-incremental.md|CVE Known 历史版本及 Host Header 描述/参照、记录日期说明；引用不证明当前目标受影响。
+50|distilled|references/by-type/ssrf.md|历史子域/URL 管道结束于 qsreplace，仅生成候选；没有改值请求或 SSRF 证明，保持单参数、来源归属及预算，不执行。
+51|distilled|references/discovery/passive-and-services.md|24 搜索来源分类；能力/窗口/归属与名称名单不同。
+52|distilled|references/discovery/passive-and-services.md|同搜索分类不同图片摘要；去重、窗口和范围缺口保留。
+53|no_technical_content||H1 排名；无技术内容。
+54|no_technical_content||DumpScan 标识；无敏感转储消费。
+55|distilled|references/hunting-strategy.md|多领域工具目录；类别与实际输入输出身份/预算/覆盖分开。
+56|no_technical_content||AI 通用规则/报告/感谢建议；无独立技术机制。
+57|no_technical_content||OK-VPS 社交卡片；无安装实现。
+58|distilled|references/discovery/passive-and-services.md|DNSEnum A/NS/MX 输出；解析器/TTL/时间和空结果缺口独立。
+59|distilled|references/discovery/passive-and-services.md|搜索源分类列表；不同数据源/窗口/私密字段与当前许可保留。
+60|distilled|references/discovery/passive-and-services.md|版权、公司、邮箱等被动搜索线索；相关性非资产授权。
+61|no_technical_content||重复报告 meme；无机制。
+62|distilled|references/by-type/xss.md|YouTube Studio 提示框；原始入口和跨用户条件未见，执行截图不能证明普遍影响。
+63|no_technical_content||CRLF High/CVSS 标签；无分割响应或 ATO 链。
+64|distilled|references/cloud/cloud-misconfiguration.md|保存 AWS credential_process 配置消费/stdout JSON/stderr 风险；实际配置权限与采用 profile 必须确认。
+65|distilled|references/cloud/cloud-misconfiguration.md|程序参数及非零错误码示例；参数可见性、调用身份、真实执行与文件可写分开，不执行。
+66|insufficient_technical_detail||通用 Python 语法图与搜索标题不一致；没有搜索实现或可提炼漏洞消费者。
+67|distilled|references/by-type/idor-access-control.md|grep ID 的基本正则/空匹配；候选筛选不等于 IDOR，结构解析与 owner 对照。
+68|no_technical_content||Shodan 会员确认；无技术机制。
+69|distilled|references/by-type/info-secrets.md|Pinkerton 示例 JS/AWS ID/Firebase URL；公开资源与有效秘密分开，不复制值。
+70|distilled|references/by-type/idor-access-control.md|函数名与反向键/字符类/追加输出问题；实际查询/body 资源 ID 与真实授权独立。
+71|distilled|references/by-type/xss.md|历史URL/uro/qsreplace/httpx -mr 管道；正则反射非执行，保留参数和预算。
+72|no_technical_content||终端颜色 ls/cat；无漏洞机制。
+73|distilled|references/discovery/web-and-api.md|ZenBuster 帮助的 URL/IP/SSL/port/字典/ext/log；模式非已完成枚举。
+74|distilled|references/by-type/lfi-path-traversal.md|路径参数与 ErrorException 内文件内容；错误标题不排除读取，授权测试文件证明边界。
+75|distilled|references/by-type/xss.md|gau/cleanP/injectP 标记匹配再模板；生成反射、模板断言和真实执行逐项区别。
+76|distilled|references/discovery/web-and-api.md|无 DNS Host 基线612/ffufdev200size30；多个基线与 Host/SNI/范围，长度不能单独证明。
+77|distilled|references/discovery/records-and-incremental.md|Interactsh DNS/HTTP 和浏览器 favicon 请求；本地消费不证明服务器 XXE/SSRF，唯一关联与版本。
+78|distilled|references/discovery/records-and-incremental.md|Interactsh webUI favicon 与时间/浏览器头；到达、归属、报告生成分别留证，不复制 cookie。
+79|distilled|references/by-type/cmd-injection-rce.md|ThinkPHP 调用 URL 与 SystemError 内系统文字；实际部署/调用/有效身份，错误非全失败，不运行系统命令。
+80|distilled|references/by-type/subdomain-takeover.md|带 API key 的子域查询示例；实际返回历史/当前窗口与可注册可信接管独立，不用 key。
+81|no_technical_content||Freddy 仓库卡片仅宣传 active/passive；DNS漏报具体证据在正文，图无触发轨迹。
+82|no_technical_content||纪念品图片；无技术机制。
+83|insufficient_technical_detail||phpMyAdmin setup High 报告标题；没有匿名请求或实际配置写入。
+84|no_technical_content||P1/CRITICAL 奖励邮件；没有 GraphQL 查询或对象权限。
+85|distilled|references/by-type/authn-session.md|登录大小写限流到 ATO 奖励标题仅有限候选；账号规范化/计数器低量对照，不能推造实际链。
+86|no_technical_content||CSRF duplicate/low/paid 标签；无机制。
+87|no_technical_content||Facebook for business 插图；无订单金额或支付链。
+88|no_technical_content||XSS payload 仓库社交卡片；没有保存载荷。
+89|no_technical_content||重定向奖励和请求披露聊天；未显示批准或技术条件。
+90|no_technical_content||Pinecone 标识；无无线协议机制。
+91|no_technical_content||script 插图；无消费者。
+92|no_technical_content||重定向 High/奖金额与状态；RXSS 链不在图中。
+93|no_technical_content||头像 HTML 注入奖励；没有具体渲染或跨用户机制。

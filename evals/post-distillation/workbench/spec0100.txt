@@ -1,0 +1,118 @@
+1|new_knowledge|sql,waf|%23/%0A注释换行与distinctrow需绑定实际解码/方言/SQL模板；MySQL官方说明#到行末、DISTINCTROW同DISTINCT，不保证.0union或全局WAF绕过。
+2|excluded|source|VPN半年优惠推广无漏洞技术内容。
+3|merged|strategy,business,source|100plus tips宣传无具体正文机制；现存13检查图并入先建消费者/权限模型再择候选，不采fuzz all为全量执行许可。
+4|merged|expert,source|FAQ宣传与现存定义图并入已提炼类别判据；对象引用不自动越权、RCE不自动整机控制、SSRF能力需取址链。
+5|excluded|cmd,source|Apple0day文章链接未保存处理链，全文按用户口径覆盖。
+6|excluded|csrf,auth,source|电话验证CSRF文章标题无保存挑战/请求来源/状态条件。
+7|corrected|files,source|修改PHP上传声明MIME不改变字节/后缀/存储/解释器；multipart部分、外层请求与最终响应类型分开，不称通用图片绕过。
+8|excluded|sql,source|Time-Based SQL到dump标题无保存时序/查询/行读取证据。
+9|merged|auth,source|仅保存1/n两身份两个标签页注册准备，缺邮件挑战/消费/最终身份；并入挑战主体与流程绑定，不补未保存线程。
+10|new_knowledge|lfi,source|nginx404与assets../index.php例需actual location/alias/root/规范化/静态或PHP handler；文件夹名字不保证源码泄漏。
+11|excluded|report,source|求转发联系MSRC没有技术内容，未联系或发送消息。
+12|merged|auth,report|前一锁账号帖子博客公告并入锁定/会话/恢复状态，公告不补新的验证回执。
+13|excluded|report,source|Vardot名人堂致谢无具体漏洞链；名单图不作复现证据。
+14|excluded|source|Shepard/BITS工具标题无保存执行链，装饰图非技术，未下载/执行。
+15|excluded|strategy,source|会员致谢与0/125个人主页不证明训练完成或真实漏洞覆盖。
+16|excluded|expert,source|AD cheat sheet链接无保存细节；过程列表图未显示各边前提/回执，另审。
+17|merged|xss,waf|小于号多种转义建议并入实际HTML/JS上下文、解码与最终码点，OWASP链接不支持全部组合普遍绕过。
+18|corrected|scope,source|diodb 2291与good-faith/authorization/奖金比例为历史统计，不能给当前项目行动授权或把各标签等价。
+19|excluded|ssrf,cloud,source|GitHub recon九个SSRF/metadata标题没有保存各独立取址与云能力证据。
+20|corrected|cmd,ssrf|shell元字符/反引号/DNS/ping建议需实际shell、短路/命令替换、参数位置及输出/时序；ping -c片段不保证有效延时，未外传whoami。
+21|new_knowledge|passive,records|Bash /dev/tcp图是254×5候选主动TCP尝试，shell支持/超时/错误与开放服务身份分开，非UDP或跨OS普遍扫描。
+22|excluded|android,strategy,source|Android课程报名/演示链接与价格图无保存教学机制，未报名/联系。
+23|excluded|ssrf,doc,source|SVG到PDF SSRF文章标题无保存渲染/外部引用/取址链。
+24|excluded|cmd,source|Airflow1.10.10 RCE标题无保存配置/handler/执行证据，全文按用户口径覆盖。
+25|excluded|passive,source|Typodetect域名变体工具介绍无结果，装饰地址栏不证明活动或所有权。
+26|corrected|fuzz,secret,report|ffuf最速奖金时间线无请求和监控日志内容；所示URL无FUZZ标记不补真实字典位置，Triaged/奖励非普遍成功保证。
+27|corrected|xss,waf|SVG onload confirm候选需实际HTML/SVG解析、事件、净化、CSP、浏览器及部署规则；装饰梗图不是Cloudflare绕过证明。
+28|excluded|records,source|30+在线安全工具宣传没有保存执行结果；现存菜单不证明HSTS/HPKP/XSS防护已有效。
+29|excluded|strategy,source|pentestbook推荐无保存完整内容，外链全文按用户口径覆盖。
+30|corrected|passive,source|GgDorker免CAPTCHA宣称并入搜索采样/阻断/索引范围，不执行规避或自动查询，封面无机制。
+31|merged|fuzz,records|vaf grepping/encoding/prefix/suffix列表及状态样本并入配置/真实URL/响应身份；200与404同长度未证内容或权限。
+32|merged|auth,report|锁账号案例更新博客公告不补原始状态验证，沿前批会话锁定契约。
+33|excluded|source|计算机专家/Linux梗图无漏洞技术内容。
+34|excluded|source|x86/MOV梗图无漏洞处理链。
+35|excluded|passive,source|子域枚举工具链接没有保存名单方法/真实结果。
+36|new_knowledge|fuzz,records|Runtime file从运行时每行读取避免全列表驻内存，但不保证不崩溃或请求量下降；官方明确载荷不能含换行，需制品hash/游标与有限预算。
+37|excluded|strategy,source|直播活动公告/海报不包含技术问答。
+38|new_knowledge|container,source|Krane图拆subject/binding/role/rule/API组/verb/namespace；旧PSP需版本校正，不能把图中privileged false当当前准入保证。
+39|excluded|strategy,source|V3方法论仓库公告/统计卡无保存全文，外链按用户口径覆盖。
+40|merged|records,source|Caronte CTF流分析介绍与界面并入捕获/显示/导出/回放动作区分，按钮存在不证明请求执行或漏洞。
+41|corrected|records,source|Cobra输入200安装菜单不代表版本/全量安装成功或许可；不执行安装脚本/工具。
+42|excluded|files,source|unrestricted file upload文章公告没有保存具体消费者链。
+43|excluded|passive,source|子域工具目录转发无新机制，全文按用户口径覆盖。
+44|excluded|records,source|12个扩展名排行不提供实际权限/配置/流量结果，不推广最佳或当前可用性。
+45|excluded|csrf,source|CSRF视频公告没有保存请求来源、凭据与动作证据。
+46|excluded|source|漏洞搜索UI/分类与文章标题只是入口，不代表所有研究全文或当前漏洞证据。
+47|new_knowledge|xss,access,impact|IDOR改另一主体名称到存储渲染可形成跨读者XSS，但需逐条证明写入权、对象绑定、真实读者/语境；P5/P4/P2标签不能代因果。
+48|new_knowledge|xss,waf|stop/posting等冒号前缀在JS代码可为label；在href是URL方案消费者，不能把任意前缀当javascript等价或八个新漏洞。
+49|excluded|cmd,sql,source|Postgres已认证RCE链接/问能否root没有保存数据库角色、执行机制与OS身份，未执行 exploit。
+50|merged|ssrf,records|DNS-only建议与裁切图并入解析/HTTP/返回数据的分层证据；两个同标记DNS事件不证明SSRF全部能力或加@普遍有效。
+51|excluded|auth,xss,source|Joomla重置/存储XSS全接管标题无保存版本、挑战和执行链。
+52|excluded|cmd,source|ESXi OpenSLP heap overflow CVE walkthrough标题无保存触发/版本/崩溃或执行证据。
+53|excluded|source|只有hashtag及IDOR/BOLA笑话，不提供访问控制实例。
+54|excluded|source|新闻订阅推广无保存技术内容，未订阅。
+55|excluded|source|同类安全通讯推广无处理链。
+56|excluded|sql,waf,source|SQL WAF文章短链无保存模板/解析证据。
+57|new_knowledge|passive,records,source|F5图由favicon哈希→Shodan文本cut→httpx端口→CVE模板→另一targets文件TLS issuer；不能称所有F5 IP，IPv6冒号切分/集合缺口/--insecure和issuer筛选需纠正。
+58|excluded|files,source|文件上传文章再推广无保存正文，全文按用户口径覆盖。
+59|excluded|strategy,source|会议总结/讲者照片和奖金统计没有保存技术机制。
+60|excluded|expert,source|RedWarden工具介绍/允许阻断概念图无策略或真实绕过结果，不操作C2/绕过安全产品。
+61|excluded|android,source|WebResourceResponse文章标题无保存路由、响应/来源权限与WebView制品。
+62|excluded|report,source|OSRC奖励海报/头像alt无漏洞请求或权限证据，不扫描二维码/加入群。
+63|excluded|xss,source|Intigriti0521解题标题无保存处理链，未访问挑战。
+64|merged|expert,lfi|注意错误的建议并入错误来源/消费者核对；训练任务提示找用户和flag只是目标问题，不是已完成读取结果。
+65|corrected|strategy,cloud,source|VPS推荐含短期优惠/信用卡条件，只是历史资源安排；不注册、购买或把托管资格当扫描授权。
+66|merged|strategy,expert|学习PortSwigger建议并入隔离练习与机制理解，课程免费/全量/当前内容未由帖子验证。
+67|excluded|auth,source|Totp-Ssh-Fluxer标题本身警告bad idea但无机制，不运行或改变SSH配置。
+68|excluded|secret,source|Rockyou2021新闻标题无保存泄露真实性/来源条件，未下载或使用密码集合。
+69|new_knowledge|host,access,source|block.php三图完整可见来源头优先序与REMOTE_ADDR回退；header匹配已允许IP不代表真实网络源，welcomeback/IP Log字样非持久日志证据。
+70|corrected|prop,access|从响应复制缺失参数改admin需字段可写许可/服务端绑定/最终权限；可读字段不等于写字段，不能复制全部敏感响应或保证BAM ADMIN。
+71|excluded|strategy,source|第一目标选择问题无具体项目条件。
+72|excluded|xss,source|Moodle recon到XSS短链无保存技术过程。
+73|new_knowledge|xss,auth,source|JSONP须目标真实返回可执行回调和实际携带身份；CORS凭据头正确名字与经典script/模块/fetch不同，缺头不使任意JSON变JSONP。
+74|excluded|secret,report,source|首次奖金信息暴露宣称与200美元脱敏邮件缺请求/内容，不补漏洞因果或实际付款完成。
+75|excluded|scope,source|美国VDP上线新闻没有当前具体资产/资格/动作授权。
+76|excluded|strategy,source|坚持建议与休息笑话无可提炼技术机制。
+77|excluded|source|Rust C2框架介绍/标志无保存技术边，未安装或连接。
+78|excluded|passive,source|recon-map脚本介绍与仓库卡无实际流程/执行结果。
+79|merged|records,source|Caronte转发并入流记录/回放区别，不视转发为独立实证。
+80|new_knowledge|passive,scope|IPv6图的PTR/SAN/AAAA/被动DNS/BGP/猜地址来源需时点、关联和地址族范围；同IP/同网段非自动授权，不继承监听、P2P或穷举动作。
+81|excluded|passive,fuzz,source|crawl/fuzz文章推荐无保存方法全文。
+82|corrected|strategy,scope|不同平台更易valid宣称不保证收益；历史平台名单不自动证明当前存在、邀请或范围，逐项目正式规则核对。
+83|corrected|auth,access|wp-login存在与默认凭据失败不证明后台可入/不存在问题；身份尝试独立预算，不根据提问继续猜真实密码。
+84|new_knowledge|records,passive|page-fetch无头浏览器加载JS/CSS/图/XHR并可执行JS，属于真实多消费者出站，不是纯被动抓取；来源scope/第三方/重试/身份分别约束。
+85|excluded|source|ColdFire恶意软件库标题无保存代码或结果，不下载执行。
+86|merged|passive,secret|content/dam txt dork是索引线索，通配/组织/扩展和时点不保证所有权/私密数据；获奖金未补正文内容。
+87|merged|expert,source|分享新知识建议并入可追溯来源与机制，资历/热度不代验证。
+88|corrected|report,impact|三位数奖金/学JS建议与邮件实际四项各50总200需按可见信息记录，不推一周全部收益或技术根因，未签约/付款。
+89|new_knowledge|xss,ssti|team name模板表达式在hover触发的描述需客户端模板编译/作用域/渲染读者与server模板区分，反射为1不自动证明SSRT或所有框架执行。
+90|merged|auth,logic|无需旧密码改密的提问并入实际最近身份验证/合法恢复挑战/会话风险契约，不把未要求旧密码单独定漏洞。
+91|corrected|references/by-type/desktop-client.md,xss,source|纯web攻击变体明确仅IE且受限非HTTP响应条件，保留攻击者模型/消费者差异，不推广所有浏览器或自动要求MitM。
+92|excluded|scope,source|Bbscope范围聚合工具标题不补当前项目正式规则，图标非范围证据。
+93|excluded|passive,strategy,source|被动侦察直播片段标题无保存技术问答，未订阅/访问视频。
+94|corrected|auth,records|has2fa true改false两图authenticated始终true，其他身份头已遮蔽；本地响应不证明服务端挑战失效或新权限，沿原会话/权威动作核对。
+95|excluded|source|TryHackMe Safezone文章公告无保存解题机制。
+96|excluded|source|modprobe文章题名无保存配置/系统动作，不操作内核模块。
+97|excluded|source|Mimikatz更新文章标题无保存实现，未下载/执行或读取凭据。
+98|merged|xss,impact|self-XSS升级研究摘要并入实际其他主体写入/读者/触发边，全文按用户口径覆盖，不把摘要当全链证明。
+99|excluded|auth,source|LastPass严重漏洞链接与正则海报缺输入到密码消费者完整链，不宣称所有密码已泄露。
+100|excluded|logic,auth,source|二阶竞争标题/High Triaged1000美元标签没有注册状态顺序/原始请求，不能补ReCAPTCHA实际被破解。
+101|merged|android,ios,source|mobsfscan语言/Semgrep/MobSF规则介绍并入静态候选→实际制品/调用链/平台条件，工具命中不代表活漏洞。
+102|new_knowledge|web,passive|路由admin/users存在不意味着admin有路由或物理目录；从实际路由表/正常流程恢复接口，父路径404不抹掉子路由能力。
+103|excluded|source|SharpWebServer NTLM捕获功能标题无保存链，不启动服务/收集hash。
+104|excluded|source|社交营销软件100%优惠无漏洞机制。
+105|excluded|strategy,source|OSCP经历文章公告无保存技术过程。
+106|excluded|web,source|OpenAPI scanner标题没有保存schema、操作身份或实际扫描结果。
+107|excluded|source|SQHell训练文章标题无保存查询/权限机制。
+108|excluded|xss,source|bugpoc XSS解题题名无保存处理链，未访问挑战。
+109|excluded|auth,source|Duo2FA文章标题无保存版本、挑战与服务端身份过程。
+110|new_knowledge|xss,waf|圈字母host到ASCII函数名应区分URL IDNA/UTS46映射与JS computed property/tagged template；不称NFKD通用转换，正文链接格式与图代码还需保存差异。
+111|merged|xss,waf|日语解说图显示a.host alert和控制台弹窗，只证明控制台可执行后取函数链，不证Twitter外来输入XSS，未求值。
+112|merged|expert,source|缺少批判思考的提醒并入机制/反例/来源核对，emoji无额外技术内容。
+113|new_knowledge|references/by-type/prototype-pollution.md,records,fuzz|原型污染管线grep VULNERABLE同时命中NOT；值exploit/与判断exploit不同且stderr隐藏，window属性不自动原型变化/gadget，未执行page-fetch。
+114|new_knowledge|host,passive,scope|vhost建议及图同IP即etc/hosts说法错误；DNS/SNI/Host/后端配置独立，连接不变改host仍需每租户范围，限速不替代授权。
+115|merged|auth,expert|登录十类别图并入来源→消费者→身份/权限证据；response manipulation/默认凭据/CSRF类别不能替代实证或全覆盖。
+116|excluded|sql,waf,source|libinjection标题/针筒装饰图不说明当前分析算法或实际拦截效果。
+117|merged|references/by-type/prototype-pollution.md,records|page-fetch原型污染文章与工具入口并入113属性来源/实际browser出站，外链全文按用户口径覆盖。
+118|excluded|references/by-type/desktop-client.md,source|Chrome FileSystem Access API奖金视频标题无保存API条件/权限或代码链，未访问视频或打开文件选择器。

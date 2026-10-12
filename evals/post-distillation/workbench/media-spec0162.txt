@@ -1,0 +1,87 @@
+0|no_technical_content||Darkdump2logo无查询/数据。
+1|distilled|references/by-type/authn-session.md|post.MessageAccessToken概念卡称parentwildcard/*；应区分targetOrigin与接收event.origin/source，parent本身不设wildcard。
+2|distilled|references/by-type/authn-session.md|HerokuPoCalerttokenJSON，没有handler代码或收件origin/source/下游权限。
+3|distilled|references/by-type/authn-session.md|HTTP2002021gunicorn bodywindow.parent.postMessage({token},"*")，敏感值不复写；目标父文档可控/嵌入与有效身份需独立证明。
+4|distilled|references/hunting-strategy.md|Consistency图exposedgit/DjangoDebug/SwaggerUI称infra扩展/钱；入口存在非实际漏洞，全infra必须scope筛选和根因/重复报告界定。
+5|no_technical_content||2023XSSHunter统计1000reports/git20/cloud15/CORS100、底部deleted标记，无样本/规则/隐私实证，非完整valid数量。
+6|distilled|references/reporting.md|BXSSmarketing localhost3000reportpopup示例testphp.vulnweb采集URLcookieUA/referrer/time/origin/screenshot/hostname，示例和可选DB不证明隐私控制或已实现。
+7|insufficient_technical_detail||huntrCVEnotification无报告内容/实际CVE编号，body仅自动→手动建议。
+8|distilled|references/by-type/xss.md|FiveMnui://easy-chatJSalert场景1，无输入源/存储/权限/受害步骤。
+9|distilled|references/by-type/xss.md|FiveMnui://easy-chatalert场景2同样缺链，只游戏画面和对话。
+10|no_technical_content||XSSHunternotification94/100/100摘要，无独立目标来源或执行事件数，重复轮询不等漏洞数量。
+11|no_technical_content||GorksGithub70stars8forks卡无查询/实现。
+12|distilled|references/discovery/passive-and-services.md|钥匙遗失告示含钥匙照片/地址/回家时间，物理信息类比，无SQL/XSS输入sink；不复写地址。
+13|no_technical_content||演讲者舞台照片无slides。
+14|no_technical_content||Day24XSSwriteups标题卡。
+15|distilled|references/by-type/cmd-injection-rce.md|C99Shell2.0PHP7Update2019页面有文件/command/upload/FTP等按钮，只已有shell界面能力不是远程入口，组件真实输出/权限未保存。
+16|distilled|references/by-type/authn-session.md|Nextcloudresetpassword图150以上成功登录与2500崩溃声称，后续影响图裁切；LowDoS标签不证资源/全站耗尽。
+17|no_technical_content||XSS绕修复350奖励遮蔽报告ID内容，无payload/修复对照。
+18|distilled|references/discovery/web-and-api.md|FockCacheXForwardedHost请求1–10全False、Scheme1–7False，未显示实际响应缓存key/独立读者，NoMatch非全覆盖。
+19|distilled|references/by-type/ssrf.md|GET/view_postdocument.php?doc=http://localhost/server-status→Apache2.4.37Amazon/127.0.0.1preforkHTTP200sample，只说明localhost内容候选没有metadataBeanstalkRCE。
+20|distilled|references/by-type/cmd-injection-rce.md|gtfo输出sqlite3shell/filewrite/import/fileRead/sudo/limitedsuid范例，在已执行binary/特权前提，未执行或获得目标权限。
+21|distilled|references/by-type/desktop-client.md|PoisonHandler附件只msf5reverseTCP监听192.168:4444Started，无WMI/registry/callbacksession；监听不等远程执行。
+22|no_technical_content||Zyxel2023certificate无漏洞技术。
+23|distilled|references/hunting-strategy.md|awesomebuilderREADME21工具名Amass/Sublist/gau/httpx/gf/kxss/sqlmap/commix/tplmap/hydra/john/evilwinrm/arjun等，未规则/实际结果。
+24|distilled|references/by-type/authn-session.md|PrivilegeEscMobileblog绿色二进制艺术封面无0→1过程。
+25|insufficient_technical_detail||H1多CriticalSQL和disabledAPIusername/dbname triagedfeed，图只metadata报告序号，无技术因果。
+26|distilled|references/by-type/ssrf.md|NextcloudThrowIfLocalIp代码先filtervalidate真才排除私网/reserved/100.64.0/10/192.0.0/24，截图后半裁切；不匹配IP语法可能跳过校验而消费者接受，未具体payload。
+27|distilled|references/by-type/desktop-client.md|JitsiWinlaunchbrowser命令注入历史beforecommit8aa... CVE43550摘要，Critical改High/777Retest，未保留命令字符串/argv样本。
+28|distilled|references/by-type/desktop-client.md|Nextcloudnclinklocaledit QDesktopServices::openUrl(QUrl::fromLocalFile(foundFiles.first())) inQtConcurrent；deeperpath任意关联程序可执行，Win10PoC以下裁切/CVE41882。
+29|distilled|references/by-type/idor-access-control.md|EXNESSpartnerIndia禁止autorebate403，POST//api/v2/autorebates/groups/JSONJWT图声称成功create但bodyresp裁切；需路径与同权/同动作终态对照。
+30|distilled|references/by-type/mobile-android.md|AndroidAES diagramAppencrypted→mitmproxy1decrypt→Burpplaintext→mitmproxy2encrypt→server，算法模式padding/authnonce及keys缺失，双向比完整包/MAC不是图证明。
+31|distilled|references/by-type/info-secrets.md|H1historicalreport1540969复测视频poc-h1.mp4泄露三个未披露报告title/program/severity；此帖图只描述steps，无video/三报告原内容。
+32|distilled|references/discovery/passive-and-services.md|WHOIS缓存NetRangeATTMobility107.224/11及priorAmazon/14，连续IP无lookup输出表示缓存，IP列表不等组织assets/scope。
+33|no_technical_content||GitHubmonthblog标题日期Introduction第一行裁切，coffeecover无漏洞方法。
+34|no_technical_content||Day26十一XSSlabs标题无列表。
+35|distilled|references/by-type/info-secrets.md|Codebeautifydorksiteorg"target.com"截图7resultsxml/jsonviewer含orderdetails/phone等片段，publicpaste/jsfiddle/codepen用途/归属/当前敏感性未核。
+36|distilled|references/by-type/cmd-injection-rce.md|backdoorhelpprint_help getantivirus/OS/TCP/BIOS/publicIPapi.ipify/getloot/getfile capability菜单，只已控制shell无入口/远端session。
+37|distilled|references/discovery/passive-and-services.md|Nmap1目标范围/list/random/exclude扫描SYN/connect/UDP/ACK/window/maimon/发现Pn/ports含0图，全候选行为必须协议预算而非全部任意scan。
+38|distilled|references/discovery/passive-and-services.md|Nmap3NSEdefault/smb-vuln/dnsbrute/SQLexample与碎片/decoy/spoof/proxy；称defaultsafe不保证每脚本副作用，随机1000targets越scope。
+39|distilled|references/discovery/passive-and-services.md|Nmap2sV/intensity/OS-A和T0–5、timeout/rtt/parallel/retries/minmaxrate；min-rate下界不是安全上界，多worker总预算。
+40|distilled|references/discovery/client-and-cloud.md|Firefox13addons名单无实际版本设置/测试，新载荷不是bugproof。
+41|distilled|references/by-type/info-secrets.md|Apache2.4.18Ubuntu2021preforkstatus表PIDCPUclient127/IPv6loopbackvhost81Getlogin/ilias/XDEBUG_SESSION，无完整secret字段；via127不是外部viewer权限证明。
+42|no_technical_content||HubSpotATO艺术图无方法。
+43|distilled|references/discovery/passive-and-services.md|ChatGPT10noveldorks截图只1–4WordPressxmlrpc/vbulletin版本误推、servercloudflare log/gitHEAD无范围限定；novel不证准确。
+44|distilled|references/by-type/ssti.md|Day27SSTI标题卡。
+45|no_technical_content||Androidhacking101repo236stars25forks，无资源正文。
+46|no_technical_content||Podcast3NehPatel封面，无访谈。
+47|distilled|references/by-type/open-redirect.md|HacklidoOpenRedirect推广内手机截文解释dashboard→login正常重定向、机制底裁切，无输入/恶意目的地结果，正常redirect反例。
+48|no_technical_content||2022WebTop10排名标题，OAuth/desync/memcache/SAML/binder/header/cache/Java/Web3十类，没有techniques内容。
+49|no_technical_content||cricketburgermeme政治hashtags无安全技术。
+50|distilled|references/targeted-fuzzing.md|CombinedWordlistrepo132stars39forks无词条实际结果。
+51|distilled|references/by-type/cors.md|CORSallowlist图Origin缺scheme列不同TLD/subdomain左右拼接等→reflect就vuln断言；错误，实际browserOrigin规范/credential/privatebodyread/子域可控及scope独立。
+52|distilled|references/by-type/mobile-android.md|Android全图：storagefile_paths broadroot external/Firebase.json/sqlite、CBC/staticIV/hardkey/XOR、APIheaders/sharedtoken、exports/WebView/deeplink/SDKorigin/pluginpermission，各有消费者/版本/权限条件。
+53|distilled|references/by-type/xss.md|atag6mutationpositions byte09/0a/0d/0c20/2f、HTMLreferences、URLencoding/unicode whitespace图底右裁切；HTML tokenizer→URLparser→JS3consumers different notallencodingvalid。
+54|distilled|references/by-type/authn-session.md|Hackrate私项目奖励mask金额，无JSON列表多attempts。
+55|distilled|references/by-type/mobile-android.md|AndroidtutorialBroadcastReceiverTIMEZONE_CHANGED Toast和emulatorsettings，无exportpermission/第三方Intent/consumer结果。
+56|insufficient_technical_detail||H1报告列表desync/googlekey/sharepoint/clickjack/cachepurge/config/RTP，无请求响应链。
+57|distilled|references/by-type/authn-session.md|SignupPOST/api/v1/user/create email已有400exists，emptyAuthorization/date10:55:22，无其它写入。
+58|distilled|references/by-type/authn-session.md|同signupemail追加JSON\\n得到201success返回邮箱末尾无换行，date10:54:00更早、ContentLength仍95；creationresponse不证原账户覆写/登录，时间与长度需保留限制。
+59|no_technical_content||Emailcheckerlogo无邮件交换。
+60|no_technical_content||Day28SSTIpinpoints标题。
+61|distilled|references/discovery/passive-and-services.md|hunterhowQueryGuide complete fieldsip/domain/suffix/http/product/version/location/cert/JARM/favicon/ASN及==exact/=fuzzy/!==/!=andor；fingerprintnotownership/currentuse。
+62|distilled|references/by-type/info-secrets.md|secretsdb2kstars192forks卡无1600regex正文/测准率。
+63|distilled|references/by-type/info-secrets.md|Splunkmasked/en-US/splunkd/__raw/services/server/info/server-info?output_mode=json旧through7.0.1/CVE2018-11409/licensekey说法，无actualJSONresponse/APIpermissions。
+64|distilled|references/by-type/info-secrets.md|TwitterDeletedPoll2020摘要UI删除但政策时间以外仍API可读，Resolved560High，无接口/30day实测。
+65|distilled|references/by-type/business-logic.md|Stripepromo TEST redemptionlimit1UI及race说法Low3.7TOCTOU250，实际并发requests/result图未保存。
+66|no_technical_content||StepbyStep艺术图，无14phases正文。
+67|no_technical_content||Day29SSTIlabs标题无实验。
+68|distilled|references/by-type/ssrf.md|IPshorten图1.0.0.1→1.1/127→127.1/192.168→192.168.1是特殊解析，不是任意去零/所有WAF必过；canonicalconnect控制。
+69|no_technical_content||ContentDiscovery封面模糊dirsearchbackgroundlogin/admin，未metadata正文。
+70|distilled|references/by-type/desktop-client.md|InvokeTransferhelpclipboard120KBchunks+guaca/base64merge+WinOCR图片read，Win10+OCRnotaccurate；已授权远程桌面clipboardcapabilities/数据完整性不证逃逸边界。
+71|distilled|references/discovery/client-and-cloud.md|ZAPAJAX附件WindowsFirefox/geckodriver多个进程内存使用，无目标requests/URLs/登录身份/完整爬取证明。
+72|insufficient_technical_detail||H1Resolveddebug.logserverfullpath notification无具体日志正文。
+73|distilled|references/by-type/xss.md|H1TriageWizardChromeExtension开启→URLreportsubjectsecuritybugs1→右键ViewTriageQuestionnaireBeta→HTMLinjected，mayXSS/videocover实际code不可读，扩展消费者前提。
+74|distilled|references/impact-and-acceptance.md|NucleisortcriticalmissingCSP/highSSLissuer/mediumNS/WAF等不同hosts协议/training;sortlabel不是actualimpact，保留originalrecords规则。
+75|distilled|references/by-type/info-secrets.md|InspectivValidatingmasktitleAccessToken，非token实际读取或验证链。
+76|distilled|references/by-type/idor-access-control.md|403secret→secret/ secret/. //secret// ./secret/./200图没body/identity/redirect；真实规范路由授权不能仅状态对照。
+77|no_technical_content||Day30SSTITopReports标题。
+78|distilled|references/by-type/idor-access-control.md|8x8 自有租户停用后仍可访问 /api/v1/users/UUID/roles；图片是历史报告摘要和已修复状态，没有原始请求、响应或跨租户证明。
+79|distilled|references/by-type/authn-session.md|JaaS 用户被管理员移出 workspace 后旧 cookie 仍能读写的历史报告；需分别验证移除前权限、撤销完成、旧会话同一操作和新会话对照。图片没有具体写入结果。
+80|distilled|references/by-type/oauth-oidc.md|无 Rooms 权限成员可启动 calendar OAuth 的历史报告：GET /meet-external/spot-roomkeeper/v1/calendar/auth/init，successRedirectUrl 指向 rooms/add；页面同时显示无权限，未展示授权完成或实际房间创建。
+81|distilled|references/by-type/idor-access-control.md|8x8 support requests/<ticketnumber> 暴露内部代理数据的历史摘要；未展示响应字段、工单归属或访问角色，不能据此确认任意工单越权。
+82|distilled|references/by-type/idor-access-control.md|POST /api/v1/users/<UserID>/invites 可冒用其他管理员发邀请及受限 User Management 角色可邀请管理员的历史摘要；需区分显示署名、实际发起主体和接收者最终角色。截图评级与时间线不同，保留事实而不推算当前风险。
+83|no_technical_content||WebHackingPlayground 标志图片，无实验环境、输入点或利用过程。
+84|distilled|references/discovery/client-and-cloud.md|Caido 产品界面展示 scope、历史、请求/响应以及 example.com 的 favicon 404；只说明代理工作流，未展示新漏洞或扫描覆盖。
+85|no_technical_content||Burp Suite Certified Practitioner Exam Study 仓库预览卡，仅标题、作者和 stars/forks，无考试步骤或代码。
+86|distilled|references/discovery/web-and-api.md|Burp Response modification rules 的 Convert HTTPS links to HTTP 复选项图；属于本地响应改写，仅改变链接文本，不能证明服务器 HTTP 支持、Cookie 安全旗标变化或认证绕过。

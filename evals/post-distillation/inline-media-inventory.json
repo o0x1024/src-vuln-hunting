@@ -1,0 +1,8 @@
+{
+  "verified_at": "2026-10-09T04:55:57.106085+00:00",
+  "source_documents_scanned": 52716,
+  "inline_occurrences": 9,
+  "unique_inline_contents": 3,
+  "all_detected_inline_contents_visually_reviewed": true,
+  "scope": "All data:image prefixes in current saved Markdown accounted for; source document hashes and decoded binary hashes bound. No text-body verdict inferred from this image review."
+}

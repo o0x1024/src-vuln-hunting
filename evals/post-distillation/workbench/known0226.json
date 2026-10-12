@@ -1,0 +1,108 @@
+[
+  {
+    "name": "1811724122726260839-02.jpg",
+    "sha256": "9be5d22d306d6c7cebfe92ec37f46fbbda592052825f3f8b47f6cb3aa91fa627",
+    "prior": {
+      "sha256": "9be5d22d306d6c7cebfe92ec37f46fbbda592052825f3f8b47f6cb3aa91fa627",
+      "example_post_id": "1317218511937261570",
+      "image_name": "1317218511937261570-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md",
+        "references/discovery/web-and-api.md",
+        "references/source-audit.md"
+      ],
+      "note": "完整XOriginalURL/Referer到api/getUser200示意，无protectedbody/realprincipal；信任层/后端handler/同对象权限已有，未probe。",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:38:01.410214+00:00",
+      "batch": "media-0051"
+    }
+  },
+  {
+    "name": "1811724122726260839-03.jpg",
+    "sha256": "64c6bef208fb944794a93f22c0fab717a8fde79fc8b01d6431aab57488c48290",
+    "prior": {
+      "sha256": "64c6bef208fb944794a93f22c0fab717a8fde79fc8b01d6431aab57488c48290",
+      "example_post_id": "1317218511937261570",
+      "image_name": "1317218511937261570-03.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md",
+        "references/discovery/web-and-api.md",
+        "references/by-type/api-property-pollution.md"
+      ],
+      "note": "完整十一种表示json/path/APIversion/params变体，bypassok无实际对象能力；&在path不必query/不同APIhandler和对象引用另证，未批量改真实ID。",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:38:01.410613+00:00",
+      "batch": "media-0051"
+    }
+  },
+  {
+    "name": "1811724122726260839-04.jpg",
+    "sha256": "1a39a8a3aaf1fa8626545e9edfbf0a55795d8f154e5de07dccc4837feb9750e0",
+    "prior": {
+      "sha256": "1a39a8a3aaf1fa8626545e9edfbf0a55795d8f154e5de07dccc4837feb9750e0",
+      "example_post_id": "1317218511937261570",
+      "image_name": "1317218511937261570-04.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md",
+        "references/discovery/web-and-api.md",
+        "references/source-audit.md"
+      ],
+      "note": "完整API变体符号表与headers，文字fragment/百分编码/路径/表示后缀不同解析，既有实际出站/规范化/权限条件，无真实请求。",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:38:01.410865+00:00",
+      "batch": "media-0051"
+    }
+  },
+  {
+    "name": "1811949326936993821-02.png",
+    "sha256": "6d7c57b8284ae69cd1bebe405150dbd4112c25bd8a9e496d4140f9c31b704838",
+    "prior": {
+      "sha256": "6d7c57b8284ae69cd1bebe405150dbd4112c25bd8a9e496d4140f9c31b704838",
+      "example_post_id": "1585468941480124416",
+      "image_name": "1585468941480124416-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "TikToklogo无监控机制。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T18:12:10.996Z",
+      "batch": "media-0140"
+    }
+  },
+  {
+    "name": "1812899160896516124-03.png",
+    "sha256": "c8637acc000066b5d0c6b791d6b9f3a69bbb2b17f0a3811298153c2f400f0736",
+    "prior": {
+      "sha256": "c8637acc000066b5d0c6b791d6b9f3a69bbb2b17f0a3811298153c2f400f0736",
+      "example_post_id": "1573505198857003008",
+      "image_name": "1573505198857003008-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/ssrf.md"
+      ],
+      "note": "POST 表单 url 指向元数据路径，200 正文列出 id、hostname、user-data 等目录名；是响应内容证据，仍须排除模拟/客户端代取并确定服务端请求，目录名不等于凭据读取。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T17:24:57.194Z",
+      "batch": "media-0136"
+    }
+  },
+  {
+    "name": "1813197770984976805-02.png",
+    "sha256": "afe358b01302f053e9cddb5df3b1c41facc83b6abf5abe84e22e8a8b430752dc",
+    "prior": {
+      "sha256": "afe358b01302f053e9cddb5df3b1c41facc83b6abf5abe84e22e8a8b430752dc",
+      "example_post_id": "1672758000946233344",
+      "image_name": "1672758000946233344-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/xss.md"
+      ],
+      "note": "url=%26%2302java%26%23115cript alert(document.domain)browserdialog+redactedorigin，明确02非2；querypercent与numericHTML后consumer控制character归一化，无href/DOM完整trace",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T02:11:39.751Z",
+      "batch": "media-0175"
+    }
+  }
+]

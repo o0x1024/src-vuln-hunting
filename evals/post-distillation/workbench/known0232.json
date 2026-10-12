@@ -1,0 +1,40 @@
+[
+  {
+    "name": "1828770460106211447-02.jpg",
+    "sha256": "a5ba826d9d4f083e41b29adba653744e3107ce46dedfbaeff4bf98e127d5c8da",
+    "prior": {
+      "sha256": "a5ba826d9d4f083e41b29adba653744e3107ce46dedfbaeff4bf98e127d5c8da",
+      "example_post_id": "1828439830721896787",
+      "image_name": "1828439830721896787-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/source-audit.md",
+        "references/discovery/web-and-api.md",
+        "references/targeted-fuzzing.md",
+        "references/discovery/records-and-incremental.md",
+        "references/scope-and-rules.md"
+      ],
+      "note": "JS隐藏参数链使用[gau｜｜hakrawler｜｜waybackurls｜｜katana]与$[curl]等不可靠Shell写法，grep var仅提取变量名而非服务端参数，过滤媒体扩展会丢候选且URL直接加?会破坏已有查询。以静态源码真实请求构造/路由和响应证明消费字段，保留来源、正确解析URL，100线程不作默认，不执行图中链。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T22:51:21.367Z",
+      "batch": "media-0225"
+    }
+  },
+  {
+    "name": "1830474707688136892-02.jpg",
+    "sha256": "888aa45bbba821af91bd5c2aa742b7333a502ca8d5d2d2cf224e649a437e5869",
+    "prior": {
+      "sha256": "888aa45bbba821af91bd5c2aa742b7333a502ca8d5d2d2cf224e649a437e5869",
+      "example_post_id": "1679414626272854016",
+      "image_name": "1679414626272854016-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/passive-and-services.md"
+      ],
+      "note": "Google dork 图按 filetype/intext/inurl/intitle/cache/info/phonebook/map/link 和产品/敏感词分类，旧语法、拼写、引号和搜索支持未核验，产品标识/关键字不证明漏洞、秘密或所有权，不查真实人员或获取数据。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T03:06:28.348Z",
+      "batch": "media-0177"
+    }
+  }
+]

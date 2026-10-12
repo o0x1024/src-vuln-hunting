@@ -1,0 +1,109 @@
+0|distilled|references/by-type/idor-access-control.md|Radancy报告称单一公开链接可搜索png/user并下载上传文件、访问XML。图只展示叙述和遮挡域名，无实际文件响应；须确认是否预期公开分享、枚举边界和非公开文件的账号对照，不能由叙述概括所有文件。
+1|distilled|references/by-type/info-secrets.md|Mantra终端从js.txt读取输入并标出JS地址旁脱敏键值。工具标签不证明键有效或属秘密；记录实际源码位置、公开客户端用途和脱敏样本，不使用值。
+2|no_technical_content||人物影视动图，没有2FA漏洞机制。
+3|distilled|references/by-type/cors.md|Radancy报告显示带Origin example.com的sockjs POST请求，但响应头与可读取数据位于裁切外。须证明ACAO/凭据/preflight及浏览器可读敏感响应，任意Origin请求可发送不证明CORS影响。
+4|distilled|references/discovery/records-and-incremental.md|Wayback CDX原始多行有urlkey、2014/2015时间、原始URL、text/html、200、摘要和长度；多个时间共享摘要。时间和内容去重不同，不能把历史200当当前活性。
+5|distilled|references/by-type/ssrf.md|backend/bffwa?path指向169.254.169.254/latest/meta…，页面显示AWS-HMAC临时凭据结构Code Success/LastUpdated/Expiration，敏感值遮挡，路径末尾裁切。区分服务端取回、缓存/仿造与角色权限，不使用图中凭据；仅当入口及IMDS条件成立，不能通用同路径模板。
+6|distilled|references/by-type/ssrf.md|Burp GET backend/bffwa?path=http://169.254.169.254/latest/meta-data/返回metadata目录ami-id/iam/hostname/network等；Content-Type text/html、nosniff/CSP等头不能阻止服务端取回。状态行在画面外，需链路归因和受控对照。
+7|distilled|references/impact-and-acceptance.md|同案例评论研究者声称AWS凭据即完全访问实例，平台将High改Medium5.3并称键只能在该机器使用，随后奖励Resolved。两方影响判断必须结合IAM/来源条件和独立证明，不能认定所有实例可控或普遍相同限制。
+8|insufficient_technical_detail||Nintendo ENL空指针报告只见时间线、NULL Pointer Dereference/High7.7和奖励，细节隐藏，不能补造输入或RCE。
+9|distilled|references/by-type/idor-access-control.md|开放注册editor可编辑内容并披露25k邮箱的报告摘要、P1变更；没有请求和数据，需角色默认值、注册校验与两个自有主体的权限对照，数量/评级非证明。
+10|insufficient_technical_detail||Golang pprof报告状态与Medium5.3，无debug响应或具体泄露内容。
+11|insufficient_technical_detail||RXSS p_composite_street报告标题、P3/Triaged，目标隐藏，无实际执行上下文。
+12|no_technical_content||DEF CON装饰照片，无讲义内容。
+13|distilled|references/scope-and-rules.md|搜索项目用responsible disclosure、report security vulnerability、powered by hackerone、bug bounty、reporting policy等词。inurl/indesc示例不保证语法或搜索完整性，发现政策后仍读当前范围/允许动作，搜索结果不构成许可。
+14|insufficient_technical_detail||Node process.binding依赖策略绕过时间线CVE-2023-32559，High7.5降Medium5.5，输入和代码隐藏；不补造可达调用链。
+15|distilled|references/by-type/xss.md|image.hackerone.live url参数RXSS复测图含Safari弹窗及Accept差异：Safari无image/avif,image/webp，Chrome/Firefox包含。应比较内容协商/MIME与同一原始输入，弹窗微缩和请求缺失不补造payload/通用浏览器漏洞。
+16|no_technical_content||侦察工具仓库封面、stars/forks，无实际步骤。
+17|distilled|references/by-type/oauth-oidc.md|Nextcloud user_oidc CVE-2023-39953说明token issuer须匹配discovery issuer，与aud检查类似；作者明确没有OIDC环境验证且其他问题未核实，MITM影响仅声明。需受控两个issuer配置/签名/aud/iss对照，不能把代码意见视为已实现攻击。
+18|distilled|references/by-type/oauth-oidc.md|Nextcloud CVE-2023-39954区分公开client ID与私有client secret，明文DB快照读取可导致服务端冒名；secret需要原值不能简单hash替代，需独立密钥加密静态存储及DB/应用权限边界。截图没有实际DB或冒名请求，不推导远程任意读取。
+19|distilled|references/by-type/idor-access-control.md|Nextcloud Text CVE-2023-39961：user0分享图片文件夹但不允许下载，user1新建文本插图可下载预览，对常见类型AttachmentController可请求原图。需要区分预览与原图质量、共享查看权限与禁止下载承诺，并以自有图片对照，不说完全不受权限。
+20|no_technical_content||Nuclei updaterASCII封面，不含更新实现或检测结果。
+21|distilled|references/by-type/xss.md|URL参数带引号/脚本片段写入iframe src及JavaScript脚本src字符串，代码左/右裁切，实际执行未展示。iframe消息处理中frameId/height字符串处理另为候选，不能由邻近代码补造postMessage链或AdminATO。
+22|distilled|references/impact-and-acceptance.md|Uber摘要确认PhpDebugBar暴露凭据并曾登录，但强调开发中实例无真实数据、未连生产，保密/完整性影响低；侧栏Critical9.1与标题production冲突。记录事实与评级来源，环境边界必须保留，不称生产全部接管。
+23|distilled|references/by-type/xss.md|图列换行/percent编码javascript scheme和属性拼接top[ale+rt]、document/domain。编码行to%0Ap与解码示例需按URL层是否移除控制字符核对；javascript:在a/iframe/embed的支持、CSP/点击/源约束各不同，字符串拼接只躲词法匹配并非通用执行。
+24|insufficient_technical_detail||SQL文件/clientIDsecret泄露标题及P2 Unresolved Duplicate，无备份内容或访问过程。
+25|distilled|references/by-type/idor-access-control.md|LinkedIn草稿job直接查看报错但flag/report端点接受草稿ID，后续TrustSafety通知泄露部分草稿细节。跨账号对象与审核通知为独立读通道；需自有草稿和通知状态对照，避免向真实审核队列重复提交。请求正文被遮/底部裁切，不补造。
+26|distilled|references/by-type/business-logic.md|LinkedIn Premium价格篡改摘要确认个人账号大折扣，其他账号未受影响；side IDOR/High不说明具体参数。确认服务端价格/币种/试用资格/真实结算，用隔离支付测试；不能扩张全部用户资金损失。
+27|distilled|references/by-type/idor-access-control.md|未验证邮箱用户在normFirstPartyArticle API403及UI缺失，而POST /voyager/api/publishing/contentSeries据称可创建newsletter。服务端需所有同类发布入口统一验证状态，不只隐藏UI；图仅请求头底部裁切，后续响应/发布状态需另证。
+28|distilled|references/by-type/idor-access-control.md|精选图片删除以ImageId/ProfileId绑定主体，两个标识在公开图片链接中可获，不必暴力枚举。报告两个自有账号，捕获自己的DELETE再替换标识；实际服务器状态需确认，图下请求裁切，不对别人照片操作。
+29|distilled|references/by-type/idor-access-control.md|超级管理员降为analyst但原页面未刷新，仍能发布的报告步骤。分别比较旧/新页面和旧/新会话的服务端写权限，缓存UI只是线索；撤权必须在服务端实时/规定令牌寿命内生效，评级Low2.7不等标题critical。
+30|distilled|references/discovery/passive-and-services.md|在线SubdomainFinder展示uber368条部分列表，数据来源/时间和解析未显示。保存候选并核对当前DNS/归属/范围，数目不代表完整攻击面或漏洞。
+31|no_technical_content||Medium粉丝1503统计，无机制。
+32|distilled|references/discovery/passive-and-services.md|Rayder0.0.3按TARGETS_FILE/RATE40000/OUTPUT_DIR运行masscan→generate-output→save，输出http/https IP。扫描端口和格式化成功不证实HTTP/TLS/HostSNI应用可达；高速示例非默认安全预算，IPv4列表不授予许可。
+33|distilled|references/by-type/cache-deception.md|Glassdoor GET test.js?cb=1含X-Forwarded-Scheme http、X-Forwarded-Host受控域，报告称缓存跳转JS。图未见响应和另一个客户端缓存命中，Accept text/css及dest style也需确认实际资源用途；必须无注入头第二请求同缓存键/TTL对照，跳转≠脚本执行。
+34|distilled|references/scope-and-rules.md|历史PlayStation新增ca.account.sony.com、my.account.sony.com均URL bountyeligible true；资产新增与资格分字段记录，当前范围需重核不作为现行授权。
+35|no_technical_content||课程海报70hours34labsFree，自学资源宣传，没有测试步骤。
+36|distilled|references/discovery/web-and-api.md|robots.txt显示openresty404HTML源码，状态行未见；须真实状态/软404对照。
+37|distilled|references/discovery/web-and-api.md|robots.txt.dist下载26bytes，内容未见；备份/模板路径可发现部署线索但下载不证明敏感，需辨别正常robots默认文件。
+38|distilled|references/discovery/web-and-api.md|重复正文另一个来源图展示robots.txt404，同样不推导同环境/当前状态；保留本图自己的来源。
+39|distilled|references/discovery/web-and-api.md|重复正文另图robots.txt.dist26bytes下载，与原图不同尺寸，文件内容不见，仍只证明下载线索。
+40|no_technical_content||Synack装饰图，无prototype pollution过程。
+41|distilled|references/by-type/lfi-path-traversal.md|FileMage CVE39026模板GET /mgmnt/后编码反斜线../链指向programdata/filemage/gateway/config.yaml，匹配body user/filemage/localhost且200。Windows路径和规范化版本是前提，通用词+200可误报；verified/max-request标签不是执行证明，使用无敏感标记/修复版对照，不运行模板读取配置。
+42|no_technical_content||LeakScanner1.0InspiredGitleaks启动封面，无输入规则/命中结果。
+43|no_technical_content||Iraq榜单统计，无漏洞过程。
+44|no_technical_content||KAYAK奖励统计，无方法。
+45|distilled|references/by-type/authn-session.md|Burp前9请求200后429、Retry-After51，uvicorn JSON响应；证明按请求节流线索，图没见同一请求邮件数组或实发数量。正文说未计算单请求邮件数量/重复，需按受控接收者操作预算对照，避免发送垃圾消息。
+46|distilled|references/by-type/info-secrets.md|AWS GitHub查询覆盖amazonaws/aws_access_key_id/aws_secret/aws_token/连接RDS密码/bucket/S3_endpoint及org限定，配置字段/资源名/示例不同于有效秘密；记录所属repo版本、上下文和脱敏证据，不使用命中键。
+47|distilled|references/source-audit.md|Airflow JDBC Provider CVE-2023-22886 before4.0.0，Connection URL不限制可控驱动参数，可能通过不同driver执行代码提升到服务端权限。需低权限用户可改连接、驱动加载路径和任务实际消费，公告/Low标签不等所有部署RCE，源码片段底部裁切。
+48|distilled|references/source-audit.md|Airflow ODBC Provider CVE-2023-34395 before4.0.0，OdbcHook可控driver参数加载动态库，4.0.0起仅hook constructor设driver。需能改连接且任务消费、库加载权限/系统路径，参数注入与JDBC入口不同，公告非实际执行证明。
+49|distilled|references/discovery/passive-and-services.md|realm -d example.com -n3递归证书DNS名示例重复遍历com/org/edu/net八名字。每证书保留来源/时间，循环去重+depth/预算，SAN关联不等同同组织或授权，不把递归深度当完整覆盖。
+50|distilled|references/by-type/idor-access-control.md|WordPress开放注册报告自称可上传shell/编辑删除所有内容但实际正文只叙述注册enabled，New/High未核实。须确认默认role、管理权限、serveraction与自己账号状态，注册本身合法也可只是subscriber。
+51|distilled|references/by-type/crlf-response-splitting.md|Rayder子域→HTTP→CRLF探测示例含多个编码换行/Set-Cookie标记，ERR与VLN并存。工具成功仅流程结束，需原始响应中独立header/内容分割和浏览器/网关解析对照，HTTP筛选也会漏无HTTP候选，不自动cookie注入成功。
+52|distilled|references/discovery/passive-and-services.md|httpx1.1.2输出404GitHubPages、200API/docs、301support等技术标题；HTTP活性与DNS解析、非Web服务活性不同，404/301也应保留，技术猜测需独立核对。
+53|distilled|references/by-type/business-logic.md|评分UI显示14.1/5orders，正文说系统应最多5但续篇未保存；可能显示/聚合/服务器范围校验问题。比较单条评分输入和最终持久化聚合、类型/上限/重复提交，不由UI截图判定数据库所有评分可篡改。
+54|no_technical_content||IntroducingNucleiEditor视频封面，无模板。
+55|distilled|references/discovery/records-and-incremental.md|realm默认93条vs-n5 385条，首个命令sort -u > tee before.txt使用重定向而不是｜tee，不能原样认定before文件有输出；比较深度应同源同时间去重/失败账本，结果跨根域需再核范围，不单以计数推更全面。
+56|insufficient_technical_detail||Nuclei编辑器空白target example.com/StartwithAI/Scan界面，无已生成模板或检测证据。
+57|distilled|references/by-type/xss.md|PHP代码htmlentities token后去\n和\0但留\r，把input同时放Content-Disposition filename及JS TOKEN字符串。URL%0D与弹窗说明候选：PHP拒绝含CR头导致attachment不再发出、未做JS上下文编码；需原始header/warning/版本对照，非所有PHP头通用移除。
+58|insufficient_technical_detail||Cloudflareblocked页，仅显示拦截和genericSQLmalformed说明，没有绕过操作。
+59|distilled|references/by-type/authn-session.md|Crowdsignal分享结果密码POST无尝试限制的报告，公开分享URL被抓取与口令猜测风险独立；需自有受控分享页、有限错码/预算与授权读成功对照，没密码的公开分享可能是预期。请求底部裁切不能补造。
+60|distilled|references/by-type/mobile-ios.md|PowerShell脚本用Frida列PID/Identifier并要求目标Identifier，底部注入/返回裁切。需自有设备/指定进程和具体检测函数对照；枚举进程不证明Universal越狱检测绕过，也不是服务端认证绕过。
+61|distilled|references/by-type/info-secrets.md|BackupFinder显示40788/40900、localhost HEAD请求多200长度0和htaccess403，旧/zip/git/idea路径。HEAD不见内容、通用200和0长度不能证明秘密泄露，先有限GET无敏感标记与软404对照，数量不等发现数。
+62|distilled|references/by-type/ssrf.md|ipfuscator1.0.0把127.0.0.1生成为整数/hex/octal/短形式/IPv4mappedIPv6等，curl本地200只能证明该客户端解析。需目标URL验证器与连接器的实际规范化/IP范围差异和重定向/DNS对照，不称所有SSRF过滤可绕过。
+63|distilled|references/targeted-fuzzing.md|邮箱图列XSS/SSTI/SQLi/SSRF/HPP不同探针，所谓全部valid并不可靠：域名嵌script不合法，quoted localpart/注释取决解析器；外域邮件DNS/SMTP回连≠HTTPSSRF，email=串需具体表单解码。按各自下游sink验证，勿使用图中删表SQL或收敏感cookie。
+64|no_technical_content||WebSploit课程封面，无实际题解。
+65|no_technical_content||WinRAR rarce工具仓库封面，before6.23与正文一致但没有漏洞触发结构或执行验证。
+66|distilled|references/discovery/passive-and-services.md|另一尺寸httpx1.1.2同200/301/404技术列表，保留自己的source；不筛掉非200/非HTTP记录，DNS解析与应用可达分层。
+67|no_technical_content||XXE22课程封面，没有DTD/实体过程。
+68|distilled|references/by-type/info-secrets.md|Index /.git显示HEAD/config/index/objects/refs/logs及2014时间，目录可见和完整对象可读取不同；只最小脱敏证据检查当前私有代码边界，不由名称认为已有凭据。
+69|distilled|references/by-type/sql-injection.md|UNION INTO OUTFILE片段将PHP shell写到var/www/html，图只有SQL字符串没有响应/执行。需MySQL权限FILE、secure_file_priv、OS可写/不存在目标、实际Web映射/PHP执行；不能读文件自动推RCE，不生成或写shell。
+70|distilled|references/discovery/web-and-api.md|Telegram截图机器人接收URL、/scan排队并返回Cloudflare检查页，OBS录屏和子域列表无漏洞。截图流程需区分queued/loaded/blocked/failed，并限定范围和敏感数据外传；截图不是可访问目标完整功能。
+71|distilled|references/by-type/idor-access-control.md|HackerOne员工说明program members/Triage能edit information修改原始报告（包括disclosed），示例改变后已恢复；其他program仅推测。检查作者内容完整性、允许角色/项目边界、审计和版本，员工权能不推任意外部用户或跨项目。
+72|distilled|references/by-type/info-secrets.md|另一尺寸/.git目录图，HEAD/config/index/objects/refs等与2014时间，不证明当前私有源码或秘密；需权限/内容证据。
+73|distilled|references/by-type/xss.md|inDrive促销按driver ID查询，POST api/spreadsheet/promocodes可把activationDate存脚本，同ID后查询触发。日期类型schema与输出编码双边界，图例id4仅示意，使用自有driver记录；底部截图微缩不能补全执行结果。
+74|distilled|references/by-type/sql-injection.md|localhost/sqli/login.php显示Welcome admin及拼接SELECT username/password，输入为/1#反斜线模式；页面查询与欢迎文本只是练习线索，需明确SQL引号/反斜线模式、数据库版本和服务端真实身份，对照参数绑定反例，不能移植通用登录绕过。
+75|distilled|references/by-type/mobile-android.md|Rayder0.0.4 APK threads.apk经Apktool2.5.0解析资源/manifest/dex后抽URL，输出含Android文档/Apple/Wikipedia/FB/第三方。静态字串混SDK/示例/第三方且可能缺动态拼接，需包hash/version/sourcecallsite归属，不执行APK/扫所有域。
+76|no_technical_content||ToyStory /1#反斜线meme，无新增SQL过程。
+77|distilled|references/by-type/request-smuggling.md|Node llhttp CVE-2023-30589接受单CR分隔header，公告列当时v16/v18/v20且摘要20.2.0；前后端请求边界不一致是HRS前提。代码在裁切外，必须隔离双解析器/连接复用最小对照，单CR被接受不自动走私或跨用户影响。
+78|no_technical_content||CORS-PoC仓库封面，无实际浏览器/响应结果。
+79|distilled|references/targeted-fuzzing.md|Airflow before2.6.3 已认证用户构造regex输入令当前request挂起，作者称代理队列可能连带冻结到超时但没展示队列实验；须区分单请求/worker/全服务资源影响，隔离限时性能对照，不生产DoS。
+80|distilled|references/reporting.md|Apple邮件称计划未来安全更新且要求更新前保密；计划≠发布/修复验证≠允许披露，保留reportID隐私，正文无漏洞细节不補造。
+81|distilled|references/by-type/sql-injection.md|邮箱格式矩阵所有普通校验status字段200但message不同；空格/未引用括号Badformat，quoted括号返回Email invalid说明进入后续检查，Valid列是作者标签不等账号有效。区分JSON转义、邮箱语法和数据库输入。
+82|distilled|references/by-type/sql-injection.md|单引号输入status500unspecified，布尔变体过格式，quoted localpart内条件SLEEP7返回成功延迟7854ms；一次慢响应不确证，需要同形真假条件/无延时/多次对照和参数绑定反例，别提取数据库实际内容。
+83|distilled|references/by-type/sql-injection.md|同quoted邮箱输入database长度条件10延8696ms，11无延时，两者同success响应；能支持时序条件差异但需网络基线、随机顺序多次预算验证，长度仅示例不能概括生产任意读取/RCE。
+84|no_technical_content||grpc-pentest-suite仓库预览，无实际协议、参数或结果。
+85|distilled|references/hunting-strategy.md|完整25项侦察/检查清单含CNAME/Wayback/ports/Git/CORS/email SMTP Host/iframe/access/BurpHistory/Arjun/CSRF/SSRF/XSS/SSTI/reset token/unicode/rateheaders/dir/HRS/redirect/socialstate/upload/buffer。Arjun通常参数发现非隐藏endpoint；CNAME、iframe可载、clientIP头并非漏洞证明。按目标机制/角色/预算排序，每项需正反证据，DoS/上传链不可无界批量。
+86|distilled|references/by-type/sql-injection.md|Burp Collaborator HTTP GET output=nt%20service%5Cmssqlserver、WindowsPowerShell UA，时间2021片段。回连和字符串仅支持受控OOB执行线索，缺入口/SQL权限/任务关联，需唯一标记与最小命令因果证据，不能由用户名推完整SQL→RCE链。
+87|distilled|references/by-type/idor-access-control.md|v2/applications GET带Bearer、Origin/referrer遮挡；身份和租户必须与v1保持同一，不能仅URL版本判授权差。
+88|distilled|references/by-type/idor-access-control.md|v2 HTTP200 JSON data collection空，通用安全头/ACAO*非证明CORS或私有数据受保护，记录应用业务集合而非状态。
+89|distilled|references/by-type/idor-access-control.md|v1/applications GET也Bearer，图只请求顶部，后续需与v2同身份同过滤/分页等条件对照，未见响应不得补全。
+90|distilled|references/by-type/idor-access-control.md|v1响应可见borrowers/loan officer/project…broker对象及id字段，右侧敏感值遮挡、无总量。支持集合差异但不证明所有用户或跨租户，使用自有标记两个对象核对所属权限及分页，不复制PII。
+91|insufficient_technical_detail||OneclickATO/RXSS与cachepoisoning两High标题，机制遮挡；正文提X-Http-Method-Override应另作缓存候选，标题非完整影响证据。
+92|no_technical_content||已付款邮件、源码token泄露题名，无代码/值/利用。
+93|no_technical_content||邮件称已开始处理并预计下周状态，具体端点遮挡，无方法。
+94|distilled|references/reporting.md|邮件声称成功resolved并请求研究者复测后反馈分配奖励；修复声明与复测证据分开，有限范围自有样本/原始与fixed对照，邀请复测不等全部资产授权。
+95|no_technical_content||NASA VDP accepted P3事件，赏金/实际漏洞均不能据受理推断。
+96|no_technical_content||AwesomeBugbountyWriteups目录和题名列表，没有文章全文/过程，目录覆盖不等方法已验证。
+97|no_technical_content||MOD牌匾照片，无漏洞。
+98|no_technical_content||MOD swag邮件，报告名遮挡，没有机制。
+99|distilled|references/reporting.md|HackerOne PDF导出redactnames摘要提用户名结尾点号边界；报告正文另提仅agree goingpublic/reportbecamepublic活动、无评论的团队成员仍显示。应分别测试姓名匹配与活动渠道，导出PDF实际可见/搜索/元数据对照，不由遮罩UI认为完成脱敏。图底裁切保留限度。
+100|insufficient_technical_detail||RXSS Cloudflare报告标题P3 UnresolvedDuplicate，无payload或浏览器证据。
+101|distilled|references/by-type/waf-bypass.md|原始img onerror查询被Cloudflareblock，正文另称加on0x=1绕过；图只阻挡基线。必须同上下文单一差异、后端响应和执行对照，不将附加未知属性视为通用绕WAF。
+102|insufficient_technical_detail||视频画面显示2018文章片段与affiliate表单，文字只说apostrophe发现SQLi；标题outfile不能代替文件读/写证明，正文后续未保存。
+103|distilled|references/by-type/business-logic.md|币种修改经验称平台要求完成购买，作者选UGX并说200UGX约0.05USD，支付渠道是否接受与历史汇率不能作为当前事实。验证服务器价格/币种原子绑定、minor units、回调及订单权益，使用沙盒不实际购买。
+104|distilled|references/by-type/xss.md|无括号XSS利用window.name字符串和instanceof对象自定义Symbol.hasInstance:eval，SVGonload及iframe name传值。需要JS解析/ES6、eval策略、实际window.name跨源导航行为与iframe策略；历史跨源保持并非所有当前浏览器，名字包含括号也不违反仅反射位置过滤，代码不等执行图。
+105|distilled|references/by-type/lfi-path-traversal.md|Flarum文件/图像功能FILTER_VALIDATE_URL后file_get_contents再initFromBinary，仅像URL且必须有效图片；file/内部HTTP可能到达取决wrapper/配置，图未显示有效限制协议。需URL校验与stream消费者一致、image decode差异，隐藏输出不代表无文件影响。
+106|distilled|references/by-type/lfi-path-traversal.md|Blindfileoracle图详述php://filter iconv latin1→UTF32重复4倍膨胀触内存500，空/不存在无500，dechunk移除首位hex单行，base64+dechunk+膨胀可区分首字符类别；进一步iconv换位需具体链。500还可能限流/超时，memory/filters/类型条件和阳性阴性不可缺，隔离限额仅自有非敏感标记，不生产耗尽/逐字窃文件。
+107|distilled|references/by-type/idor-access-control.md|HackerOne CreateOrUpdateHackerCertification GraphQL操作用别人的认证对象ID导致删除，报告提供自有A/B两浏览器创建测试对象。update名不等只更新，必须实体所有者/操作语义校验并观察持久化删除；ID连续范围的“全部”只是推测，不枚举破坏真实对象。
+108|no_technical_content||Nuclei自动赏金视频封面，背景代码装饰，没有模板/结果。

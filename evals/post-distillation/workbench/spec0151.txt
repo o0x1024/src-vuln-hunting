@@ -1,0 +1,160 @@
+1|corrected|references/by-type/info-secrets.md|完整保存正文/有意义替代文字已实际读完；Octopii 的输入支持：扫描结果与 PII 暴露证据分开；缺失图片及外链全文依用户按覆盖，不补造。
+2|excluded||完整保存正文/有意义替代文字已实际读完；Search for the tag "#BugBountyTips" on twitter🙂；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+3|corrected|references/by-type/authn-session.md|完整保存正文/有意义替代文字已实际读完；重置邮件 Host 投毒：链接来源与代码消费者绑定；缺失图片及外链全文依用户按覆盖，不补造。
+4|excluded||完整保存正文/有意义替代文字已实际读完；I got a login panel panel there is a forgot password option when i enter email it post XML request；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+5|corrected|references/cloud/cloud-misconfiguration.md|完整保存正文/有意义替代文字已实际读完；S3 命令表混合读写：先确定身份与具体权限；缺失图片及外链全文依用户按覆盖，不补造。
+6|corrected|references/by-type/cmd-injection-rce.md|完整保存正文/有意义替代文字已实际读完；CGI 与 Bash 函数环境：入口、解释器和权限分别确认；缺失图片及外链全文依用户按覆盖，不补造。
+7|corrected|references/discovery/web-and-api.md|完整保存正文/有意义替代文字已实际读完；X-Cache 与 unkeyed input：共享存储和独立读取两段证明；缺失图片及外链全文依用户按覆盖，不补造。
+8|corrected|references/by-type/csrf.md|完整保存正文/有意义替代文字已实际读完；内容类型与 SameSite：浏览器可发送请求和状态变化为准；缺失图片及外链全文依用户按覆盖，不补造。
+9|corrected|references/by-type/xss.md|完整保存正文/有意义替代文字已实际读完；script 文本终止与字符串转义：两套解析器分开观察；缺失图片及外链全文依用户按覆盖，不补造。
+10|corrected|references/discovery/passive-and-services.md|完整保存正文/有意义替代文字已实际读完；Recon 总表：公开线索、主动交互与许可范围分层；缺失图片及外链全文依用户按覆盖，不补造。
+11|excluded||完整保存正文/有意义替代文字已实际读完；Carriage return line feed injection (CRLF) :；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+12|corrected|references/by-type/idor-access-control.md|完整保存正文/有意义替代文字已实际读完；用户编号与邮件列表：存在性、对象归属和限量对照；缺失图片及外链全文依用户按覆盖，不补造。
+13|corrected|references/discovery/records-and-incremental.md|完整保存正文/有意义替代文字已实际读完；httpx→Katana→模板：追加文件中的运行边界；缺失图片及外链全文依用户按覆盖，不补造。
+14|excluded||完整保存正文/有意义替代文字已实际读完；Tiny File Manager Authenticated RCE - CVE-2021-45010；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+15|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "Write-up: Authentication bypass via information disclosure @ PortSwigger Academy" #bugbounty #bugbountywriteup #bugb；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+16|excluded||完整保存正文/有意义替代文字已实际读完；In case you missed reading my write-up, here you go.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+17|excluded||完整保存正文/有意义替代文字已实际读完；Writing Burp Suite Extension in Python – Part 2 [外链] #hacking #pentesting #bugbountytips #cybersecurity #websecurity #informationsecurity #infosec #bugbounty #securi；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+18|corrected|references/by-type/sql-injection.md|完整保存正文/有意义替代文字已实际读完；SQL 思维图：观察通道、查询上下文与权限能力分开；缺失图片及外链全文依用户按覆盖，不补造。
+19|excluded||完整保存正文/有意义替代文字已实际读完；🔰 Able to Mass-change profile section leads to my first BOUNTY.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+20|corrected|references/by-type/open-redirect.md|完整保存正文/有意义替代文字已实际读完；RedirectUrl 完整替换失败：保留负例并定位规范化规则；缺失图片及外链全文依用户按覆盖，不补造。
+21|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "From CloudSec to Web3 Security, Bug Bounties to DFIR, and More: 15 Power-Packed Talks at IWCON2022" #bugbounty #bugb；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+22|corrected|references/targeted-fuzzing.md|完整保存正文/有意义替代文字已实际读完；词表仓库截图：按 API、路径、文件和 header 消费者选子集；缺失图片及外链全文依用户按覆盖，不补造。
+23|corrected|references/by-type/authn-session.md|完整保存正文/有意义替代文字已实际读完；OTP 响应 Valid 与 InValid：前端放行与后端验证分开；缺失图片及外链全文依用户按覆盖，不补造。
+24|corrected|references/by-type/info-secrets.md|完整保存正文/有意义替代文字已实际读完；公开仓库与连接串正则：命中、归属和秘密消费者三级核验；缺失图片及外链全文依用户按覆盖，不补造。
+25|excluded||完整保存正文/有意义替代文字已实际读完；#NaturePhotography #bugbounty #bugbountytips 🙂；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+26|corrected|references/by-type/desktop-client.md|完整保存正文/有意义替代文字已实际读完；Nextcloud 通知的文件名、会话名与状态：富文本资源和代码执行分层；缺失图片及外链全文依用户按覆盖，不补造。
+27|excluded||完整保存正文/有意义替代文字已实际读完；SharpSCCM - A C# Utility For Interacting With SCCM [外链] #cybersecurity #bugbountytips #hacking #tools；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+28|excluded||完整保存正文/有意义替代文字已实际读完；#ETH #cyber #bugbountytips #smartcontract #Web3 #Blockchain；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+29|corrected|references/discovery/passive-and-services.md|完整保存正文/有意义替代文字已实际读完；WODAT 标签与数据库认证：成功会话不代表管理角色；缺失图片及外链全文依用户按覆盖，不补造。
+30|corrected|references/by-type/info-secrets.md|完整保存正文/有意义替代文字已实际读完；历史 checkout URL 与 view-source：遮罩不代替服务端数据裁剪；缺失图片及外链全文依用户按覆盖，不补造。
+31|merged|references/by-type/info-secrets.md|完整保存正文/有意义替代文字已实际读完；历史 checkout URL 与 view-source：遮罩不代替服务端数据裁剪；缺失图片及外链全文依用户按覆盖，不补造。
+32|merged|references/by-type/desktop-client.md|完整保存正文/有意义替代文字已实际读完；Nextcloud 通知的文件名、会话名与状态：富文本资源和代码执行分层；缺失图片及外链全文依用户按覆盖，不补造。
+33|merged|references/by-type/desktop-client.md|完整保存正文/有意义替代文字已实际读完；Nextcloud 通知的文件名、会话名与状态：富文本资源和代码执行分层；缺失图片及外链全文依用户按覆盖，不补造。
+34|excluded||完整保存正文/有意义替代文字已实际读完；موضوع اليوم；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+35|corrected|references/by-type/ssrf.md|完整保存正文/有意义替代文字已实际读完；Concrete CMS 远程文件导入：扩展检查与响应可读性分开；缺失图片及外链全文依用户按覆盖，不补造。
+36|excluded||完整保存正文/有意义替代文字已实际读完；BLACK FRIDAY OFFER!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+37|corrected|references/hunting-strategy.md|完整保存正文/有意义替代文字已实际读完；旧子域与参数反射：优先级线索不代替 XSS 证明；缺失图片及外链全文依用户按覆盖，不补造。
+38|corrected|references/by-type/ssrf.md|完整保存正文/有意义替代文字已实际读完；DNS Rebind 摘要：检查时地址和连接时地址绑定；缺失图片及外链全文依用户按覆盖，不补造。
+39|corrected|references/by-type/open-redirect.md|完整保存正文/有意义替代文字已实际读完；额外 header 触发导航：攻击者可控条件与 canonical URL；缺失图片及外链全文依用户按覆盖，不补造。
+40|excluded||完整保存正文/有意义替代文字已实际读完；🚨Giveaway Alert🚨；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+41|excluded||完整保存正文/有意义替代文字已实际读完；For all my virtual box bounty hunters；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+42|excluded||完整保存正文/有意义替代文字已实际读完；[外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+43|merged|references/targeted-fuzzing.md|完整保存正文/有意义替代文字已实际读完；词表仓库截图：按 API、路径、文件和 header 消费者选子集；缺失图片及外链全文依用户按覆盖，不补造。
+44|corrected|references/by-type/idor-access-control.md|完整保存正文/有意义替代文字已实际读完；停用账号后资料仍公开：登录状态与数据生命周期策略；缺失图片及外链全文依用户按覆盖，不补造。
+45|corrected|references/by-type/business-logic.md|完整保存正文/有意义替代文字已实际读完；circle×folder 推荐查询：组合规模、取消与资源预算；缺失图片及外链全文依用户按覆盖，不补造。
+46|excluded||完整保存正文/有意义替代文字已实际读完；Want to get onto Big Bounties?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+47|corrected|references/by-type/waf-bypass.md|完整保存正文/有意义替代文字已实际读完；混合编码载荷表：规范化等价性要在实际消费者确认；缺失图片及外链全文依用户按覆盖，不补造。
+48|corrected|references/source-audit.md|完整保存正文/有意义替代文字已实际读完；curl HTTP proxy 清理：释放所有权与协议错误路径；缺失图片及外链全文依用户按覆盖，不补造。
+49|corrected|references/source-audit.md|完整保存正文/有意义替代文字已实际读完；curl PUT 后 POST：方法状态和数据缓冲生命周期一起重置；缺失图片及外链全文依用户按覆盖，不补造。
+50|corrected|references/by-type/ssrf.md|完整保存正文/有意义替代文字已实际读完；名称黑名单与 file URL：字符串过滤不等于网络或文件边界；缺失图片及外链全文依用户按覆盖，不补造。
+51|excluded||完整保存正文/有意义替代文字已实际读完；KeyHacks shows ways in which particular API keys found on a Bug Bounty Program can be used, to check if they are valid.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+52|corrected|references/by-type/sql-injection.md|完整保存正文/有意义替代文字已实际读完；规模 SQLi 管线：候选筛选、输入引用和验证预算；缺失图片及外链全文依用户按覆盖，不补造。
+53|corrected|references/discovery/passive-and-services.md|完整保存正文/有意义替代文字已实际读完；数值 site 搜索词：文本索引不能替代 IP 解析或授权；缺失图片及外链全文依用户按覆盖，不补造。
+54|corrected|references/by-type/info-secrets.md|完整保存正文/有意义替代文字已实际读完；SharePoint 挂载异常日志：连接秘密与日志读取权限；缺失图片及外链全文依用户按覆盖，不补造。
+55|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "Quick Update For Our Indian Members Who Want to Attend IWCON" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+56|merged|references/hunting-strategy.md|完整保存正文/有意义替代文字已实际读完；旧子域与参数反射：优先级线索不代替 XSS 证明；缺失图片及外链全文依用户按覆盖，不补造。
+57|excluded||完整保存正文/有意义替代文字已实际读完；MSMAP - Memory WebShell Generator [外链] #cybersecurity #bugbountytips #hacking #tools；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+58|excluded||完整保存正文/有意义替代文字已实际读完；Don’t follow people like that, they are a scammed people that don’t know how they are doing bugbounty. Their knowledge is very low. And they never help you because t；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+59|corrected|references/discovery/records-and-incremental.md|完整保存正文/有意义替代文字已实际读完；httpx 超时 10 与 30 的行数：未响应候选要保留；缺失图片及外链全文依用户按覆盖，不补造。
+60|excluded||完整保存正文/有意义替代文字已实际读完；Great overview of missing security controls in many Kubernetes clusters: Introducing the OWASP Top Ten for Kubernetes.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+61|merged|references/by-type/ssrf.md|完整保存正文/有意义替代文字已实际读完；名称黑名单与 file URL：字符串过滤不等于网络或文件边界；缺失图片及外链全文依用户按覆盖，不补造。
+62|excluded||完整保存正文/有意义替代文字已实际读完；Awesome Web Security 💻💻；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+63|excluded||完整保存正文/有意义替代文字已实际读完；Bug Hunting 101: Exploiting Cross-Site Request Forgeries (CSRF)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+64|corrected|references/by-type/info-secrets.md|完整保存正文/有意义替代文字已实际读完；浏览器 JS 中 SSH 配置：公开字段、真实秘密与使用权限分层；缺失图片及外链全文依用户按覆盖，不补造。
+65|excluded||完整保存正文/有意义替代文字已实际读完；Writing Burp Suite Extension in Python – Part 2 [外链] #hacking #bugbountytips #cybersecurity #websecurity #security #pentesting #informationsecurity #bugbountytip #bu；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+66|excluded||完整保存正文/有意义替代文字已实际读完；no bounty no HOF hahaha #msrc idk why i'm hunting @microsoft #bugbountytips #BugBounty；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+67|corrected|references/by-type/open-redirect.md|完整保存正文/有意义替代文字已实际读完；奖励邮件中的 MobileToken：导航与 token 消费者不省略；缺失图片及外链全文依用户按覆盖，不补造。
+68|corrected|references/by-type/info-secrets.md|完整保存正文/有意义替代文字已实际读完；WordPress users 公开作者：字段敏感度不能继承 Critical 标签；缺失图片及外链全文依用户按覆盖，不补造。
+69|excluded||完整保存正文/有意义替代文字已实际读完；A curated list of Web Security materials and resources.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+70|merged|references/by-type/info-secrets.md|完整保存正文/有意义替代文字已实际读完；公开仓库与连接串正则：命中、归属和秘密消费者三级核验；缺失图片及外链全文依用户按覆盖，不补造。
+71|corrected|references/by-type/lfi-path-traversal.md|完整保存正文/有意义替代文字已实际读完；NLP trainFiles 再次出现的请求图：路径输入不代替读取证据；缺失图片及外链全文依用户按覆盖，不补造。
+72|excluded||完整保存正文/有意义替代文字已实际读完；You want to learn bugbounty?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+73|excluded||完整保存正文/有意义替代文字已实际读完；Bypassing Android SSL Pinning and Intercepting Proxy Unaware applications；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+74|excluded||完整保存正文/有意义替代文字已实际读完；Kubeeye - Tool To Find Various Problems On Kubernetes, Such As Application Misconfiguration, Unhealthy Cluster Components And Node Problems [外链] #cybersecurity #bugb；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+75|excluded||完整保存正文/有意义替代文字已实际读完；Google Play Store File Manager App Drops Android Malware To Attack Android Users!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+76|excluded||完整保存正文/有意义替代文字已实际读完；ALHAMDULILLAH I have reached the top 100 hacker on HackerOne #BugBounty #bugbountytips #infosec #hackerone；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+77|excluded||完整保存正文/有意义替代文字已实际读完；Stegowiper: Tool To Apply Active Attacks For Disrupting Stegomalware.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+78|corrected|references/by-type/business-logic.md|完整保存正文/有意义替代文字已实际读完；rate-limit 帖的 202 列表：入队接受与副作用完成区分；缺失图片及外链全文依用户按覆盖，不补造。
+79|merged|references/by-type/idor-access-control.md|完整保存正文/有意义替代文字已实际读完；用户编号与邮件列表：存在性、对象归属和限量对照；缺失图片及外链全文依用户按覆盖，不补造。
+80|excluded||完整保存正文/有意义替代文字已实际读完；Writing Burp Suite Extension in Python – Part 1 [外链] #infosec #bugbountytips #hacking #websecurity #bugbountytip #security #informationsecurity #cybersecurity #pente；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+81|merged|references/by-type/info-secrets.md|完整保存正文/有意义替代文字已实际读完；浏览器 JS 中 SSH 配置：公开字段、真实秘密与使用权限分层；缺失图片及外链全文依用户按覆盖，不补造。
+82|corrected|references/discovery/web-and-api.md|完整保存正文/有意义替代文字已实际读完；Recon 工具职能表：按输出对象组织流程；缺失图片及外链全文依用户按覆盖，不补造。
+83|excluded||完整保存正文/有意义替代文字已实际读完；MSMAP:-- Memory WebShell Generator.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+84|corrected|references/discovery/passive-and-services.md|完整保存正文/有意义替代文字已实际读完；Amass 数据源清单：互补来源与限额、失败记账；缺失图片及外链全文依用户按覆盖，不补造。
+85|corrected|references/discovery/passive-and-services.md|完整保存正文/有意义替代文字已实际读完；Shodan dork 的 RDP 字节：协议特征不代表密码；缺失图片及外链全文依用户按覆盖，不补造。
+86|excluded||完整保存正文/有意义替代文字已实际读完；RedTeaming_CheatSheet；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+87|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "Inyección SQL divertida 3— MSSQL ejemplo practico ｜ In Spanish" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+88|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "How I hacked into a government e-learning website" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+89|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "TryHackMe WriteUp: Warzone 2" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+90|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "A great weekend hack(worth $8k)" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+91|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "Python Malware Analysis" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+92|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "Write-up: Basic server-side template injection (code context) @ PortSwigger Academy" #bugbounty #bugbountywriteup #b；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+93|excluded||完整保存正文/有意义替代文字已实际读完；Burp Suite Extension In Python – Part 4 [外链] #bugbounty #pentesting #bugbountytips #informationsecurity #infosec #security #cybersecurity #hacking #bugbountytip #web；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+94|excluded||完整保存正文/有意义替代文字已实际读完；Stored XSS And Broken Link Vulnerability in Single Domain ｜｜ Bug Bounty live ｜｜ POC ｜｜ 2022；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+95|corrected|references/by-type/business-logic.md|完整保存正文/有意义替代文字已实际读完；单任务积分并发：实际记账、日上限和兑换价值；缺失图片及外链全文依用户按覆盖，不补造。
+96|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "TryHackMe writeup: BadByte" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+97|excluded||完整保存正文/有意义替代文字已实际读完；What skill is a must-have for Bug Hunters?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+98|excluded||完整保存正文/有意义替代文字已实际读完；Clean Sweet finding by @x30r_ 🙌；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+99|corrected|references/cloud/container-k8s-security.md|完整保存正文/有意义替代文字已实际读完；KubeEye 架构的 OPA 与节点日志：规则发现和有效权限分开；缺失图片及外链全文依用户按覆盖，不补造。
+100|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "Automate GitHub Actions Security Best Practices" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+101|merged|references/by-type/info-secrets.md|完整保存正文/有意义替代文字已实际读完；公开仓库与连接串正则：命中、归属和秘密消费者三级核验；缺失图片及外链全文依用户按覆盖，不补造。
+102|corrected|references/by-type/cors.md|完整保存正文/有意义替代文字已实际读完；返回 session 的 Origin 反射示例：浏览器读取和真实身份均需证据；缺失图片及外链全文依用户按覆盖，不补造。
+103|corrected|references/source-audit.md|完整保存正文/有意义替代文字已实际读完；EvilTree 关键词命中：可访问文件、内容确认与跳过项；缺失图片及外链全文依用户按覆盖，不补造。
+104|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "‍IW Weekly #35: HTTP Desync Attack, Mass Account Takeover, SSRF via DNS Rebinding, Exploiting…" #bugbounty #bugbount；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+105|excluded||完整保存正文/有意义替代文字已实际读完；I love BXSS Notifications!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+106|excluded||完整保存正文/有意义替代文字已实际读完；🎉🎉 Just published my new blog on；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+107|excluded||完整保存正文/有意义替代文字已实际读完；Wordlist!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+108|corrected|references/by-type/file-upload.md|完整保存正文/有意义替代文字已实际读完；图片文件名进入 HTML：后缀与展示字段的上下文不同；缺失图片及外链全文依用户按覆盖，不补造。
+109|corrected|references/source-audit.md|完整保存正文/有意义替代文字已实际读完；Django locale 当正则：输入可达性和复杂度要一起证实；缺失图片及外链全文依用户按覆盖，不补造。
+110|excluded||完整保存正文/有意义替代文字已实际读完；With a simple privilege escalation writeup, I was able to escalate to the admin role；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+111|corrected|references/discovery/records-and-incremental.md|完整保存正文/有意义替代文字已实际读完；curl verbose 的 CSP 提取：先解析响应头再抽域名；缺失图片及外链全文依用户按覆盖，不补造。
+112|excluded||完整保存正文/有意义替代文字已实际读完；OPEN FOR DISCUSSION；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+113|excluded||完整保存正文/有意义替代文字已实际读完；can you please tell me what's your way to verify a #bugbountytips! 👀；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+114|corrected|references/by-type/idor-access-control.md|完整保存正文/有意义替代文字已实际读完；campaign balance 与 history：认证会话仍需每个广告账号授权；缺失图片及外链全文依用户按覆盖，不补造。
+115|excluded||完整保存正文/有意义替代文字已实际读完；403 forbidden - access control bug hunting；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+116|excluded||完整保存正文/有意义替代文字已实际读完；Today i want publish a writeup, and i let to choose to community :；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+117|corrected|references/by-type/desktop-client.md|完整保存正文/有意义替代文字已实际读完；Electron showWindow 改成 exec：本地可写前置条件不能省略；缺失图片及外链全文依用户按覆盖，不补造。
+118|excluded||完整保存正文/有意义替代文字已实际读完；I was rewarded 1,250 eur on Intigriti and as i promise , the writeup is here:；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+119|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "Behind the SMS Bombing Application" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+120|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "Unrestricted File Upload: A Common Bug With A High Potential Revenue On HackerOne! — StackZero" #bugbounty #bugbount；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+121|excluded||完整保存正文/有意义替代文字已实际读完；@0x0SojalSec ow do i bypass 403 forbidden；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+122|excluded||完整保存正文/有意义替代文字已实际读完；🛑DANGER🛑；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+123|excluded||完整保存正文/有意义替代文字已实际读完；Fun fact: I only found 1 leak on GitHub in #bugbounty, 2 years ago, that's it. How you guys are so good at that?! #bugbountytips；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+124|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "Unvalidated Redirects and Forwards" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+125|excluded||完整保存正文/有意义替代文字已实际读完；I had been thinking for a long time about sharing the most important #bugbountytips that changed my infosec journey. I used to do a lot of bug bounty like every othe；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+126|corrected|references/by-type/info-secrets.md|完整保存正文/有意义替代文字已实际读完；公开 JS、币种地址与 API key：不把公开性本身判为秘密泄露；缺失图片及外链全文依用户按覆盖，不补造。
+127|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "How to Plug Common Supply Chain Vulnerabilities" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+128|corrected|references/targeted-fuzzing.md|完整保存正文/有意义替代文字已实际读完；邮箱形状注入矩阵：接受语法与下游消费者分开；缺失图片及外链全文依用户按覆盖，不补造。
+129|excluded||完整保存正文/有意义替代文字已实际读完；Pycrypt - Python Based Crypter That Can Bypass Any Kinds Of Antivirus Products [外链] #cybersecurity #bugbountytips #hacking #tools；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+130|corrected|references/discovery/passive-and-services.md|完整保存正文/有意义替代文字已实际读完；RapidDNS 域名、IP 与范围入口：总记录数不代表目标完整；缺失图片及外链全文依用户按覆盖，不补造。
+131|corrected|references/discovery/records-and-incremental.md|完整保存正文/有意义替代文字已实际读完；三种被动枚举到 anew：原始来源与已完成基线分开保存；缺失图片及外链全文依用户按覆盖，不补造。
+132|excluded||完整保存正文/有意义替代文字已实际读完；Hacking A Website using SQL Injection and Cross-Site Scripting (Episode 1)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+133|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "Best Information Technology Schools in 2023" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+134|merged|references/by-type/info-secrets.md|完整保存正文/有意义替代文字已实际读完；公开仓库与连接串正则：命中、归属和秘密消费者三级核验；缺失图片及外链全文依用户按覆盖，不补造。
+135|corrected|references/by-type/cors.md|完整保存正文/有意义替代文字已实际读完；CORS 加方法覆盖头：读取策略与真实动作仍是两道边界；缺失图片及外链全文依用户按覆盖，不补造。
+136|excluded||完整保存正文/有意义替代文字已实际读完；Happy to cross 5000 reputation points；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+137|corrected|references/by-type/xss.md|完整保存正文/有意义替代文字已实际读完；Dovetale 创作者申请：审核者渲染与旧对象加载前提；缺失图片及外链全文依用户按覆盖，不补造。
+138|excluded||完整保存正文/有意义替代文字已实际读完；If everyone can do what you can do, why even?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+139|corrected|references/by-type/idor-access-control.md|完整保存正文/有意义替代文字已实际读完；pending review CSV 导出：登录身份不等于组织资产权限；缺失图片及外链全文依用户按覆盖，不补造。
+140|merged|references/discovery/web-and-api.md|完整保存正文/有意义替代文字已实际读完；Recon 工具职能表：按输出对象组织流程；缺失图片及外链全文依用户按覆盖，不补造。
+141|corrected|references/by-type/xss.md|完整保存正文/有意义替代文字已实际读完；视频发送文本的 stored XSS 摘要：消费者和会话影响分层；缺失图片及外链全文依用户按覆盖，不补造。
+142|excluded||完整保存正文/有意义替代文字已实际读完；Don't forget to thank your triagers!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+143|excluded||完整保存正文/有意义替代文字已实际读完；If you're into #computers and #cybersecuritytips (and #bugbountytips), check out the premium newsletter! Unclaimed bug bounties and and new #technology tips every We；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+144|excluded||完整保存正文/有意义替代文字已实际读完；Don't miss out on The Gray Area's weekly newsletter, published today at 8am EST!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+145|corrected|references/by-type/lfi-path-traversal.md|完整保存正文/有意义替代文字已实际读完；etc/passwd 报告模板：URL 和哈希主张不足以证明读取；缺失图片及外链全文依用户按覆盖，不补造。
+146|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "Unique Rate limit bypass worth 1800$" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+147|merged|references/by-type/xss.md|完整保存正文/有意义替代文字已实际读完；script 文本终止与字符串转义：两套解析器分开观察；缺失图片及外链全文依用户按覆盖，不补造。
+148|excluded||完整保存正文/有意义替代文字已实际读完；A list of interesting payloads, tips and tricks for bug bounty hunters.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+149|excluded||完整保存正文/有意义替代文字已实际读完；I have found 30+ Websites Source Code Disclosure via Exposed .git Folder using Google Dorks；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+150|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "Write-up: Source code disclosure via backup files @ PortSwigger Academy" #bugbounty #bugbountywriteup #bugbountytips；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+151|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "Attacktive Directory" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+152|corrected|references/source-audit.md|完整保存正文/有意义替代文字已实际读完；ShareFinder 调用已有代理：执行前提、共享 ACL 与编码；缺失图片及外链全文依用户按覆盖，不补造。
+153|corrected|references/by-type/idor-access-control.md|完整保存正文/有意义替代文字已实际读完；Base64 身份图示：token 完整性和对象授权分别核验；缺失图片及外链全文依用户按覆盖，不补造。
+154|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "TryHackMe writeup: A cursory analysis of the Jigsaw ransomware" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+155|merged|references/by-type/csrf.md|完整保存正文/有意义替代文字已实际读完；内容类型与 SameSite：浏览器可发送请求和状态变化为准；缺失图片及外链全文依用户按覆盖，不补造。
+156|excluded||完整保存正文/有意义替代文字已实际读完；New Write-up on InfoSec Write-ups publication : "My Latest XSS Finding, Explained To Beginners ｜ Bug Bounty" #bugbounty #bugbountywriteup #bugbountytips；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+157|excluded||完整保存正文/有意义替代文字已实际读完；New write-up:- “How I earned $47000 USD as a high school student” by Antonio Cheong；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+158|excluded||完整保存正文/有意义替代文字已实际读完；My New 3 CVE's just published；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+159|merged|references/by-type/idor-access-control.md|完整保存正文/有意义替代文字已实际读完；campaign balance 与 history：认证会话仍需每个广告账号授权；缺失图片及外链全文依用户按覆盖，不补造。
+160|excluded||完整保存正文/有意义替代文字已实际读完；Python Burp Suite Extension – Part 3 [外链] #informationsecurity #pentesting #bugbountytips #bugbounty #cybersecurity #bugbountytip #infosec #websecurity #hacking #sec；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。

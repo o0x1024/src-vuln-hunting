@@ -1,0 +1,250 @@
+1|excluded||完整保存正文/替代文字已读；(Blind OOB) SQL Injection #16 ｜ Hacking on Kali Linux! ｜ CyberSecurity [外链] via @YouTube；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+2|merged|references/hunting-strategy.md|深挖与 recon 建议要匹配各自输入和停止条件；帖子提醒不同猎人方法有不同前提。
+3|merged|references/discovery/passive-and-services.md|端口开放到 SMB 路径还需服务和权限链；波斯语正文与图片提出端口发现、识别服务、再调查 SMB，图片只课程海报。
+4|new_knowledge|references/by-type/mobile-android.md|Android 五项检查应分客户端入口与服务端状态；正文列导出 Activity、硬编码 token/password、SQLite 敏感数据、旧版本绕过和不失效 API 会话。
+5|excluded||完整保存正文/替代文字已读；Bug Bytes #164 – New Collaborator domain, BITB attack & XSS to RCE on an almost static site；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+6|excluded||完整保存正文/替代文字已读；HTTP request smuggling bug patched in mitmproxy；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+7|excluded||完整保存正文/替代文字已读；Leaked Credentials gives access to [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+8|excluded||完整保存正文/替代文字已读；Able to steal bearer token from deep link；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+9|merged|references/by-type/deserialization-rce.md|ZKar是Go实现的Java序列化协议分析工具；仅简介无实现/输入输出，合并既有字节解析和不可信反序列化边界。
+10|excluded||完整保存正文/替代文字已读；Day 55 #100DaysOfHacking #BugBounty #bugbountytips Put together what I believe to be a fairly detailed checklist for testing OAuth. I'm not done, there's still one o；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+11|excluded||完整保存正文/替代文字已读；JWT Notes Have Been Finalized Please let me know if I missed anything and provide feedback. I attempted to include Everything I Have Learned. 🔥；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+12|excluded||完整保存正文/替代文字已读；Reflected XSS on @Adobe；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+13|excluded||完整保存正文/替代文字已读；DM for Akamai Waf XSS Bypass.；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+14|excluded||完整保存正文/替代文字已读；#cycatz #bugbounty #bugbountytips SSRF to a Full Account Takeover (ATO) #RCE #AppSec；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+15|corrected|references/by-type/idor-access-control.md|双斜杠和反斜杠 200 需要核同租户同对象；正文把 tenant users 403 与删去数字段、双斜杠或反斜杠的 200 比较，未保存完整响应。
+16|new_knowledge|references/hunting-strategy.md|入门路线图的基础学习与有效发现需分阶段；仅标签正文的图片实际列网络端口/协议/握手、Linux 权限、编程、HTML/CSS/JavaScript、漏洞类型和记录/搜索。
+17|excluded||完整保存正文/替代文字已读；#bugbountytips #cybersecurity #Lapsus$；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+18|excluded||完整保存正文/替代文字已读；You 👏 don't 👏 need 👏 certification 👏 to 👏 become 👏 a 👏 bug 👏 bounty 👏 hunter.；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+19|new_knowledge|references/by-type/info-secrets.md|注册报错页泄露配置要逐字段确定秘密用途；注册截图实际是 Laravel 栈与环境配置，列数据库、邮件、Redis、AWS、JWT 和第三方字段，大部分值遮蔽；与正文内部域邮箱注册和用户名 XSS 是不同线索。
+20|excluded||完整保存正文/替代文字已读；HEY! Check me out! :3；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+21|excluded||完整保存正文/替代文字已读；⁉️ What platforms should you use to level up your cybersecurity skills?；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+22|excluded||完整保存正文/替代文字已读；Alhamdulillah! Another report triaged on @Hacker0x01 Stealing Sensitive Information via RXSS. #BugBounty #bugbountytips #CyberSecurity #infosec #togetherwehitharder；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+23|new_knowledge|references/discovery/passive-and-services.md|Socid 页面标识提取的认证输入与输出分开；保存 help 列 URL、文件、cookies、cookie-jar、activation；工具声称支持 102 网站，但没有实际提取结果。
+24|excluded||完整保存正文/替代文字已读；Topic : Developers and Hackers, Understand OAuth and it’s grant type (2022 Guide)；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+25|excluded||完整保存正文/替代文字已读；New writeup out! 🙌；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+26|new_knowledge|references/by-type/sql-injection.md|SQL 实验列表可以组织证据类型不能替代解题；图片可读 WHERE、登录、UNION 列数/文本/多值、数据库版本与内容、布尔/错误/时间、OOB 与外带等实验标题和 Solved。
+27|excluded||完整保存正文/替代文字已读；بما اني خلصت مذاكره بكتب لكم كم tips ساعدوني اني اجمع دومينات للموقع；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+28|merged|references/discovery/records-and-incremental.md|新增范围域名应以范围快照和历史去重对齐；正文建议关注项目新域名，图片只是第三方 token 泄露奖励。
+29|excluded||完整保存正文/替代文字已读；I've been at HackerOne for about 5 months now. It's been eye-opening seeing how all of these hackers work from the other side of the screen. Here is a list of some o；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+30|excluded||完整保存正文/替代文字已读；Reported my first 2 bugs today and the 1st out turned out to be not applicable and idk about the second one yet but yea, just started my journey and I am looking for；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+31|merged|references/experiment-design.md|反连演示的 loopback 身份只证明本地两端；保存图片是本地监听、127.0.0.1 连接与 whoami 输出 peter，正文仅反向 shell 生成器简介。
+32|merged|references/experiment-design.md|反连演示的 loopback 身份只证明本地两端；保存图片是本地监听、127.0.0.1 连接与 whoami 输出 peter，正文仅反向 shell 生成器简介。
+33|merged|references/source-audit.md|CVE PoC 索引名称需绑定公告和实现 provenance；正文只 find-gh-poc 工具简介与 GitHub 链接，无保存代码。
+34|corrected|references/by-type/authn-session.md|默认凭据候选须有产品部署和认证权限依据；正文分别提到 WordPress 用户名枚举、品牌默认密码及 RabbitMQ guest；截图有网络设备设置 UI，却没有默认凭据认证前后对照。
+35|merged|references/by-type/info-secrets.md|Jenkins 解密能力描述需区分输入材料和凭据验证；正文称工具支持旧/新密码格式、SecretBytes、用户 hash 与 token，未保存实现或可读输出。
+36|excluded||完整保存正文/替代文字已读；Nice start in bugcrowd 🐞🔥；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+37|merged|references/discovery/web-and-api.md|人工 recon 日志要保留发现与待验证的状态差异；正文分别写百站中的少量候选、/api2/admin 数据线索，以及 Grafana 默认凭据、git 暴露与尚在调查的 SQL 参数；没有原始交换。
+38|corrected|references/by-type/lfi-path-traversal.md|Windows hosts 路径与 LFI 奖励标签分开保存；正文列 Windows hosts 路径变体，图片只 LFI 到系统文件、P1、未解决和奖励。
+39|excluded||完整保存正文/替代文字已读；#pentesting #bugbounty #bugbountytips #bugbountytip #infosec #cybersec #offsec；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+40|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Analyze your gau result with Gau-Expose Tool" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+41|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "TryHackMe writeup: IDE" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+42|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "TryHackMe: Aratus" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+43|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "eJPT Journey" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+44|excluded||完整保存正文/替代文字已读；Hunting on bad bug bounty programs is like staying in a toxic relationship. 🥲；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+45|corrected|references/by-type/host-header.md|CNAME 候选提取与原站 Host SNI 访问分阶段；图片命令从 httpx 403 中取主机，再 dig 短输出，输出中也混有 404、200、302；正文称原站绕过。
+46|excluded||完整保存正文/替代文字已读；XSS using response manipulation；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+47|corrected|references/by-type/host-header.md|CNAME 候选提取与原站 Host SNI 访问分阶段；图片命令从 httpx 403 中取主机，再 dig 短输出，输出中也混有 404、200、302；正文称原站绕过。
+48|excluded||完整保存正文/替代文字已读；Able to steal bearer token from deep link；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+49|excluded||完整保存正文/替代文字已读；I think so many times people focus on hi ow complex the techniques used were. We need to remember, Black hats don't care. Does it get the job done? I wonder how well；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+50|excluded||完整保存正文/替代文字已读；PAN-OS CVE-2021-3064 @RandoriAttack can you please send me that exploit i can't find it any where 🙏🙏 urgent i found that too；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+51|excluded||完整保存正文/替代文字已读；Google Dorks；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+52|excluded||完整保存正文/替代文字已读；ALL IN ONE Hacking Tool For Hackers；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+53|new_knowledge|references/source-audit.md|隐藏文件内核模块生成 help 未给模块生效证明；图片 Casper-Fs help 描述 YAML rules、隐藏和读写删除保护，并显示缺少 rules 参数错误。
+54|merged|references/source-audit.md|OWASP Top 10 SAST 宣传需要对应规则与流分析；保存预览只描述 Insider 面向 OWASP Top 10，星数和贡献者不是检测证据。
+55|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "eCTHPv2 Certification Experience" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+56|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Browser-in-the Browser (BITB) — A New Born Phishing Methodology" #bugbounty #bugbountywriteup #bugbountytips；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+57|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Unintended root(s) on Fortress" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+58|corrected|references/by-type/authn-session.md|默认凭据候选须有产品部署和认证权限依据；正文分别提到 WordPress 用户名枚举、品牌默认密码及 RabbitMQ guest；截图有网络设备设置 UI，却没有默认凭据认证前后对照。
+59|corrected|references/by-type/cmd-injection-rce.md|Spring routing expression 与 Framework 绑定漏洞独立核验；本批混称 SpringShell、Core 和 Cloud Connector；图片实际有 Function 3.1.6 routing-expression、500 后本机标记文件出现、只请求无响应，以及另一些 JSP/目录输出。
+60|new_knowledge|references/by-type/authn-session.md|SAML 插图中的断言响应与实际信任验证分开；三张图介绍多应用单点登录、XML 断言及浏览器中转 IdP/SP，最后画 SP 向 IdP 查询验证；它是概念示意，不是每个 SAML 部署固定在线回查步骤。
+61|new_knowledge|references/discovery/records-and-incremental.md|报告 API 中 weakness ID 与模拟提交需可追溯；图片补充了模板 Markdown 疑问、模拟报告无法删除，以及通过网站过滤 URL 找 weakness ID 的历史经验。
+62|merged|references/cloud/cloud-misconfiguration.md|S3Sec只描述read/write/delete检查能力；无实际授权回执，不执行或继承读写删除权限，复用既有S3边界。
+63|corrected|references/by-type/cmd-injection-rce.md|Spring routing expression 与 Framework 绑定漏洞独立核验；本批混称 SpringShell、Core 和 Cloud Connector；图片实际有 Function 3.1.6 routing-expression、500 后本机标记文件出现、只请求无响应，以及另一些 JSP/目录输出。
+64|excluded||完整保存正文/替代文字已读；Disclosing BCC'd recipients of an email；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+65|excluded||完整保存正文/替代文字已读；CVE-2022-27254 - PoC For Vulnerability In Honda's Remote Keyless System [外链] #cybersecurity #bugbountytips #hacking #tools；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+66|excluded||完整保存正文/替代文字已读；CVE-2022-27254 - PoC For Vulnerability In Honda's Remote Keyless System [外链] #cybersecurity #bugbountytips #hacking #tools santosomar；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+67|corrected|references/by-type/subdomain-takeover.md|404 与 takeover 接受邮件仍需独立可接管条件；正文称 11 个模板命中或建议检查 404；图片只接受邮件。
+68|corrected|references/by-type/cmd-injection-rce.md|Spring routing expression 与 Framework 绑定漏洞独立核验；本批混称 SpringShell、Core 和 Cloud Connector；图片实际有 Function 3.1.6 routing-expression、500 后本机标记文件出现、只请求无响应，以及另一些 JSP/目录输出。
+69|new_knowledge|references/by-type/ssrf.md|SSRF 搜索截图中的路径变体和 bearer 转发需逐跳追踪；图片实际显示历史帖子：/adminapi/ 与 /adminapi、追加邮件样式域的 URL、声称 https SSRF 泄 bearer，另有只能访问外部的 SSRF；正文只推荐搜索词。
+70|corrected|references/by-type/cmd-injection-rce.md|Spring routing expression 与 Framework 绑定漏洞独立核验；本批混称 SpringShell、Core 和 Cloud Connector；图片实际有 Function 3.1.6 routing-expression、500 后本机标记文件出现、只请求无响应，以及另一些 JSP/目录输出。
+71|excluded||完整保存正文/替代文字已读；Recon Wins｜ Write-up Collection🔽｜；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+72|excluded||完整保存正文/替代文字已读；[外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+73|new_knowledge|references/hunting-strategy.md|清单中的低优先级类型仍要转成可证伪假设；正文提醒 CSRF 等检查，另一图列 CORS、Host、SMTP、点击劫持、越权、SSRF、XSS、SSO state、限流等，并混入大量 cookie DoS 建议。
+74|merged|references/by-type/cmd-injection-rce.md|GlobalProtect 历史 CVE 标题与处置变化不等 PoC；正文用登录路径、Shodan 字段和版本描述，图片出现 Not applicable、Triaged、Duplicate、Unresolved 及不同年份 CVE 标题。
+75|new_knowledge|references/by-type/race-conditions.md|手机号验证奖励文字只提供时序攻击方向；图片邮件称手机号验证绕过难以核验、涉及 timing attack、升级 P2 并邀请复测，没有并发请求或验证状态。
+76|corrected|references/by-type/host-header.md|CNAME 候选提取与原站 Host SNI 访问分阶段；图片命令从 httpx 403 中取主机，再 dig 短输出，输出中也混有 404、200、302；正文称原站绕过。
+77|excluded||完整保存正文/替代文字已读；One command to automate some of the very first steps. Will keep updating it :)；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+78|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "CloudSek EWYL 2022 CTF" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+79|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Detecting malware packages in GitHub Actions" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+80|corrected|references/by-type/subdomain-takeover.md|404 与 takeover 接受邮件仍需独立可接管条件；正文称 11 个模板命中或建议检查 404；图片只接受邮件。
+81|corrected|references/by-type/cmd-injection-rce.md|Spring routing expression 与 Framework 绑定漏洞独立核验；本批混称 SpringShell、Core 和 Cloud Connector；图片实际有 Function 3.1.6 routing-expression、500 后本机标记文件出现、只请求无响应，以及另一些 JSP/目录输出。
+82|corrected|references/by-type/cmd-injection-rce.md|Spring routing expression 与 Framework 绑定漏洞独立核验；本批混称 SpringShell、Core 和 Cloud Connector；图片实际有 Function 3.1.6 routing-expression、500 后本机标记文件出现、只请求无响应，以及另一些 JSP/目录输出。
+83|corrected|references/by-type/cmd-injection-rce.md|Spring routing expression 与 Framework 绑定漏洞独立核验；本批混称 SpringShell、Core 和 Cloud Connector；图片实际有 Function 3.1.6 routing-expression、500 后本机标记文件出现、只请求无响应，以及另一些 JSP/目录输出。
+84|merged|references/reporting.md|修复复测应绑定同一报告和新增根因；正文称复测时发现新问题，图只两笔奖励。
+85|corrected|references/by-type/ssrf.md|gau qsreplace 打印回连候选并未触发 SSRF；正文流水线到替换 URL 参数后结束，没有发出最终请求的阶段；大量线程和统一替换也抹掉参数上下文。
+86|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Website OSINT" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+87|corrected|references/by-type/xss.md|图片渲染和 KYC 管理员 XSS 需要实际读者链；正文有图片渲染、KYC 总会成功和 XSS 到管理员凭据说法；图片只文章标题、状态、管理员 XSS 标题及回复认可，没有真实 source/sink 或认证消费者。
+88|corrected|references/by-type/cmd-injection-rce.md|Spring routing expression 与 Framework 绑定漏洞独立核验；本批混称 SpringShell、Core 和 Cloud Connector；图片实际有 Function 3.1.6 routing-expression、500 后本机标记文件出现、只请求无响应，以及另一些 JSP/目录输出。
+89|excluded||完整保存正文/替代文字已读；I just published How I was able to collect the PII of all users；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+90|corrected|references/by-type/xss.md|路径引号与块注释片段应保留编码和消费者；一图地址栏含编码 script 与弹窗，另一图是带引号、alert、块注释和编码空格的 GET 路径，未保存对应 HTML/JavaScript 源。
+91|excluded||完整保存正文/替代文字已读；A collection of awesome penetration testing resources, tools and other shiny things；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+92|corrected|references/by-type/sql-injection.md|Shodan 登录线索到 sqlmap 导出缺独立基线；重复正文给证书/employee portal 搜索与高风险 sqlmap 数据枚举命令，未保存实际请求或结果。
+93|corrected|references/by-type/authn-session.md|默认凭据候选须有产品部署和认证权限依据；正文分别提到 WordPress 用户名枚举、品牌默认密码及 RabbitMQ guest；截图有网络设备设置 UI，却没有默认凭据认证前后对照。
+94|excluded||完整保存正文/替代文字已读；🙌🙌；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+95|excluded||完整保存正文/替代文字已读；This happened when I use the pc for 72 hours continuously 😂；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+96|corrected|references/discovery/passive-and-services.md|Smap 服务表中的 open 来自历史索引需要注明；图片 Smap 以 Nmap 样式打印端口和版本，正文说明它使用 Shodan，另一图只是 Nmap/Shodan 标签。
+97|merged|references/discovery/web-and-api.md|正文区分默认密码、git泄露与正在调查的SQL；保留候选状态，不合并成功结论。
+98|merged|references/by-type/cmd-injection-rce.md|GlobalProtect 历史 CVE 标题与处置变化不等 PoC；正文用登录路径、Shodan 字段和版本描述，图片出现 Not applicable、Triaged、Duplicate、Unresolved 及不同年份 CVE 标题。
+99|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Finding bugs that doesn’t exists" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+100|excluded||完整保存正文/替代文字已读；Será que roda ? comenta aí 😂；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+101|new_knowledge|references/by-type/info-secrets.md|信息泄露实验标题提供五类分支检查；图片列错误信息、debug 页、备份源码、信息泄露中的认证绕过和版本历史。
+102|excluded||完整保存正文/替代文字已读；#bugbountytips #BugBounty #bugbounty #hacking #hackerone #security #web3 #web；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+103|corrected|references/by-type/info-secrets.md|登录 JSON 多字段不证明全部用户 PII 可读；图片可读 login 路径和 city、电话字段名、role、用户 ID、账户状态与课程信息，大部标识遮蔽，未显示换对象基线。
+104|corrected|references/discovery/client-and-cloud.md|JS 路径正则的输入格式和同文件 tee 风险；图片补足两种方法：第一条从历史 URL 文本匹配 src、强制 https、忽略 TLS 后解析响应；第二条 grep JS.txt 再 tee JS.txt。
+105|new_knowledge|references/by-type/lfi-path-traversal.md|穿越实验列表的六类解析边界分开；图片实际列普通穿越、绝对路径、非递归剥离、多余 URL 解码、前缀校验与 null byte 扩展名校验。
+106|excluded||完整保存正文/替代文字已读；Slyther - AWS Security Tool [外链] #cybersecurity #bugbountytips #hacking #tools；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+107|excluded||完整保存正文/替代文字已读；Playing with JSON ｜ Write-up Collection🔽｜；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+108|excluded||完整保存正文/替代文字已读；[外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+109|corrected|references/impact-and-acceptance.md|Autocomplete off 讽刺文章不能成为 critical 依据；正文明确讽刺并建议不报告，不能把标题 CRITICAL 当漏洞评级。
+110|excluded||完整保存正文/替代文字已读；Hacking PayPal and TikTok (legally) // Featuring @NahamSec；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+111|merged|references/discovery/records-and-incremental.md|枚举提供者配置与历史发布能力需要分开统计；正文是 Findomain 历史版本的 PG TLS/no-discover 与 Amass 部分 API、付费密钥经验。
+112|corrected|references/by-type/xss.md|图片渲染和 KYC 管理员 XSS 需要实际读者链；正文有图片渲染、KYC 总会成功和 XSS 到管理员凭据说法；图片只文章标题、状态、管理员 XSS 标题及回复认可，没有真实 source/sink 或认证消费者。
+113|corrected|references/by-type/host-header.md|Unicode 域名显示长度与实际 ASCII 主机须分开；正文称 Unicode 域名可成为两三个 ASCII 字母，未给字符串实例。
+114|excluded||完整保存正文/替代文字已读；Awesome repository on BugBountytips；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+115|excluded||完整保存正文/替代文字已读；[外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+116|corrected|references/experiment-design.md|AutoElevate SYSTEM 图必须保留已有管理员前提；正文说 ADMIN 到 SYSTEM，图有最初有限权限表、工具行、Administrator 窗口和 nt authority system。
+117|corrected|references/experiment-design.md|AutoElevate SYSTEM 图必须保留已有管理员前提；正文说 ADMIN 到 SYSTEM，图有最初有限权限表、工具行、Administrator 窗口和 nt authority system。
+118|excluded||完整保存正文/替代文字已读；Platform politics aside, there is much opportunity for hunters now:；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+119|new_knowledge|references/by-type/race-conditions.md|席位许可竞争标题未提供资源耗尽过程；图片只有 High Race Condition Ending User License Available Seats 邮件标题。
+120|excluded||完整保存正文/替代文字已读；Ethically Hacked United Nations ｜ Got listed in Security Hall of fame 😃；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+121|excluded||完整保存正文/替代文字已读；Hacking PayPal and TikTok (legally) // Featuring Ben Sadeghipour Nahamsec [外链] via @YouTube；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+122|new_knowledge|references/expert-reasoning.md|OWASP 年份分类迁移图不能作为当前风险排名；图片是 2017 到 2021 分类对应，新列 insecure design、software/data integrity 和 SSRF，未给实际漏洞。
+123|excluded||完整保存正文/替代文字已读；Melhores plataformas para Bug Bounty que eu recomendo. 🔎❤️；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+124|excluded||完整保存正文/替代文字已读；DOM-Based XSS is love! Thank you @SynackRedTeam!；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+125|corrected|references/discovery/records-and-incremental.md|终止卡住的子工具不应默记扫描完成；正文建议用进程工具终止卡住的模块以继续框架，未提供运行日志。
+126|corrected|references/by-type/info-secrets.md|FINAPI Android 凭据标题和银行元数据不能互证；正文是 plaintext OAuth credentials 标题，图片实际仅 banks JSON、supportedDataSources、location、test/support 标志和时间。
+127|excluded||完整保存正文/替代文字已读；Instagram Bot Pro v4.9.7 Full Activated - Discount 100% OFF [外链] #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity #100DaysOfCode #Malware #CodeNewbie #；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+128|excluded||完整保存正文/替代文字已读；Did you try Kali Linux with GUI inside of WSL2? In this video, I show you how to do it；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+129|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Manager From Hackthebox" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+130|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Advanced Docker Security" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+131|excluded||完整保存正文/替代文字已读；Scenario of RXSS Vulnerability..；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+132|new_knowledge|references/discovery/web-and-api.md|httpx 标题技术栈视图是入口筛选不是漏洞验证；图片明确给 title、tech detection、status、server 概览，正文只是 200 的比喻。
+133|new_knowledge|references/discovery/records-and-incremental.md|Subdomains wrapper 开关需要逐阶段覆盖状态；help 可读 passive sources、semi-active、字典、置换、DNS、reverse DNS、active 与 setup 开关。
+134|corrected|references/by-type/xss.md|图片渲染和 KYC 管理员 XSS 需要实际读者链；正文有图片渲染、KYC 总会成功和 XSS 到管理员凭据说法；图片只文章标题、状态、管理员 XSS 标题及回复认可，没有真实 source/sink 或认证消费者。
+135|merged|references/by-type/xss.md|Electron 内容加载与支付 postMessage 标题须追权限消费者；正文只不安全加载和 DOM/postMessage XSS 标题，未保存处理代码或窗口配置。
+136|merged|references/by-type/xss.md|Electron 内容加载与支付 postMessage 标题须追权限消费者；正文只不安全加载和 DOM/postMessage XSS 标题，未保存处理代码或窗口配置。
+137|merged|references/by-type/cmd-injection-rce.md|GlobalProtect 历史 CVE 标题与处置变化不等 PoC；正文用登录路径、Shodan 字段和版本描述，图片出现 Not applicable、Triaged、Duplicate、Unresolved 及不同年份 CVE 标题。
+138|corrected|references/by-type/sql-injection.md|Jeeves 延时参数与五秒十秒 payload 不一致需核实；本批有 sleep5 配 payload-time10、sleep10 配10，以及称 time-based 却不含明显延时表达式的字符表；无测量响应。
+139|excluded||完整保存正文/替代文字已读；Ambassador World Cup 2022 CTF #bugbountytips；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+140|corrected|references/discovery/passive-and-services.md|Smap 服务表中的 open 来自历史索引需要注明；图片 Smap 以 Nmap 样式打印端口和版本，正文说明它使用 Shodan，另一图只是 Nmap/Shodan 标签。
+141|excluded||完整保存正文/替代文字已读；Finally i have published my first writeup on medium: [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+142|excluded||完整保存正文/替代文字已读；BlackWidow:-- A Python-based web application scanner to gather #OSINT and fuzz for OWASP vulnerabilities on a target website.；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+143|new_knowledge|references/by-type/idor-access-control.md|访问控制实验标题提供角色对象动作三轴；图片列隐藏后台、角色/用户 ID 参数、个人资料修改、重定向数据、密码字段、IDOR、URL/方法/多步/Referer 检查。
+144|merged|references/discovery/passive-and-services.md|公司邮箱来源可作出处线索不等账户授权；正文建议查看 hunter.io 邮箱来源，没有具体证据。
+145|excluded||完整保存正文/替代文字已读；Hi all；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+146|excluded||完整保存正文/替代文字已读；#ToolTime A walkthrough of FeroxBuster (a content discovery tool) from @epi052 :；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+147|excluded||完整保存正文/替代文字已读；faild attempts of SpringCore 0day；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+148|excluded||完整保存正文/替代文字已读；VidScribe AI PRO v3.6 Full Activated – Videos Marketing Tool – Discount 100% OFF [外链] #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity #100DaysOfCode #；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+149|corrected|references/by-type/xss.md|图片渲染和 KYC 管理员 XSS 需要实际读者链；正文有图片渲染、KYC 总会成功和 XSS 到管理员凭据说法；图片只文章标题、状态、管理员 XSS 标题及回复认可，没有真实 source/sink 或认证消费者。
+150|excluded||完整保存正文/替代文字已读；Odin - Central IoC Scanner Based On Loki [外链] #cybersecurity #bugbountytips #hacking #tools [外链] santosomar；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+151|corrected|references/by-type/cmd-injection-rce.md|Spring routing expression 与 Framework 绑定漏洞独立核验；本批混称 SpringShell、Core 和 Cloud Connector；图片实际有 Function 3.1.6 routing-expression、500 后本机标记文件出现、只请求无响应，以及另一些 JSP/目录输出。
+152|excluded||完整保存正文/替代文字已读；Guys time extended!!；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+153|corrected|references/by-type/cmd-injection-rce.md|Spring routing expression 与 Framework 绑定漏洞独立核验；本批混称 SpringShell、Core 和 Cloud Connector；图片实际有 Function 3.1.6 routing-expression、500 后本机标记文件出现、只请求无响应，以及另一些 JSP/目录输出。
+154|corrected|references/by-type/host-header.md|重置邮件头污染必须把请求账户与 token 主体对齐；正文从自己的邮箱发请求，改 Host/Referer/Origin，却声称受害者收到邮件点击后泄 token；图片只有 ATO 复测奖励与关闭状态。
+155|excluded||完整保存正文/替代文字已读；Insider bug hunting 😯#bugbountytips；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+156|new_knowledge|references/cloud/cloud-misconfiguration.md|Service Bus 队列传输示意不证明 Azure 授权漏洞；图片实际是 CobaltBus server/client、入出队列、专属 beacon 队列和 named pipe/目标进程，正文仅 C2 工具说明。
+157|new_knowledge|references/cloud/cloud-misconfiguration.md|Service Bus 队列传输示意不证明 Azure 授权漏洞；图片实际是 CobaltBus server/client、入出队列、专属 beacon 队列和 named pipe/目标进程，正文仅 C2 工具说明。
+158|excluded||完整保存正文/替代文字已读；Socinator Dominator Enterprise v1.0.0.128 Full Activated - Discount 100% OFF [外链] #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity #100DaysOfCode #Malw；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+159|excluded||完整保存正文/替代文字已读；Note it down #bugbounty #bugbountytips；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+160|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Finding Vulnerable Info Using Google Dorks — Ethical Hacking" #bugbounty #bugbountywriteup #bugbountytips；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+161|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "API authentication bypass on National Informatics Centre" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+162|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Image & Geospatial OSINT" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+163|excluded||完整保存正文/替代文字已读；#infosec #bugbounty #bugbountytips #cybersecurity；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+164|excluded||完整保存正文/替代文字已读；SQL Injection ｜ Write-up Collection🔽｜；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+165|corrected|references/by-type/xss.md|图片渲染和 KYC 管理员 XSS 需要实际读者链；正文有图片渲染、KYC 总会成功和 XSS 到管理员凭据说法；图片只文章标题、状态、管理员 XSS 标题及回复认可，没有真实 source/sink 或认证消费者。
+166|excluded||完整保存正文/替代文字已读；In March, I submitted 5 vulnerabilities to 2 programs on @Hacker0x01. #TogetherWeHitHarder [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+167|excluded||完整保存正文/替代文字已读；^ #bugbountytips 😂；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+168|new_knowledge|references/discovery/passive-and-services.md|伪 TCP 与 ICMP 传输图应限定网络与证据阶段；Phantun 图有 UDP→伪 TCP、TUN、SNAT/DNAT 和 conntrack；ICMP 图只有 staging/下载命令及脚本名，没有接收字节。
+169|corrected|references/by-type/authn-session.md|存档 join 链接和私人笔记需要能力 token 生命周期；图片实际报告文字称存档项目 join 链接与用户笔记，另两图是奖励/状态；未保留真正授权交换。
+170|merged|references/discovery/records-and-incremental.md|枚举提供者配置与历史发布能力需要分开统计；正文是 Findomain 历史版本的 PG TLS/no-discover 与 Amass 部分 API、付费密钥经验。
+171|excluded||完整保存正文/替代文字已读；I'll be a well-paid bug bounty hunter in a year... I'll come back to quote this tweet；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+172|corrected|references/by-type/xss.md|airixss stdout 确认须追实际浏览器解析；正文历史 URL→gf→uro→httpx→替换 SVG→工具 grep 标签，没有 DOM 与执行记录。
+173|merged|references/source-audit.md|历史 redactor 补丁线索应绑定提交和漏洞消费者；正文描述 GitLab reference_redactor 补丁、过去复现和 bypass，未保存 diff 或实际结果。
+174|excluded||完整保存正文/替代文字已读；a good vulnerable Web App #CyberSecurity #bugbountytips #infosec #OSINT #cybersecurite #Malware #Ransomware #Fishing #Cyberattaque；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+175|excluded||完整保存正文/替代文字已读；⏰ ⏰ Join @ADITYASHENDE17 ‘s talk on 2FA bypasses: Logical Thinking for contexts at [外链] in next 2 hrs (7 PM IST) ! #infosec #bugbounty #bugbountytips #cybersecurity ；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+176|excluded||完整保存正文/替代文字已读；Discovering Vulnerabilities in WordPress Plugins at Scale: [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+177|new_knowledge|references/discovery/web-and-api.md|Prometheus 路径标签应去聚合并保留敏感范围；两张图片有 path、status_code、le bucket、count/sum 等重复指标，路径包括 CI、phpMyAdmin、debugbar、query；正文还提 kubemetrics。
+178|new_knowledge|references/discovery/records-and-incremental.md|现场采集 UI 应保留案件元信息与采集项目清单；Live Forensicator 图有案件号、地点、设备描述、输出目录以及网络、账号、程序、系统、进程任务的 Gathering 行。
+179|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "TryHackMe writeup: Game Zone" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+180|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Log Poisoning — Inject payloads in logs" #bugbounty #bugbountywriteup #bugbountytips；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+181|excluded||完整保存正文/替代文字已读；HTTP Desync Attack (Request Smuggling) - Mass Session Hijacking #bugbountytips；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+182|excluded||完整保存正文/替代文字已读；Introducing PacketStreamer: distributed packet capture for cloud-native platforms；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+183|merged|references/by-type/xss.md|Electron 内容加载与支付 postMessage 标题须追权限消费者；正文只不安全加载和 DOM/postMessage XSS 标题，未保存处理代码或窗口配置。
+184|corrected|references/by-type/cmd-injection-rce.md|RCE 参数清单只有八个名字不能补成二十五个；正文标题声称 25 参数但保存正文只有 cmd、exec、command、execute、ping、query、jump、code。
+185|corrected|references/by-type/authn-session.md|默认凭据候选须有产品部署和认证权限依据；正文分别提到 WordPress 用户名枚举、品牌默认密码及 RabbitMQ guest；截图有网络设备设置 UI，却没有默认凭据认证前后对照。
+186|new_knowledge|references/discovery/records-and-incremental.md|取证 artifact 文件名列表不等实际解析覆盖；图片列 antivirus、cloud_services、config_files、containerd、docker、file_systems、hadoop、java、kubernetes、linux、macos、shell 等 YAML 文件名，没有内容。
+187|excluded||完整保存正文/替代文字已读；My first SQLI 🥳；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+188|corrected|references/by-type/xss.md|路径引号与块注释片段应保留编码和消费者；一图地址栏含编码 script 与弹窗，另一图是带引号、alert、块注释和编码空格的 GET 路径，未保存对应 HTML/JavaScript 源。
+189|corrected|references/by-type/idor-access-control.md|admin true 的发现故事缺服务端角色变化证据；正文从历史 admin dork、blackadmin.php 到 admin=true 声称面板可用，没有原请求/身份响应。
+190|new_knowledge|references/discovery/passive-and-services.md|伪 TCP 与 ICMP 传输图应限定网络与证据阶段；Phantun 图有 UDP→伪 TCP、TUN、SNAT/DNAT 和 conntrack；ICMP 图只有 staging/下载命令及脚本名，没有接收字节。
+191|new_knowledge|references/discovery/passive-and-services.md|伪 TCP 与 ICMP 传输图应限定网络与证据阶段；Phantun 图有 UDP→伪 TCP、TUN、SNAT/DNAT 和 conntrack；ICMP 图只有 staging/下载命令及脚本名，没有接收字节。
+192|excluded||完整保存正文/替代文字已读；I’m In need of a hacking buddy, who’s in guys :)；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+193|new_knowledge|references/discovery/web-and-api.md|Prometheus 路径标签应去聚合并保留敏感范围；两张图片有 path、status_code、le bucket、count/sum 等重复指标，路径包括 CI、phpMyAdmin、debugbar、query；正文还提 kubemetrics。
+194|corrected|references/by-type/sql-injection.md|Jeeves 延时参数与五秒十秒 payload 不一致需核实；本批有 sleep5 配 payload-time10、sleep10 配10，以及称 time-based 却不含明显延时表达式的字符表；无测量响应。
+195|new_knowledge|references/discovery/records-and-incremental.md|HaxUnit 图中串联工具需留阶段来源与范围门槛；三个不同 hash 图片展示 Sonar 跨 TLD、DNS 字典/解析、subfinder、gau、反向 DNS、Shodan、naabu、httpx 再到 nuclei/Acunetix。
+196|excluded||完整保存正文/替代文字已读；Need a VPS for Bug Hunting?；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+197|corrected|references/by-type/idor-access-control.md|X Forwarded For 回环头的缓存 200 不是权限绕过证明；图片请求含 127.0.0.1，响应 200 JSON 且 public cache、X-Cache HIT，未保存不带头的同对象对照。
+198|corrected|references/by-type/info-secrets.md|TruffleHog 主动验证宣传不意味着没有误报；正文一项描述能力，另一项说主动验证就无 FP，未保存 credential 类型、实际请求或结果。
+199|excluded||完整保存正文/替代文字已读；Burp Suite Professional Edition v2022.3.1 x64 Full Activated Extensions - Discount 100% OFF [外链] #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity #100D；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+200|excluded||完整保存正文/替代文字已读；CloudKit Share Records leak the title of private iCloud files；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+201|new_knowledge|references/discovery/web-and-api.md|Prometheus 路径标签应去聚合并保留敏感范围；两张图片有 path、status_code、le bucket、count/sum 等重复指标，路径包括 CI、phpMyAdmin、debugbar、query；正文还提 kubemetrics。
+202|excluded||完整保存正文/替代文字已读；Who has watched this video yet giving away some #BugBounty tips and tricks? 👇；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+203|corrected|references/by-type/sql-injection.md|Jeeves 延时参数与五秒十秒 payload 不一致需核实；本批有 sleep5 配 payload-time10、sleep10 配10，以及称 time-based 却不含明显延时表达式的字符表；无测量响应。
+204|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Pyramid Of Pain" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+205|corrected|references/scope-and-rules.md|证书后缀索引与军方地址没有测试许可关系；正文给含 .mil 的 Shodan 搜索描述，没有实际资产或授权证据。
+206|excluded||完整保存正文/替代文字已读；DarthSidious - Building An Active Directory Domain And Hacking It [外链] #cybersecurity #bugbountytips #hacking #tools；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+207|excluded||完整保存正文/替代文字已读；When you Really want to work you can hack the planet even if you are using just your phone；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+208|excluded||完整保存正文/替代文字已读；DarthSidious - Building An Active Directory Domain And Hacking It [外链] #cybersecurity #bugbountytips #hacking #tools santosomar；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+209|corrected|references/by-type/sql-injection.md|Jeeves 延时参数与五秒十秒 payload 不一致需核实；本批有 sleep5 配 payload-time10、sleep10 配10，以及称 time-based 却不含明显延时表达式的字符表；无测量响应。
+210|new_knowledge|references/discovery/records-and-incremental.md|代理导入与响应归档要保留身份和时间版本；正文半段建议把子域导入 Burp，另一帖请求历史 HTTP 响应；没有后续步骤或新 SSRF 实现。
+211|excluded||完整保存正文/替代文字已读；From None to P3 on @Bugcrowd .. don't leave any page look maybe it be important；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+212|new_knowledge|references/discovery/records-and-incremental.md|代理导入与响应归档要保留身份和时间版本；正文半段建议把子域导入 Burp，另一帖请求历史 HTTP 响应；没有后续步骤或新 SSRF 实现。
+213|excluded||完整保存正文/替代文字已读；Hi again；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+214|corrected|references/by-type/info-secrets.md|TruffleHog 主动验证宣传不意味着没有误报；正文一项描述能力，另一项说主动验证就无 FP，未保存 credential 类型、实际请求或结果。
+215|new_knowledge|references/hunting-strategy.md|实际图片列25项检查方向和多个代理头；转成可证伪假设，生产DoS建议不采纳。
+216|new_knowledge|references/discovery/records-and-incremental.md|计划任务工具 help 的 create run delete 不是无权横移；两幅 help 列 create/delete/run/query/queryfolders/move、远程主机、用户名与不同触发条件；move 说明会自动建、运行、删除。
+217|merged|references/hunting-strategy.md|Recon 证书的训练范围可记但不替实际覆盖；证书文字列目录/虚拟主机、DNS 与 git 信息检索挑战，正文称徽章完成。
+218|new_knowledge|references/by-type/authn-session.md|邮箱确认链接未绑定发起账户可更新点击者账户；图片保存了完整叙述与步骤：A 在自己账户发起邮箱改到 C，链接送达 C，却在 B 已登录上下文消费时改变 B 的邮箱；原因是 token 未绑定账户。
+219|new_knowledge|references/targeted-fuzzing.md|多语言备份词表须保留语言和具体文件角色；正文列 db/database、德语 datenbank、西语/法语/葡语变体和压缩扩展名。
+220|excluded||完整保存正文/替代文字已读；This GitHub Repository Is very useful for those who want start own journey in hacking. So, check out this and share with Friend's... :)；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+221|corrected|references/by-type/open-redirect.md|二级跳转 query 传播需要每跳实际 Location；正文描述 company 把 query 带到第三方，再借第三方 open redirect 到控制域，示例域拼写也不一致。
+222|excluded||完整保存正文/替代文字已读；New ZOFixer Secure WordPress Package；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+223|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "picoCTF 2022- Writeup" #bugbounty #bugbountywriteup #bugbountytips [外链]；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+224|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "OSINT Dojo: Sakura" #bugbounty #bugbountywriteup #bugbountytips；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+225|new_knowledge|references/discovery/records-and-incremental.md|计划任务工具 help 的 create run delete 不是无权横移；两幅 help 列 create/delete/run/query/queryfolders/move、远程主机、用户名与不同触发条件；move 说明会自动建、运行、删除。
+226|merged|references/by-type/oauth-oidc.md|参数污染到授权码泄露标题应分三条信任边；正文只有 pollution→redirect→OAuth code 的文章标题，没有参数顺序或消费者。
+227|excluded||完整保存正文/替代文字已读；Senuke TNG Pro v5.0.85.1 Full Activated - BlackHat Seo Tools – Discount 100% OFF [外链] #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity #100DaysOfCode #；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+228|merged|references/hunting-strategy.md|老目标发现故事只影响调查优先级不证明具体入口；正文称许多发现来自旧目标及计划介绍任意用户登录，未保存后续链。
+229|new_knowledge|references/discovery/passive-and-services.md|KNX 硬件接线图与总线数据解码证据分开；图片实际标出 Raspberry Pi、KNX Pi HAT、USB adapter、电源、变压器、执行器和传感器，正文称导出 Wireshark 兼容数据。
+230|new_knowledge|references/discovery/passive-and-services.md|KNX 硬件接线图与总线数据解码证据分开；图片实际标出 Raspberry Pi、KNX Pi HAT、USB adapter、电源、变压器、执行器和传感器，正文称导出 Wireshark 兼容数据。
+231|merged|references/discovery/records-and-incremental.md|版本发布卡的 vuln 更新 flag 不能推全部扫描重跑；正文与图片是 Osmedeus 4.1.0 重构和更新 flag，图片说明截断于 only。
+232|excluded||完整保存正文/替代文字已读；Streaming tomorrow with @lootsec_io；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+233|excluded||完整保存正文/替代文字已读；#BugBounty #bugbountytip #bugbountytips；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+234|new_knowledge|references/impact-and-acceptance.md|Informative 仍可获酌情奖励不能反推评级改变；图片邮件明确奖励来自报告澄清和研究努力且不能保证经常如此，另图仍 Informative、None0.0、50 bounty。
+235|merged|references/hunting-strategy.md|老目标发现故事只影响调查优先级不证明具体入口；正文称许多发现来自旧目标及计划介绍任意用户登录，未保存后续链。
+236|new_knowledge|references/business-modeling.md|HCL threat model 交互图的资产分类要连接安全边界；图片交互可读项目范围、名称、链接、负责人、是否面向 Internet、规模、资产分类与 use case，输出仍在输入中。
+237|new_knowledge|references/by-type/xss.md|origin 相等检查后的 innerHTML 仍须验证消息主体；图片代码实际为 onmessage、读取 e.data、严格比较 e.origin 与 window.origin，然后 render 类型直接赋 innerHTML。
+238|excluded||完整保存正文/替代文字已读；• If you're wrong, admit it.；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+239|excluded||完整保存正文/替代文字已读；#bugbountytips #BugBounty #infosec #CyberSecurity ???????????；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+240|excluded||完整保存正文/替代文字已读；report private progrom ciritical bug pi leak；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+241|excluded||完整保存正文/替代文字已读；#infosec #bugbounty #bugbountytips #cybersecurity #cybersecuritytips；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+242|merged|references/by-type/ssrf.md|Lambda URL OOB listener 标题只说明观测服务方向；正文称 Lambda function URL 与通知服务，外链实现未保存。
+243|excluded||完整保存正文/替代文字已读；Past two days have been eventful and exciting, from no bounties at all in March to making this much in just 24 hours, crazy.；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+244|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Series of Network Fundamentals #5 (Ports & Protocols),to get started in Cyber Security." #bugbounty #bugbountywriteu；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+245|excluded||完整保存正文/替代文字已读；New Write-up on InfoSec Write-ups publication : "Module-2 ｜ OWASP ModSecurity Core Rule Set -Pentesting & Bypassing Cloud Web Application Firewall…" #bugbounty #bugb；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+246|excluded||完整保存正文/替代文字已读；If you are interested in #CyberSecurity & #bugbountytips then this will really help you have a better experience. It just brought down 87 comments to a tweet to only；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。
+247|new_knowledge|references/discovery/records-and-incremental.md|HaxUnit 图中串联工具需留阶段来源与范围门槛；三个不同 hash 图片展示 Sonar 跨 TLD、DNS 字典/解析、subfinder、gau、反向 DNS、Shodan、naabu、httpx 再到 nuclei/Acunetix。
+248|new_knowledge|references/discovery/records-and-incremental.md|计划任务工具 help 的 create run delete 不是无权横移；两幅 help 列 create/delete/run/query/queryfolders/move、远程主机、用户名与不同触发条件；move 说明会自动建、运行、删除。
+249|new_knowledge|references/discovery/records-and-incremental.md|Subdomains wrapper 开关需要逐阶段覆盖状态；help 可读 passive sources、semi-active、字典、置换、DNS、reverse DNS、active 与 setup 开关。
+250|excluded||完整保存正文/替代文字已读；All these invites came in this past hour, I am just waiting on @SynackRedTeam now🥲；仅外链题名、工具/文章宣传、未保存续篇、成绩/状态或无独立可提炼机制；缺失图片和外链全文依用户按覆盖，不补造。

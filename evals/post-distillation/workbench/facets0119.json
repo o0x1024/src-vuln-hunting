@@ -1,0 +1,332 @@
+[
+  [
+    "by-type/xss.md",
+    "fragment 训练样例与 HTTP 参数的区别",
+    "正文把查询串/hash加123与XSS相连，alt和图片显示训练文档页面onclick及alert。fragment通常由浏览器处理，不能把它当作已送达服务器的参数。\n\n用自有静态fixture分别标记query与fragment，追源字符串、DOM解析/事件消费、真实CSP和交互。只有扫描器/教程、自改页面、无消费者或脚本被阻为反例；alert只能说明该执行上下文，不证明跨主体影响。\n\n来源：[保存帖1](https://x.com/i/status/1480504130993012740)。"
+  ],
+  [
+    "source-audit.md",
+    "SourceMapping 的路由状态与源码可见性",
+    "图列atutor8080源码路径、200/500和计数；Shuji正文只是sourcemap提取工具。HTTP状态、路由映射和sourcesContent内容是不同证据。\n\n保留构建/部署身份、原始map来源与实际字节，比较正常、缺失与受限资源，映射source到可达路由/消费者。软200、map没有源码、历史路径或示例源为反例；不要把所有条目算作代码泄露，更不使用其中秘密。\n\n来源：[保存帖1](https://x.com/i/status/1480520379399614466)、[保存帖2](https://x.com/i/status/1480754906088628224)。"
+  ],
+  [
+    "by-type/cmd-injection-rce.md",
+    "MovableType handler 解码、加载失败与执行阶段",
+    "保存图是mt.handler_to_coderef XMLRPC请求，含编码内容，响应Failed loading package中有passwd字段。该图可作为特定实例解析/回显线索，没有完整版本、认证或进程证据。\n\n静态跟踪输入→解码→handler解析→加载器/执行消费者；在自有无外联fixture对照普通名字、缺失handler和无害标记。错误嵌入、仅字符串回显、未达危险方法或有权限门为反例，读取/执行不可互相替代，不运行图中命令。\n\n来源：[保存帖1](https://x.com/i/status/1480535469175689219)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "URL 被写成 Python 脚本名的管线校验",
+    "两完整管线写python3加HTTP URL形式，另有50并发、paramspider/hakcheckurl及数字状态排除。保存字符串不保证工具可以按预期运行。\n\n先静态核本地可执行文件、stdin/argv契约、输出格式、退出码及范围/预算，保存失败与每阶段输入输出。URL当脚本名、grep命中URL中的400、非响应状态或并发错误被吞为反例，不执行/下载归档脚本，不将过滤成功当漏洞成功。\n\n来源：[保存帖1](https://x.com/i/status/1480556510342258690)、[保存帖2](https://x.com/i/status/1482372284946198533)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "组织搜索到 ASN 的聚合与共享网络",
+    "完整amass组织搜索、ASN处理/逗号合并及xargs P3查询链，将组织→ASN→网络资源作为发现路径。\n\n分别留组织查询时间、ASN来源、awk/ORS实际格式与每次查询结果；以当前政策及DNS/服务归属核资产。共享ASN、云服务、旧组织名称、拼接坏参数或阶段未完成为反例，网络关联不自动扩大测试范围。\n\n来源：[保存帖1](https://x.com/i/status/1480558089287782400)。"
+  ],
+  [
+    "by-type/oauth-oidc.md",
+    "authorization_code 字样与可用授权码",
+    "正文建议在JS搜authorization_code，没有保存一次真实授权响应或可兑换材料。\n\n区分参数名、示例配置、静态字符串与绑定client/redirect/主体/有效期的一次性材料；自有fixture只验证消费者和错误/过期/错client对照。关键词或格式匹配、公开示例及绑定正确为反例，不把出现字样叫秘密，不兑换他人代码。\n\n来源：[保存帖1](https://x.com/i/status/1480578354352992261)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "PasteMonitor 的 SES URL 命中与秘密认定",
+    "PasteMonitor正文描述Pastebin API、词表、每日通知，图只是amazonaws SES URL命中，另一帖复用同图。\n\n保存源时间/可见字段/匹配规则和预期读者，先辨URL、标识符、公开示例或凭据类型，再用合成数据核消费者。没有密钥、仅公开域名、无bucket/动作权限为反例；词表命中不等于有效秘密，不取回粘贴/发通知或把材料交第三方工具。\n\n来源：[保存帖1](https://x.com/i/status/1480649308886216707)、[保存帖2](https://x.com/i/status/1481017280792514564)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "devnet 宣传和 SSL 公司名的许可边界",
+    "devnet SOL/Discord宣传、Shodan SSL公司字符串、200/login和默认密码故事均没有保存当前资产政策与受保护动作。证书、组织名及开发网络只支持定位线索。\n\n把主机/服务/账户/链环境/动作匹配到任务授权，并记录时间与主体。共享服务、历史证书、测试网资产、Basic挑战或无原始会话为反例；不由宣传或检索授予生产操作许可，不猜真实密码。\n\n来源：[保存帖1](https://x.com/i/status/1480708379257360385)、[保存帖2](https://x.com/i/status/1483112655950913542)、[保存帖3](https://x.com/i/status/1483780802421080064)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "截图相似与同一代码库的验证距离",
+    "正文用标题/截图聚类找interesting domains，另帖正常漫游、JS与功能性分析仅保存1/2。\n\n先为自有fixture记录页面、功能、动作、对象与权限，截图作导航，再以明确资源/版本/接口合同核关系。相同主题、模板、CDN、不同后端/角色或未存2/2为反例；外观相似不推出共享漏洞，也不补写未保存方法。\n\n来源：[保存帖1](https://x.com/i/status/1480752302642241539)、[保存帖2](https://x.com/i/status/1481124091268857856)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "Burp Bounty 2.3 的匹配点与规则来源",
+    "两图保存2.3变更：Intruder only points、raw请求修复、编码器、private collaborator及扫描菜单，另一图列七个CVE profiles。\n\n记录工具/规则版本、匹配位置、编码层、正常与异常请求、退出/回调状态，并用自有无外联输入确认实际发送字节。规则存在、静态名称、回显或共享回调为反例；profile数量/命中不等于漏洞数，版本改动可能改变旧结果。\n\n来源：[保存帖1](https://x.com/i/status/1480755395291275265)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "Automation 只读角色与角色管理的持久化证据",
+    "正文说文档角色readonly但写API可调用，图题Operator manageAutomationconfig；另一帖移除disabled后更新role并成为Admin，550邮件声称内部复现。图没有原始服务器交换。\n\n用自有两个角色建立动作合同，固定对象/会话比较正常授权、低权限与未认证，再由独立读回/受保护无副作用动作核持久化。仅按钮解锁、客户端字段、无状态改变或原本允许为反例；厂商认可单列，不替代实际能力证据。\n\n来源：[保存帖1](https://x.com/i/status/1480785079307620353)、[保存帖2](https://x.com/i/status/1484116780188463104)。"
+  ],
+  [
+    "expert-reasoning.md",
+    "安全完成率与组件易利用口号的校正",
+    "100%安全宣传、Jira easy及NoSQL everywhere/easy没有保存部署条件或原始比较；标题/课程完成不能证明漏洞存在或全系统无漏洞。\n\n将命题转为组件/版本/消费者/身份/动作/状态的可检验假设，最小自有对照只改变一个前提。泛称、历史文章、不同实例和缺交换为反例；覆盖率用于描述已审材料范围，不冒充实际系统安全率。\n\n来源：[保存帖1](https://x.com/i/status/1480808278741430272)、[保存帖2](https://x.com/i/status/1481881585796681728)、[保存帖3](https://x.com/i/status/1482106369587171331)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "anew 仅新名称循环遗漏已知资产变化",
+    "完整while循环每小时subfinder→anew→httpx→nuclei→notify，anew之后只送新名称。域名集合的增量与已知服务状态的增量不同。\n\n区分发现键和观察键，保留源、时间、协议/端口、配置版本、完成/失败与依赖产物；自有fixture用同名服务状态变化作对照。只有新名称、睡眠日志、扫描启动或回调消息为反例；定期复核需求不能由去重消除，本任务没有启动循环或通知。\n\n来源：[保存帖1](https://x.com/i/status/1480845268010500098)、[保存帖2](https://x.com/i/status/1483854265470705664)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "客户端 JSON 改为 admin 与认证权威",
+    "两帖完整status0→1/user_typeadmin故事发生在错误凭据响应之后，附图只有P1 Unresolved标题。客户端状态可能改变界面，认证权威仍需服务端判断。\n\n自有正常/错密/变更JSON比较会话凭据、服务器主体及受保护无副作用能力，重开会话核状态。仅显示admin、无服务器token、服务端拒绝或原本公开功能为反例；报告等级不证明身份突破。\n\n来源：[保存帖1](https://x.com/i/status/1480872200982839297)、[保存帖2](https://x.com/i/status/1480999007090462721)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "GUID 删除、改密与 email 查对象的不同契约",
+    "三图分别是acID/Delete POST、两账户GUID改密草图和email查询UUID/手机号/历史的200 JSON。随机对象名、功能角色和字段披露不是同一根因。\n\n仅用自有A/B固定动作/会话比较对象与字段归属，副作用用本地合成状态，记录预期读者及持久化。不可猜ID、正确对象授权、公共字段或只有草图为反例；GUID可见不证明密码可改，不执行真实删除/改密或收集PII。\n\n来源：[保存帖1](https://x.com/i/status/1480883956203630594)、[保存帖2](https://x.com/i/status/1481545445587714051)、[保存帖3](https://x.com/i/status/1481636760610537472)。"
+  ],
+  [
+    "by-type/business-logic.md",
+    "WannaRace 页面到并发不变量的最小实验",
+    "靶场图显示voucher、balance、buy和reset，没有保存并发请求或双兑付结果。\n\n自有fixture定义单券一次、扣账与交付一致等业务不变量，固定身份/余额/初始状态，比较串行和受控并发，留请求关联及持久化差异。仅UI、多次显示、事务回滚或合法多次使用为反例；训练功能目录不是已确认race，不在真实支付/订单上操作。\n\n来源：[保存帖1](https://x.com/i/status/1480890870903844866)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "Autorize 结果必须绑定身份和业务状态",
+    "正文反对手动测试并称半自动插件找两IDOR，没有保存主体/对象/动作及差异交换。\n\n插件作候选发生器；以自有角色和对象固定cookie/token/重放来源，核响应语义、真实字段和状态。缓存、登录页软200、内容反射、不同输入或预期公开为反例；按钮/判定颜色不替代服务器授权契约。\n\n来源：[保存帖1](https://x.com/i/status/1480901073262968833)。"
+  ],
+  [
+    "by-type/xss.md",
+    "SVG animate 改 href 的交互前提",
+    "完整SVG animate/xlinkhref片段带实体编码javascript，另帖有十进制/十六进制与前导零变体。保存字符串没有跨浏览器执行证据。\n\n自有静态fixture追URL解码→HTML/XML实体→SVG/SMIL属性更新→链接交互和真实CSP，记录命名空间与消费者。纯文本、错误namespace、未触发、策略拦截或解析器拒绝为反例；不加载归档外链脚本，不称通用Chrome/WAF绕过。\n\n来源：[保存帖1](https://x.com/i/status/1480925381851033602)、[保存帖2](https://x.com/i/status/1482430543090257921)。"
+  ],
+  [
+    "by-type/mobile-android.md",
+    "APK 解密到 GitLab 权限链的逐段身份",
+    "两长图叙述APK→.jsc→XXTEA→JS→IP/端口→GitLab自注册/枚举/绕限/管理员→源码，续图再写Redis/管理登录/RCE，缺每段原始交换。\n\n静态记录包/构建、加密格式、材料来源和消费者，下一阶段重新核资产、主体、动作与授权；用自有合成材料区分本地解密、发现服务、有效认证及权限改变。仅解密字符串、旧地址、无服务端状态或不同主机为反例，不下载全部源码、破解密码或使用真实秘密。\n\n来源：[保存帖1](https://x.com/i/status/1480990799399735296)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "log.txt、Yii 配置与公开字段的秘密门槛",
+    "正文给枚举/fuzz/login日志三步，图仅triaged PII标题；Yii图含被遮蔽的DSN/password/OAuth/CRM/payment/telegram字段；wp-json users正文说会引出猜密。\n\n只在自有无秘密fixture核预期读者、实际字段、部署环境与消费者。路径/键名、展示昵称、历史示例、受限读取和过期材料为反例；email/password文字不等于有效凭据，公开displayname不必是登录ID，不读取真实日志或猜密。\n\n来源：[保存帖1](https://x.com/i/status/1481026149149028355)、[保存帖2](https://x.com/i/status/1482295916119875584)、[保存帖3](https://x.com/i/status/1483030446044762113)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "邮件缺 DMARC 标签与实际投递的区分",
+    "SpoofThatMail图25/35标签含NoDMARC与willbespam；Espoofer图分MUA、SMTP envelope/receiver、DNS、SPF senderIP、DKIM签名和DMARC对齐，还有重放/客户端路径。\n\n静态区分envelope身份与显示From、认证通过及标识符对齐、域策略和接收器处理，使用合成邮件数据作正负对照。只有DNS缺项、spam标记、显示名或未存receiver交换为反例；标签不证明成功冒充/投递，不发送邮件。\n\n来源：[保存帖1](https://x.com/i/status/1481026764323397636)、[保存帖2](https://x.com/i/status/1482099030079553537)、[保存帖3](https://x.com/i/status/1482211101777743872)。\n\n语义校核：[历史邮件对齐定义 RFC 7489](https://www.rfc-editor.org/rfc/rfc7489)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "扩展 contentScripts 域匹配不等于扩展 XSS",
+    "正文认为Chrome扩展匹配的域都在scope，奖项图仅critical DOM题名。外部站点脚本、内容脚本与扩展能力需要分别定位。\n\n静态记录manifest版本/permissions/matches、执行世界、消息桥来源/source及真正特权接收器，核当前项目允许的组件。只网站XSS、无桥、正确来源验证或另一归属域为反例；匹配规则不授予整域测试权，奖励等级不补缺失机制。\n\n来源：[保存帖1](https://x.com/i/status/1481059617228693505)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "NGINX Plus 上游 API 的读写执行层级",
+    "Parser图经编码路径到api2/http/upstreams/servers，显示id/server/weight/fail等字段，没有写入/认证的完整交换。\n\n以自有配置模拟核路由规范化、reader与管理动作权限，正常/缺身份/低权限比较只读字段，再独立记录变更及消费者。只返回列表、正确读权限、无持久化或server字段未被执行为反例；上游地址可读不自动是RCE，不写真实配置。\n\n来源：[保存帖1](https://x.com/i/status/1481191655701348352)。"
+  ],
+  [
+    "by-type/xss.md",
+    "Grafana constructor 字符串的语法与上下文",
+    "保存snapshot/dashboard constructor表达式与alert片段引号不完整，未保存对应版本、入口解析或执行交换。\n\n先作为不可信文本核编码层、完整语法、属性/表达式消费者和实际页面策略，以自有静态无外联标记比较普通字符串与真正语法位置。畸形片段、展示在文档、无constructor调用或受策略阻断为反例；不擅自修成可执行载荷后称原帖已证明漏洞。\n\n来源：[保存帖1](https://x.com/i/status/1481221447368339456)。"
+  ],
+  [
+    "by-type/xss.md",
+    "NOSCRIPT、title 与 innerHTML 的解析分层",
+    "正文完整h1/NOSCRIPT/p/title/外部script组合，另帖说innerHTML插script不执行但事件属性仍可能运行。两种插入/解析上下文的行为不能混用。\n\n自有静态fixture保留HTML/XML模式、scripting标志、插入API、namespace、事件和原始CSP/TrustedTypes，比较纯文本与DOM节点。只HTML呈现、script inert、无事件或被清理/策略拦截为反例；回调缺失不是全局安全，显示标签也不证明blindXSS，不取回外部脚本。\n\n来源：[保存帖1](https://x.com/i/status/1481256393214676999)、[保存帖2](https://x.com/i/status/1483158016044142594)。\n\n语义校核：[MDN innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)。"
+  ],
+  [
+    "reporting.md",
+    "五个标题在一报告中的根因分组",
+    "图一个标题列information/SSRF/git/debug/metrics，状态Unresolved accepted；另一帖强调报告给triage/QA/dev/security看且从零复现。\n\n把每个命题关联原始交换、身份/对象、前提、根因和可重复影响；相同根因的多个路径可归组，独立消费者各留证据。仅标题/平台标签/奖金或步骤省略为反例，不将五词算五个已证漏洞；披露与复现状态分开。\n\n来源：[保存帖1](https://x.com/i/status/1481343959855161348)、[保存帖2](https://x.com/i/status/1481133874235449344)、[保存帖3](https://x.com/i/status/1481666359167787010)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "server-status 的访客数据与最小标记",
+    "图监控工具卡片写clients及requested URLs，正文称据此找五漏洞，没有保存五个交换。\n\n确认读者、字段敏感性及访问政策，自有fixture仅一个无敏感请求标记比较授权/无身份读者，区分公开健康状态与访客业务数据。只有工具能力、示例URL、受限访问或无敏感字段为反例；不运行连续监控、不收集真实访客记录。\n\n来源：[保存帖1](https://x.com/i/status/1481379478467235848)。"
+  ],
+  [
+    "experiment-design.md",
+    "WiFi 测试框架的驱动和观察接口",
+    "图hostap扩展经ethernet/wpaspy到解释器/testcase和monitor接口，是测试架构而非攻击结果。\n\n自有离线fixture记录输入事件、驱动状态、设备/接口及观测来源，比较基线与单变化测试，保持设备与空口授权边界。模块连线、未运行testcase、不同接口或没有状态收据为反例；框架支持无线并不授予周边网络测试许可，不安装或连接设备。\n\n来源：[保存帖1](https://x.com/i/status/1481389186041229318)。"
+  ],
+  [
+    "by-type/cmd-injection-rce.md",
+    "OpenDreambox WebAdmin 错误、字段和 uid 的证据",
+    "完整插件/shodan/script cmd正文和多图中有pipe输入、passwd字段及Permission denied，另一图id输出uid0，转帖复用。它们只指向所示实例/消费者。\n\n静态核插件/路径/输入到命令解释器及认证链；自有无外联fixture用无害标记区分解析错误、文件读取和进程执行。只搜索命中、反射、不同实例、受限访问或单错误为反例，不由uid0推出全体设备默认可执行，不运行/取系统文件。\n\n来源：[保存帖1](https://x.com/i/status/1481408591525720065)、[保存帖2](https://x.com/i/status/1481529591273771017)、[保存帖3](https://x.com/i/status/1482230519484252160)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "后台捕获与目录列表的语义筛选",
+    "正文正常漫游时Burp后台捕获、ffuf/ferox产200/403列表；FOFA 401/Basicrealm图给大量IP统计。它们各是捕获或发现候选。\n\n记录身份、Host/SNI、实际路由、状态/内容、时间与请求预算；自有fixture比较真实资源、软404及挑战页。统计/200/403/401、统一登录页、缓存或共享地址为反例；目录数不是漏洞数，后台运行不替代逐个授权验证。\n\n来源：[保存帖1](https://x.com/i/status/1481469563657420801)、[保存帖2](https://x.com/i/status/1481529591273771017)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "Token Spray 工具与密钥动作的最小范围",
+    "Token Spray/Guesser提示在两帖出现，图片只有105奖励。工具名不能证明某串是哪种秘密或可用权限。\n\n静态分类材料格式、来源、所属服务/消费者、环境、有效期和声明动作，以自有合成错误/失效材料核处理。公开ID、无所属服务、过期/撤销或正确受限scope为反例；不发送真实token到工具/第三方，不以奖金确认认证。\n\n来源：[保存帖1](https://x.com/i/status/1481474731169939459)、[保存帖2](https://x.com/i/status/1481683520879611905)。"
+  ],
+  [
+    "reporting.md",
+    "没有专用 HTTP 栏位时保存原始交换",
+    "表单图有URL、Markdown description及附件/字符限制，没有单独HTTP请求栏目。历史表单限制只描述该次UI。\n\n报告仍应在描述或附件保存脱敏原始请求/响应、环境/身份/状态、最小差异和预期实际影响，附件与步骤关联。只有截图、关键headers缺失、材料无法匹配或字段容量变化为反例；没有专用栏位不等于无需HTTP证据，也不保证平台接受。\n\n来源：[保存帖1](https://x.com/i/status/1481503759029178368)。"
+  ],
+  [
+    "by-type/xss.md",
+    "message.data 到 document.write 的接收契约",
+    "spotcode图监听message并直接document.write(data)，可见代码没有origin/source判断，但未存真实页面/策略和发送者可达性。\n\n静态追消息发送窗口、接收器注册/时机、data类型、HTML消费者及CSP；自有fixture比较可信/非可信来源和不可达窗口。仅代码片段、隔离世界、接收器不可达、上游正确过滤或策略阻断为反例；危险sink需要实际数据通路，不发送消息到真实页面。\n\n来源：[保存帖1](https://x.com/i/status/1481507403338518531)。"
+  ],
+  [
+    "reporting.md",
+    "CTF user/root 截图与初始入口分离",
+    "Momentum2图是uid1000athena/userflag与uid0/rootflag末端终端，正文alt明确User/Root；Insomnia CTF alt却配另一WP SQL语法错误图。\n\n记录训练环境和材料对应关系，分初始入口、身份变化、后续权限与末端状态，每段要有输入/响应/状态对照。只flag、不同题目/实例、无原始步骤为反例；已有root输出不能反推任意利用链或真实目标授权。\n\n来源：[保存帖1](https://x.com/i/status/1480804168675696640)、[保存帖2](https://x.com/i/status/1481528943282835457)。"
+  ],
+  [
+    "by-type/cmd-injection-rce.md",
+    "SSRF 输入不会自行成为 shell 命令",
+    "保存帖把SSRF到RCE与反引号、curl取passwd/写文件表达式相连，另帖2/2说shell值未转义而前段未存。URL控制与shell语法控制是两种消费者。\n\n静态追原参数→URL解析→网络loader或shell调用/argv，区分字符串、shell解释和文件副作用；自有离线fixture用合成无害值/错误对照。只有HTTP回调、未调用shell、正确参数隔离或缺消费者为反例，不执行归档命令/写真实文件/外联。\n\n来源：[保存帖1](https://x.com/i/status/1481543873919086593)、[保存帖2](https://x.com/i/status/1483836180575944704)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "SSH key API 的 token 与二次因子保护",
+    "图是Get SSH keys API AuthorizationToken/API_KEY文档，正文说没有OTP/2FA，并未保存一次未授权交换。\n\n明确协议、token发放/已有会话、scope、受保护动作及SSH真正消费者，以自有合成主体比较正常/失效/错scope/缺因子。文档示例、已有合法API身份、仅公开key或策略允许为反例；每个API请求没OTP不自动是2FA绕过，不读取/使用真实key。\n\n来源：[保存帖1](https://x.com/i/status/1481548690078990337)、[保存帖2](https://x.com/i/status/1481549122129874947)。"
+  ],
+  [
+    "expert-reasoning.md",
+    "AD CVE 号不一致时停止补全链",
+    "正文写42287但外链写42278，只有资源标题，没有版本、前提、交换及权限结果。\n\n分别登记编号/来源/保存范围，只有实际保存且能相互对应的身份、动作和状态才可组成链；最小对照核同一实例和前提。编号混用、不同实例、只有标题或消费者未存为反例，不凭相邻文章自行补出完整域提权步骤。\n\n来源：[保存帖1](https://x.com/i/status/1481593116415172613)。"
+  ],
+  [
+    "source-audit.md",
+    "Scemu 仿真和既有 CLR 模块的执行边界",
+    "Scemu图是x86 call EAX到MessageBoxA的仿真输出；InjectAssembly图已有CobaltStrike session、FindModule/clr.dll及PID。两图均缺真实入口/执行调用链。\n\n静态记录代码来源、仿真/原生环境、寄存器或模块/主体状态，用自有离线材料区分模块存在、调用和运行结果。仅Hello窗口、模块列表、既有高权会话或未达调用为反例，不注入真实进程，不把后续工具界面当初始入侵证明。\n\n来源：[保存帖1](https://x.com/i/status/1481600618007568385)、[保存帖2](https://x.com/i/status/1483050281646632962)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "HTTP_HOST Notice 的文件路径披露范围",
+    "PHP图三个文件/行号的UndefinedIndexHTTPHOST Notice和PageNotFound，重复帖复用同图，没有源码文件全文。\n\n自有无秘密fixture记录错误触发条件、实际字段、读者和模板，普通/缺header/错误输入对照。只有目录/文件名、遮蔽字段、公开示例或统一错误为反例；路径线索不自动是源码泄露、任意文件读或ATO，不取真实配置。\n\n来源：[保存帖1](https://x.com/i/status/1481603388630790145)、[保存帖2](https://x.com/i/status/1482098371510820865)。"
+  ],
+  [
+    "by-type/waf-bypass.md",
+    "编码 SVG 与 selfcomment 的实例级复现",
+    "正文有CF/WordFence7.5.7二次编码SVG/fragment，另组两帖同完整selfcomment/domainalert字符串但图片不同：blocked与alert。版本和消费者不一致不能直接合并成功率。\n\n保存原始输入、每次URL/entity/JS解码、属性/表达式上下文、交互、CSP与实际实例/版本；自有fixture一次只变一层。畸形引号、控制台、自改页面、不同实例或仅blocked/alert无交换为反例，不称当前全局WAF绕过，不运行归档代码。\n\n来源：[保存帖1](https://x.com/i/status/1481766262175047681)、[保存帖2](https://x.com/i/status/1483192328693108743)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "公开订单号与订单详情授权",
+    "完整正文说Twitter公开订单号可追踪并看到姓名/地址/商品，但缺原始响应和访问合同。\n\n用自有两合成订单区分公开状态与应限于所有者的字段，固定会话/订单ID作正常/错主体/无身份比较，记录真实返回与缓存。公开设计的最小状态、不可重现、登录门或仅标题为反例；公开编号不等于全详情访问许可，不收集真实订单/PII或下单。\n\n来源：[保存帖1](https://x.com/i/status/1481881975879532544)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "Osmedeus CIDR YAML 的依赖、预算和完成收据",
+    "保存完整四模块portscan→screen→vuln→dirb YAML，portscan参数含65535ports/rate20000/tthreads3/nmthreads30/scr5及HTTP timeout；CLI图仅启动。清理/重定向也可能丢失败证据。\n\n静态核输入/当前范围、模块依赖、协议/端口预算、并发/超时、产物哈希与每阶段完成/失败；自有离线fixture区分空输出、失败和未运行。开始日志、参数值、旧缓存或cleanup后缺原始输出为反例，本任务未运行工作流/扫描网络。\n\n来源：[保存帖1](https://x.com/i/status/1481961865811210242)。"
+  ],
+  [
+    "by-type/xss.md",
+    "username 进入 img alt 的属性逃逸边界",
+    "图保存username引号/onload进入img alt的代码/呈现，正文称stored XSS，重复帖子复用。未保存完整DOM、存储和另一读者执行记录。\n\n自有静态fixture追原字符串→属性编码→浏览器节点→保存/后续渲染/事件和CSP，比较普通字符/安全编码/无事件。纯文本、正确属性转义、无存储读者或策略阻断为反例；document.cookie表达式不证明HttpOnly泄露，不执行归档事件。\n\n来源：[保存帖1](https://x.com/i/status/1482131903742414854)、[保存帖2](https://x.com/i/status/1482223217494433796)。"
+  ],
+  [
+    "by-type/lfi-path-traversal.md",
+    "Python 绝对 filename 与完整路径点号筛选",
+    "代码os.path.join(BASE_DIR,uploads,filename)后对整个file_path.find('.')判断，再openread返回image/png；绝对组件可能丢弃先前基址，筛点却可能因BASE_DIR自身有点而拒绝一切。\n\n静态记录OS路径规则、实际配置、每次join/规范化/符号链接和权限，自有合成目录比较相对/绝对/含点基址及受限结果。基址固定正确/拒绝绝对、无读权限或筛选提前阻断为反例；png头不验证内容，join不是包含性验证，不读真实文件。\n\n来源：[保存帖1](https://x.com/i/status/1482227109733224448)、[保存帖2](https://x.com/i/status/1482316389503627266)。\n\n语义校核：[Python os.path.join](https://docs.python.org/3/library/os.path.html#os.path.join)。"
+  ],
+  [
+    "by-type/file-upload.md",
+    "Content-Type 接受与服务器解释器消费",
+    "正文说双扩展没成功、改ContentType为image/jpeg后执行，但没有保存接受、落盘位置和解释器调用的交换。\n\n自有无害文件比较声明MIME、实际格式、原名/服务器名、访问路由和消费者，记录存储/读回及是否仅下载。只上传成功、无执行映射、内容验证正确或静态/隔离存储为反例；Content-Type不是执行开关，不上传脚本到真实服务。\n\n来源：[保存帖1](https://x.com/i/status/1482233451734441986)。"
+  ],
+  [
+    "by-type/ssrf.md",
+    "数值地址、userinfo 与 unspecified 的解析差异",
+    "两完整列表有127.1、整数/hex/octal、白名单userinfo、IPv6及0.0.0.0/0/[::]，某些写法无括号或不是loopback。解析/路由依实现与网络环境。\n\n静态分URL解析结果、host规范化、DNS/地址族、实际目标和策略检查，使用离线合成值正负对照。非法语法、unspecified未路由为loopback、校验与连接一致或无网络消费者为反例；字符串变体不是已证过滤绕过，不向内网/metadata发送请求。\n\n来源：[保存帖1](https://x.com/i/status/1482287066268459011)、[保存帖2](https://x.com/i/status/1483583779012759554)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "Kerberos 缓存和 Windows token 的已有身份",
+    "票据图list/export TGT/LDAP及两kirbi旧时间，TokenUniverse图FullAccess句柄、Primary/Medium/Limited且accesscontrol项未启用。材料呈现的是已有身份状态。\n\n记录票据服务/主体/时间与token类型/完整性/权限，区分读句柄、材料导出、身份认证及目标动作；自有合成对照只核字段/消费者。过期、无目标授权、Medium/limited或仅列表为反例，不导出真实票据、连接服务或默认称SYSTEM。\n\n来源：[保存帖1](https://x.com/i/status/1482317891940732930)、[保存帖2](https://x.com/i/status/1482702843710738432)。"
+  ],
+  [
+    "by-type/ssrf.md",
+    "客户端 localhost 字串到服务器网络消费者",
+    "图SearchSources中搜localhost/127/internal/local等，正文“discover”，没有实际服务器请求。\n\n先静态绑定JS资源/构建/路由，追该值由浏览器、本地工具还是服务端loader消费；自有离线fixture比较未使用字符串与可达消费者。注释、开发配置、死代码、浏览器侧请求或正确出站限制为反例；静态地址不等于SSRF，不连接所列地址。\n\n来源：[保存帖1](https://x.com/i/status/1482331744862883842)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "LeakIX 历史严重性与新闻变化的范围确认",
+    "图closedcritical Log4j/Jira/PaloAlto，正文Google Alerts推荐盯项目新闻；另一帖diodb2307按不同字段给比例。标签/新闻/统计都是带时间的候选线索。\n\n分别记录采样/报告时间、字段/分母/重叠、实例指纹和当前范围/允许动作，用自有材料核变化对应部署。旧标签、不同主机、政策过期、仅公告或闭合状态为反例，不将historical critical或组织统计当当前漏洞/授权，不创建提醒。\n\n来源：[保存帖1](https://x.com/i/status/1482363730499444741)、[保存帖2](https://x.com/i/status/1482563270502674435)、[保存帖3](https://x.com/i/status/1482658968627552262)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "枚举器相串与 wayback 参数裁切的覆盖损失",
+    "完整subfinder|assetfinder|httpx不保证两源并集；wayback/gf/sed'=.*'裁切再sort/tee/dalfox会丢后续参数和值。grep=只覆盖一类入口。\n\n静态核工具stdin契约，保留源、完整URL及解析参数结构、时间、失败和改写映射；自有合成URL比较多参数/无等号/重复键。工具忽略stdin、去掉依赖参数、回调混用或空输出为反例；候选数/回调不是全体XSS确认，不运行网络管线。\n\n来源：[保存帖1](https://x.com/i/status/1482395225805160448)、[保存帖2](https://x.com/i/status/1483387940298702857)。"
+  ],
+  [
+    "by-type/sql-injection.md",
+    "OUTFILE 写入、文件范围与 Web 执行",
+    "完整OUTFILE示例带畸形PHP标签/curlyquotes，正文未存数据库权限、保存成功及web消费者。写入SQL语法、DB文件能力与代码执行各有前提。\n\n静态核查询位置、FILE权限、secure_file_priv、DB进程可写目录、目标不存在及解释器/路由，用自有合成文本比较拒绝与可写。语法错、目录限制、文件已存在、不可写或只静态下载为反例；不写真实文件，不把非web目录或写入等同RCE。\n\n来源：[保存帖1](https://x.com/i/status/1482431378851393540)。\n\n语义校核：[MySQL SELECT INTO](https://dev.mysql.com/doc/refman/8.4/en/select-into.html)。"
+  ],
+  [
+    "expert-reasoning.md",
+    "混杂 file 与 manlist 片段不能拼成同一利用链",
+    "图把geojson file://读取及cgi-bin/manlist section<h1/script片段并列，正文说完美工作；缺统一实例/请求/权限对应。\n\n按实例、协议、路由、消费者和时间分开登记，分别用自有无秘密fixture核文件读与HTML上下文的最小比较。错路径、参数未达消费者、不同截图或只有展示字符为反例；多个可疑片段不共同证明SSRF/读文件/XSS/RCE链。\n\n来源：[保存帖1](https://x.com/i/status/1482448663607746567)、[保存帖2](https://x.com/i/status/1484106227806539777)。"
+  ],
+  [
+    "source-audit.md",
+    "iptables DROP 截图与连接时序的因果界定",
+    "终端图已有SSH到vm2/student后出现INPUT/OUTPUT DROP文字，却未保存hook、接口、状态或命令返回后的流量序列。\n\n静态记录链/表/规则顺序、路由与连接状态，离线fixture比较已存在/新连接和不同hook观察。只有命令文字、截图取样先后、错误链/namespace或无后续交换为反例；连接窗口仍在不证明防火墙后门，不更改真实规则/连主机。\n\n来源：[保存帖1](https://x.com/i/status/1482461179675095041)。"
+  ],
+  [
+    "by-type/file-upload.md",
+    "PHP PATHINFO_EXTENSION 与带点拒绝列表",
+    "附件代码denylist含.php等，pathinfo(PATHINFO_EXTENSION)结果不含前导点，字符串比较错位；另有orig..筛选后public上传move。\n\n静态核扩展表示、大小写/末段规则、格式识别、服务器名/目录/消费权限，用合成文件名比较正常/禁扩展/多扩展。校验表示修正、格式拒绝、隔离存储或无解释器映射为反例；denylist修一个比较也不覆盖所有格式，路径筛点不替代完整合同，不上传可执行文件。\n\n来源：[保存帖1](https://x.com/i/status/1482740498683285506)。\n\n语义校核：[PHP pathinfo](https://www.php.net/manual/en/function.pathinfo.php)。"
+  ],
+  [
+    "by-type/file-upload.md",
+    "mt_rand 无扩展存储与覆盖、访问契约",
+    "另一附件代码拒orig含..，用mt_rand构造无扩展public目标并move。无扩展不是自动安全或自动PHP执行，随机命名也不是权限合同。\n\n静态核命名空间/碰撞处理、写入覆盖行为、资源映射及读者权限，在自有合成文件名和离线状态比较同名/不同名/低权限读取。原子唯一命名、拒覆盖、非公开读或无执行消费者为反例；仅随机名不能推出可预测泄露，不移动真实文件。\n\n来源：[保存帖1](https://x.com/i/status/1483063128292466689)。"
+  ],
+  [
+    "by-type/cmd-injection-rce.md",
+    "APISIX 固定端口标签与不同 IP 的拼链",
+    "正文Shodan后固定9000，批量图又有9001/default/no/vul标签；一图lsbrelease输出CentOS后SSH是另一IP且先失败。实例关联与真实服务端口都未证。\n\n静态分搜索条件/实际port/HostSNI、组件/版本、认证、配置变更和执行消费者，自有fixture核同一实例的阶段关联。标签、banner、不同IP、另会话或无配置/执行证据为反例；历史APISIX条件不可外推全部当前实例，不扫描/改配置/猜SSH密码。\n\n来源：[保存帖1](https://x.com/i/status/1482878587057602561)。"
+  ],
+  [
+    "expert-reasoning.md",
+    "只阻断 Collaborator 域名的修复反例",
+    "meme对比修代码和阻断collab域；阻断观测通道可能只消除回调，没有改变输入到网络/代码消费者的真实边界。\n\n自有离线回归保留根因/输入位置/解码/出站策略，以无外联标记区分输入被拒、危险消费者不再可达与观察被屏蔽。无回调、DNS规则或替换观测域本身为反例；结果必须来自消费者的真实限制，不为绕域再次向真实目标探测。\n\n来源：[保存帖1](https://x.com/i/status/1483031282741399554)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "VPN 或代理不会给出测试身份保证",
+    "正文称总应VPN/proxy避免IDS/admin，没有保存网络/识别比较，也没有因此获得权限。\n\n测试前明确允许资产/动作/身份、审计可归因和请求预算，记录实际出口/环境；自有离线环境仅核配置与日志。共享出口、应用账号关联、协议/时间特征或政策禁止为反例；不提炼隐匿流程，代理配置不能代替授权或安全保证。\n\n来源：[保存帖1](https://x.com/i/status/1483067655863308290)。"
+  ],
+  [
+    "source-audit.md",
+    "Maven Path.resolve 后再 URI.resolve 的两类语义",
+    "完整Java图groupId替点成路径、artifact/version/jar名经Paths.resolve/normalize后toString，再BASE_URI.resolve供OkHttp使用；另一正文说absoluteURI会取参数。\n\n静态追每段原值、OS路径语法/normalize结果以及最终URI的scheme/authority/path，核真正HTTP消费者的allowlist。URI参数已有scheme才是absoluteURI，绝对路径与URI不等价；格式改写/解析拒绝/固定authority为反例，不拿未经过Paths的字符串当最终目标，不发送网络请求。\n\n来源：[保存帖1](https://x.com/i/status/1483317738575888384)、[保存帖2](https://x.com/i/status/1483501885235417090)。\n\n语义校核：[Oracle URI.resolve](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/net/URI.html#resolve(java.net.URI))、[Oracle Path.resolve](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Path.html#resolve(java.nio.file.Path))。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "Driftwood 本地解锁与远端身份授权",
+    "图加密privatekey的passphrase破解和GitHubUsername JSON，正文只有工具推广，缺当前远端认证及权限交换。\n\n区分本地材料是否解锁、公钥/账户关联、有效期/撤销与真正目标动作，以合成key材料和离线身份映射作对照。示例key、仅用户名、撤销/无权限或无服务器接受为反例；解锁文件不等于获得远端许可，本任务未破解/使用key或查账户。\n\n来源：[保存帖1](https://x.com/i/status/1483412500678856711)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "tld_scanner 参数与工具菜单的分类作用",
+    "正文完整tld_scanner参数且明确自行核belongsorg；DorkHelper/Investigator全菜单包括配置/DB/日志/登录/备份/源码、员工、历史、S3及多搜索源，卡片没有探测结果。\n\n把菜单当候选分类，逐项保留来源、时间、原值和当前资产/动作政策，以自有合成条目核分类。菜单/相似TLD、员工关联、公开示例或共享服务为反例；组织相关性不等于授权，不执行搜集PII、取秘密或网络扫描。\n\n来源：[保存帖1](https://x.com/i/status/1483455259704176641)、[保存帖2](https://x.com/i/status/1483779232199323649)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "sort-u 合枚举源后保留来源和失败",
+    "完整正文与文字图sort-u合Amass/Sublist3r，只显示唯一集合。\n\n去重之前保留每源原值、采样时间、完成/失败，再为规范化域名、解析与服务观察单独建键；离线合成重复/不同大小写/错误输入作对照。相同字符串不同时间、某源失败、旧归属或未经DNS/服务验证为反例；唯一计数不等于当前全量资产，不覆盖原始清单。\n\n来源：[保存帖1](https://x.com/i/status/1483769560595681281)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "API、config 和内部路径词表的候选边界",
+    "两帖子同完整词表含api/access/token/json/admin/aws.js/config/v1至多版本、dashboard/oauth/url/uri/auth/internal/dev。词表本身不包含真实暴露结果。\n\n静态保留分类、路径原形与可能消费者，在自有fixture比较真正资源、软404、统一登录和public配置，绑定当前scope。文件名、版本猜测、200壳页面或无敏感字段为反例；候选路径不等于凭据/私有API，不批量探测真实服务。\n\n来源：[保存帖1](https://x.com/i/status/1483776443524206594)。"
+  ],
+  [
+    "by-type/lfi-path-traversal.md",
+    "proc 与 K8s 路径表的命名空间和读权限",
+    "完整路径表有proc/cwd/index.php/main.py/motd/net/UDP/ARP/self/environ及k8s serviceaccount。不同项可能是目录、进程视图或挂载材料，存在与可读范围不同。\n\n静态记录文件/目录类型、进程/容器namespace、挂载、路径解析和消费者权限，自有合成目录仅无敏感标记比较缺失/拒绝/正常读取。未挂载、权限拒绝、不同namespace或目录当文件为反例；路径清单不证明RCE/集群权限，不读取真实环境/票据或metadata。\n\n来源：[保存帖1](https://x.com/i/status/1484060627530358785)。"
+  ],
+  [
+    "by-type/cmd-injection-rce.md",
+    "Tomcat 404 版本不能证明 PUT 写入和执行",
+    "CVE2017-12617求助只配Tomcat8.5.23和/_ui/responsive/common/js/404 banner，没有PUT/落盘/执行交换。\n\n静态分别核实际组件/版本、写方法配置、访问权限、目标路径及解释器路由；自有无害fixture用拒绝/不存在/只静态读作对照。banner伪装、方法禁用、无可写路径或没有执行消费者为反例；版本字符串不是该实例漏洞确认，不向真实Tomcat写文件。\n\n来源：[保存帖1](https://x.com/i/status/1484104927098318853)。"
+  ],
+  [
+    "reporting.md",
+    "厂商内部复现与修复中的不同报告状态",
+    "PreATO邮件声称内部verified并workingfix，角色更新奖励也声称可内部复现；AppleHoF只写serverconfigurationissue addressed，无对应技术交换。\n\n分别记录提交、复现确认、修复中、修复完成及自有回归证据，来源/实例/时间对应真实材料。感谢/金额/证书、笼统已修或未存机制为反例；内部认可不补缺失技术链，修复中不能写成已完成，不发送披露或索取材料。\n\n来源：[保存帖1](https://x.com/i/status/1484073821783343109)、[保存帖2](https://x.com/i/status/1484116780188463104)、[保存帖3](https://x.com/i/status/1484117876798013440)。"
+  ]
+]

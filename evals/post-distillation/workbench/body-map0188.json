@@ -1,0 +1,512 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "Firebase Remote Config 的客户端可见性与真正秘密（0188）"
+  },
+  "2": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "保存图证0188-2-access：机制与验证条件；公开下载链接的预期分享与跨文件权限（0188）"
+  },
+  "3": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "保存图证0188-3-secret：机制与验证条件；JavaScript 与 GitHub 密钥候选的脱敏验证（0188）"
+  },
+  "9": {
+    "dis": "corrected",
+    "targets": "references/by-type/cors.md",
+    "note": "保存图证0188-9-cors：机制与验证条件"
+  },
+  "10": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "JS 提取与版本监控的来源和差异保存（0188）"
+  },
+  "11": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "保存图证0188-11-records：机制与验证条件；JS 提取与版本监控的来源和差异保存（0188）"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md,references/impact-and-acceptance.md",
+    "note": "保存图证0188-12-ssrf：机制与验证条件；保存图证0188-12-impact：机制与验证条件；bffwa 路由的元数据返回与凭据权限（0188）"
+  },
+  "16": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "JavaScript 与 GitHub 密钥候选的脱敏验证（0188）"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "公开日历枚举与误配置隐私的区别（0188）"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "Chrome 扩展审计插件的实际检查范围（0188）"
+  },
+  "20": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "保存图证0188-20-access：机制与验证条件；CMS 开放注册后的默认角色与服务端权限（0188）"
+  },
+  "21": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "调试端点暴露须关联可见数据与环境边界（0188）"
+  },
+  "22": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "POST 转 GET 后仍需证实受害者可达和执行（0188）"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "URL parser 绕过候选的多层路由对照（0188）"
+  },
+  "28": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "保存图证0188-28-scope：机制与验证条件；政策搜索与历史范围新增的使用边界（0188）"
+  },
+  "30": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "保存图证0188-30-xss：机制与验证条件"
+  },
+  "35": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "JS 提取与版本监控的来源和差异保存（0188）"
+  },
+  "36": {
+    "dis": "corrected",
+    "targets": "references/by-type/oauth-oidc.md",
+    "note": "保存图证0188-36-oauth：机制与验证条件；OIDC issuer 与客户端 secret 的两条信任边界（0188）"
+  },
+  "37": {
+    "dis": "corrected",
+    "targets": "references/by-type/oauth-oidc.md",
+    "note": "保存图证0188-37-oauth：机制与验证条件；OIDC issuer 与客户端 secret 的两条信任边界（0188）"
+  },
+  "38": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "保存图证0188-38-access：机制与验证条件；禁止下载权限要传播到富文本附件和预览（0188）"
+  },
+  "40": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "保存图证0188-40-xss：机制与验证条件"
+  },
+  "41": {
+    "dis": "corrected",
+    "targets": "references/impact-and-acceptance.md,references/by-type/info-secrets.md",
+    "note": "保存图证0188-41-impact：机制与验证条件；调试端点暴露须关联可见数据与环境边界（0188）"
+  },
+  "42": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "保存图证0188-42-xss：机制与验证条件"
+  },
+  "43": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "浏览器 Network 与代理快捷键的可复现记录（0188）"
+  },
+  "45": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "保存图证0188-45-access：机制与验证条件；同类功能、对象 ID 和降权后的授权矩阵（0188）"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "保存图证0188-46-logic：机制与验证条件；订阅价格、币种与客户端响应更改的结算对照（0188）"
+  },
+  "47": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "保存图证0188-47-access：机制与验证条件；同类功能、对象 ID 和降权后的授权矩阵（0188）"
+  },
+  "48": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "保存图证0188-48-access：机制与验证条件；同类功能、对象 ID 和降权后的授权矩阵（0188）"
+  },
+  "49": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "保存图证0188-49-access：机制与验证条件；同类功能、对象 ID 和降权后的授权矩阵（0188）"
+  },
+  "50": {
+    "dis": "merged",
+    "targets": "references/experiment-design.md",
+    "note": "浏览器 Network 与代理快捷键的可复现记录（0188）"
+  },
+  "53": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "测试邮箱归属与企业邮箱资格分开确认（0188）"
+  },
+  "54": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "测试邮箱归属与企业邮箱资格分开确认（0188）"
+  },
+  "55": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "保存图证0188-55-passive：机制与验证条件"
+  },
+  "57": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "JavaScript 与 GitHub 密钥候选的脱敏验证（0188）"
+  },
+  "58": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "保存图证0188-58-passive：机制与验证条件；DNS、端口和 HTTP 的活性分层（0188）"
+  },
+  "60": {
+    "dis": "corrected",
+    "targets": "references/by-type/cache-deception.md",
+    "note": "保存图证0188-60-cache：机制与验证条件"
+  },
+  "62": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "保存图证0188-62-scope：机制与验证条件；政策搜索与历史范围新增的使用边界（0188）"
+  },
+  "65": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "保存图证0188-65-web：机制与验证条件；未引用模板与备份路径的内容确认（0188）"
+  },
+  "68": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "保存图证0188-68-lfi：机制与验证条件；FileMage Windows 路径规范化与模板误报对照（0188）"
+  },
+  "69": {
+    "dis": "corrected",
+    "targets": "references/by-type/graphql.md",
+    "note": "GraphQL 字典规模与真实 schema/授权覆盖（0188）"
+  },
+  "70": {
+    "dis": "merged",
+    "targets": "references/by-type/business-logic.md",
+    "note": "订阅价格、币种与客户端响应更改的结算对照（0188）"
+  },
+  "73": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "无登录表单的滥用与会话依赖的 CSRF（0188）"
+  },
+  "74": {
+    "dis": "merged",
+    "targets": "references/by-type/csrf.md",
+    "note": "无登录表单的滥用与会话依赖的 CSRF（0188）"
+  },
+  "75": {
+    "dis": "merged",
+    "targets": "references/by-type/graphql.md",
+    "note": "GraphQL 字典规模与真实 schema/授权覆盖（0188）"
+  },
+  "76": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "退出流程的跳转参数与完整链条（0188）"
+  },
+  "77": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "DNS、端口和 HTTP 的活性分层（0188）"
+  },
+  "79": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "CMS 指纹与漏洞扫描的版本关联（0188）"
+  },
+  "83": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "保存图证0188-83-auth：机制与验证条件；按实际邮件与认证尝试计算预算（0188）"
+  },
+  "84": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "保存图证0188-84-secret：机制与验证条件；JavaScript 与 GitHub 密钥候选的脱敏验证（0188）"
+  },
+  "85": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "保存图证0188-85-source：机制与验证条件；Airflow JDBC 与 ODBC 连接参数的驱动加载边界（0188）"
+  },
+  "86": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "保存图证0188-86-source：机制与验证条件；Airflow JDBC 与 ODBC 连接参数的驱动加载边界（0188）"
+  },
+  "87": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md",
+    "note": "保存图证0188-87-passive：机制与验证条件；递归 TLS 名称发现的去重、环路和深度（0188）"
+  },
+  "88": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "保存图证0188-88-access：机制与验证条件；CMS 开放注册后的默认角色与服务端权限（0188）"
+  },
+  "89": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "DNS、端口和 HTTP 的活性分层（0188）"
+  },
+  "90": {
+    "dis": "corrected",
+    "targets": "references/by-type/crlf-response-splitting.md",
+    "note": "保存图证0188-90-crlf：机制与验证条件；自动化 CRLF 输出与真实头分割的证明（0188）"
+  },
+  "91": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "保存图证0188-91-passive：机制与验证条件；DNS、端口和 HTTP 的活性分层（0188）"
+  },
+  "92": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "管理入口候选与机制检查表的执行顺序（0188）"
+  },
+  "93": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "保存图证0188-93-logic：机制与验证条件；评分上限与聚合持久化分别校验（0188）"
+  },
+  "94": {
+    "dis": "corrected",
+    "targets": "references/by-type/deserialization-rce.md",
+    "note": "重复图片中的 Kredis 历史 JSON 公告（0188）"
+  },
+  "97": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "保存图证0188-97-records：机制与验证条件；递归 TLS 名称发现的去重、环路和深度（0188）"
+  },
+  "100": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssti.md",
+    "note": "SSTI 表达式的引擎、版本及读取/执行区别（0188）"
+  },
+  "103": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "保存图证0188-103-xss：机制与验证条件；同一输入进 Header 与 JavaScript 的跨上下文失配（0188）"
+  },
+  "105": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "保存图证0188-105-auth：机制与验证条件；按实际邮件与认证尝试计算预算（0188）"
+  },
+  "106": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-ios.md",
+    "note": "保存图证0188-106-ios：机制与验证条件；本地越狱检测与解密应用来源的验证范围（0188）"
+  },
+  "107": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/discovery/web-and-api.md",
+    "note": "保存图证0188-107-secret：机制与验证条件；未引用模板与备份路径的内容确认（0188）"
+  },
+  "108": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "保存图证0188-108-ssrf：机制与验证条件；IP 替代表达在验证器和连接器中的差异（0188）"
+  },
+  "109": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "保存图证0188-109-fuzz：机制与验证条件；邮箱语法、解码与下游漏洞类型的分层探针（0188）"
+  },
+  "112": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "保存图证0188-112-passive：机制与验证条件；DNS、端口和 HTTP 的活性分层（0188）"
+  },
+  "115": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "保存图证0188-115-secret：机制与验证条件"
+  },
+  "116": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "保存图证0188-116-sql：机制与验证条件"
+  },
+  "117": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "保存图证0188-117-web：机制与验证条件"
+  },
+  "120": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "对象 ID 修改与水平访问控制的定义边界（0188）"
+  },
+  "121": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "保存图证0188-121-access：机制与验证条件；同类功能、对象 ID 和降权后的授权矩阵（0188）"
+  },
+  "122": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "保存图证0188-122-secret：机制与验证条件"
+  },
+  "123": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "保存图证0188-123-xss：机制与验证条件"
+  },
+  "124": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "多参数标记扫描的归因与副作用（0188）"
+  },
+  "125": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "保存图证0188-125-sql：机制与验证条件"
+  },
+  "126": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "保存图证0188-126-android：机制与验证条件"
+  },
+  "128": {
+    "dis": "corrected",
+    "targets": "references/by-type/request-smuggling.md",
+    "note": "保存图证0188-128-hrs：机制与验证条件；单 CR 与前后端 HTTP 解析边界（0188）"
+  },
+  "129": {
+    "dis": "corrected",
+    "targets": "references/by-type/cors.md",
+    "note": "CORS PoC 与外部隧道的验证内容（0188）"
+  },
+  "130": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "保存图证0188-130-fuzz：机制与验证条件；已认证 ReDoS 与代理排队影响分开量化（0188）"
+  },
+  "131": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "保存图证0188-131-report：机制与验证条件"
+  },
+  "132": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/targeted-fuzzing.md",
+    "note": "保存图证0188-132-sql：机制与验证条件；邮箱语法、解码与下游漏洞类型的分层探针（0188）"
+  },
+  "133": {
+    "dis": "merged",
+    "targets": "references/by-type/ssti.md",
+    "note": "SSTI 表达式的引擎、版本及读取/执行区别（0188）"
+  },
+  "134": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "text/xml 与命名空间脚本的实际解析条件（0188）"
+  },
+  "136": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "保存图证0188-136-strategy：机制与验证条件；管理入口候选与机制检查表的执行顺序（0188）"
+  },
+  "137": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "保存图证0188-137-sql：机制与验证条件；OOB 回连的输出归因与 SQL 到执行链条（0188）"
+  },
+  "138": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "保存图证0188-138-access：机制与验证条件；API v1/v2 的同身份和租户集合对照（0188）"
+  },
+  "139": {
+    "dis": "corrected",
+    "targets": "references/by-type/cache-deception.md",
+    "note": "方法覆盖头与缓存键是否一致（0188）"
+  },
+  "140": {
+    "dis": "corrected",
+    "targets": "references/reporting.md,references/scope-and-rules.md",
+    "note": "保存图证0188-140-report：机制与验证条件；政策搜索与历史范围新增的使用边界（0188）"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "报告业务影响由最小证据支持（0188）"
+  },
+  "143": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "JavaScript 与 GitHub 密钥候选的脱敏验证（0188）"
+  },
+  "145": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "政策搜索与历史范围新增的使用边界（0188）"
+  },
+  "149": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "保存图证0188-149-report：机制与验证条件；PDF 姓名遮盖要覆盖评论、活动和匹配边界（0188）"
+  },
+  "150": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "保存图证0188-150-waf：机制与验证条件；未知属性变体的阻挡和执行双基线（0188）"
+  },
+  "152": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "保存图证0188-152-logic：机制与验证条件；订阅价格、币种与客户端响应更改的结算对照（0188）"
+  },
+  "153": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "保存图证0188-153-xss：机制与验证条件；instanceof 调用钩子与 window.name 数据流（0188）"
+  },
+  "154": {
+    "dis": "merged",
+    "targets": "references/by-type/mobile-ios.md",
+    "note": "本地越狱检测与解密应用来源的验证范围（0188）"
+  },
+  "155": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "保存图证0188-155-lfi：机制与验证条件；PHP wrapper 盲文件 oracle 的响应分类（0188）"
+  },
+  "157": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "保存图证0188-157-access：机制与验证条件；同类功能、对象 ID 和降权后的授权矩阵（0188）"
+  },
+  "159": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "JS 提取与版本监控的来源和差异保存（0188）"
+  },
+  "160": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "URL 会话 ID 与登录后轮换的固定会话检查（0188）"
+  }
+}

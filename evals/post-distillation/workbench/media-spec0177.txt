@@ -1,0 +1,103 @@
+0|distilled|references/by-type/file-upload.md,references/scope-and-rules.md|rdExportFilename控制任意目录/类型、rdReportName控制内容的报告导出摘要；需登录并捕获RServer/rdPage.aspx POST，上半复现完整到ExportExcel，底部裁切；未示实际落盘/执行；报告明确当前范围之外，历史新闻稿不授当前许可。
+1|distilled|references/by-type/authn-session.md|LDAP NULL bind摘要给nmap ldap* and not brute筛选/389，无实际属性响应；NULL/anonymous访问需区分RootDSE与私有数据，排除brute不保证其它脚本无副作用。
+2|distilled|references/by-type/info-secrets.md|AEM追加/.1.json获得JSON模板、文件和内部用户名的描述，URL及数据未见；selector/depth路由权限与普通公开资源分开，无未授权访问/社会工程后续证明。
+3|distilled|references/by-type/info-secrets.md|wp-config.php_复制备份路径与MySQL/AWS/keys泄露描述，无实际字段响应；真实PHP配置普通执行vs备份当静态文件返回分开，不使用凭据。
+4|distilled|references/by-type/authn-session.md|Kinetic /kinetic/app/ weak credentials摘要称日志、用户邮箱姓名可见，无登录请求或实际日志；默认凭据与后台查看/管理权限分别验证，不复用。
+5|insufficient_technical_detail||P1Triaged DefaultCredentialsfullaccess标题，无登录或保护动作响应。
+6|no_technical_content||NucleiHTTPpayloadfuzzing阿语课程封面，无模板/结果。
+7|distilled|references/by-type/ai-application.md|BingAI列teslazta.net/teslaenergy/teslasolar及重定向说明，未展示查询来源/DNS/实际跳转，生成列表≠公司所有权。
+8|distilled|references/source-audit.md|Time.rfc2822/rfc822日期正则有多个空白量词并列，ReDoS摘要/CVE2023-28756/recheck输出底部裁切，仅见~2.68s一项；需小输入渐增长、失败尾串、成本/版本对照，不运行大样本。
+9|distilled|references/by-type/xss.md|图片文件名标签与编码载荷卡片，无输出sink/实际浏览器执行。
+10|distilled|references/by-type/info-secrets.md|DotGitTotalfound3/100与下载按钮、example域名示意，未给.git请求响应或真实仓库暴露，不完整dump。
+11|insufficient_technical_detail||Morpho LTV0AToken标题卡、背景SSRFCheatsheet模糊非本漏洞代码；正文比较HF/borrowingpowerAave与Morpho已修复，无实际合约和状态。
+12|distilled|references/by-type/business-logic.md|Nextcloud additional emails无rate-limit摘要称hardening已添加，无具体请求/次数；邮件外部副作用与账号/地址/时间窗key须分开，不发送批量邮件。
+13|distilled|references/by-type/info-secrets.md|Symfony app_dev.php、portal/app_dev.php及_profiler路径卡片，开发工具生产暴露候选，无真实配置/secret响应。
+14|no_technical_content||NucleiHTTPfuzzing课程封面，无代码。
+15|distilled|references/by-type/xss.md|Cisco营销站XSS公告CSCwf04021：不足输入验证、用户点击、managedservice已更新；无具体入口/载荷/执行，三站点声明不可推所有部署。
+16|distilled|references/by-type/xss.md|EmailAddressInvalid与含标签/脚本风格姓名邮箱字符串，支持前端拒绝输入；正文截获改请求并称稍后blindtrigger，图未见真实存储/回调。
+17|insufficient_technical_detail||三项BlindXSS管理员区域/后台/会话exfil标题P2状态和20points，无实际callback或cookie证明，不执行外部回调。
+18|distilled|references/discovery/web-and-api.md|HTTP/1.1 GET Host/UA/Accept/Languageq/Encoding/Connection示意，图将Host值标URI不精确；字段偏好不决定最终ContentType/实际连接复用，HTTP2不同结构。
+19|no_technical_content||OpenSea bugbounty.blockchain徽标NFT广告，无机制。
+20|no_technical_content||Triaged/Unresolved/$100/points奖励历史，无PHP源码响应。
+21|insufficient_technical_detail||IDOROrganizationTakeover P1Unresolved标题40points，无实际授权链请求。
+22|distilled|references/by-type/idor-access-control.md|LinkedInSkillTest私人/失败与badgeprivate结果查询摘要；GET voyagerAssessmentAttemptReports URN路径、csrf/cookies占位，未展示他人结果响应；公开badge≠私有结果权限。
+23|insufficient_technical_detail||Nextcloud restricted/invisible systemtags workflow标题、CVE2023-30539/状态，无workflow请求或标签实际数据；隐藏≠授权，执行规则消费需检查。
+24|distilled|references/source-audit.md|curl USE_ALARM_TIMEOUT在缺POSIX/Windows threading支持构建分支下、双线程DNS解析超时siglongjmp寄存器上下文race，常见crash；CURl_VERSION_THREADSAFE只初始化原子非DNS线程安全，需构建/平台/信号前提，自改define演示不是默认部署。
+25|distilled|references/discovery/web-and-api.md|Angular/Webpack runtime映射chunkID→hash文件路径，资源索引可扩发现，不限制JS可见性或授权；不能证明所有chunk/hiddenroute已读或IDOR。
+26|distilled|references/discovery/web-and-api.md|单个Webpackchunk代码包含modulepush/依赖及按钮/DropdownMenu渲染，未见API路由/权限对照；chunk可读不是安全漏洞。
+27|distilled|references/by-type/sql-injection.md|sqlmap恢复privileges2/roles7、无输出warning、开始alltables枚举，多处遮挡；恢复缓存/枚举日志不能支持整个数据库已dump。
+28|distilled|references/by-type/sql-injection.md|sqlmap部分entries无法获取、其它retrieved但值遮挡；存在失败，不从all参数声明全量成功。
+29|distilled|references/by-type/sql-injection.md|sqlmap1.7.5 POSTusername存储会话error-based CTXSYS.DRITHSX.SN、DBMS/banner/user遮挡，--level5 --all；恢复结果需当前真假对照，高level/批量读取非验证默认，不执行枚举。
+30|no_technical_content||NucleiHTTPbruteforce课程封面，无模板/行为证明。
+31|no_technical_content||GettingRCEWindows/AVbypass视频封面，无原机制。
+32|no_technical_content||PayPal300USD奖励邮件，非漏洞证据。
+33|distilled|references/cloud/cloud-misconfiguration.md|triager指出Azurestorage blobs无授权可读且container应private而非container层public；没有实际blob请求/PII数据，public级别/策略与DB或云账号接管分开。
+34|distilled|references/source-audit.md|PUT UserAgent嵌套Log4j表达式截图Response空/Waiting及appunresponsive标注；没有日志/version/CPU堆栈/恢复对照，不能归因到Log4j2.16递归DoS或RCE，不运行。
+35|distilled|references/by-type/info-secrets.md|数据库备份.sql/.sqlite文件路径字典，无实际响应或内容；soft404/登录页、公开示例与真实备份须分开，不全量下载。
+36|distilled|references/by-type/cmd-injection-rce.md|Shellquote拼接/glob/变量展开/base64/rev/IFS/brace清单；依赖具体shell、变量、文件/编码语义，未给用户输入→进程消费者/请求结果，不运行读取命令。
+37|distilled|references/reporting.md|Shopify EmailHtmlInjection noteligiblebounty回应；无模板/邮件结果，奖金政策与技术行为分开。
+38|insufficient_technical_detail||destinationChainId/CBridgeFacet标题卡，背景SSRFFigure非合约代码；正文uint64转换与校验已修复摘要，无转型顺序代码或交易结果。
+39|distilled|references/source-audit.md|curl hostmatch历史IDNwildcard报告：源码strncmp检查pattern的xn--，作者指出应检查hostname；CN/SANpattern与待验hostname两个不同输入，未给实际TLS连接/当前版本。
+40|distilled|references/source-audit.md|curlPOST-afterPUT摘要：旧修复仅CURLOPT_POST，POSTFIELDS也可设置POST且示例没POST；图是单次easyinitPOSTFIELDS示例，未见PUT复用完整序列/真实wire，需handle状态/清理对照。
+41|no_technical_content||BugBounty101视频封面无方法。
+42|distilled|references/by-type/idor-access-control.md,references/business-modeling.md|H1草稿不提交→program export_reports→邮件CSV可含draft标题severityweakness，而inbox不可见；图内CSV过小字段未全读，步骤和摘要完整；导出状态过滤与角色范围单独证明，不发邮件/取他人报告。
+43|distilled|references/discovery/passive-and-services.md|PingCastle域查OpenIDconfig、ID查CT公开域后抽tenantID数据库，Known7018578；元数据匹配≠租户管理权限/完整权属，未实际查询。
+44|distilled|references/discovery/records-and-incremental.md|DNSHistory2.2bn/5000bulk历史宣传、google示例输入、0/3usage，无结果；历史nameserver变化不是当前DNS/owner。
+45|distilled|references/by-type/authn-session.md|Reddit chat改reddit-session后200/浏览器他测试帐号聊天摘要，NotApplicable；换到合法另一账户token不证明越权，缺session来源/归属/读写响应，视频仅封面。
+46|distilled|references/by-type/authn-session.md|OAuthGoogle登录→logout→同邮箱本地注册建新账号，Informative；相同邮件不证明接管原帐号/第三方身份，需验证邮件、subject绑定及原数据。
+47|distilled|references/by-type/xss.md|CVE2020-11022标签/optionstyleimgPoC，实际域spiketrap登录页、NotApplicable，无输入source/DOM消费者/执行；依赖CVE≠部署可利用，不抓外链或运行。
+48|distilled|references/by-type/xss.md|RedditZendesk requests/new uploadRXSS摘要，NotApplicable，无上传内容类型/文件名sink或邮件实际执行；外域客服需独立scope。
+49|distilled|references/by-type/xss.md|accountsReddit dest=javascript...摘要称登录后执行，SSO前后阶段保存；图片仅登录页，未见JS运行/最终origin，需回调后URLscheme消费者。
+50|insufficient_technical_detail||RedditHugeTakeovers Duplicate+video附件名，无域名、DNS/service或申领证据。
+51|distilled|references/by-type/business-logic.md|Reddit投稿100/50/1000重复无错误称无限，Duplicate；图中tinyrequest不可读，无时间窗/账号/异步限制/实际持久posts，避免按无429判断全无rate-limit。
+52|distilled|references/by-type/authn-session.md|POS loginpins[]参数数组替代scalar PIN声明认证绕过，无实际请求/类型比较/登录能力；需解析类型和验证函数，不随机PIN喷射。
+53|distilled|references/by-type/csrf.md|Profile form Email/First/Last与__RequestVerificationToken，响应302/Profile/Confirm及SetCookie auth，sameorigin Fetchmetadata；cookie/token值不复制，未显示跨站PoC/最终变更/错误令牌对照，不从302断CSRF绕过。
+54|distilled|references/by-type/business-logic.md|Redditrate-limitreport不同username同password与同username不同password，声称20randomaccounts测试同时承认禁止brute，Duplicate；底部称sameusername限制有效，按limiterkey/时间窗分开，禁令不能由自创20账号绕开。
+55|distilled|references/reporting.md|法语contentpolicy链接404功能性报告/Informative，无权限、内容注入或接管机制，不自动安全漏洞。
+56|insufficient_technical_detail||HTML/APIrequestURL报告大篇泛化违法内容与注入影响，自报Critical/Informative/RemoteFileInclusion，无实际技术请求/消费者，不能据称存储HTML判RFI/XSS。
+57|insufficient_technical_detail||HighCachedeception标题，无cache键、命中header、数据响应。
+58|distilled|references/source-audit.md|Airflow2.5.1 chmod666日志，任意本地主体可读改、历史CVE2023-25754 before2.6.0摘要；既有本地账号和文件权限到日志consumer/secretaccess链需逐步证明，无远程RCE或actuallogin。
+59|distilled|references/discovery/client-and-cloud.md|CDN子域→Shodan http.html查引用dev-int静态文件的线索卡，命名internal或被HTML引用不证明内网可达/secret，CDN范围与关联引用独立。
+60|distilled|references/by-type/idor-access-control.md,references/cloud/cloud-misconfiguration.md|Helm购买资格应用叙述：750+失败endpoint，helmCreate success:true后listHelm出现自有/他人chart及用户名，约一周后配置接口回云accesskeys，作者推断加Administrators；配置路径字体不确定，不造原字节；未示原HTTP/角色状态/云消费结果，不复用keys不扫描750路由。
+61|distilled|references/by-type/authn-session.md|login_method Normal→Anything并错误pwd，success但未login；reload后称validsessioncookie用于改密码邮件API；需要server身份/保护操作对照，成功文字不充分，未知method应failclosed，无actualrequest。
+62|distilled|references/discovery/passive-and-services.md|NSEtargets-asn ASN17012前置输出CIDR含重叠/包含块，ASN注册/公告/路由归属与项目scope不同，合并需保原前缀来源，不自动加targetscan。
+63|distilled|references/by-type/xss.md|ws/wss及Firefoxresource方案使302 Location不正常跟随并展示href标签注入示例；是否渲染fallbackbody与execution依赖具体browser/版本/CSP，Location字段本身不是HTMLsink，不据“disable”推广现版。
+64|distilled|references/by-type/request-smuggling.md|fakeWebSocketUpgrade Sec-WebSocket-Version1337后backend426，frontend未检查响应正确性示意；若仍切tunnel会边界错配，但非真实connection/secondrequest证据，仅隔离两跳验证不共享服务smuggle。
+65|distilled|references/by-type/open-redirect.md|Googleinurlgo/return/redirect/dest等dorks候选清单，无实际Location/最终origin；路径名与参数名还不同，索引历史不授scope。
+66|no_technical_content||com尾点箭头封面，未保存curl文章正文/HostTLS行为。
+67|no_technical_content||NucleiDNS模板课程封面无机制。
+68|distilled|references/by-type/info-secrets.md|phpinfo报告说明version/OS/env/扩展信息及路径，未给实际phpinfo输出；最小字段/身份和公开设计分开，不由banner或版本推RCE。
+69|no_technical_content||BugBountySearchEngine分类/JSON导出空输入界面，无文章正文或真实搜索结果。
+70|no_technical_content||CSWSHijacking标题卡片、背景SSRFFigure非WS流程，正文“anythingelse”过度，需Origin/session消息能力独立证明。
+71|distilled|references/source-audit.md|IDN转换工具mańana/对应xn--示例输入（截图mañana）、resultpending，无实际转换；保存U-label/A-label与归一化配置，转换不授域名scope或TLS正确性。
+72|distilled|references/by-type/idor-access-control.md|403清单XOriginalURL、%2e、斜线点分号/大小写/缓存示例，secret/admin路径并不一致；200≠同受保护资源/权限，canonical路由和代理信任头需binding，缓存未见共享命中。
+73|distilled|references/by-type/xss.md|Crowdsignalpoll answer标签→share WebsitePopup→WordPress帖子保存→页面执行叙述，跨产品存储render链清楚但图无实际浏览器输出，scope/origin/Sanitizer区分，cookie示例不执行。
+74|no_technical_content||Hackenproof付款广告对比meme无机制。
+75|no_technical_content||自动化vs读文档手工研究meme，无实际source/sink。
+76|no_technical_content||PyCriptlogo，无密码算法/请求转换/签名验证细节；正文版本0.2宣传能力不构成crypto漏洞。
+77|distilled|references/by-type/authn-session.md|GovSlack新用户建workspace/signup.createTeam fetch POSTmultipart，header含credentialsinclude/sameorigin；真正body资格字段裁切、无response，不能补Gov开关或成功workspace，不执行请求。
+78|insufficient_technical_detail||StoredXSSviaCachePoisoningP2Unresolved20points标题，无cachekey、持久response或浏览器执行。
+79|no_technical_content||数学作业PDF页CamScannerwatermark与edu域名，公开扫描PDF不证明敏感泄露，target extpdf搜索只是候选。
+80|insufficient_technical_detail||CbrutekragOpenSSHBruteForce0.5帮助threads/targets/credentials/dryrun/honeypots参数，无运行结果；帮助dryrun文字不承诺工具只读，不暴力尝试。
+81|insufficient_technical_detail||Rustchain.exe循环sleep/weback与processMemoryMap ImageCommit196kNA高亮，无ROP/断点配置或对照，仅观察不能证明全部artifact隐藏/AVevade。
+82|no_technical_content||WAFARAYlogo，无YARA规则或检测结果。
+83|distilled|references/by-type/mobile-android.md|KoodousFinder同com.brata.rat/版本1.0名BRATARAT多不同SHA/0.67MB，hash才标识具体二进制；数据库标签/包名不证明安装包来源/实际恶意行为，无执行APK。
+84|no_technical_content||CTFbeginnercover无步骤。
+85|insufficient_technical_detail||Critical clientID/clientsecret标题，无files.md5或SQL字段响应。
+86|insufficient_technical_detail||Criticalprivilegeescalation edit/deleteusers/contents标题，无roles注册请求/权限响应。
+87|no_technical_content||Intigriti鼓励duplicates/NAs文字无机制。
+88|insufficient_technical_detail||Dumpulator x64dbg disassembly/EntryPoint高亮，未见dumpemulation/导出配置/隔离证明。
+89|distilled|references/by-type/cache-deception.md|PURGE curl.se回应statusok/id叙述，Informative及大量模板占位；需相同缓存键purge前后命中/身份对照，受理不等完成失效/成本DoS，不对公网发送。
+90|distilled|references/by-type/cache-deception.md,references/by-type/info-secrets.md,references/by-type/xss.md|wotif正文/标题 /vc/blog/info.php与摘要/vs/blog不同，缓存约1h的最后HTTPGETheaders，作者无法XSS但style/form接受/HttpCookie下位访问可能读前访headers；底部仅TEMP环境几行不见cookie回包，需A/B自控缓存序列，NO真实cookieuse，不宣称WAF通用可绕。
+91|no_technical_content||NucleiVariablesHelperFunctions课程封面无模板。
+92|insufficient_technical_detail||Critical response manipulation registration/0clickATO标题，无原请求/服务端状态。
+93|distilled|references/by-type/idor-access-control.md|Bypass403脚本输出4041256多项与XrewriteURL2001256，长度相同不是内容相同或权限提升；GET/POST/TRACE/method字段分开，未给bodyresource对照不执行。
+94|distilled|references/discovery/records-and-incremental.md|crt.sh/amass/SecurityTrails/ShodanCT/subfinderhttpx/Github/dorking多源列表与保存输出；各采集来源、时间、域名/URL单位和失败需记录，证书域名不当前scope，脚本名称不代表实际运行。
+95|no_technical_content||dorkyGitLab/GitHub关键词搜索repo卡片stars/forks，无实际search结果或源码，无secret证明。
+96|insufficient_technical_detail||FailureToInvalidateSessiononpwdreset/change100奖励标题，无两会话/受保护请求，无固定P4政策证明。
+97|no_technical_content||Medium报告400virtualcreditcard沟通，无ATO步骤，支付形态不决定技术机制。
+98|no_technical_content||XSSautomation封面，无匹配条件或运行结果。
+99|distilled|references/reporting.md|Coop回应完成调查/相信已remediated，TLSmail图不证明修复或HOF资格，无机制；复测需当次许可/原最小对照不外联。
+100|distilled|references/by-type/idor-access-control.md|LinkedInvoyager decoration可展开URN，文本profilefield放urn:li:fs_emailAddress:[email_id]触发邮件资源，未检字段allowlist/目标access；id序列只是枚举前提，不证明entireDB已读，复现下半裁切不读取邮件。
+101|distilled|references/discovery/records-and-incremental.md|示意登录flow app→auth302→credentialPOST→OTPmethods/trigger/validate→session，左代码/图的opt/otp拼写不完全一致；实际cookie/POSTdata没示，图是行为模型非2FA已绕，绑定challenge和issuedtoken时点。
+102|distilled|references/discovery/passive-and-services.md|BGPView空ASN/IP/prefix/resource搜索界面，IPv4/IPv6示例未实际查询；可做关联来源但并非权属/当前路由/scan范围证明。

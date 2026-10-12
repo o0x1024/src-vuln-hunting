@@ -1,0 +1,492 @@
+{
+  "2": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "子域候选生成、DNS记录与持续监控的覆盖边界"
+  },
+  "3": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "子域候选生成、DNS记录与持续监控的覆盖边界"
+  },
+  "5": {
+    "dis": "corrected",
+    "targets": "references/by-type/cors.md",
+    "note": "CORS 反射 origin 与带凭据敏感读取的浏览器对照"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "DNS rebinding 的解析检查与连接目标时序证据"
+  },
+  "10": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "可视化扫描模块中的请求、匹配和跟随重定向语义"
+  },
+  "11": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "可视化扫描模块中的请求、匹配和跟随重定向语义"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "Blind stored XSS、CSRF 与 ATO 的独立触发链"
+  },
+  "13": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "默认凭据清单必须落到产品版本与部署条件"
+  },
+  "16": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "从前端脚本和旧版 API 发现后台功能的证据链"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "输入长度与编码变化下的 SQL 延时探针"
+  },
+  "20": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "输入长度与编码变化下的 SQL 延时探针"
+  },
+  "26": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "从前端脚本和旧版 API 发现后台功能的证据链"
+  },
+  "30": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "子域候选生成、DNS记录与持续监控的覆盖边界"
+  },
+  "33": {
+    "dis": "merged",
+    "targets": "references/reporting.md,references/by-type/idor-access-control.md",
+    "note": "状态、补充信息和重复结论必须按时间保存；公开服务台与 CMS 自注册入口的角色和数据授权"
+  },
+  "34": {
+    "dis": "corrected",
+    "targets": "references/by-type/crlf-response-splitting.md",
+    "note": "邮件头注入需区分头字段拼接与普通邮件正文"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "AWS 访问控制清单与 S3 列举报告的不同边界"
+  },
+  "36": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md,references/by-type/xss.md",
+    "note": "重定向参数转脚本执行的参数名与解码差异；从参数反射、JWT 解码到浏览器执行的分层判据"
+  },
+  "37": {
+    "dis": "merged",
+    "targets": "references/by-type/open-redirect.md,references/by-type/xss.md",
+    "note": "重定向参数转脚本执行的参数名与解码差异；从参数反射、JWT 解码到浏览器执行的分层判据"
+  },
+  "39": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "状态、补充信息和重复结论必须按时间保存"
+  },
+  "40": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "注销、密码重置与客户端响应篡改的服务端确认"
+  },
+  "42": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "编码和后缀变体测试必须先保证基线语义一致"
+  },
+  "44": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "对象权限、注册用户标识与会话秘密的区分"
+  },
+  "45": {
+    "dis": "merged",
+    "targets": "references/by-type/csrf.md",
+    "note": "Blind stored XSS、CSRF 与 ATO 的独立触发链"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "注销、密码重置与客户端响应篡改的服务端确认"
+  },
+  "47": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "Java Random 重置令牌预测需验证生成器与完整消费链"
+  },
+  "48": {
+    "dis": "merged",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "AWS 访问控制清单与 S3 列举报告的不同边界"
+  },
+  "49": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "互联网服务索引、Argo 与 Splunk 信息响应的认证上下文"
+  },
+  "51": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "服务端原型污染 JSON spaces 探针的版本与归因限制"
+  },
+  "52": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "编码和后缀变体测试必须先保证基线语义一致"
+  },
+  "54": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "子域候选生成、DNS记录与持续监控的覆盖边界"
+  },
+  "56": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "公开服务台与 CMS 自注册入口的角色和数据授权"
+  },
+  "58": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "互联网服务索引、Argo 与 Splunk 信息响应的认证上下文"
+  },
+  "61": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "注销、密码重置与客户端响应篡改的服务端确认"
+  },
+  "63": {
+    "dis": "merged",
+    "targets": "references/by-type/cors.md",
+    "note": "CORS 反射 origin 与带凭据敏感读取的浏览器对照"
+  },
+  "65": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "将 CVSS、EPSS、已利用清单与资产上下文分开排序"
+  },
+  "66": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "工具目录与侦察链按输入输出职责选择"
+  },
+  "67": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "互联网服务索引、Argo 与 Splunk 信息响应的认证上下文"
+  },
+  "68": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "从参数反射、JWT 解码到浏览器执行的分层判据"
+  },
+  "70": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "Frida 与代理证书准备不等于 Android 解密成功"
+  },
+  "71": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "子域候选生成、DNS记录与持续监控的覆盖边界"
+  },
+  "72": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "输入长度与编码变化下的 SQL 延时探针"
+  },
+  "74": {
+    "dis": "corrected",
+    "targets": "references/by-type/jwt.md",
+    "note": "旧 JWT 刷新与新 token 主体绑定"
+  },
+  "75": {
+    "dis": "merged",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "AWS 访问控制清单与 S3 列举报告的不同边界"
+  },
+  "77": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "IMDSv2 SSRF 标题不能由付款回执补足"
+  },
+  "78": {
+    "dis": "merged",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "Frida 与代理证书准备不等于 Android 解密成功"
+  },
+  "79": {
+    "dis": "corrected",
+    "targets": "references/by-type/graphql.md",
+    "note": "GraphQL 范围、模式发现与邮件流程授权分开确认"
+  },
+  "80": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "第三方服务识别与搜索引擎比较保留未知项"
+  },
+  "81": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "主应用深挖与广域侦察的成本分配"
+  },
+  "82": {
+    "dis": "merged",
+    "targets": "references/by-type/graphql.md",
+    "note": "GraphQL 范围、模式发现与邮件流程授权分开确认"
+  },
+  "86": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md,references/by-type/lfi-path-traversal.md",
+    "note": "编码和后缀变体测试必须先保证基线语义一致；远程文件包含样例依赖 include sink 与历史配置"
+  },
+  "87": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "代码仓库令牌与环境变量泄露的权限证据"
+  },
+  "88": {
+    "dis": "merged",
+    "targets": "references/by-type/graphql.md",
+    "note": "GraphQL 范围、模式发现与邮件流程授权分开确认"
+  },
+  "89": {
+    "dis": "merged",
+    "targets": "references/cloud/container-k8s-security.md",
+    "note": "镜像扫描、仓库管理与漏洞验证的职责区分"
+  },
+  "90": {
+    "dis": "merged",
+    "targets": "references/by-type/csrf.md",
+    "note": "Blind stored XSS、CSRF 与 ATO 的独立触发链"
+  },
+  "96": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "第三方服务识别与搜索引擎比较保留未知项"
+  },
+  "98": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "费用优惠重复消费是幂等状态缺失，不必需要竞态"
+  },
+  "99": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "历史 curl 多头压缩链的总额度限制"
+  },
+  "100": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "历史 curl CLI 顺序与并行 HSTS 的两种状态错误"
+  },
+  "101": {
+    "dis": "merged",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "历史 curl CLI 顺序与并行 HSTS 的两种状态错误"
+  },
+  "102": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "报告附件不限制扩展名与支持人员打开文件的执行边界"
+  },
+  "103": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "Drupal install.php 可达与重安装保护分开验证"
+  },
+  "104": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "POST 与跨站触发 XSS 的交互和域名边界"
+  },
+  "105": {
+    "dis": "merged",
+    "targets": "references/by-type/cors.md",
+    "note": "CORS 反射 origin 与带凭据敏感读取的浏览器对照"
+  },
+  "106": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "WordPress load-scripts 聚合端点的资源上限审查"
+  },
+  "107": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "代码仓库令牌与环境变量泄露的权限证据"
+  },
+  "108": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "默认凭据清单必须落到产品版本与部署条件"
+  },
+  "109": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "从前端脚本和旧版 API 发现后台功能的证据链"
+  },
+  "110": {
+    "dis": "merged",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "Frida 与代理证书准备不等于 Android 解密成功"
+  },
+  "111": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "互联网服务索引、Argo 与 Splunk 信息响应的认证上下文"
+  },
+  "112": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "AI 生成公司与移动应用清单只能作为待核验候选"
+  },
+  "113": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "工具目录与侦察链按输入输出职责选择"
+  },
+  "114": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "从参数反射、JWT 解码到浏览器执行的分层判据"
+  },
+  "116": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "WebSocket 双向连接不等于每条消息已授权"
+  },
+  "117": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "主应用深挖与广域侦察的成本分配"
+  },
+  "120": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "源站、调试日志与 SVN 元数据的实际内容边界"
+  },
+  "123": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "项目选择需按资产资格和处理记录，不按截图奖励差价"
+  },
+  "124": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "服务端原型污染 JSON spaces 探针的版本与归因限制"
+  },
+  "129": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "Nextcloud 消息过期的可见性与 cron 依赖"
+  },
+  "130": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "工具目录与侦察链按输入输出职责选择"
+  },
+  "132": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "源站、调试日志与 SVN 元数据的实际内容边界"
+  },
+  "134": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "PCAP GeoIP 分析输出与真实位置之间的距离"
+  },
+  "136": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "状态、补充信息和重复结论必须按时间保存"
+  },
+  "138": {
+    "dis": "merged",
+    "targets": "references/reporting.md,references/by-type/idor-access-control.md",
+    "note": "状态、补充信息和重复结论必须按时间保存；公开服务台与 CMS 自注册入口的角色和数据授权"
+  },
+  "139": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "JSON-RPC 调试管理方法应与普通查询隔离"
+  },
+  "140": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "源站、调试日志与 SVN 元数据的实际内容边界"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "登录与 OTP 限流的计数主体和业务后果"
+  },
+  "143": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "第三方服务识别与搜索引擎比较保留未知项"
+  },
+  "144": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "对象权限、注册用户标识与会话秘密的区分"
+  },
+  "146": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "项目选择需按资产资格和处理记录，不按截图奖励差价"
+  },
+  "147": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "项目选择需按资产资格和处理记录，不按截图奖励差价"
+  },
+  "148": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "APKHunt 静态 MASVS 线索与动态权限确认"
+  },
+  "149": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "源站、调试日志与 SVN 元数据的实际内容边界"
+  },
+  "152": {
+    "dis": "merged",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "Frida 与代理证书准备不等于 Android 解密成功"
+  },
+  "153": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "XML-RPC pingback 入口与 SSRF 出站能力的分离"
+  },
+  "154": {
+    "dis": "merged",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "APKHunt 静态 MASVS 线索与动态权限确认"
+  },
+  "156": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "POST 与跨站触发 XSS 的交互和域名边界"
+  },
+  "157": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "对象权限、注册用户标识与会话秘密的区分"
+  },
+  "158": {
+    "dis": "corrected",
+    "targets": "references/cloud/container-k8s-security.md",
+    "note": "镜像扫描、仓库管理与漏洞验证的职责区分"
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "泄漏入口关闭与凭据失效分别确认"
+  },
+  "2": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "限流变体必须保持业务身份与计数器对象"
+  },
+  "3": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 自动检测的错误与时序输出保留候选级别"
+  },
+  "4": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "登录参数的反射需要定位实际语法上下文"
+  },
+  "5": {
+    "dis": "corrected",
+    "targets": "references/by-type/graphql.md",
+    "note": "GraphQL 目录转换为解析器和操作权限检查表；GraphQL 分页与放大量以实际资源预算核验"
+  },
+  "6": {
+    "dis": "corrected",
+    "targets": "references/by-type/oauth-oidc.md",
+    "note": "授权请求字段与服务端授予能力分开审计"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "多次解码的 DOM 字符数据与再次解析边界"
+  },
+  "10": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "已有 Aliyun 凭据的列桶与对象权限分离"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "排除 CDN 标签不能确立端口探测归属"
+  },
+  "13": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "角色矩阵以动作和对象所有权建立双向对照"
+  },
+  "14": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "Katana 字段提取与浏览器爬取的来源记录"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "E2E 标题与 Axios 回调图的消费者证据分层"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "范围确认前置到盲回调与每个后续动作"
+  },
+  "21": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "URL 变体按实际消费者的解析结果比较"
+  },
+  "22": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "favicon 相似性、IP 归属和端点响应三段核验"
+  },
+  "23": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "zip wrapper 的读取与 PHP 解释执行前提"
+  },
+  "24": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "敏感路径字典按技术、权限和响应证据缩小"
+  },
+  "25": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "JS 端点到未授权模块需验证对象与操作"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "云存储 dork 的公开资料反例与索引语法"
+  },
+  "27": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "Shodan 子域候选保留索引时间与 API 额度"
+  },
+  "28": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "注入转发头的 301 输出不能确认服务器请求"
+  },
+  "29": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "并发 curl 的响应数与业务原子性分别验证"
+  },
+  "30": {
+    "dis": "merged",
+    "targets": "references/by-type/graphql.md",
+    "note": "GraphQL 目录转换为解析器和操作权限检查表"
+  },
+  "31": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "S3 指纹、列表和匿名读写分成不同候选"
+  },
+  "32": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "ASP.NET 重复参数的过滤和聚合行为需同版本对照"
+  },
+  "33": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "重置邮件 URL 的选择器与授权 token 分离"
+  },
+  "34": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "预发布注册、邮箱验证与管理员资格的身份边界"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "WordPress pingback 的两 URL 与请求阶段区分"
+  },
+  "36": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "Grafana avatar 历史 DoS 字符串保留版本和故障证据"
+  },
+  "37": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 风格参数名与查询值按真实解析链追踪"
+  },
+  "38": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "登录参数的反射需要定位实际语法上下文"
+  },
+  "39": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "敏感路径字典按技术、权限和响应证据缩小"
+  },
+  "41": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "gf 候选链保留查询参数和每阶段真实输入"
+  },
+  "42": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "信用卡 canary 的告警与实际资金行为区分"
+  },
+  "44": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "遍历以允许文件根和实际消费者为边界"
+  },
+  "45": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "历史报告数量不能代替增量资产和方法复查"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "JavaScript 变量名不是已接受的 GET 参数"
+  },
+  "48": {
+    "dis": "merged",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "云存储 dork 的公开资料反例与索引语法"
+  },
+  "54": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "静态 fuzz 排名保留跳过项和版本语境"
+  },
+  "58": {
+    "dis": "merged",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "云存储 dork 的公开资料反例与索引语法"
+  },
+  "60": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md,references/by-type/authn-session.md,references/by-type/xss.md,references/by-type/cmd-injection-rce.md",
+    "note": "遍历以允许文件根和实际消费者为边界；相同会话标识图必须补足获取与生命周期前提；HTML 内容控制与脚本执行及钓鱼影响分层；本地 shell 展开不是远程命令注入证据"
+  },
+  "63": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "GitHub 搜索命中需核对组织归属和秘密用途"
+  },
+  "65": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "成功 compose 页面须补足跨站浏览器与终态"
+  },
+  "66": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "客服盲 XSS 从采样标记到真实 sink 与披露权限"
+  },
+  "67": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "Base64 文件参数比较必须保持同一规范路径"
+  },
+  "69": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 自动检测的错误与时序输出保留候选级别"
+  },
+  "70": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "sed 与 gron 的离线数据变换保留原始结构"
+  },
+  "71": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "Base64 文件参数比较必须保持同一规范路径"
+  },
+  "72": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "Base64 文件参数比较必须保持同一规范路径"
+  },
+  "73": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "反馈链接的 scheme、导航与 opener 分别检查"
+  },
+  "75": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "实验室单一上下文训练与真实项目授权衔接"
+  },
+  "76": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "响应链接与截断 bookmarklet 的静态候选清洗"
+  },
+  "77": {
+    "dis": "corrected",
+    "targets": "references/by-type/host-header.md",
+    "note": "IP、Host 和 Proto 转发头按信任链与消费者分流"
+  },
+  "80": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "JS 文件名、注释与运行时密钥来源分级"
+  },
+  "81": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "侦察脑图按证据来源和阶段预算落地"
+  },
+  "85": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "历史调解建议转为有证据的报告时间线"
+  },
+  "88": {
+    "dis": "merged",
+    "targets": "references/by-type/csrf.md",
+    "note": "成功 compose 页面须补足跨站浏览器与终态"
+  },
+  "89": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 风格参数名与查询值按真实解析链追踪"
+  },
+  "90": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "IPv4 映射 IPv6 必须先统一地址族再判断范围"
+  },
+  "91": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "Wayback 私有报告表单索引不授予项目资格"
+  },
+  "95": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "AppLocker Allow 事件需要主体、模式和拒绝对照"
+  },
+  "97": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "子域枚举参数与采集来源不能互换"
+  },
+  "98": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssti.md",
+    "note": "模板算术指纹与危险能力不能连跳"
+  },
+  "100": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/idor-access-control.md",
+    "note": "Theia WebView 的 postMessage 接收链保留截断限制；Notebook 域名可见性与编辑权限分别验证"
+  },
+  "104": {
+    "dis": "merged",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "响应链接与截断 bookmarklet 的静态候选清洗"
+  },
+  "105": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "实验室单一上下文训练与真实项目授权衔接"
+  },
+  "107": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "XSS 变体清单以语法上下文和编码阶段拆分"
+  },
+  "109": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "失效社交链接的可认领性与受信任展示分开"
+  },
+  "111": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "侦察脑图按证据来源和阶段预算落地"
+  },
+  "116": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "AD 账户风险指标与有效凭据权限分层"
+  },
+  "120": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "盲回调面板的容量与客户端 IP 来源核验"
+  },
+  "121": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "范围确认前置到盲回调与每个后续动作"
+  },
+  "122": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "OPRF 退化随机值先在协议实现和自有样本中约束"
+  },
+  "123": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "byp4xx 线程模式与限速模式按实际选项核验"
+  },
+  "125": {
+    "dis": "corrected",
+    "targets": "references/by-type/cors.md",
+    "note": "CORS 响应读取权限与服务认证分开建模"
+  },
+  "126": {
+    "dis": "merged",
+    "targets": "references/by-type/host-header.md",
+    "note": "IP、Host 和 Proto 转发头按信任链与消费者分流"
+  },
+  "128": {
+    "dis": "merged",
+    "targets": "references/by-type/csrf.md",
+    "note": "成功 compose 页面须补足跨站浏览器与终态"
+  },
+  "130": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "旧子域列表与模板 Loaded 都只是接管候选"
+  },
+  "131": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "GitHub 搜索命中需核对组织归属和秘密用途"
+  },
+  "132": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "CMS 扫描版本、公开文件与旧 CVE 候选分级"
+  },
+  "133": {
+    "dis": "corrected",
+    "targets": "references/by-type/oauth-oidc.md",
+    "note": "GitHub App 的仓库 scope 与组织 Project V2 权限分离"
+  },
+  "134": {
+    "dis": "merged",
+    "targets": "references/by-type/oauth-oidc.md",
+    "note": "授权请求字段与服务端授予能力分开审计"
+  },
+  "135": {
+    "dis": "merged",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "本地 shell 展开不是远程命令注入证据"
+  },
+  "136": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "CMS 扫描版本、公开文件与旧 CVE 候选分级"
+  },
+  "137": {
+    "dis": "merged",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "旧子域列表与模板 Loaded 都只是接管候选"
+  },
+  "139": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "盲 XSS 扩展的改头范围与变换来源显式记录"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "好友可见视频的投票动作继承对象访问资格"
+  },
+  "144": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "敏感路径字典按技术、权限和响应证据缩小"
+  },
+  "145": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "Drive 关键词采集保留每个响应的独立出处"
+  },
+  "147": {
+    "dis": "merged",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "S3 指纹、列表和匿名读写分成不同候选"
+  },
+  "148": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "BlueHound 逻辑路径与网络和会话前提交叉验证"
+  },
+  "149": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "历史 JSP 登录线索与时间差需当前消费者对照"
+  },
+  "150": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "邀请表角色空值和取消动作按租户状态验证"
+  },
+  "152": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "byp4xx 线程模式与限速模式按实际选项核验"
+  },
+  "153": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "JS 文件名、注释与运行时密钥来源分级"
+  },
+  "155": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "JS 词表的 POST 探测需真实方法、正文和错误页基线"
+  },
+  "158": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "双因素重试不能把待验证会话提升为已认证"
+  }
+}

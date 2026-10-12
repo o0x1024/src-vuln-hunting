@@ -1,0 +1,92 @@
+0|insufficient_technical_detail|access|UserDetails IDOR150通知无对象ID请求/权限对照
+1|insufficient_technical_detail|access,auth|重置区IDOR邮箱200感谢通知无token提交/ATO交换
+2|no_technical_content||LDAP装饰封面无查询/注入细节
+3|insufficient_technical_detail|auth|Critical ATO首报告标题列表无身份/状态或漏洞链
+4|distilled|files,cmd|完整multipart shell.pdf;.php MIMEpdf PHP密码检查/exec源码，正文tgz不符且未有响应/执行
+5|distilled|cloud,records|4.0.2发行新DNS/anew/辅助脚本/云向导功能，版本说明非结果
+6|distilled|cloud|Linode DigitalOcean选择默认debian规格区域掩码token YAML覆盖 validate/list SSHkey/snapshot，不等创建或许可
+7|distilled|takeover,passive|完整BeautifulSoup标签src href收集→http域unfurl→nuclei takeover，相对URL/CSS动态/归属需独立证据
+8|no_technical_content||模糊PHP装饰无可读查恶意实现
+9|distilled|cmd,source|JSONactuator env hikari connectiontestquery found true内ALIAS Java字符串，未有触发/执行
+10|insufficient_technical_detail|scope,report|P3RXSS unresolved500通知没有scope规则/实际交换
+11|distilled|secret|GET.htaccess200 octetstream AuthType/AllowDeny/authuserfile路径为配置暴露，非密码验证
+12|distilled|references/by-type/cors.md|DevTools Trust Tokens/WebSQL localhost表与CORS读取无关系，未显示Origin/ACAO
+13|no_technical_content||TerraGoat logo无Terraform规则
+14|distilled|waf,xss|Citysearch search SVGonload弹框/unknownerror，未有Akamai边缘规则与请求
+15|distilled|secret,web|完整文字.git目录403与config文件权限区别，无实际config内容
+16|distilled|cmd,passive|Wappalyzer Java指纹不等Log4j组件/版本
+17|distilled|cmd,records|Log4j步骤1至3辨Java安装插件概述，不是执行证据
+18|distilled|cmd,records|步骤4至7安装activecrawl/scan/通知，无实际lookup结果
+19|distilled|cmd,records|BAppStore两Log4j插件历史版本installed，不是目标漏洞
+20|distilled|cmd,records|步骤8至9Collaborator ldap rmi混淆示例，lookup/类加载/执行分开且无回连
+21|distilled|sql|phpMyAdmin mysqli realconnect HY0001045 Accessdenied，不是SQL语法注入
+22|distilled|strategy|全文认为所有paidcourses/mentors无效属于作者意见，需学习实验成效而非泛化
+23|distilled|cloud|CloudSploit跳过partition只ACM2APIcalls4emailWARN，不等全云覆盖/权限利用
+24|distilled|client|manifest content_scripts permissions与DevTools执行context截图，桥接sink授权需核验
+25|insufficient_technical_detail|passive,xss,report|倾斜H1草稿部分RXSSURL/cookieimpact说法无实际浏览器交换
+26|insufficient_technical_detail|logic|Arabic银行支付收据未展示票价端点服务端账本/1美元交付
+27|distilled|auth,records|完整subfinder端口probe gau reset词grep xargs curl表单关键词/tokenURL，只收集候选不等token有效
+28|distilled|records|Houdini tags搜索RAUDI更新3proxy目录，无image digest/运行或安全证明
+29|distilled|sql|完整SQLJOIN/NULL/聚合/DDL DML事务教学表非注入且逻辑顺序非实际计划
+30|distilled|secret|Removing AWSkeys commit与plus literal减placeholder方向矛盾，不复制凭据且删除非吊销
+31|no_technical_content||服务器机架装饰图无SSRF机制
+32|distilled|access|GetRBCD三域双向trust9GenericWrite GenericAll候选边，未改委派/票据/执行
+33|distilled|records|Findomain7beta2异步resolverHTTPflags修复Rustmin变化，历史速度不是覆盖
+34|distilled|source|完整ROPgadgetv5.2生成syscall链，Exrop标题不符且无架构地址栈入口验证
+35|distilled|experiment|2022扫描0/26多引擎与hash，非全OS/当前运行免杀保证
+36|distilled|xss,report|phpMyAdmin CVE23808标题页弹框，不见输入响应/真实版本
+37|distilled|oauth,cloud|六步UserPool第三方JWT IdentityPool临时凭据S3正常流程图，不证明接管
+38|insufficient_technical_detail|xss,report|Blind XSSadmin60reward letter无reader/入口/执行链
+39|distilled|xss,report|search地址script alert0弹框，仅单实例无SQLi/信息读取或ATO链
+40|distilled|client,secret|完整设备资料类别/存储来源图，删除均恢复泛化需存储加密条件
+41|distilled|client,secret|另一尺寸同类别图独立哈希，内容合并非额外设备读取
+42|no_technical_content||Trustrecruit空投bugbounty广告图无方法
+43|insufficient_technical_detail|files,xss|450StoredXSSprofilepicture通知不见最终MIME/reader
+44|distilled|scope,passive|完整mil dorks同正文且明确scope别越界，搜索不授许可
+45|distilled|records|Droopescan help scan stats debug quiet Drupal/Silverstripe示例无scan结果
+46|distilled|sql|POSTportal searchitem ORDERBY4响应Unknowncolumn4 orderclause，需基线且不重放PHPSESSID
+47|distilled|auth|POSTrecover_password JSONemail OriginCookie遮蔽，无响应投递绑定/提交链
+48|distilled|report|完整私有项目转移沟通staff转移邀请提问TriagedOpenHigh7.5，未付款完成
+49|no_technical_content||open bounty targets仓库卡片无当前scope或方法
+50|distilled|redirect,report|250redirect通知含披露需项目许可条款，无Location真实链
+51|distilled|source|FlareQDB指定断点读取ebp偏移输入反复打印，不证明远程入口
+52|no_technical_content||庆祝表情图无技术内容
+53|distilled|passive|Dofind1489TLD候选输出多后缀，不证明注册/当前DNS/所有权
+54|distilled|auth,report|reset link notexpire Low ClosedDuplicate0状态截图缺生命周期/重用链
+55|distilled|xss,impact|模糊弹框可辨s_vi等cookie字样，只可读字串无有效session/其他reader
+56|no_technical_content||Kali2022.1logo发布图无方法
+57|distilled|source,cmd|cheatsheet Imagick标SSRF却命令拼接/Shellshock CGI/Heartbleed工具，右端裁切未有执行结果
+58|distilled|passive,records|历史1911NiagaraFox banner版本Java QNX主机字段是监控线索非控制权限
+59|insufficient_technical_detail|report|多报告私有资产/SSRF/数据leak题目P1P2P3金额resolved非consumer或初始链
+60|distilled|auth,source|Cobalt Strike powershell会话becomeinteractive hostcalledhome16bytes，无密码输入/取得
+61|distilled|doc|Exceloutput2.xls macrodisabled securitywarning诱导EnableContent，未见宏代码/运行
+62|distilled|smart,source|全文说Web3不需DB所以无SQLi/uploadRCE，未有架构并不能泛化混合部署
+63|distilled|records|完整聊天flatfiles信息摘要与million历史记录100/0端点出处，需快照/时间/错误/原始最小证据
+64|no_technical_content||BugBytes159封面目录无方法
+65|distilled|secret|Snaffler已认证AD10computers/readableshares规则webconfig密钥形式匹配，非有效key或初始越权
+66|no_technical_content||SQL UNION视频封面无查询/执行步骤
+67|distilled|records,scope|Osmedeus60min与完成即永续扫描示例，范围许可预算/失败退出需单独绑定
+68|no_technical_content||信封邮递感谢无技术内容，不读取私人地址
+69|no_technical_content||Dutch政府shirt礼品无漏洞方法
+70|no_technical_content||AllDraftPendingAcceptedRejectedDuplicate统计UI无技术机制/覆盖
+71|distilled|source|nodejsscan gitclone/upload/recent UI无代码规则结果，semantic标题非可达数据流
+72|distilled|sql|BigQuerylogtype UNION CASTprojectidINT64内400FAILEDbadint64外200，未有基线或任意读表
+73|distilled|client,source|Boko完整help active运行主二进制DYLDPRINT RPATH/passive经典检查/SIP筛选，非劫持成功
+74|no_technical_content||onhandlers仓库卡片无词表内容
+75|distilled|xss|完整三种email HTML地址payload须地址合法性/展示编码真实reader，不发真实邮件
+76|distilled|passive,records|yusub示例输入打印多域形状/email/端口，12API失败限额语法重复/归属未证
+77|distilled|passive|视频说明firmware3remotecontrol/admin面板历史遮蔽链接无响应/认证，不访问设备
+78|distilled|auth,client|SharpCookieMonster本机ChromeDevTools/profile/进程操作日志，cookie具体值不可辨不得计成功或零
+79|no_technical_content||BeetleborgAndroid名字输入UI与SharedPreferences开发状态无漏洞链
+80|distilled|sql,records|SQLLabpcap FollowHTTPstream显示信息表查询/表名，需方向重组与请求基线且是离线训练
+81|distilled|oauth,cloud|另一尺寸Cognito六步正常双池JWT临时凭据S3流程，无异常权限结果
+82|distilled|web,scope|403后CNAME可能200的完整tip仅线索，需同资源HostSNI与别名许可
+83|distilled|secret,passive|创建AWSAccessKeys写Terraformprovider教程图partial值，非真实公司有效secret不复制
+84|no_technical_content||THM manage rooms训练界面无HPP IDOR请求/权限结果
+85|distilled|experiment,records|Hybrid架构ActionsJavaGradleSeleniumGridBrowserStackDockerKafkaLocalStackJenkinsZAPSonar无测试断言/结果
+86|insufficient_technical_detail|click|missing sensitiveheadersclickjacking300通知无frame策略/敏感动作证明
+87|distilled|takeover|完整服务指纹表Not/Vulnerable/Edge与错误字串讨论链接，非当前归属可注册/内容控制
+88|distilled|records,ssrf|SSRFirebanner要求ffufgauqsreplace/openredirex/setup依赖及子域询问，无扫描回连
+89|distilled|xss,impact|完整搜索img/onerrorpromptdocumentcookie弹框字串，未证明其他reader或有效会话权限
+90|distilled|cloud|aws s3 ls PREprefix列表未见CLI身份/anonymous参数，非匿名get/put证明
+91|no_technical_content||220IDORreports banner和模糊饼图无具体对象权限链

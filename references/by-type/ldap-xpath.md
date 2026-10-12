@@ -122,3 +122,59 @@ phpldapadmin/index.php、phpldapadmin/cmd.php和cmd.php是候选，保存续篇�
 保存图片 `1708840641466089472-02.png`：Nmap 图仅显示80/389/443 open和其他地址未扫；不能证明 LDAP 匿名 bind、目录可读或全部地址覆盖。正文 http://test.com 不是纯主机参数，ldap* and not brute 也不保证每个脚本都是只读；先核对 scope、实际协议及认证要求，以低预算匿名 bind/最小非敏感查询比较可见权限，端口标签非鉴权证据。
 
 来源：[保存帖1](https://x.com/i/status/1708840641466089472)。
+
+
+## 保存图证0232-76-ldap：1830479795756355692-02.png
+
+已核对保存图片 `1830479795756355692-02.png`。Web清单认证列密码/限速/MFA/恢复/会话固定/退出/默认凭据/锁定/存储/expiry/flags/HTTPS日志/验证码/复杂度/rememberme/timeout/inactive；授权列纵横角色/对象/租户/最小权限/强制浏览/时间动态状态；输入列XSS/SQLNoSQL/命令LDAPXXE/客户端服务端/XSSI/HPP/RCE/遍历/include/模板/长度。把每项落到主体动作消费者与正常/拒绝对照，缺Cookieflags/匿名公开API/客户端校验不是独立接管，CSP和密码复杂度等按实际业务核，不执行清单扫描。
+
+来源：[保存帖1](https://x.com/i/status/1830479795756355692)。
+
+
+## 保存图证0233-13-ldap：1831529298940809273-02.jpg
+
+已核对保存图片 `1831529298940809273-02.jpg`。Enumeration图按NetBIOSSMB139/445、LDAP389/636、RPC135、SMTP25、SNMP161/162、RDP3389、FTP21、HTTP80/443、MySQL3306/MSSQL1433/Postgres5432/Oracle1521、NFS2049、DNS53列工具/脚本含brute/readfile/xpcmdshell等。端口映射非实际协议/漏洞，rpcinfo与135等工具需核真实服务；身份/枚举/读写/命令动作分开，不把清单默认执行或扩授权，未扫描/登录/读库。
+
+来源：[保存帖1](https://x.com/i/status/1831529298940809273)。
+
+
+## 保存图证0237-46-ldap：1842141404136431819-03.jpg
+
+当前附件 `1842141404136431819-03.jpg`。已实际审阅保存的原始图片。API 清单第二张覆盖功能授权、批量赋值、配置和注入。检查每个方法与路由的服务端角色约束、允许写入字段及实际解释器；ORM、类型校验或输入过滤均不能单独替代正确参数化和权限控制。仅示意接收对象后保存不证明可修改敏感字段，需核对实际模式与最终持久化状态。
+
+来源：[保存帖1](https://x.com/i/status/1842141404136431819)。
+
+
+## 保存图证0237-70-ldap：1843217509039886619-02.jpg
+
+当前附件 `1843217509039886619-02.jpg`。已实际审阅保存的原始图片。枚举图按 HTTP/HTTPS、SMB、LDAP、RPC、邮件、SNMP、RDP、FTP、数据库和 NFS 分支列工具。应先确定协议、端口、身份与操作类型，再区分版本/元数据读取、目录或用户枚举、密码尝试和漏洞动作；工具名不是授权或结果。涉及账户、共享和密码的行为需单独范围，不执行清单。
+
+来源：[保存帖1](https://x.com/i/status/1843217509039886619)。
+
+
+## 保存正文0243：LDAP与XPath混合列表（ldap）
+
+列表含LDAP过滤器、通配符/null、XPath路径/属性和name()条件；确定真实解释器与filter/DN/XPath语法，分别用正确转义和参数接口。URL %00、字面\x00及真实空字节可能被不同层拒绝，不能互换；wildcard匹配不等于授权绕过，不执行查询。
+
+来源：[保存帖1](https://x.com/i/status/1855522086288335218)。
+
+
+## 保存图片0244-18：1857029471431238131-03.jpg（ldap）
+
+已审阅该内容原图，当前保存附件 1857029471431238131-03.jpg。OWASP目录片段列session puzzling/hijack、输入验证含不同数据库/ORM、LDAP/XML/XPath/SSI/邮件/code/file/cmd/format、HTTP拆分和Host/SSTI/SSRF、错误和弱密码学；名称是测试分类而非通用载荷或漏洞证明。先确定真实消费者及版本，再设计独立对照；不把NoSQL/ORM统称SQL或重放会话当授权，未运行。
+
+来源：[保存帖1](https://x.com/i/status/1857029471431238131)。
+
+
+## 保存图片0245-81：1862034946484834535-02.jpg（ldap）
+
+已审阅该内容原图，当前保存附件 1862034946484834535-02.jpg。枚举图按SMB139445/LDAP389636/RPC135/SMTP25/SNMP161162/RDP3389/FTP21/HTTP80443/MySQL/MSSQL/Postgres/Oracle/NFS2049/DNS53混fingerprint、认证猜测、hashdump、SQL查询/文件读、xpcmdshell、DNStransfer等；端口≠实际协议/版本，登录/数据/执行动作风险不同，预算和自有最小对象分别许可。不执行模块、破解、读文件或域传送。
+
+来源：[保存帖1](https://x.com/i/status/1862034946484834535)。
+
+
+## 保存正文0246：ADWS与LDAP枚举（ldap）
+
+ShadowHound列ADmodule/ADWS或DirectoryServices/LDAP用于usersgroupscomputerscerts，卡片仅品牌无脚本。真实域身份、目录ACL、分页和字段/证书用途、关系图路径独立核验，可枚举不自动域接管/私钥获取，不运行PowerShell/查询AD。
+
+来源：[保存帖1](https://x.com/i/status/1864309243350004151)。

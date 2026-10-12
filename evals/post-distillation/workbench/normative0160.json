@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://fetch.spec.whatwg.org/#cors-safelisted-request-header",
+    "purpose": "Correct saved137 Content-Type claim: application/json is not safelisted; URL-encoded forms and JSON requests have different preflight requirements.",
+    "checked_at": "2026-10-10T21:14:59.649Z"
+  },
+  {
+    "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-enctype",
+    "purpose": "Confirm native HTML form enctype choices rather than treating application/json as standard form encoding.",
+    "checked_at": "2026-10-10T21:14:59.649Z"
+  }
+]

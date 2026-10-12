@@ -1,0 +1,118 @@
+1|excluded|source|XOR cipher文章转发标题，没有算法正文或实现；保存的省略号不补齐外链。
+2|excluded|auth,source|第四次密码恢复接管文章标题，不含挑战签发、消费或权威身份变化。
+3|corrected|cloud,records|Cloud Shell 5GB/50小时容量与使用动作分开；并入已核读当前官方限制的条目，免费容量不产生网络扫描许可。旧全文未读，封面另审。
+4|excluded|android,source|只有PentestSuite/Android等标签，没有配置、动作或结果。
+5|excluded|records,source|Ncat文章标题和短链，没有协议或执行主体证据。
+6|merged|graphql,csrf|InQL v4.0.1历史发行介绍及Doyensec链接并入既有GraphQL CSRF条目；后者在前批已核读，发行仓库未读，不称当前最新版或自动确认漏洞。
+7|excluded|xss,source|历史Intigriti挑战入口转发，没有解题机制；旧挑战规则图片独立记录，未访问挑战。
+8|excluded|sql,access,source|admin panel SQLi文章链接与赞语，不含完整查询到授权能力链；遮挡终端图片另审。
+9|excluded|source|CTF举办后发现漏洞的文章介绍，没有具体机制或完整报告。
+10|excluded|source|Windows Qube创建工具宣传，没有实现或安全验证；未创建VM。
+11|excluded|android,records,source|IPtables/Burp/Android组合介绍与设置复杂的评价，没有规则、路由或TLS细节；图片只有封面。
+12|new_knowledge|sql,source|PDO值参数不能绑定列名/ORDER BY语法；结合当前PHP官方说明提炼完整数据字面量与标识符边界。动态选择映射服务器已知列/方向，不直接拼接外来片段；旧外链全文未读。
+13|corrected|graphql,source|关闭内省后的schema发现工具宣传校正为候选模型的来源与完整性问题；JSON可被其他工具接受不证明模型完整、当前部署一致或业务权限越界。未读/执行clairvoyance仓库。
+14|corrected|graphql,auth,fuzz|单包批量不保证支持或绕过限额；区分传输batch与同操作别名，按身份、挑战代际及每次验证计数。拒绝或逐次限额作反例，不尝试密码/2FA全空间，Wallarm全文未读。
+15|excluded|deser,sql,source|对象注入到SQLi文章标题，没有反序列化消费者、gadget或查询证据。
+16|excluded|records,source|Burp教程/学院/扩展商店资源类别列表，没有各教程或扩展内容。
+17|excluded|source|DNS shell工具能力介绍，没有实际协议/主体/授权证据；logo另审，未连接DNS通道。
+18|excluded|cmd,source|初学者载荷提示正文没有具体内容；图片中会话类型建议另审，不执行载荷或建回连。
+19|corrected|xss,waf|confirm/prompt/eval/write不是可互换的绕过证据；先证明JS输入到可调用消费者，区分对话框、动态求值和文档写入。未执行这些表达式。
+20|excluded|xss,waf|只有WAF405和JS字符串反射标签，缺原始请求/源码/净化后语境；状态码不确定WAF根因或执行。
+21|excluded|passive,scope,source|Chaos公共recon数据入口没有具体结果；数据可见不证明当前归属、授权或完整覆盖。
+22|excluded|oauth,source|OAuth checklist标题、链接和相同替代文字，不含清单正文；封面另审。
+23|excluded|auth,report,source|密码爆破保护不足和200美元的报告摘要，缺计数键、身份和实际复现；HackerOne全文未读。
+24|excluded|source|VPN激活版优惠与视频宣传，没有漏洞机制；不安装、购买或看作安全推荐。
+25|excluded|strategy,source|对他人技巧质量的评论，没有可核技术反例。
+26|corrected|host,source|always/幸运式Host注入建议并入真实URL构造、路由和缓存消费者边界；头改变不自动产生接管或SSRF，没有具体请求或结果。
+27|excluded|report,source|WordPress报告指南外链，没有正文或当前项目披露政策。
+28|excluded|sql,source|WP Statistics unauth SQLi文章转发，不含版本、入口或补丁机制；600000数字封面不补成当前受影响部署数量。
+29|excluded|files,xss,source|文件上传XSS文章标题，没有存储、MIME或渲染消费者。
+30|excluded|xss,source|XSS like pro文章赞语和外链，没有全文机制。
+31|excluded|xxe,source|学习XXE的资源集合入口，不等于所有资源全文已读。
+32|corrected|android,ios,records|universal LLDB pinning宣传不证明所有平台/版本/进程适用；代理UI截图仅支持可见普通流量观察，修改制品/信任与原始攻击者条件分开。完整文章/PoC未读或运行。
+33|excluded|android,cloud,source|SSL Pinning/AWS Certificate Manager文章标题，没有证书、信任或消费者细节。
+34|excluded|auth,source|All about password reset标题，不含完整恢复流程。
+35|excluded|android,cloud,source|FireStorePwn工具标题不构成完整审计；实际截图中的APK静态发现、主动规则核查及读/写结果独立提炼，不执行工具。
+36|excluded|strategy,source|初学者遗憾讨论外链，没有完整讨论或技术机制。
+37|merged|graphql,csrf,auth|三类GraphQL链接作为既有CSRF、schema候选与批次计数条目的路由；没有从链接推完整clairvoyance/Wallarm文章覆盖。
+38|excluded|xss,source|公共XSS练习网站入口，没有题目或目标消费者；未浏览/执行练习。
+39|corrected|cmd,records,source|浏览器在线terminal/reverse shell介绍不证明主机漏洞或命令权限，工具UI与执行身份分开；未访问终端/运行shell或连接回连。
+40|new_knowledge|ssrf,records,fuzz|完整保存的1/4正文脚本用compute.internal文本grep标VULNERABLE；提炼取址消费者与响应因果、IMDS版本/方法前提和历史文件/并发边界。2/4另读、3/4未保存，不访问元数据或运行脚本。
+41|new_knowledge|ssrf,records,fuzz|2/4参数替换、anew和ffuf200线程/延迟脚本提炼候选到独立DNS/HTTP观察的身份时点绑定与总量预算；正文header占位，另图可见UA不补未保存的整个线程。
+42|excluded|auth,source|MFA bypass文章标题与封面，没有挑战/会话链。
+43|excluded|waf,source|缓存未入键输入链文章标题，没有真实缓存键、受众或复用证据。
+44|excluded|source|共享单车DoS文章标题，不含接口/状态机制；不操作真实设备或制造拒绝服务。
+45|merged|passive,records|Rust工具能力列表按枚举、DNS、HTTP、端口不同阶段并入工作记录；工具数量/语言不保证完整工作流，版本/真实制品仍需证据，仓库未读。
+46|excluded|source|个人SecurityTesting仓库宣传，没有具体文件或完整技巧。
+47|excluded|strategy,records,source|full methodology链接没有全文；实际站点树过滤/任务暂停图片独立提炼，未把单图补齐文章。
+48|merged|expert,experiment|理解服务器行为的泛建议并入有限预测模型与正常对照；没有因随意交互就保证可利用。
+49|excluded|source|Socinator激活版促销，没有漏洞机制；未安装或购买。
+50|excluded|ssrf,source|SSRF got it短语没有请求原因或业务影响；回连原始可见截图另审。
+51|excluded|source|Ubuntu honeypot工具介绍，不含实现或真实登录权限；模拟尝试日志另审，不启动honeypot。
+52|excluded|xss,waf,source|XSS keyword filtering文章段链接，没有段落正文。
+53|excluded|xss,waf,source|语法误解评论与线程链接，没有完整代码或当前反例。
+54|excluded|strategy,source|阿拉伯语漏洞奖励平台短标签，没有项目规则或技术内容。
+55|excluded|passive,source|初学recon checklist仓库入口，没有清单全文。
+56|excluded|records,source|两篇同完整正文的Burp激活版促销去重记录；没有工具实现或漏洞知识，不安装。
+57|excluded|report,source|首个HoF感谢信息，不含漏洞机制；两份Philips表彰页面图片另审，不继承当前政策。
+58|excluded|strategy,source|methodology介绍没有具体方法正文。
+59|corrected|report,scope|15天未响应与critical/公开披露威胁校正为历史个人声明；日期与自定严重性不证明项目披露授权/漏洞有效性，已有报告政策条目适用，不发送消息或公开材料。
+60|excluded|report,source|HoF转发与感谢/省略文字，没有具体机制；重复缩图仍按独立内容哈希审阅，未推当前认可。
+61|excluded|strategy,scope,source|WordPress项目分类文章入口，没有当前范围、奖励或规则正文。
+62|excluded|waf,source|Cache Poisoning加表情，没有缓存消费者或复用证据。
+63|corrected|passive,scope|Analytics ID反查只形成关联候选，并入既有共享配置/复制模板/历史残留反例；图中的Tag Manager/UA链与模糊结果不确认共同所有权或范围。
+64|merged|passive,scope|AnalyticsRelationships重复能力介绍并入同一关联边界，转发省略部分不恢复为完整仓库/结果。
+65|excluded|access,source|GitHub私有Pages与35000奖励的文章简介和封面，不含授权或绑定根因。
+66|excluded|auth,source|password_reset.md测试清单入口，没有清单全文。
+67|excluded|strategy,report,source|第一份HoF文章链接，没有技术正文。
+68|excluded|secret,source|信息泄漏文章URL和标签，没有泄漏字段、受众或实际内容。
+69|excluded|expert,source|HookDump检测工具标题不证明具体hook根因；可见ntdll/JMP输出另审，不执行检测或patch。
+70|new_knowledge|references/by-type/desktop-client.md,records,scope|桌面系统代理建议结合两图提炼HTTP/HTTPS勾选、bypass范围与Burp项目scope/观察/出站的差异；修改pinning制品不等于原始客户端可被远程攻击，不改变系统代理/CA/二进制。
+71|excluded|xss,source|同Intigriti挑战转发但保存正文不同；无解题机制或真实目标授权。
+72|corrected|takeover,cloud,scope|搜索S3图片引用→认领旧桶声明并入namespace/Region/资源加载边界；当前官方删除说明只支持共享namespace可能复用，不保证任何失效引用可声明或目标origin控制。未搜索实际目标/创建桶。
+73|merged|takeover,cloud,scope|S3图片旧桶故事转发并入同一机制，省略号/奖励标签不补权威绑定与可接管性。
+74|excluded|records,source|Pinaak所有one-liner工具宣传，缺完整脚本；不读取标题后声称全部命令已审/运行。
+75|corrected|prop,source|Rails3.2.9旧指南与prevalent泛称区分当前Strong Parameters及实际模型字段消费者；核读当前官方许可字段/permit!/空hash说明，奖励图不确定具体版本或漏洞链。
+76|new_knowledge|prop,logic,access|pending0→1/PENDING→Accepted提炼字段写权限、审批人/状态转换与下游实际权益；回显/保存字段不等于合法审批已越权，需正常转换/拒绝反例，不批准真实申请。
+77|excluded|source|Bugs everywhere标签及漫画，没有技术机制。
+78|merged|xss,access|基础用户到高权限读者的stored XSS定位建议并入存储→读取页面→真实角色/语境→能力链；QR/accepted与金额图片不证明原始载荷/版本或所有高权限影响。
+79|excluded|cmd,source|PHP webshell only need宣传没有完整实现；localhost样例截图单独记录，不运行/部署webshell。
+80|corrected|strategy,records|共享VPS/主应用一定大奖的观点不作一般结论；按目标、有限动作和资源条件选工作，没有永久收入保证。CPU告警标题不能归因某扫描或主站漏洞。
+81|excluded|source|两篇同完整正文OWASP guide仓库资源介绍去重，没有全指南内容。
+82|excluded|auth,records,source|IMAP凭据校验工具介绍没有实现；图中地址无效、域配置、IPv6代理、超时和FAILED分别记录，不进行账号登录/读取邮箱。
+83|excluded|records,source|Wireshark Part1文章标题不含协议报文或完整教程。
+84|new_knowledge|xss,source|String.replace把函数作为replacer调用，RegExp本身不主动执行alert；核读ECMAScript算法，区分已控制JS、函数参数与HttpOnly边界。空控制台图片不证明漏洞或所有浏览器测试，未求值代码/读取Cookie。
+85|excluded|source|100本电子书资源链接不等于100本内容已读，不下载。
+86|corrected|records,scope,source|Discord terminal工具的执行主体、命令权限、文件/输出受众与bot凭据区别于只读看结果；未读全部仓库、登录VPS或发送bot消息。
+87|excluded|strategy,source|多目标自动化fleet链接，没有保存完整说明或线程。
+88|excluded|sql,report,source|not applicable SQLi15000文章URL没有根因、反例或结论正文，金额和标题不作评级。
+89|excluded|source|100电子书转发与repo卡片，没有各书正文或技术步骤。
+90|excluded|sql,source|error based double quote标签缺完整原始查询/输入；实际ASP错误页和MySQL driver图另审，不由微软OLE DB接口名推MSSQL。
+91|excluded|access,passive,source|admin panel提示转发正文没有完整清单；两张极小截图可见范围与不可读部分独立记录，不恢复内容。
+92|excluded|source|短技巧图片文章转发标题不等于全文；实际Host字段提示图并入逐跳可信字段边界。
+93|corrected|secret,fuzz,source|Django-DebugMode模板存在不证明当前目标开启debug/泄密或完整覆盖；YAML/线程未读，repo卡片未提供模板内容，不运行nuclei。
+94|excluded|expert,source|两篇相同CheeseTools介绍正文去重，不含工具实现；两幅不同字节工作流图独立提炼已受控身份与远程凭据前提，不执行工具或绕过保护。
+95|corrected|strategy,records|5美元DO单机/共享实例0逻辑是历史意见，不作当前价格或普遍资源推荐；按实际任务容量、隔离、出站限制与状态制品核对，不购买服务。
+96|excluded|strategy,source|roadmap仓库入口，没有路线内容。
+97|excluded|strategy,source|newsletter订阅宣传没有技术正文，附幽默图片另审，不订阅或发消息。
+98|excluded|source|Kaiju/Ghidra扩展介绍与logo没有二进制分析机制；未运行逆向工具。
+99|merged|lfi,source|相对passwd示意并入路径基址、规范化、权限和返回来源链；标签列Windows/mac不使Linux路径普遍适用，概念图不是真实读取证据。
+100|excluded|source|未来100plus tips/求转发正文没有100条技巧；实际ResetPassword.json示意图独立并入既有路由/序列化/令牌用途边界。
+101|excluded|passive,source|SubDomainEnum.md工具列表链接，没有完整文件或工具内容。
+102|excluded|auth,source|首篇密码恢复2021博客宣传，不含恢复状态或挑战消费者。
+103|excluded|passive,source|enum tools标签没有具体输入输出或工具正文。
+104|excluded|passive,records,source|PrettyRecon updated短文不含变更；图片只显示队列/空结果与all search提示，分清已登记和已执行/完成，不启动扫描。
+105|excluded|xxe,source|XXE parser flavor标题无处理器证据；资源图片的定义、工具/90%宣称独立按现有解析边界处理，未读全部外部资源。
+106|corrected|xss,waf|ASP span里的%u003C/%u3008/%uFF1C并非同一码点；核读HTML Data state ASCII<规则，当前解码/Unicode映射/输出与执行需要逐层证据，不称通用ASP绕过。P3 Triaged仍being assessed截图不补执行链。
+107|merged|expert,strategy|理论、研究与批判思考建议并入既有预测模型/反例/机制迁移；没有工具选择必成功或完整书籍内容。
+108|excluded|source|HTB Delivery walkthrough标题不含题目或步骤。
+109|excluded|records,source|Burp Macro第4篇响应头标题不含完整生产者/消费者绑定；不从标题补自动化链。
+110|excluded|secret,source|Facebook Page Admin Disclosure标题不含泄漏字段或受众。
+111|excluded|sql,source|MSSQL Fun SQL2标题，没有方言查询/权限或响应。
+112|excluded|csrf,records,source|Burp Macro第1篇捕获CSRF标题，不含挑战代际/提取/消费证据。
+113|excluded|deser,source|Kaspersky CTF PHP对象注入标题没有gadget或执行路径。
+114|excluded|oauth,source|OAuth2 Part2文章标题没有完整漏洞/缓解内容。
+115|excluded|source|HTB SolidState walkthrough标题没有保存技术正文。
+116|excluded|source|2019 null Ahmedabad CTF标题没有题目或步骤。
+117|excluded|strategy,source|视频预告和Udemy券宣传，没有课程/视频内容，未购买或观看。
+118|excluded|strategy,source|个人工具使用顺序/社区许可理由属于经验偏好，没有可验证新漏洞机制或当前产品推荐。

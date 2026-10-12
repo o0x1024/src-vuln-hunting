@@ -196,3 +196,78 @@ TestContract owner构造msg.sender，withdrawFunds检查tx.origin==owner，低�
 实际保存图：1716323533524246560-02.jpg。本轮原始像素已阅；图片仅支持上述可见内容。
 
 来源：[保存帖1](https://x.com/i/status/1716323533524246560)。
+
+
+## 保存图片 1744449566664249469-02.jpg 的 contract 验证边界
+
+Hyperledger 摘要解释 block header/metadata 被签名，transactions 的 data hash 使用原 byte arrays 直接拼接后摘要，不能仅看密码摘要长度推断解析后交易唯一性。核对序列化中的数量/长度/顺序边界、header datahash 与实际验证及交易解析，比较自造非金融样本相同串联 bytes 与不同分段是否被区别编码/拒绝。图后续例子裁切，未展示实际伪造/链上影响；问题是结构绑定而非直接破解 hash 或由 Deserialization 标签断言 RCE，不提交链上交易。
+
+图片证据：1744449566664249469-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1744449566664249469)。
+
+
+## 保存图证0215-36-contract：1781288420356096076-02.jpg
+
+已实际核对完整保存图片 `1781288420356096076-02.jpg`。Watchtower 通知给 SparkLend 程序类型 rdp、奖励数字和合约/仓库范围链接，下部裁剪。监控卡不是实时官方许可；合约地址、网络、代理实现、提交版本、允许动作与政策需独立映射。离线范围表核相同/错误链和旧提交反例，奖励上限不证明代码缺陷或允许链上变更，不访问地址、交易或创建自动监控。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1781288420356096076)。
+
+
+## 保存图证0215-74-contract：1782678362369986703-02.jpg
+
+已实际核对完整保存图片 `1782678362369986703-02.jpg`。Semgrep Solidity 规则图给 try/catch 形状及提示：subcall OOG 可能选择 catch 路径，catch 是否改状态、返回值解码/require 的异常作用域及未用 retval 再调用需检查。模式匹配仅是候选；离线控制流与气体/异常分类模型比较正常返回、失败和正确无副作用 catch，核具体编译器/交易前后不变量。图没有真实合约/交易，不运行链上调用或制造 OOG。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1782678362369986703)。
+
+
+## 保存正文0221-165-contract：结构化规则匹配与真实代币授权不变量分开
+
+Semgrep示例safeIncreaseAllowance捕获调用与caller参数关系、命中claimLockup.token字段；界面match/test通过仅说明示例规则行为。追踪参数结构的来源、manager/restricted检查、先转入资金、后续pull与beneficiary是否受控，以本地惰性AST和固定安全地址反例对照；保留规则版本和代码上下文，ERROR级别不是损失证明，不运行交易。
+
+来源：[保存帖1](https://x.com/i/status/1800562408664269266)。
+
+
+## 保存图证0221-67-contract：1800562408664269266-02.jpg
+
+已实际核对完整保存图片 `1800562408664269266-02.jpg`。Semgrep Solidity pattern builder组合SafeERC20.safeIncreaseAllowance的调用/函数参数匹配，示例createLockedCampaign对claimLockup.token allowance被高亮，界面显示1 match/tests passed。规则捕获疑似caller-provided beneficiary，但不是交易可利用证据；需追踪struct字段来源、受限调用、token转账/后续pull和授权/不变量。以本地惰性AST/数据流与正确固定beneficiary反例对照，保存规则/测试代码版本；ERROR评级与语法命中不证明资产损失，不部署或发交易。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1800562408664269266)。
+
+
+## 保存图证0236-29-contract：1839266989522489395-02.png
+
+已核对保存图片 `1839266989522489395-02.png`。Solidity0.4.21练习把answerHash置代码、guess(uint8)比较keccak并按ether转账。uint8只有有限候选，哈希不增加低熵秘密；核该版本实际编码/参数与资金状态，balance==0也不是唯一正确完成不变量。示例payable/transfer不证明部署可利用或一般重入，本次不计算猜测、部署或转账。
+
+来源：[保存帖1](https://x.com/i/status/1839266989522489395)。
+
+
+## 保存图片0241：附件054（contract）
+
+Evmos文章截图提出向不应接受资金的module account转账破坏invariant，显示本地链初始化/genesis命令，底部截断。区分应用模块账户规则与合约权限，实际版本、genesis与节点配置决定前提；仅可在明确本地实验恢复状态验证，未克隆、启动链或转账。
+
+图片证据：`1851591767952605443-02.png`；按保存原图可见内容提炼，未读取外链全文。
+
+来源：[保存帖1](https://x.com/i/status/1851591767952605443)。
+
+
+## 保存图片0241：附件055（contract）
+
+第二图描述distribution账户转账后consensus failure/invariant broken，日志裁切并声称已修复，转账命令右侧截断。需关联同一实验链、模块约束、交易收据与区块进度，不以文段证明当前主网或全部dApp停摆，未发交易或制造DoS。
+
+图片证据：`1851591767952605443-03.png`；按保存原图可见内容提炼，未读取外链全文。
+
+来源：[保存帖1](https://x.com/i/status/1851591767952605443)。
+
+
+## 保存正文0242：Web3 scope 同步与静态规则（contract）
+
+sastsweep/bbscope immunefi与Semgrep配置路径是工具组合建议且明确需要修复，不证明已同步完整现行scope。源仓库/提交/链部署与规则语义、可达调用/状态约束分别绑定，静态匹配不等于资金风险，未同步、安装或扫描。
+
+来源：[保存帖1](https://x.com/i/status/1853337127511335239)。

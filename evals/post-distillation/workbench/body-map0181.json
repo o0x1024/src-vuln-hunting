@@ -1,0 +1,522 @@
+{
+  "4": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "Django 路由前缀命中应与视图授权分开检查"
+  },
+  "6": {
+    "dis": "corrected",
+    "targets": "references/by-type/cache-deception.md,references/by-type/xss.md",
+    "note": "缓存命中与持久脚本执行需要分别建立证据；WAF 片段、事件属性与 XSS 到 CSRF 的链条分步验证"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "robots 和 sitemap 描述发现入口而非访问许可"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "浏览器 fetch、服务器请求与远程文件包含不是同一个消费者"
+  },
+  "9": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "WAF 片段、事件属性与 XSS 到 CSRF 的链条分步验证"
+  },
+  "11": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "扫描通知卡片必须回链到具体运行和可复核响应"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": ".git 目录拒绝访问仍须区分子文件与完整仓库暴露"
+  },
+  "13": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "metadata 响应归因应服从响应内容而非标题中的云厂商"
+  },
+  "14": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "侦察工具列表按输入与输出阶段组织"
+  },
+  "16": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "秘密候选按字段语义、当前有效性和实际授权能力分级"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "请求清理与动态令牌自动化须保留会话和请求对应关系"
+  },
+  "20": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "请求清理与动态令牌自动化须保留会话和请求对应关系"
+  },
+  "22": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "登录响应中的 password 字段先判定类型和对象归属"
+  },
+  "24": {
+    "dis": "corrected",
+    "targets": "references/by-type/ai-application.md",
+    "note": "AI 生成模板和请求建议需要独立的语法与证据验证"
+  },
+  "25": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "InternetDB 的端口和 CVE 标签属于有时间边界的资产线索"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "方法覆盖的鉴权应绑定实际执行方法"
+  },
+  "27": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "秘密候选按字段语义、当前有效性和实际授权能力分级"
+  },
+  "28": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md,references/scope-and-rules.md",
+    "note": "JavaScript 路径发现须回到实际调用点和资源权限；奖励与项目允许披露的信息应分开确认"
+  },
+  "30": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "关闭检测提示不等于设备状态或授权边界改变"
+  },
+  "31": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "秘密候选按字段语义、当前有效性和实际授权能力分级"
+  },
+  "32": {
+    "dis": "corrected",
+    "targets": "references/business-modeling.md",
+    "note": "合法业务流程观察应形成可检验的角色与状态模型"
+  },
+  "34": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "APK 情报提取的静态线索应与运行权限区分"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "Whitelabel 错误页只能说明一次错误处理路径"
+  },
+  "38": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "邀请凭据必须绑定目标工作区和允许加入的条件"
+  },
+  "40": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "私网 DNS 候选与 HTTP 代理探测应分阶段计证"
+  },
+  "42": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 工具帮助和延迟参数不构成注入证据"
+  },
+  "43": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "候选 URL、解析失败和浏览器执行属于不同验证阶段"
+  },
+  "44": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "候选 URL、解析失败和浏览器执行属于不同验证阶段"
+  },
+  "45": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "JavaScript 与配置文件流水线须保留原始响应和字段权限"
+  },
+  "48": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "同文范围通知必须按各帖图片分别保留变化"
+  },
+  "49": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "方法覆盖的鉴权应绑定实际执行方法"
+  },
+  "50": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "403 变体比较要确认是否抵达同一受保护处理器"
+  },
+  "51": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "WAF 片段、事件属性与 XSS 到 CSRF 的链条分步验证"
+  },
+  "52": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "请求清理与动态令牌自动化须保留会话和请求对应关系"
+  },
+  "53": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "从 Shodan IP 或组织查询到授权验证还须确认归属和虚拟主机"
+  },
+  "54": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md,references/by-type/xss.md",
+    "note": "候选 URL、解析失败和浏览器执行属于不同验证阶段；测试页 alert 的证据范围限定到该页面与触发上下文"
+  },
+  "55": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "候选 URL、解析失败和浏览器执行属于不同验证阶段"
+  },
+  "57": {
+    "dis": "corrected",
+    "targets": "references/by-type/graphql.md",
+    "note": "字段建议推断 schema 后仍须逐 resolver 检查权限"
+  },
+  "60": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "尾斜杠限流差异与底层总限额须同时记录"
+  },
+  "62": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "URL 状态探测应记录失败和重定向语义"
+  },
+  "63": {
+    "dis": "merged",
+    "targets": "references/by-type/ai-application.md",
+    "note": "AI 生成模板和请求建议需要独立的语法与证据验证"
+  },
+  "64": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "同一代理后端的多个 location 应具有一致的访问守卫"
+  },
+  "65": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "历史索引中的邮箱要判定来源、公开意图及实际隐私边界"
+  },
+  "67": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "Postman、静态扫描插件和 JS 提取工具只提供候选消费者"
+  },
+  "68": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "403 变体比较要确认是否抵达同一受保护处理器"
+  },
+  "69": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "Postman、静态扫描插件和 JS 提取工具只提供候选消费者"
+  },
+  "70": {
+    "dis": "merged",
+    "targets": "references/by-type/cache-deception.md",
+    "note": "缓存命中与持久脚本执行需要分别建立证据"
+  },
+  "71": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "AEM JSON 选择器中的字段仍需证明实际敏感性和身份边界"
+  },
+  "72": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "子域流水线中先筛 200 会缩小最终覆盖集合"
+  },
+  "73": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "JSON 转表单必须验证服务端语义和浏览器请求条件"
+  },
+  "74": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "删除对象的 IDOR 需要绑定两自有身份与可恢复的最终状态"
+  },
+  "76": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "越权更改邮箱和账号接管应按实际恢复能力区分"
+  },
+  "78": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "运行时权限模型还须覆盖原生代码加载入口"
+  },
+  "79": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "编码跳转参数要在解码后校验完整 URL"
+  },
+  "80": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-ios.md",
+    "note": "跨 frame 原生桥接须验证调用 origin、UI 提示和最终脚本上下文"
+  },
+  "81": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "绝对形式 request-target 与 Host 的解析边界须独立确认"
+  },
+  "82": {
+    "dis": "corrected",
+    "targets": "references/cloud/container-k8s-security.md",
+    "note": "Docker Registry 的公开索引、镜像权限和源码内容分步验证"
+  },
+  "83": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "403 变体比较要确认是否抵达同一受保护处理器"
+  },
+  "84": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "邀请凭据必须绑定目标工作区和允许加入的条件"
+  },
+  "85": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "根路径 403 不代表所有路由相同权限"
+  },
+  "87": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "对象属性泄露应结合角色必要性检查"
+  },
+  "88": {
+    "dis": "corrected",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "奖励与评级截图不能替代字段级影响说明"
+  },
+  "91": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "联邦共享接收者持有 token 不代表有权扩大权限"
+  },
+  "92": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "等价 MIME 的大小写应在净化和渲染前统一解释"
+  },
+  "93": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "秘密候选按字段语义、当前有效性和实际授权能力分级"
+  },
+  "94": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "从 Shodan IP 或组织查询到授权验证还须确认归属和虚拟主机"
+  },
+  "97": {
+    "dis": "corrected",
+    "targets": "references/by-type/jwt.md",
+    "note": "解码 JWT 的用户标识和 API 地址不等于签名或权限缺陷"
+  },
+  "98": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "受理、确认署名、严重度和奖励是独立记录"
+  },
+  "99": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "客户端配置、受限 access_key 和外部存储凭据须按消费者区分"
+  },
+  "101": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "URL 百分号与 HTML 实体解码链应追到实际导航消费者"
+  },
+  "103": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "邮箱情报工具的命中标签不证明账号归属或有效泄露"
+  },
+  "104": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "受理、确认署名、严重度和奖励是独立记录"
+  },
+  "108": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "多行求值放大的延迟不能只用总耗时归因"
+  },
+  "109": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "证书名称匹配应在 IDN 规范化后遵守通配边界"
+  },
+  "110": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "复用网络句柄时方法与请求体来源要一起重置"
+  },
+  "111": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "错误路径引用已释放数据应追踪到展示消费者"
+  },
+  "114": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "多个注入占位符应明确变量对应与请求预算"
+  },
+  "115": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "登录页后 admin 返回 200 仍须证明未授权业务权限"
+  },
+  "117": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "同文范围通知必须按各帖图片分别保留变化"
+  },
+  "118": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "JavaScript 与配置文件流水线须保留原始响应和字段权限"
+  },
+  "122": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "响应延迟检测器的 Vulnerable 输出仍需可解释的对照"
+  },
+  "123": {
+    "dis": "corrected",
+    "targets": "references/business-modeling.md",
+    "note": "资料字段、对象授权、脚本执行和钱包签名链条分别建模"
+  },
+  "124": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "跨产品嵌入内容的存储与渲染应保持同一净化边界"
+  },
+  "125": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "User-Agent 进入后台联系表单时须确认实际查看消费者"
+  },
+  "126": {
+    "dis": "corrected",
+    "targets": "references/business-modeling.md",
+    "note": "报告时间范围和聚合粒度决定成本约束"
+  },
+  "132": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "私有项目奖品邮件不授权公开发现内容"
+  },
+  "133": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md,references/by-type/info-secrets.md",
+    "note": "403 变体比较要确认是否抵达同一受保护处理器；客户端配置、受限 access_key 和外部存储凭据须按消费者区分"
+  },
+  "138": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "批量评论是否越过业务配额须先定义被保护资源"
+  },
+  "139": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "Postman、静态扫描插件和 JS 提取工具只提供候选消费者"
+  },
+  "140": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "影响分析要形成小而可复核的问题和及时证据"
+  },
+  "141": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "客户端配置、受限 access_key 和外部存储凭据须按消费者区分"
+  },
+  "142": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "私网 DNS 候选与 HTTP 代理探测应分阶段计证"
+  },
+  "144": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "403 变体比较要确认是否抵达同一受保护处理器"
+  },
+  "145": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "JavaScript 与配置文件流水线须保留原始响应和字段权限"
+  },
+  "146": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "JavaScript 与配置文件流水线须保留原始响应和字段权限"
+  },
+  "147": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "尾斜杠限流差异与底层总限额须同时记录"
+  },
+  "148": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "未验证邮箱占位、身份合并与账号阻断须按生命周期验证"
+  },
+  "150": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "私网 DNS 候选与 HTTP 代理探测应分阶段计证"
+  },
+  "152": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "影响分析要形成小而可复核的问题和及时证据"
+  },
+  "153": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "代码仓库中的 Jira token 应按实际 API 能力解释 full access"
+  },
+  "154": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "订单接受必须由被要求确认的角色授权"
+  },
+  "155": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "日志字段净化必须覆盖请求方法及最终终端消费者"
+  },
+  "158": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "订单 ID 除对象授权外还需检查类型与输出上下文"
+  },
+  "159": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md,references/impact-and-acceptance.md",
+    "note": "JavaScript 与配置文件流水线须保留原始响应和字段权限；奖励与评级截图不能替代字段级影响说明"
+  }
+}

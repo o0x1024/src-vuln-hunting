@@ -1,0 +1,392 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "数据主体请求的执行身份不能只来自匿名表单"
+  },
+  "3": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "扫描报告导出端点需要协议与历史身份"
+  },
+  "4": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "负数对象标识与集合权限要独立比较"
+  },
+  "5": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "邮件记录发现的主机不自动属于输入域的测试范围"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "提交和分支候选应保留秘密来源与消费者"
+  },
+  "9": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "数据库错误、发现路径与崩溃宣称不是同一个原语"
+  },
+  "10": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "配置生成器可见、可保存与可应用须分开留证"
+  },
+  "11": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "恢复邮件解析与账号选择必须指向同一主体"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "设备 APK 获取要绑定包标识和签名版本"
+  },
+  "15": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "版本库、日志和调试文件的返回真实性与最小读取"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "注册触发的 DNS SMTP HTTP 回调先确认消费者"
+  },
+  "20": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "混合探针要拆成解析上下文的独立假设"
+  },
+  "21": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "HTML 注入影响证明无需真实登录诱导"
+  },
+  "23": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "批量侦察的输出文件必须保留完整入口身份"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "资料字段的视觉覆盖与脚本模板要分开判断"
+  },
+  "28": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "JS 关键词命中与公共库术语分别归类"
+  },
+  "29": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "版本库、日志和调试文件的返回真实性与最小读取"
+  },
+  "32": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "批量侦察的输出文件必须保留完整入口身份"
+  },
+  "33": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "百分号和空白字符必须追踪到最终脚本上下文"
+  },
+  "36": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "提交和分支候选应保留秘密来源与消费者"
+  },
+  "37": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "源码与历史参数跨入口复用要有字段语义"
+  },
+  "41": {
+    "dis": "corrected",
+    "targets": "references/by-type/document-rendering.md",
+    "note": "预览格式识别必须约束转换器的资源访问"
+  },
+  "43": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "百分号和空白字符必须追踪到最终脚本上下文"
+  },
+  "46": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "版本库、日志和调试文件的返回真实性与最小读取"
+  },
+  "51": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "产品路径和公开报告索引只产生带时间的候选"
+  },
+  "52": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "产品路径和公开报告索引只产生带时间的候选"
+  },
+  "59": {
+    "dis": "corrected",
+    "targets": "references/by-type/deserialization-rce.md",
+    "note": "PHAR 包装器与元数据反序列化触发点应分别审计"
+  },
+  "61": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "原始路径与重写头必须在同一授权对象上比较"
+  },
+  "62": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "源码与历史参数跨入口复用要有字段语义"
+  },
+  "63": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "禁用控件不代表所有事件上下文不可到达"
+  },
+  "65": {
+    "dis": "corrected",
+    "targets": "references/by-type/document-rendering.md",
+    "note": "畸形媒体类型的解释必须用真实字节与消费者"
+  },
+  "66": {
+    "dis": "merged",
+    "targets": "references/by-type/file-upload.md,references/by-type/lfi-path-traversal.md,references/by-type/cmd-injection-rce.md",
+    "note": "保存正文及当前图片hash匹配已实际审阅ZIP-PHP/page包含示意；沿既有ZIP成员传输/裸fragment不入服务器/解码到include与执行分层，无新可见机制不造上传运行。"
+  },
+  "67": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "数据库错误、发现路径与崩溃宣称不是同一个原语"
+  },
+  "68": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "十阶段侦察必须保留每种可达性的含义"
+  },
+  "71": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-ios.md",
+    "note": "iOS 静态检查按具体数据消费者建模；iOS 动态检查分清设备解锁与服务端权限"
+  },
+  "72": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "数据库错误、发现路径与崩溃宣称不是同一个原语"
+  },
+  "74": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "后端不支持安全选项时不能静默当作已生效"
+  },
+  "75": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "下载文件的安全性贯穿打开到后续使用"
+  },
+  "76": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "公开 API 控制台与私有方法授权各自验证"
+  },
+  "77": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "图片hash与先前实际读过gauq/sqliz/bxss shell相同，沿既有历史URL后缀/截断/归并候选方法，正文已全读。"
+  },
+  "78": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "DNS 指向、租户绑定与邮件能力需要独立证据"
+  },
+  "79": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/by-type/authn-session.md,references/targeted-fuzzing.md,references/by-type/graphql.md",
+    "note": "API 文档版本和实际请求映射须同时保留；API 编码主体与登录流程不等同授权能力；API 模糊测试按对象动作与合法前置状态限定；Schema 可见与数据对象权限是不同边界"
+  },
+  "81": {
+    "dis": "corrected",
+    "targets": "references/by-type/oauth-oidc.md",
+    "note": "XSS 后的事件与 OAuth 链需要实际授权回流"
+  },
+  "82": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "转发保存正文已全读，当前图片与77/先前实际审阅hash相同，沿既有候选方法不重复视图计数。"
+  },
+  "86": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "并发加入要以成员唯一性与统计不变量验证"
+  },
+  "92": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md,references/reporting.md",
+    "note": "JS 关键词命中与公共库术语分别归类；重复、奖励与公开范围互不替代"
+  },
+  "98": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "延迟语法需要方言与计时负例"
+  },
+  "100": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "密码reset题名及同hash十三类清单已实际审阅记录，沿既有签发用途/身份/字段验证，不补造当前目标结果。"
+  },
+  "101": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "消息通知入口也必须经过本地应用锁"
+  },
+  "102": {
+    "dis": "merged",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "DNS 指向、租户绑定与邮件能力需要独立证据"
+  },
+  "103": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "字段长度错误必须绑定实际字段与持续影响"
+  },
+  "105": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "默认账号端口与面板数据权限都须独立确认"
+  },
+  "107": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "源码与历史参数跨入口复用要有字段语义"
+  },
+  "108": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "负数对象标识与集合权限要独立比较"
+  },
+  "109": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "附件删除必须验证父卡片与文件关系"
+  },
+  "113": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/csrf.md",
+    "note": "改密码时缺失旧密码不能静默退为无需再认证；公开用户 UUID 不能作为跨站请求的秘密"
+  },
+  "114": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "发现 AWS 密钥与证明权限不能以弹窗代替"
+  },
+  "116": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "产品路径和公开报告索引只产生带时间的候选"
+  },
+  "118": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "MFA 超时与并发失败不得提交认证终态"
+  },
+  "119": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "MFA 超时与并发失败不得提交认证终态"
+  },
+  "121": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "计划搜索目录的标签不是完整有效授权"
+  },
+  "123": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "MFA 超时与并发失败不得提交认证终态"
+  },
+  "125": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "源码与历史参数跨入口复用要有字段语义"
+  },
+  "126": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "重复、奖励与公开范围互不替代"
+  },
+  "129": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "百分号和空白字符必须追踪到最终脚本上下文"
+  },
+  "130": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "保存扫描题名和图片hash匹配先前实际读过nuclei/kxss/grep=分路管道，沿候选/未加引号输入与实际执行证据区分。"
+  },
+  "131": {
+    "dis": "merged",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "发现 AWS 密钥与证明权限不能以弹窗代替"
+  },
+  "133": {
+    "dis": "merged",
+    "targets": "references/experiment-design.md",
+    "note": "混合探针要拆成解析上下文的独立假设"
+  },
+  "135": {
+    "dis": "corrected",
+    "targets": "references/by-type/cors.md",
+    "note": "Origin 反射要核对浏览器实际读取与私密数据"
+  },
+  "137": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "批量侦察的输出文件必须保留完整入口身份"
+  },
+  "146": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "多次反射的组合解析应覆盖跨片段状态"
+  },
+  "148": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "缓存状态与错误响应的头部生产者需要留证"
+  },
+  "152": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "版本库、日志和调试文件的返回真实性与最小读取"
+  },
+  "153": {
+    "dis": "merged",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "DNS 指向、租户绑定与邮件能力需要独立证据"
+  },
+  "156": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "深链到认证 HTTP 请求不能直接拼接外部参数"
+  },
+  "157": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "当前三条找回/改密email与移除code示意hash已实际读过，沿既有账号/用途/认证终态绑定，不造通用三步ATO。"
+  },
+  "158": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "共享权限报告的计数与有效操作必须相互核对"
+  },
+  "159": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "钱包锁定状态应覆盖所有视图和签名句柄"
+  }
+}

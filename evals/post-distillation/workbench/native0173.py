@@ -1,0 +1,28 @@
+# coding: utf-8
+"""Own native distillation; no source execution."""
+import json,re
+from collections import defaultdict
+from recover import T,W
+facets = [['by-type/host-header.md', 'Host 改成回环地址后的数据库错误不能单独证明服务端请求', '保存请求是 GET /、HTTP/2、Host: 127.0.0.1，响应显示 WordPress mysqli 的 getaddrinfo 与数据库连接失败，帖文明确说继续 fuzz localhost/私有地址仍无结果。需要合法 Host 基线、同一路由/应用实例、原始响应和可关联网络结果，分清路由选择、错误模板和真正受输入控制的请求消费者。内部文件路径、DNS 错误或私有地址字符串出现并不证明请求进入内网，也不能从错误页补出可控数据库主机或 SSRF。\n\n来源：[保存帖1](https://x.com/i/status/1648704776681537542)。\n\n现有图片证据 `1648704776681537542-02.jpg`：GET/HTTP2 Host127.0.0.1回应WordPressmysqli getaddrinfo失败、文件路径/行号及数据库连接错误；无正常Host基线，不能证明Host触发内网访问、数据库名可控或SSRF，原文明确fuzz未有结果。'], ['by-type/info-secrets.md', '数据库连接错误中的路径泄露应按实际字段描述', '保存图片展示 WordPress 文件路径、行号、数据库连接/名称解析错误，未见完整凭据或数据。记录访问身份、错误触发条件及实际暴露字段，区分标准错误模板和目标运行环境信息。服务器路径与数据库端口提示不能等同于账号密码或数据库可达；缺少基线时不要断言 Host 注入导致泄露。证据只保存最小必要字段，不由路径推导文件读取或尝试连接目标数据库。\n\n来源：[保存帖1](https://x.com/i/status/1648704776681537542)。\n\n现有图片证据 `1648704776681537542-02.jpg`：GET/HTTP2 Host127.0.0.1回应WordPressmysqli getaddrinfo失败、文件路径/行号及数据库连接错误；无正常Host基线，不能证明Host触发内网访问、数据库名可控或SSRF，原文明确fuzz未有结果。'], ['reporting.md', '反射 XSS 的沟通评分不构成通用高危标准', '图片中作者因修复后载荷无效要求提高严重性，triager 仍保留 Medium，正文提及 6.1 而侧栏为 4.7，并有奖金通知。应分别记录评分时点、平台元数据、实际执行条件和可证明影响，不把每个 XSS 自动定为 High/Critical，也不把一次奖金沟通作为其他项目规则。无效载荷需依据原步骤做受控复测，不能仅以已修复状态提高等级；现有图没有保存该复测或实际载荷。\n\n来源：[保存帖1](https://x.com/i/status/1648663814349660160)。\n\n现有图片证据 `1648663814349660160-02.jpg`：反射XSS奖金额$250及沟通：作者认为XSS应High/Critical，triager保留Medium6.1，侧栏Medium4.7；评分口径/时间不同不能当统一标准，无实际载荷或回归结果。'], ['by-type/authn-session.md', '邮件显示名称保护需与真实发件身份和认证结果区分', '保存帖声称可将邮件显示为 Google，但没有保存原始邮件或伪装 PoC。可复用的检查是记录客户端显示名称、From 地址、SMTP 信封身份及实际邮件认证/呈现结果，用自有测试账户和收件箱比对产品承诺的名称保护。显示名称可编辑不等于域名身份伪造、认证通过或受信任标志误用；缺少消息头与 UI 结果时保留候选，不对外发信验证或宣称当前 Gmail 仍受影响。\n\n来源：[保存帖1](https://x.com/i/status/1648710618583814145)。'], ['reporting.md', '不再复现与由本报告推动修复须分别举证', '图中产品团队说明：若问题已不可复现，可能来自例行维护/计划升级，且未因该报告创建内部修复请求。记录原复现证据、复测环境/时间、实际变化、团队确认和奖励状态；“Fixed”文字与不可复现不能代替根因已修复的证明，也不能归因为该报告促成。缺少明确确认时报告“原步骤目前未复现”，不要补出修复提交或通用接受政策。\n\n来源：[保存帖1](https://x.com/i/status/1648710618583814145)。\n\n现有图片证据 `1648710618583814145-02.jpg`：Gmail issue沟通：若不再复现可能例行维护/升级，未因本报告开内部修复ticket；作者Fixed描述不能证明修复归因，无显示名称伪装PoC。'], ['experiment-design.md', '围绕一个漏洞类型学习要形成可验证的消费者模型', '帖子建议选一个漏洞类型，研究资源、原理和不同载荷。把学习结果转成输入控制、解析/执行消费者、必要配置、授权边界及可证伪对照，再说明载荷改变的是哪个条件。收集语法与变形列表不等于理解机制；用合法基线、最小无害标记和负例检查实际效果，并标记未保存的外链内容，不能由经验列表认定目标受影响。\n\n来源：[保存帖1](https://x.com/i/status/1648728834848456713)。'], ['discovery/records-and-incremental.md', '回连日志通知需要独立保存事件和归因证据', '帖子介绍 PHP 日志加 Telegram 通知用于 SSRF、XXE、盲 XSS；图中是一条 curl GET、代理/来源头与时间信息。将原始请求、唯一标记、服务端接收时间和触发测试关联保存，通知只是阅读事件的一个出口。User-Agent、X-Forwarded-For/Real-IP 等可伪造或来自中间代理，单条 HTTP 请求不能区分 SSRF、XML 实体或浏览器脚本执行。保留日志最小字段与权限，未执行部署、发送通知或外部联系；没有实现全文，不补造该工具的可靠性或全部功能。\n\n来源：[保存帖1](https://x.com/i/status/1648748774582353921)。\n\n现有图片证据 `1648748774582353921-02.jpg`：Telegram日志通知含curl/7.64.1 GET/HTTP1.1、代理/来源头、空请求体、时间及IP遮挡；说明通知捕获一请求，来源头可伪造，不定位SSRF/XXE/盲XSS，未发送任何通知。'], ['by-type/xss.md', 'script.src 与 default-src self 问题需核对完整策略及资源内容', '保存帖仅提问：CSP default-src self 下 script src 是 sink 是否可绕过。先保留完整实际策略与回退关系，确认可控值如何到达脚本 URL、URL 是否允许的同源资源，以及返回字节是否真被当作 JavaScript 执行。单一 directive、可设置 src 或同源页面存在不能证明绕过；脚本类型、响应头、页面动作与实际浏览器结果需分别记录。未保存页面和结果时保留条件式问题，不从提问补出通用绕过载荷。\n\n来源：[保存帖1](https://x.com/i/status/1648754685220642824)。'], ['discovery/passive-and-services.md', '每日扫描前一千端口并不覆盖全部服务或证明未授权面板', '帖子用 naabu top-ports 1000 且排除 80/443 寻找开放仪表盘，并提到奖金。记录目标清单来源、扫描时点、实际选端口集合、发现服务及授权范围；排除 80/443 会漏掉对应服务，前千端口不是全部端口。“每天”也不能代替有预算的增量差异策略。端口开放、页面可见与受保护仪表盘未授权访问不同，需要最小受保护内容/操作对照；奖金和两项发现的泛述不能代替各自请求结果。\n\n来源：[保存帖1](https://x.com/i/status/1648788924054097922)。']]
+ids={pid for row in json.loads((W/"batch-0173.json").read_text()) for pid in row["post_ids"]}
+urls=[pid for _,_,body in facets for pid in re.findall(r"https://x\.com/i/status/(\d+)",body)]
+assert len(urls)==9 and all(pid in ids for pid in urls)
+assert len({title for _,title,_ in facets})==len(facets)
+grouped=defaultdict(list)
+for f,title,body in facets:
+ p=T/"references"/f
+ assert p.is_file() and ("## "+title) not in p.read_text(),(f,title)
+ grouped[p].append("\n\n## "+title+"\n\n"+body+"\n")
+community=T/"references/research/community-distillation.md"
+marker="\n## 首轮提炼范围与未采纳内容\n"
+c=community.read_text();assert c.count(marker)==1
+routes=[]
+for f,title,body in facets:
+ summary=body.split("\n")[0].split("。")[0]+"。"
+ summary=summary.replace("|","｜")
+ assert "|" not in summary and "\n" not in summary
+ routes.append(f"| {title} | {summary} | [方法条目](../{f}) |")
+for p,parts in grouped.items():p.write_text(p.read_text()+"".join(parts))
+community.write_text(c.replace(marker,"\n"+"\n".join(routes)+"\n"+marker,1))
+print("Added",len(facets),"facets/routes to",len(grouped),"topics;",len(urls),"batch-bound URLs")
+

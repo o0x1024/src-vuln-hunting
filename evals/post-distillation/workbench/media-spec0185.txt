@@ -1,0 +1,115 @@
+0|no_technical_content||奖金额1000美元和涂抹身份的通知，无漏洞机制。
+1|distilled|references/source-audit.md|Rack Range解析异常耗时，图列受影响>=1.5.0、修复2.0.9.2/2.1.4.2/2.2.6.1/3.0.4.1；需Range处理入口和受控CPU时间对照，截图下部裁切不补全PoC。
+2|distilled|references/source-audit.md|Rack Content-Disposition multipart解析异常耗时，>=2.0.0，修复2.0.9.2/2.1.4.2/2.2.6.1/3.0.4.1；本组件可达性不同于Range，底部影响段裁切。
+3|distilled|references/source-audit.md|Rack RFC2183 multipart boundary解析异常耗时，>=2.0.0，四修复版本同图；将boundary与Content-Disposition分别定位，不推断未见触发字符串。
+4|distilled|references/source-audit.md|ActiveSupport underscore正则灾难回溯导致CPU内存消耗，String#underscore/Inflector.underscore/titleize等使用链，图历史all和修复6.1.7.1/7.0.4.1；不对在线服务压测。
+5|distilled|references/source-audit.md|GlobalID model name解析ReDoS；图历史>=0.2.1修复1.0.1，未受影响字段NOTAFFECTED占位不能作为版本清单；图称无可行workaround/补丁单改动，无具体正则。
+6|distilled|references/source-audit.md|libcurl保存cookie/HSTS/alt-svc文件stat后fopen的TOCTOU可覆盖受保护文件，需本地路径竞争和写入身份；历史7.84.0–8.1.2，<7.84.0或>=8.2.0不受影响；非纯远程无前提RCE。
+7|insufficient_technical_detail||SQLi仓库预览宣传和stars，无测试算法/响应。
+8|distilled|references/by-type/crlf-response-splitting.md|请求路径%0d%0aSet-Cookie标记对应301 nginx/1.18.0响应独立Set-Cookie行，主机裁切；有header注入证据但无会话覆盖/利用范围和真实产品版本证据。
+9|insufficient_technical_detail||Critical Information Disclosure/triaged私有报告侧栏，无秘密获取/数据库连接记录。
+10|insufficient_technical_detail||localhost poc.py输出Token和Vulnerable，无HTTP触发/执行回执，检测标签非RCE证明。
+11|distilled|references/scope-and-rules.md|历史新增*.hiltonhotels.jp wildcard、hiltonhotels.jp URL、*.hiltonlocalbiz.com wildcard，三项奖励true；资产类型/基域独立，不能当当前授权。
+12|insufficient_technical_detail||三条RXSS P3 New报告条目，路径涂抹无触发/执行。
+13|distilled|references/by-type/xss.md|Rails send_file/send_data inline image/svg+xml时只给HTML施加CSP，恶意SVG可执行；default-src none预期与实际header需比较；图注ActiveStorage content_types_allowed_inline过滤构成不同路径反例，CVE2022-22577，无附件源码。
+14|distilled|references/by-type/xss.md|Rails FormTagHelper/TagHelper对标签名/属性名允许字符检查不足；options中data-*、aria-*、非boolean属性hashkey受控例check_box_tag；属性值escape不能代替名称验证，CVE2022-27777，底部后文裁切。
+15|distilled|references/source-audit.md|ActiveStorage variants→image_processing→mini_magick→ImageMagick转换链；测试6.1.3.1/1.12.1/4.11.0，CVE2022-21831；图无注入参数与执行回执，保留审计链不补命令。
+16|distilled|references/by-type/xss.md|Rails7.0.4.3 redirect_to URL控制字符令下游移除Location，HTML href仍受控可用javascript URI，需点击；图列%01-%08/%0b/%0c/%0e-%1f，不能归成普通开放重定向或无点击；CVE2023-28362，PoC裁切。
+17|distilled|references/source-audit.md|recheck静态预测Rack::Multipart::RFC2183指数复杂度，Rack2.2.3 multipart.rb L38/parser.rb L296；正则右端及benchmark裁切，预测须独立测量入口可达性/耗时，CVE2022-30122与44572区别。
+18|distilled|references/reporting.md|邮件把问题评High并称IP封禁缓解升级，未提供机制；将报告评级、缓解有效性和实际可达影响分开，不从文字推断全系统失陷。
+19|distilled|references/reporting.md|邮件续页称另一个独立报告先已注意问题、仍奖励并请求复测与发票；已知/重复与贡献奖励独立，复测须同最小对照，无触发代码。
+20|insufficient_technical_detail||Medium reflectedXSS triaged侧栏，无隐藏参数/上下文执行。
+21|no_technical_content||人物访谈帧，未保存音频/字幕机制。
+22|distilled|references/cloud/cloud-misconfiguration.md|BucketLoot示例GCS400对象117兴趣文件，keyword/URL/Google服务账号SECRET分类输出；max-size/search过滤会漏覆盖，regex命中不证明密钥有效或权限，不访问源bucket。
+23|no_technical_content||人物访谈静帧，无方法字幕。
+24|insufficient_technical_detail||邮件摘要source code disclosure，URL像素化无来源文件/返回证据。
+25|distilled|references/discovery/passive-and-services.md|MAPSDUMPER laundry搜索遍历地点链接、API place、每项10reviews输出；公开地点候选不代表目标归属/允许范围，截帧无电话邮箱实际值，不抓取联系。
+26|insufficient_technical_detail||Forced browsing P1 unresolved奖励/40points条目，泄露内容涂抹无文件。
+27|distilled|references/discovery/web-and-api.md|WebCopilot帮助-d目标/-o输出/-t100默认/-b BXSS server/-x排除范围/-s仅子域；裁切边缘只采用可见字，100并发非授权建议、需排除和回执，不混发现与扫描。
+28|insufficient_technical_detail||triaged报告PII leakage题目涂抹，无访问对照。
+29|distilled|references/by-type/authn-session.md|账号删除后仍能创建APIkeys的报告Medium/Escalated；正文另称可读keyendpoint，需旧JWT有效性与业务授权及删除状态分别对照，图无实际API请求。
+30|distilled|references/discovery/passive-and-services.md|Nmap证书枚举输出stage/qa/sandbox等域，另含www.paypal.com--update-account.informatione.donsson.com伪相似域；必须按DNSlabel后缀归属过滤，证书候选非在线/授权资产。
+31|distilled|references/experiment-design.md|pyFUD示例127.0.0.1:4444等待单客户端和help list/id/back；只证明本机握手菜单，不证明远程执行或FUD免杀，记录测试阶段回执。
+32|insufficient_technical_detail||One-Liners仓库社交预览，无具体命令。
+33|no_technical_content||自动化话题访谈静帧无字幕。
+34|distilled|references/discovery/passive-and-services.md|Shodan favicon hash362091310示例2514历史候选，结果像素化；哈希可复用不证实EPMM版本漏洞或授权。
+35|distilled|references/discovery/passive-and-services.md|Shodan http.title MobileIron示例1606历史候选，标题与favicon集合不同需去重且核验身份/版本，不相加当漏洞数。
+36|insufficient_technical_detail||Vulnerabilities Unmasked目录15主题，无ELI5实际解释机制。
+37|no_technical_content||TikTok logo装饰新闻照片无ATO步骤。
+38|distilled|references/discovery/passive-and-services.md|10Shodan查询：HTML键前缀xoxb/AKIA/AIza、Grafana标题、FTP230和anonymous、ASN、favicon、证书subject/issuer CN、wp-config创建脚本、AngularJS组件、IndexOf/admin/DirectoryListing；org/ASN和issuer不同归属层级，横幅/前缀/创建提示不是泄露或成功登录证明。
+39|distilled|references/hunting-strategy.md|书页说明方法依应用/范围，反复回访变化；proxy历史文件/域/HTMLJSON/前后端及第三方加Wappalyzer识别栈；不要以别人已测跳过，无发现可换目标，截图上边/左边裁切不用外推。
+40|insufficient_technical_detail||Response manipulation price0.1 High条目，无币种请求/后端订单，OOS在正文。
+41|insufficient_technical_detail||BrokenAccessControl Part2课件封面，无IDOR判断实例。
+42|distilled|references/by-type/info-secrets.md|小字完整中间Burp GET/common/config.php.new返回200和PHP配置define数据库/密钥/文件等字段，值涂抹；备份后缀可能绕PHP处理暴露源，200必须辨正文不是软404，不扩读秘密。
+43|no_technical_content||California VDP HallofFame页面荣誉名单，无漏洞细节。
+44|distilled|references/by-type/authn-session.md|Liberapay waybackurls｜grep disavow历史动作URL报告称无需登录解除email；状态Informative与Medium区分，URL可能携带capability，需token/绑定/有效期和状态前后对照，不能直接ATO。
+45|insufficient_technical_detail||敏感信息披露邮件提Vagrantfile，团队建task评估，全文裁切无文件内容或确认。
+46|insufficient_technical_detail||ParamPamPam仓库logo/stars无参数发现请求结果。
+47|distilled|references/scope-and-rules.md|HackerOneSupport Freshdesk设置问题可冒名工单，历史非scope资产、managedservice例外讨论，None严重性仍1000奖励；informative→resolved回执不能泛化授权，修复具体setting未见。
+48|distilled|references/by-type/subdomain-takeover.md|GitHub释放CNAMEhold而DNS仍指向服务，约10分钟窗口他仓库绑定，后增加域验证并转回；真实接管依当时可claim非404，非scope奖励例外不泛化，图说未host malware。
+49|no_technical_content||JWT手册封面无机制。
+50|distilled|references/by-type/jwt.md|手册header/payload Base64url JSON和点分signature，HS256 typJWT与sub/name/email/role/exp示例；三段是常见JWS形态，decode不等verify且payload不保密，不推断所有JWT固定三段。
+51|distilled|references/by-type/jwt.md|图讲验签缺陷/签名key泄露猜测可伪造、alg none admin示意；区分HMAC秘密与非对称公钥，修改payload须服务器接受和权限行为对照，示意图不实证任意系统none。
+52|no_technical_content||JWT下载二维码海报，不解码访问未保存外链。
+53|distilled|references/by-type/desktop-client.md|WARP隧道exclude/include IP ranges输入长string崩溃；Medium下调Low且250奖励与正文None冲突以来源区分，memorycorruption标签不证实可执行，图无长度/堆栈。
+54|no_technical_content||Official warning teenager装饰印章，无IIS短文件名技术。
+55|distilled|references/by-type/sql-injection.md|GraphQL findAllUser userId变量PG_SLEEP6，7696ms返回46k且数据涂抹；无基线/重复统计、字段名如isAdmin/smsCode不证明越权，定位resolver→DB参数链。
+56|distilled|references/by-type/sql-injection.md|username参数WAITFOR DELAY6 URL编码，6246ms与DocumentMoved响应；重定向/延时均非成功认证，DB方言不能只由aspx猜测，需成对重复探针。
+57|distilled|references/by-type/sql-injection.md|multipart reg_CustName MySQL sleep15混合引号payload，16112ms/200ContentLength0；传输载体非DB方言，PHP7.1.4标签不能证明数据库，必须基线+负对照，勿批量sleep。
+58|distilled|references/by-type/websocket.md|WebSocket示例0x1JSON交易帧/0x9ping/0xApong、时间戳方向和channel，copy UI；协议生命周期与业务权限独立，公开trade数据非私有越权，工具hook无源码。
+59|no_technical_content||人物访谈帧仅FROM ONE OF碎片字幕，无完整方法。
+60|insufficient_technical_detail||P2Unresolved cachepoisoning storedXSS ATO标题，无cache键/命中/受害请求。
+61|distilled|references/scope-and-rules.md|MTN历史新增mtnzakhele.co.za URL奖励false，移除mtnghonlineservices.mobi奖励false；范围与奖励独立。
+62|distilled|references/scope-and-rules.md|同正文另一帖历史新增https://www.mtn.com/wp-json/ URL奖励false，移除mtn.com.gh false；路径范围不能扩整个域，两帖不同图各归源。
+63|distilled|references/by-type/authn-session.md|LinkedIn merge-accounts绕2FA明确前提已知victim凭据；merge分支须再认证MFA和最终session验证，非无密码ATO；图500奖励正文None保留来源差异。
+64|distilled|references/discovery/web-and-api.md|Apache mod_negotiation invalid Accept例codeslayer137使406伪目录候选，GET/index；需模块/多变体条件与回应实际列名，不把406本身当泄露，cookie无关不复制。
+65|insufficient_technical_detail||公开backup sensitiveData High7.5 resolved条目，无webconfig内容/后缀。
+66|distilled|references/source-audit.md|GHES错误PRdiff commit smuggling refs/replace需仓库write；历史>=3.7.0修复3.7.9/3.8.2/3.9.1 CVE2023-23764；显示diff须对比精确对象/最终树，非无写权限执行；无替换构造代码。
+67|distilled|references/by-type/business-logic.md|Sorare /federation/graphql CreateOrUpdateSo5LineupMutation编辑自有队伍，多球员captain=true违反UI单队长，50%分数bonus；须后台保存和计分回执，内嵌请求小字不填完整字段。
+68|distilled|references/by-type/authn-session.md|Nuclei2.9.4模板9.5.0默认Grafana admin/admin，uncoverShodanFOFA limit500→1000targets→916urls；公开发现不授权凭据尝试，critical标签非证明；pair Pitchfork与ClusterBomb笛卡尔分开，未读取模板响应。
+69|distilled|references/experiment-design.md|Hetty help MITM HTTPserver/GraphQL/admin、CA/key默认~/.hetty、db、addr默认:8080、--chrome代理且忽略cert errors、verbose/json；监听/CA信任/捕获存储/证书校验各边界，帮助非可用capture证明。
+70|no_technical_content||报告timeline三月前时间信息主体全遮盖，无技术细节。
+71|distilled|references/hunting-strategy.md|平台triage称仍未收到team回复并再次ping；停滞回执不证明budget耗尽，记录提交/最后响应和可控复查期限，勿自动催联系人。
+72|distilled|references/by-type/deserialization-rce.md|RubyXMLRPC0.3.2 create.rb Config ENABLE_MARSHALLING和XMLRPC::Marshallable序列化限制，但parser struct(hash)读取__class__反序列化类不限制；上下半代码裁切，需反序列化分支可达/对象副作用独立证明，不把XML等同XXE。
+73|distilled|references/by-type/desktop-client.md|SteamDeck CEF Chromium85.0.4183.121 CVE2020-16040，用户点Chat链接→steamwebhelper deck用户沙箱disabled，可改本地文件；no new privileges阻止直接sudo但另进程执行可写文件成提权链，图余链底部裁切/无真实回执，不当全浏览器当前漏洞。
+74|no_technical_content||人物访谈无字幕机制。
+75|insufficient_technical_detail||StoredXSS邮件主体像素化，只标题不能提参数。
+76|insufficient_technical_detail||CSRF triaged通知，CRUD方法细节均涂抹。
+77|insufficient_technical_detail||Critical10 InformationExposure inreview，正文dupe但图无dupe状态/触发，不能推断根因。
+78|insufficient_technical_detail||NotifyDiscord thread封面，无配置命令/增量流程。
+79|insufficient_technical_detail||CriticalPaymentBypass自述标题和等待评估邮件，不证明成功付款/高级功能，未确认Instagram目标。
+80|distilled|references/by-type/lfi-path-traversal.md|目录遍历图../etc/passwd→服务器私有目录读→响应文件内容；示意而非真实PoC，规范化后允许根约束/只读marker，文件读取与include执行分离。
+81|distilled|references/experiment-design.md|TelegramLockdoor六panel root菜单/dirsearch0.3.9GET10threads6027词输出Google多301/302跳转包括敏感文件名；菜单与HTTPcapture分开、301并不证明备份存在，平台外传与botauth需保护，不send命令/联系人。
+82|distilled|references/by-type/desktop-client.md|Brave2019Windows10 Torprofile首次启动未在Tor窗访问HTTPHTTPS时内置PDFviewer extension AJAX不走proxy，chromeextension直接pdfurl真实IP；先初始化HTTPHTTPS为反例，需冷启动前后自控服务日志，勿推广当前所有Tor。
+83|distilled|references/discovery/records-and-incremental.md|30历史搜索服务列表包含凭据/DNS/CT/代码/资产/bucket/威胁/存档/WiFi/email等不同证据面；GrepApp数量/SearchCode数量历史营销非当前覆盖，不能外传源码/秘密或把名字等同授权。
+84|distilled|references/discovery/records-and-incremental.md|xurlfind3r v0.2.0 -d www域 --include-subdomains Wayback记录带来源，含大小写PNG/80端口/图片以及index.php route；去重不得丢query/大小写/port身份，历史并非存活覆盖。
+85|distilled|references/by-type/idor-access-control.md|ID后缀等号正则(?i)候选抽取，匹配id/playerId但漏JSON冒号/路径ID/UUID或其它名称且可误中valid；原文pattern需保留，候选非IDOR，要双身份对象边界。
+86|insufficient_technical_detail||HowToShotWeb betterhacking2015幻灯封面，无AllinoneRecon内容。
+87|no_technical_content||人物访谈无技术字幕。
+88|insufficient_technical_detail||InformationDisclosure CWE200 Medium6.3新报告路径/endpoint涂抹，无敏感返回。
+89|insufficient_technical_detail||内部IP exposure100奖励通知，无通路/敏感数据，奖励不证实SSRF/越权。
+90|insufficient_technical_detail||ApacheAmbari info disclosure validissue100奖励5points，无实际endpoint/敏感字段。
+91|no_technical_content||250奖励安排invoice邮件无漏洞内容。
+92|no_technical_content||700奖励与付款姓名邮件，无机制。
+93|distilled|references/by-type/desktop-client.md|Windows WARP IPv4DNSloopback，但IPv6给ULA非loopback某条件指向同LAN其它设备，DNS泄露；CVE2023-2754/1100奖励历史，须路由/实际DNS流/设备前提，无pcap具体触发，不当所有IPv6。
+94|distilled|references/scope-and-rules.md|邮件300与P2extra感谢、后续VDP排除XSS；奖励额/真实评级/类别政策生效分开，匿名target不能推广通用规则。
+95|distilled|references/impact-and-acceptance.md|API用户信息但团队称无secret，P4/75；秘密性、非公开用户字段、越权边界各证据不同，不因普通用户信息一律忽略/高危，无实际字段。
+96|distilled|references/impact-and-acceptance.md|匿名团队重新评P3/150，称每次review改进business理解；无unlimitedXSS触发，重评证据不可只用他人历史金额。
+97|distilled|references/impact-and-acceptance.md|另P3/150重评邮件，相似文字但不同像素源，不假定同报告也不双计漏洞数；保留来源独立。
+98|distilled|references/reporting.md|P3/150首个报告确认，不带根因；首报与严重性/不同finding独立记录。
+99|distilled|references/reporting.md|P2high300已付款且额外问题要求新ticket；根因和影响相同的重复项不能因通知数算多个漏洞，独立边界有证据再拆。
+100|distilled|references/reporting.md|Nutanix员工credential提交github有限披露，Critical→Medium5.3，Resolved及取消披露请求；修复不证实已revoke，有限公开范围无秘密原文，不扩曝光。
+101|no_technical_content||Amazon礼品卡奖励邮件，代码/金额遮盖，无race→RCE链。
+102|insufficient_technical_detail||HighRXSS/AkamaiATO MediumAPIkey Lowemail报告标题，无JS参数/响应/执行链。
+103|distilled|references/discovery/web-and-api.md|Arjun2.1.5先stability/anomaly/potentialnames再logicforce，url redirection/filter httpcode/page body三factor；动态噪声和软404要对照，参数发现非漏洞。
+104|distilled|references/discovery/records-and-incremental.md|xurlfind3r0.3.0 urlscan/wayback标签记录含/?tab、p、display、wcajax等query，article路径讲漏洞不等真实敏感功能，保持rawURI和来源及时间，勿外推算法版本。
+105|distilled|references/source-audit.md|V8 nativepointer截图Windows memoryviewer+Linux GEF，CC int3、RWX区与函数对象pointer箭头、rip到375…；有debug状态无完整原语/版本/隔离逃逸回执，两平台示意非可直接重放exploit，保留nativepointer边界核验。
+106|no_technical_content||书脊藏书照片，无书中实际方法。
+107|no_technical_content||rohsec品牌logo无writeup正文。
+108|distilled|references/reporting.md|GoogleCustomerIssue→Bug S4→S3 Assigned→InProgressAccepted；三方leak标题无原内容，Accepted不等bounty资格/修复。
+109|distilled|references/reporting.md|Googleteam已filebug由product评估，初看不够reward但VRPpanel后审，2–3week无回或新信息可follow；保留处理/资格独立和证据增量，不自动send邮件。
+110|distilled|references/by-type/info-secrets.md|Points_LCP对象debug输出request/response memberbalance4398/name/id与macID/macKey等字段值涂抹；凭据材料与用户信息分类，success会员validation不证明无限积分/第三方越权，不恢复/使用key。
+111|distilled|references/discovery/records-and-incremental.md|Wayback ccTLD .com.br prefix9256 URLs历史捕获；各目标owned国家域/路径prefix独立匹配和来源时间，数量非存活端点/漏洞，黑条prefix不补。
+112|insufficient_technical_detail||ReflectedXSS邮件描述像素化，不能恢复触发/浏览器上下文。
+113|insufficient_technical_detail||POSTemailSQLi triaged通知，需另正文Oracle探针实际响应，通知不证实DB版本/时延。
+114|distilled|references/cloud/container-k8s-security.md|kOpsGCP节点serviceaccount可读statebucket，任意pod已有shell取得instancecredential→state敏感配置→clusteradmin→controlplaneGCPSA，测试Kubernetes1.25.5/kOps1.25.3；权限与metadata通路前提，setupexport后文裁切，非无初始立足点。

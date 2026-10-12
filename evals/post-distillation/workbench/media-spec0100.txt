@@ -1,0 +1,50 @@
+0|distilled|strategy,business,expert|13检查图先map/analyze再logic/access/input/hosting；类别图不提供全参数fuzz授权或每类别完成证据。
+1|distilled|expert,source|FAQ完整可见定义并入前批：引用≠IDOR、RCE权限范围未知、SSRF取址≠任意内网读写。
+2|insufficient_technical_detail|report,source|Vardot HoF名单只致谢，无请求/身份/根因。
+3|no_technical_content|source|BITS文章骷髅装饰图无机制。
+4|insufficient_technical_detail|strategy,source|会员Private/Unlimited/0至125主页并非学习/真实漏洞完成证据。
+5|insufficient_technical_detail|expert,source|AD过程列表recon/账号stealing/lateral/persistence等未显示前提或因果边，不当实际获控链。
+6|distilled|passive,records|/dev/tcp循环254地址×5端口是主动TCP尝试，shell支持/超时/权限/路由影响结果；没有UDP/协议身份回执，未运行。
+7|no_technical_content|strategy,source|课程注册/收费/联系方式宣传无教学机制，未联系。
+8|no_technical_content|source|Typodetect地址栏装饰无域名状态证据。
+9|no_technical_content|source|跳舞玩偶/TikTok图无技术内容。
+10|no_technical_content|source|Hack the planet电影梗不证明Cloudflare绕过。
+11|insufficient_technical_detail|records,source|HTTP/HSTS/HPKP/XFO/XSSProtection测试菜单没有实际头/结果，不能采为当前防护保证。
+12|insufficient_technical_detail|passive,source|GgDorker标志不补CAPTCHA处理/完整索引。
+13|distilled|fuzz,records|vaf配置any/prefix/suffix/url encode false/reflexive false/print true及200/404同长度1256样本；状态不同不自动权限差异。
+14|no_technical_content|source|Linux专家梗图无漏洞技术证据。
+15|no_technical_content|source|x86 MOV梗图无执行机制。
+16|no_technical_content|strategy,source|Twitch活动时间/讲者海报无实际问答。
+17|distilled|container,source|Krane subject-binding-role-rule-namespace/API组/verb及旧PSP图可见；RBAC图与准入配置分开，图不是实际生效证据。
+18|insufficient_technical_detail|source|SecurityTesting仓库统计卡无方法全文或执行结果。
+19|distilled|records,source|Caronte流列表/HTTP与JSON查看/导出/下载/replay按钮为不同动作；已有流显示不证明回放已发出，未复制凭据/回放。
+20|distilled|records,source|Cobra编号工具菜单和200安装入口只列组件，不代表实际安装及版本一致，未输入菜单或执行工具。
+21|insufficient_technical_detail|records,source|12扩展排行榜只有名称没有配置/权限或网络结果。
+22|insufficient_technical_detail|source|搜索分类RCE/JSON导出与题名是入口，不是完整研究内容或验证。
+23|distilled|ssrf,records|裁切文章显示同一标记两DNS事件和prepend@建议，缺HTTP/原始ID消费者，不能证明取回数据或当前方案普遍有效。
+24|no_technical_content|source|IDOR/BOLA动画笑话不提供访问控制实例。
+25|distilled|passive,records|F5 favicon哈希、Shodan文本cut、httpx400多端口、CVE模板和独立targets TLS100流水线；IPv6冒号/集合来源/--insecure/issuer排除各层分开，无实际漏洞结果。
+26|no_technical_content|source|会议讲者照片无可辨识技术页面。
+27|insufficient_technical_detail|expert,source|RedWarden允许/阻断/DNS地理blacklist概念图无真实规则/出站/绕过回执。
+28|no_technical_content|report,source|OPPO Snail Reward海报无技术机制，未扫描二维码/联系。
+29|insufficient_technical_detail|lfi,expert|HTB任务要求用户名与flag、空答案框不是解题过程或已读文件证据，未启动target。
+30|distilled|host,access,source|block.php源码CLIENT_IP→XFF等→REMOTE_ADDR优先序及严格等值可见；示例输出IP Log只是echo，不证持久记录/网络源。
+31|distilled|host,access,source|Burp临时项目加XFF的请求与浏览器仍拒绝画面；拦截待发送不等于消费完成，未发请求。
+32|distilled|host,access,source|后续welcome文本证明图中示例页面切换，不补真实受保护数据/完整生产可信代理链。
+33|insufficient_technical_detail|report,secret|脱敏邮件offer200美元及银行/发票请求不显示漏洞内容或实际付款完成，未回复/付款。
+34|no_technical_content|source|无法利用先休息的笑话无机制。
+35|no_technical_content|source|Link字母球标志无C2技术链。
+36|insufficient_technical_detail|passive,source|recon-map仓库卡/宣传无代码实现与结果。
+37|distilled|passive,scope|IPv4/IPv6来源图的PTR/CT SAN/AAAA/被动DNS/BGP/猜地址/P2P/监听区别；来源关联不继承所有权、范围或监听许可。
+38|insufficient_technical_detail|strategy,scope|历史平台名单不能证明当前存在/项目资格/动作范围。
+39|distilled|report,impact|邮件四项各50总200与待签agreement/另一邮件要求；不能补技术根因、实际到账或全部收益，未签约。
+40|no_technical_content|source|Bbscope虫子标志无范围事实。
+41|distilled|auth,records|has2fa true/authenticated true响应和遮蔽Cookie/CORS origin仅观察本地材料，无法确定挑战前会话身份。
+42|distilled|auth,records|改has2fa false但authenticated仍true，Content-Length仍37；本地响应编辑≠服务端状态/受保护权利变化，未执行。
+43|insufficient_technical_detail|auth,source|LastPass正则海报声称ALL PASSWORDS但无完整输入、模式消费/匹配和密码链，不执行正则/读密码。
+44|insufficient_technical_detail|auth,logic,source|ReCAPTCHA second-order race标题/High Triaged/private/1000美元不展示竞争时序或注册状态，不能补成功攻击。
+45|distilled|xss,waf|日语图a.href圈字母→a.host alert、tagged template/窗口查函数与控制台弹窗；控制台已有执行与外来输入XSS不同，自动链接正文差异保留。
+46|distilled|references/by-type/prototype-pollution.md,records,fuzz|管线尾斜线值与JS比较值不一致；grep同时保留NOT VULNERABLE，stderr隐藏，属性相等不证明原型/gadget，未运行。
+47|distilled|host,passive,scope|同IP即配置在etc/hosts的说法错误；DNS解析、SNI、Host和服务器虚拟主机不同，不能由同IP扩租户范围。
+48|distilled|auth,expert|十种登录问题含响应操纵/参数污染/默认凭据等是候选分类；每类须独立消费者/身份结果，不是全覆盖或授权清单。
+49|no_technical_content|source|SQL针筒图为装饰，没有libinjection实际算法或效果。

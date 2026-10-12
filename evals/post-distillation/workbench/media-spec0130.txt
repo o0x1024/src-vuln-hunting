@@ -1,0 +1,116 @@
+0|distilled|references/scope-and-rules.md|原图高级主机规则已逐项看；宽泛后缀/点号和终点边界需离线反例，不扩成资产许可。
+1|no_technical_content||原始图片已看；Spring 图标，没有可独立提炼的技术机制。
+2|no_technical_content||原始图片已看；直播广告，没有可独立提炼的技术机制。
+3|no_technical_content||原始图片已看；付款界面，没有可独立提炼的技术机制。
+4|insufficient_technical_detail||原始图片已看；Cydia首页环境界面，无操作步骤，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+5|no_technical_content||原始图片已看；自助类书封面，没有可独立提炼的技术机制。
+6|insufficient_technical_detail||原始图片已看；计划修复/金额邮件，没有删除成员后的实际动作，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+7|insufficient_technical_detail||原始图片已看；ConfluenceCVE/P4报告题名，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+8|insufficient_technical_detail||原始图片已看；项目解析器仓库题名，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+9|distilled|references/by-type/saml-sso.md|签名解码/生成终端已看；产物与消费验证分开，不复制会话值，不称管理权限已成功。
+10|distilled|references/by-type/saml-sso.md|Cookie 与登录界面已看，未展示认证接受；保留客户端材料与服务端主体的边界。
+11|insufficient_technical_detail||原始图片已看；CVE报告处理状态，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+12|insufficient_technical_detail||原始图片已看；邮件限流报告题名，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+13|insufficient_technical_detail||原始图片已看；仓库题名，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+14|distilled|references/source-audit.md,references/by-type/desktop-client.md|LSA SSP 指针表已看；仅接口/函数关系，需具体调用/权限/产物，未证明秘密读取。
+15|insufficient_technical_detail||原始图片已看；Laravel报告题名，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+16|distilled|references/by-type/authn-session.md|OTP 数组请求已看，无响应；提炼 schema、实际候选消费及计数区别。
+17|distilled|references/by-type/authn-session.md|重置请求字段关系已看；路径代码/会话/防伪/邮箱绑定需保留，无改密完成证据，不复制值。
+18|distilled|references/by-type/authn-session.md|Kerberos 与 AzureAD 交换图已看；分别记录主体受众和消费者，图无认证成功。
+19|distilled|references/experiment-design.md,references/by-type/xss.md|完整后置宏步骤已看，写后读、edit 覆盖与规则范围；逐样本事务、最终响应与执行分层。
+20|insufficient_technical_detail||原始图片已看；Critical数量/状态meme，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+21|distilled|references/by-type/idor-access-control.md|localhost 方法输出已看 POST200/CONNECT400/TRACE405；同受限动作和语义未证实，不能归为授权绕过。
+22|distilled|references/by-type/oauth-oidc.md|M2M 凭据换令牌/API 图已看，机器主体/scopes 与签名伪造或用户ATO分开。
+23|distilled|references/discovery/passive-and-services.md|favicon URL/哈希/日期/查询已看；图标复用和候选归属分开，不自动许可。
+24|distilled|references/by-type/deserialization-rce.md|SOAP 字段/序列化样式/Cookie 已看，细小截断明确；实际消费者、类可用性、gadget与RCE分开。
+25|insufficient_technical_detail||原始图片已看；奖励确认，无凭据机制，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+26|insufficient_technical_detail||原始图片已看；Jenkins报告题名/等待状态，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+27|distilled|references/by-type/cmd-injection-rce.md|Jenkins 控制台及目录输出已看；支持有限命令结果，认证及运行主体未知，不称匿名入口。
+28|insufficient_technical_detail||原始图片已看；Jenkins核实回复，无独立请求过程，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+29|distilled|references/by-type/desktop-client.md|进程写入/section/恢复及演示窗已看；阶段和环境有限，不称任意注入或通用规避。
+30|insufficient_technical_detail||原始图片已看；子域工具封面，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+31|insufficient_technical_detail||原始图片已看；IDOR两报告题名，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+32|distilled|references/reporting.md|奖励邮件披露限制已看，仅允许赏金、细节需项目方许可；保存具体许可边界，不发布。
+33|distilled|references/reporting.md|另一奖励回复同样有分享范围说明；状态/金额不自动授予完整披露许可。
+34|distilled|references/experiment-design.md|移动云shell工具文件清单已看；文件存在和依赖/可运行/额度分别记录，历史免费说法不做当前保证。
+35|no_technical_content||原始图片已看；LinkedIn宣传，没有可独立提炼的技术机制。
+36|distilled|references/by-type/authn-session.md|完整限流变体清单已看；计数身份、输入规范化、流程状态分层，无实际绕过结果。
+37|distilled|references/by-type/open-redirect.md|hidden表单与URL例子已看；UI不可见与实际请求/导航消费者分开，不推广安全强弱。
+38|no_technical_content||原始图片已看；MLC图标，没有可独立提炼的技术机制。
+39|distilled|references/experiment-design.md|BWASP预测标签和属性界面已看；预测/候选不等于确认，需原请求与响应。
+40|no_technical_content||原始图片已看；排名画面，没有可独立提炼的技术机制。
+41|distilled|references/by-type/xss.md|多语法注释图已看；引号/注释、details事件和Unicode仅有限上下文，不保证普遍执行。
+42|no_technical_content||原始图片已看；NodeShield图标，没有可独立提炼的技术机制。
+43|insufficient_technical_detail||原始图片已看；Shopify报告题名，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+44|insufficient_technical_detail||原始图片已看；视频封面，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+45|distilled|references/by-type/idor-access-control.md|嵌套ID、重复JSON/查询和状态示例已看；各层实际类型/授权值需核，同200不证越权。
+46|insufficient_technical_detail||原始图片已看；Recon仓库题名，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+47|distilled|references/discovery/records-and-incremental.md,references/scope-and-rules.md|私有DSL全脚本图已看；阶段输入输出、依赖、地址/URL过滤及主动范围损失需记录，未发布工具不运行。
+48|distilled|references/discovery/records-and-incremental.md|通知统计25active/98resolved已看；数量只是阶段产物不代表完整覆盖，不发送消息。
+49|distilled|references/discovery/records-and-incremental.md|依赖/变量/层级与执行日志已看，末尾截断/细字限制；可见阶段不延伸成全部计划完成。
+50|distilled|references/by-type/info-secrets.md|多环境连接配置、注释/活动项及身份数据库字段已看；实际加载/消费者/权限未知，最小脱敏不复制值。
+51|distilled|references/by-type/xss.md,references/by-type/info-secrets.md|sessionInfo/authUser字段已看；响应读取与Cookie读取不同，字段不证明可复用令牌/ATO。
+52|distilled|references/by-type/xss.md,references/by-type/info-secrets.md|fetch片段已看；同源/跨源、携带凭据与可读条件分层，不假设跨源默认带会话。
+53|no_technical_content||原始图片已看；通用存储XSS插画，未给独立场景，没有可独立提炼的技术机制。
+54|no_technical_content||原始图片已看；证书，没有可独立提炼的技术机制。
+55|insufficient_technical_detail||原始图片已看；ATO报告题名，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+56|distilled|references/discovery/web-and-api.md|Oracle用户搜索及有限字段已看；身份/行数/脱敏边界，未证明全部部署员工与密码。
+57|no_technical_content||原始图片已看；庆祝表情图，没有可独立提炼的技术机制。
+58|distilled|references/by-type/xss.md,references/discovery/records-and-incremental.md|历史模板请求/HTML MIME/转义JSON外形响应已看；CVE编号冲突、模板命中与真实DOM执行分开。
+59|insufficient_technical_detail||原始图片已看；OTP响应修改处理邮件，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+60|distilled|references/by-type/crlf-response-splitting.md|处理回复明确内容注入无XSS已看；正文消费者与头拆分/脚本执行分开，级别非通用。
+61|distilled|references/impact-and-acceptance.md|处理回复指出邮箱登录链接前提已看；初始控制条件保留，不称无条件OTP接管。
+62|insufficient_technical_detail||原始图片已看；P3处理状态，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+63|distilled|references/discovery/records-and-incremental.md|URL过滤/去重/替换/反射检测管道已看；各阶段候选丢失和最终上下文需记录。
+64|distilled|references/discovery/web-and-api.md|产品搜索/httpx/注册模板输出已看；多个命中不证明读取全部员工，部署和消费者分别核。
+65|insufficient_technical_detail||原始图片已看；重复通知，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+66|distilled|references/experiment-design.md|Running时长、URL/参数/High标签已看；未见HTTP证据/完结，不称已确认发现或全部完成。
+67|distilled|references/discovery/passive-and-services.md|Shodan证书/HTTP200索引已看；图不支持正文外链的依赖混淆完整链，索引关系和归属分开。
+68|distilled|references/discovery/passive-and-services.md|WHOIS组织地址邮件过滤已看，没有CIDR分配对象；不从组织文字推出网络范围。
+69|no_technical_content||原始图片已看；书封面/小缩略图非完整技术页，没有可独立提炼的技术机制。
+70|distilled|references/by-type/document-rendering.md,references/by-type/file-upload.md|dompdf完整字体示意链已看；远程加载/落盘/可达/解释执行条件分开，图无实际RCE结果。
+71|insufficient_technical_detail||原始图片已看；Sysmon关系图，密集字段/图例缺失不能解释动作，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+72|insufficient_technical_detail||原始图片已看；Electron资源仓库题名，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+73|no_technical_content||原始图片已看；网络研讨会广告，没有可独立提炼的技术机制。
+74|distilled|references/by-type/info-secrets.md,references/discovery/web-and-api.md|FPM full指标/当前请求/路径已看；实际快照与秘密/全API/DoS分开，最小字段证据。
+75|no_technical_content||原始图片已看；课程宣传，没有可独立提炼的技术机制。
+76|distilled|references/cloud/cloud-misconfiguration.md,references/discovery/records-and-incremental.md|AWSLambda/Lithops43激活及1/43进度已看；角色成本与每任务产物需核，启动不等于完成。
+77|distilled|references/by-type/lfi-path-traversal.md|GET文件200与passwd字节已看；读取与include/执行分开，x字段不是密码哈希。
+78|insufficient_technical_detail||原始图片已看；HP解决/感谢邮件，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+79|no_technical_content||原始图片已看；Cyph产品宣传，没有可独立提炼的技术机制。
+80|distilled|references/by-type/cors.md,references/by-type/ssrf.md|手工Origin无方案、允许凭据头与DNS AAAA回调已看；浏览器来源/可读、DNS/HTTP/重绑定分别证明。
+81|insufficient_technical_detail||原始图片已看；邮件限流赏金题名，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+82|insufficient_technical_detail||原始图片已看；书签资源分类与链接清单一，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+83|insufficient_technical_detail||原始图片已看；书签资源分类与链接清单二，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+84|insufficient_technical_detail||原始图片已看；书签资源分类与链接清单三，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+85|insufficient_technical_detail||原始图片已看；书签资源分类与链接清单四，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+86|distilled|references/by-type/sql-injection.md|sqlmap恢复旧会话/GET参数/有限库名已看；原请求和时效/处理器归因，未证明WordPress核心SQL或全库读取。
+87|distilled|references/by-type/cmd-injection-rce.md|ASPX程序参数及账户列表已看；支持该消费者执行，不补造JS到写入/运行的初始链。
+88|distilled|references/source-audit.md,references/by-type/authn-session.md|客户端固定口令比较/跳转已看；不复制值，客户端UI与服务端会话授权分开。
+89|distilled|references/by-type/info-secrets.md,references/by-type/authn-session.md|Plex请求已携X-Plex-Token/XML字段已看；现有凭据前提保留，不证匿名/wayback接管。
+90|insufficient_technical_detail||原始图片已看；重复XSS处理状态，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+91|distilled|references/discovery/web-and-api.md|爬取/内部/外部URL UI与有意义alt已看；链接关系不等于失效证据、完整API或外部许可。
+92|no_technical_content||原始图片已看；vAPI图标，没有可独立提炼的技术机制。
+93|insufficient_technical_detail||原始图片已看；ATO重复报告题名，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+94|insufficient_technical_detail||原始图片已看；反馈邮件，无实际复测，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+95|insufficient_technical_detail||原始图片已看；上传报告解决邮件，无实际复测，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+96|no_technical_content||原始图片已看；C2漫画，没有可独立提炼的技术机制。
+97|insufficient_technical_detail||原始图片已看；实验室admin/congrats提示，没有完整操作/消费者链，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+98|distilled|references/experiment-design.md|监听配置/回连地址/HTTP/SSL/生成文件已看；绑定与路由及客户端连接结果分开。
+99|no_technical_content||原始图片已看；演讲封面，没有可独立提炼的技术机制。
+100|distilled|references/by-type/lfi-path-traversal.md|cat shell通配展开/passwd已看；不能推为Java文件API或HTTP问号的同一处理链。
+101|no_technical_content||原始图片已看；博客宣传，没有可独立提炼的技术机制。
+102|no_technical_content||原始图片已看；90天零报告统计，没有可独立提炼的技术机制。
+103|insufficient_technical_detail||原始图片已看；High评分/赏金题名，无配置机制，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+104|distilled|references/impact-and-acceptance.md|2021CWE25完整分类/历史分数已看；机制映射并标年份，不代表当前严重性或仅Web。
+105|distilled|references/discovery/passive-and-services.md|httprobe端口预设图已看；实际版本/集合与结果需核，预设非全服务覆盖。
+106|insufficient_technical_detail||原始图片已看；感谢信与Medium措辞，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+107|no_technical_content||原始图片已看；杯子奖品，没有可独立提炼的技术机制。
+108|no_technical_content||原始图片已看；信封奖品，没有可独立提炼的技术机制。
+109|distilled|references/discovery/passive-and-services.md|旧Google查询截断警告已看；实际条件与索引候选保留，不将历史词数当当前固定规则。
+110|insufficient_technical_detail||原始图片已看；blocked-device ATO题名，不足以独立重建技术链；正文如有保存机制另行提炼，未保存图片/外链全文按用户覆盖，不补造。
+111|distilled|references/discovery/web-and-api.md|Oracle登录模板High结果已看；端点标签不证明未授权读取用户，保留实际请求。
+112|distilled|references/discovery/web-and-api.md|同产品964索引候选已看；总数不证明各部署可复现及完整字段读取。
+113|no_technical_content||原始图片已看；工具图标，没有可独立提炼的技术机制。
+114|distilled|references/discovery/web-and-api.md|httpx状态/标题及grep输出已看；结构化状态字段、软错误与业务身份分开。
+115|distilled|references/hunting-strategy.md|ARWAD完整Recon脑图已看；阶段/关系/范围/损失转为方法，图不代表实际覆盖完成。

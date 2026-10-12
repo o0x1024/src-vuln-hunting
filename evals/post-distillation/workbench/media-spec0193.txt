@@ -1,0 +1,74 @@
+0|no_technical_content||Docker registry下载3363images的P1 Unresolved报告标题，无manifest/layer请求或响应，评级不证明匿名读取。
+1|no_technical_content||BUGBOUNTY ARGENTINA活动图案，无技术内容。
+2|no_technical_content||XXE文章封面与截断简介，无解析器或实体实证。
+3|distilled|references/discovery/client-and-cloud.md|curl_easy_duphandle复制easy handle时当前工作目录none文件可注入cookie；图给本地两个终端监听与cookie文件步骤，缺PoC源码/执行结果。核对cookie初始化路径、CWD文件可写与复制触发；无文件/不可写/正常handle为对照，不推任意远程注入。
+4|distilled|references/discovery/client-and-cloud.md|SOCKS5状态机堆溢出条件：socks5h远端解析、协商缓冲<约65k、hello回复延迟、最终主机名超过缓冲；>255应转本地解析却状态丢失。follow Location只是候选控制入口；版本/状态/边界比较，崩溃不等RCE。
+5|no_technical_content||PayPal遮盖收款回执，无Swagger源汇链。
+6|no_technical_content||仅/login.php用户密码登录页，无泄密凭据或Adminer链。
+7|no_technical_content||Medium Pending €0审核摘要，无setup响应内容。
+8|distilled|references/by-type/desktop-client.md|Brave Ethereum wallet renderer JSEthereumProvider::Install创建gin handle转V8对象再Proxy；图至Proxy起始截断，UAF报告声明无释放/后续使用PoC。审生命周期owner/render_frame与JS可达性，以释放后访问sanitizer为证；Critical不代替完整触发。
+9|distilled|references/by-type/document-rendering.md|文档窗口显示/etc/passwd样式文本，无渲染输入/版本/身份，需与同帖-NOSAFER终端区分。只文件文本不足判CVE或RCE。
+10|distilled|references/by-type/document-rendering.md|gs -dNOSAFER显式关安全后PostScript file/readstring读取/etc/passwd并显示文本，属于允许读取示例，不能证明默认SAFER绕过或36664/43115命令执行。对比默认安全、只读测试文件、进程权限与实际操作。
+11|no_technical_content||文件上传文章封面，无验证或利用。
+12|no_technical_content||CORS LogoURL文章封面，没Origin/credentials/跨源读取。
+13|distilled|references/impact-and-acceptance.md|Nord厂商摘要指出WordPress营销站stored XSS局限一个server且上传文件不传播其他WordPress节点；无注入PoC。影响要限定同源/实例/传播拓扑，其他节点对照，Medium/CVE不证明整个VPN受影响。
+14|distilled|references/by-type/info-secrets.md|window OLAPIC/TIBCO API地址key/client_secret与ADIDAS/REEBOK recaptcha sitekey字段多遮盖，js客户端可见。公开sitekey不是secret；正文curl连接失败不证授权。核对用途、scope/server授信，脱敏证明最低权限无需使用保存凭据。
+15|distilled|references/by-type/xss.md|DOM图产品未找到段落+h1 String/p，证HTML结构插入候选无JS弹窗；追实际输入到HTMLsink、固定上下文对比，Elements可编辑截图不是来源证明。
+16|distilled|references/by-type/xss.md,references/by-type/waf-bypass.md|产品未找到p中img src=x on0x=1 onerror=alert(document.cookie)已形成DOM事件属性，未保存弹窗/网络对照；on0x只是额外属性，不是执行事件。云WAF声明需请求403/过检及实际sink执行各自证据。
+17|no_technical_content||HackerOne个人signal/impact/reputation排名，无机制。
+18|no_technical_content||H1过去一年排名统计。
+19|distilled|references/by-type/authn-session.md|Firefox Relay重组HTML邮件改From至@relay.firefox.com使DKIM/ARC签名失效，relay域/IP信誉影响投递；报告称多DMARC策略测试成功，无完整原始header与投递日志。自有邮箱比较直发/转发、Authentication-Results、显示发件人/原始身份，不推所有DMARC被绕过或发信为授权。
+20|distilled|references/by-type/smart-contract.md|Solidity教学TestContract owner=msg.sender而public transferFunds无owner校验；只校to非零/amount>0/balance>=amount。balance未声明/to非payable/版本缺失，原样不保证编译。补齐语义后自有部署比较owner/非owner调用及余额变化；不能当上线资金已被盗。
+21|distilled|references/by-type/xss.md|TVA smpwservices.fcc USERNAME含展示为\u003c等img/onerror/confirm(document.domain)，SMAUTHREASON=7；H1显示转义序列不等服务器解码，附件仅链接。逐层确认URL传输/输出/HTML解析/执行，自有标记不外推盗cookie/RCE。
+22|distilled|references/by-type/subdomain-takeover.md|Mozilla摘要danglingDNS被研究者注册后在子域托管内容，未见具体provider/DNS解析/claim响应。需域→资源引用→可认领→目标host唯一标记证据，同名不可注册对照；不推整个mozaws.net可接管。
+23|no_technical_content||奖励/评级更新且金额遮盖，无目录fuzz响应。
+24|distilled|references/by-type/info-secrets.md|Django开发Debug报告给/app/tmp/healthcheck.json及/fxa-rp-events，描述Redis/Postgres地址用户内网IP，配置可见ADMIN_ENABLED True其余截断；开关不等管理员授权或数据库连接成功。比匿名/授权/普通错误响应、实际敏感值/脱敏与非公开程度；不据Low推自动RCE。
+25|no_technical_content||Django Debug Mode Escalation封面无步骤。
+26|no_technical_content||OTP文章封面无实际token/状态。
+27|no_technical_content||8本黑客书名，无章节技术内容。
+28|distilled|references/discovery/client-and-cloud.md,references/by-type/lfi-path-traversal.md|Node node:fs路径支持string和Uint8Array；Buffer继承Uint8Array，修string与Buffer未覆盖非Buffer Uint8Array，图限定Node20实验permission model CVE39332。同一路径三类型、allow/deny及修复版对照；须应用允许构造该类型，非通用HTTP遍历。
+29|distilled|references/discovery/client-and-cloud.md,references/by-type/lfi-path-traversal.md|Node30584修复205f1e6后内置utility可被应用自定义覆盖，permission路径防护仍绕过39331；图未给覆盖具体函数/PoC。先证不可信代码/对象能改utility再文件访问，固定内置对照；实验模型非整个OS权限绕过。
+30|distilled|references/discovery/client-and-cloud.md|Node policy against trustedmanifest integrity调用可被应用拦截返回伪造checksum，18.x20.x实验policy 38552；图无具体hook。比较原始/修改资源在未hook/hook下校验失败/通过及实际loadedbytes；应用内拦截权限先证，非hash碰撞或远程漏洞。
+31|distilled|references/by-type/business-logic.md|Khan Class Settings renameStudentListMutation POST name前端50字符报告称可存108k；服务器未验证长度导致持久化大内容。图无完整响应/崩溃；自有对象50/51低上界比较保存/回读及渲染行为，越长不当然DoS/XSS/他人越权。
+32|no_technical_content||Oracle修复感谢与CPU credit通知，无漏洞机制。
+33|no_technical_content||Apple待复测确认通知无触发/补丁差异。
+34|no_technical_content||Apple确认修复与署名通知，无PoC。
+35|distilled|references/by-type/info-secrets.md|/.env.example页面显示ENV=Dev、DB_USER/PASS/HOST/NAME与Stripe/接口字段，多值遮盖；example可混入真实配置，但不是文件名本身证明可用生产凭据。核对字节/环境/空占位/权限，不登录保存凭据。
+36|distilled|references/by-type/info-secrets.md|env.example独立字节再现Dev及DB/API字段遮盖，核对示例占位与真实秘密用途，不能以Critical标题推已接库。
+37|no_technical_content||leaked database info via .env.example Critical报告标题无凭据有效性证据。
+38|distilled|references/by-type/xss.md|手机Safari自定义alert可见、URL遮盖，无payload/输入源/执行来源。只有弹窗不区分反射存储DOM或同源注入；需原始请求→sink→另一会话标记对照，不将手机本身视绕过。
+39|distilled|references/discovery/records-and-incremental.md|Burp TLS Pass Through启用多个host正则，说明直接透传TLS无解密请求进intercept/history；正文google噪音排除需核对正则转义、匹配范围，过滤后盲区非零请求。保留授权域请求基线，别遗漏SSO/CDN/API依赖。
+40|no_technical_content||7MFA bypass封面无七种步骤。
+41|no_technical_content||图是updatedIDOR millions姓名用户名P4标题，正文说127.0.0.1完全不同机制；不能绑定该图当IP绕过证据。
+42|no_technical_content||工具名称iceberg等级含大量产品名，无工作机制/验证。
+43|no_technical_content||与g69类似但不同SHA的IDOR标题P4，非IP变化证明。
+44|distilled|references/by-type/csrf.md,references/by-type/xss.md|ImpressCMS1.4.2 PHP7.2.24 Firefox85，admin.php POST memberslist_id/memberslist_uname[]未过滤且无CSRF token允许授权用户访问恶页发请求；图仅表单起始history.pushState不等全PoC。分开证cookie/SameSite/Origin/令牌、用户控制输出HTML执行；匿名/缺cookie/有token/编码对照。
+45|no_technical_content||3个docker-compose.yml High报告标题无YAML内容。
+46|distilled|references/by-type/info-secrets.md|WordPress配置截图DB_NAME USER PASSWORD HOST及AUTH/SECURE_AUTH/LOGGED_IN/NONCE keys/salts遮盖；备份后缀可能静态返回PHP源码。需原文件/备份同身份响应和正文对照；200不等源码/凭据有效，泄露session签名材料不等已伪造会话。
+47|distilled|references/by-type/xss.md|Beeceptor/profile application/json截图name含<h1>test</h1>浏览器显示JSON字面文本，无HTML解析/执行；正确JSON类型是负例非JSON XSS。API JSON→客户端innerHTML另一个sink需独证；ACAO*无凭据读秘密证明。
+48|distilled|references/by-type/desktop-client.md,references/source-audit.md|Chrome扩展静态审计方法：同步美化代码版本、onMessage/onConnect/onRequest/onMessageExternal到background、storage.local/sync、externally_connectable/content_scripts可控origin、postMessage发送者与executeScript/document.write/innerHTML/location/open sink及web_accessible_resources。只关键词/CodeQL/存在资源不证XSS/CSP绕过，需sender校验/权限/完整流对照。
+49|distilled|references/by-type/desktop-client.md|Drive Launcher external matches宽google且含http，runtime.connect到com.google.drive.nativeproxy native_opener/v2/3 base64共享file/email，桌面同步文件开启且未标MOTW报告称VBS执行；须不安全origin能调用、Drive已安装同步、native opener实际动作。修为docs/drive https限制入口，all_urls扩展不同前提；没有本地执行回执，不推任意web RCE。
+50|distilled|references/by-type/desktop-client.md,references/by-type/info-secrets.md|Perfetto受信扩展允许storage.googleapis.com可由任意bucket页面托管、runtime消息启动读trace；iframe复制frontend JS启动15s记录，脱敏不完美可能URL/header授权值泄露。验证origin可控/扩展installed/消息身份/类别/回传机密，本页仅步骤和GetCategories代码起始，非live证；localhost或合法origin对照。
+51|distilled|references/by-type/idor-access-control.md|认证bypass图把/api/6798556007/users改/api//users或反斜杠称200，还列.json/空?/尾斜杠/v2/&拼接/X-Original-URL。删除对象ID可能换路由，状态≠权限；同身份实际protectedobject内容与边缘/后端规范化对照，&在path非query参数。
+52|distilled|references/by-type/idor-access-control.md|IDOR清单ID在URL/header/body、HPP、旧API、.json/verbs/Referer、GUID与numeric/email、403也副作用、导出/通知盲IDOR。修正hash≠加密不可当然decrypt，星号/50-100爆量仅假设；A/B自有对象小量确认所有权与回读，多表示一致解析，对失败响应也核状态。
+53|distilled|references/by-type/waf-bypass.md|Cloudflare keyword details/ontoggle被blocked负例；WAF拒绝不证XSS路径无漏洞，对比原始单变量变体请求原字节/输出与执行，不能以同帖后续DOM图声称所有过滤已绕过。
+54|distilled|references/by-type/xss.md,references/by-type/waf-bypass.md|keyword URL details%0Aopen%0AonToGgle…Unicode标识符+HTML字符引用表达式，站点confirm xss可见；与-02blocked是两个状态而非完整传输字节记录。逐层URL解码→HTML事件属性→JS词法，confirm别名执行需上下文；实体/Unicode/url不是任意互换，不外推所有WAF。
+55|distilled|references/reporting.md,references/by-type/ai-application.md|curl2199174 N/A报告用Bard回答声称未公开curl_easy_setopt整数溢出/补丁并标题Critical；本批SOCKS状态机证据不同。LLM输出无commit/源码/实验验证不得当泄密，评级字段非接受状态；比较独立保存代码证据，不执行凭空PoC。g108同SHA也绑定。
+56|distilled|references/by-type/info-secrets.md|独立WordPress配置图DB keys与auth keys/salts被遮盖，对照backup静态source vs原PHP执行/403、占位/真实环境，未经凭据使用，不将下载自动等接库/session控制。
+57|distilled|references/by-type/business-logic.md|Nextcloud低权限自建calendar邀请邮箱无字符限制，报告称长email拖慢server/DoS45150；图只第一步创建calendar无长度/延迟曲线。限制边界内比较解析/队列/发送前状态、延迟与恢复，不能生产压测或据输入长认全站DoS。
+58|distilled|references/cloud/cloud-misconfiguration.md|S3 URL浏览器XML Contents包含key lastmodified etag size owner/storageclass，证列举响应而非对象读取/写入或敏感数据；static/media可故意公开，size0非秘密。先归属/范围和匿名身份，再分别list/get/write权限，最小对象证据不整桶下载。
+59|no_technical_content||ServiceNow建筑照片非数据暴露证。
+60|distilled|references/by-type/info-secrets.md|nuclei servicenow-widget-misconfig.yaml运行图对/api/now/sp/widget/widget-simple-list?t=kb_knowledge&f=text三目标输出[500]/unknown。匹配500不证明返回表记录或敏感内容，模板外链源码未保存；核匿名/授权/公开知识表与最小响应实际字段，--fast-check阳性人工确认。
+61|distilled|references/by-type/websocket.md|浏览器WebSocket open/isTrusted true/readyState1仅建立连接，isTrusted是浏览器事件来源不是peer可信或授权；无消息payload/跨源Origin/受害cookie。CSWSH需恶源带受害session能读写消息，XSS另证消息到HTMLsink；open不等applicationwideXSS/CSRF。
+62|distilled|references/by-type/idor-access-control.md|低权用户cookieRole两位整数00/01/11，改变11报告称admin登录。11未证二进制权限算法；需服务器实际admin功能数据和前后role判定、signedcookie tamperfail/session对照，不只UI角色标签。
+63|distilled|references/by-type/cors.md|client.amplifi.com /api/user CookieGET+Origin https://aaaa.ubnt.com.evil.com，响应ACAO同值ACACtrue JSON个人资料，后缀子串校验候选。Repeater可任意Origin且手工Cookie不同浏览器凭据流程；浏览器攻击origin fetch credentialsinclude实际读自有资料、SameSite/HTTPS/preflight对照，不以200推任意域都可。
+64|distilled|references/by-type/authn-session.md,references/by-type/idor-access-control.md|passwordreset/codetype/3请求带Code、Email被改、Password/ConfirmPassword以及RequestVerificationToken。正文称改受害email密码，截图无response/新登录；CSRF token不是resetcode绑定。自有A code保持只改B email，验证B新旧密码/一次性/过期与A token绑定，避免把请求当ATO已复现。
+65|distilled|references/scope-and-rules.md|Databricks5域新增eligible true历史scope通知。保留日期/新增项/奖励区别，不能当当前授权；执行前项目最新规则/排除/账户限制另核，不扩大*.databricks.com。
+66|no_technical_content||Bugcrowd Rewards $4700/即将支付$200，与git方法不同无技术证明。
+67|no_technical_content||Burp2021 newscan空URL配置窗，无Clickjacking到RCE链。
+68|no_technical_content||Polycom公司directory openredirect厂商摘要/状态无参数/Location/落地。
+69|distilled|references/discovery/passive-and-services.md|portchecker80 open外部探测例，实际输入80而下拉FTP21，端口号不证协议身份/漏洞；第三方观测点NAT/firewall与本地不同。保留探测时间来源scope和服务握手最小证据，不能把第三方网站当被动安全/授权替代。
+70|no_technical_content||BOLA/BFLA封面无对象/功能访问对照。
+71|distilled|references/by-type/idor-access-control.md,references/by-type/authn-session.md|HPP教学query id=18&id=20在parser取首尾/逗号/list，JSON双email在createOTP/sendOTP分歧，victim身份生成但attacker地址发送。不同组件实际重复键语义非所有框架；A/B自有邮箱单值/顺序交换比token身份/收件地址，无需求发真实邮件；RFC404画法不当绝无规范主张。
+72|distilled|references/by-type/xss.md|LinkedIn LeadGen Company/ProductName允许strong em a仅HTTPS ul ol sub br sup，先保存名字→ContactSales表单；报告摘要叫XSS但明确JavaScript不可能且script不允许。属于受限HTML/链接注入/界面欺骗，要另一用户看到与点击影响；不推脚本/ATO。
+73|no_technical_content||奖励swag需地址及将禁外网的感谢邮件，无XSS机制。

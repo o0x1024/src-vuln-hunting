@@ -1,0 +1,106 @@
+1|excluded|strategy,source|Findomain抽奖/转发/订阅社交正文没有研究机制，不转发或购买。
+2|new_knowledge|passive,records|FwPolicy2规则action0仅规则视图，不是当前所有被阻端口；补Enabled/profile/方向/协议/地址/有效策略条件，不执行系统COM查询。
+3|excluded|source|Charlotte fully undetected shellcode launcher题名不提供完整实现或检测保证，图片另审不执行。
+4|corrected|lfi,secret,web|URL尾加编码串→backend遍历/键泄露为候选，需每层解码/最终对象/真实键语义；无确切字段字节/结果，不宣称always成功。
+5|excluded|source|Java/JavaScript与Car/Carpet语言文字笑话，无漏洞方法。
+6|excluded|source|Java/JavaScript与ham/hamster文字笑话，无漏洞方法。
+7|merged|xss,waf|混合大小写autofocus/onfocus Cookie prompt与0096相同方法，按真正元素/事件/CSP而非Cloudflare通用绕过处理。
+8|excluded|xss,waf,source|WAF爱上payload宣传没有正文载荷，五点图片另按实际字节/消费者提炼。
+9|excluded|sql,source|OWASP Top10 Injection文章题名没有完整十项/机制，不当当前完整标准已读。
+10|excluded|xss,source|Apple XSS2021文章题名未提供请求/上下文，未读全文。
+11|excluded|records,source|Linux私有GitHub定时备份三步题名，没有完整内容，不创建备份/定时或远端写入。
+12|excluded|source|CyberTalents BronzeASM题名，无完整挑战解法。
+13|excluded|source|RustTHM题名，无完整房间/源码。
+14|excluded|xss,source|PwnFunction挑战入口和转载时间不是解法，未访问/运行挑战。
+15|excluded|strategy,source|Mastering skills文章题名，未读完整文章。
+16|excluded|source|USBsamurai工具文章题名，无完整硬件/实现链，不执行或接设备。
+17|excluded|secret,source|All information disclosure文章题名，无完整分类/机制。
+18|excluded|sql,source|WP Statistics13.0.7 SQLi漏洞链接/版本标签，无完整请求/CVE/补丁链，不运行PoC。
+19|excluded|auth,source,impact|WhatsApp homograph NotApplicable题名没有规范化/账号键/受众，标签不补风险。
+20|excluded|source|malware lab五步题名，无完整步骤，不安装执行恶意样本。
+21|excluded|strategy,source|Mastering文章转发尾文，图片为模糊开发屏幕，无全文方法。
+22|excluded|strategy,source|同一Mastering文章另一转载尾文，不当新方法或全文已读。
+23|new_knowledge|access,auth|NoRedirect猜后台URL声称认证绕过，补浏览器阻跳与后端受保护能力分开；图后台shell/Save不补终态，不安装旧扩展。
+24|excluded|strategy,source|询问Burp梦想课程内容的社交正文，不提供课程方法。
+25|excluded|sql,source|SQLFluff linter/formatter题名与logo，不等于SQL注入扫描器或完整实现。
+26|excluded|source|让知识流动泛用致谢无具体内容。
+27|excluded|takeover,auth,oauth,source|UberSSO子域接管外链题名，未读完整历史登录链，不接管子域。
+28|excluded|web,source|客户端JS静态分析外链题名，无完整方法文章。
+29|new_knowledge|xss,waf,source|mistyped scrpt/confrm被应用修正候选，图示重新组成script；补pspell候选数组→应用选词拼接→输出编码→浏览器消费者，非所有PHP自动漏洞。
+30|corrected|sql,fuzz,records|所有参数/头加引号盲载荷再比长度为泛化建议，需有限字段矩阵/查询消费/异常基线；图SQLSTATE不补真实SQL执行控制。
+31|excluded|web,source|shcheck安全头工具链接无完整实现，终端图独立按具体头值/最终URL审阅。
+32|excluded|source|excited first look正文无机制；书封面不等于读过全书。
+33|excluded|host,source,report|Host injection800文章题名/封面，无完整请求/邮件/缓存链。
+34|excluded|strategy,source|向别人求助十条thread开头，未提供完整十条。
+35|excluded|xxe,source,impact|strong P1提问没有正文机制，XML图独立提炼，不能由提问确认当前P1。
+36|excluded|source|AMSITrigger恶意字符串工具题名，无实现/绕过证据，不执行。
+37|excluded|xss,source|QuickXSS2.0 release宣传无完整引擎或实际扫描结果，不运行。
+38|excluded|strategy,impact,source|阿英双语H1十大影响/奖励题名，图是2020排序，不代表当前风险/验证优先级。
+39|excluded|csrf,source,report|Cyfe承认CSRF文章入口，邮件只是修复和无奖金声明，没有CSRF请求/终态。
+40|merged|passive,scope,records|asnip手动ASN选项补输入形状，与0096ASN前缀/当前归属授权条目合并，不主动查ASN。
+41|excluded|source,report|Microsoft名人堂致谢无机制，图2021列表非hacked证明。
+42|new_knowledge|experiment,access,auth|AuthMatrix多请求chain用途正文+图具体会话/token/OTP提取替换，补来源主体/代际/失败停止/200正则不等于业务成功。
+43|new_knowledge|android,source|非rootFridaGadget注入APK/res更新是改造观察制品，补哈希签名/ABI/加载点与原版攻击身份分开，不注入安装。
+44|excluded|web,source|shcheck重复介绍，repo卡片不补代码或实际头安全结果。
+45|merged|passive,scope|asnip手动选项转发尾文，与40输入及0096前缀归属合并；另repo图非完整实现。
+46|excluded|web,source|API Security checklist宣传尾文无正文完整矩阵，图片类型/ContentType独立读。
+47|excluded|passive,secret,source|GoogleDork题名和相同替代文字无正文查询，图五条另审、不实际搜目标秘密。
+48|corrected|strategy,records,report|一小时提交三报告和更多枚举更多bug不是因果/成功率保证；记录来源窗口/去重/实际已确认分母，图报告列表不补三漏洞独立根因。
+49|excluded|passive,source|MurmurHashfavicon找phishing工具题名，无完整实现；图同hash候选不证明品牌归属或恶意。
+50|excluded|web,source|API checklist错误重复status链接题名，不修成已读完整清单。
+51|corrected|strategy,report,source|duplicate痛苦宣言/always看源代码不补实际根因；图P1UnresolvedDuplicate为不同状态，不能否定方法价值或证明新独立漏洞。
+52|merged|auth,source|JSON email数组两收件地址重置候选，已明确不保证成功；合并账号选择/邮件收件选择/单次恢复绑定，未发邮件或消费token。
+53|excluded|auth,source|Facebooktoken营销100%折扣宣传无漏洞机制，不购买生成token/登录账号。
+54|new_knowledge|fuzz,records,scope|without killing host脚本正文URL脚本路径错误与图400threads/recursion10/延迟/filter500，补聚合负载、预算、失败保留与输出归属，不运行下载。
+55|excluded|cloud,source|CloudPentestCheatsheets链接题名，未读完整云清单或操作资源。
+56|excluded|passive,strategy,source|recon视频宣传没有完整方法，未观看视频。
+57|corrected|access,auth|Admin删除请求换User会话声称成功，需同一对象/tenant/真正后端主体与权威删除终态；图UI无权不定义后端政策，不删除真实资源。
+58|excluded|passive,source|recon入门视频宣传未提供完整内容。
+59|new_knowledge|records,web,passive|bashrc快捷函数图片实际Markdown URL/累积文件/第四列解析，补命令显示与参数契约、窗口与失败，不写bashrc或执行函数。
+60|excluded|web,source|询问JS枚举技巧的社交正文，无具体方法。
+61|excluded|android,source|CiLocks锁屏工具题名，图菜单含猜码/root/ResetData及notallOS，但无实现/真实终态，不操作设备。
+62|excluded|auth,source|MFA security bypass全文章题名，没有全文流程。
+63|excluded|strategy,source|视频truth致谢无具体方法，未观看完整视频。
+64|excluded|logic,web,source|主站API意外功能文章题名，没有完整输入/消费者/效果链。
+65|merged|access,auth,web|users路径403与.json200候选，合并表示后缀/最终字段受众/真实身份条目，状态本身不证明同资源或越权。
+66|excluded|sql,source|SQL fuzz pastebin清单入口，无完整载荷/查询场景，不请求或执行。
+67|excluded|source|WindowsHTTP/WinRM wormable新闻题名无当前版本/补丁/消费者，未读全文或主动测试。
+68|excluded|passive,source|AwesomeAssetDiscovery集合题名，无完整资源库内容。
+69|excluded|source,report|Envato感谢/名人堂图，无漏洞机制。
+70|excluded|source|WindowsHTTP/WinRM新闻重复转载尾文，无完整技术。
+71|excluded|sql,source|2017困难SQLi/sqlmap文章题名，无完整tamper/参数/注入路径，不运行。
+72|excluded|expert,source|GoogleDrive全部方法文档入口，无全文；裁剪导图单独按可见分支提炼，不说读完Drive。
+73|excluded|sql,source,report|SQLi奖励社交正文和200EURPayPal图，未给实际查询/根因。
+74|corrected|strategy,scope,source|可选多个奖金平台建议不构成当前收入/政策/授权，各项目规则独立，未注册或推荐当前价格。
+75|excluded|auth,source|ATOpasswordreset文章题名，未读全文/恢复链。
+76|excluded|strategy,scope,source|平台建议另一转载尾文，logo无完整项目范围/政策。
+77|corrected|records,client,scope|全系统代理Burp与scope不保证所有协议被捕获/无出站，工具设置和目标授权/日志可见分开，不改系统代理或CA。
+78|excluded|cmd,waf,source|OScommand WAF Slideshare題名，未读完整幻灯或求值载荷。
+79|excluded|android,ios,source|Corellium免费试用推荐与Squareprofilepicture替代文字，没有技术链/当前价格，未开启服务。
+80|excluded|waf,source|unkeyedinputcachepoisoning文章题名，无键/消费者/共享受众链。
+81|corrected|access,auth,secret|邀请用户编辑ID换另一用户并改email与PII候选，需对象tenant/委派权限/持久邮箱/验证与恢复能力，email更新不自动ATO；不编辑真人。
+82|merged|experiment,sql,xss,ssti|同payload三类型题名，另一hash图与0096polyglot独立消费者判据合并，不重复确认。
+83|excluded|source,secret|Solr-GRAB窃取查询工具题名，logo不补认证/权限/真实查询，不运行。
+84|corrected|passive,scope,source|responsible disclosure按eu/nl搜的字串非所有目标授权，检索候选需当前项目政策，未搜索或测试平台。
+85|excluded|host,source,report|privateHostHeaderInjection奖金标签与收款图无完整请求/下游consumer链。
+86|excluded|passive,source|puredns赞誉和版本banner无解析/过滤实现，未运行DNS或爆破。
+87|excluded|xss,source|Moodle mostly教育站点易XSS文章题名，无版本/上下文/有效事件，未读全文。
+88|excluded|logic,source|Clubhouse40kfollowers文章题名，没有完整业务状态/效果，未读全文。
+89|new_knowledge|graphql,csrf,experiment|GraphQL表单POST/GETmutation/XS-Search正文，原Doyensec技术全文另核读；补格式转换、实际Cookie/CSRF策略、resolver副作用与独立旁路信号，不查询真人记录。
+90|excluded|source|PhpCodeAnalysis工具题名，终端图命中17独立按静态source→sink判据提炼，不执行未知scanner或确认17漏洞。
+91|excluded|report,source|VDP不满主观正文不提供漏洞链，图实际Triaged/Retesting/Resolved与400/401反馈不补根因或所有VDP规则。
+92|excluded|source,report|Google首个奖金致谢，邮件500奖励/供应商流程无漏洞机制，不提交付款资料或消息。
+93|new_knowledge|secret,source|编辑期间.swp可读声明+Vim/目录/curl图，补生成→Web映射→二进制恢复/时点，12288字节零散PHP非完整源码，不下载恢复执行。
+94|excluded|xss,source|XSSpayloadrepo入口，未读完整载荷库/上下文。
+95|excluded|oauth,source|OAuth威胁模型cheatsheet题名，未读完整清单或重放token。
+96|excluded|source|NoSQLMap枚举/利用工具题名，无完整实现/查询合同，不运行。
+97|excluded|source|Jenkins exploit集合题名与封面，无完整版本/端点/权限链。
+98|new_knowledge|auth,oauth,scope|主站token跨所有子域建议，补合法SSO与Cookie携带/令牌受众/服务权限分开，有限已知消费者不扩全域。
+99|excluded|strategy,report,source|critical也别期待奖金主观宣言，不提供机制/当前兑现规则。
+100|excluded|source|NoSQLMap转发尾文repo卡片，无完整代码/实际结果。
+101|excluded|xss,source|Intigriti挑战入口时间/转载题名，无解法，不访问挑战。
+102|excluded|container,source|容器扫描绕过文章题名，无完整层/制品/扫描器链。
+103|excluded|auth,source|第四个重置ATO文章题名，没有完整恢复token/收件/认证链。
+104|excluded|source|XORcipher制作文章题名无完整算法/实现或漏洞场景。
+105|corrected|cloud,records,source|5GB/50hCloudShell旧recon建议按官方当前配额和明确禁止networkscanning校正，容量与动作许可/会话持久性分开，不创建云资源。
+106|excluded|web,source|请求hiddenadmin建议社交正文，无具体方法。

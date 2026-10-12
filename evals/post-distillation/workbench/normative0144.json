@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://fetch.spec.whatwg.org/#cors-protocol-and-credentials",
+    "reference": "turn432view1",
+    "lines": "1800-1811,1876-1885",
+    "read_scope": "CORS response sharing and include origin/ACAC requirements"
+  },
+  {
+    "url": "https://www.microsoft.com/en-us/security/blog/2022/09/30/analyzing-attacks-using-the-exchange-vulnerabilities-cve-2022-41040-and-cve-2022-41082/",
+    "reference": "turn431view0",
+    "lines": "35-36",
+    "read_scope": "Authenticated prerequisite and SSRF/PowerShell RCE distinction, actually read this goal turn in0143"
+  }
+]

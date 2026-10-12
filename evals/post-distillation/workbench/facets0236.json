@@ -1,0 +1,2617 @@
+[
+  [
+    "by-type/xss.md",
+    "保存正文0236：历史URL与参数反射不是脚本执行（xss）",
+    "Wayback/httpx/Gxss或Arjun/gf只产生入口/参数候选，字符串解析grep/cut依赖输出格式，sort/anew会丢上下文或混入旧结果。保留方法/原参数/主体/版本和原始失败，逐项追踪输入→解码→HTML/JS sink→事件/CSP→真实浏览器；100线程/2秒timeout非授权预算，tool match/历史网址不证明当前可达或XSS，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1838581660209627317)、[保存帖2](https://x.com/i/status/1839968595226320974)、[保存帖3](https://x.com/i/status/1839984984204923073)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "保存正文0236：历史URL与参数反射不是脚本执行（client）",
+    "Wayback/httpx/Gxss或Arjun/gf只产生入口/参数候选，字符串解析grep/cut依赖输出格式，sort/anew会丢上下文或混入旧结果。保留方法/原参数/主体/版本和原始失败，逐项追踪输入→解码→HTML/JS sink→事件/CSP→真实浏览器；100线程/2秒timeout非授权预算，tool match/历史网址不证明当前可达或XSS，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1838581660209627317)、[保存帖2](https://x.com/i/status/1839968595226320974)、[保存帖3](https://x.com/i/status/1839984984204923073)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存正文0236：历史URL与参数反射不是脚本执行（fuzz）",
+    "Wayback/httpx/Gxss或Arjun/gf只产生入口/参数候选，字符串解析grep/cut依赖输出格式，sort/anew会丢上下文或混入旧结果。保留方法/原参数/主体/版本和原始失败，逐项追踪输入→解码→HTML/JS sink→事件/CSP→真实浏览器；100线程/2秒timeout非授权预算，tool match/历史网址不证明当前可达或XSS，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1838581660209627317)、[保存帖2](https://x.com/i/status/1839968595226320974)、[保存帖3](https://x.com/i/status/1839984984204923073)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存正文0236：历史URL与参数反射不是脚本执行（web）",
+    "Wayback/httpx/Gxss或Arjun/gf只产生入口/参数候选，字符串解析grep/cut依赖输出格式，sort/anew会丢上下文或混入旧结果。保留方法/原参数/主体/版本和原始失败，逐项追踪输入→解码→HTML/JS sink→事件/CSP→真实浏览器；100线程/2秒timeout非授权预算，tool match/历史网址不证明当前可达或XSS，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1838581660209627317)、[保存帖2](https://x.com/i/status/1839968595226320974)、[保存帖3](https://x.com/i/status/1839984984204923073)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存正文0236：历史URL与参数反射不是脚本执行（records）",
+    "Wayback/httpx/Gxss或Arjun/gf只产生入口/参数候选，字符串解析grep/cut依赖输出格式，sort/anew会丢上下文或混入旧结果。保留方法/原参数/主体/版本和原始失败，逐项追踪输入→解码→HTML/JS sink→事件/CSP→真实浏览器；100线程/2秒timeout非授权预算，tool match/历史网址不证明当前可达或XSS，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1838581660209627317)、[保存帖2](https://x.com/i/status/1839968595226320974)、[保存帖3](https://x.com/i/status/1839984984204923073)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存正文0236：历史URL与参数反射不是脚本执行（scope）",
+    "Wayback/httpx/Gxss或Arjun/gf只产生入口/参数候选，字符串解析grep/cut依赖输出格式，sort/anew会丢上下文或混入旧结果。保留方法/原参数/主体/版本和原始失败，逐项追踪输入→解码→HTML/JS sink→事件/CSP→真实浏览器；100线程/2秒timeout非授权预算，tool match/历史网址不证明当前可达或XSS，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1838581660209627317)、[保存帖2](https://x.com/i/status/1839968595226320974)、[保存帖3](https://x.com/i/status/1839984984204923073)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：历史URL与参数反射不是脚本执行（experiment）",
+    "Wayback/httpx/Gxss或Arjun/gf只产生入口/参数候选，字符串解析grep/cut依赖输出格式，sort/anew会丢上下文或混入旧结果。保留方法/原参数/主体/版本和原始失败，逐项追踪输入→解码→HTML/JS sink→事件/CSP→真实浏览器；100线程/2秒timeout非授权预算，tool match/历史网址不证明当前可达或XSS，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1838581660209627317)、[保存帖2](https://x.com/i/status/1839968595226320974)、[保存帖3](https://x.com/i/status/1839984984204923073)。"
+  ],
+  [
+    "by-type/business-logic.md",
+    "保存正文0236：两个邮箱更新必须证明真实并发及最终状态（logic）",
+    "正文只给两个newEmail，不给时序、身份或token；既有图是两线程示例，submit并不保证server重叠。以自有虚拟状态机明确账户/地址/挑战用途/版本和事务，比较顺序执行、屏障重叠、最终邮箱和token消费；不同邮箱本身不是竞态ATO，不能推Basic占位头有效，未更新账户或发邮件。\n\n来源：[保存帖1](https://x.com/i/status/1838766751338955069)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存正文0236：两个邮箱更新必须证明真实并发及最终状态（auth）",
+    "正文只给两个newEmail，不给时序、身份或token；既有图是两线程示例，submit并不保证server重叠。以自有虚拟状态机明确账户/地址/挑战用途/版本和事务，比较顺序执行、屏障重叠、最终邮箱和token消费；不同邮箱本身不是竞态ATO，不能推Basic占位头有效，未更新账户或发邮件。\n\n来源：[保存帖1](https://x.com/i/status/1838766751338955069)。"
+  ],
+  [
+    "by-type/oauth-oidc.md",
+    "保存正文0236：两个邮箱更新必须证明真实并发及最终状态（oauth）",
+    "正文只给两个newEmail，不给时序、身份或token；既有图是两线程示例，submit并不保证server重叠。以自有虚拟状态机明确账户/地址/挑战用途/版本和事务，比较顺序执行、屏障重叠、最终邮箱和token消费；不同邮箱本身不是竞态ATO，不能推Basic占位头有效，未更新账户或发邮件。\n\n来源：[保存帖1](https://x.com/i/status/1838766751338955069)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：两个邮箱更新必须证明真实并发及最终状态（source）",
+    "正文只给两个newEmail，不给时序、身份或token；既有图是两线程示例，submit并不保证server重叠。以自有虚拟状态机明确账户/地址/挑战用途/版本和事务，比较顺序执行、屏障重叠、最终邮箱和token消费；不同邮箱本身不是竞态ATO，不能推Basic占位头有效，未更新账户或发邮件。\n\n来源：[保存帖1](https://x.com/i/status/1838766751338955069)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：两个邮箱更新必须证明真实并发及最终状态（experiment）",
+    "正文只给两个newEmail，不给时序、身份或token；既有图是两线程示例，submit并不保证server重叠。以自有虚拟状态机明确账户/地址/挑战用途/版本和事务，比较顺序执行、屏障重叠、最终邮箱和token消费；不同邮箱本身不是竞态ATO，不能推Basic占位头有效，未更新账户或发邮件。\n\n来源：[保存帖1](https://x.com/i/status/1838766751338955069)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存正文0236：Swagger发现要区分文档与真实API权限（web）",
+    "正文问/api/swagger.json能做什么，未给内容。将规范作为端点/方法/schema/认证声明候选，固定版本并核真实server路由/权限；公开文档并非泄露敏感数据，也不授权调用有副作用方法。先使用自有角色与最小正常/受限对象比较，不批量调API或根据奖励确认漏洞。\n\n来源：[保存帖1](https://x.com/i/status/1838808139908489255)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存正文0236：Swagger发现要区分文档与真实API权限（access）",
+    "正文问/api/swagger.json能做什么，未给内容。将规范作为端点/方法/schema/认证声明候选，固定版本并核真实server路由/权限；公开文档并非泄露敏感数据，也不授权调用有副作用方法。先使用自有角色与最小正常/受限对象比较，不批量调API或根据奖励确认漏洞。\n\n来源：[保存帖1](https://x.com/i/status/1838808139908489255)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "保存正文0236：Swagger发现要区分文档与真实API权限（secret）",
+    "正文问/api/swagger.json能做什么，未给内容。将规范作为端点/方法/schema/认证声明候选，固定版本并核真实server路由/权限；公开文档并非泄露敏感数据，也不授权调用有副作用方法。先使用自有角色与最小正常/受限对象比较，不批量调API或根据奖励确认漏洞。\n\n来源：[保存帖1](https://x.com/i/status/1838808139908489255)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：Swagger发现要区分文档与真实API权限（source）",
+    "正文问/api/swagger.json能做什么，未给内容。将规范作为端点/方法/schema/认证声明候选，固定版本并核真实server路由/权限；公开文档并非泄露敏感数据，也不授权调用有副作用方法。先使用自有角色与最小正常/受限对象比较，不批量调API或根据奖励确认漏洞。\n\n来源：[保存帖1](https://x.com/i/status/1838808139908489255)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：Swagger发现要区分文档与真实API权限（experiment）",
+    "正文问/api/swagger.json能做什么，未给内容。将规范作为端点/方法/schema/认证声明候选，固定版本并核真实server路由/权限；公开文档并非泄露敏感数据，也不授权调用有副作用方法。先使用自有角色与最小正常/受限对象比较，不批量调API或根据奖励确认漏洞。\n\n来源：[保存帖1](https://x.com/i/status/1838808139908489255)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存正文0236：UUID经WebSocket可得仍需对象授权（access）",
+    "正文称UUID容易从WebSocket泄露后IDOR，图片仅奖励。区分消息订阅ACL、identifier可见范围与后续对象操作权限，ID随机性不能替代serverACL。用自有角色/不同对象最小标记核各consumer及撤权，看到UUID不自动私密/接管，不订阅他人消息或遍历。\n\n来源：[保存帖1](https://x.com/i/status/1838831553843257608)。"
+  ],
+  [
+    "by-type/websocket.md",
+    "保存正文0236：UUID经WebSocket可得仍需对象授权（ws）",
+    "正文称UUID容易从WebSocket泄露后IDOR，图片仅奖励。区分消息订阅ACL、identifier可见范围与后续对象操作权限，ID随机性不能替代serverACL。用自有角色/不同对象最小标记核各consumer及撤权，看到UUID不自动私密/接管，不订阅他人消息或遍历。\n\n来源：[保存帖1](https://x.com/i/status/1838831553843257608)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "保存正文0236：UUID经WebSocket可得仍需对象授权（secret）",
+    "正文称UUID容易从WebSocket泄露后IDOR，图片仅奖励。区分消息订阅ACL、identifier可见范围与后续对象操作权限，ID随机性不能替代serverACL。用自有角色/不同对象最小标记核各consumer及撤权，看到UUID不自动私密/接管，不订阅他人消息或遍历。\n\n来源：[保存帖1](https://x.com/i/status/1838831553843257608)。"
+  ],
+  [
+    "business-modeling.md",
+    "保存正文0236：UUID经WebSocket可得仍需对象授权（business）",
+    "正文称UUID容易从WebSocket泄露后IDOR，图片仅奖励。区分消息订阅ACL、identifier可见范围与后续对象操作权限，ID随机性不能替代serverACL。用自有角色/不同对象最小标记核各consumer及撤权，看到UUID不自动私密/接管，不订阅他人消息或遍历。\n\n来源：[保存帖1](https://x.com/i/status/1838831553843257608)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：UUID经WebSocket可得仍需对象授权（experiment）",
+    "正文称UUID容易从WebSocket泄露后IDOR，图片仅奖励。区分消息订阅ACL、identifier可见范围与后续对象操作权限，ID随机性不能替代serverACL。用自有角色/不同对象最小标记核各consumer及撤权，看到UUID不自动私密/接管，不订阅他人消息或遍历。\n\n来源：[保存帖1](https://x.com/i/status/1838831553843257608)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存正文0236：Keycloak产品检索不等SAML漏洞验证（passive）",
+    "保存HUNTER/FOFA产品查询和CVE题名只生成部署候选，登录页是OIDC而非SAML证据。实际SAML消费须核构建/配置、可信IdP、被验签节点与被消费subject/role、唯一ID/时效/用途，不能由产品指纹或登录页确认签名绕过，未搜索、下载断言或登录。\n\n来源：[保存帖1](https://x.com/i/status/1838889981151998462)。"
+  ],
+  [
+    "by-type/saml-sso.md",
+    "保存正文0236：Keycloak产品检索不等SAML漏洞验证（saml）",
+    "保存HUNTER/FOFA产品查询和CVE题名只生成部署候选，登录页是OIDC而非SAML证据。实际SAML消费须核构建/配置、可信IdP、被验签节点与被消费subject/role、唯一ID/时效/用途，不能由产品指纹或登录页确认签名绕过，未搜索、下载断言或登录。\n\n来源：[保存帖1](https://x.com/i/status/1838889981151998462)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存正文0236：Keycloak产品检索不等SAML漏洞验证（auth）",
+    "保存HUNTER/FOFA产品查询和CVE题名只生成部署候选，登录页是OIDC而非SAML证据。实际SAML消费须核构建/配置、可信IdP、被验签节点与被消费subject/role、唯一ID/时效/用途，不能由产品指纹或登录页确认签名绕过，未搜索、下载断言或登录。\n\n来源：[保存帖1](https://x.com/i/status/1838889981151998462)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：Keycloak产品检索不等SAML漏洞验证（source）",
+    "保存HUNTER/FOFA产品查询和CVE题名只生成部署候选，登录页是OIDC而非SAML证据。实际SAML消费须核构建/配置、可信IdP、被验签节点与被消费subject/role、唯一ID/时效/用途，不能由产品指纹或登录页确认签名绕过，未搜索、下载断言或登录。\n\n来源：[保存帖1](https://x.com/i/status/1838889981151998462)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存正文0236：Keycloak产品检索不等SAML漏洞验证（scope）",
+    "保存HUNTER/FOFA产品查询和CVE题名只生成部署候选，登录页是OIDC而非SAML证据。实际SAML消费须核构建/配置、可信IdP、被验签节点与被消费subject/role、唯一ID/时效/用途，不能由产品指纹或登录页确认签名绕过，未搜索、下载断言或登录。\n\n来源：[保存帖1](https://x.com/i/status/1838889981151998462)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：Keycloak产品检索不等SAML漏洞验证（experiment）",
+    "保存HUNTER/FOFA产品查询和CVE题名只生成部署候选，登录页是OIDC而非SAML证据。实际SAML消费须核构建/配置、可信IdP、被验签节点与被消费subject/role、唯一ID/时效/用途，不能由产品指纹或登录页确认签名绕过，未搜索、下载断言或登录。\n\n来源：[保存帖1](https://x.com/i/status/1838889981151998462)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "保存正文0236：phpinfo字段要按用途和最小证据区分（secret）",
+    "正文建议PHPVariables/Environment。公开诊断可给配置/版本候选，变量包含用户名/公开标识/环境值并非全部秘密；保留访问主体、来源时间、敏感字段用途/当前版本及最小脱敏样本，实际权限另核，未读外部页面或使用密钥。\n\n来源：[保存帖1](https://x.com/i/status/1838895347554238774)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存正文0236：phpinfo字段要按用途和最小证据区分（web）",
+    "正文建议PHPVariables/Environment。公开诊断可给配置/版本候选，变量包含用户名/公开标识/环境值并非全部秘密；保留访问主体、来源时间、敏感字段用途/当前版本及最小脱敏样本，实际权限另核，未读外部页面或使用密钥。\n\n来源：[保存帖1](https://x.com/i/status/1838895347554238774)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：phpinfo字段要按用途和最小证据区分（source）",
+    "正文建议PHPVariables/Environment。公开诊断可给配置/版本候选，变量包含用户名/公开标识/环境值并非全部秘密；保留访问主体、来源时间、敏感字段用途/当前版本及最小脱敏样本，实际权限另核，未读外部页面或使用密钥。\n\n来源：[保存帖1](https://x.com/i/status/1838895347554238774)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存正文0236：phpinfo字段要按用途和最小证据区分（records）",
+    "正文建议PHPVariables/Environment。公开诊断可给配置/版本候选，变量包含用户名/公开标识/环境值并非全部秘密；保留访问主体、来源时间、敏感字段用途/当前版本及最小脱敏样本，实际权限另核，未读外部页面或使用密钥。\n\n来源：[保存帖1](https://x.com/i/status/1838895347554238774)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：phpinfo字段要按用途和最小证据区分（experiment）",
+    "正文建议PHPVariables/Environment。公开诊断可给配置/版本候选，变量包含用户名/公开标识/环境值并非全部秘密；保留访问主体、来源时间、敏感字段用途/当前版本及最小脱敏样本，实际权限另核，未读外部页面或使用密钥。\n\n来源：[保存帖1](https://x.com/i/status/1838895347554238774)。"
+  ],
+  [
+    "by-type/subdomain-takeover.md",
+    "保存正文0236：dangling服务指纹与可绑定控制分开验证（takeover）",
+    "保存Subfinder/Nuclei WordPress/Weebly示例及服务未注册的定义。有效链需要当前DNS→provider资源名→可认领/域名绑定条件→授权可证明控制，缺站页/High不是成功，未注册不等名字可用。保留CNAME链/时间/版本/原响应和正常provider反例，-code本地执行另有副作用，签名不保证安全，未扫描/注册或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)、[保存帖2](https://x.com/i/status/1839455071270052133)、[保存帖3](https://x.com/i/status/1839535531073658949)、[保存帖4](https://x.com/i/status/1839264005371867483)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存正文0236：dangling服务指纹与可绑定控制分开验证（passive）",
+    "保存Subfinder/Nuclei WordPress/Weebly示例及服务未注册的定义。有效链需要当前DNS→provider资源名→可认领/域名绑定条件→授权可证明控制，缺站页/High不是成功，未注册不等名字可用。保留CNAME链/时间/版本/原响应和正常provider反例，-code本地执行另有副作用，签名不保证安全，未扫描/注册或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)、[保存帖2](https://x.com/i/status/1839455071270052133)、[保存帖3](https://x.com/i/status/1839535531073658949)、[保存帖4](https://x.com/i/status/1839264005371867483)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存正文0236：dangling服务指纹与可绑定控制分开验证（web）",
+    "保存Subfinder/Nuclei WordPress/Weebly示例及服务未注册的定义。有效链需要当前DNS→provider资源名→可认领/域名绑定条件→授权可证明控制，缺站页/High不是成功，未注册不等名字可用。保留CNAME链/时间/版本/原响应和正常provider反例，-code本地执行另有副作用，签名不保证安全，未扫描/注册或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)、[保存帖2](https://x.com/i/status/1839455071270052133)、[保存帖3](https://x.com/i/status/1839535531073658949)、[保存帖4](https://x.com/i/status/1839264005371867483)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存正文0236：dangling服务指纹与可绑定控制分开验证（fuzz）",
+    "保存Subfinder/Nuclei WordPress/Weebly示例及服务未注册的定义。有效链需要当前DNS→provider资源名→可认领/域名绑定条件→授权可证明控制，缺站页/High不是成功，未注册不等名字可用。保留CNAME链/时间/版本/原响应和正常provider反例，-code本地执行另有副作用，签名不保证安全，未扫描/注册或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)、[保存帖2](https://x.com/i/status/1839455071270052133)、[保存帖3](https://x.com/i/status/1839535531073658949)、[保存帖4](https://x.com/i/status/1839264005371867483)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：dangling服务指纹与可绑定控制分开验证（source）",
+    "保存Subfinder/Nuclei WordPress/Weebly示例及服务未注册的定义。有效链需要当前DNS→provider资源名→可认领/域名绑定条件→授权可证明控制，缺站页/High不是成功，未注册不等名字可用。保留CNAME链/时间/版本/原响应和正常provider反例，-code本地执行另有副作用，签名不保证安全，未扫描/注册或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)、[保存帖2](https://x.com/i/status/1839455071270052133)、[保存帖3](https://x.com/i/status/1839535531073658949)、[保存帖4](https://x.com/i/status/1839264005371867483)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存正文0236：dangling服务指纹与可绑定控制分开验证（scope）",
+    "保存Subfinder/Nuclei WordPress/Weebly示例及服务未注册的定义。有效链需要当前DNS→provider资源名→可认领/域名绑定条件→授权可证明控制，缺站页/High不是成功，未注册不等名字可用。保留CNAME链/时间/版本/原响应和正常provider反例，-code本地执行另有副作用，签名不保证安全，未扫描/注册或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)、[保存帖2](https://x.com/i/status/1839455071270052133)、[保存帖3](https://x.com/i/status/1839535531073658949)、[保存帖4](https://x.com/i/status/1839264005371867483)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：dangling服务指纹与可绑定控制分开验证（experiment）",
+    "保存Subfinder/Nuclei WordPress/Weebly示例及服务未注册的定义。有效链需要当前DNS→provider资源名→可认领/域名绑定条件→授权可证明控制，缺站页/High不是成功，未注册不等名字可用。保留CNAME链/时间/版本/原响应和正常provider反例，-code本地执行另有副作用，签名不保证安全，未扫描/注册或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)、[保存帖2](https://x.com/i/status/1839455071270052133)、[保存帖3](https://x.com/i/status/1839535531073658949)、[保存帖4](https://x.com/i/status/1839264005371867483)。"
+  ],
+  [
+    "by-type/ai-application.md",
+    "保存正文0236：STRIDE模型输出是可验证假设（ai）",
+    "正文介绍STRIDE GPT，界面含描述/图/身份方式/敏感数据等输入。显式记录系统边界、数据流、主体、依赖及假设，再将威胁/攻击树/mitigation转为最小受控比较；生成条目/评分不是实际发现，缺输入不补造完整模型，不传TopSecret架构、仓库或APIkey。\n\n来源：[保存帖1](https://x.com/i/status/1839215963280994808)。"
+  ],
+  [
+    "business-modeling.md",
+    "保存正文0236：STRIDE模型输出是可验证假设（business）",
+    "正文介绍STRIDE GPT，界面含描述/图/身份方式/敏感数据等输入。显式记录系统边界、数据流、主体、依赖及假设，再将威胁/攻击树/mitigation转为最小受控比较；生成条目/评分不是实际发现，缺输入不补造完整模型，不传TopSecret架构、仓库或APIkey。\n\n来源：[保存帖1](https://x.com/i/status/1839215963280994808)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：STRIDE模型输出是可验证假设（source）",
+    "正文介绍STRIDE GPT，界面含描述/图/身份方式/敏感数据等输入。显式记录系统边界、数据流、主体、依赖及假设，再将威胁/攻击树/mitigation转为最小受控比较；生成条目/评分不是实际发现，缺输入不补造完整模型，不传TopSecret架构、仓库或APIkey。\n\n来源：[保存帖1](https://x.com/i/status/1839215963280994808)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：STRIDE模型输出是可验证假设（experiment）",
+    "正文介绍STRIDE GPT，界面含描述/图/身份方式/敏感数据等输入。显式记录系统边界、数据流、主体、依赖及假设，再将威胁/攻击树/mitigation转为最小受控比较；生成条目/评分不是实际发现，缺输入不补造完整模型，不传TopSecret架构、仓库或APIkey。\n\n来源：[保存帖1](https://x.com/i/status/1839215963280994808)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存正文0236：STRIDE模型输出是可验证假设（scope）",
+    "正文介绍STRIDE GPT，界面含描述/图/身份方式/敏感数据等输入。显式记录系统边界、数据流、主体、依赖及假设，再将威胁/攻击树/mitigation转为最小受控比较；生成条目/评分不是实际发现，缺输入不补造完整模型，不传TopSecret架构、仓库或APIkey。\n\n来源：[保存帖1](https://x.com/i/status/1839215963280994808)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存正文0236：第三方目标列表不代表全部扫描授权（fuzz）",
+    "wget目标域经httpx/gospider输出glob再Nuclei全部模板的管道可能混旧文件、外域和有副作用请求，爬取失败/格式不统一会漏。保留列表来源/版本、权威资产类型/排除规则、输入阶段/原响应/退出，限定模板和预算；公开程序集合非任意批量扫描许可，不下载或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839255474014679509)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存正文0236：第三方目标列表不代表全部扫描授权（web）",
+    "wget目标域经httpx/gospider输出glob再Nuclei全部模板的管道可能混旧文件、外域和有副作用请求，爬取失败/格式不统一会漏。保留列表来源/版本、权威资产类型/排除规则、输入阶段/原响应/退出，限定模板和预算；公开程序集合非任意批量扫描许可，不下载或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839255474014679509)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存正文0236：第三方目标列表不代表全部扫描授权（records）",
+    "wget目标域经httpx/gospider输出glob再Nuclei全部模板的管道可能混旧文件、外域和有副作用请求，爬取失败/格式不统一会漏。保留列表来源/版本、权威资产类型/排除规则、输入阶段/原响应/退出，限定模板和预算；公开程序集合非任意批量扫描许可，不下载或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839255474014679509)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存正文0236：第三方目标列表不代表全部扫描授权（scope）",
+    "wget目标域经httpx/gospider输出glob再Nuclei全部模板的管道可能混旧文件、外域和有副作用请求，爬取失败/格式不统一会漏。保留列表来源/版本、权威资产类型/排除规则、输入阶段/原响应/退出，限定模板和预算；公开程序集合非任意批量扫描许可，不下载或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839255474014679509)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：第三方目标列表不代表全部扫描授权（experiment）",
+    "wget目标域经httpx/gospider输出glob再Nuclei全部模板的管道可能混旧文件、外域和有副作用请求，爬取失败/格式不统一会漏。保留列表来源/版本、权威资产类型/排除规则、输入阶段/原响应/退出，限定模板和预算；公开程序集合非任意批量扫描许可，不下载或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839255474014679509)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存正文0236：目标语言字典要关联业务和版本（fuzz）",
+    "正文说德语目标用APIs/人名/存储/backup词。语言/栈/正常路径提示可改善候选，字典长度不等有效覆盖；固定词源、扩展/深度/状态/内容和失败，目录list/备份名称不证明可读秘密，未下载字典或备份。\n\n来源：[保存帖1](https://x.com/i/status/1839310340338888762)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "保存正文0236：目标语言字典要关联业务和版本（secret）",
+    "正文说德语目标用APIs/人名/存储/backup词。语言/栈/正常路径提示可改善候选，字典长度不等有效覆盖；固定词源、扩展/深度/状态/内容和失败，目录list/备份名称不证明可读秘密，未下载字典或备份。\n\n来源：[保存帖1](https://x.com/i/status/1839310340338888762)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存正文0236：目标语言字典要关联业务和版本（web）",
+    "正文说德语目标用APIs/人名/存储/backup词。语言/栈/正常路径提示可改善候选，字典长度不等有效覆盖；固定词源、扩展/深度/状态/内容和失败，目录list/备份名称不证明可读秘密，未下载字典或备份。\n\n来源：[保存帖1](https://x.com/i/status/1839310340338888762)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存正文0236：目标语言字典要关联业务和版本（records）",
+    "正文说德语目标用APIs/人名/存储/backup词。语言/栈/正常路径提示可改善候选，字典长度不等有效覆盖；固定词源、扩展/深度/状态/内容和失败，目录list/备份名称不证明可读秘密，未下载字典或备份。\n\n来源：[保存帖1](https://x.com/i/status/1839310340338888762)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存正文0236：目标语言字典要关联业务和版本（scope）",
+    "正文说德语目标用APIs/人名/存储/backup词。语言/栈/正常路径提示可改善候选，字典长度不等有效覆盖；固定词源、扩展/深度/状态/内容和失败，目录list/备份名称不证明可读秘密，未下载字典或备份。\n\n来源：[保存帖1](https://x.com/i/status/1839310340338888762)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：目标语言字典要关联业务和版本（experiment）",
+    "正文说德语目标用APIs/人名/存储/backup词。语言/栈/正常路径提示可改善候选，字典长度不等有效覆盖；固定词源、扩展/深度/状态/内容和失败，目录list/备份名称不证明可读秘密，未下载字典或备份。\n\n来源：[保存帖1](https://x.com/i/status/1839310340338888762)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存正文0236：反射模板需转为各consumer的独立证据（fuzz）",
+    "正文把reflection命中列为potential XSS/SSRF/cache/redirect/OAuth。文字/header影响只给起点；脚本sink/执行、server fetch、cachekey/独立HIT、Location和code/state/token绑定是不同链。保存模板版本/警告、逐头唯一标记/请求身份与正常反例，工具Low/无结果不能判全部漏洞存在或安全，不外带或运行。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)、[保存帖2](https://x.com/i/status/1839629091026371003)、[保存帖3](https://x.com/i/status/1839655657307578492)、[保存帖4](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存正文0236：反射模板需转为各consumer的独立证据（xss）",
+    "正文把reflection命中列为potential XSS/SSRF/cache/redirect/OAuth。文字/header影响只给起点；脚本sink/执行、server fetch、cachekey/独立HIT、Location和code/state/token绑定是不同链。保存模板版本/警告、逐头唯一标记/请求身份与正常反例，工具Low/无结果不能判全部漏洞存在或安全，不外带或运行。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)、[保存帖2](https://x.com/i/status/1839629091026371003)、[保存帖3](https://x.com/i/status/1839655657307578492)、[保存帖4](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "by-type/ssrf.md",
+    "保存正文0236：反射模板需转为各consumer的独立证据（ssrf）",
+    "正文把reflection命中列为potential XSS/SSRF/cache/redirect/OAuth。文字/header影响只给起点；脚本sink/执行、server fetch、cachekey/独立HIT、Location和code/state/token绑定是不同链。保存模板版本/警告、逐头唯一标记/请求身份与正常反例，工具Low/无结果不能判全部漏洞存在或安全，不外带或运行。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)、[保存帖2](https://x.com/i/status/1839629091026371003)、[保存帖3](https://x.com/i/status/1839655657307578492)、[保存帖4](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "by-type/cache-deception.md",
+    "保存正文0236：反射模板需转为各consumer的独立证据（cache）",
+    "正文把reflection命中列为potential XSS/SSRF/cache/redirect/OAuth。文字/header影响只给起点；脚本sink/执行、server fetch、cachekey/独立HIT、Location和code/state/token绑定是不同链。保存模板版本/警告、逐头唯一标记/请求身份与正常反例，工具Low/无结果不能判全部漏洞存在或安全，不外带或运行。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)、[保存帖2](https://x.com/i/status/1839629091026371003)、[保存帖3](https://x.com/i/status/1839655657307578492)、[保存帖4](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "by-type/open-redirect.md",
+    "保存正文0236：反射模板需转为各consumer的独立证据（redirect）",
+    "正文把reflection命中列为potential XSS/SSRF/cache/redirect/OAuth。文字/header影响只给起点；脚本sink/执行、server fetch、cachekey/独立HIT、Location和code/state/token绑定是不同链。保存模板版本/警告、逐头唯一标记/请求身份与正常反例，工具Low/无结果不能判全部漏洞存在或安全，不外带或运行。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)、[保存帖2](https://x.com/i/status/1839629091026371003)、[保存帖3](https://x.com/i/status/1839655657307578492)、[保存帖4](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "by-type/oauth-oidc.md",
+    "保存正文0236：反射模板需转为各consumer的独立证据（oauth）",
+    "正文把reflection命中列为potential XSS/SSRF/cache/redirect/OAuth。文字/header影响只给起点；脚本sink/执行、server fetch、cachekey/独立HIT、Location和code/state/token绑定是不同链。保存模板版本/警告、逐头唯一标记/请求身份与正常反例，工具Low/无结果不能判全部漏洞存在或安全，不外带或运行。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)、[保存帖2](https://x.com/i/status/1839629091026371003)、[保存帖3](https://x.com/i/status/1839655657307578492)、[保存帖4](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "by-type/host-header.md",
+    "保存正文0236：反射模板需转为各consumer的独立证据（host）",
+    "正文把reflection命中列为potential XSS/SSRF/cache/redirect/OAuth。文字/header影响只给起点；脚本sink/执行、server fetch、cachekey/独立HIT、Location和code/state/token绑定是不同链。保存模板版本/警告、逐头唯一标记/请求身份与正常反例，工具Low/无结果不能判全部漏洞存在或安全，不外带或运行。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)、[保存帖2](https://x.com/i/status/1839629091026371003)、[保存帖3](https://x.com/i/status/1839655657307578492)、[保存帖4](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：反射模板需转为各consumer的独立证据（experiment）",
+    "正文把reflection命中列为potential XSS/SSRF/cache/redirect/OAuth。文字/header影响只给起点；脚本sink/执行、server fetch、cachekey/独立HIT、Location和code/state/token绑定是不同链。保存模板版本/警告、逐头唯一标记/请求身份与正常反例，工具Low/无结果不能判全部漏洞存在或安全，不外带或运行。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)、[保存帖2](https://x.com/i/status/1839629091026371003)、[保存帖3](https://x.com/i/status/1839655657307578492)、[保存帖4](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存正文0236：邀请接受应绑定指定主体和状态（access）",
+    "正文称A邀请B但A可自接受。记录邀请者/接收者稳定ID、租户/角色、token用途/时效/单次状态，接受前核authenticated principal及预期资源变更；产品允许自确认的不同流程是反例，按钮/200/奖邮件不证明错误成员关系，未发邀请或操作账户。\n\n来源：[保存帖1](https://x.com/i/status/1839454908652949707)。"
+  ],
+  [
+    "by-type/business-logic.md",
+    "保存正文0236：邀请接受应绑定指定主体和状态（logic）",
+    "正文称A邀请B但A可自接受。记录邀请者/接收者稳定ID、租户/角色、token用途/时效/单次状态，接受前核authenticated principal及预期资源变更；产品允许自确认的不同流程是反例，按钮/200/奖邮件不证明错误成员关系，未发邀请或操作账户。\n\n来源：[保存帖1](https://x.com/i/status/1839454908652949707)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存正文0236：邀请接受应绑定指定主体和状态（auth）",
+    "正文称A邀请B但A可自接受。记录邀请者/接收者稳定ID、租户/角色、token用途/时效/单次状态，接受前核authenticated principal及预期资源变更；产品允许自确认的不同流程是反例，按钮/200/奖邮件不证明错误成员关系，未发邀请或操作账户。\n\n来源：[保存帖1](https://x.com/i/status/1839454908652949707)。"
+  ],
+  [
+    "business-modeling.md",
+    "保存正文0236：邀请接受应绑定指定主体和状态（business）",
+    "正文称A邀请B但A可自接受。记录邀请者/接收者稳定ID、租户/角色、token用途/时效/单次状态，接受前核authenticated principal及预期资源变更；产品允许自确认的不同流程是反例，按钮/200/奖邮件不证明错误成员关系，未发邀请或操作账户。\n\n来源：[保存帖1](https://x.com/i/status/1839454908652949707)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：邀请接受应绑定指定主体和状态（experiment）",
+    "正文称A邀请B但A可自接受。记录邀请者/接收者稳定ID、租户/角色、token用途/时效/单次状态，接受前核authenticated principal及预期资源变更；产品允许自确认的不同流程是反例，按钮/200/奖邮件不证明错误成员关系，未发邀请或操作账户。\n\n来源：[保存帖1](https://x.com/i/status/1839454908652949707)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存正文0236：Referer及客户端响应改动不可靠代表ACL（access）",
+    "正文称referrer BAC+response manipulation，没有真实网络。服务端操作须独立principal/role/object，不以Referer、客户端状态码或本地成功UI作权限；用自有主体受限动作与原始server响应/实际资源状态对照，奖卡不支持完整链，未请求。\n\n来源：[保存帖1](https://x.com/i/status/1839585480020492795)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存正文0236：Referer及客户端响应改动不可靠代表ACL（auth）",
+    "正文称referrer BAC+response manipulation，没有真实网络。服务端操作须独立principal/role/object，不以Referer、客户端状态码或本地成功UI作权限；用自有主体受限动作与原始server响应/实际资源状态对照，奖卡不支持完整链，未请求。\n\n来源：[保存帖1](https://x.com/i/status/1839585480020492795)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存正文0236：Referer及客户端响应改动不可靠代表ACL（web）",
+    "正文称referrer BAC+response manipulation，没有真实网络。服务端操作须独立principal/role/object，不以Referer、客户端状态码或本地成功UI作权限；用自有主体受限动作与原始server响应/实际资源状态对照，奖卡不支持完整链，未请求。\n\n来源：[保存帖1](https://x.com/i/status/1839585480020492795)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：Referer及客户端响应改动不可靠代表ACL（source）",
+    "正文称referrer BAC+response manipulation，没有真实网络。服务端操作须独立principal/role/object，不以Referer、客户端状态码或本地成功UI作权限；用自有主体受限动作与原始server响应/实际资源状态对照，奖卡不支持完整链，未请求。\n\n来源：[保存帖1](https://x.com/i/status/1839585480020492795)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：Referer及客户端响应改动不可靠代表ACL（experiment）",
+    "正文称referrer BAC+response manipulation，没有真实网络。服务端操作须独立principal/role/object，不以Referer、客户端状态码或本地成功UI作权限；用自有主体受限动作与原始server响应/实际资源状态对照，奖卡不支持完整链，未请求。\n\n来源：[保存帖1](https://x.com/i/status/1839585480020492795)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存正文0236：Google多层及连字符查询是历史候选（passive）",
+    "site通配/点层/连字符查询不是DNS规范匹配，也不保证所有子域。保留原query、来源时间、精确host/归属与索引限制，navigation或相似域不混资产，不执行搜索。\n\n来源：[保存帖1](https://x.com/i/status/1839619219412922817)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存正文0236：Google多层及连字符查询是历史候选（web）",
+    "site通配/点层/连字符查询不是DNS规范匹配，也不保证所有子域。保留原query、来源时间、精确host/归属与索引限制，navigation或相似域不混资产，不执行搜索。\n\n来源：[保存帖1](https://x.com/i/status/1839619219412922817)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存正文0236：Google多层及连字符查询是历史候选（records）",
+    "site通配/点层/连字符查询不是DNS规范匹配，也不保证所有子域。保留原query、来源时间、精确host/归属与索引限制，navigation或相似域不混资产，不执行搜索。\n\n来源：[保存帖1](https://x.com/i/status/1839619219412922817)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存正文0236：Google多层及连字符查询是历史候选（scope）",
+    "site通配/点层/连字符查询不是DNS规范匹配，也不保证所有子域。保留原query、来源时间、精确host/归属与索引限制，navigation或相似域不混资产，不执行搜索。\n\n来源：[保存帖1](https://x.com/i/status/1839619219412922817)。"
+  ],
+  [
+    "by-type/cache-deception.md",
+    "保存正文0236：短TTL仍需跨主体缓存键隔离（cache）",
+    "正文只称server缓存3/4秒后授权绕过，图奖励卡无key/请求。TTL短不免权限隔离，核填充身份、cachekey中的主体/租户/参数、Vary、HIT和独立低权请求的私密自有标记，再与超时/直源对照；相同长度/200或并发时间不单独确认，不读取他人数据或做压测。\n\n来源：[保存帖1](https://x.com/i/status/1839621096959889855)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存正文0236：短TTL仍需跨主体缓存键隔离（access）",
+    "正文只称server缓存3/4秒后授权绕过，图奖励卡无key/请求。TTL短不免权限隔离，核填充身份、cachekey中的主体/租户/参数、Vary、HIT和独立低权请求的私密自有标记，再与超时/直源对照；相同长度/200或并发时间不单独确认，不读取他人数据或做压测。\n\n来源：[保存帖1](https://x.com/i/status/1839621096959889855)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存正文0236：短TTL仍需跨主体缓存键隔离（auth）",
+    "正文只称server缓存3/4秒后授权绕过，图奖励卡无key/请求。TTL短不免权限隔离，核填充身份、cachekey中的主体/租户/参数、Vary、HIT和独立低权请求的私密自有标记，再与超时/直源对照；相同长度/200或并发时间不单独确认，不读取他人数据或做压测。\n\n来源：[保存帖1](https://x.com/i/status/1839621096959889855)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存正文0236：短TTL仍需跨主体缓存键隔离（web）",
+    "正文只称server缓存3/4秒后授权绕过，图奖励卡无key/请求。TTL短不免权限隔离，核填充身份、cachekey中的主体/租户/参数、Vary、HIT和独立低权请求的私密自有标记，再与超时/直源对照；相同长度/200或并发时间不单独确认，不读取他人数据或做压测。\n\n来源：[保存帖1](https://x.com/i/status/1839621096959889855)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存正文0236：短TTL仍需跨主体缓存键隔离（records）",
+    "正文只称server缓存3/4秒后授权绕过，图奖励卡无key/请求。TTL短不免权限隔离，核填充身份、cachekey中的主体/租户/参数、Vary、HIT和独立低权请求的私密自有标记，再与超时/直源对照；相同长度/200或并发时间不单独确认，不读取他人数据或做压测。\n\n来源：[保存帖1](https://x.com/i/status/1839621096959889855)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：短TTL仍需跨主体缓存键隔离（experiment）",
+    "正文只称server缓存3/4秒后授权绕过，图奖励卡无key/请求。TTL短不免权限隔离，核填充身份、cachekey中的主体/租户/参数、Vary、HIT和独立低权请求的私密自有标记，再与超时/直源对照；相同长度/200或并发时间不单独确认，不读取他人数据或做压测。\n\n来源：[保存帖1](https://x.com/i/status/1839621096959889855)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存正文0236：索引提醒只提供增量线索（passive）",
+    "GoogleAlerts+dork建议和图中site查询可标新增索引，索引时间不等资产创建或当前漏洞。保留query/时间/来源/已知版本并核归属，alert未触发不证明无新增；本次不创建提醒或外部自动化。\n\n来源：[保存帖1](https://x.com/i/status/1840179194413604910)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存正文0236：索引提醒只提供增量线索（records）",
+    "GoogleAlerts+dork建议和图中site查询可标新增索引，索引时间不等资产创建或当前漏洞。保留query/时间/来源/已知版本并核归属，alert未触发不证明无新增；本次不创建提醒或外部自动化。\n\n来源：[保存帖1](https://x.com/i/status/1840179194413604910)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存正文0236：索引提醒只提供增量线索（scope）",
+    "GoogleAlerts+dork建议和图中site查询可标新增索引，索引时间不等资产创建或当前漏洞。保留query/时间/来源/已知版本并核归属，alert未触发不证明无新增；本次不创建提醒或外部自动化。\n\n来源：[保存帖1](https://x.com/i/status/1840179194413604910)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "保存正文0236：浏览器提取数据保留权限与字段用途（client）",
+    "LazyEgg描述提links/forms/JS/cookie/localStorage/IP/cred和实时日志。浏览器状态属于特定origin/当前主体，JS变量/localStorage文本不全是有效秘密；保留版本/来源/调用/最小脱敏证据，cookie HttpOnly或实际请求须独立，扩展可能读/发敏感数据，不安装、运行或使用token。\n\n来源：[保存帖1](https://x.com/i/status/1840250946015617435)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "保存正文0236：浏览器提取数据保留权限与字段用途（secret）",
+    "LazyEgg描述提links/forms/JS/cookie/localStorage/IP/cred和实时日志。浏览器状态属于特定origin/当前主体，JS变量/localStorage文本不全是有效秘密；保留版本/来源/调用/最小脱敏证据，cookie HttpOnly或实际请求须独立，扩展可能读/发敏感数据，不安装、运行或使用token。\n\n来源：[保存帖1](https://x.com/i/status/1840250946015617435)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：浏览器提取数据保留权限与字段用途（source）",
+    "LazyEgg描述提links/forms/JS/cookie/localStorage/IP/cred和实时日志。浏览器状态属于特定origin/当前主体，JS变量/localStorage文本不全是有效秘密；保留版本/来源/调用/最小脱敏证据，cookie HttpOnly或实际请求须独立，扩展可能读/发敏感数据，不安装、运行或使用token。\n\n来源：[保存帖1](https://x.com/i/status/1840250946015617435)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存正文0236：浏览器提取数据保留权限与字段用途（records）",
+    "LazyEgg描述提links/forms/JS/cookie/localStorage/IP/cred和实时日志。浏览器状态属于特定origin/当前主体，JS变量/localStorage文本不全是有效秘密；保留版本/来源/调用/最小脱敏证据，cookie HttpOnly或实际请求须独立，扩展可能读/发敏感数据，不安装、运行或使用token。\n\n来源：[保存帖1](https://x.com/i/status/1840250946015617435)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存正文0236：浏览器提取数据保留权限与字段用途（scope）",
+    "LazyEgg描述提links/forms/JS/cookie/localStorage/IP/cred和实时日志。浏览器状态属于特定origin/当前主体，JS变量/localStorage文本不全是有效秘密；保留版本/来源/调用/最小脱敏证据，cookie HttpOnly或实际请求须独立，扩展可能读/发敏感数据，不安装、运行或使用token。\n\n来源：[保存帖1](https://x.com/i/status/1840250946015617435)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存正文0236：代理轮换不替代按主体和动作限额（auth）",
+    "正文用代理网络突破IP限制，图只列代理和checker输出。IP只是一个限流维度，应按自有模型核账户/租户/动作/资源预算；多个地址可连不证明目标计数被绕过，也不授权突破项目速率。未知代理引入数据泄露和不可靠来源，-code本地执行需另审，本次不连接/部署代理或爆破。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存正文0236：代理轮换不替代按主体和动作限额（fuzz）",
+    "正文用代理网络突破IP限制，图只列代理和checker输出。IP只是一个限流维度，应按自有模型核账户/租户/动作/资源预算；多个地址可连不证明目标计数被绕过，也不授权突破项目速率。未知代理引入数据泄露和不可靠来源，-code本地执行需另审，本次不连接/部署代理或爆破。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存正文0236：代理轮换不替代按主体和动作限额（web）",
+    "正文用代理网络突破IP限制，图只列代理和checker输出。IP只是一个限流维度，应按自有模型核账户/租户/动作/资源预算；多个地址可连不证明目标计数被绕过，也不授权突破项目速率。未知代理引入数据泄露和不可靠来源，-code本地执行需另审，本次不连接/部署代理或爆破。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存正文0236：代理轮换不替代按主体和动作限额（scope）",
+    "正文用代理网络突破IP限制，图只列代理和checker输出。IP只是一个限流维度，应按自有模型核账户/租户/动作/资源预算；多个地址可连不证明目标计数被绕过，也不授权突破项目速率。未知代理引入数据泄露和不可靠来源，-code本地执行需另审，本次不连接/部署代理或爆破。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：代理轮换不替代按主体和动作限额（experiment）",
+    "正文用代理网络突破IP限制，图只列代理和checker输出。IP只是一个限流维度，应按自有模型核账户/租户/动作/资源预算；多个地址可连不证明目标计数被绕过，也不授权突破项目速率。未知代理引入数据泄露和不可靠来源，-code本地执行需另审，本次不连接/部署代理或爆破。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存正文0236：扩展参数需核实际CLI解析与路径消费（fuzz）",
+    "Feroxbuster例多个-x、逗号/空白扩展与127.1，没有结果。核版本实际参数集合、loopback解析/本地服务、字典/递归预算，目录发现不等目录listing/私有文件读取；扩展输入错误可漏覆盖，保存原结果/失败不混旧文件，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1840342708776546465)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存正文0236：扩展参数需核实际CLI解析与路径消费（web）",
+    "Feroxbuster例多个-x、逗号/空白扩展与127.1，没有结果。核版本实际参数集合、loopback解析/本地服务、字典/递归预算，目录发现不等目录listing/私有文件读取；扩展输入错误可漏覆盖，保存原结果/失败不混旧文件，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1840342708776546465)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存正文0236：扩展参数需核实际CLI解析与路径消费（records）",
+    "Feroxbuster例多个-x、逗号/空白扩展与127.1，没有结果。核版本实际参数集合、loopback解析/本地服务、字典/递归预算，目录发现不等目录listing/私有文件读取；扩展输入错误可漏覆盖，保存原结果/失败不混旧文件，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1840342708776546465)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存正文0236：扩展参数需核实际CLI解析与路径消费（scope）",
+    "Feroxbuster例多个-x、逗号/空白扩展与127.1，没有结果。核版本实际参数集合、loopback解析/本地服务、字典/递归预算，目录发现不等目录listing/私有文件读取；扩展输入错误可漏覆盖，保存原结果/失败不混旧文件，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1840342708776546465)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：扩展参数需核实际CLI解析与路径消费（experiment）",
+    "Feroxbuster例多个-x、逗号/空白扩展与127.1，没有结果。核版本实际参数集合、loopback解析/本地服务、字典/递归预算，目录发现不等目录listing/私有文件读取；扩展输入错误可漏覆盖，保存原结果/失败不混旧文件，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1840342708776546465)。"
+  ],
+  [
+    "by-type/ai-application.md",
+    "保存正文0236：模型建议后缀不等工具验证（ai）",
+    "ffufai按URL/header推后缀，图显示4候选/40线程无命中。头/页面可误导模型，先限定自有目标/候选/请求预算和完整失败证据，输出必须实际consumer验证；不把AI建议作scope或发模型秘密，不调用/执行。\n\n来源：[保存帖1](https://x.com/i/status/1840346708473188829)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存正文0236：模型建议后缀不等工具验证（fuzz）",
+    "ffufai按URL/header推后缀，图显示4候选/40线程无命中。头/页面可误导模型，先限定自有目标/候选/请求预算和完整失败证据，输出必须实际consumer验证；不把AI建议作scope或发模型秘密，不调用/执行。\n\n来源：[保存帖1](https://x.com/i/status/1840346708473188829)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：模型建议后缀不等工具验证（source）",
+    "ffufai按URL/header推后缀，图显示4候选/40线程无命中。头/页面可误导模型，先限定自有目标/候选/请求预算和完整失败证据，输出必须实际consumer验证；不把AI建议作scope或发模型秘密，不调用/执行。\n\n来源：[保存帖1](https://x.com/i/status/1840346708473188829)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存正文0236：模型建议后缀不等工具验证（scope）",
+    "ffufai按URL/header推后缀，图显示4候选/40线程无命中。头/页面可误导模型，先限定自有目标/候选/请求预算和完整失败证据，输出必须实际consumer验证；不把AI建议作scope或发模型秘密，不调用/执行。\n\n来源：[保存帖1](https://x.com/i/status/1840346708473188829)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：模型建议后缀不等工具验证（experiment）",
+    "ffufai按URL/header推后缀，图显示4候选/40线程无命中。头/页面可误导模型，先限定自有目标/候选/请求预算和完整失败证据，输出必须实际consumer验证；不把AI建议作scope或发模型秘密，不调用/执行。\n\n来源：[保存帖1](https://x.com/i/status/1840346708473188829)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存正文0236：混合编码事件载荷保留每一解析步骤（xss）",
+    "正文anchor/autofocus/实体/换行/import(href)只是候选，图片alert1缺完整响应。追踪百分号解码、HTML实体/空白、URL方案及事件触发/模块CSP，正确文本编码或无触发是反例；弹窗不证明跨主体/认证cookie，不打开外域或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840373532175577523)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "保存正文0236：混合编码事件载荷保留每一解析步骤（client）",
+    "正文anchor/autofocus/实体/换行/import(href)只是候选，图片alert1缺完整响应。追踪百分号解码、HTML实体/空白、URL方案及事件触发/模块CSP，正确文本编码或无触发是反例；弹窗不证明跨主体/认证cookie，不打开外域或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840373532175577523)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存正文0236：混合编码事件载荷保留每一解析步骤（web）",
+    "正文anchor/autofocus/实体/换行/import(href)只是候选，图片alert1缺完整响应。追踪百分号解码、HTML实体/空白、URL方案及事件触发/模块CSP，正确文本编码或无触发是反例；弹窗不证明跨主体/认证cookie，不打开外域或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840373532175577523)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：混合编码事件载荷保留每一解析步骤（source）",
+    "正文anchor/autofocus/实体/换行/import(href)只是候选，图片alert1缺完整响应。追踪百分号解码、HTML实体/空白、URL方案及事件触发/模块CSP，正确文本编码或无触发是反例；弹窗不证明跨主体/认证cookie，不打开外域或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840373532175577523)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：混合编码事件载荷保留每一解析步骤（experiment）",
+    "正文anchor/autofocus/实体/换行/import(href)只是候选，图片alert1缺完整响应。追踪百分号解码、HTML实体/空白、URL方案及事件触发/模块CSP，正确文本编码或无触发是反例；弹窗不证明跨主体/认证cookie，不打开外域或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840373532175577523)。"
+  ],
+  [
+    "by-type/websocket.md",
+    "保存正文0236：JS与日志要绑定同一RPC主体和consumer（ws）",
+    "正文称WAMP RPC演示ready但不含demo。记录JS调用点/realm/procedure和相关日志的主体、对象、参数与真实状态，以自有正常/受限角色单变量比较；字符串/日志时间/奖邮件不替代服务端授权回执，未补续篇或发送RPC。\n\n来源：[保存帖1](https://x.com/i/status/1840422445645467648)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存正文0236：JS与日志要绑定同一RPC主体和consumer（access）",
+    "正文称WAMP RPC演示ready但不含demo。记录JS调用点/realm/procedure和相关日志的主体、对象、参数与真实状态，以自有正常/受限角色单变量比较；字符串/日志时间/奖邮件不替代服务端授权回执，未补续篇或发送RPC。\n\n来源：[保存帖1](https://x.com/i/status/1840422445645467648)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：JS与日志要绑定同一RPC主体和consumer（source）",
+    "正文称WAMP RPC演示ready但不含demo。记录JS调用点/realm/procedure和相关日志的主体、对象、参数与真实状态，以自有正常/受限角色单变量比较；字符串/日志时间/奖邮件不替代服务端授权回执，未补续篇或发送RPC。\n\n来源：[保存帖1](https://x.com/i/status/1840422445645467648)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存正文0236：JS与日志要绑定同一RPC主体和consumer（records）",
+    "正文称WAMP RPC演示ready但不含demo。记录JS调用点/realm/procedure和相关日志的主体、对象、参数与真实状态，以自有正常/受限角色单变量比较；字符串/日志时间/奖邮件不替代服务端授权回执，未补续篇或发送RPC。\n\n来源：[保存帖1](https://x.com/i/status/1840422445645467648)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：JS与日志要绑定同一RPC主体和consumer（experiment）",
+    "正文称WAMP RPC演示ready但不含demo。记录JS调用点/realm/procedure和相关日志的主体、对象、参数与真实状态，以自有正常/受限角色单变量比较；字符串/日志时间/奖邮件不替代服务端授权回执，未补续篇或发送RPC。\n\n来源：[保存帖1](https://x.com/i/status/1840422445645467648)。"
+  ],
+  [
+    "by-type/open-redirect.md",
+    "保存正文0236：同形字符绕过滤须核规范化host（redirect）",
+    "正文Unicode混合名/。与图同形字符，显示相似不等URL解析结果。保留原码点→IDNA/点号/大小写规范化→allowlist→Location/browser最终host，黑名单替换不足权限，不因看似Google称一定外域，未访问注册。\n\n来源：[保存帖1](https://x.com/i/status/1840583239393804336)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存正文0236：同形字符绕过滤须核规范化host（auth）",
+    "正文Unicode混合名/。与图同形字符，显示相似不等URL解析结果。保留原码点→IDNA/点号/大小写规范化→allowlist→Location/browser最终host，黑名单替换不足权限，不因看似Google称一定外域，未访问注册。\n\n来源：[保存帖1](https://x.com/i/status/1840583239393804336)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：同形字符绕过滤须核规范化host（source）",
+    "正文Unicode混合名/。与图同形字符，显示相似不等URL解析结果。保留原码点→IDNA/点号/大小写规范化→allowlist→Location/browser最终host，黑名单替换不足权限，不因看似Google称一定外域，未访问注册。\n\n来源：[保存帖1](https://x.com/i/status/1840583239393804336)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：同形字符绕过滤须核规范化host（experiment）",
+    "正文Unicode混合名/。与图同形字符，显示相似不等URL解析结果。保留原码点→IDNA/点号/大小写规范化→allowlist→Location/browser最终host，黑名单替换不足权限，不因看似Google称一定外域，未访问注册。\n\n来源：[保存帖1](https://x.com/i/status/1840583239393804336)。"
+  ],
+  [
+    "by-type/file-upload.md",
+    "保存正文0236：上传重命名必须同样检查最终consumer（files）",
+    "正文GIF89;和HTML片段改.htm，但图只有Accepted。文字不是有效GIF结构证明，重命名应核最终MIME/Content-Disposition/存储origin、静态服务handler和浏览器角色/CSP；可改名不等脚本执行，使用无害标记比较原扩展/新扩展/下载隔离，不上传代码。\n\n来源：[保存帖1](https://x.com/i/status/1840729753566715955)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存正文0236：上传重命名必须同样检查最终consumer（xss）",
+    "正文GIF89;和HTML片段改.htm，但图只有Accepted。文字不是有效GIF结构证明，重命名应核最终MIME/Content-Disposition/存储origin、静态服务handler和浏览器角色/CSP；可改名不等脚本执行，使用无害标记比较原扩展/新扩展/下载隔离，不上传代码。\n\n来源：[保存帖1](https://x.com/i/status/1840729753566715955)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "保存正文0236：上传重命名必须同样检查最终consumer（client）",
+    "正文GIF89;和HTML片段改.htm，但图只有Accepted。文字不是有效GIF结构证明，重命名应核最终MIME/Content-Disposition/存储origin、静态服务handler和浏览器角色/CSP；可改名不等脚本执行，使用无害标记比较原扩展/新扩展/下载隔离，不上传代码。\n\n来源：[保存帖1](https://x.com/i/status/1840729753566715955)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存正文0236：上传重命名必须同样检查最终consumer（web）",
+    "正文GIF89;和HTML片段改.htm，但图只有Accepted。文字不是有效GIF结构证明，重命名应核最终MIME/Content-Disposition/存储origin、静态服务handler和浏览器角色/CSP；可改名不等脚本执行，使用无害标记比较原扩展/新扩展/下载隔离，不上传代码。\n\n来源：[保存帖1](https://x.com/i/status/1840729753566715955)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：上传重命名必须同样检查最终consumer（source）",
+    "正文GIF89;和HTML片段改.htm，但图只有Accepted。文字不是有效GIF结构证明，重命名应核最终MIME/Content-Disposition/存储origin、静态服务handler和浏览器角色/CSP；可改名不等脚本执行，使用无害标记比较原扩展/新扩展/下载隔离，不上传代码。\n\n来源：[保存帖1](https://x.com/i/status/1840729753566715955)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：上传重命名必须同样检查最终consumer（experiment）",
+    "正文GIF89;和HTML片段改.htm，但图只有Accepted。文字不是有效GIF结构证明，重命名应核最终MIME/Content-Disposition/存储origin、静态服务handler和浏览器角色/CSP；可改名不等脚本执行，使用无害标记比较原扩展/新扩展/下载隔离，不上传代码。\n\n来源：[保存帖1](https://x.com/i/status/1840729753566715955)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存正文0236：script字符串上下文不以尖括号为唯一边界（xss）",
+    "正文<>无效果，图source errorCode=fuzz和变更引号/分号/prompt与浏览器prompt。核同一原参数/字节/解码、真实serverJS转义/赋值及触发/CSP，排除本地响应编辑；script中反射不单独证明漏洞，有限prompt不自动ATO，不执行。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "保存正文0236：script字符串上下文不以尖括号为唯一边界（client）",
+    "正文<>无效果，图source errorCode=fuzz和变更引号/分号/prompt与浏览器prompt。核同一原参数/字节/解码、真实serverJS转义/赋值及触发/CSP，排除本地响应编辑；script中反射不单独证明漏洞，有限prompt不自动ATO，不执行。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "source-audit.md",
+    "保存正文0236：script字符串上下文不以尖括号为唯一边界（source）",
+    "正文<>无效果，图source errorCode=fuzz和变更引号/分号/prompt与浏览器prompt。核同一原参数/字节/解码、真实serverJS转义/赋值及触发/CSP，排除本地响应编辑；script中反射不单独证明漏洞，有限prompt不自动ATO，不执行。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存正文0236：script字符串上下文不以尖括号为唯一边界（experiment）",
+    "正文<>无效果，图source errorCode=fuzz和变更引号/分号/prompt与浏览器prompt。核同一原参数/字节/解码、真实serverJS转义/赋值及触发/CSP，排除本地响应编辑；script中反射不单独证明漏洞，有限prompt不自动ATO，不执行。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-0-auth：1838603486230917229-02.png",
+    "已核对保存图片 `1838603486230917229-02.png`。PHP图内层if缺开花括号，后续}else结构不平衡，先处理语法，不能当已运行登录绕过。按预期修正后还须核只有成功分支设身份、失败撤销旧状态、session ID轮换及输出编码；username来自POST未类型校验，硬编码示例不转录使用，不执行代码。\n\n来源：[保存帖1](https://x.com/i/status/1838603486230917229)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存图证0236-0-xss：1838603486230917229-02.png",
+    "已核对保存图片 `1838603486230917229-02.png`。PHP图内层if缺开花括号，后续}else结构不平衡，先处理语法，不能当已运行登录绕过。按预期修正后还须核只有成功分支设身份、失败撤销旧状态、session ID轮换及输出编码；username来自POST未类型校验，硬编码示例不转录使用，不执行代码。\n\n来源：[保存帖1](https://x.com/i/status/1838603486230917229)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-0-source：1838603486230917229-02.png",
+    "已核对保存图片 `1838603486230917229-02.png`。PHP图内层if缺开花括号，后续}else结构不平衡，先处理语法，不能当已运行登录绕过。按预期修正后还须核只有成功分支设身份、失败撤销旧状态、session ID轮换及输出编码；username来自POST未类型校验，硬编码示例不转录使用，不执行代码。\n\n来源：[保存帖1](https://x.com/i/status/1838603486230917229)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-0-experiment：1838603486230917229-02.png",
+    "已核对保存图片 `1838603486230917229-02.png`。PHP图内层if缺开花括号，后续}else结构不平衡，先处理语法，不能当已运行登录绕过。按预期修正后还须核只有成功分支设身份、失败撤销旧状态、session ID轮换及输出编码；username来自POST未类型校验，硬编码示例不转录使用，不执行代码。\n\n来源：[保存帖1](https://x.com/i/status/1838603486230917229)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-1-passive：1838605204758974657-02.jpg",
+    "已核对保存图片 `1838605204758974657-02.jpg`。子域工具列表混合被动CT/API、字典/排列、DNS批量解析、反向DNS、虚拟主机与递归扫描。发现名、解析和可达服务独立，wildcard/共享服务/历史归属需要对照；工具名与最快声明不是当前覆盖或授权，未查询安装或扫描。\n\n来源：[保存帖1](https://x.com/i/status/1838605204758974657)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-1-web：1838605204758974657-02.jpg",
+    "已核对保存图片 `1838605204758974657-02.jpg`。子域工具列表混合被动CT/API、字典/排列、DNS批量解析、反向DNS、虚拟主机与递归扫描。发现名、解析和可达服务独立，wildcard/共享服务/历史归属需要对照；工具名与最快声明不是当前覆盖或授权，未查询安装或扫描。\n\n来源：[保存帖1](https://x.com/i/status/1838605204758974657)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-1-fuzz：1838605204758974657-02.jpg",
+    "已核对保存图片 `1838605204758974657-02.jpg`。子域工具列表混合被动CT/API、字典/排列、DNS批量解析、反向DNS、虚拟主机与递归扫描。发现名、解析和可达服务独立，wildcard/共享服务/历史归属需要对照；工具名与最快声明不是当前覆盖或授权，未查询安装或扫描。\n\n来源：[保存帖1](https://x.com/i/status/1838605204758974657)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-1-records：1838605204758974657-02.jpg",
+    "已核对保存图片 `1838605204758974657-02.jpg`。子域工具列表混合被动CT/API、字典/排列、DNS批量解析、反向DNS、虚拟主机与递归扫描。发现名、解析和可达服务独立，wildcard/共享服务/历史归属需要对照；工具名与最快声明不是当前覆盖或授权，未查询安装或扫描。\n\n来源：[保存帖1](https://x.com/i/status/1838605204758974657)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-1-scope：1838605204758974657-02.jpg",
+    "已核对保存图片 `1838605204758974657-02.jpg`。子域工具列表混合被动CT/API、字典/排列、DNS批量解析、反向DNS、虚拟主机与递归扫描。发现名、解析和可达服务独立，wildcard/共享服务/历史归属需要对照；工具名与最快声明不是当前覆盖或授权，未查询安装或扫描。\n\n来源：[保存帖1](https://x.com/i/status/1838605204758974657)。"
+  ],
+  [
+    "cloud/container-k8s-security.md",
+    "保存图证0236-2-container：1838619116845826472-02.jpg",
+    "已核对保存图片 `1838619116845826472-02.jpg`。K8s清单第一页含版本、API隔离、RBAC、镜像、补丁和SSH。按实际部署版本、API身份/verb/resource权限、控制面入口和节点范围收集证据；NetworkPolicy/防火墙配置不直接证明APIServer受限，最小镜像不等无漏洞，未升级、登录或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "cloud/cloud-misconfiguration.md",
+    "保存图证0236-2-cloud：1838619116845826472-02.jpg",
+    "已核对保存图片 `1838619116845826472-02.jpg`。K8s清单第一页含版本、API隔离、RBAC、镜像、补丁和SSH。按实际部署版本、API身份/verb/resource权限、控制面入口和节点范围收集证据；NetworkPolicy/防火墙配置不直接证明APIServer受限，最小镜像不等无漏洞，未升级、登录或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-2-auth：1838619116845826472-02.jpg",
+    "已核对保存图片 `1838619116845826472-02.jpg`。K8s清单第一页含版本、API隔离、RBAC、镜像、补丁和SSH。按实际部署版本、API身份/verb/resource权限、控制面入口和节点范围收集证据；NetworkPolicy/防火墙配置不直接证明APIServer受限，最小镜像不等无漏洞，未升级、登录或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-2-access：1838619116845826472-02.jpg",
+    "已核对保存图片 `1838619116845826472-02.jpg`。K8s清单第一页含版本、API隔离、RBAC、镜像、补丁和SSH。按实际部署版本、API身份/verb/resource权限、控制面入口和节点范围收集证据；NetworkPolicy/防火墙配置不直接证明APIServer受限，最小镜像不等无漏洞，未升级、登录或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-2-source：1838619116845826472-02.jpg",
+    "已核对保存图片 `1838619116845826472-02.jpg`。K8s清单第一页含版本、API隔离、RBAC、镜像、补丁和SSH。按实际部署版本、API身份/verb/resource权限、控制面入口和节点范围收集证据；NetworkPolicy/防火墙配置不直接证明APIServer受限，最小镜像不等无漏洞，未升级、登录或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-2-scope：1838619116845826472-02.jpg",
+    "已核对保存图片 `1838619116845826472-02.jpg`。K8s清单第一页含版本、API隔离、RBAC、镜像、补丁和SSH。按实际部署版本、API身份/verb/resource权限、控制面入口和节点范围收集证据；NetworkPolicy/防火墙配置不直接证明APIServer受限，最小镜像不等无漏洞，未升级、登录或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "cloud/container-k8s-security.md",
+    "保存图证0236-3-container：1838619116845826472-03.jpg",
+    "已核对保存图片 `1838619116845826472-03.jpg`。第二页含NetworkPolicy/TLS/分段、PSP、CPU内存requests/limits、non-root及存储加密。历史PSP名称需按实际API版本核验，规则存在不证明插件执行/默认拒绝；requests不是上限，non-root不自动阻止危险capability或挂载。按实际流量/准入/资源/密钥证据核控制，未修改或压测。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "cloud/cloud-misconfiguration.md",
+    "保存图证0236-3-cloud：1838619116845826472-03.jpg",
+    "已核对保存图片 `1838619116845826472-03.jpg`。第二页含NetworkPolicy/TLS/分段、PSP、CPU内存requests/limits、non-root及存储加密。历史PSP名称需按实际API版本核验，规则存在不证明插件执行/默认拒绝；requests不是上限，non-root不自动阻止危险capability或挂载。按实际流量/准入/资源/密钥证据核控制，未修改或压测。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-3-access：1838619116845826472-03.jpg",
+    "已核对保存图片 `1838619116845826472-03.jpg`。第二页含NetworkPolicy/TLS/分段、PSP、CPU内存requests/limits、non-root及存储加密。历史PSP名称需按实际API版本核验，规则存在不证明插件执行/默认拒绝；requests不是上限，non-root不自动阻止危险capability或挂载。按实际流量/准入/资源/密钥证据核控制，未修改或压测。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-3-source：1838619116845826472-03.jpg",
+    "已核对保存图片 `1838619116845826472-03.jpg`。第二页含NetworkPolicy/TLS/分段、PSP、CPU内存requests/limits、non-root及存储加密。历史PSP名称需按实际API版本核验，规则存在不证明插件执行/默认拒绝；requests不是上限，non-root不自动阻止危险capability或挂载。按实际流量/准入/资源/密钥证据核控制，未修改或压测。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-3-experiment：1838619116845826472-03.jpg",
+    "已核对保存图片 `1838619116845826472-03.jpg`。第二页含NetworkPolicy/TLS/分段、PSP、CPU内存requests/limits、non-root及存储加密。历史PSP名称需按实际API版本核验，规则存在不证明插件执行/默认拒绝；requests不是上限，non-root不自动阻止危险capability或挂载。按实际流量/准入/资源/密钥证据核控制，未修改或压测。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "cloud/container-k8s-security.md",
+    "保存图证0236-4-container：1838619116845826472-04.jpg",
+    "已核对保存图片 `1838619116845826472-04.jpg`。第三页含存储ACL、组件/审计日志、异常、备份恢复及合规。日志开启不等捕获所有API身份/拒绝/变更，备份存在不等恢复可用，合规标签不等通过；记录版本、时间、权限、存储保护和隔离恢复演练证据，不读真实敏感数据或执行恢复。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "cloud/cloud-misconfiguration.md",
+    "保存图证0236-4-cloud：1838619116845826472-04.jpg",
+    "已核对保存图片 `1838619116845826472-04.jpg`。第三页含存储ACL、组件/审计日志、异常、备份恢复及合规。日志开启不等捕获所有API身份/拒绝/变更，备份存在不等恢复可用，合规标签不等通过；记录版本、时间、权限、存储保护和隔离恢复演练证据，不读真实敏感数据或执行恢复。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-4-records：1838619116845826472-04.jpg",
+    "已核对保存图片 `1838619116845826472-04.jpg`。第三页含存储ACL、组件/审计日志、异常、备份恢复及合规。日志开启不等捕获所有API身份/拒绝/变更，备份存在不等恢复可用，合规标签不等通过；记录版本、时间、权限、存储保护和隔离恢复演练证据，不读真实敏感数据或执行恢复。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-4-scope：1838619116845826472-04.jpg",
+    "已核对保存图片 `1838619116845826472-04.jpg`。第三页含存储ACL、组件/审计日志、异常、备份恢复及合规。日志开启不等捕获所有API身份/拒绝/变更，备份存在不等恢复可用，合规标签不等通过；记录版本、时间、权限、存储保护和隔离恢复演练证据，不读真实敏感数据或执行恢复。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-4-experiment：1838619116845826472-04.jpg",
+    "已核对保存图片 `1838619116845826472-04.jpg`。第三页含存储ACL、组件/审计日志、异常、备份恢复及合规。日志开启不等捕获所有API身份/拒绝/变更，备份存在不等恢复可用，合规标签不等通过；记录版本、时间、权限、存储保护和隔离恢复演练证据，不读真实敏感数据或执行恢复。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "cloud/container-k8s-security.md",
+    "保存图证0236-5-container：1838619116845826472-05.jpg",
+    "已核对保存图片 `1838619116845826472-05.jpg`。最后页强调配置/操作治理自动执行。策略文档、工具部署与实际强制结果应分开，需版本、准入/例外路径和变更审计，不因使用policy工具称环境安全，未部署或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "cloud/cloud-misconfiguration.md",
+    "保存图证0236-5-cloud：1838619116845826472-05.jpg",
+    "已核对保存图片 `1838619116845826472-05.jpg`。最后页强调配置/操作治理自动执行。策略文档、工具部署与实际强制结果应分开，需版本、准入/例外路径和变更审计，不因使用policy工具称环境安全，未部署或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-5-source：1838619116845826472-05.jpg",
+    "已核对保存图片 `1838619116845826472-05.jpg`。最后页强调配置/操作治理自动执行。策略文档、工具部署与实际强制结果应分开，需版本、准入/例外路径和变更审计，不因使用policy工具称环境安全，未部署或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-5-records：1838619116845826472-05.jpg",
+    "已核对保存图片 `1838619116845826472-05.jpg`。最后页强调配置/操作治理自动执行。策略文档、工具部署与实际强制结果应分开，需版本、准入/例外路径和变更审计，不因使用policy工具称环境安全，未部署或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838619116845826472)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-6-access：1838621171723518074-02.jpg",
+    "已核对保存图片 `1838621171723518074-02.jpg`。API旧编号页含对象授权、恢复令牌、MFA、输出字段与速率。图中UUID/IDs措辞有误：随机ID不代替ACL，客户端可提供ID但服务端必须校验对象权限；会话ID映射不保证所有对象属于当前主体，PII最小化与真实字段授权需自有角色负例，未认证尝试。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-6-auth：1838621171723518074-02.jpg",
+    "已核对保存图片 `1838621171723518074-02.jpg`。API旧编号页含对象授权、恢复令牌、MFA、输出字段与速率。图中UUID/IDs措辞有误：随机ID不代替ACL，客户端可提供ID但服务端必须校验对象权限；会话ID映射不保证所有对象属于当前主体，PII最小化与真实字段授权需自有角色负例，未认证尝试。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "保存图证0236-6-secret：1838621171723518074-02.jpg",
+    "已核对保存图片 `1838621171723518074-02.jpg`。API旧编号页含对象授权、恢复令牌、MFA、输出字段与速率。图中UUID/IDs措辞有误：随机ID不代替ACL，客户端可提供ID但服务端必须校验对象权限；会话ID映射不保证所有对象属于当前主体，PII最小化与真实字段授权需自有角色负例，未认证尝试。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-6-web：1838621171723518074-02.jpg",
+    "已核对保存图片 `1838621171723518074-02.jpg`。API旧编号页含对象授权、恢复令牌、MFA、输出字段与速率。图中UUID/IDs措辞有误：随机ID不代替ACL，客户端可提供ID但服务端必须校验对象权限；会话ID映射不保证所有对象属于当前主体，PII最小化与真实字段授权需自有角色负例，未认证尝试。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-6-experiment：1838621171723518074-02.jpg",
+    "已核对保存图片 `1838621171723518074-02.jpg`。API旧编号页含对象授权、恢复令牌、MFA、输出字段与速率。图中UUID/IDs措辞有误：随机ID不代替ACL，客户端可提供ID但服务端必须校验对象权限；会话ID映射不保证所有对象属于当前主体，PII最小化与真实字段授权需自有角色负例，未认证尝试。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-7-access：1838621171723518074-03.jpg",
+    "已核对保存图片 `1838621171723518074-03.jpg`。续页分功能授权、批量属性绑定、配置及输入。Mass assignment一条not explicitly define措辞颠倒，应明确输入allowlist并服务器强制类型/只读/敏感属性权限；schema文档或readOnly元数据不自动执行。控制业务动作/字段消费者，rate limit不等功能ACL，不扫描或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "by-type/api-property-pollution.md",
+    "保存图证0236-7-apip：1838621171723518074-03.jpg",
+    "已核对保存图片 `1838621171723518074-03.jpg`。续页分功能授权、批量属性绑定、配置及输入。Mass assignment一条not explicitly define措辞颠倒，应明确输入allowlist并服务器强制类型/只读/敏感属性权限；schema文档或readOnly元数据不自动执行。控制业务动作/字段消费者，rate limit不等功能ACL，不扫描或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-7-web：1838621171723518074-03.jpg",
+    "已核对保存图片 `1838621171723518074-03.jpg`。续页分功能授权、批量属性绑定、配置及输入。Mass assignment一条not explicitly define措辞颠倒，应明确输入allowlist并服务器强制类型/只读/敏感属性权限；schema文档或readOnly元数据不自动执行。控制业务动作/字段消费者，rate limit不等功能ACL，不扫描或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-7-source：1838621171723518074-03.jpg",
+    "已核对保存图片 `1838621171723518074-03.jpg`。续页分功能授权、批量属性绑定、配置及输入。Mass assignment一条not explicitly define措辞颠倒，应明确输入allowlist并服务器强制类型/只读/敏感属性权限；schema文档或readOnly元数据不自动执行。控制业务动作/字段消费者，rate limit不等功能ACL，不扫描或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-7-experiment：1838621171723518074-03.jpg",
+    "已核对保存图片 `1838621171723518074-03.jpg`。续页分功能授权、批量属性绑定、配置及输入。Mass assignment一条not explicitly define措辞颠倒，应明确输入allowlist并服务器强制类型/只读/敏感属性权限；schema文档或readOnly元数据不自动执行。控制业务动作/字段消费者，rate limit不等功能ACL，不扫描或更改。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-8-web：1838621171723518074-04.jpg",
+    "已核对保存图片 `1838621171723518074-04.jpg`。第三页含运行时schema/输出、生产非生产隔离、旧API退役、身份/redirect/CORS及审计。输入校验不替代SQL参数化或输出上下文编码，API防火墙不证明私有字段隔离；记录实际拒绝/资源结果及部署版本，日志敏感性/完整性与告警效果独立，不执行。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-8-source：1838621171723518074-04.jpg",
+    "已核对保存图片 `1838621171723518074-04.jpg`。第三页含运行时schema/输出、生产非生产隔离、旧API退役、身份/redirect/CORS及审计。输入校验不替代SQL参数化或输出上下文编码，API防火墙不证明私有字段隔离；记录实际拒绝/资源结果及部署版本，日志敏感性/完整性与告警效果独立，不执行。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-8-records：1838621171723518074-04.jpg",
+    "已核对保存图片 `1838621171723518074-04.jpg`。第三页含运行时schema/输出、生产非生产隔离、旧API退役、身份/redirect/CORS及审计。输入校验不替代SQL参数化或输出上下文编码，API防火墙不证明私有字段隔离；记录实际拒绝/资源结果及部署版本，日志敏感性/完整性与告警效果独立，不执行。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-8-scope：1838621171723518074-04.jpg",
+    "已核对保存图片 `1838621171723518074-04.jpg`。第三页含运行时schema/输出、生产非生产隔离、旧API退役、身份/redirect/CORS及审计。输入校验不替代SQL参数化或输出上下文编码，API防火墙不证明私有字段隔离；记录实际拒绝/资源结果及部署版本，日志敏感性/完整性与告警效果独立，不执行。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-8-experiment：1838621171723518074-04.jpg",
+    "已核对保存图片 `1838621171723518074-04.jpg`。第三页含运行时schema/输出、生产非生产隔离、旧API退役、身份/redirect/CORS及审计。输入校验不替代SQL参数化或输出上下文编码，API防火墙不证明私有字段隔离；记录实际拒绝/资源结果及部署版本，日志敏感性/完整性与告警效果独立，不执行。\n\n来源：[保存帖1](https://x.com/i/status/1838621171723518074)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-9-web：1838632131565687273-02.jpg",
+    "已核对保存图片 `1838632131565687273-02.jpg`。Netcat速查混合连接/监听/banner/传输、解压/磁盘克隆和shell。TCP连接不证明目标版本/权限，UDP无响应不能判端口；-e等选项因实现不同，普通传输无加密，DES3示例不是现行安全保证。重定向/解压/dd会写盘或执行，资料不授权这些操作，未运行或开放监听。\n\n来源：[保存帖1](https://x.com/i/status/1838632131565687273)。"
+  ],
+  [
+    "by-type/desktop-client.md",
+    "保存图证0236-9-desktop：1838632131565687273-02.jpg",
+    "已核对保存图片 `1838632131565687273-02.jpg`。Netcat速查混合连接/监听/banner/传输、解压/磁盘克隆和shell。TCP连接不证明目标版本/权限，UDP无响应不能判端口；-e等选项因实现不同，普通传输无加密，DES3示例不是现行安全保证。重定向/解压/dd会写盘或执行，资料不授权这些操作，未运行或开放监听。\n\n来源：[保存帖1](https://x.com/i/status/1838632131565687273)。"
+  ],
+  [
+    "by-type/file-upload.md",
+    "保存图证0236-9-files：1838632131565687273-02.jpg",
+    "已核对保存图片 `1838632131565687273-02.jpg`。Netcat速查混合连接/监听/banner/传输、解压/磁盘克隆和shell。TCP连接不证明目标版本/权限，UDP无响应不能判端口；-e等选项因实现不同，普通传输无加密，DES3示例不是现行安全保证。重定向/解压/dd会写盘或执行，资料不授权这些操作，未运行或开放监听。\n\n来源：[保存帖1](https://x.com/i/status/1838632131565687273)。"
+  ],
+  [
+    "by-type/cmd-injection-rce.md",
+    "保存图证0236-9-cmd：1838632131565687273-02.jpg",
+    "已核对保存图片 `1838632131565687273-02.jpg`。Netcat速查混合连接/监听/banner/传输、解压/磁盘克隆和shell。TCP连接不证明目标版本/权限，UDP无响应不能判端口；-e等选项因实现不同，普通传输无加密，DES3示例不是现行安全保证。重定向/解压/dd会写盘或执行，资料不授权这些操作，未运行或开放监听。\n\n来源：[保存帖1](https://x.com/i/status/1838632131565687273)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-9-records：1838632131565687273-02.jpg",
+    "已核对保存图片 `1838632131565687273-02.jpg`。Netcat速查混合连接/监听/banner/传输、解压/磁盘克隆和shell。TCP连接不证明目标版本/权限，UDP无响应不能判端口；-e等选项因实现不同，普通传输无加密，DES3示例不是现行安全保证。重定向/解压/dd会写盘或执行，资料不授权这些操作，未运行或开放监听。\n\n来源：[保存帖1](https://x.com/i/status/1838632131565687273)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-9-scope：1838632131565687273-02.jpg",
+    "已核对保存图片 `1838632131565687273-02.jpg`。Netcat速查混合连接/监听/banner/传输、解压/磁盘克隆和shell。TCP连接不证明目标版本/权限，UDP无响应不能判端口；-e等选项因实现不同，普通传输无加密，DES3示例不是现行安全保证。重定向/解压/dd会写盘或执行，资料不授权这些操作，未运行或开放监听。\n\n来源：[保存帖1](https://x.com/i/status/1838632131565687273)。"
+  ],
+  [
+    "by-type/file-upload.md",
+    "保存图证0236-11-files：1838651852927439262-02.png",
+    "已核对保存图片 `1838651852927439262-02.png`。数据库文件字典可见前29行db/sqlite/sqlite3的database/backup/users等，210行是总数不是已读全文。后缀/文件名仅候选，需真实类型、访问身份、非公开内容与软404对照，不批量下载或打开数据库。\n\n来源：[保存帖1](https://x.com/i/status/1838651852927439262)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "保存图证0236-11-secret：1838651852927439262-02.png",
+    "已核对保存图片 `1838651852927439262-02.png`。数据库文件字典可见前29行db/sqlite/sqlite3的database/backup/users等，210行是总数不是已读全文。后缀/文件名仅候选，需真实类型、访问身份、非公开内容与软404对照，不批量下载或打开数据库。\n\n来源：[保存帖1](https://x.com/i/status/1838651852927439262)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-11-fuzz：1838651852927439262-02.png",
+    "已核对保存图片 `1838651852927439262-02.png`。数据库文件字典可见前29行db/sqlite/sqlite3的database/backup/users等，210行是总数不是已读全文。后缀/文件名仅候选，需真实类型、访问身份、非公开内容与软404对照，不批量下载或打开数据库。\n\n来源：[保存帖1](https://x.com/i/status/1838651852927439262)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-11-source：1838651852927439262-02.png",
+    "已核对保存图片 `1838651852927439262-02.png`。数据库文件字典可见前29行db/sqlite/sqlite3的database/backup/users等，210行是总数不是已读全文。后缀/文件名仅候选，需真实类型、访问身份、非公开内容与软404对照，不批量下载或打开数据库。\n\n来源：[保存帖1](https://x.com/i/status/1838651852927439262)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-11-experiment：1838651852927439262-02.png",
+    "已核对保存图片 `1838651852927439262-02.png`。数据库文件字典可见前29行db/sqlite/sqlite3的database/backup/users等，210行是总数不是已读全文。后缀/文件名仅候选，需真实类型、访问身份、非公开内容与软404对照，不批量下载或打开数据库。\n\n来源：[保存帖1](https://x.com/i/status/1838651852927439262)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存图证0236-12-xss：1838757402797314244-02.jpg",
+    "已核对保存图片 `1838757402797314244-02.jpg`。XSS/HTMLI图按反射→HTML→事件→JS组织候选，并列重定向/表单/上传/SSRF影响。HTML解析不等JS执行，浏览器iframe不是服务器SSRF，meta Set-Cookie/portal等历史示例不能保证支持；核实际上下文、解码、触发/CSP与主体，不复制窃取表单或执行，小字不补写。\n\n来源：[保存帖1](https://x.com/i/status/1838757402797314244)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "保存图证0236-12-client：1838757402797314244-02.jpg",
+    "已核对保存图片 `1838757402797314244-02.jpg`。XSS/HTMLI图按反射→HTML→事件→JS组织候选，并列重定向/表单/上传/SSRF影响。HTML解析不等JS执行，浏览器iframe不是服务器SSRF，meta Set-Cookie/portal等历史示例不能保证支持；核实际上下文、解码、触发/CSP与主体，不复制窃取表单或执行，小字不补写。\n\n来源：[保存帖1](https://x.com/i/status/1838757402797314244)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-12-web：1838757402797314244-02.jpg",
+    "已核对保存图片 `1838757402797314244-02.jpg`。XSS/HTMLI图按反射→HTML→事件→JS组织候选，并列重定向/表单/上传/SSRF影响。HTML解析不等JS执行，浏览器iframe不是服务器SSRF，meta Set-Cookie/portal等历史示例不能保证支持；核实际上下文、解码、触发/CSP与主体，不复制窃取表单或执行，小字不补写。\n\n来源：[保存帖1](https://x.com/i/status/1838757402797314244)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-12-source：1838757402797314244-02.jpg",
+    "已核对保存图片 `1838757402797314244-02.jpg`。XSS/HTMLI图按反射→HTML→事件→JS组织候选，并列重定向/表单/上传/SSRF影响。HTML解析不等JS执行，浏览器iframe不是服务器SSRF，meta Set-Cookie/portal等历史示例不能保证支持；核实际上下文、解码、触发/CSP与主体，不复制窃取表单或执行，小字不补写。\n\n来源：[保存帖1](https://x.com/i/status/1838757402797314244)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-12-experiment：1838757402797314244-02.jpg",
+    "已核对保存图片 `1838757402797314244-02.jpg`。XSS/HTMLI图按反射→HTML→事件→JS组织候选，并列重定向/表单/上传/SSRF影响。HTML解析不等JS执行，浏览器iframe不是服务器SSRF，meta Set-Cookie/portal等历史示例不能保证支持；核实际上下文、解码、触发/CSP与主体，不复制窃取表单或执行，小字不补写。\n\n来源：[保存帖1](https://x.com/i/status/1838757402797314244)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-14-passive：1838789837094109552-02.jpg",
+    "已核对保存图片 `1838789837094109552-02.jpg`。50搜索引擎图覆盖CT/DNS/资产、代码、漏洞资料、威胁/样本、邮箱/泄露、图像等来源。索引不等当前漏洞/归属，公开查询不授权使用秘密或下载样本，保留来源/时间/精确关系和最小脱敏证据；未访问或查人，历史功能/数量未实时验证。\n\n来源：[保存帖1](https://x.com/i/status/1838789837094109552)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-14-source：1838789837094109552-02.jpg",
+    "已核对保存图片 `1838789837094109552-02.jpg`。50搜索引擎图覆盖CT/DNS/资产、代码、漏洞资料、威胁/样本、邮箱/泄露、图像等来源。索引不等当前漏洞/归属，公开查询不授权使用秘密或下载样本，保留来源/时间/精确关系和最小脱敏证据；未访问或查人，历史功能/数量未实时验证。\n\n来源：[保存帖1](https://x.com/i/status/1838789837094109552)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-14-records：1838789837094109552-02.jpg",
+    "已核对保存图片 `1838789837094109552-02.jpg`。50搜索引擎图覆盖CT/DNS/资产、代码、漏洞资料、威胁/样本、邮箱/泄露、图像等来源。索引不等当前漏洞/归属，公开查询不授权使用秘密或下载样本，保留来源/时间/精确关系和最小脱敏证据；未访问或查人，历史功能/数量未实时验证。\n\n来源：[保存帖1](https://x.com/i/status/1838789837094109552)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-14-scope：1838789837094109552-02.jpg",
+    "已核对保存图片 `1838789837094109552-02.jpg`。50搜索引擎图覆盖CT/DNS/资产、代码、漏洞资料、威胁/样本、邮箱/泄露、图像等来源。索引不等当前漏洞/归属，公开查询不授权使用秘密或下载样本，保留来源/时间/精确关系和最小脱敏证据；未访问或查人，历史功能/数量未实时验证。\n\n来源：[保存帖1](https://x.com/i/status/1838789837094109552)。"
+  ],
+  [
+    "reporting.md",
+    "保存图证0236-15-report：1838831553843257608-02.jpg",
+    "已核对保存图片 `1838831553843257608-02.jpg`。IDOR奖励/triage邮件提示奖金外弱点细节须项目明确披露许可。没有UUID/WebSocket消息，不能确认正文链；支付、验证、修复与公开授权独立保留，不公开或联系。\n\n来源：[保存帖1](https://x.com/i/status/1838831553843257608)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-15-scope：1838831553843257608-02.jpg",
+    "已核对保存图片 `1838831553843257608-02.jpg`。IDOR奖励/triage邮件提示奖金外弱点细节须项目明确披露许可。没有UUID/WebSocket消息，不能确认正文链；支付、验证、修复与公开授权独立保留，不公开或联系。\n\n来源：[保存帖1](https://x.com/i/status/1838831553843257608)。"
+  ],
+  [
+    "impact-and-acceptance.md",
+    "保存图证0236-15-impact：1838831553843257608-02.jpg",
+    "已核对保存图片 `1838831553843257608-02.jpg`。IDOR奖励/triage邮件提示奖金外弱点细节须项目明确披露许可。没有UUID/WebSocket消息，不能确认正文链；支付、验证、修复与公开授权独立保留，不公开或联系。\n\n来源：[保存帖1](https://x.com/i/status/1838831553843257608)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-16-web：1838853905662247233-02.jpg",
+    "已核对保存图片 `1838853905662247233-02.jpg`。dirsearch筛403再批量403bypasser/扩展的图把200/302当等待结果。路径/方法/头变体须核同一主体/资源与实际动作，跳转/壳页不等ACL成功；shell按空白拆文件会损坏URL并扩大探测，版本/预算/失败要保留，不安装或执行。\n\n来源：[保存帖1](https://x.com/i/status/1838853905662247233)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-16-access：1838853905662247233-02.jpg",
+    "已核对保存图片 `1838853905662247233-02.jpg`。dirsearch筛403再批量403bypasser/扩展的图把200/302当等待结果。路径/方法/头变体须核同一主体/资源与实际动作，跳转/壳页不等ACL成功；shell按空白拆文件会损坏URL并扩大探测，版本/预算/失败要保留，不安装或执行。\n\n来源：[保存帖1](https://x.com/i/status/1838853905662247233)。"
+  ],
+  [
+    "by-type/waf-bypass.md",
+    "保存图证0236-16-waf：1838853905662247233-02.jpg",
+    "已核对保存图片 `1838853905662247233-02.jpg`。dirsearch筛403再批量403bypasser/扩展的图把200/302当等待结果。路径/方法/头变体须核同一主体/资源与实际动作，跳转/壳页不等ACL成功；shell按空白拆文件会损坏URL并扩大探测，版本/预算/失败要保留，不安装或执行。\n\n来源：[保存帖1](https://x.com/i/status/1838853905662247233)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-16-fuzz：1838853905662247233-02.jpg",
+    "已核对保存图片 `1838853905662247233-02.jpg`。dirsearch筛403再批量403bypasser/扩展的图把200/302当等待结果。路径/方法/头变体须核同一主体/资源与实际动作，跳转/壳页不等ACL成功；shell按空白拆文件会损坏URL并扩大探测，版本/预算/失败要保留，不安装或执行。\n\n来源：[保存帖1](https://x.com/i/status/1838853905662247233)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-16-records：1838853905662247233-02.jpg",
+    "已核对保存图片 `1838853905662247233-02.jpg`。dirsearch筛403再批量403bypasser/扩展的图把200/302当等待结果。路径/方法/头变体须核同一主体/资源与实际动作，跳转/壳页不等ACL成功；shell按空白拆文件会损坏URL并扩大探测，版本/预算/失败要保留，不安装或执行。\n\n来源：[保存帖1](https://x.com/i/status/1838853905662247233)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-16-scope：1838853905662247233-02.jpg",
+    "已核对保存图片 `1838853905662247233-02.jpg`。dirsearch筛403再批量403bypasser/扩展的图把200/302当等待结果。路径/方法/头变体须核同一主体/资源与实际动作，跳转/壳页不等ACL成功；shell按空白拆文件会损坏URL并扩大探测，版本/预算/失败要保留，不安装或执行。\n\n来源：[保存帖1](https://x.com/i/status/1838853905662247233)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-19-auth：1838922203972112449-02.jpg",
+    "已核对保存图片 `1838922203972112449-02.jpg`。2FA图分setup/secret/旧会话、码泄露/复用/空值/限速/JSON/OAuth和disable/恢复/CSRF。按用途、账户/会话、有效期与验证状态检查server动作，Referer和客户端响应非身份；记住旧会话是否合规需具体策略，不因秘密可见或缺口令一概ATO，不爆破或修改真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1838922203972112449)。"
+  ],
+  [
+    "by-type/oauth-oidc.md",
+    "保存图证0236-19-oauth：1838922203972112449-02.jpg",
+    "已核对保存图片 `1838922203972112449-02.jpg`。2FA图分setup/secret/旧会话、码泄露/复用/空值/限速/JSON/OAuth和disable/恢复/CSRF。按用途、账户/会话、有效期与验证状态检查server动作，Referer和客户端响应非身份；记住旧会话是否合规需具体策略，不因秘密可见或缺口令一概ATO，不爆破或修改真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1838922203972112449)。"
+  ],
+  [
+    "by-type/csrf.md",
+    "保存图证0236-19-csrf：1838922203972112449-02.jpg",
+    "已核对保存图片 `1838922203972112449-02.jpg`。2FA图分setup/secret/旧会话、码泄露/复用/空值/限速/JSON/OAuth和disable/恢复/CSRF。按用途、账户/会话、有效期与验证状态检查server动作，Referer和客户端响应非身份；记住旧会话是否合规需具体策略，不因秘密可见或缺口令一概ATO，不爆破或修改真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1838922203972112449)。"
+  ],
+  [
+    "by-type/clickjacking.md",
+    "保存图证0236-19-click：1838922203972112449-02.jpg",
+    "已核对保存图片 `1838922203972112449-02.jpg`。2FA图分setup/secret/旧会话、码泄露/复用/空值/限速/JSON/OAuth和disable/恢复/CSRF。按用途、账户/会话、有效期与验证状态检查server动作，Referer和客户端响应非身份；记住旧会话是否合规需具体策略，不因秘密可见或缺口令一概ATO，不爆破或修改真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1838922203972112449)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-19-access：1838922203972112449-02.jpg",
+    "已核对保存图片 `1838922203972112449-02.jpg`。2FA图分setup/secret/旧会话、码泄露/复用/空值/限速/JSON/OAuth和disable/恢复/CSRF。按用途、账户/会话、有效期与验证状态检查server动作，Referer和客户端响应非身份；记住旧会话是否合规需具体策略，不因秘密可见或缺口令一概ATO，不爆破或修改真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1838922203972112449)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-19-source：1838922203972112449-02.jpg",
+    "已核对保存图片 `1838922203972112449-02.jpg`。2FA图分setup/secret/旧会话、码泄露/复用/空值/限速/JSON/OAuth和disable/恢复/CSRF。按用途、账户/会话、有效期与验证状态检查server动作，Referer和客户端响应非身份；记住旧会话是否合规需具体策略，不因秘密可见或缺口令一概ATO，不爆破或修改真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1838922203972112449)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-19-experiment：1838922203972112449-02.jpg",
+    "已核对保存图片 `1838922203972112449-02.jpg`。2FA图分setup/secret/旧会话、码泄露/复用/空值/限速/JSON/OAuth和disable/恢复/CSRF。按用途、账户/会话、有效期与验证状态检查server动作，Referer和客户端响应非身份；记住旧会话是否合规需具体策略，不因秘密可见或缺口令一概ATO，不爆破或修改真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1838922203972112449)。"
+  ],
+  [
+    "cloud/cloud-misconfiguration.md",
+    "保存图证0236-20-cloud：1838924307424325877-02.jpg",
+    "已核对保存图片 `1838924307424325877-02.jpg`。云基础设施列表分IAM、凭据、IaC、资产、日志/IR、IMDS与策略执行，末尾容器列表仅开头。查询、扫描、模拟和部署/修复权限不同，合规标签/工具名字不证明有效控制或当前维护，保留身份/租户/资源/版本与独立证据，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1838924307424325877)。"
+  ],
+  [
+    "cloud/container-k8s-security.md",
+    "保存图证0236-20-container：1838924307424325877-02.jpg",
+    "已核对保存图片 `1838924307424325877-02.jpg`。云基础设施列表分IAM、凭据、IaC、资产、日志/IR、IMDS与策略执行，末尾容器列表仅开头。查询、扫描、模拟和部署/修复权限不同，合规标签/工具名字不证明有效控制或当前维护，保留身份/租户/资源/版本与独立证据，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1838924307424325877)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-20-source：1838924307424325877-02.jpg",
+    "已核对保存图片 `1838924307424325877-02.jpg`。云基础设施列表分IAM、凭据、IaC、资产、日志/IR、IMDS与策略执行，末尾容器列表仅开头。查询、扫描、模拟和部署/修复权限不同，合规标签/工具名字不证明有效控制或当前维护，保留身份/租户/资源/版本与独立证据，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1838924307424325877)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-20-scope：1838924307424325877-02.jpg",
+    "已核对保存图片 `1838924307424325877-02.jpg`。云基础设施列表分IAM、凭据、IaC、资产、日志/IR、IMDS与策略执行，末尾容器列表仅开头。查询、扫描、模拟和部署/修复权限不同，合规标签/工具名字不证明有效控制或当前维护，保留身份/租户/资源/版本与独立证据，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1838924307424325877)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-20-records：1838924307424325877-02.jpg",
+    "已核对保存图片 `1838924307424325877-02.jpg`。云基础设施列表分IAM、凭据、IaC、资产、日志/IR、IMDS与策略执行，末尾容器列表仅开头。查询、扫描、模拟和部署/修复权限不同，合规标签/工具名字不证明有效控制或当前维护，保留身份/租户/资源/版本与独立证据，未运行。\n\n来源：[保存帖1](https://x.com/i/status/1838924307424325877)。"
+  ],
+  [
+    "hunting-strategy.md",
+    "保存图证0236-22-strategy：1839159448859824444-02.jpg",
+    "已核对保存图片 `1839159448859824444-02.jpg`。Ethical Hacking图含侦察、扫描、认证尝试、shell、本地sudo/SUID/capability/cron/NFS及掩痕标题。阶段不是默认授权链，已有本地身份/配置不等可提权，reverse/bind文字配对混用须核方向；只读观察、认证/执行/改PATH/写文件/清痕不同操作，保留原证据，不执行、喷洒凭据或掩盖日志。\n\n来源：[保存帖1](https://x.com/i/status/1839159448859824444)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-22-scope：1839159448859824444-02.jpg",
+    "已核对保存图片 `1839159448859824444-02.jpg`。Ethical Hacking图含侦察、扫描、认证尝试、shell、本地sudo/SUID/capability/cron/NFS及掩痕标题。阶段不是默认授权链，已有本地身份/配置不等可提权，reverse/bind文字配对混用须核方向；只读观察、认证/执行/改PATH/写文件/清痕不同操作，保留原证据，不执行、喷洒凭据或掩盖日志。\n\n来源：[保存帖1](https://x.com/i/status/1839159448859824444)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-22-auth：1839159448859824444-02.jpg",
+    "已核对保存图片 `1839159448859824444-02.jpg`。Ethical Hacking图含侦察、扫描、认证尝试、shell、本地sudo/SUID/capability/cron/NFS及掩痕标题。阶段不是默认授权链，已有本地身份/配置不等可提权，reverse/bind文字配对混用须核方向；只读观察、认证/执行/改PATH/写文件/清痕不同操作，保留原证据，不执行、喷洒凭据或掩盖日志。\n\n来源：[保存帖1](https://x.com/i/status/1839159448859824444)。"
+  ],
+  [
+    "by-type/desktop-client.md",
+    "保存图证0236-22-desktop：1839159448859824444-02.jpg",
+    "已核对保存图片 `1839159448859824444-02.jpg`。Ethical Hacking图含侦察、扫描、认证尝试、shell、本地sudo/SUID/capability/cron/NFS及掩痕标题。阶段不是默认授权链，已有本地身份/配置不等可提权，reverse/bind文字配对混用须核方向；只读观察、认证/执行/改PATH/写文件/清痕不同操作，保留原证据，不执行、喷洒凭据或掩盖日志。\n\n来源：[保存帖1](https://x.com/i/status/1839159448859824444)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-22-source：1839159448859824444-02.jpg",
+    "已核对保存图片 `1839159448859824444-02.jpg`。Ethical Hacking图含侦察、扫描、认证尝试、shell、本地sudo/SUID/capability/cron/NFS及掩痕标题。阶段不是默认授权链，已有本地身份/配置不等可提权，reverse/bind文字配对混用须核方向；只读观察、认证/执行/改PATH/写文件/清痕不同操作，保留原证据，不执行、喷洒凭据或掩盖日志。\n\n来源：[保存帖1](https://x.com/i/status/1839159448859824444)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-22-records：1839159448859824444-02.jpg",
+    "已核对保存图片 `1839159448859824444-02.jpg`。Ethical Hacking图含侦察、扫描、认证尝试、shell、本地sudo/SUID/capability/cron/NFS及掩痕标题。阶段不是默认授权链，已有本地身份/配置不等可提权，reverse/bind文字配对混用须核方向；只读观察、认证/执行/改PATH/写文件/清痕不同操作，保留原证据，不执行、喷洒凭据或掩盖日志。\n\n来源：[保存帖1](https://x.com/i/status/1839159448859824444)。"
+  ],
+  [
+    "by-type/subdomain-takeover.md",
+    "保存图证0236-23-takeover：1839161121766519022-02.jpg",
+    "已核对保存图片 `1839161121766519022-02.jpg`。Subfinder5候选→Nuclei2.9.15 WordPress模板high命中返回wordpress.com/typo?subdomain=...。指纹/缺站点页不证明可认领并绑定目标CNAME；核完整DNS链、provider命名/归属/可绑定条件及授权，不把模板high作成功接管，不注册服务。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-23-passive：1839161121766519022-02.jpg",
+    "已核对保存图片 `1839161121766519022-02.jpg`。Subfinder5候选→Nuclei2.9.15 WordPress模板high命中返回wordpress.com/typo?subdomain=...。指纹/缺站点页不证明可认领并绑定目标CNAME；核完整DNS链、provider命名/归属/可绑定条件及授权，不把模板high作成功接管，不注册服务。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-23-fuzz：1839161121766519022-02.jpg",
+    "已核对保存图片 `1839161121766519022-02.jpg`。Subfinder5候选→Nuclei2.9.15 WordPress模板high命中返回wordpress.com/typo?subdomain=...。指纹/缺站点页不证明可认领并绑定目标CNAME；核完整DNS链、provider命名/归属/可绑定条件及授权，不把模板high作成功接管，不注册服务。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-23-records：1839161121766519022-02.jpg",
+    "已核对保存图片 `1839161121766519022-02.jpg`。Subfinder5候选→Nuclei2.9.15 WordPress模板high命中返回wordpress.com/typo?subdomain=...。指纹/缺站点页不证明可认领并绑定目标CNAME；核完整DNS链、provider命名/归属/可绑定条件及授权，不把模板high作成功接管，不注册服务。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-23-scope：1839161121766519022-02.jpg",
+    "已核对保存图片 `1839161121766519022-02.jpg`。Subfinder5候选→Nuclei2.9.15 WordPress模板high命中返回wordpress.com/typo?subdomain=...。指纹/缺站点页不证明可认领并绑定目标CNAME；核完整DNS链、provider命名/归属/可绑定条件及授权，不把模板high作成功接管，不注册服务。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-23-experiment：1839161121766519022-02.jpg",
+    "已核对保存图片 `1839161121766519022-02.jpg`。Subfinder5候选→Nuclei2.9.15 WordPress模板high命中返回wordpress.com/typo?subdomain=...。指纹/缺站点页不证明可认领并绑定目标CNAME；核完整DNS链、provider命名/归属/可绑定条件及授权，不把模板high作成功接管，不注册服务。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)。"
+  ],
+  [
+    "by-type/subdomain-takeover.md",
+    "保存图证0236-24-takeover：1839161121766519022-03.jpg",
+    "已核对保存图片 `1839161121766519022-03.jpg`。WordPress不存在页面只说明该provider返回缺站提示，注册链接不证明名称可用或目标DNS可绑定；需历史时间、CNAME和provider保留/验证规则的最小证据，未点击注册或认领。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-24-passive：1839161121766519022-03.jpg",
+    "已核对保存图片 `1839161121766519022-03.jpg`。WordPress不存在页面只说明该provider返回缺站提示，注册链接不证明名称可用或目标DNS可绑定；需历史时间、CNAME和provider保留/验证规则的最小证据，未点击注册或认领。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-24-web：1839161121766519022-03.jpg",
+    "已核对保存图片 `1839161121766519022-03.jpg`。WordPress不存在页面只说明该provider返回缺站提示，注册链接不证明名称可用或目标DNS可绑定；需历史时间、CNAME和provider保留/验证规则的最小证据，未点击注册或认领。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-24-experiment：1839161121766519022-03.jpg",
+    "已核对保存图片 `1839161121766519022-03.jpg`。WordPress不存在页面只说明该provider返回缺站提示，注册链接不证明名称可用或目标DNS可绑定；需历史时间、CNAME和provider保留/验证规则的最小证据，未点击注册或认领。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-24-scope：1839161121766519022-03.jpg",
+    "已核对保存图片 `1839161121766519022-03.jpg`。WordPress不存在页面只说明该provider返回缺站提示，注册链接不证明名称可用或目标DNS可绑定；需历史时间、CNAME和provider保留/验证规则的最小证据，未点击注册或认领。\n\n来源：[保存帖1](https://x.com/i/status/1839161121766519022)。"
+  ],
+  [
+    "by-type/ai-application.md",
+    "保存图证0236-27-ai：1839215963280994808-02.jpg",
+    "已核对保存图片 `1839215963280994808-02.jpg`。STRIDE GPT表单有架构图/描述、公开性、身份方式、敏感级别、仓库和API key，输出页threat/tree/mitigations/DREAD/testcases。生成威胁是依赖输入的假设，不是已确认漏洞，需信任边界/数据流/角色→可观察负例；图上TopSecret不是授权上传，未传图、仓库、key或调用模型。\n\n来源：[保存帖1](https://x.com/i/status/1839215963280994808)。"
+  ],
+  [
+    "business-modeling.md",
+    "保存图证0236-27-business：1839215963280994808-02.jpg",
+    "已核对保存图片 `1839215963280994808-02.jpg`。STRIDE GPT表单有架构图/描述、公开性、身份方式、敏感级别、仓库和API key，输出页threat/tree/mitigations/DREAD/testcases。生成威胁是依赖输入的假设，不是已确认漏洞，需信任边界/数据流/角色→可观察负例；图上TopSecret不是授权上传，未传图、仓库、key或调用模型。\n\n来源：[保存帖1](https://x.com/i/status/1839215963280994808)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-27-source：1839215963280994808-02.jpg",
+    "已核对保存图片 `1839215963280994808-02.jpg`。STRIDE GPT表单有架构图/描述、公开性、身份方式、敏感级别、仓库和API key，输出页threat/tree/mitigations/DREAD/testcases。生成威胁是依赖输入的假设，不是已确认漏洞，需信任边界/数据流/角色→可观察负例；图上TopSecret不是授权上传，未传图、仓库、key或调用模型。\n\n来源：[保存帖1](https://x.com/i/status/1839215963280994808)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-27-experiment：1839215963280994808-02.jpg",
+    "已核对保存图片 `1839215963280994808-02.jpg`。STRIDE GPT表单有架构图/描述、公开性、身份方式、敏感级别、仓库和API key，输出页threat/tree/mitigations/DREAD/testcases。生成威胁是依赖输入的假设，不是已确认漏洞，需信任边界/数据流/角色→可观察负例；图上TopSecret不是授权上传，未传图、仓库、key或调用模型。\n\n来源：[保存帖1](https://x.com/i/status/1839215963280994808)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-27-scope：1839215963280994808-02.jpg",
+    "已核对保存图片 `1839215963280994808-02.jpg`。STRIDE GPT表单有架构图/描述、公开性、身份方式、敏感级别、仓库和API key，输出页threat/tree/mitigations/DREAD/testcases。生成威胁是依赖输入的假设，不是已确认漏洞，需信任边界/数据流/角色→可观察负例；图上TopSecret不是授权上传，未传图、仓库、key或调用模型。\n\n来源：[保存帖1](https://x.com/i/status/1839215963280994808)。"
+  ],
+  [
+    "by-type/subdomain-takeover.md",
+    "保存图证0236-28-takeover：1839264005371867483-02.jpg",
+    "已核对保存图片 `1839264005371867483-02.jpg`。Nuclei3.3.3 -code运行签名Weebly模板的图明确Executing code on local machine并high命中。签名只表来源非无副作用保证，本地执行与远端漏洞不同，需审模板输入/网络/进程及provider绑定条件，target数量5不等5漏洞。历史latest标记不保证当前，未执行模板/注册。\n\n来源：[保存帖1](https://x.com/i/status/1839264005371867483)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-28-fuzz：1839264005371867483-02.jpg",
+    "已核对保存图片 `1839264005371867483-02.jpg`。Nuclei3.3.3 -code运行签名Weebly模板的图明确Executing code on local machine并high命中。签名只表来源非无副作用保证，本地执行与远端漏洞不同，需审模板输入/网络/进程及provider绑定条件，target数量5不等5漏洞。历史latest标记不保证当前，未执行模板/注册。\n\n来源：[保存帖1](https://x.com/i/status/1839264005371867483)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-28-source：1839264005371867483-02.jpg",
+    "已核对保存图片 `1839264005371867483-02.jpg`。Nuclei3.3.3 -code运行签名Weebly模板的图明确Executing code on local machine并high命中。签名只表来源非无副作用保证，本地执行与远端漏洞不同，需审模板输入/网络/进程及provider绑定条件，target数量5不等5漏洞。历史latest标记不保证当前，未执行模板/注册。\n\n来源：[保存帖1](https://x.com/i/status/1839264005371867483)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-28-scope：1839264005371867483-02.jpg",
+    "已核对保存图片 `1839264005371867483-02.jpg`。Nuclei3.3.3 -code运行签名Weebly模板的图明确Executing code on local machine并high命中。签名只表来源非无副作用保证，本地执行与远端漏洞不同，需审模板输入/网络/进程及provider绑定条件，target数量5不等5漏洞。历史latest标记不保证当前，未执行模板/注册。\n\n来源：[保存帖1](https://x.com/i/status/1839264005371867483)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-28-experiment：1839264005371867483-02.jpg",
+    "已核对保存图片 `1839264005371867483-02.jpg`。Nuclei3.3.3 -code运行签名Weebly模板的图明确Executing code on local machine并high命中。签名只表来源非无副作用保证，本地执行与远端漏洞不同，需审模板输入/网络/进程及provider绑定条件，target数量5不等5漏洞。历史latest标记不保证当前，未执行模板/注册。\n\n来源：[保存帖1](https://x.com/i/status/1839264005371867483)。"
+  ],
+  [
+    "by-type/smart-contract.md",
+    "保存图证0236-29-contract：1839266989522489395-02.png",
+    "已核对保存图片 `1839266989522489395-02.png`。Solidity0.4.21练习把answerHash置代码、guess(uint8)比较keccak并按ether转账。uint8只有有限候选，哈希不增加低熵秘密；核该版本实际编码/参数与资金状态，balance==0也不是唯一正确完成不变量。示例payable/transfer不证明部署可利用或一般重入，本次不计算猜测、部署或转账。\n\n来源：[保存帖1](https://x.com/i/status/1839266989522489395)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "保存图证0236-29-secret：1839266989522489395-02.png",
+    "已核对保存图片 `1839266989522489395-02.png`。Solidity0.4.21练习把answerHash置代码、guess(uint8)比较keccak并按ether转账。uint8只有有限候选，哈希不增加低熵秘密；核该版本实际编码/参数与资金状态，balance==0也不是唯一正确完成不变量。示例payable/transfer不证明部署可利用或一般重入，本次不计算猜测、部署或转账。\n\n来源：[保存帖1](https://x.com/i/status/1839266989522489395)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-29-source：1839266989522489395-02.png",
+    "已核对保存图片 `1839266989522489395-02.png`。Solidity0.4.21练习把answerHash置代码、guess(uint8)比较keccak并按ether转账。uint8只有有限候选，哈希不增加低熵秘密；核该版本实际编码/参数与资金状态，balance==0也不是唯一正确完成不变量。示例payable/transfer不证明部署可利用或一般重入，本次不计算猜测、部署或转账。\n\n来源：[保存帖1](https://x.com/i/status/1839266989522489395)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-29-experiment：1839266989522489395-02.png",
+    "已核对保存图片 `1839266989522489395-02.png`。Solidity0.4.21练习把answerHash置代码、guess(uint8)比较keccak并按ether转账。uint8只有有限候选，哈希不增加低熵秘密；核该版本实际编码/参数与资金状态，balance==0也不是唯一正确完成不变量。示例payable/transfer不证明部署可利用或一般重入，本次不计算猜测、部署或转账。\n\n来源：[保存帖1](https://x.com/i/status/1839266989522489395)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-29-scope：1839266989522489395-02.png",
+    "已核对保存图片 `1839266989522489395-02.png`。Solidity0.4.21练习把answerHash置代码、guess(uint8)比较keccak并按ether转账。uint8只有有限候选，哈希不增加低熵秘密；核该版本实际编码/参数与资金状态，balance==0也不是唯一正确完成不变量。示例payable/transfer不证明部署可利用或一般重入，本次不计算猜测、部署或转账。\n\n来源：[保存帖1](https://x.com/i/status/1839266989522489395)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "保存图证0236-32-secret：1839310340338888762-02.png",
+    "已核对保存图片 `1839310340338888762-02.png`。Apache目录Index/datenbank_backup有28M sql.tar.gz名称/日期，德语字典产生候选但未展示下载内容。目录列表不直接证明数据库秘密；核身份、预期非公开性、实际文件类型和最小脱敏结构，banner不保证版本或服务器漏洞，不下载备份。\n\n来源：[保存帖1](https://x.com/i/status/1839310340338888762)。"
+  ],
+  [
+    "by-type/file-upload.md",
+    "保存图证0236-32-files：1839310340338888762-02.png",
+    "已核对保存图片 `1839310340338888762-02.png`。Apache目录Index/datenbank_backup有28M sql.tar.gz名称/日期，德语字典产生候选但未展示下载内容。目录列表不直接证明数据库秘密；核身份、预期非公开性、实际文件类型和最小脱敏结构，banner不保证版本或服务器漏洞，不下载备份。\n\n来源：[保存帖1](https://x.com/i/status/1839310340338888762)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-32-web：1839310340338888762-02.png",
+    "已核对保存图片 `1839310340338888762-02.png`。Apache目录Index/datenbank_backup有28M sql.tar.gz名称/日期，德语字典产生候选但未展示下载内容。目录列表不直接证明数据库秘密；核身份、预期非公开性、实际文件类型和最小脱敏结构，banner不保证版本或服务器漏洞，不下载备份。\n\n来源：[保存帖1](https://x.com/i/status/1839310340338888762)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-32-records：1839310340338888762-02.png",
+    "已核对保存图片 `1839310340338888762-02.png`。Apache目录Index/datenbank_backup有28M sql.tar.gz名称/日期，德语字典产生候选但未展示下载内容。目录列表不直接证明数据库秘密；核身份、预期非公开性、实际文件类型和最小脱敏结构，banner不保证版本或服务器漏洞，不下载备份。\n\n来源：[保存帖1](https://x.com/i/status/1839310340338888762)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-32-scope：1839310340338888762-02.png",
+    "已核对保存图片 `1839310340338888762-02.png`。Apache目录Index/datenbank_backup有28M sql.tar.gz名称/日期，德语字典产生候选但未展示下载内容。目录列表不直接证明数据库秘密；核身份、预期非公开性、实际文件类型和最小脱敏结构，banner不保证版本或服务器漏洞，不下载备份。\n\n来源：[保存帖1](https://x.com/i/status/1839310340338888762)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-32-experiment：1839310340338888762-02.png",
+    "已核对保存图片 `1839310340338888762-02.png`。Apache目录Index/datenbank_backup有28M sql.tar.gz名称/日期，德语字典产生候选但未展示下载内容。目录列表不直接证明数据库秘密；核身份、预期非公开性、实际文件类型和最小脱敏结构，banner不保证版本或服务器漏洞，不下载备份。\n\n来源：[保存帖1](https://x.com/i/status/1839310340338888762)。"
+  ],
+  [
+    "cloud/cloud-misconfiguration.md",
+    "保存图证0236-34-cloud：1839311579059466380-03.jpg",
+    "已核对保存图片 `1839311579059466380-03.jpg`。S3问题表可见版本/加密/公共访问/策略/日志/lifecycle/leastprivilege/MFAdelete/CORS/备份/CDN/复制/ObjectLock，显示45Remaining和0Reviewed。检查问题不等通过，性能/可用性与安全不同，按主体/操作/策略/实际样本证据核控制，不称45项都读完或资源已安全，不登录。\n\n来源：[保存帖1](https://x.com/i/status/1839311579059466380)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-34-access：1839311579059466380-03.jpg",
+    "已核对保存图片 `1839311579059466380-03.jpg`。S3问题表可见版本/加密/公共访问/策略/日志/lifecycle/leastprivilege/MFAdelete/CORS/备份/CDN/复制/ObjectLock，显示45Remaining和0Reviewed。检查问题不等通过，性能/可用性与安全不同，按主体/操作/策略/实际样本证据核控制，不称45项都读完或资源已安全，不登录。\n\n来源：[保存帖1](https://x.com/i/status/1839311579059466380)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-34-records：1839311579059466380-03.jpg",
+    "已核对保存图片 `1839311579059466380-03.jpg`。S3问题表可见版本/加密/公共访问/策略/日志/lifecycle/leastprivilege/MFAdelete/CORS/备份/CDN/复制/ObjectLock，显示45Remaining和0Reviewed。检查问题不等通过，性能/可用性与安全不同，按主体/操作/策略/实际样本证据核控制，不称45项都读完或资源已安全，不登录。\n\n来源：[保存帖1](https://x.com/i/status/1839311579059466380)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-34-experiment：1839311579059466380-03.jpg",
+    "已核对保存图片 `1839311579059466380-03.jpg`。S3问题表可见版本/加密/公共访问/策略/日志/lifecycle/leastprivilege/MFAdelete/CORS/备份/CDN/复制/ObjectLock，显示45Remaining和0Reviewed。检查问题不等通过，性能/可用性与安全不同，按主体/操作/策略/实际样本证据核控制，不称45项都读完或资源已安全，不登录。\n\n来源：[保存帖1](https://x.com/i/status/1839311579059466380)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-35-passive：1839352665354232224-02.jpg",
+    "已核对保存图片 `1839352665354232224-02.jpg`。OSINT图分公开信息与人/信号/图像等来源及目的；公开可见不等归属可靠或授权采集全部个人数据，HUMINT联系/SIGINT拦截不是默认公开检索。保留时间/来源/关联不确定性，不查人/联系/截获。\n\n来源：[保存帖1](https://x.com/i/status/1839352665354232224)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-35-source：1839352665354232224-02.jpg",
+    "已核对保存图片 `1839352665354232224-02.jpg`。OSINT图分公开信息与人/信号/图像等来源及目的；公开可见不等归属可靠或授权采集全部个人数据，HUMINT联系/SIGINT拦截不是默认公开检索。保留时间/来源/关联不确定性，不查人/联系/截获。\n\n来源：[保存帖1](https://x.com/i/status/1839352665354232224)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-35-records：1839352665354232224-02.jpg",
+    "已核对保存图片 `1839352665354232224-02.jpg`。OSINT图分公开信息与人/信号/图像等来源及目的；公开可见不等归属可靠或授权采集全部个人数据，HUMINT联系/SIGINT拦截不是默认公开检索。保留时间/来源/关联不确定性，不查人/联系/截获。\n\n来源：[保存帖1](https://x.com/i/status/1839352665354232224)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-35-scope：1839352665354232224-02.jpg",
+    "已核对保存图片 `1839352665354232224-02.jpg`。OSINT图分公开信息与人/信号/图像等来源及目的；公开可见不等归属可靠或授权采集全部个人数据，HUMINT联系/SIGINT拦截不是默认公开检索。保留时间/来源/关联不确定性，不查人/联系/截获。\n\n来源：[保存帖1](https://x.com/i/status/1839352665354232224)。"
+  ],
+  [
+    "by-type/cache-deception.md",
+    "保存图证0236-36-cache：1839365202783134073-04.jpg",
+    "已核对保存图片 `1839365202783134073-04.jpg`。缓存靶场response Age0、miss、HTML og:image采用可控host/canary，工具Low反射，图尾Cookie标记与HTML标记不完全一致。说明头/表示影响候选，需逐头干净请求、cachekey/Vary/HIT与独立消费者对照，未证明共享缓存持久污染或JS执行，不使用Cookie/发外带。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "by-type/host-header.md",
+    "保存图证0236-36-host：1839365202783134073-04.jpg",
+    "已核对保存图片 `1839365202783134073-04.jpg`。缓存靶场response Age0、miss、HTML og:image采用可控host/canary，工具Low反射，图尾Cookie标记与HTML标记不完全一致。说明头/表示影响候选，需逐头干净请求、cachekey/Vary/HIT与独立消费者对照，未证明共享缓存持久污染或JS执行，不使用Cookie/发外带。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存图证0236-36-xss：1839365202783134073-04.jpg",
+    "已核对保存图片 `1839365202783134073-04.jpg`。缓存靶场response Age0、miss、HTML og:image采用可控host/canary，工具Low反射，图尾Cookie标记与HTML标记不完全一致。说明头/表示影响候选，需逐头干净请求、cachekey/Vary/HIT与独立消费者对照，未证明共享缓存持久污染或JS执行，不使用Cookie/发外带。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-36-web：1839365202783134073-04.jpg",
+    "已核对保存图片 `1839365202783134073-04.jpg`。缓存靶场response Age0、miss、HTML og:image采用可控host/canary，工具Low反射，图尾Cookie标记与HTML标记不完全一致。说明头/表示影响候选，需逐头干净请求、cachekey/Vary/HIT与独立消费者对照，未证明共享缓存持久污染或JS执行，不使用Cookie/发外带。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-36-experiment：1839365202783134073-04.jpg",
+    "已核对保存图片 `1839365202783134073-04.jpg`。缓存靶场response Age0、miss、HTML og:image采用可控host/canary，工具Low反射，图尾Cookie标记与HTML标记不完全一致。说明头/表示影响候选，需逐头干净请求、cachekey/Vary/HIT与独立消费者对照，未证明共享缓存持久污染或JS执行，不使用Cookie/发外带。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "reporting.md",
+    "保存图证0236-38-report：1839454908652949707-02.jpg",
+    "已核对保存图片 `1839454908652949707-02.jpg`。接受邀请报告邮件说工程师仍修复中，奖金之外须明确披露许可。无邀请token/最终权限，不能单图确认自接受或当前修复；验证、修复、支付与披露分别记录，不联系。\n\n来源：[保存帖1](https://x.com/i/status/1839454908652949707)。"
+  ],
+  [
+    "impact-and-acceptance.md",
+    "保存图证0236-38-impact：1839454908652949707-02.jpg",
+    "已核对保存图片 `1839454908652949707-02.jpg`。接受邀请报告邮件说工程师仍修复中，奖金之外须明确披露许可。无邀请token/最终权限，不能单图确认自接受或当前修复；验证、修复、支付与披露分别记录，不联系。\n\n来源：[保存帖1](https://x.com/i/status/1839454908652949707)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-38-scope：1839454908652949707-02.jpg",
+    "已核对保存图片 `1839454908652949707-02.jpg`。接受邀请报告邮件说工程师仍修复中，奖金之外须明确披露许可。无邀请token/最终权限，不能单图确认自接受或当前修复；验证、修复、支付与披露分别记录，不联系。\n\n来源：[保存帖1](https://x.com/i/status/1839454908652949707)。"
+  ],
+  [
+    "by-type/subdomain-takeover.md",
+    "保存图证0236-39-takeover：1839455071270052133-02.jpg",
+    "已核对保存图片 `1839455071270052133-02.jpg`。另一不同字节WordPress模板图同5候选/high与缺站点URL。保留来源和版本，缺站/模板匹配不能证明可注册绑定，需DNS/服务名/验证前提，不认领或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839455071270052133)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-39-passive：1839455071270052133-02.jpg",
+    "已核对保存图片 `1839455071270052133-02.jpg`。另一不同字节WordPress模板图同5候选/high与缺站点URL。保留来源和版本，缺站/模板匹配不能证明可注册绑定，需DNS/服务名/验证前提，不认领或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839455071270052133)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-39-fuzz：1839455071270052133-02.jpg",
+    "已核对保存图片 `1839455071270052133-02.jpg`。另一不同字节WordPress模板图同5候选/high与缺站点URL。保留来源和版本，缺站/模板匹配不能证明可注册绑定，需DNS/服务名/验证前提，不认领或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839455071270052133)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-39-records：1839455071270052133-02.jpg",
+    "已核对保存图片 `1839455071270052133-02.jpg`。另一不同字节WordPress模板图同5候选/high与缺站点URL。保留来源和版本，缺站/模板匹配不能证明可注册绑定，需DNS/服务名/验证前提，不认领或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839455071270052133)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-39-experiment：1839455071270052133-02.jpg",
+    "已核对保存图片 `1839455071270052133-02.jpg`。另一不同字节WordPress模板图同5候选/high与缺站点URL。保留来源和版本，缺站/模板匹配不能证明可注册绑定，需DNS/服务名/验证前提，不认领或执行。\n\n来源：[保存帖1](https://x.com/i/status/1839455071270052133)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-40-fuzz：1839455071270052133-03.jpg",
+    "已核对保存图片 `1839455071270052133-03.jpg`。反射模板图与正文WordPress题目不同：Nuclei2.9.15/deprecated警告、第一靶场无结果、缓存靶场两Low、debug仅请求开头。独立保留来源，不把反射命中/无结果当XSS或不存在漏洞，核模板matcher/实际响应/失败覆盖，不执行。\n\n来源：[保存帖1](https://x.com/i/status/1839455071270052133)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-40-web：1839455071270052133-03.jpg",
+    "已核对保存图片 `1839455071270052133-03.jpg`。反射模板图与正文WordPress题目不同：Nuclei2.9.15/deprecated警告、第一靶场无结果、缓存靶场两Low、debug仅请求开头。独立保留来源，不把反射命中/无结果当XSS或不存在漏洞，核模板matcher/实际响应/失败覆盖，不执行。\n\n来源：[保存帖1](https://x.com/i/status/1839455071270052133)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-40-records：1839455071270052133-03.jpg",
+    "已核对保存图片 `1839455071270052133-03.jpg`。反射模板图与正文WordPress题目不同：Nuclei2.9.15/deprecated警告、第一靶场无结果、缓存靶场两Low、debug仅请求开头。独立保留来源，不把反射命中/无结果当XSS或不存在漏洞，核模板matcher/实际响应/失败覆盖，不执行。\n\n来源：[保存帖1](https://x.com/i/status/1839455071270052133)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-40-experiment：1839455071270052133-03.jpg",
+    "已核对保存图片 `1839455071270052133-03.jpg`。反射模板图与正文WordPress题目不同：Nuclei2.9.15/deprecated警告、第一靶场无结果、缓存靶场两Low、debug仅请求开头。独立保留来源，不把反射命中/无结果当XSS或不存在漏洞，核模板matcher/实际响应/失败覆盖，不执行。\n\n来源：[保存帖1](https://x.com/i/status/1839455071270052133)。"
+  ],
+  [
+    "by-type/subdomain-takeover.md",
+    "保存图证0236-41-takeover：1839455071270052133-04.jpg",
+    "已核对保存图片 `1839455071270052133-04.jpg`。另一不同字节WordPress缺站页面仍只是provider错误线索，注册链接不证明可绑定目标域，核CNAME/时间/命名保留与授权，不认领。\n\n来源：[保存帖1](https://x.com/i/status/1839455071270052133)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-41-passive：1839455071270052133-04.jpg",
+    "已核对保存图片 `1839455071270052133-04.jpg`。另一不同字节WordPress缺站页面仍只是provider错误线索，注册链接不证明可绑定目标域，核CNAME/时间/命名保留与授权，不认领。\n\n来源：[保存帖1](https://x.com/i/status/1839455071270052133)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-41-web：1839455071270052133-04.jpg",
+    "已核对保存图片 `1839455071270052133-04.jpg`。另一不同字节WordPress缺站页面仍只是provider错误线索，注册链接不证明可绑定目标域，核CNAME/时间/命名保留与授权，不认领。\n\n来源：[保存帖1](https://x.com/i/status/1839455071270052133)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-41-experiment：1839455071270052133-04.jpg",
+    "已核对保存图片 `1839455071270052133-04.jpg`。另一不同字节WordPress缺站页面仍只是provider错误线索，注册链接不证明可绑定目标域，核CNAME/时间/命名保留与授权，不认领。\n\n来源：[保存帖1](https://x.com/i/status/1839455071270052133)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-44-auth：1839548212706672838-02.jpg",
+    "已核对保存图片 `1839548212706672838-02.jpg`。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。\n\n来源：[保存帖1](https://x.com/i/status/1839548212706672838)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-44-access：1839548212706672838-02.jpg",
+    "已核对保存图片 `1839548212706672838-02.jpg`。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。\n\n来源：[保存帖1](https://x.com/i/status/1839548212706672838)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存图证0236-44-xss：1839548212706672838-02.jpg",
+    "已核对保存图片 `1839548212706672838-02.jpg`。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。\n\n来源：[保存帖1](https://x.com/i/status/1839548212706672838)。"
+  ],
+  [
+    "by-type/sql-injection.md",
+    "保存图证0236-44-sql：1839548212706672838-02.jpg",
+    "已核对保存图片 `1839548212706672838-02.jpg`。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。\n\n来源：[保存帖1](https://x.com/i/status/1839548212706672838)。"
+  ],
+  [
+    "by-type/business-logic.md",
+    "保存图证0236-44-logic：1839548212706672838-02.jpg",
+    "已核对保存图片 `1839548212706672838-02.jpg`。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。\n\n来源：[保存帖1](https://x.com/i/status/1839548212706672838)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-44-source：1839548212706672838-02.jpg",
+    "已核对保存图片 `1839548212706672838-02.jpg`。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。\n\n来源：[保存帖1](https://x.com/i/status/1839548212706672838)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-44-experiment：1839548212706672838-02.jpg",
+    "已核对保存图片 `1839548212706672838-02.jpg`。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。\n\n来源：[保存帖1](https://x.com/i/status/1839548212706672838)。"
+  ],
+  [
+    "by-type/desktop-client.md",
+    "保存图证0236-45-desktop：1839549386117808431-02.jpg",
+    "已核对保存图片 `1839549386117808431-02.jpg`。Linux表左uname/uptime/date/mount等，右touch/cat/less/cp/mv/rm/head/tail却沿用错误system描述。区分信息读取、文件创建复制移动删除、重定向/管道与进程控制，stderr/stdout顺序影响证据；badblocks/hdparm有设备风险和实现条件，清单非执行许可，未运行/删盘。\n\n来源：[保存帖1](https://x.com/i/status/1839549386117808431)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-45-source：1839549386117808431-02.jpg",
+    "已核对保存图片 `1839549386117808431-02.jpg`。Linux表左uname/uptime/date/mount等，右touch/cat/less/cp/mv/rm/head/tail却沿用错误system描述。区分信息读取、文件创建复制移动删除、重定向/管道与进程控制，stderr/stdout顺序影响证据；badblocks/hdparm有设备风险和实现条件，清单非执行许可，未运行/删盘。\n\n来源：[保存帖1](https://x.com/i/status/1839549386117808431)。"
+  ],
+  [
+    "by-type/file-upload.md",
+    "保存图证0236-45-files：1839549386117808431-02.jpg",
+    "已核对保存图片 `1839549386117808431-02.jpg`。Linux表左uname/uptime/date/mount等，右touch/cat/less/cp/mv/rm/head/tail却沿用错误system描述。区分信息读取、文件创建复制移动删除、重定向/管道与进程控制，stderr/stdout顺序影响证据；badblocks/hdparm有设备风险和实现条件，清单非执行许可，未运行/删盘。\n\n来源：[保存帖1](https://x.com/i/status/1839549386117808431)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-45-records：1839549386117808431-02.jpg",
+    "已核对保存图片 `1839549386117808431-02.jpg`。Linux表左uname/uptime/date/mount等，右touch/cat/less/cp/mv/rm/head/tail却沿用错误system描述。区分信息读取、文件创建复制移动删除、重定向/管道与进程控制，stderr/stdout顺序影响证据；badblocks/hdparm有设备风险和实现条件，清单非执行许可，未运行/删盘。\n\n来源：[保存帖1](https://x.com/i/status/1839549386117808431)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-45-experiment：1839549386117808431-02.jpg",
+    "已核对保存图片 `1839549386117808431-02.jpg`。Linux表左uname/uptime/date/mount等，右touch/cat/less/cp/mv/rm/head/tail却沿用错误system描述。区分信息读取、文件创建复制移动删除、重定向/管道与进程控制，stderr/stdout顺序影响证据；badblocks/hdparm有设备风险和实现条件，清单非执行许可，未运行/删盘。\n\n来源：[保存帖1](https://x.com/i/status/1839549386117808431)。"
+  ],
+  [
+    "by-type/cache-deception.md",
+    "保存图证0236-48-cache：1839655657307578492-02.jpg",
+    "已核对保存图片 `1839655657307578492-02.jpg`。新字节图多头canary输入，Age21/UA hit、og:image采用xfh前缀，但返回完整标记与当前头不全一致，可能缓存前轮。逐头唯一标记→key/Vary→独立无污染主体HIT验证因果和属性编码/CSP，头反射与缓存跨用户影响/脚本执行不同，不请求或外带。\n\n来源：[保存帖1](https://x.com/i/status/1839655657307578492)。"
+  ],
+  [
+    "by-type/host-header.md",
+    "保存图证0236-48-host：1839655657307578492-02.jpg",
+    "已核对保存图片 `1839655657307578492-02.jpg`。新字节图多头canary输入，Age21/UA hit、og:image采用xfh前缀，但返回完整标记与当前头不全一致，可能缓存前轮。逐头唯一标记→key/Vary→独立无污染主体HIT验证因果和属性编码/CSP，头反射与缓存跨用户影响/脚本执行不同，不请求或外带。\n\n来源：[保存帖1](https://x.com/i/status/1839655657307578492)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存图证0236-48-xss：1839655657307578492-02.jpg",
+    "已核对保存图片 `1839655657307578492-02.jpg`。新字节图多头canary输入，Age21/UA hit、og:image采用xfh前缀，但返回完整标记与当前头不全一致，可能缓存前轮。逐头唯一标记→key/Vary→独立无污染主体HIT验证因果和属性编码/CSP，头反射与缓存跨用户影响/脚本执行不同，不请求或外带。\n\n来源：[保存帖1](https://x.com/i/status/1839655657307578492)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-48-web：1839655657307578492-02.jpg",
+    "已核对保存图片 `1839655657307578492-02.jpg`。新字节图多头canary输入，Age21/UA hit、og:image采用xfh前缀，但返回完整标记与当前头不全一致，可能缓存前轮。逐头唯一标记→key/Vary→独立无污染主体HIT验证因果和属性编码/CSP，头反射与缓存跨用户影响/脚本执行不同，不请求或外带。\n\n来源：[保存帖1](https://x.com/i/status/1839655657307578492)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-48-experiment：1839655657307578492-02.jpg",
+    "已核对保存图片 `1839655657307578492-02.jpg`。新字节图多头canary输入，Age21/UA hit、og:image采用xfh前缀，但返回完整标记与当前头不全一致，可能缓存前轮。逐头唯一标记→key/Vary→独立无污染主体HIT验证因果和属性编码/CSP，头反射与缓存跨用户影响/脚本执行不同，不请求或外带。\n\n来源：[保存帖1](https://x.com/i/status/1839655657307578492)。"
+  ],
+  [
+    "by-type/cache-deception.md",
+    "保存图证0236-49-cache：1839773579765752045-02.jpg",
+    "已核对保存图片 `1839773579765752045-02.jpg`。另一原图同Age21/hit与多头/og:image，独立绑定来源。相同缓存线索不增加独立漏洞数，需排除旧请求残留并以逐头/干净请求/独立消费者证明缓存键和实际sink，未执行。\n\n来源：[保存帖1](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "by-type/host-header.md",
+    "保存图证0236-49-host：1839773579765752045-02.jpg",
+    "已核对保存图片 `1839773579765752045-02.jpg`。另一原图同Age21/hit与多头/og:image，独立绑定来源。相同缓存线索不增加独立漏洞数，需排除旧请求残留并以逐头/干净请求/独立消费者证明缓存键和实际sink，未执行。\n\n来源：[保存帖1](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存图证0236-49-xss：1839773579765752045-02.jpg",
+    "已核对保存图片 `1839773579765752045-02.jpg`。另一原图同Age21/hit与多头/og:image，独立绑定来源。相同缓存线索不增加独立漏洞数，需排除旧请求残留并以逐头/干净请求/独立消费者证明缓存键和实际sink，未执行。\n\n来源：[保存帖1](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-49-web：1839773579765752045-02.jpg",
+    "已核对保存图片 `1839773579765752045-02.jpg`。另一原图同Age21/hit与多头/og:image，独立绑定来源。相同缓存线索不增加独立漏洞数，需排除旧请求残留并以逐头/干净请求/独立消费者证明缓存键和实际sink，未执行。\n\n来源：[保存帖1](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-49-experiment：1839773579765752045-02.jpg",
+    "已核对保存图片 `1839773579765752045-02.jpg`。另一原图同Age21/hit与多头/og:image，独立绑定来源。相同缓存线索不增加独立漏洞数，需排除旧请求残留并以逐头/干净请求/独立消费者证明缓存键和实际sink，未执行。\n\n来源：[保存帖1](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "by-type/cache-deception.md",
+    "保存图证0236-50-cache：1839773579765752045-03.jpg",
+    "已核对保存图片 `1839773579765752045-03.jpg`。又一缓存靶场图Age0但UA hit，og:image/SetCookie及请求Cookie标记不同。Age0不独立证明未缓存，hit标记不证明跨主体影响；需原字节/单头唯一标记、cachekey/TTL/Vary与独立干净请求确认，不执行或使用cookie。\n\n来源：[保存帖1](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "by-type/host-header.md",
+    "保存图证0236-50-host：1839773579765752045-03.jpg",
+    "已核对保存图片 `1839773579765752045-03.jpg`。又一缓存靶场图Age0但UA hit，og:image/SetCookie及请求Cookie标记不同。Age0不独立证明未缓存，hit标记不证明跨主体影响；需原字节/单头唯一标记、cachekey/TTL/Vary与独立干净请求确认，不执行或使用cookie。\n\n来源：[保存帖1](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存图证0236-50-xss：1839773579765752045-03.jpg",
+    "已核对保存图片 `1839773579765752045-03.jpg`。又一缓存靶场图Age0但UA hit，og:image/SetCookie及请求Cookie标记不同。Age0不独立证明未缓存，hit标记不证明跨主体影响；需原字节/单头唯一标记、cachekey/TTL/Vary与独立干净请求确认，不执行或使用cookie。\n\n来源：[保存帖1](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-50-web：1839773579765752045-03.jpg",
+    "已核对保存图片 `1839773579765752045-03.jpg`。又一缓存靶场图Age0但UA hit，og:image/SetCookie及请求Cookie标记不同。Age0不独立证明未缓存，hit标记不证明跨主体影响；需原字节/单头唯一标记、cachekey/TTL/Vary与独立干净请求确认，不执行或使用cookie。\n\n来源：[保存帖1](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-50-experiment：1839773579765752045-03.jpg",
+    "已核对保存图片 `1839773579765752045-03.jpg`。又一缓存靶场图Age0但UA hit，og:image/SetCookie及请求Cookie标记不同。Age0不独立证明未缓存，hit标记不证明跨主体影响；需原字节/单头唯一标记、cachekey/TTL/Vary与独立干净请求确认，不执行或使用cookie。\n\n来源：[保存帖1](https://x.com/i/status/1839773579765752045)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-52-passive：1839884700607029373-02.jpg",
+    "已核对保存图片 `1839884700607029373-02.jpg`。site:*.vulnweb.com ext/filetype:php 只筛历史索引候选，扩展名不证明后端解释器、私有入口或漏洞；核精确host/来源/时间/归属和URL规范化，不运行搜索。\n\n来源：[保存帖1](https://x.com/i/status/1839884700607029373)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-52-web：1839884700607029373-02.jpg",
+    "已核对保存图片 `1839884700607029373-02.jpg`。site:*.vulnweb.com ext/filetype:php 只筛历史索引候选，扩展名不证明后端解释器、私有入口或漏洞；核精确host/来源/时间/归属和URL规范化，不运行搜索。\n\n来源：[保存帖1](https://x.com/i/status/1839884700607029373)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-52-source：1839884700607029373-02.jpg",
+    "已核对保存图片 `1839884700607029373-02.jpg`。site:*.vulnweb.com ext/filetype:php 只筛历史索引候选，扩展名不证明后端解释器、私有入口或漏洞；核精确host/来源/时间/归属和URL规范化，不运行搜索。\n\n来源：[保存帖1](https://x.com/i/status/1839884700607029373)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-52-scope：1839884700607029373-02.jpg",
+    "已核对保存图片 `1839884700607029373-02.jpg`。site:*.vulnweb.com ext/filetype:php 只筛历史索引候选，扩展名不证明后端解释器、私有入口或漏洞；核精确host/来源/时间/归属和URL规范化，不运行搜索。\n\n来源：[保存帖1](https://x.com/i/status/1839884700607029373)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-53-source：1839904266305319354-02.jpg",
+    "已核对保存图片 `1839904266305319354-02.jpg`。CI/CD十风险目录分流程、IAM、依赖、pipeline执行/PBAC、凭据、配置、第三方、artifact完整性与日志。按代码来源→触发主体→runner权限→artifact/发布消费者建边界，TOC不等全文检查或项目已安全，签名/配置需实际执行证据；不运行pipeline、用秘密或发布。\n\n来源：[保存帖1](https://x.com/i/status/1839904266305319354)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-53-auth：1839904266305319354-02.jpg",
+    "已核对保存图片 `1839904266305319354-02.jpg`。CI/CD十风险目录分流程、IAM、依赖、pipeline执行/PBAC、凭据、配置、第三方、artifact完整性与日志。按代码来源→触发主体→runner权限→artifact/发布消费者建边界，TOC不等全文检查或项目已安全，签名/配置需实际执行证据；不运行pipeline、用秘密或发布。\n\n来源：[保存帖1](https://x.com/i/status/1839904266305319354)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "保存图证0236-53-secret：1839904266305319354-02.jpg",
+    "已核对保存图片 `1839904266305319354-02.jpg`。CI/CD十风险目录分流程、IAM、依赖、pipeline执行/PBAC、凭据、配置、第三方、artifact完整性与日志。按代码来源→触发主体→runner权限→artifact/发布消费者建边界，TOC不等全文检查或项目已安全，签名/配置需实际执行证据；不运行pipeline、用秘密或发布。\n\n来源：[保存帖1](https://x.com/i/status/1839904266305319354)。"
+  ],
+  [
+    "business-modeling.md",
+    "保存图证0236-53-business：1839904266305319354-02.jpg",
+    "已核对保存图片 `1839904266305319354-02.jpg`。CI/CD十风险目录分流程、IAM、依赖、pipeline执行/PBAC、凭据、配置、第三方、artifact完整性与日志。按代码来源→触发主体→runner权限→artifact/发布消费者建边界，TOC不等全文检查或项目已安全，签名/配置需实际执行证据；不运行pipeline、用秘密或发布。\n\n来源：[保存帖1](https://x.com/i/status/1839904266305319354)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-53-records：1839904266305319354-02.jpg",
+    "已核对保存图片 `1839904266305319354-02.jpg`。CI/CD十风险目录分流程、IAM、依赖、pipeline执行/PBAC、凭据、配置、第三方、artifact完整性与日志。按代码来源→触发主体→runner权限→artifact/发布消费者建边界，TOC不等全文检查或项目已安全，签名/配置需实际执行证据；不运行pipeline、用秘密或发布。\n\n来源：[保存帖1](https://x.com/i/status/1839904266305319354)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-53-scope：1839904266305319354-02.jpg",
+    "已核对保存图片 `1839904266305319354-02.jpg`。CI/CD十风险目录分流程、IAM、依赖、pipeline执行/PBAC、凭据、配置、第三方、artifact完整性与日志。按代码来源→触发主体→runner权限→artifact/发布消费者建边界，TOC不等全文检查或项目已安全，签名/配置需实际执行证据；不运行pipeline、用秘密或发布。\n\n来源：[保存帖1](https://x.com/i/status/1839904266305319354)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-54-passive：1839944489600966985-02.jpg",
+    "已核对保存图片 `1839944489600966985-02.jpg`。枚举图按SMB/LDAP/RPC/SMTP/SNMP/RDP/FTP/HTTP/DB/NFS/DNS及常见端口列工具/脚本，混有认证、读文件和命令能力。端口不保证协议或授权，发现/只读查询/凭据尝试/执行不同边界，保存identity/失败/实际返回，不枚举用户、扫描或dump。\n\n来源：[保存帖1](https://x.com/i/status/1839944489600966985)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-54-web：1839944489600966985-02.jpg",
+    "已核对保存图片 `1839944489600966985-02.jpg`。枚举图按SMB/LDAP/RPC/SMTP/SNMP/RDP/FTP/HTTP/DB/NFS/DNS及常见端口列工具/脚本，混有认证、读文件和命令能力。端口不保证协议或授权，发现/只读查询/凭据尝试/执行不同边界，保存identity/失败/实际返回，不枚举用户、扫描或dump。\n\n来源：[保存帖1](https://x.com/i/status/1839944489600966985)。"
+  ],
+  [
+    "by-type/desktop-client.md",
+    "保存图证0236-54-desktop：1839944489600966985-02.jpg",
+    "已核对保存图片 `1839944489600966985-02.jpg`。枚举图按SMB/LDAP/RPC/SMTP/SNMP/RDP/FTP/HTTP/DB/NFS/DNS及常见端口列工具/脚本，混有认证、读文件和命令能力。端口不保证协议或授权，发现/只读查询/凭据尝试/执行不同边界，保存identity/失败/实际返回，不枚举用户、扫描或dump。\n\n来源：[保存帖1](https://x.com/i/status/1839944489600966985)。"
+  ],
+  [
+    "by-type/sql-injection.md",
+    "保存图证0236-54-sql：1839944489600966985-02.jpg",
+    "已核对保存图片 `1839944489600966985-02.jpg`。枚举图按SMB/LDAP/RPC/SMTP/SNMP/RDP/FTP/HTTP/DB/NFS/DNS及常见端口列工具/脚本，混有认证、读文件和命令能力。端口不保证协议或授权，发现/只读查询/凭据尝试/执行不同边界，保存identity/失败/实际返回，不枚举用户、扫描或dump。\n\n来源：[保存帖1](https://x.com/i/status/1839944489600966985)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-54-source：1839944489600966985-02.jpg",
+    "已核对保存图片 `1839944489600966985-02.jpg`。枚举图按SMB/LDAP/RPC/SMTP/SNMP/RDP/FTP/HTTP/DB/NFS/DNS及常见端口列工具/脚本，混有认证、读文件和命令能力。端口不保证协议或授权，发现/只读查询/凭据尝试/执行不同边界，保存identity/失败/实际返回，不枚举用户、扫描或dump。\n\n来源：[保存帖1](https://x.com/i/status/1839944489600966985)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-54-scope：1839944489600966985-02.jpg",
+    "已核对保存图片 `1839944489600966985-02.jpg`。枚举图按SMB/LDAP/RPC/SMTP/SNMP/RDP/FTP/HTTP/DB/NFS/DNS及常见端口列工具/脚本，混有认证、读文件和命令能力。端口不保证协议或授权，发现/只读查询/凭据尝试/执行不同边界，保存identity/失败/实际返回，不枚举用户、扫描或dump。\n\n来源：[保存帖1](https://x.com/i/status/1839944489600966985)。"
+  ],
+  [
+    "by-type/subdomain-takeover.md",
+    "保存图证0236-55-takeover：1839967483614339583-02.jpg",
+    "已核对保存图片 `1839967483614339583-02.jpg`。takeover工具列表示例并发20/100、timeout/SSL及provider签名。provider指纹仅候选，实际dangling可认领/可绑定/当前DNS与授权需独立验证，timeout/无响应不证明不存在，历史参数不当当前保证，不安装/认领。\n\n来源：[保存帖1](https://x.com/i/status/1839967483614339583)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-55-passive：1839967483614339583-02.jpg",
+    "已核对保存图片 `1839967483614339583-02.jpg`。takeover工具列表示例并发20/100、timeout/SSL及provider签名。provider指纹仅候选，实际dangling可认领/可绑定/当前DNS与授权需独立验证，timeout/无响应不证明不存在，历史参数不当当前保证，不安装/认领。\n\n来源：[保存帖1](https://x.com/i/status/1839967483614339583)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-55-fuzz：1839967483614339583-02.jpg",
+    "已核对保存图片 `1839967483614339583-02.jpg`。takeover工具列表示例并发20/100、timeout/SSL及provider签名。provider指纹仅候选，实际dangling可认领/可绑定/当前DNS与授权需独立验证，timeout/无响应不证明不存在，历史参数不当当前保证，不安装/认领。\n\n来源：[保存帖1](https://x.com/i/status/1839967483614339583)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-55-source：1839967483614339583-02.jpg",
+    "已核对保存图片 `1839967483614339583-02.jpg`。takeover工具列表示例并发20/100、timeout/SSL及provider签名。provider指纹仅候选，实际dangling可认领/可绑定/当前DNS与授权需独立验证，timeout/无响应不证明不存在，历史参数不当当前保证，不安装/认领。\n\n来源：[保存帖1](https://x.com/i/status/1839967483614339583)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-55-scope：1839967483614339583-02.jpg",
+    "已核对保存图片 `1839967483614339583-02.jpg`。takeover工具列表示例并发20/100、timeout/SSL及provider签名。provider指纹仅候选，实际dangling可认领/可绑定/当前DNS与授权需独立验证，timeout/无响应不证明不存在，历史参数不当当前保证，不安装/认领。\n\n来源：[保存帖1](https://x.com/i/status/1839967483614339583)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-55-experiment：1839967483614339583-02.jpg",
+    "已核对保存图片 `1839967483614339583-02.jpg`。takeover工具列表示例并发20/100、timeout/SSL及provider签名。provider指纹仅候选，实际dangling可认领/可绑定/当前DNS与授权需独立验证，timeout/无响应不证明不存在，历史参数不当当前保证，不安装/认领。\n\n来源：[保存帖1](https://x.com/i/status/1839967483614339583)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-57-passive：1840062233419628690-02.jpg",
+    "已核对保存图片 `1840062233419628690-02.jpg`。子域工具思维导图同被动CT/API、字典/排列、解析/反向与host观察分类，工具输出条数非有效资产；保留来源/时间/DNS/wildcard/归属，最快描述未验证，不安装或扫描。\n\n来源：[保存帖1](https://x.com/i/status/1840062233419628690)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-57-web：1840062233419628690-02.jpg",
+    "已核对保存图片 `1840062233419628690-02.jpg`。子域工具思维导图同被动CT/API、字典/排列、解析/反向与host观察分类，工具输出条数非有效资产；保留来源/时间/DNS/wildcard/归属，最快描述未验证，不安装或扫描。\n\n来源：[保存帖1](https://x.com/i/status/1840062233419628690)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-57-fuzz：1840062233419628690-02.jpg",
+    "已核对保存图片 `1840062233419628690-02.jpg`。子域工具思维导图同被动CT/API、字典/排列、解析/反向与host观察分类，工具输出条数非有效资产；保留来源/时间/DNS/wildcard/归属，最快描述未验证，不安装或扫描。\n\n来源：[保存帖1](https://x.com/i/status/1840062233419628690)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-57-records：1840062233419628690-02.jpg",
+    "已核对保存图片 `1840062233419628690-02.jpg`。子域工具思维导图同被动CT/API、字典/排列、解析/反向与host观察分类，工具输出条数非有效资产；保留来源/时间/DNS/wildcard/归属，最快描述未验证，不安装或扫描。\n\n来源：[保存帖1](https://x.com/i/status/1840062233419628690)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-57-scope：1840062233419628690-02.jpg",
+    "已核对保存图片 `1840062233419628690-02.jpg`。子域工具思维导图同被动CT/API、字典/排列、解析/反向与host观察分类，工具输出条数非有效资产；保留来源/时间/DNS/wildcard/归属，最快描述未验证，不安装或扫描。\n\n来源：[保存帖1](https://x.com/i/status/1840062233419628690)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-58-auth：1840072973660618860-02.jpg",
+    "已核对保存图片 `1840072973660618860-02.jpg`。Session清单含entropy/含义、传输/日志、身份映射、终止/fixation、cookie范围/编码/过期/flags、并发和CSRF。Base64解码不等加密破解，多IP有效不一概漏洞，HttpOnly/Secure非完整ACL；核稳定principal、生命周期撤销与服务端动作，用自有负例而不用保存token。\n\n来源：[保存帖1](https://x.com/i/status/1840072973660618860)。"
+  ],
+  [
+    "by-type/csrf.md",
+    "保存图证0236-58-csrf：1840072973660618860-02.jpg",
+    "已核对保存图片 `1840072973660618860-02.jpg`。Session清单含entropy/含义、传输/日志、身份映射、终止/fixation、cookie范围/编码/过期/flags、并发和CSRF。Base64解码不等加密破解，多IP有效不一概漏洞，HttpOnly/Secure非完整ACL；核稳定principal、生命周期撤销与服务端动作，用自有负例而不用保存token。\n\n来源：[保存帖1](https://x.com/i/status/1840072973660618860)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-58-access：1840072973660618860-02.jpg",
+    "已核对保存图片 `1840072973660618860-02.jpg`。Session清单含entropy/含义、传输/日志、身份映射、终止/fixation、cookie范围/编码/过期/flags、并发和CSRF。Base64解码不等加密破解，多IP有效不一概漏洞，HttpOnly/Secure非完整ACL；核稳定principal、生命周期撤销与服务端动作，用自有负例而不用保存token。\n\n来源：[保存帖1](https://x.com/i/status/1840072973660618860)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "保存图证0236-58-secret：1840072973660618860-02.jpg",
+    "已核对保存图片 `1840072973660618860-02.jpg`。Session清单含entropy/含义、传输/日志、身份映射、终止/fixation、cookie范围/编码/过期/flags、并发和CSRF。Base64解码不等加密破解，多IP有效不一概漏洞，HttpOnly/Secure非完整ACL；核稳定principal、生命周期撤销与服务端动作，用自有负例而不用保存token。\n\n来源：[保存帖1](https://x.com/i/status/1840072973660618860)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-58-source：1840072973660618860-02.jpg",
+    "已核对保存图片 `1840072973660618860-02.jpg`。Session清单含entropy/含义、传输/日志、身份映射、终止/fixation、cookie范围/编码/过期/flags、并发和CSRF。Base64解码不等加密破解，多IP有效不一概漏洞，HttpOnly/Secure非完整ACL；核稳定principal、生命周期撤销与服务端动作，用自有负例而不用保存token。\n\n来源：[保存帖1](https://x.com/i/status/1840072973660618860)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-58-experiment：1840072973660618860-02.jpg",
+    "已核对保存图片 `1840072973660618860-02.jpg`。Session清单含entropy/含义、传输/日志、身份映射、终止/fixation、cookie范围/编码/过期/flags、并发和CSRF。Base64解码不等加密破解，多IP有效不一概漏洞，HttpOnly/Secure非完整ACL；核稳定principal、生命周期撤销与服务端动作，用自有负例而不用保存token。\n\n来源：[保存帖1](https://x.com/i/status/1840072973660618860)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-60-passive：1840179194413604910-02.jpg",
+    "已核对保存图片 `1840179194413604910-02.jpg`。GoogleAlerts图有两个site查询，只能为新增索引线索提供增量来源，通知不证明新资产/当前漏洞或完整覆盖；保留query/时间/原链接与归属，未创建提醒或查询。\n\n来源：[保存帖1](https://x.com/i/status/1840179194413604910)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-60-records：1840179194413604910-02.jpg",
+    "已核对保存图片 `1840179194413604910-02.jpg`。GoogleAlerts图有两个site查询，只能为新增索引线索提供增量来源，通知不证明新资产/当前漏洞或完整覆盖；保留query/时间/原链接与归属，未创建提醒或查询。\n\n来源：[保存帖1](https://x.com/i/status/1840179194413604910)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-60-scope：1840179194413604910-02.jpg",
+    "已核对保存图片 `1840179194413604910-02.jpg`。GoogleAlerts图有两个site查询，只能为新增索引线索提供增量来源，通知不证明新资产/当前漏洞或完整覆盖；保留query/时间/原链接与归属，未创建提醒或查询。\n\n来源：[保存帖1](https://x.com/i/status/1840179194413604910)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-61-auth：1840201812860674488-02.jpg",
+    "已核对保存图片 `1840201812860674488-02.jpg`。第二字节2FA图同setup/bypass/disable检查索引，按真实主体、secret/备用码用途、生命周期和server动作验证；客户端/Referer/形态变化不是MFA验证结果，不爆破/设置真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1840201812860674488)。"
+  ],
+  [
+    "by-type/oauth-oidc.md",
+    "保存图证0236-61-oauth：1840201812860674488-02.jpg",
+    "已核对保存图片 `1840201812860674488-02.jpg`。第二字节2FA图同setup/bypass/disable检查索引，按真实主体、secret/备用码用途、生命周期和server动作验证；客户端/Referer/形态变化不是MFA验证结果，不爆破/设置真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1840201812860674488)。"
+  ],
+  [
+    "by-type/csrf.md",
+    "保存图证0236-61-csrf：1840201812860674488-02.jpg",
+    "已核对保存图片 `1840201812860674488-02.jpg`。第二字节2FA图同setup/bypass/disable检查索引，按真实主体、secret/备用码用途、生命周期和server动作验证；客户端/Referer/形态变化不是MFA验证结果，不爆破/设置真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1840201812860674488)。"
+  ],
+  [
+    "by-type/clickjacking.md",
+    "保存图证0236-61-click：1840201812860674488-02.jpg",
+    "已核对保存图片 `1840201812860674488-02.jpg`。第二字节2FA图同setup/bypass/disable检查索引，按真实主体、secret/备用码用途、生命周期和server动作验证；客户端/Referer/形态变化不是MFA验证结果，不爆破/设置真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1840201812860674488)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-61-access：1840201812860674488-02.jpg",
+    "已核对保存图片 `1840201812860674488-02.jpg`。第二字节2FA图同setup/bypass/disable检查索引，按真实主体、secret/备用码用途、生命周期和server动作验证；客户端/Referer/形态变化不是MFA验证结果，不爆破/设置真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1840201812860674488)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-61-source：1840201812860674488-02.jpg",
+    "已核对保存图片 `1840201812860674488-02.jpg`。第二字节2FA图同setup/bypass/disable检查索引，按真实主体、secret/备用码用途、生命周期和server动作验证；客户端/Referer/形态变化不是MFA验证结果，不爆破/设置真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1840201812860674488)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-61-experiment：1840201812860674488-02.jpg",
+    "已核对保存图片 `1840201812860674488-02.jpg`。第二字节2FA图同setup/bypass/disable检查索引，按真实主体、secret/备用码用途、生命周期和server动作验证；客户端/Referer/形态变化不是MFA验证结果，不爆破/设置真实MFA。\n\n来源：[保存帖1](https://x.com/i/status/1840201812860674488)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-62-scope：1840306739909902501-02.jpg",
+    "已核对保存图片 `1840306739909902501-02.jpg`。钓鱼清单列侦察、域名注册、发信、harvesting、分析、MFA代理、哈希与后续执行。训练渠道需另有明确范围，工具清单不授权联系或采集真实凭据，日志Captured不等接管；只提炼威胁/证据/身份边界，不安装、注册、发信或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840306739909902501)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-62-auth：1840306739909902501-02.jpg",
+    "已核对保存图片 `1840306739909902501-02.jpg`。钓鱼清单列侦察、域名注册、发信、harvesting、分析、MFA代理、哈希与后续执行。训练渠道需另有明确范围，工具清单不授权联系或采集真实凭据，日志Captured不等接管；只提炼威胁/证据/身份边界，不安装、注册、发信或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840306739909902501)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "保存图证0236-62-secret：1840306739909902501-02.jpg",
+    "已核对保存图片 `1840306739909902501-02.jpg`。钓鱼清单列侦察、域名注册、发信、harvesting、分析、MFA代理、哈希与后续执行。训练渠道需另有明确范围，工具清单不授权联系或采集真实凭据，日志Captured不等接管；只提炼威胁/证据/身份边界，不安装、注册、发信或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840306739909902501)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-62-source：1840306739909902501-02.jpg",
+    "已核对保存图片 `1840306739909902501-02.jpg`。钓鱼清单列侦察、域名注册、发信、harvesting、分析、MFA代理、哈希与后续执行。训练渠道需另有明确范围，工具清单不授权联系或采集真实凭据，日志Captured不等接管；只提炼威胁/证据/身份边界，不安装、注册、发信或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840306739909902501)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-62-records：1840306739909902501-02.jpg",
+    "已核对保存图片 `1840306739909902501-02.jpg`。钓鱼清单列侦察、域名注册、发信、harvesting、分析、MFA代理、哈希与后续执行。训练渠道需另有明确范围，工具清单不授权联系或采集真实凭据，日志Captured不等接管；只提炼威胁/证据/身份边界，不安装、注册、发信或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840306739909902501)。"
+  ],
+  [
+    "by-type/desktop-client.md",
+    "保存图证0236-63-desktop：1840309141832953945-02.jpg",
+    "已核对保存图片 `1840309141832953945-02.jpg`。CUPS模板图Nuclei3.3.4 -uncover从Shodan加载100目标、OAST/javascript high命中，未见规则/回调/打印触发或执行。服务发现或callback不能推完整RCE，版本/监听/consumer/身份与实际结果各核，指纹目标不等授权；未执行或获取外链模板。\n\n来源：[保存帖1](https://x.com/i/status/1840309141832953945)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-63-fuzz：1840309141832953945-02.jpg",
+    "已核对保存图片 `1840309141832953945-02.jpg`。CUPS模板图Nuclei3.3.4 -uncover从Shodan加载100目标、OAST/javascript high命中，未见规则/回调/打印触发或执行。服务发现或callback不能推完整RCE，版本/监听/consumer/身份与实际结果各核，指纹目标不等授权；未执行或获取外链模板。\n\n来源：[保存帖1](https://x.com/i/status/1840309141832953945)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-63-source：1840309141832953945-02.jpg",
+    "已核对保存图片 `1840309141832953945-02.jpg`。CUPS模板图Nuclei3.3.4 -uncover从Shodan加载100目标、OAST/javascript high命中，未见规则/回调/打印触发或执行。服务发现或callback不能推完整RCE，版本/监听/consumer/身份与实际结果各核，指纹目标不等授权；未执行或获取外链模板。\n\n来源：[保存帖1](https://x.com/i/status/1840309141832953945)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-63-scope：1840309141832953945-02.jpg",
+    "已核对保存图片 `1840309141832953945-02.jpg`。CUPS模板图Nuclei3.3.4 -uncover从Shodan加载100目标、OAST/javascript high命中，未见规则/回调/打印触发或执行。服务发现或callback不能推完整RCE，版本/监听/consumer/身份与实际结果各核，指纹目标不等授权；未执行或获取外链模板。\n\n来源：[保存帖1](https://x.com/i/status/1840309141832953945)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-63-experiment：1840309141832953945-02.jpg",
+    "已核对保存图片 `1840309141832953945-02.jpg`。CUPS模板图Nuclei3.3.4 -uncover从Shodan加载100目标、OAST/javascript high命中，未见规则/回调/打印触发或执行。服务发现或callback不能推完整RCE，版本/监听/consumer/身份与实际结果各核，指纹目标不等授权；未执行或获取外链模板。\n\n来源：[保存帖1](https://x.com/i/status/1840309141832953945)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-64-web：1840321428434137155-02.jpg",
+    "已核对保存图片 `1840321428434137155-02.jpg`。代理抓取列表含ip:port和0.0.0.0，文本不证明真实可用代理、归属或可访问目标。未知代理会接触请求/凭据，地址规范化和验证方式需明确；不连接公开代理或把多IP当限流测试许可。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-64-source：1840321428434137155-02.jpg",
+    "已核对保存图片 `1840321428434137155-02.jpg`。代理抓取列表含ip:port和0.0.0.0，文本不证明真实可用代理、归属或可访问目标。未知代理会接触请求/凭据，地址规范化和验证方式需明确；不连接公开代理或把多IP当限流测试许可。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-64-scope：1840321428434137155-02.jpg",
+    "已核对保存图片 `1840321428434137155-02.jpg`。代理抓取列表含ip:port和0.0.0.0，文本不证明真实可用代理、归属或可访问目标。未知代理会接触请求/凭据，地址规范化和验证方式需明确；不连接公开代理或把多IP当限流测试许可。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-64-records：1840321428434137155-02.jpg",
+    "已核对保存图片 `1840321428434137155-02.jpg`。代理抓取列表含ip:port和0.0.0.0，文本不证明真实可用代理、归属或可访问目标。未知代理会接触请求/凭据，地址规范化和验证方式需明确；不连接公开代理或把多IP当限流测试许可。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-65-fuzz：1840321428434137155-03.jpg",
+    "已核对保存图片 `1840321428434137155-03.jpg`。proxy-checker code模板图去重378、523targets与info输出，未展示各代理协议/验证结果或限流突破。签名模板仍本地执行，候选/可用性/授权分开，IP轮换不改变账户/动作配额，未运行代码、使用代理或绕过规则。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-65-source：1840321428434137155-03.jpg",
+    "已核对保存图片 `1840321428434137155-03.jpg`。proxy-checker code模板图去重378、523targets与info输出，未展示各代理协议/验证结果或限流突破。签名模板仍本地执行，候选/可用性/授权分开，IP轮换不改变账户/动作配额，未运行代码、使用代理或绕过规则。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-65-web：1840321428434137155-03.jpg",
+    "已核对保存图片 `1840321428434137155-03.jpg`。proxy-checker code模板图去重378、523targets与info输出，未展示各代理协议/验证结果或限流突破。签名模板仍本地执行，候选/可用性/授权分开，IP轮换不改变账户/动作配额，未运行代码、使用代理或绕过规则。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-65-scope：1840321428434137155-03.jpg",
+    "已核对保存图片 `1840321428434137155-03.jpg`。proxy-checker code模板图去重378、523targets与info输出，未展示各代理协议/验证结果或限流突破。签名模板仍本地执行，候选/可用性/授权分开，IP轮换不改变账户/动作配额，未运行代码、使用代理或绕过规则。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-65-experiment：1840321428434137155-03.jpg",
+    "已核对保存图片 `1840321428434137155-03.jpg`。proxy-checker code模板图去重378、523targets与info输出，未展示各代理协议/验证结果或限流突破。签名模板仍本地执行，候选/可用性/授权分开，IP轮换不改变账户/动作配额，未运行代码、使用代理或绕过规则。\n\n来源：[保存帖1](https://x.com/i/status/1840321428434137155)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-66-passive：1840323114506350741-02.jpg",
+    "已核对保存图片 `1840323114506350741-02.jpg`。搜索引擎图分资产/服务器、CT、代码、威胁、无线、邮箱等来源，标签不证明查询结果可靠或当前功能；时间/来源/归属和最小敏感数据保护独立，不查人、上传样本或调用外部。\n\n来源：[保存帖1](https://x.com/i/status/1840323114506350741)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-66-source：1840323114506350741-02.jpg",
+    "已核对保存图片 `1840323114506350741-02.jpg`。搜索引擎图分资产/服务器、CT、代码、威胁、无线、邮箱等来源，标签不证明查询结果可靠或当前功能；时间/来源/归属和最小敏感数据保护独立，不查人、上传样本或调用外部。\n\n来源：[保存帖1](https://x.com/i/status/1840323114506350741)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-66-records：1840323114506350741-02.jpg",
+    "已核对保存图片 `1840323114506350741-02.jpg`。搜索引擎图分资产/服务器、CT、代码、威胁、无线、邮箱等来源，标签不证明查询结果可靠或当前功能；时间/来源/归属和最小敏感数据保护独立，不查人、上传样本或调用外部。\n\n来源：[保存帖1](https://x.com/i/status/1840323114506350741)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-66-scope：1840323114506350741-02.jpg",
+    "已核对保存图片 `1840323114506350741-02.jpg`。搜索引擎图分资产/服务器、CT、代码、威胁、无线、邮箱等来源，标签不证明查询结果可靠或当前功能；时间/来源/归属和最小敏感数据保护独立，不查人、上传样本或调用外部。\n\n来源：[保存帖1](https://x.com/i/status/1840323114506350741)。"
+  ],
+  [
+    "by-type/graphql.md",
+    "保存图证0236-67-graphql：1840341166295810412-02.jpg",
+    "已核对保存图片 `1840341166295810412-02.jpg`。GraphQL工具图分introspection、错误推schema、代理展示、批量查询/变异等。schema可见不等resolver权限失效，关闭introspection也不保证字段安全；按字段/对象/身份与每个逻辑动作成本比较，未运行工具/批量请求。\n\n来源：[保存帖1](https://x.com/i/status/1840341166295810412)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-67-access：1840341166295810412-02.jpg",
+    "已核对保存图片 `1840341166295810412-02.jpg`。GraphQL工具图分introspection、错误推schema、代理展示、批量查询/变异等。schema可见不等resolver权限失效，关闭introspection也不保证字段安全；按字段/对象/身份与每个逻辑动作成本比较，未运行工具/批量请求。\n\n来源：[保存帖1](https://x.com/i/status/1840341166295810412)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-67-fuzz：1840341166295810412-02.jpg",
+    "已核对保存图片 `1840341166295810412-02.jpg`。GraphQL工具图分introspection、错误推schema、代理展示、批量查询/变异等。schema可见不等resolver权限失效，关闭introspection也不保证字段安全；按字段/对象/身份与每个逻辑动作成本比较，未运行工具/批量请求。\n\n来源：[保存帖1](https://x.com/i/status/1840341166295810412)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-67-source：1840341166295810412-02.jpg",
+    "已核对保存图片 `1840341166295810412-02.jpg`。GraphQL工具图分introspection、错误推schema、代理展示、批量查询/变异等。schema可见不等resolver权限失效，关闭introspection也不保证字段安全；按字段/对象/身份与每个逻辑动作成本比较，未运行工具/批量请求。\n\n来源：[保存帖1](https://x.com/i/status/1840341166295810412)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-67-scope：1840341166295810412-02.jpg",
+    "已核对保存图片 `1840341166295810412-02.jpg`。GraphQL工具图分introspection、错误推schema、代理展示、批量查询/变异等。schema可见不等resolver权限失效，关闭introspection也不保证字段安全；按字段/对象/身份与每个逻辑动作成本比较，未运行工具/批量请求。\n\n来源：[保存帖1](https://x.com/i/status/1840341166295810412)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-67-experiment：1840341166295810412-02.jpg",
+    "已核对保存图片 `1840341166295810412-02.jpg`。GraphQL工具图分introspection、错误推schema、代理展示、批量查询/变异等。schema可见不等resolver权限失效，关闭introspection也不保证字段安全；按字段/对象/身份与每个逻辑动作成本比较，未运行工具/批量请求。\n\n来源：[保存帖1](https://x.com/i/status/1840341166295810412)。"
+  ],
+  [
+    "by-type/graphql.md",
+    "保存图证0236-68-graphql：1840344404042870805-02.jpg",
+    "已核对保存图片 `1840344404042870805-02.jpg`。GraphQL图从发现/schema到替代推断、CSRF/方法格式、字段越权/alias/DoS/注入。__typename/错误只是指纹，GET变异必须实际执行才谈CSRF，alias是多个操作须独立ACL/限速，schema字段存在不证明可读敏感值；小字不补写，不压测或更改。\n\n来源：[保存帖1](https://x.com/i/status/1840344404042870805)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-68-auth：1840344404042870805-02.jpg",
+    "已核对保存图片 `1840344404042870805-02.jpg`。GraphQL图从发现/schema到替代推断、CSRF/方法格式、字段越权/alias/DoS/注入。__typename/错误只是指纹，GET变异必须实际执行才谈CSRF，alias是多个操作须独立ACL/限速，schema字段存在不证明可读敏感值；小字不补写，不压测或更改。\n\n来源：[保存帖1](https://x.com/i/status/1840344404042870805)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-68-access：1840344404042870805-02.jpg",
+    "已核对保存图片 `1840344404042870805-02.jpg`。GraphQL图从发现/schema到替代推断、CSRF/方法格式、字段越权/alias/DoS/注入。__typename/错误只是指纹，GET变异必须实际执行才谈CSRF，alias是多个操作须独立ACL/限速，schema字段存在不证明可读敏感值；小字不补写，不压测或更改。\n\n来源：[保存帖1](https://x.com/i/status/1840344404042870805)。"
+  ],
+  [
+    "by-type/csrf.md",
+    "保存图证0236-68-csrf：1840344404042870805-02.jpg",
+    "已核对保存图片 `1840344404042870805-02.jpg`。GraphQL图从发现/schema到替代推断、CSRF/方法格式、字段越权/alias/DoS/注入。__typename/错误只是指纹，GET变异必须实际执行才谈CSRF，alias是多个操作须独立ACL/限速，schema字段存在不证明可读敏感值；小字不补写，不压测或更改。\n\n来源：[保存帖1](https://x.com/i/status/1840344404042870805)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-68-fuzz：1840344404042870805-02.jpg",
+    "已核对保存图片 `1840344404042870805-02.jpg`。GraphQL图从发现/schema到替代推断、CSRF/方法格式、字段越权/alias/DoS/注入。__typename/错误只是指纹，GET变异必须实际执行才谈CSRF，alias是多个操作须独立ACL/限速，schema字段存在不证明可读敏感值；小字不补写，不压测或更改。\n\n来源：[保存帖1](https://x.com/i/status/1840344404042870805)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-68-source：1840344404042870805-02.jpg",
+    "已核对保存图片 `1840344404042870805-02.jpg`。GraphQL图从发现/schema到替代推断、CSRF/方法格式、字段越权/alias/DoS/注入。__typename/错误只是指纹，GET变异必须实际执行才谈CSRF，alias是多个操作须独立ACL/限速，schema字段存在不证明可读敏感值；小字不补写，不压测或更改。\n\n来源：[保存帖1](https://x.com/i/status/1840344404042870805)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-68-experiment：1840344404042870805-02.jpg",
+    "已核对保存图片 `1840344404042870805-02.jpg`。GraphQL图从发现/schema到替代推断、CSRF/方法格式、字段越权/alias/DoS/注入。__typename/错误只是指纹，GET变异必须实际执行才谈CSRF，alias是多个操作须独立ACL/限速，schema字段存在不证明可读敏感值；小字不补写，不压测或更改。\n\n来源：[保存帖1](https://x.com/i/status/1840344404042870805)。"
+  ],
+  [
+    "by-type/ai-application.md",
+    "保存图证0236-69-ai：1840346708473188829-02.jpg",
+    "已核对保存图片 `1840346708473188829-02.jpg`。ffufai图模型给4后缀、ffuf2.1.0-dev GET线程40/timeout10/广泛status matcher，未给命中或模型实际证据。推断后缀可能错/扩大预算，header/URL是未信任输入，保留原样本、人工限定候选与完整结果，模型建议不授权扫描或泄露目标/秘密，未调用或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840346708473188829)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-69-fuzz：1840346708473188829-02.jpg",
+    "已核对保存图片 `1840346708473188829-02.jpg`。ffufai图模型给4后缀、ffuf2.1.0-dev GET线程40/timeout10/广泛status matcher，未给命中或模型实际证据。推断后缀可能错/扩大预算，header/URL是未信任输入，保留原样本、人工限定候选与完整结果，模型建议不授权扫描或泄露目标/秘密，未调用或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840346708473188829)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-69-source：1840346708473188829-02.jpg",
+    "已核对保存图片 `1840346708473188829-02.jpg`。ffufai图模型给4后缀、ffuf2.1.0-dev GET线程40/timeout10/广泛status matcher，未给命中或模型实际证据。推断后缀可能错/扩大预算，header/URL是未信任输入，保留原样本、人工限定候选与完整结果，模型建议不授权扫描或泄露目标/秘密，未调用或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840346708473188829)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-69-web：1840346708473188829-02.jpg",
+    "已核对保存图片 `1840346708473188829-02.jpg`。ffufai图模型给4后缀、ffuf2.1.0-dev GET线程40/timeout10/广泛status matcher，未给命中或模型实际证据。推断后缀可能错/扩大预算，header/URL是未信任输入，保留原样本、人工限定候选与完整结果，模型建议不授权扫描或泄露目标/秘密，未调用或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840346708473188829)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-69-scope：1840346708473188829-02.jpg",
+    "已核对保存图片 `1840346708473188829-02.jpg`。ffufai图模型给4后缀、ffuf2.1.0-dev GET线程40/timeout10/广泛status matcher，未给命中或模型实际证据。推断后缀可能错/扩大预算，header/URL是未信任输入，保留原样本、人工限定候选与完整结果，模型建议不授权扫描或泄露目标/秘密，未调用或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840346708473188829)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-69-experiment：1840346708473188829-02.jpg",
+    "已核对保存图片 `1840346708473188829-02.jpg`。ffufai图模型给4后缀、ffuf2.1.0-dev GET线程40/timeout10/广泛status matcher，未给命中或模型实际证据。推断后缀可能错/扩大预算，header/URL是未信任输入，保留原样本、人工限定候选与完整结果，模型建议不授权扫描或泄露目标/秘密，未调用或执行。\n\n来源：[保存帖1](https://x.com/i/status/1840346708473188829)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-70-source：1840349960820142251-02.jpg",
+    "已核对保存图片 `1840349960820142251-02.jpg`。漏洞资料目录分CVE/NVD/OSV/GHSA、厂商公告、漏洞情报和利用集合。ID/数据库记录不等目标受影响或当前可达，保留组件版本/配置/实际consumer及最小证明；不下载执行利用或把目录当全文。\n\n来源：[保存帖1](https://x.com/i/status/1840349960820142251)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-70-passive：1840349960820142251-02.jpg",
+    "已核对保存图片 `1840349960820142251-02.jpg`。漏洞资料目录分CVE/NVD/OSV/GHSA、厂商公告、漏洞情报和利用集合。ID/数据库记录不等目标受影响或当前可达，保留组件版本/配置/实际consumer及最小证明；不下载执行利用或把目录当全文。\n\n来源：[保存帖1](https://x.com/i/status/1840349960820142251)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-70-records：1840349960820142251-02.jpg",
+    "已核对保存图片 `1840349960820142251-02.jpg`。漏洞资料目录分CVE/NVD/OSV/GHSA、厂商公告、漏洞情报和利用集合。ID/数据库记录不等目标受影响或当前可达，保留组件版本/配置/实际consumer及最小证明；不下载执行利用或把目录当全文。\n\n来源：[保存帖1](https://x.com/i/status/1840349960820142251)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-70-scope：1840349960820142251-02.jpg",
+    "已核对保存图片 `1840349960820142251-02.jpg`。漏洞资料目录分CVE/NVD/OSV/GHSA、厂商公告、漏洞情报和利用集合。ID/数据库记录不等目标受影响或当前可达，保留组件版本/配置/实际consumer及最小证明；不下载执行利用或把目录当全文。\n\n来源：[保存帖1](https://x.com/i/status/1840349960820142251)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存图证0236-71-xss：1840373532175577523-02.jpg",
+    "已核对保存图片 `1840373532175577523-02.jpg`。地址栏混合编码anchor/href/autofocus/事件，截图显示alert1但URL/源响应遮挡，难以确认完整链。需原字节→URL解码→HTML tokenizer的空白/实体→事件/动态import/CSP，弹窗不证明他人触发或Cookie/账户影响；不打开外域/执行。\n\n来源：[保存帖1](https://x.com/i/status/1840373532175577523)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "保存图证0236-71-client：1840373532175577523-02.jpg",
+    "已核对保存图片 `1840373532175577523-02.jpg`。地址栏混合编码anchor/href/autofocus/事件，截图显示alert1但URL/源响应遮挡，难以确认完整链。需原字节→URL解码→HTML tokenizer的空白/实体→事件/动态import/CSP，弹窗不证明他人触发或Cookie/账户影响；不打开外域/执行。\n\n来源：[保存帖1](https://x.com/i/status/1840373532175577523)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-71-web：1840373532175577523-02.jpg",
+    "已核对保存图片 `1840373532175577523-02.jpg`。地址栏混合编码anchor/href/autofocus/事件，截图显示alert1但URL/源响应遮挡，难以确认完整链。需原字节→URL解码→HTML tokenizer的空白/实体→事件/动态import/CSP，弹窗不证明他人触发或Cookie/账户影响；不打开外域/执行。\n\n来源：[保存帖1](https://x.com/i/status/1840373532175577523)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-71-source：1840373532175577523-02.jpg",
+    "已核对保存图片 `1840373532175577523-02.jpg`。地址栏混合编码anchor/href/autofocus/事件，截图显示alert1但URL/源响应遮挡，难以确认完整链。需原字节→URL解码→HTML tokenizer的空白/实体→事件/动态import/CSP，弹窗不证明他人触发或Cookie/账户影响；不打开外域/执行。\n\n来源：[保存帖1](https://x.com/i/status/1840373532175577523)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-71-experiment：1840373532175577523-02.jpg",
+    "已核对保存图片 `1840373532175577523-02.jpg`。地址栏混合编码anchor/href/autofocus/事件，截图显示alert1但URL/源响应遮挡，难以确认完整链。需原字节→URL解码→HTML tokenizer的空白/实体→事件/动态import/CSP，弹窗不证明他人触发或Cookie/账户影响；不打开外域/执行。\n\n来源：[保存帖1](https://x.com/i/status/1840373532175577523)。"
+  ],
+  [
+    "reporting.md",
+    "保存图证0236-72-report：1840422445645467648-02.jpg",
+    "已核对保存图片 `1840422445645467648-02.jpg`。WAMP报告邮件说已知一部分但额外差异给半奖而不duplicate，并限制细节披露。奖金归类不替代JS/logs/实际RPC权限证据；保留根因/对象/新增影响与修复状态，不联系/公开私密细节。\n\n来源：[保存帖1](https://x.com/i/status/1840422445645467648)。"
+  ],
+  [
+    "impact-and-acceptance.md",
+    "保存图证0236-72-impact：1840422445645467648-02.jpg",
+    "已核对保存图片 `1840422445645467648-02.jpg`。WAMP报告邮件说已知一部分但额外差异给半奖而不duplicate，并限制细节披露。奖金归类不替代JS/logs/实际RPC权限证据；保留根因/对象/新增影响与修复状态，不联系/公开私密细节。\n\n来源：[保存帖1](https://x.com/i/status/1840422445645467648)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-72-scope：1840422445645467648-02.jpg",
+    "已核对保存图片 `1840422445645467648-02.jpg`。WAMP报告邮件说已知一部分但额外差异给半奖而不duplicate，并限制细节披露。奖金归类不替代JS/logs/实际RPC权限证据；保留根因/对象/新增影响与修复状态，不联系/公开私密细节。\n\n来源：[保存帖1](https://x.com/i/status/1840422445645467648)。"
+  ],
+  [
+    "by-type/open-redirect.md",
+    "保存图证0236-73-redirect：1840583239393804336-02.png",
+    "已核对保存图片 `1840583239393804336-02.png`。Homograph图列大小写/相似Unicode，视觉相似不等host相同或一定不同。比较原码点、IDNA/URL解析后规范host、allowlist与真实Location/navigation，大小写一般同DNS，兼容映射依解析器；字符串黑名单/WAF命中不能证明redirect，未访问/注册。\n\n来源：[保存帖1](https://x.com/i/status/1840583239393804336)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-73-auth：1840583239393804336-02.png",
+    "已核对保存图片 `1840583239393804336-02.png`。Homograph图列大小写/相似Unicode，视觉相似不等host相同或一定不同。比较原码点、IDNA/URL解析后规范host、allowlist与真实Location/navigation，大小写一般同DNS，兼容映射依解析器；字符串黑名单/WAF命中不能证明redirect，未访问/注册。\n\n来源：[保存帖1](https://x.com/i/status/1840583239393804336)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-73-source：1840583239393804336-02.png",
+    "已核对保存图片 `1840583239393804336-02.png`。Homograph图列大小写/相似Unicode，视觉相似不等host相同或一定不同。比较原码点、IDNA/URL解析后规范host、allowlist与真实Location/navigation，大小写一般同DNS，兼容映射依解析器；字符串黑名单/WAF命中不能证明redirect，未访问/注册。\n\n来源：[保存帖1](https://x.com/i/status/1840583239393804336)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-73-web：1840583239393804336-02.png",
+    "已核对保存图片 `1840583239393804336-02.png`。Homograph图列大小写/相似Unicode，视觉相似不等host相同或一定不同。比较原码点、IDNA/URL解析后规范host、allowlist与真实Location/navigation，大小写一般同DNS，兼容映射依解析器；字符串黑名单/WAF命中不能证明redirect，未访问/注册。\n\n来源：[保存帖1](https://x.com/i/status/1840583239393804336)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-73-experiment：1840583239393804336-02.png",
+    "已核对保存图片 `1840583239393804336-02.png`。Homograph图列大小写/相似Unicode，视觉相似不等host相同或一定不同。比较原码点、IDNA/URL解析后规范host、allowlist与真实Location/navigation，大小写一般同DNS，兼容映射依解析器；字符串黑名单/WAF命中不能证明redirect，未访问/注册。\n\n来源：[保存帖1](https://x.com/i/status/1840583239393804336)。"
+  ],
+  [
+    "by-type/crlf-response-splitting.md",
+    "保存图证0236-74-crlf：1840591161620103504-02.jpg",
+    "已核对保存图片 `1840591161620103504-02.jpg`。CRLF图声称注入Content-Length0、第二HTTP响应/25字节script即可浏览器解析。实际需要后端允许控制字符、代理/协议状态及响应关联，示例Content-Type编码/长度与字节不一致；现代解析器可能拒绝多响应。核原字节/解码/连接framing和独特无害结果，不由字符串断言拆分或XSS，未发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840591161620103504)。"
+  ],
+  [
+    "by-type/request-smuggling.md",
+    "保存图证0236-74-hrs：1840591161620103504-02.jpg",
+    "已核对保存图片 `1840591161620103504-02.jpg`。CRLF图声称注入Content-Length0、第二HTTP响应/25字节script即可浏览器解析。实际需要后端允许控制字符、代理/协议状态及响应关联，示例Content-Type编码/长度与字节不一致；现代解析器可能拒绝多响应。核原字节/解码/连接framing和独特无害结果，不由字符串断言拆分或XSS，未发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840591161620103504)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存图证0236-74-xss：1840591161620103504-02.jpg",
+    "已核对保存图片 `1840591161620103504-02.jpg`。CRLF图声称注入Content-Length0、第二HTTP响应/25字节script即可浏览器解析。实际需要后端允许控制字符、代理/协议状态及响应关联，示例Content-Type编码/长度与字节不一致；现代解析器可能拒绝多响应。核原字节/解码/连接framing和独特无害结果，不由字符串断言拆分或XSS，未发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840591161620103504)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-74-web：1840591161620103504-02.jpg",
+    "已核对保存图片 `1840591161620103504-02.jpg`。CRLF图声称注入Content-Length0、第二HTTP响应/25字节script即可浏览器解析。实际需要后端允许控制字符、代理/协议状态及响应关联，示例Content-Type编码/长度与字节不一致；现代解析器可能拒绝多响应。核原字节/解码/连接framing和独特无害结果，不由字符串断言拆分或XSS，未发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840591161620103504)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-74-source：1840591161620103504-02.jpg",
+    "已核对保存图片 `1840591161620103504-02.jpg`。CRLF图声称注入Content-Length0、第二HTTP响应/25字节script即可浏览器解析。实际需要后端允许控制字符、代理/协议状态及响应关联，示例Content-Type编码/长度与字节不一致；现代解析器可能拒绝多响应。核原字节/解码/连接framing和独特无害结果，不由字符串断言拆分或XSS，未发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840591161620103504)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-74-experiment：1840591161620103504-02.jpg",
+    "已核对保存图片 `1840591161620103504-02.jpg`。CRLF图声称注入Content-Length0、第二HTTP响应/25字节script即可浏览器解析。实际需要后端允许控制字符、代理/协议状态及响应关联，示例Content-Type编码/长度与字节不一致；现代解析器可能拒绝多响应。核原字节/解码/连接framing和独特无害结果，不由字符串断言拆分或XSS，未发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840591161620103504)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-75-web：1840591356244185430-02.jpg",
+    "已核对保存图片 `1840591356244185430-02.jpg`。2012 Web测试图分配置/TLS、业务请求、认证授权、session、XSS/SQL其他注入、上传和misc。历史命令/默认设置不能当前通用，浏览器Back缓存≠服务器旧session可用、缺header≠漏洞、参数存在≠可达注入；按角色/对象/consumer正反例证据组织，未执行。\n\n来源：[保存帖1](https://x.com/i/status/1840591356244185430)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-75-auth：1840591356244185430-02.jpg",
+    "已核对保存图片 `1840591356244185430-02.jpg`。2012 Web测试图分配置/TLS、业务请求、认证授权、session、XSS/SQL其他注入、上传和misc。历史命令/默认设置不能当前通用，浏览器Back缓存≠服务器旧session可用、缺header≠漏洞、参数存在≠可达注入；按角色/对象/consumer正反例证据组织，未执行。\n\n来源：[保存帖1](https://x.com/i/status/1840591356244185430)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-75-access：1840591356244185430-02.jpg",
+    "已核对保存图片 `1840591356244185430-02.jpg`。2012 Web测试图分配置/TLS、业务请求、认证授权、session、XSS/SQL其他注入、上传和misc。历史命令/默认设置不能当前通用，浏览器Back缓存≠服务器旧session可用、缺header≠漏洞、参数存在≠可达注入；按角色/对象/consumer正反例证据组织，未执行。\n\n来源：[保存帖1](https://x.com/i/status/1840591356244185430)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-75-source：1840591356244185430-02.jpg",
+    "已核对保存图片 `1840591356244185430-02.jpg`。2012 Web测试图分配置/TLS、业务请求、认证授权、session、XSS/SQL其他注入、上传和misc。历史命令/默认设置不能当前通用，浏览器Back缓存≠服务器旧session可用、缺header≠漏洞、参数存在≠可达注入；按角色/对象/consumer正反例证据组织，未执行。\n\n来源：[保存帖1](https://x.com/i/status/1840591356244185430)。"
+  ],
+  [
+    "hunting-strategy.md",
+    "保存图证0236-75-strategy：1840591356244185430-02.jpg",
+    "已核对保存图片 `1840591356244185430-02.jpg`。2012 Web测试图分配置/TLS、业务请求、认证授权、session、XSS/SQL其他注入、上传和misc。历史命令/默认设置不能当前通用，浏览器Back缓存≠服务器旧session可用、缺header≠漏洞、参数存在≠可达注入；按角色/对象/consumer正反例证据组织，未执行。\n\n来源：[保存帖1](https://x.com/i/status/1840591356244185430)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-75-experiment：1840591356244185430-02.jpg",
+    "已核对保存图片 `1840591356244185430-02.jpg`。2012 Web测试图分配置/TLS、业务请求、认证授权、session、XSS/SQL其他注入、上传和misc。历史命令/默认设置不能当前通用，浏览器Back缓存≠服务器旧session可用、缺header≠漏洞、参数存在≠可达注入；按角色/对象/consumer正反例证据组织，未执行。\n\n来源：[保存帖1](https://x.com/i/status/1840591356244185430)。"
+  ],
+  [
+    "by-type/cache-deception.md",
+    "保存图证0236-76-cache：1840592591785439553-02.jpg",
+    "已核对保存图片 `1840592591785439553-02.jpg`。论坛预览正常用户cookie用于admin端的Autorize输出，显示Bypassed/Is enforced、长度和GraphQL路径，正文尚未展开异常。相同响应长度/自动标签不证明跨角色数据、缓存key或3/4秒TTL；需受控私密标记、时间、HIT/miss、独立请求/主体并排除公共内容，不读余文或发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840592591785439553)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "保存图证0236-76-access：1840592591785439553-02.jpg",
+    "已核对保存图片 `1840592591785439553-02.jpg`。论坛预览正常用户cookie用于admin端的Autorize输出，显示Bypassed/Is enforced、长度和GraphQL路径，正文尚未展开异常。相同响应长度/自动标签不证明跨角色数据、缓存key或3/4秒TTL；需受控私密标记、时间、HIT/miss、独立请求/主体并排除公共内容，不读余文或发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840592591785439553)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-76-web：1840592591785439553-02.jpg",
+    "已核对保存图片 `1840592591785439553-02.jpg`。论坛预览正常用户cookie用于admin端的Autorize输出，显示Bypassed/Is enforced、长度和GraphQL路径，正文尚未展开异常。相同响应长度/自动标签不证明跨角色数据、缓存key或3/4秒TTL；需受控私密标记、时间、HIT/miss、独立请求/主体并排除公共内容，不读余文或发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840592591785439553)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-76-records：1840592591785439553-02.jpg",
+    "已核对保存图片 `1840592591785439553-02.jpg`。论坛预览正常用户cookie用于admin端的Autorize输出，显示Bypassed/Is enforced、长度和GraphQL路径，正文尚未展开异常。相同响应长度/自动标签不证明跨角色数据、缓存key或3/4秒TTL；需受控私密标记、时间、HIT/miss、独立请求/主体并排除公共内容，不读余文或发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840592591785439553)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-76-experiment：1840592591785439553-02.jpg",
+    "已核对保存图片 `1840592591785439553-02.jpg`。论坛预览正常用户cookie用于admin端的Autorize输出，显示Bypassed/Is enforced、长度和GraphQL路径，正文尚未展开异常。相同响应长度/自动标签不证明跨角色数据、缓存key或3/4秒TTL；需受控私密标记、时间、HIT/miss、独立请求/主体并排除公共内容，不读余文或发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840592591785439553)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "保存图证0236-80-passive：1840745513894703515-02.jpg",
+    "已核对保存图片 `1840745513894703515-02.jpg`。人员资料搜索清单含姓名/邮箱/地址/家谱等来源。数据库广告/公开记录不证明身份正确或授权处理全部个人信息，保留来源/时间/必要性与不确定关系，不查人、付费、下载名单或联系。\n\n来源：[保存帖1](https://x.com/i/status/1840745513894703515)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-80-source：1840745513894703515-02.jpg",
+    "已核对保存图片 `1840745513894703515-02.jpg`。人员资料搜索清单含姓名/邮箱/地址/家谱等来源。数据库广告/公开记录不证明身份正确或授权处理全部个人信息，保留来源/时间/必要性与不确定关系，不查人、付费、下载名单或联系。\n\n来源：[保存帖1](https://x.com/i/status/1840745513894703515)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-80-scope：1840745513894703515-02.jpg",
+    "已核对保存图片 `1840745513894703515-02.jpg`。人员资料搜索清单含姓名/邮箱/地址/家谱等来源。数据库广告/公开记录不证明身份正确或授权处理全部个人信息，保留来源/时间/必要性与不确定关系，不查人、付费、下载名单或联系。\n\n来源：[保存帖1](https://x.com/i/status/1840745513894703515)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-80-records：1840745513894703515-02.jpg",
+    "已核对保存图片 `1840745513894703515-02.jpg`。人员资料搜索清单含姓名/邮箱/地址/家谱等来源。数据库广告/公开记录不证明身份正确或授权处理全部个人信息，保留来源/时间/必要性与不确定关系，不查人、付费、下载名单或联系。\n\n来源：[保存帖1](https://x.com/i/status/1840745513894703515)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存图证0236-81-xss：1840861917059113201-02.jpg",
+    "已核对保存图片 `1840861917059113201-02.jpg`。错误页面弹出prompt hacked，地址/目标遮挡，支持有限脚本展示但缺完整原请求/上下文。需关联同一参数、解码后的JS边界、CSP、触发主体与正常负例，不证明账号接管或他人执行，未请求。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "保存图证0236-81-client：1840861917059113201-02.jpg",
+    "已核对保存图片 `1840861917059113201-02.jpg`。错误页面弹出prompt hacked，地址/目标遮挡，支持有限脚本展示但缺完整原请求/上下文。需关联同一参数、解码后的JS边界、CSP、触发主体与正常负例，不证明账号接管或他人执行，未请求。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-81-web：1840861917059113201-02.jpg",
+    "已核对保存图片 `1840861917059113201-02.jpg`。错误页面弹出prompt hacked，地址/目标遮挡，支持有限脚本展示但缺完整原请求/上下文。需关联同一参数、解码后的JS边界、CSP、触发主体与正常负例，不证明账号接管或他人执行，未请求。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-81-source：1840861917059113201-02.jpg",
+    "已核对保存图片 `1840861917059113201-02.jpg`。错误页面弹出prompt hacked，地址/目标遮挡，支持有限脚本展示但缺完整原请求/上下文。需关联同一参数、解码后的JS边界、CSP、触发主体与正常负例，不证明账号接管或他人执行，未请求。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-81-experiment：1840861917059113201-02.jpg",
+    "已核对保存图片 `1840861917059113201-02.jpg`。错误页面弹出prompt hacked，地址/目标遮挡，支持有限脚本展示但缺完整原请求/上下文。需关联同一参数、解码后的JS边界、CSP、触发主体与正常负例，不证明账号接管或他人执行，未请求。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存图证0236-82-xss：1840861917059113201-03.jpg",
+    "已核对保存图片 `1840861917059113201-03.jpg`。正常source脚本有errorCode=fuzz双引号字符串，输入可能进入JS。<>没效果不排除字符串上下文；核原响应编码/转义、变量赋值与实际执行，不以script中存在字符串当XSS。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "保存图证0236-82-client：1840861917059113201-03.jpg",
+    "已核对保存图片 `1840861917059113201-03.jpg`。正常source脚本有errorCode=fuzz双引号字符串，输入可能进入JS。<>没效果不排除字符串上下文；核原响应编码/转义、变量赋值与实际执行，不以script中存在字符串当XSS。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-82-source：1840861917059113201-03.jpg",
+    "已核对保存图片 `1840861917059113201-03.jpg`。正常source脚本有errorCode=fuzz双引号字符串，输入可能进入JS。<>没效果不排除字符串上下文；核原响应编码/转义、变量赋值与实际执行，不以script中存在字符串当XSS。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-82-experiment：1840861917059113201-03.jpg",
+    "已核对保存图片 `1840861917059113201-03.jpg`。正常source脚本有errorCode=fuzz双引号字符串，输入可能进入JS。<>没效果不排除字符串上下文；核原响应编码/转义、变量赋值与实际执行，不以script中存在字符串当XSS。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "by-type/xss.md",
+    "保存图证0236-83-xss：1840861917059113201-04.jpg",
+    "已核对保存图片 `1840861917059113201-04.jpg`。变更source中errorCode拼接含prompt与引号/分号，提示JS字符串边界脱出候选；与正常源码、准确URL字节/解码和浏览器结果关联，需排除编辑器/本地响应修改，非所有字符串都可执行，不执行载荷。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "保存图证0236-83-client：1840861917059113201-04.jpg",
+    "已核对保存图片 `1840861917059113201-04.jpg`。变更source中errorCode拼接含prompt与引号/分号，提示JS字符串边界脱出候选；与正常源码、准确URL字节/解码和浏览器结果关联，需排除编辑器/本地响应修改，非所有字符串都可执行，不执行载荷。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-83-source：1840861917059113201-04.jpg",
+    "已核对保存图片 `1840861917059113201-04.jpg`。变更source中errorCode拼接含prompt与引号/分号，提示JS字符串边界脱出候选；与正常源码、准确URL字节/解码和浏览器结果关联，需排除编辑器/本地响应修改，非所有字符串都可执行，不执行载荷。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-83-experiment：1840861917059113201-04.jpg",
+    "已核对保存图片 `1840861917059113201-04.jpg`。变更source中errorCode拼接含prompt与引号/分号，提示JS字符串边界脱出候选；与正常源码、准确URL字节/解码和浏览器结果关联，需排除编辑器/本地响应修改，非所有字符串都可执行，不执行载荷。\n\n来源：[保存帖1](https://x.com/i/status/1840861917059113201)。"
+  ],
+  [
+    "by-type/csrf.md",
+    "保存图证0236-84-csrf：1840933480722510045-02.jpg",
+    "已核对保存图片 `1840933480722510045-02.jpg`。CSRF流程图看ambient cookie、token缺/复用、格式、简单/复杂请求和CORS。预检/ACAO可见不等带凭据动作成功，JSON非自动免CSRF，SameSite/Origin/Referer/动作权限需实际浏览器证据；mobile-only无cookie也非绝对安全判断，图的Not Possible分支不能替代完整环境核验，不跨站发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840933480722510045)。"
+  ],
+  [
+    "by-type/cors.md",
+    "保存图证0236-84-cors：1840933480722510045-02.jpg",
+    "已核对保存图片 `1840933480722510045-02.jpg`。CSRF流程图看ambient cookie、token缺/复用、格式、简单/复杂请求和CORS。预检/ACAO可见不等带凭据动作成功，JSON非自动免CSRF，SameSite/Origin/Referer/动作权限需实际浏览器证据；mobile-only无cookie也非绝对安全判断，图的Not Possible分支不能替代完整环境核验，不跨站发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840933480722510045)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "保存图证0236-84-auth：1840933480722510045-02.jpg",
+    "已核对保存图片 `1840933480722510045-02.jpg`。CSRF流程图看ambient cookie、token缺/复用、格式、简单/复杂请求和CORS。预检/ACAO可见不等带凭据动作成功，JSON非自动免CSRF，SameSite/Origin/Referer/动作权限需实际浏览器证据；mobile-only无cookie也非绝对安全判断，图的Not Possible分支不能替代完整环境核验，不跨站发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840933480722510045)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-84-web：1840933480722510045-02.jpg",
+    "已核对保存图片 `1840933480722510045-02.jpg`。CSRF流程图看ambient cookie、token缺/复用、格式、简单/复杂请求和CORS。预检/ACAO可见不等带凭据动作成功，JSON非自动免CSRF，SameSite/Origin/Referer/动作权限需实际浏览器证据；mobile-only无cookie也非绝对安全判断，图的Not Possible分支不能替代完整环境核验，不跨站发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840933480722510045)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-84-source：1840933480722510045-02.jpg",
+    "已核对保存图片 `1840933480722510045-02.jpg`。CSRF流程图看ambient cookie、token缺/复用、格式、简单/复杂请求和CORS。预检/ACAO可见不等带凭据动作成功，JSON非自动免CSRF，SameSite/Origin/Referer/动作权限需实际浏览器证据；mobile-only无cookie也非绝对安全判断，图的Not Possible分支不能替代完整环境核验，不跨站发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840933480722510045)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-84-experiment：1840933480722510045-02.jpg",
+    "已核对保存图片 `1840933480722510045-02.jpg`。CSRF流程图看ambient cookie、token缺/复用、格式、简单/复杂请求和CORS。预检/ACAO可见不等带凭据动作成功，JSON非自动免CSRF，SameSite/Origin/Referer/动作权限需实际浏览器证据；mobile-only无cookie也非绝对安全判断，图的Not Possible分支不能替代完整环境核验，不跨站发请求。\n\n来源：[保存帖1](https://x.com/i/status/1840933480722510045)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "保存图证0236-85-fuzz：1840935021479157907-02.jpg",
+    "已核对保存图片 `1840935021479157907-02.jpg`。目录扫描器图列DIRB/Gobuster/Dirsearch/Wfuzz/Dirbuster/ffuf，均为候选发现能力，状态/字数不证明文件私密或漏洞。核字典/扩展/深度/速率及失败/软404/重定向、身份和资产范围，未扫描。\n\n来源：[保存帖1](https://x.com/i/status/1840935021479157907)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-85-web：1840935021479157907-02.jpg",
+    "已核对保存图片 `1840935021479157907-02.jpg`。目录扫描器图列DIRB/Gobuster/Dirsearch/Wfuzz/Dirbuster/ffuf，均为候选发现能力，状态/字数不证明文件私密或漏洞。核字典/扩展/深度/速率及失败/软404/重定向、身份和资产范围，未扫描。\n\n来源：[保存帖1](https://x.com/i/status/1840935021479157907)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "保存图证0236-85-records：1840935021479157907-02.jpg",
+    "已核对保存图片 `1840935021479157907-02.jpg`。目录扫描器图列DIRB/Gobuster/Dirsearch/Wfuzz/Dirbuster/ffuf，均为候选发现能力，状态/字数不证明文件私密或漏洞。核字典/扩展/深度/速率及失败/软404/重定向、身份和资产范围，未扫描。\n\n来源：[保存帖1](https://x.com/i/status/1840935021479157907)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-85-scope：1840935021479157907-02.jpg",
+    "已核对保存图片 `1840935021479157907-02.jpg`。目录扫描器图列DIRB/Gobuster/Dirsearch/Wfuzz/Dirbuster/ffuf，均为候选发现能力，状态/字数不证明文件私密或漏洞。核字典/扩展/深度/速率及失败/软404/重定向、身份和资产范围，未扫描。\n\n来源：[保存帖1](https://x.com/i/status/1840935021479157907)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-85-experiment：1840935021479157907-02.jpg",
+    "已核对保存图片 `1840935021479157907-02.jpg`。目录扫描器图列DIRB/Gobuster/Dirsearch/Wfuzz/Dirbuster/ffuf，均为候选发现能力，状态/字数不证明文件私密或漏洞。核字典/扩展/深度/速率及失败/软404/重定向、身份和资产范围，未扫描。\n\n来源：[保存帖1](https://x.com/i/status/1840935021479157907)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-86-web：1840935428179845395-02.jpg",
+    "已核对保存图片 `1840935428179845395-02.jpg`。OSI图分HTTP/FTP/SMTP、TLS/SSL、socket、TCP/UDP、IP/ICMP、以太/WiFi和物理位流，层对应为简化教学非实际漏洞归类。socket API不固定session layer、TLS不等所有数据加密；跟踪真实协议/解析/重组/控制点和端到端证据，不由层标签推攻击效果。\n\n来源：[保存帖1](https://x.com/i/status/1840935428179845395)。"
+  ],
+  [
+    "by-type/desktop-client.md",
+    "保存图证0236-86-desktop：1840935428179845395-02.jpg",
+    "已核对保存图片 `1840935428179845395-02.jpg`。OSI图分HTTP/FTP/SMTP、TLS/SSL、socket、TCP/UDP、IP/ICMP、以太/WiFi和物理位流，层对应为简化教学非实际漏洞归类。socket API不固定session layer、TLS不等所有数据加密；跟踪真实协议/解析/重组/控制点和端到端证据，不由层标签推攻击效果。\n\n来源：[保存帖1](https://x.com/i/status/1840935428179845395)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-86-source：1840935428179845395-02.jpg",
+    "已核对保存图片 `1840935428179845395-02.jpg`。OSI图分HTTP/FTP/SMTP、TLS/SSL、socket、TCP/UDP、IP/ICMP、以太/WiFi和物理位流，层对应为简化教学非实际漏洞归类。socket API不固定session layer、TLS不等所有数据加密；跟踪真实协议/解析/重组/控制点和端到端证据，不由层标签推攻击效果。\n\n来源：[保存帖1](https://x.com/i/status/1840935428179845395)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-86-experiment：1840935428179845395-02.jpg",
+    "已核对保存图片 `1840935428179845395-02.jpg`。OSI图分HTTP/FTP/SMTP、TLS/SSL、socket、TCP/UDP、IP/ICMP、以太/WiFi和物理位流，层对应为简化教学非实际漏洞归类。socket API不固定session layer、TLS不等所有数据加密；跟踪真实协议/解析/重组/控制点和端到端证据，不由层标签推攻击效果。\n\n来源：[保存帖1](https://x.com/i/status/1840935428179845395)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "保存图证0236-87-web：1840936744960581660-02.jpg",
+    "已核对保存图片 `1840936744960581660-02.jpg`。网络图列访问、恶意内容/评估、无线、监控、分段、默认拒绝和配置备份。规则/产品安装不证明实际阻断或恢复，已知MAC不等身份，segment需验证真实流及管理例外；按授权流/拒绝/审计和还原样本核效果，不广播扫描或修改防火墙。\n\n来源：[保存帖1](https://x.com/i/status/1840936744960581660)。"
+  ],
+  [
+    "by-type/desktop-client.md",
+    "保存图证0236-87-desktop：1840936744960581660-02.jpg",
+    "已核对保存图片 `1840936744960581660-02.jpg`。网络图列访问、恶意内容/评估、无线、监控、分段、默认拒绝和配置备份。规则/产品安装不证明实际阻断或恢复，已知MAC不等身份，segment需验证真实流及管理例外；按授权流/拒绝/审计和还原样本核效果，不广播扫描或修改防火墙。\n\n来源：[保存帖1](https://x.com/i/status/1840936744960581660)。"
+  ],
+  [
+    "source-audit.md",
+    "保存图证0236-87-source：1840936744960581660-02.jpg",
+    "已核对保存图片 `1840936744960581660-02.jpg`。网络图列访问、恶意内容/评估、无线、监控、分段、默认拒绝和配置备份。规则/产品安装不证明实际阻断或恢复，已知MAC不等身份，segment需验证真实流及管理例外；按授权流/拒绝/审计和还原样本核效果，不广播扫描或修改防火墙。\n\n来源：[保存帖1](https://x.com/i/status/1840936744960581660)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "保存图证0236-87-scope：1840936744960581660-02.jpg",
+    "已核对保存图片 `1840936744960581660-02.jpg`。网络图列访问、恶意内容/评估、无线、监控、分段、默认拒绝和配置备份。规则/产品安装不证明实际阻断或恢复，已知MAC不等身份，segment需验证真实流及管理例外；按授权流/拒绝/审计和还原样本核效果，不广播扫描或修改防火墙。\n\n来源：[保存帖1](https://x.com/i/status/1840936744960581660)。"
+  ],
+  [
+    "experiment-design.md",
+    "保存图证0236-87-experiment：1840936744960581660-02.jpg",
+    "已核对保存图片 `1840936744960581660-02.jpg`。网络图列访问、恶意内容/评估、无线、监控、分段、默认拒绝和配置备份。规则/产品安装不证明实际阻断或恢复，已知MAC不等身份，segment需验证真实流及管理例外；按授权流/拒绝/审计和还原样本核效果，不广播扫描或修改防火墙。\n\n来源：[保存帖1](https://x.com/i/status/1840936744960581660)。"
+  ],
+  [
+    "by-type/business-logic.md",
+    "既有图证0236-20-logic：1838766751338955069-02.jpg",
+    "当前文件 `1838766751338955069-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Python示例以 ThreadPoolExecutor 两线程发送两个 updateEmail POST，载荷分别修改 newEmail，头部身份/Cookie为占位；Basic jwt_token 表述不能视为有效JWT授权格式。并发submit未保证服务端真正重叠，打印状态/正文未展示账号最终所有者。以虚拟账号状态机、同步屏障、验证token的邮箱/用户/操作绑定及事务版本对照，检查请求时序和最终状态，不能由示例宣布竞态ATO，不执行真实账号修改。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1838766751338955069)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "既有图证0236-20-auth：1838766751338955069-02.jpg",
+    "当前文件 `1838766751338955069-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Python示例以 ThreadPoolExecutor 两线程发送两个 updateEmail POST，载荷分别修改 newEmail，头部身份/Cookie为占位；Basic jwt_token 表述不能视为有效JWT授权格式。并发submit未保证服务端真正重叠，打印状态/正文未展示账号最终所有者。以虚拟账号状态机、同步屏障、验证token的邮箱/用户/操作绑定及事务版本对照，检查请求时序和最终状态，不能由示例宣布竞态ATO，不执行真实账号修改。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1838766751338955069)。"
+  ],
+  [
+    "by-type/oauth-oidc.md",
+    "既有图证0236-20-oauth：1838766751338955069-02.jpg",
+    "当前文件 `1838766751338955069-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Python示例以 ThreadPoolExecutor 两线程发送两个 updateEmail POST，载荷分别修改 newEmail，头部身份/Cookie为占位；Basic jwt_token 表述不能视为有效JWT授权格式。并发submit未保证服务端真正重叠，打印状态/正文未展示账号最终所有者。以虚拟账号状态机、同步屏障、验证token的邮箱/用户/操作绑定及事务版本对照，检查请求时序和最终状态，不能由示例宣布竞态ATO，不执行真实账号修改。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1838766751338955069)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "既有图证0236-20-records：1838766751338955069-02.jpg",
+    "当前文件 `1838766751338955069-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Python示例以 ThreadPoolExecutor 两线程发送两个 updateEmail POST，载荷分别修改 newEmail，头部身份/Cookie为占位；Basic jwt_token 表述不能视为有效JWT授权格式。并发submit未保证服务端真正重叠，打印状态/正文未展示账号最终所有者。以虚拟账号状态机、同步屏障、验证token的邮箱/用户/操作绑定及事务版本对照，检查请求时序和最终状态，不能由示例宣布竞态ATO，不执行真实账号修改。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1838766751338955069)。"
+  ],
+  [
+    "source-audit.md",
+    "既有图证0236-20-source：1838766751338955069-02.jpg",
+    "当前文件 `1838766751338955069-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Python示例以 ThreadPoolExecutor 两线程发送两个 updateEmail POST，载荷分别修改 newEmail，头部身份/Cookie为占位；Basic jwt_token 表述不能视为有效JWT授权格式。并发submit未保证服务端真正重叠，打印状态/正文未展示账号最终所有者。以虚拟账号状态机、同步屏障、验证token的邮箱/用户/操作绑定及事务版本对照，检查请求时序和最终状态，不能由示例宣布竞态ATO，不执行真实账号修改。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1838766751338955069)。"
+  ],
+  [
+    "experiment-design.md",
+    "既有图证0236-20-experiment：1838766751338955069-02.jpg",
+    "当前文件 `1838766751338955069-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Python示例以 ThreadPoolExecutor 两线程发送两个 updateEmail POST，载荷分别修改 newEmail，头部身份/Cookie为占位；Basic jwt_token 表述不能视为有效JWT授权格式。并发submit未保证服务端真正重叠，打印状态/正文未展示账号最终所有者。以虚拟账号状态机、同步屏障、验证token的邮箱/用户/操作绑定及事务版本对照，检查请求时序和最终状态，不能由示例宣布竞态ATO，不执行真实账号修改。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1838766751338955069)。"
+  ],
+  [
+    "impact-and-acceptance.md",
+    "既有图证0236-20-impact：1838766751338955069-02.jpg",
+    "当前文件 `1838766751338955069-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Python示例以 ThreadPoolExecutor 两线程发送两个 updateEmail POST，载荷分别修改 newEmail，头部身份/Cookie为占位；Basic jwt_token 表述不能视为有效JWT授权格式。并发submit未保证服务端真正重叠，打印状态/正文未展示账号最终所有者。以虚拟账号状态机、同步屏障、验证token的邮箱/用户/操作绑定及事务版本对照，检查请求时序和最终状态，不能由示例宣布竞态ATO，不执行真实账号修改。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1838766751338955069)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "既有图证0236-48-client：1839160128160858336-02.jpg",
+    "当前文件 `1839160128160858336-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。扩展图KNOXSS/Wappalyzer/FoxyProxy/RetireJS/DotGit/ModHeader/RequestMaker/Hunter/CookieEditor/Mitaka/Hackbar/OWASPPTK/TruffleHog/Bishop/HackTools/Shodan/OpenURLs/S3BucketList/d3coder是历史功能分类。自动后台探测/发请求/脚本、改Cookie/头和上传秘密需分别控制，指纹旧库/APIkey文本不证明漏洞/有效身份，缺XFO不单独clickjacking；扩展改本机响应不变服务器ACL，未安装/运行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839160128160858336)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "既有图证0236-48-web：1839160128160858336-02.jpg",
+    "当前文件 `1839160128160858336-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。扩展图KNOXSS/Wappalyzer/FoxyProxy/RetireJS/DotGit/ModHeader/RequestMaker/Hunter/CookieEditor/Mitaka/Hackbar/OWASPPTK/TruffleHog/Bishop/HackTools/Shodan/OpenURLs/S3BucketList/d3coder是历史功能分类。自动后台探测/发请求/脚本、改Cookie/头和上传秘密需分别控制，指纹旧库/APIkey文本不证明漏洞/有效身份，缺XFO不单独clickjacking；扩展改本机响应不变服务器ACL，未安装/运行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839160128160858336)。"
+  ],
+  [
+    "source-audit.md",
+    "既有图证0236-48-source：1839160128160858336-02.jpg",
+    "当前文件 `1839160128160858336-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。扩展图KNOXSS/Wappalyzer/FoxyProxy/RetireJS/DotGit/ModHeader/RequestMaker/Hunter/CookieEditor/Mitaka/Hackbar/OWASPPTK/TruffleHog/Bishop/HackTools/Shodan/OpenURLs/S3BucketList/d3coder是历史功能分类。自动后台探测/发请求/脚本、改Cookie/头和上传秘密需分别控制，指纹旧库/APIkey文本不证明漏洞/有效身份，缺XFO不单独clickjacking；扩展改本机响应不变服务器ACL，未安装/运行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839160128160858336)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "既有图证0236-48-records：1839160128160858336-02.jpg",
+    "当前文件 `1839160128160858336-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。扩展图KNOXSS/Wappalyzer/FoxyProxy/RetireJS/DotGit/ModHeader/RequestMaker/Hunter/CookieEditor/Mitaka/Hackbar/OWASPPTK/TruffleHog/Bishop/HackTools/Shodan/OpenURLs/S3BucketList/d3coder是历史功能分类。自动后台探测/发请求/脚本、改Cookie/头和上传秘密需分别控制，指纹旧库/APIkey文本不证明漏洞/有效身份，缺XFO不单独clickjacking；扩展改本机响应不变服务器ACL，未安装/运行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839160128160858336)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "既有图证0236-48-scope：1839160128160858336-02.jpg",
+    "当前文件 `1839160128160858336-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。扩展图KNOXSS/Wappalyzer/FoxyProxy/RetireJS/DotGit/ModHeader/RequestMaker/Hunter/CookieEditor/Mitaka/Hackbar/OWASPPTK/TruffleHog/Bishop/HackTools/Shodan/OpenURLs/S3BucketList/d3coder是历史功能分类。自动后台探测/发请求/脚本、改Cookie/头和上传秘密需分别控制，指纹旧库/APIkey文本不证明漏洞/有效身份，缺XFO不单独clickjacking；扩展改本机响应不变服务器ACL，未安装/运行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839160128160858336)。"
+  ],
+  [
+    "experiment-design.md",
+    "既有图证0236-48-experiment：1839160128160858336-02.jpg",
+    "当前文件 `1839160128160858336-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。扩展图KNOXSS/Wappalyzer/FoxyProxy/RetireJS/DotGit/ModHeader/RequestMaker/Hunter/CookieEditor/Mitaka/Hackbar/OWASPPTK/TruffleHog/Bishop/HackTools/Shodan/OpenURLs/S3BucketList/d3coder是历史功能分类。自动后台探测/发请求/脚本、改Cookie/头和上传秘密需分别控制，指纹旧库/APIkey文本不证明漏洞/有效身份，缺XFO不单独clickjacking；扩展改本机响应不变服务器ACL，未安装/运行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839160128160858336)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "既有图证0236-72-fuzz：1839365202783134073-02.jpg",
+    "当前文件 `1839365202783134073-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Nuclei2.9.15/templates9.8.6反射模板先无结果后靶场两Low命中/deprecated警告/debug只有请求开头。匹配不证明XSS/SSRF/redirect，保留版本和实际匹配段/失败覆盖，不运行扫描。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "既有图证0236-72-web：1839365202783134073-02.jpg",
+    "当前文件 `1839365202783134073-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Nuclei2.9.15/templates9.8.6反射模板先无结果后靶场两Low命中/deprecated警告/debug只有请求开头。匹配不证明XSS/SSRF/redirect，保留版本和实际匹配段/失败覆盖，不运行扫描。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "既有图证0236-72-records：1839365202783134073-02.jpg",
+    "当前文件 `1839365202783134073-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Nuclei2.9.15/templates9.8.6反射模板先无结果后靶场两Low命中/deprecated警告/debug只有请求开头。匹配不证明XSS/SSRF/redirect，保留版本和实际匹配段/失败覆盖，不运行扫描。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "experiment-design.md",
+    "既有图证0236-72-experiment：1839365202783134073-02.jpg",
+    "当前文件 `1839365202783134073-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Nuclei2.9.15/templates9.8.6反射模板先无结果后靶场两Low命中/deprecated警告/debug只有请求开头。匹配不证明XSS/SSRF/redirect，保留版本和实际匹配段/失败覆盖，不运行扫描。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "by-type/cache-deception.md",
+    "既有图证0236-72-cache：1839365202783134073-03.jpg",
+    "当前文件 `1839365202783134073-03.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。多请求头分别canary，Varnish Age21/UA hit/og:image采用xfh值。只是头影响表示线索；逐头惰性输入、缓存键、独立干净请求HIT和属性上下文/CSP对照，未见共享缓存被普通用户消费或脚本执行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "by-type/host-header.md",
+    "既有图证0236-72-host：1839365202783134073-03.jpg",
+    "当前文件 `1839365202783134073-03.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。多请求头分别canary，Varnish Age21/UA hit/og:image采用xfh值。只是头影响表示线索；逐头惰性输入、缓存键、独立干净请求HIT和属性上下文/CSP对照，未见共享缓存被普通用户消费或脚本执行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "by-type/xss.md",
+    "既有图证0236-72-xss：1839365202783134073-03.jpg",
+    "当前文件 `1839365202783134073-03.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。多请求头分别canary，Varnish Age21/UA hit/og:image采用xfh值。只是头影响表示线索；逐头惰性输入、缓存键、独立干净请求HIT和属性上下文/CSP对照，未见共享缓存被普通用户消费或脚本执行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "experiment-design.md",
+    "既有图证0236-72-experiment：1839365202783134073-03.jpg",
+    "当前文件 `1839365202783134073-03.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。多请求头分别canary，Varnish Age21/UA hit/og:image采用xfh值。只是头影响表示线索；逐头惰性输入、缓存键、独立干净请求HIT和属性上下文/CSP对照，未见共享缓存被普通用户消费或脚本执行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "impact-and-acceptance.md",
+    "既有图证0236-72-impact：1839365202783134073-03.jpg",
+    "当前文件 `1839365202783134073-03.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。多请求头分别canary，Varnish Age21/UA hit/og:image采用xfh值。只是头影响表示线索；逐头惰性输入、缓存键、独立干净请求HIT和属性上下文/CSP对照，未见共享缓存被普通用户消费或脚本执行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839365202783134073)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "既有图证0236-96-fuzz：1839629091026371003-02.jpg",
+    "当前文件 `1839629091026371003-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Nuclei2.9.15/templates9.8.6反射模板先无结果后靶场两Low命中/deprecated警告/debug只有请求开头。匹配不证明XSS/SSRF/redirect，保留版本和实际匹配段/失败覆盖，不运行扫描。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "既有图证0236-96-web：1839629091026371003-02.jpg",
+    "当前文件 `1839629091026371003-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Nuclei2.9.15/templates9.8.6反射模板先无结果后靶场两Low命中/deprecated警告/debug只有请求开头。匹配不证明XSS/SSRF/redirect，保留版本和实际匹配段/失败覆盖，不运行扫描。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "既有图证0236-96-records：1839629091026371003-02.jpg",
+    "当前文件 `1839629091026371003-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Nuclei2.9.15/templates9.8.6反射模板先无结果后靶场两Low命中/deprecated警告/debug只有请求开头。匹配不证明XSS/SSRF/redirect，保留版本和实际匹配段/失败覆盖，不运行扫描。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "experiment-design.md",
+    "既有图证0236-96-experiment：1839629091026371003-02.jpg",
+    "当前文件 `1839629091026371003-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。Nuclei2.9.15/templates9.8.6反射模板先无结果后靶场两Low命中/deprecated警告/debug只有请求开头。匹配不证明XSS/SSRF/redirect，保留版本和实际匹配段/失败覆盖，不运行扫描。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "by-type/cache-deception.md",
+    "既有图证0236-96-cache：1839629091026371003-03.jpg",
+    "当前文件 `1839629091026371003-03.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。多请求头分别canary，Varnish Age21/UA hit/og:image采用xfh值。只是头影响表示线索；逐头惰性输入、缓存键、独立干净请求HIT和属性上下文/CSP对照，未见共享缓存被普通用户消费或脚本执行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "by-type/host-header.md",
+    "既有图证0236-96-host：1839629091026371003-03.jpg",
+    "当前文件 `1839629091026371003-03.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。多请求头分别canary，Varnish Age21/UA hit/og:image采用xfh值。只是头影响表示线索；逐头惰性输入、缓存键、独立干净请求HIT和属性上下文/CSP对照，未见共享缓存被普通用户消费或脚本执行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "by-type/xss.md",
+    "既有图证0236-96-xss：1839629091026371003-03.jpg",
+    "当前文件 `1839629091026371003-03.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。多请求头分别canary，Varnish Age21/UA hit/og:image采用xfh值。只是头影响表示线索；逐头惰性输入、缓存键、独立干净请求HIT和属性上下文/CSP对照，未见共享缓存被普通用户消费或脚本执行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "experiment-design.md",
+    "既有图证0236-96-experiment：1839629091026371003-03.jpg",
+    "当前文件 `1839629091026371003-03.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。多请求头分别canary，Varnish Age21/UA hit/og:image采用xfh值。只是头影响表示线索；逐头惰性输入、缓存键、独立干净请求HIT和属性上下文/CSP对照，未见共享缓存被普通用户消费或脚本执行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "impact-and-acceptance.md",
+    "既有图证0236-96-impact：1839629091026371003-03.jpg",
+    "当前文件 `1839629091026371003-03.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。多请求头分别canary，Varnish Age21/UA hit/og:image采用xfh值。只是头影响表示线索；逐头惰性输入、缓存键、独立干净请求HIT和属性上下文/CSP对照，未见共享缓存被普通用户消费或脚本执行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "by-type/cache-deception.md",
+    "既有图证0236-96-cache：1839629091026371003-04.jpg",
+    "当前文件 `1839629091026371003-04.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。缓存靶场response Age0、miss、HTML og:image采用可控host/canary，工具Low反射，图尾Cookie标记与HTML标记不完全一致。说明头/表示影响候选，需逐头干净请求、cachekey/Vary/HIT与独立消费者对照，未证明共享缓存持久污染或JS执行，不使用Cookie/发外带。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "by-type/host-header.md",
+    "既有图证0236-96-host：1839629091026371003-04.jpg",
+    "当前文件 `1839629091026371003-04.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。缓存靶场response Age0、miss、HTML og:image采用可控host/canary，工具Low反射，图尾Cookie标记与HTML标记不完全一致。说明头/表示影响候选，需逐头干净请求、cachekey/Vary/HIT与独立消费者对照，未证明共享缓存持久污染或JS执行，不使用Cookie/发外带。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "by-type/xss.md",
+    "既有图证0236-96-xss：1839629091026371003-04.jpg",
+    "当前文件 `1839629091026371003-04.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。缓存靶场response Age0、miss、HTML og:image采用可控host/canary，工具Low反射，图尾Cookie标记与HTML标记不完全一致。说明头/表示影响候选，需逐头干净请求、cachekey/Vary/HIT与独立消费者对照，未证明共享缓存持久污染或JS执行，不使用Cookie/发外带。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "既有图证0236-96-web：1839629091026371003-04.jpg",
+    "当前文件 `1839629091026371003-04.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。缓存靶场response Age0、miss、HTML og:image采用可控host/canary，工具Low反射，图尾Cookie标记与HTML标记不完全一致。说明头/表示影响候选，需逐头干净请求、cachekey/Vary/HIT与独立消费者对照，未证明共享缓存持久污染或JS执行，不使用Cookie/发外带。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "experiment-design.md",
+    "既有图证0236-96-experiment：1839629091026371003-04.jpg",
+    "当前文件 `1839629091026371003-04.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。缓存靶场response Age0、miss、HTML og:image采用可控host/canary，工具Low反射，图尾Cookie标记与HTML标记不完全一致。说明头/表示影响候选，需逐头干净请求、cachekey/Vary/HIT与独立消费者对照，未证明共享缓存持久污染或JS执行，不使用Cookie/发外带。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839629091026371003)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "既有图证0236-113-auth：1839902482455048606-02.jpg",
+    "当前文件 `1839902482455048606-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902482455048606)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "既有图证0236-113-access：1839902482455048606-02.jpg",
+    "当前文件 `1839902482455048606-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902482455048606)。"
+  ],
+  [
+    "by-type/xss.md",
+    "既有图证0236-113-xss：1839902482455048606-02.jpg",
+    "当前文件 `1839902482455048606-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902482455048606)。"
+  ],
+  [
+    "by-type/sql-injection.md",
+    "既有图证0236-113-sql：1839902482455048606-02.jpg",
+    "当前文件 `1839902482455048606-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902482455048606)。"
+  ],
+  [
+    "by-type/business-logic.md",
+    "既有图证0236-113-logic：1839902482455048606-02.jpg",
+    "当前文件 `1839902482455048606-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902482455048606)。"
+  ],
+  [
+    "source-audit.md",
+    "既有图证0236-113-source：1839902482455048606-02.jpg",
+    "当前文件 `1839902482455048606-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902482455048606)。"
+  ],
+  [
+    "experiment-design.md",
+    "既有图证0236-113-experiment：1839902482455048606-02.jpg",
+    "当前文件 `1839902482455048606-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。注册大图列口令/重复身份、邮箱解析/截断、username路径、OTP/CAPTCHA/确认链接/敏感字段权限。客户端改响应不等认证，500不等DoS，邮箱看似同名与实际规范化/投递不同；固定字节、稳定身份、挑战用途/状态与消费端，JSON多个候选仍应逐动作限速，不建账号/发邮件/爆破。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902482455048606)。"
+  ],
+  [
+    "cloud/cloud-misconfiguration.md",
+    "既有图证0236-114-cloud：1839902924857848124-02.jpg",
+    "当前文件 `1839902924857848124-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。S3 Recon 图分 dork、浏览器代理/图片链接、在线索引、工具/模板、JS URL 正则与指纹。bucket 名/URL/标题仅候选，cdn/custom domain/pathstyle或region形式可能漏，图片公开可读是正常反例；列目录、GetObject、写权限和敏感内容分别核主体/策略/归属，不批量下载或写对象。管道参数无安全引用/误匹配要保留失败与原文，未查询。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902924857848124)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "既有图证0236-114-passive：1839902924857848124-02.jpg",
+    "当前文件 `1839902924857848124-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。S3 Recon 图分 dork、浏览器代理/图片链接、在线索引、工具/模板、JS URL 正则与指纹。bucket 名/URL/标题仅候选，cdn/custom domain/pathstyle或region形式可能漏，图片公开可读是正常反例；列目录、GetObject、写权限和敏感内容分别核主体/策略/归属，不批量下载或写对象。管道参数无安全引用/误匹配要保留失败与原文，未查询。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902924857848124)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "既有图证0236-114-web：1839902924857848124-02.jpg",
+    "当前文件 `1839902924857848124-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。S3 Recon 图分 dork、浏览器代理/图片链接、在线索引、工具/模板、JS URL 正则与指纹。bucket 名/URL/标题仅候选，cdn/custom domain/pathstyle或region形式可能漏，图片公开可读是正常反例；列目录、GetObject、写权限和敏感内容分别核主体/策略/归属，不批量下载或写对象。管道参数无安全引用/误匹配要保留失败与原文，未查询。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902924857848124)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "既有图证0236-114-client：1839902924857848124-02.jpg",
+    "当前文件 `1839902924857848124-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。S3 Recon 图分 dork、浏览器代理/图片链接、在线索引、工具/模板、JS URL 正则与指纹。bucket 名/URL/标题仅候选，cdn/custom domain/pathstyle或region形式可能漏，图片公开可读是正常反例；列目录、GetObject、写权限和敏感内容分别核主体/策略/归属，不批量下载或写对象。管道参数无安全引用/误匹配要保留失败与原文，未查询。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902924857848124)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "既有图证0236-114-secret：1839902924857848124-02.jpg",
+    "当前文件 `1839902924857848124-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。S3 Recon 图分 dork、浏览器代理/图片链接、在线索引、工具/模板、JS URL 正则与指纹。bucket 名/URL/标题仅候选，cdn/custom domain/pathstyle或region形式可能漏，图片公开可读是正常反例；列目录、GetObject、写权限和敏感内容分别核主体/策略/归属，不批量下载或写对象。管道参数无安全引用/误匹配要保留失败与原文，未查询。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902924857848124)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "既有图证0236-114-records：1839902924857848124-02.jpg",
+    "当前文件 `1839902924857848124-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。S3 Recon 图分 dork、浏览器代理/图片链接、在线索引、工具/模板、JS URL 正则与指纹。bucket 名/URL/标题仅候选，cdn/custom domain/pathstyle或region形式可能漏，图片公开可读是正常反例；列目录、GetObject、写权限和敏感内容分别核主体/策略/归属，不批量下载或写对象。管道参数无安全引用/误匹配要保留失败与原文，未查询。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902924857848124)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "既有图证0236-114-scope：1839902924857848124-02.jpg",
+    "当前文件 `1839902924857848124-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。S3 Recon 图分 dork、浏览器代理/图片链接、在线索引、工具/模板、JS URL 正则与指纹。bucket 名/URL/标题仅候选，cdn/custom domain/pathstyle或region形式可能漏，图片公开可读是正常反例；列目录、GetObject、写权限和敏感内容分别核主体/策略/归属，不批量下载或写对象。管道参数无安全引用/误匹配要保留失败与原文，未查询。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902924857848124)。"
+  ],
+  [
+    "experiment-design.md",
+    "既有图证0236-114-experiment：1839902924857848124-02.jpg",
+    "当前文件 `1839902924857848124-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。S3 Recon 图分 dork、浏览器代理/图片链接、在线索引、工具/模板、JS URL 正则与指纹。bucket 名/URL/标题仅候选，cdn/custom domain/pathstyle或region形式可能漏，图片公开可读是正常反例；列目录、GetObject、写权限和敏感内容分别核主体/策略/归属，不批量下载或写对象。管道参数无安全引用/误匹配要保留失败与原文，未查询。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1839902924857848124)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "既有图证0236-171-client：1840591721949725047-02.jpg",
+    "当前文件 `1840591721949725047-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。扩展图KNOXSS/Wappalyzer/FoxyProxy/RetireJS/DotGit/ModHeader/RequestMaker/Hunter/CookieEditor/Mitaka/Hackbar/OWASPPTK/TruffleHog/Bishop/HackTools/Shodan/OpenURLs/S3BucketList/d3coder是历史功能分类。自动后台探测/发请求/脚本、改Cookie/头和上传秘密需分别控制，指纹旧库/APIkey文本不证明漏洞/有效身份，缺XFO不单独clickjacking；扩展改本机响应不变服务器ACL，未安装/运行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1840591721949725047)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "既有图证0236-171-web：1840591721949725047-02.jpg",
+    "当前文件 `1840591721949725047-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。扩展图KNOXSS/Wappalyzer/FoxyProxy/RetireJS/DotGit/ModHeader/RequestMaker/Hunter/CookieEditor/Mitaka/Hackbar/OWASPPTK/TruffleHog/Bishop/HackTools/Shodan/OpenURLs/S3BucketList/d3coder是历史功能分类。自动后台探测/发请求/脚本、改Cookie/头和上传秘密需分别控制，指纹旧库/APIkey文本不证明漏洞/有效身份，缺XFO不单独clickjacking；扩展改本机响应不变服务器ACL，未安装/运行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1840591721949725047)。"
+  ],
+  [
+    "source-audit.md",
+    "既有图证0236-171-source：1840591721949725047-02.jpg",
+    "当前文件 `1840591721949725047-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。扩展图KNOXSS/Wappalyzer/FoxyProxy/RetireJS/DotGit/ModHeader/RequestMaker/Hunter/CookieEditor/Mitaka/Hackbar/OWASPPTK/TruffleHog/Bishop/HackTools/Shodan/OpenURLs/S3BucketList/d3coder是历史功能分类。自动后台探测/发请求/脚本、改Cookie/头和上传秘密需分别控制，指纹旧库/APIkey文本不证明漏洞/有效身份，缺XFO不单独clickjacking；扩展改本机响应不变服务器ACL，未安装/运行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1840591721949725047)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "既有图证0236-171-records：1840591721949725047-02.jpg",
+    "当前文件 `1840591721949725047-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。扩展图KNOXSS/Wappalyzer/FoxyProxy/RetireJS/DotGit/ModHeader/RequestMaker/Hunter/CookieEditor/Mitaka/Hackbar/OWASPPTK/TruffleHog/Bishop/HackTools/Shodan/OpenURLs/S3BucketList/d3coder是历史功能分类。自动后台探测/发请求/脚本、改Cookie/头和上传秘密需分别控制，指纹旧库/APIkey文本不证明漏洞/有效身份，缺XFO不单独clickjacking；扩展改本机响应不变服务器ACL，未安装/运行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1840591721949725047)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "既有图证0236-171-scope：1840591721949725047-02.jpg",
+    "当前文件 `1840591721949725047-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。扩展图KNOXSS/Wappalyzer/FoxyProxy/RetireJS/DotGit/ModHeader/RequestMaker/Hunter/CookieEditor/Mitaka/Hackbar/OWASPPTK/TruffleHog/Bishop/HackTools/Shodan/OpenURLs/S3BucketList/d3coder是历史功能分类。自动后台探测/发请求/脚本、改Cookie/头和上传秘密需分别控制，指纹旧库/APIkey文本不证明漏洞/有效身份，缺XFO不单独clickjacking；扩展改本机响应不变服务器ACL，未安装/运行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1840591721949725047)。"
+  ],
+  [
+    "experiment-design.md",
+    "既有图证0236-171-experiment：1840591721949725047-02.jpg",
+    "当前文件 `1840591721949725047-02.jpg` 的SHA256与已实际审阅内容相同，当前字节已重新核对，复用原审阅时间不重复新增图审阅。扩展图KNOXSS/Wappalyzer/FoxyProxy/RetireJS/DotGit/ModHeader/RequestMaker/Hunter/CookieEditor/Mitaka/Hackbar/OWASPPTK/TruffleHog/Bishop/HackTools/Shodan/OpenURLs/S3BucketList/d3coder是历史功能分类。自动后台探测/发请求/脚本、改Cookie/头和上传秘密需分别控制，指纹旧库/APIkey文本不证明漏洞/有效身份，缺XFO不单独clickjacking；扩展改本机响应不变服务器ACL，未安装/运行。 独立保留本帖来源/文件，候选、前提与确认边界分别核验，未执行请求或使用秘密。\n\n来源：[保存帖1](https://x.com/i/status/1840591721949725047)。"
+  ]
+]

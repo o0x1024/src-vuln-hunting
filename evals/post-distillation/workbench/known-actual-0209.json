@@ -1,0 +1,9 @@
+[
+  {
+    "name": "1763450979951825261-02.jpg",
+    "sha256": "4c93f9275804d171b1cf1299b36c6d9c72ff3311bc57092566bddcd60249f5a7",
+    "detail": "original",
+    "viewed_at": "2026-10-11T14:02:47.030Z",
+    "note": "已重新查看13类reset清单：限速/到期/email参数/Referer/token响应/用户枚举/poison/response修改/tokenOTP猜测/异主体token/逻辑/selfXSS/邮件超链接。自有mock时钟和两主体token、惰性链接生成器对比主体用途期限单次及输出编码，客户端response操纵不能改变服务器challenge；只有旧本人token不证明任何ATO，Referrer-Policy/真实请求来源与邮箱发信/最终密码状态分开，不发信或改真实密码。"
+  }
+]

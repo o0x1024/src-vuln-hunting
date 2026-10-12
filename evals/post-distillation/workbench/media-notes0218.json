@@ -1,0 +1,410 @@
+[
+  {
+    "i": 0,
+    "d": "D",
+    "a": "passive,records,source,scope,experiment",
+    "n": "Amass 输出保留 FQDN→NS/MX/A/AAAA/CNAME 关系，包含第三方 Cloudflare/Google/AWS 等目标。清洁输出不能把第三方归为己方资产或丢弃关系。离线比对原图关系与仅名称列表、别名/通配/IPv6，保存来源时间/版本，名称不证明当前可达或授权。"
+  },
+  {
+    "i": 1,
+    "d": "D",
+    "a": "apip,access,logic,source,experiment",
+    "n": "JSON Patch 示例包含 replace/add/remove 的顺序数组、结果及 JSON Pointer 说明，也列 move/copy/test；只是规范操作示意无越权结果。每个操作需检查目标/来源路径及字段授权、转义和数组语义，test不是权限校验。离线惰性对象与禁止role字段、源/目标允许列表及失败后状态对照，不能把patch可用等同于管理员提升。"
+  },
+  {
+    "i": 2,
+    "d": "D",
+    "a": "fuzz,web,records,source,experiment,impact",
+    "n": "Nuclei v2.9.15 reflection 模板先无结果后在缓存靶场匹配，同时deprecated protocol警告；debug只显示请求开头。反射matcher和Low标签不能证明XSS/CSRF/redirect。保存具体模板版本、原始请求、匹配段和失败覆盖，以离线惰性反射/编码/不存在字段夹具比较，不运行扫描器或泛化全类型漏洞。"
+  },
+  {
+    "i": 3,
+    "d": "D",
+    "a": "cache,host,xss,web,source,records,experiment,impact",
+    "n": "debug请求多个头放不同canary，返回Varnish Age21/UA hit及og:image URL采用xfh canary；只支持头影响缓存表示的线索，缺少独立干净请求命中或脚本执行。离线逐头惰性输入、缓存键、MISS/HIT与正确Host构造对照，区分资源URL/属性编码/浏览器执行，不能凭反射推定共享投毒或SSRF。"
+  },
+  {
+    "i": 4,
+    "d": "D",
+    "a": "cache,host,web,source,records,experiment,impact",
+    "n": "另一debug响应Age0/UA miss、og:image不同canary，下方Set-Cookie相关请求被裁切。对照缓存表示、请求头和键、独立无候选请求及失效后的输出，时间/随机数变化不自动是投毒。只保存靶场消费者和局部证据，不把Nuclei matcher当XSS/CSRF成功。"
+  },
+  {
+    "i": 5,
+    "d": "D",
+    "a": "ssrf,fuzz,source,scope,experiment,impact",
+    "n": "SSRFmap帮助列reqfile/param/modules、handler、files和proxy等选项，没有扫描输出。工具模块需要已确认server fetcher及独立协议/权限/消费者前提，不能识别所有SSRF。离线用虚拟fetcher和拒绝目标对照，不开handler、读文件、端口探测或运行示例。"
+  },
+  {
+    "i": 6,
+    "d": "N",
+    "a": "",
+    "n": "报告列表只有New及提交日期，无技术标题或步骤。"
+  },
+  {
+    "i": 7,
+    "d": "I",
+    "a": "",
+    "n": "triage评论只询问受害者如何访问链接，缺少缓存请求和权限结果，不推定社工规则或漏洞机制。"
+  },
+  {
+    "i": 8,
+    "d": "N",
+    "a": "",
+    "n": "高级SQL课程仓库分享封面，未展开代码或消费者。"
+  },
+  {
+    "i": 9,
+    "d": "D",
+    "a": "ai,web,auth,source,records,scope,experiment",
+    "n": "LLM扫描器配置界面含Custom/OpenAI/Replicate/Groq、HTTP模板PROMPT占位及Bearer占位，不含真实执行结果。把目标API、认证、预算和替换位置固定为结构化配置，0.0.0.0监听标记不能无条件当可连接远端。离线虚拟响应与字面占位/换行对照，请求成功或模型应答不能证明工具执行、越权或泄露，不使用API key/发起扫描。"
+  },
+  {
+    "i": 10,
+    "d": "I",
+    "a": "",
+    "n": "标题声称JS中client ID/secret允许查文档状态和上传，只有P3/Unresolved元信息，无秘密用途、授权或实际操作。"
+  },
+  {
+    "i": 11,
+    "d": "I",
+    "a": "",
+    "n": "Information Disclosure报告评级和奖励图，未显示config.zip内容/请求/匿名身份。"
+  },
+  {
+    "i": 12,
+    "d": "D",
+    "a": "ai,report,source,experiment,impact",
+    "n": "保存报告称Unicode tag characters使Hai不可见提示注入，步骤是提交虚构XSS报告、留空等级再让Hai建议；图中隐形字符和模型输出无法看见。提炼展示/模型输入差异、原始Unicode码点与资料/指令信任边界，以离线非行动惰性标志和正确引用数据对照，不按普通可见文本补造隐藏指令、提交假报告或认定等级被改。"
+  },
+  {
+    "i": 13,
+    "d": "D",
+    "a": "access,auth,files,source,experiment,impact",
+    "n": "Advanced Vetting案例可见terms_acceptance_data.csv GET及摘要字段类别，称已登录但无相应项目权限者可下载，完整返回/路径遮挡。下载与导出需按项目、角色、受众和字段检查，登录不等于项目成员。离线两个虚拟项目/主体及拒绝状态/最小CSV字段对照，不下载真实名单或抄录PII，沙箱观察不泛化生产。"
+  },
+  {
+    "i": 14,
+    "d": "N",
+    "a": "",
+    "n": "协作者25%分成及accepted/creator状态，无角色权限变更机制。"
+  },
+  {
+    "i": 15,
+    "d": "N",
+    "a": "",
+    "n": "会议讲者与标题海报，没有演讲正文。"
+  },
+  {
+    "i": 16,
+    "d": "N",
+    "a": "",
+    "n": "Bambdas仓库封面和统计，无过滤脚本或有效检测证据。"
+  },
+  {
+    "i": 17,
+    "d": "N",
+    "a": "",
+    "n": "Misconfig Mapper宣传封面，无配置或测试结果。"
+  },
+  {
+    "i": 18,
+    "d": "I",
+    "a": "",
+    "n": "ActiveMQ CVE/RCE标题及P1/Unresolved，不含安装/部署条件、输入或执行结果。"
+  },
+  {
+    "i": 19,
+    "d": "N",
+    "a": "",
+    "n": "讲者介绍幻灯片，无SSRF头部技术内容。"
+  },
+  {
+    "i": 20,
+    "d": "I",
+    "a": "",
+    "n": "CWE-200/High 7.5奖励卡，无Kentico目录/zip内容或权限结果。"
+  },
+  {
+    "i": 21,
+    "d": "N",
+    "a": "",
+    "n": "疲劳咖啡表情图，无技术内容。"
+  },
+  {
+    "i": 22,
+    "d": "D",
+    "a": "web,files,secret,source,records,experiment,impact",
+    "n": "图片给出wp-config备份/交换/.orig/.bak/.save/.dist及sample/inc/json路径候选，无响应。扩展名可改变静态/执行处理，sample不一定含真实秘密。离线虚拟文件、软404/登录/空PHP输出和正确访问控制对照内容类型与字段，保留原路径，不据名称使用数据库/密钥或推定有效泄露。"
+  },
+  {
+    "i": 23,
+    "d": "N",
+    "a": "",
+    "n": "sign-saboteur仓库分享封面，无签名验证代码或突破结果。"
+  },
+  {
+    "i": 24,
+    "d": "D",
+    "a": "ai,report,source,experiment,impact",
+    "n": "保存报告扩展给出反复插入关于作者声誉/高等级的文本、让Hai建议severity的流程；实际模型回答被遮挡。等级应依据技术证据而非报告内指令/作者声誉，展示不可见和模型可见字节需可审计。离线惰性标志、相同可见正文/不同码点与正确资料引用对照，不提交假报告、访问字符解码网站或补造遮挡输出。"
+  },
+  {
+    "i": 25,
+    "d": "D",
+    "a": "ai,source,report,experiment,impact",
+    "n": "图列出可影响赏金/有效性/等级的主张，代码名convert_from_tag_chars且对E0061–E007A范围减E0000，是有限的小写tag字符解码片段，不是完整编码生成器；其他字符/空格/控制标记不在所示范围。离线惰性Unicode字节与可见文本/结构化输入对照，记录丢失字符和信任边界，不执行源代码或把主张视为实际业务修改。"
+  },
+  {
+    "i": 26,
+    "d": "N",
+    "a": "",
+    "n": "CORSER仓库封面，无Origin/credentials/实际浏览器读响应。"
+  },
+  {
+    "i": 27,
+    "d": "D",
+    "a": "files,client,cmd,source,experiment,impact",
+    "n": "保存文章片段将HTML与.sh文本混合，并称部分Linux shell能在首行错误后继续；只有示例，没有下载字节/浏览器基准URL/真实执行。相对anchor的resolve、download命名、内容MIME与后续shell解释是不同消费者，下载不等于自动运行或RCE。离线惰性文本/不同base URL及纯数据查看负例比较，不创建、下载或运行脚本。"
+  },
+  {
+    "i": 28,
+    "d": "N",
+    "a": "",
+    "n": "Cacti界面新闻封面叠加仙人掌图，无漏洞步骤/输入/执行结果。"
+  },
+  {
+    "i": 29,
+    "d": "N",
+    "a": "",
+    "n": "SSRFmap仓库分享封面，无检测结果。"
+  },
+  {
+    "i": 30,
+    "d": "D",
+    "a": "source,records,secret,experiment",
+    "n": "CyberChef界面有编码形状输入、Recipe空白和Output空白，未显示转换。编码/解码、加解密与原始字节不同操作，保留配方、字符集、顺序及成功失败证据；离线惰性样本往返对照，不能把Base64样貌当密码保护或泄露，不粘贴秘密到外站。"
+  },
+  {
+    "i": 31,
+    "d": "D",
+    "a": "files,access,apip,logic,source,experiment,impact",
+    "n": "厂商摘要明确任意已登录用户知道scoping form ID即可上传附件，附件controller与pentest mutation ACL分离；普通用户访问空表单是预期但不能读取/提交/自动保存。离线两个虚拟账号/组织和同/异表单，分别对照查看、附件创建绑定、提交和下载最终记录，知道ID或可看空UI不授予写权限，不上传真实附件。"
+  },
+  {
+    "i": 32,
+    "d": "D",
+    "a": "xxe,files,source,records,experiment,impact",
+    "n": "Maximo工具输出500 NumberFormatException，字符串中可见Windows目录形状列表，报告标题标为XXE/CVE。未显示XML输入、解析器配置或独立响应，异常反射与外部实体解析需分别证明。离线惰性内联/禁用外部解析器及虚拟受限resolver对照来源，不运行PoC、读取系统文件或凭Critical等级推定RCE。"
+  },
+  {
+    "i": 33,
+    "d": "D",
+    "a": "crlf,hrs,ssrf,host,source,experiment,impact",
+    "n": "保存YQL厂商摘要称header()接受CR/LF，自定义头改变后端HTTP请求解析并触及内网proxy/服务；未显示原始字节或root步骤。CRLF注入与多hop边界差异分别检查，以离线惰性报文、头值拒绝和一致解析器比较，初始URL允许不授予后续目标访问；不发送走私请求或把摘要补为root控制。"
+  },
+  {
+    "i": 34,
+    "d": "D",
+    "a": "xxe,ssrf,lfi,source,experiment,impact",
+    "n": "旧YQL摘要描述feednormalizer的presxlurl载入XML、外部参数实体读取本地ASCII并通过FTP发送，权限为默认用户。解析器、resolver、文件权限和出站消费者是独立限制，回调不自动证明文件内容。离线虚拟实体/固定非敏感文本、禁止外部解析和协议允许列表比较，不读取文件或设FTP服务器。"
+  },
+  {
+    "i": 35,
+    "d": "D",
+    "a": "xxe,lfi,doc,source,experiment,impact",
+    "n": "旧摘要称xslt表允许stylesheet，unparsed-entity-uri及参数实体可读ASCII/目录，JAXP secure mode仍阻止代码执行/文件创建。历史摘要不提供完整样式和结果；安全模式不是所有I/O权限的统一开关。离线固定非敏感XML、受限resolver、文件/网络拒绝与函数消费者比较，不将读能力升级RCE。"
+  },
+  {
+    "i": 36,
+    "d": "D",
+    "a": "xxe,lfi,doc,source,experiment,impact",
+    "n": "旧摘要明确Xalan-JXSLTC、YQL xslt表与document()未限制可读XML，安全模式防代码/文件创建未覆盖该读取。以离线虚拟resolver/惰性XML、禁止file/network和明确consumer对照，不把所有XML处理器/当前版本套入旧案例，未显示原始请求不声称已复现。"
+  },
+  {
+    "i": 37,
+    "d": "D",
+    "a": "ssrf,cmd,source,experiment,impact",
+    "n": "旧YQL/ymon摘要描述HTTP redirects使anti-loopback初始检查失效，目标服务输入缺校验再导致系统命令执行；无具体请求/结果。fetcher逐跳/连接目标限制与ymon命令消费者分开，离线虚拟跳转/拒绝回环与固定字符串处理负例比较，SSRF不自动包含RCE/root，不执行内部请求或命令。"
+  },
+  {
+    "i": 38,
+    "d": "D",
+    "a": "redirect,takeover,passive,source,scope,experiment,impact",
+    "n": "Bitly摘要为官方账号描述中的失效短链转向非预期目的地，潜在可劫持；未显示短码控制/claim或当前跳转。固定链接重分配与参数任意重定向分开，离线短码所有者/目的地/历史版本对照与批准范围确认，不注册/认领短码、访问真实用户或依据评级推定已控制。"
+  },
+  {
+    "i": 39,
+    "d": "I",
+    "a": "",
+    "n": "IDOR Duplicate/Closed和评级元信息，无对象请求或权限对照。"
+  },
+  {
+    "i": 40,
+    "d": "D",
+    "a": "jwt,auth,secret,source,experiment,impact",
+    "n": "JWT tool v2.2.5解码HS256/typ及role等claims并调用字典选项，未见服务器验签/权限。Base64可读不等于验签通过或密钥泄露，claim是待验证数据。离线虚拟token比较签名、issuer/audience/有效期和固定算法，真实token不转录/解析/使用，不运行字典破解。"
+  },
+  {
+    "i": 41,
+    "d": "D",
+    "a": "jwt,auth,secret,source,experiment,impact",
+    "n": "工具声称找到短HMAC key并提供重新签名提示，只有离线日志，没有目标接受/权限结果。MAC匹配、密钥强度和服务端信任边界分开，离线已知虚拟密钥/错误签名、claim约束与算法允许列表对照，不使用图片token/key或把本机重签等同认证绕过。"
+  },
+  {
+    "i": 42,
+    "d": "D",
+    "a": "jwt,auth,apip,source,experiment",
+    "n": "JWT tool交互选择role字段，当前admin，没有修改后token或服务器输出。编辑JWT仅改变字节，权限消费者必须依据可信验证后的claims和主体当前状态；离线惰性合法/非法字段类型及签名对照，不凭编辑菜单推定提升。"
+  },
+  {
+    "i": 43,
+    "d": "D",
+    "a": "jwt,auth,apip,source,experiment,impact",
+    "n": "role输入null被显示为None，输出明示Signature unchanged/no signing method；修改payload但保留原签名通常失效。离线虚拟token的缺失/null/字符串和正确/错误签名对照实际解析/授权，显示token不是已被接受，不运行或复写凭据。"
+  },
+  {
+    "i": 44,
+    "d": "N",
+    "a": "",
+    "n": "课程网盘文件夹标题，无课程内容/技术步骤。"
+  },
+  {
+    "i": 45,
+    "d": "N",
+    "a": "",
+    "n": "Linux安全工具分类和名称信息图，没有配置、测试或漏洞消费者，不把工具清单当方法确认。"
+  },
+  {
+    "i": 46,
+    "d": "I",
+    "a": "",
+    "n": "奖励标题称password hash/ID/email导致认证绕过，缺少输入、返回、哈希用途或账号消费者。"
+  },
+  {
+    "i": 47,
+    "d": "D",
+    "a": "xss,client,source,experiment,impact",
+    "n": "代码寻找[nonce]元素、读取a.nonce并赋给新script再append。这已预设同origin JavaScript/DOM执行能力，不能说明仅HTML输入会自动读nonce或初始CSP绕过。离线惰性脚本节点、无/错误/正确nonce与HTML编码对照，nonce每响应不可预测，不执行外部script。"
+  },
+  {
+    "i": 48,
+    "d": "D",
+    "a": "xss,client,source,records,experiment,impact",
+    "n": "DevTools首次不赋nonce被CSP拒绝，赋nonce后GET外部脚本404；这是策略放行到网络但无脚本执行证据，且操作在console已具JS能力。离线CSP前提、DOM能力和HTTP资源结果分别对照，避免把控制台能力或404当真实注入/ATO。"
+  },
+  {
+    "i": 49,
+    "d": "I",
+    "a": "",
+    "n": "triage评论将PII评级从Medium到High并非Critical，仅字段类别，无认证请求或授权机制；不能作为当前统一评级规则。"
+  },
+  {
+    "i": 50,
+    "d": "N",
+    "a": "",
+    "n": "triage转交和等待最终审核的通知，无AEM请求或结果。"
+  },
+  {
+    "i": 51,
+    "d": "D",
+    "a": "crlf,host,source,records,experiment,impact",
+    "n": "图列LF/CR/CRLF、编码#/?、双/三重percent及%u形式Set-Cookie候选，没有响应；各hop解码/规范化、HTTP序列化及禁止控制字符必须绑定，%u不是通用URL解码。离线惰性头值/拒绝控制字节与一致解析器对照，状态反射不证明新头/响应分割，不发送这些请求或注入cookie。"
+  },
+  {
+    "i": 52,
+    "d": "I",
+    "a": "",
+    "n": "Accepted/Medium/250CHF元信息，无存储型XSS请求、读取链或执行证据。"
+  },
+  {
+    "i": 53,
+    "d": "N",
+    "a": "",
+    "n": "邮件确认正在审核PoC，无重置码/2FA/删除实际步骤。"
+  },
+  {
+    "i": 54,
+    "d": "N",
+    "a": "",
+    "n": "转交安全团队/后续赏金通知，无技术内容。"
+  },
+  {
+    "i": 55,
+    "d": "D",
+    "a": "source,files,auth,iot,experiment,impact",
+    "n": "QNAP share.cgi POST含ssid、get_file_size、path/name及长a字符串，响应200却有SIGSEGV/CRASHHANDLER日志。HTTP成功不等于处理成功；是否匿名、共享授权及具体stack overflow需代码/崩溃位置，图未见指令控制/RCE。离线有界字符串/长度检查、虚拟share grant与拒绝输入对照，不重放超长请求、崩溃设备或断言未认证RCE。"
+  },
+  {
+    "i": 56,
+    "d": "N",
+    "a": "",
+    "n": "XSRFProbe仓库分享封面，无浏览器跨站状态变化。"
+  },
+  {
+    "i": 57,
+    "d": "N",
+    "a": "",
+    "n": "客户端原型污染初学者封面，无原型赋值/对象消费者/技术步骤。"
+  },
+  {
+    "i": 58,
+    "d": "D",
+    "a": "passive,scope,strategy,records,experiment",
+    "n": "图列disclosure/security.txt/reward等搜索操作符和平台关键字，包括private program候选；索引词不是许可或当前项目范围，也不保证语法有效/完整覆盖。离线保存查询/时间/原始结果、无关噪声与有效政策来源对照，不按关键词访问私有项目、联系站点或假定奖励。"
+  },
+  {
+    "i": 59,
+    "d": "I",
+    "a": "",
+    "n": "研究封面声称RCE CVE低于关键暴露1%，无样本/定义/方法，不能推定全部漏洞分布或改配置普遍80%。"
+  },
+  {
+    "i": 60,
+    "d": "D",
+    "a": "source,client,records,experiment,impact",
+    "n": "图中 npm 包处于 Security holding package 状态，只有 0.0.1-security 占位版本及移除恶意代码的提示，没有原恶意代码或安装记录。依赖混淆必须确认项目中的实际依赖名、私有与公共 registry 的解析优先级、锁文件和实际下载摘要、安装脚本与执行权限；以离线虚拟解析器和锁文件作对照。占位包页面不证明某私有项目曾安装或发生代码执行，不安装、发布或使用包中代码。"
+  },
+  {
+    "i": 61,
+    "d": "D",
+    "a": "web,passive,records,source,scope,experiment",
+    "n": "LazyEgg 帮助页显示 links、images、cookies 提取及 -H 头输入能力，没有执行结果。保留请求头的原始字节和来源，以离线样本验证键值解析、相对 URL 的基址、去重和允许的协议；提取结果仅是发现线索，不证明端点可达或访问获授权。不发送图中的头或凭据。"
+  },
+  {
+    "i": 62,
+    "d": "D",
+    "a": "web,passive,records,source,scope,experiment",
+    "n": "终端的 testphpvulnweb 页面提取结果混合相对路径、绝对 HTTP/S URL、mailto 和重复链接，图片为相对 images/logo.gif，Cookies 列表为空。按保存页面的实际基址解析并保留原链接及来源，区分站内与第三方和非 HTTP 协议；用离线页面验证解析。Cookies 为空只代表该次提取结果，不能推出认证会话无 Cookie 或整个网站没有 Cookie。"
+  },
+  {
+    "i": 63,
+    "d": "D",
+    "a": "web,passive,records,source,scope,experiment",
+    "n": "artists.php 提取结果包含 artist=1/2/3 查询、片段 #、相对链接、外部链接、图片及空 Cookies。保留查询参数和页面来源，将片段与实际发往服务器的 URL 分开；用离线多页面样本验证基址、去重与采样边界。单页结果不证明完整爬取、对象可访问或跨用户权限正确。"
+  },
+  {
+    "i": 64,
+    "d": "N",
+    "a": "",
+    "n": "图片只有 SecretFinder 仓库封面和项目定位，没有源代码、扫描输出、密钥值或消费端证据，不能独立提炼漏洞机制。"
+  },
+  {
+    "i": 65,
+    "d": "N",
+    "a": "",
+    "n": "图片为新闻配图中的存钱罐，没有技术请求、响应、代码或验证结果。"
+  },
+  {
+    "i": 66,
+    "d": "D",
+    "a": "sql,auth,cmd,source,records,experiment,impact",
+    "n": "Windows 终端 PoC 使用提供的 IP、SID 和主机标识，日志逐步列出 session_id 候选，随后显示命令提示及 whoami 返回 zabbix、ifconfig 未找到、ip a 输出接口。日志没有原始 SQL 请求、时间对照或会话被服务器接受的过程；正文明确前提是拥有脚本权限的低权限用户。分别核对输入点与查询消费者、会话获取与认证接受、既有脚本权限与命令能力，以离线虚拟请求和会话状态作对照。不据此宣称未认证或 root 执行，不使用 SID、主机标识或运行命令。"
+  },
+  {
+    "i": 67,
+    "d": "D",
+    "a": "auth,jwt,secret,deser,source,experiment,impact",
+    "n": "badsecrets 表按框架列出 ViewState、Telerik、Flask、PeopleSoft、Django、Rails、JWT、JSF、Symfony、Express、Laravel 等格式与已知密钥检测条件，并标注框架模式、版本或键种类。先识别实际格式、编码、算法、签名 Cookie 模式及消费端版本，再用虚拟密钥和本地样本验证匹配；已知密钥命中、验签成功、服务端接受、授权变化和反序列化代码执行是分别需要证据的阶段。区分 HMAC 密钥与 RSA 私钥，公开 RSA 公钥不等于签名能力；不保存或使用真实密钥，不把各框架统一判为 RCE。"
+  }
+]

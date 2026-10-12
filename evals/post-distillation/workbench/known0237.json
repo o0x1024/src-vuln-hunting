@@ -1,0 +1,235 @@
+[
+  {
+    "name": "1841148211378991342-02.jpg",
+    "sha256": "6dd350dec2a111cf8a94c995b745fb1c0b5846b9d427cdf9f6ef22216ecf344a",
+    "prior": {
+      "sha256": "6dd350dec2a111cf8a94c995b745fb1c0b5846b9d427cdf9f6ef22216ecf344a",
+      "example_post_id": "1839455071270052133",
+      "image_name": "1839455071270052133-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/subdomain-takeover.md",
+        "references/discovery/passive-and-services.md",
+        "references/targeted-fuzzing.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md"
+      ],
+      "note": "另一不同字节WordPress模板图同5候选/high与缺站点URL。保留来源和版本，缺站/模板匹配不能证明可注册绑定，需DNS/服务名/验证前提，不认领或执行。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-12T01:14:08.444Z",
+      "batch": "media-0230"
+    }
+  },
+  {
+    "name": "1841148211378991342-03.jpg",
+    "sha256": "c0ed246000693841cdcb0aade86c81c31e0a09001f1e4216b2bac478289de3b7",
+    "prior": {
+      "sha256": "c0ed246000693841cdcb0aade86c81c31e0a09001f1e4216b2bac478289de3b7",
+      "example_post_id": "1839455071270052133",
+      "image_name": "1839455071270052133-03.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/targeted-fuzzing.md",
+        "references/discovery/web-and-api.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md"
+      ],
+      "note": "反射模板图与正文WordPress题目不同：Nuclei2.9.15/deprecated警告、第一靶场无结果、缓存靶场两Low、debug仅请求开头。独立保留来源，不把反射命中/无结果当XSS或不存在漏洞，核模板matcher/实际响应/失败覆盖，不执行。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-12T01:15:52.375Z",
+      "batch": "media-0230"
+    }
+  },
+  {
+    "name": "1841148211378991342-04.jpg",
+    "sha256": "d13f500a5b6e83e4457ad7faf9f2d3395e03a213d0143ada28b2967437617266",
+    "prior": {
+      "sha256": "d13f500a5b6e83e4457ad7faf9f2d3395e03a213d0143ada28b2967437617266",
+      "example_post_id": "1839455071270052133",
+      "image_name": "1839455071270052133-04.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/subdomain-takeover.md",
+        "references/discovery/passive-and-services.md",
+        "references/discovery/web-and-api.md",
+        "references/experiment-design.md"
+      ],
+      "note": "另一不同字节WordPress缺站页面仍只是provider错误线索，注册链接不证明可绑定目标域，核CNAME/时间/命名保留与授权，不认领。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-12T01:15:52.404Z",
+      "batch": "media-0230"
+    }
+  },
+  {
+    "name": "1841148211378991342-05.jpg",
+    "sha256": "62502a24fd46159a0f097a78dd71306b4bc0deec8c41b65869e4f0242182a1f5",
+    "prior": {
+      "sha256": "62502a24fd46159a0f097a78dd71306b4bc0deec8c41b65869e4f0242182a1f5",
+      "example_post_id": "1839455071270052133",
+      "image_name": "1839455071270052133-05.jpg",
+      "disposition": "insufficient_technical_detail",
+      "targets": [],
+      "note": "接管报告列表标题、等级和奖金无DNS/claim/控制证据，历史Resolved不证明当前目标。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-12T01:15:52.413Z",
+      "batch": "media-0230"
+    }
+  },
+  {
+    "name": "1841326938075345175-02.jpg",
+    "sha256": "f509c4c99df3ae9051ee9375e9ddb8f8bfafd1908971884102a935943140e7d2",
+    "prior": {
+      "sha256": "f509c4c99df3ae9051ee9375e9ddb8f8bfafd1908971884102a935943140e7d2",
+      "example_post_id": "1839159448859824444",
+      "image_name": "1839159448859824444-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/hunting-strategy.md",
+        "references/scope-and-rules.md",
+        "references/by-type/authn-session.md",
+        "references/by-type/desktop-client.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md"
+      ],
+      "note": "Ethical Hacking图含侦察、扫描、认证尝试、shell、本地sudo/SUID/capability/cron/NFS及掩痕标题。阶段不是默认授权链，已有本地身份/配置不等可提权，reverse/bind文字配对混用须核方向；只读观察、认证/执行/改PATH/写文件/清痕不同操作，保留原证据，不执行、喷洒凭据或掩盖日志。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-12T01:12:50.039Z",
+      "batch": "media-0230"
+    }
+  },
+  {
+    "name": "1841550012268085746-02.jpg",
+    "sha256": "9e78e81f1be4167c9065c3f1f8bcbb9ca14b3b4c51169238b5a1519fe09039e8",
+    "prior": {
+      "sha256": "9e78e81f1be4167c9065c3f1f8bcbb9ca14b3b4c51169238b5a1519fe09039e8",
+      "example_post_id": "1803449399781237175",
+      "image_name": "1803449399781237175-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/web-and-api.md",
+        "references/by-type/xss.md",
+        "references/by-type/ssrf.md",
+        "references/by-type/lfi-path-traversal.md",
+        "references/by-type/ssti.md",
+        "references/by-type/authn-session.md",
+        "references/source-audit.md",
+        "references/experiment-design.md"
+      ],
+      "note": "JIRA脑图12历史CVE按OAuth/iconURISSRF、wallboard/XSS、gadgetsSSRF、group/user/project枚举、pom.xml、TinyMCEtemplate、ContactAdministratorsSSTI、querycomponent字段等列路线。unauth标题不能覆盖不同版本/config/实际角色前提，XSS/responseclaims只是静态步骤，字段/项目key公开与敏感数据分开，nuclei候选不保证复现，不运行payload/读web.xml。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T19:37:45.806Z",
+      "batch": "media-0217"
+    }
+  },
+  {
+    "name": "1841563885134086345-02.png",
+    "sha256": "e3857e60113dfaa0dbf1b10d08887edb7f369956bf5083b5a0daaf2ad28094c8",
+    "prior": {
+      "sha256": "e3857e60113dfaa0dbf1b10d08887edb7f369956bf5083b5a0daaf2ad28094c8",
+      "example_post_id": "1667391104499716096",
+      "image_name": "1667391104499716096-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/xss.md"
+      ],
+      "note": "UntrustedTypes logDocumentwrite/innerHTML/eval和示例stackcollapsedinputd0mxss变体；sink日志不证控源escaping/execution，TT监控可观察不保证coverage",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T01:44:15.818Z",
+      "batch": "media-0174"
+    }
+  },
+  {
+    "name": "1841862583017443583-02.png",
+    "sha256": "570153164daaa9bcf694ac176801a3b5614cf1d00c81227d35a68dacbf2c596e",
+    "prior": {
+      "sha256": "570153164daaa9bcf694ac176801a3b5614cf1d00c81227d35a68dacbf2c596e",
+      "example_post_id": "1332750373694676992",
+      "image_name": "1332750373694676992-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整GitHub Gist装饰卡，无DOM comment代码/算法，不填未见片段",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T09:12:57.139Z",
+      "batch": "media-0058"
+    }
+  },
+  {
+    "name": "1842298880815480954-02.jpg",
+    "sha256": "5943a1ad7b7bc320826ca6f8ea25c41b14fed072ad0382a68f0a321d4b988211",
+    "prior": {
+      "sha256": "5943a1ad7b7bc320826ca6f8ea25c41b14fed072ad0382a68f0a321d4b988211",
+      "example_post_id": "1378567025178464259",
+      "image_name": "1378567025178464259-02.jpg",
+      "disposition": "insufficient_technical_detail",
+      "targets": [
+        "references/targeted-fuzzing.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md"
+      ],
+      "note": "Top25参数宣传图中背景名称模糊无法恢复全部词项；标题/版本标记不提供频率样本、完整文件或真实字段契约，未补猜名单。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-09 14:24:39 UTC",
+      "batch": "media-0080"
+    }
+  },
+  {
+    "name": "1842604928713548110-02.jpg",
+    "sha256": "7cbdf69426ca38458a3d0767965f728c7e3b4b7fc4832eb0be099e949f67c66a",
+    "prior": {
+      "sha256": "7cbdf69426ca38458a3d0767965f728c7e3b4b7fc4832eb0be099e949f67c66a",
+      "example_post_id": "1840309141832953945",
+      "image_name": "1840309141832953945-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/desktop-client.md",
+        "references/targeted-fuzzing.md",
+        "references/source-audit.md",
+        "references/scope-and-rules.md",
+        "references/experiment-design.md"
+      ],
+      "note": "CUPS模板图Nuclei3.3.4 -uncover从Shodan加载100目标、OAST/javascript high命中，未见规则/回调/打印触发或执行。服务发现或callback不能推完整RCE，版本/监听/consumer/身份与实际结果各核，指纹目标不等授权；未执行或获取外链模板。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-12T01:19:37.688Z",
+      "batch": "media-0230"
+    }
+  },
+  {
+    "name": "1843283231313166430-02.jpg",
+    "sha256": "b3967d5a4b09cfefda37961c6401e839f6a5a796b6c943349470c92044d55738",
+    "prior": {
+      "sha256": "b3967d5a4b09cfefda37961c6401e839f6a5a796b6c943349470c92044d55738",
+      "example_post_id": "1838108039359930464",
+      "image_name": "1838108039359930464-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/scope-and-rules.md",
+        "references/discovery/passive-and-services.md",
+        "references/discovery/web-and-api.md",
+        "references/discovery/client-and-cloud.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md"
+      ],
+      "note": "term.rohsec in-scope 输出与 domains=1 仍混合 wildcard域、app标识/SDK/数字和重复项。第三方字符串过滤不等权威 scope，需保存原资产类型/范围/排除/时间与项目政策再映射域名，通配或相关品牌不授权全部端口/资产；历史图不作现行授权，未调用服务或扫描。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-12T00:43:36.252Z",
+      "batch": "media-0229"
+    }
+  },
+  {
+    "name": "1843358851669864674-02.png",
+    "sha256": "c4b157b410a10d15f1e7ab9cfdee2741509f16d59549f89be151be55397d14ec",
+    "prior": {
+      "sha256": "c4b157b410a10d15f1e7ab9cfdee2741509f16d59549f89be151be55397d14ec",
+      "example_post_id": "1648132305012097024",
+      "image_name": "1648132305012097024-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/web-and-api.md"
+      ],
+      "note": "API清单30泛用项(静/动态、鉴权、输入错误/加密会话、XSSCSRFSQLXXEIDOR业务、brute/socialDoSRCE等)，无对象/状态/消费者/结果；清单不授予DoS社会工程暴力，应落角色对象动作/有限对照。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T23:28:40.057Z",
+      "batch": "media-0166"
+    }
+  }
+]

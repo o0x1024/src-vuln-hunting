@@ -1,0 +1,160 @@
+1|corrected|references/by-type/idor-access-control.md|管理端入口的路径与代理身份差异须回到同一业务动作
+2|corrected|references/by-type/info-secrets.md|项目调试文件与编辑器交换文件需验证真实内容归属
+3|corrected|references/by-type/lfi-path-traversal.md|压缩上传到 PHP 包含解释之间存在两道独立边界
+4|corrected|references/by-type/info-secrets.md|历史 URL 和搜索索引中的 token 线索仍需验证用途与访问边界
+5|excluded||完整保存正文/有意义替代文字已实际读完；If you still haven’t join our discord server then feel free to use this as invitation:；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+6|excluded||完整保存正文/有意义替代文字已实际读完；Great collection of security tools 🔥；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+7|corrected|references/by-type/xss.md|盲 XSS 面板应保留事件来源并拆开附加扫描结论
+8|corrected|references/targeted-fuzzing.md|正则黑盒模糊测试须跟踪验证与规范化的先后顺序
+9|excluded||完整保存正文/有意义替代文字已实际读完；YaY! Found a CRITICAL Vulnerability on @intigriti Reward $$$$ So much details when they Fix the Vuln .；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+10|corrected|references/by-type/idor-access-control.md|前端角色枚举只是查找服务端授权校验的起点
+11|corrected|references/by-type/xss.md|旧 Swagger UI 的 configUrl 消费者需与普通链接导航区分
+12|corrected|references/by-type/authn-session.md|多入口二步验证应共用服务端认证状态与凭据生命周期
+13|excluded||完整保存正文/有意义替代文字已实际读完；روی سایت ایرانسل داشتم تست نفوذ انجام میدادم که یه آدرس چشممو گرفت ، منم خیلی خوشحال سریع رفتم یه درخواست زدم بهش و با همچین صحنه ای روبه رو شدم 😂😂；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+14|excluded||完整保存正文/有意义替代文字已实际读完；"Motivate a Bug-Hunter, and he will hunt for a day.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+15|excluded||完整保存正文/有意义替代文字已实际读完；Great news；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+16|corrected|references/by-type/lfi-path-traversal.md|LFI 管道的 root:x 命中须绑定单个请求与文件消费者
+17|excluded||完整保存正文/有意义替代文字已实际读完；Vulnexp 90 ｜ Day18；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+18|corrected|references/scope-and-rules.md|外部渗透清单须把授权范围与具体动作逐项绑定
+19|corrected|references/discovery/passive-and-services.md|图标哈希只产生服务候选而非漏洞实例
+20|corrected|references/scope-and-rules.md|越范围资产的漏洞链须在触碰新边界前重新核授权
+21|excluded||完整保存正文/有意义替代文字已实际读完；2023: Bug bounty hunting for WordPress content injection vulnerability ｜｜ BUG BOUNTY ｜｜ POC；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+22|corrected|references/by-type/authn-session.md|待验证邮箱更改后旧链接不能验证新地址
+23|merged|references/by-type/authn-session.md|待验证邮箱更改后旧链接不能验证新地址
+24|merged|references/by-type/authn-session.md|待验证邮箱更改后旧链接不能验证新地址
+25|merged|references/by-type/authn-session.md|待验证邮箱更改后旧链接不能验证新地址
+26|merged|references/by-type/authn-session.md|待验证邮箱更改后旧链接不能验证新地址
+27|excluded||完整保存正文/有意义替代文字已实际读完；Python Burp Suite Extension – Part 3 [外链] #bugbountytips #informationsecurity #hacking #bugbountytip #pentesting #infosec #cybersecurity #security #bugbounty #websec；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+28|excluded||完整保存正文/有意义替代文字已实际读完；IDOR and API-keys🔑Token Hardcode Exposed；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+29|excluded||完整保存正文/有意义替代文字已实际读完；Insanely fast parameter enumeration tutorial!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+30|excluded||完整保存正文/有意义替代文字已实际读完；Hi!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+31|merged|references/by-type/info-secrets.md|历史 URL 和搜索索引中的 token 线索仍需验证用途与访问边界
+32|merged|references/by-type/xss.md|盲 XSS 面板应保留事件来源并拆开附加扫描结论
+33|corrected|references/cloud/cloud-misconfiguration.md|云评估与认证前后工具必须对应真实身份和资源
+34|corrected|references/by-type/open-redirect.md|重定向白名单应约束整条实际跳转链
+35|corrected|references/experiment-design.md|将不完整提示转为一个可证伪的实验假设
+36|excluded||完整保存正文/有意义替代文字已实际读完；🪲 Bugbounty hunters/Pentesters life；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+37|corrected|references/by-type/sql-injection.md|认证 SQL 片段需匹配真正查询结构与数据库方言
+38|merged|references/by-type/info-secrets.md|项目调试文件与编辑器交换文件需验证真实内容归属
+39|excluded||完整保存正文/有意义替代文字已实际读完；Automatic Vulnerability Scanner! Nuclei - Hacker Tools；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+40|corrected|references/by-type/host-header.md|HSTS 的主机状态键应在存取时采用相同规范化
+41|excluded||完整保存正文/有意义替代文字已实际读完；Some More places to Learn AWS Security for Bug-Bounty Hunting :-；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+42|corrected|references/by-type/authn-session.md|登录查询接口的账户资料字段应在授权前最小化
+43|excluded||完整保存正文/有意义替代文字已实际读完；Start your Cybersecurity journey - my step-by-step guide:；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+44|excluded||完整保存正文/有意义替代文字已实际读完；Tired of the old bugbounty dictionaries because they don't find anything? Try this one.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+45|excluded||完整保存正文/有意义替代文字已实际读完；Pre-Auth RCE in Aspera Faspex: Case Guide for Auditing Ruby on Rails；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+46|excluded||完整保存正文/有意义替代文字已实际读完；Secret Magpie - Secret Detection Tool；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+47|excluded||完整保存正文/有意义替代文字已实际读完；You're sleeping on this if you haven't read it yet 😴；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+48|excluded||完整保存正文/有意义替代文字已实际读完；Vulnexp 90 ｜ Day19；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+49|corrected|references/discovery/passive-and-services.md|共享 Analytics 标识和反向 DNS 只提供待核资产关联
+50|excluded||完整保存正文/有意义替代文字已实际读完；#P1 Remote Code Execution；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+51|excluded||完整保存正文/有意义替代文字已实际读完；My ultimate bug bounty tip would be not to fear what you don't know. #bugbountytips；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+52|excluded||完整保存正文/有意义替代文字已实际读完；For all the lazy bug hunters I created a test image for CVE-2022-44268 #ImageMagick .；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+53|excluded||完整保存正文/有意义替代文字已实际读完；@sl4x0 🔥🔥🔥；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+54|excluded||完整保存正文/有意义替代文字已实际读完；No More Free Bugs From 2023；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+55|excluded||完整保存正文/有意义替代文字已实际读完；Learning from others is amazing, but how do you find the content you're looking for?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+56|excluded||完整保存正文/有意义替代文字已实际读完；find vulnerability including orion sites with google dork, finding proxy lists in one go. Useful tools:⚡️；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+57|excluded||完整保存正文/有意义替代文字已实际读完；Subdomain takeover (try out this! it works)⚔️；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+58|excluded||完整保存正文/有意义替代文字已实际读完；Imagine that you go back 5 years in the past for a few hours.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+59|excluded||完整保存正文/有意义替代文字已实际读完；EAST - Extensible Azure Security Tool - Documentation [外链] #cybersecurity #bugbountytips #hacking #tools；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+60|excluded||完整保存正文/有意义替代文字已实际读完；Automation using python in bug bounty’s (full practical explanation)⚔️；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+61|merged|references/discovery/passive-and-services.md|图标哈希只产生服务候选而非漏洞实例
+62|merged|references/by-type/idor-access-control.md|管理端入口的路径与代理身份差异须回到同一业务动作
+63|merged|references/by-type/sql-injection.md|认证 SQL 片段需匹配真正查询结构与数据库方言
+64|corrected|references/discovery/passive-and-services.md|域名标签层级统计不能依赖未转义点的正则
+65|corrected|references/by-type/xss.md|路径反射命中须核最终来源和真实浏览器上下文
+66|corrected|references/by-type/authn-session.md|默认凭据候选必须分清产品识别、真实登录与角色能力
+67|corrected|references/by-type/info-secrets.md|源代码秘密扫描应绑定实际文件输入与匹配规则
+68|corrected|references/targeted-fuzzing.md|模板与 XSS 混合字符串要按不同解释器逐段定位
+69|corrected|references/discovery/records-and-incremental.md|ffuf 结果应从结构化字段提取并保存原始记录
+70|corrected|references/by-type/cmd-injection-rce.md|命令混合字符串的 DNS、延迟与文件写入证据应分开
+71|excluded||完整保存正文/有意义替代文字已实际读完；Recon Skills and Tips by God Father Orwa；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+72|corrected|references/experiment-design.md|浏览器扩展的代理与身份隔离会改变实验环境
+73|corrected|references/discovery/records-and-incremental.md|合并域名后批量 curl 应保留每条响应的身份与来源
+74|corrected|references/discovery/records-and-incremental.md|新域名扫描流程的提交点应区分完成、失败与配置变化
+75|excluded||完整保存正文/有意义替代文字已实际读完；EMAIL HEADER ANALYSIS⚔️；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+76|corrected|references/by-type/idor-access-control.md|双账户响应相同必须排除公共对象与共同拒绝
+77|corrected|references/discovery/web-and-api.md|缓存污染定义必须补齐缓存键与另一访问者取值
+78|excluded||完整保存正文/有意义替代文字已实际读完；🚨 ALERT !! 🚨；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+79|corrected|references/discovery/passive-and-services.md|DNS 解析器的完整率应由样本和错误状态验证
+80|corrected|references/by-type/mobile-android.md|Activity 的可调用性与每个 WebView 消费者要逐项核验；WebView 文件与脚本能力须证明不可信内容实际可达
+81|corrected|references/by-type/xxe.md|XXE 的回显、外部 DTD、错误与 XInclude 是不同通道
+82|corrected|references/discovery/records-and-incremental.md|远程连接日志应按时间、会话和主机关联后再解释
+83|corrected|references/by-type/open-redirect.md|路径中看似外部 URL 的重定向须核解析后的目的地
+84|merged|references/by-type/authn-session.md|默认凭据候选必须分清产品识别、真实登录与角色能力
+85|corrected|references/by-type/waf-bypass.md|模型给出的编码绕过建议必须经过真实解析链对照
+86|excluded||完整保存正文/有意义替代文字已实际读完；Bypassing Admin Panel?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+87|excluded||完整保存正文/有意义替代文字已实际读完；Used @trick3st for Almost 6 Day. Honestly Speaking, For Recon it's Best. Loved it. And Thanks for Providing me Trial.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+88|corrected|references/scope-and-rules.md|程序排除项与第三方集成影响应读取精确上下文
+89|excluded||完整保存正文/有意义替代文字已实际读完；Active and Passive modes in FTP；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+90|excluded||完整保存正文/有意义替代文字已实际读完；TeleGram Auto Pro v3.17.3 2019 Full Activated LifeTime – Discount 100% OFF [外链] #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity #100DaysOfCode #Malwar；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+91|corrected|references/targeted-fuzzing.md|字典命中的状态码需与软404和训练目标分开
+92|excluded||完整保存正文/有意义替代文字已实际读完；Burp Suite Extension In Python – Part 4 [外链] #bugbounty #bugbountytips #informationsecurity #infosec #hacking #security #websecurity #cybersecurity #pentesting #bugb；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+93|excluded||完整保存正文/有意义替代文字已实际读完；Vulnexp 90 ｜ Day21；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+94|excluded||完整保存正文/有意义替代文字已实际读完；Starting a new #bugbounty target? Here's a quick guide to help you hit the ground running 🧵👇 :；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+95|corrected|references/by-type/lfi-path-traversal.md|双编码路径需证明每层解码后都约束同一允许根
+96|excluded||完整保存正文/有意义替代文字已实际读完；#P1 XML External Entity Injection (XXE)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+97|corrected|references/by-type/authn-session.md|邮件冒用的投递结果、对齐验证与账户接管分开举证
+98|merged|references/experiment-design.md|将不完整提示转为一个可证伪的实验假设
+99|corrected|references/source-audit.md|静态堆报告须核所有权与实际控制流的可达性
+100|excluded||完整保存正文/有意义替代文字已实际读完；Our team make complete resource hub tool for hackers and bug bounty hunters；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+101|excluded||完整保存正文/有意义替代文字已实际读完；Understand The Recon Process；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+102|excluded||完整保存正文/有意义替代文字已实际读完；Reality of a Bug Hunting Journey in 7 Seconds😜；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+103|excluded||完整保存正文/有意义替代文字已实际读完；#BugBounty #bugbountytips #bugbountytip #xss #payload #payloads；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+104|excluded||完整保存正文/有意义替代文字已实际读完；Just scored a reward @intigriti；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+105|excluded||完整保存正文/有意义替代文字已实际读完；This blog is from 2017 but i learned a lot from the methodology；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+106|excluded||完整保存正文/有意义替代文字已实际读完；Hooked on learning? 🎣；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+107|corrected|references/experiment-design.md|模型生成的目录列表不能当服务器执行证据
+108|excluded||完整保存正文/有意义替代文字已实际读完；💣 XSS Hunter goes down Feb 11th!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+109|excluded||完整保存正文/有意义替代文字已实际读完；Valuable video @NahamSec；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+110|excluded||完整保存正文/有意义替代文字已实际读完；Bug Bounty Toolkit for beginners:；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+111|excluded||完整保存正文/有意义替代文字已实际读完；2FA Bypass all Techniques :；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+112|excluded||完整保存正文/有意义替代文字已实际读完；Neglected Default Password, a Security Flaw；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+113|corrected|references/by-type/ssrf.md|邮件连接参数的 SSRF 分阶段验证协议与前置认证
+114|merged|references/by-type/ssrf.md|邮件连接参数的 SSRF 分阶段验证协议与前置认证
+115|merged|references/by-type/ssrf.md|邮件连接参数的 SSRF 分阶段验证协议与前置认证
+116|corrected|references/by-type/business-logic.md|业务认领流程需验证最终授予结果而非中间电话提交
+117|excluded||完整保存正文/有意义替代文字已实际读完；epic games recon. Bug bounty program on hackerone.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+118|excluded||完整保存正文/有意义替代文字已实际读完；Metasploit Pro 4.22.0 – 2023013001 Full Activated – Best CyberSecurity Tools – Discount 100% OFF [外链] #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity ；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+119|excluded||完整保存正文/有意义替代文字已实际读完；Hey Bug Hunters I Hope You are doing well , I Wrote This Write-up About Clickjacking.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+120|corrected|references/by-type/xss.md|XSS 影响需由真实执行身份和可访问能力限定
+121|excluded||完整保存正文/有意义替代文字已实际读完；The Bug Bounty Hunting Course.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+122|excluded||完整保存正文/有意义替代文字已实际读完；A decent(updated) list of Search engines for hackers, people doing OSINT, and security analysts and researchers.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+123|corrected|references/by-type/csrf.md|更改 Content-Type 的 success 不等浏览器跨站 CSRF
+124|corrected|references/by-type/cmd-injection-rce.md|静态 HTTP 服务命令只说明已有执行环境的服务能力
+125|merged|references/discovery/passive-and-services.md|共享 Analytics 标识和反向 DNS 只提供待核资产关联
+126|corrected|references/discovery/passive-and-services.md|子域组合生成速度不能替代 DNS 与活服务覆盖
+127|corrected|references/by-type/authn-session.md|限流头的变化须确认权威计数键与总尝试预算
+128|corrected|references/discovery/client-and-cloud.md|JS 正则提取的路径必须绑定调用代码与实际参数
+129|merged|references/by-type/authn-session.md|多入口二步验证应共用服务端认证状态与凭据生命周期
+130|corrected|references/source-audit.md|依赖混淆候选须确认实际包解析与构建边界
+131|excluded||完整保存正文/有意义替代文字已实际读完；Just released: Reveal the Cloud with Google Dorks；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+132|excluded||完整保存正文/有意义替代文字已实际读完；⚡ Hacking Tool Lists；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+133|corrected|references/targeted-fuzzing.md|定点插入扫描必须固定基线和自动改写字段
+134|excluded||完整保存正文/有意义替代文字已实际读完；SOC Analyst: The Experience ⚔️:；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+135|merged|references/cloud/cloud-misconfiguration.md|云评估与认证前后工具必须对应真实身份和资源
+136|excluded||完整保存正文/有意义替代文字已实际读完；AWS SSRF to Root on production instance — A bug worth 1.75Lacs ($2200)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+137|excluded||完整保存正文/有意义替代文字已实际读完；💠 How I found out my first bug at LinkedIn；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+138|corrected|references/by-type/ssti.md|模板注入应区别模板源拼接与数据参数渲染
+139|merged|references/targeted-fuzzing.md|正则黑盒模糊测试须跟踪验证与规范化的先后顺序
+140|excluded||完整保存正文/有意义替代文字已实际读完；How to do recon suggest..；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+141|corrected|references/source-audit.md|移动静态审计与被动 JS 规则需验证规则覆盖和数据流
+142|excluded||完整保存正文/有意义替代文字已实际读完；I just published Chaining Bugs to get my First Bug Bounty [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+143|excluded||完整保存正文/有意义替代文字已实际读完；Starting today, I'll be sharing all the resources/notes I collected and used during my bug bounty journey including Website, Android, and IOS vulnerabilities🔥；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+144|merged|references/by-type/info-secrets.md|历史 URL 和搜索索引中的 token 线索仍需验证用途与访问边界
+145|corrected|references/source-audit.md|旧依赖报告需分清实际 lock 来源与可达漏洞条件
+146|merged|references/source-audit.md|旧依赖报告需分清实际 lock 来源与可达漏洞条件
+147|excluded||完整保存正文/有意义替代文字已实际读完；➡ Start your bug bounty with Pentabug. Request a free trial at - [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+148|excluded||完整保存正文/有意义替代文字已实际读完；All about: Business Logic Bugs；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+149|excluded||完整保存正文/有意义替代文字已实际读完；🌲[外链] via @pinterest 🌲#websecurity 🌴#cybersecurity #bugbountytips；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+150|excluded||完整保存正文/有意义替代文字已实际读完；Vulnexp 90 ｜ Day23；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+151|corrected|references/by-type/info-secrets.md|多服务 token 测试前需核变量输入和凭据分发边界
+152|excluded||完整保存正文/有意义替代文字已实际读完；### WAF / Cloudflare Bypass 20+ XSS Payloads；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+153|excluded||完整保存正文/有意义替代文字已实际读完；Blast from the past 🔥；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+154|excluded||完整保存正文/有意义替代文字已实际读完；what #bugbountytips do you guys want next?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+155|corrected|references/experiment-design.md|来历不明的工具应从来源和执行边界评估而非版本宣传
+156|merged|references/source-audit.md|移动静态审计与被动 JS 规则需验证规则覆盖和数据流
+157|excluded||完整保存正文/有意义替代文字已实际读完；Ruby on Rails Bug Hunter Handbook Compilation:；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+158|excluded||完整保存正文/有意义替代文字已实际读完；We’re so excited to be featuring our first female hacker in the newest ep of our “Hacker Story” series! 🙌；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+159|merged|references/source-audit.md|移动静态审计与被动 JS 规则需验证规则覆盖和数据流
+160|excluded||完整保存正文/有意义替代文字已实际读完；Finding bugs is an easy task? What's your opinion?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。

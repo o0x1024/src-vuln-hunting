@@ -1,0 +1,372 @@
+{
+  "2": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md,references/hunting-strategy.md",
+    "note": "保存正文0224-2-records：功能记录按消费者与信任边界检索；保存正文0224-2-strategy：功能记录按消费者与信任边界检索"
+  },
+  "4": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/by-type/authn-session.md,references/by-type/csrf.md,references/by-type/business-logic.md,references/by-type/file-upload.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-2-access：1805953687615119511-02.jpg；保存图证0224-2-auth：1805953687615119511-02.jpg；保存图证0224-2-csrf：1805953687615119511-02.jpg；保存图证0224-2-logic：1805953687615119511-02.jpg；保存图证0224-2-files：1805953687615119511-02.jpg；保存图证0224-2-source：1805953687615119511-02.jpg；保存图证0224-2-experiment：1805953687615119511-02.jpg"
+  },
+  "9": {
+    "dis": "corrected",
+    "targets": "references/by-type/xxe.md,references/discovery/web-and-api.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-9-xxe：嵌套JSON对象与XML资源入口；保存正文0224-9-web：嵌套JSON对象与XML资源入口；保存正文0224-9-source：嵌套JSON对象与XML资源入口；保存正文0224-9-experiment：嵌套JSON对象与XML资源入口"
+  },
+  "13": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/waf-bypass.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存既有图证0224-13-xss：1806030964927389823-03.jpg；保存既有图证0224-13-waf：1806030964927389823-03.jpg；保存既有图证0224-13-source：1806030964927389823-03.jpg；保存既有图证0224-13-experiment：1806030964927389823-03.jpg"
+  },
+  "16": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/client-and-cloud.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "保存正文0224-16-passive：证书名称是资产候选；保存正文0224-16-client：证书名称是资产候选；保存正文0224-16-records：证书名称是资产候选；保存正文0224-16-scope：证书名称是资产候选"
+  },
+  "17": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/by-type/info-secrets.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "保存正文0224-17-passive：文件分享索引与公开性反例；保存正文0224-17-secret：文件分享索引与公开性反例；保存正文0224-17-records：文件分享索引与公开性反例；保存正文0224-17-scope：文件分享索引与公开性反例"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/by-type/authn-session.md,references/source-audit.md,references/scope-and-rules.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存正文0224-19-web：Tomcat扫描器选项与实际访问；保存正文0224-19-auth：Tomcat扫描器选项与实际访问；保存正文0224-19-source：Tomcat扫描器选项与实际访问；保存正文0224-19-scope：Tomcat扫描器选项与实际访问；保存图证0224-9-web：1806206325119992008-02.png；保存图证0224-9-auth：1806206325119992008-02.png；保存图证0224-9-source：1806206325119992008-02.png；保存图证0224-9-records：1806206325119992008-02.png；保存图证0224-9-experiment：1806206325119992008-02.png；保存图证0224-9-scope：1806206325119992008-02.png"
+  },
+  "20": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md,references/by-type/xss.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-20-files：CSV导入到select消费者；保存正文0224-20-xss：CSV导入到select消费者；保存正文0224-20-source：CSV导入到select消费者；保存正文0224-20-experiment：CSV导入到select消费者"
+  },
+  "29": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/business-logic.md,references/source-audit.md,references/experiment-design.md,references/impact-and-acceptance.md,references/reporting.md",
+    "note": "保存正文0224-29-auth：安装向导可见不等于取得控制；保存正文0224-29-logic：安装向导可见不等于取得控制；保存正文0224-29-source：安装向导可见不等于取得控制；保存正文0224-29-experiment：安装向导可见不等于取得控制；保存图证0224-11-auth：1806255777868644589-02.jpg；保存图证0224-11-logic：1806255777868644589-02.jpg；保存图证0224-11-impact：1806255777868644589-02.jpg；保存图证0224-11-report：1806255777868644589-02.jpg；保存图证0224-11-experiment：1806255777868644589-02.jpg"
+  },
+  "30": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/business-logic.md,references/impact-and-acceptance.md,references/reporting.md,references/experiment-design.md",
+    "note": "保存图证0224-11-auth：1806262024768471099-03.jpg；保存图证0224-11-logic：1806262024768471099-03.jpg；保存图证0224-11-impact：1806262024768471099-03.jpg；保存图证0224-11-report：1806262024768471099-03.jpg；保存图证0224-11-experiment：1806262024768471099-03.jpg"
+  },
+  "32": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md,references/source-audit.md",
+    "note": "保存正文0224-32-passive：Katana声称全端点被动覆盖；保存正文0224-32-web：Katana声称全端点被动覆盖；保存正文0224-32-records：Katana声称全端点被动覆盖；保存正文0224-32-scope：Katana声称全端点被动覆盖；保存图证0224-12-passive：1806281781223829971-02.jpg；保存图证0224-12-web：1806281781223829971-02.jpg；保存图证0224-12-records：1806281781223829971-02.jpg；保存图证0224-12-source：1806281781223829971-02.jpg；保存图证0224-12-scope：1806281781223829971-02.jpg"
+  },
+  "33": {
+    "dis": "corrected",
+    "targets": "references/by-type/xxe.md,references/discovery/web-and-api.md,references/source-audit.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存图证0224-13-xxe：1806282512576176293-02.jpg；保存图证0224-13-web：1806282512576176293-02.jpg；保存图证0224-13-source：1806282512576176293-02.jpg；保存图证0224-13-records：1806282512576176293-02.jpg；保存图证0224-13-experiment：1806282512576176293-02.jpg"
+  },
+  "34": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-34-sql：Sitemap offset时间差证据；保存正文0224-34-source：Sitemap offset时间差证据；保存正文0224-34-experiment：Sitemap offset时间差证据"
+  },
+  "36": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "保存正文0224-36-passive：Shodan导出IP保留观测元数据；保存正文0224-36-records：Shodan导出IP保留观测元数据；保存正文0224-36-scope：Shodan导出IP保留观测元数据"
+  },
+  "38": {
+    "dis": "corrected",
+    "targets": "references/reporting.md,references/source-audit.md,references/experiment-design.md,references/scope-and-rules.md",
+    "note": "保存正文0224-38-67-report：修复回归与不同环境归并；保存正文0224-38-67-source：修复回归与不同环境归并；保存正文0224-38-67-experiment：修复回归与不同环境归并；保存正文0224-38-67-scope：修复回归与不同环境归并"
+  },
+  "39": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-18-xss：1806308292085661926-02.jpg；保存图证0224-18-source：1806308292085661926-02.jpg；保存图证0224-18-experiment：1806308292085661926-02.jpg"
+  },
+  "42": {
+    "dis": "corrected",
+    "targets": "references/by-type/xxe.md,references/discovery/web-and-api.md,references/source-audit.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存图证0224-20-xxe：1806343043257155619-02.jpg；保存图证0224-20-web：1806343043257155619-02.jpg；保存图证0224-20-source：1806343043257155619-02.jpg；保存图证0224-20-records：1806343043257155619-02.jpg；保存图证0224-20-experiment：1806343043257155619-02.jpg"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md,references/discovery/passive-and-services.md,references/source-audit.md,references/experiment-design.md,references/scope-and-rules.md,references/impact-and-acceptance.md",
+    "note": "保存图证0224-21-takeover：1806387214429106257-02.jpg；保存图证0224-21-passive：1806387214429106257-02.jpg；保存图证0224-21-source：1806387214429106257-02.jpg；保存图证0224-21-experiment：1806387214429106257-02.jpg；保存图证0224-21-scope：1806387214429106257-02.jpg；保存图证0224-21-impact：1806387214429106257-02.jpg"
+  },
+  "47": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md,references/by-type/file-upload.md,references/by-type/info-secrets.md,references/source-audit.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "保存图证0224-22-lfi：1806387370205548823-02.jpg；保存图证0224-22-files：1806387370205548823-02.jpg；保存图证0224-22-secret：1806387370205548823-02.jpg；保存图证0224-22-source：1806387370205548823-02.jpg；保存图证0224-22-scope：1806387370205548823-02.jpg；保存图证0224-22-experiment：1806387370205548823-02.jpg"
+  },
+  "48": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/by-type/file-upload.md,references/by-type/info-secrets.md,references/source-audit.md,references/experiment-design.md,references/impact-and-acceptance.md",
+    "note": "保存图证0224-23-access：1806387547712749883-02.jpg；保存图证0224-23-files：1806387547712749883-02.jpg；保存图证0224-23-secret：1806387547712749883-02.jpg；保存图证0224-23-source：1806387547712749883-02.jpg；保存图证0224-23-experiment：1806387547712749883-02.jpg；保存图证0224-23-impact：1806387547712749883-02.jpg"
+  },
+  "50": {
+    "dis": "corrected",
+    "targets": "references/impact-and-acceptance.md,references/reporting.md,references/experiment-design.md",
+    "note": "保存正文0224-50-impact：严重性由完整影响链支撑；保存正文0224-50-report：严重性由完整影响链支撑；保存正文0224-50-experiment：严重性由完整影响链支撑"
+  },
+  "52": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/waf-bypass.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-52-xss：混合大小写与URL解码上下文；保存正文0224-52-waf：混合大小写与URL解码上下文；保存正文0224-52-source：混合大小写与URL解码上下文；保存正文0224-52-experiment：混合大小写与URL解码上下文"
+  },
+  "54": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/discovery/records-and-incremental.md,references/source-audit.md,references/by-type/xss.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "保存正文0224-54-secret：API key文件作为本地敏感配置；保存正文0224-54-records：API key文件作为本地敏感配置；保存正文0224-54-source：API key文件作为本地敏感配置；保存图证0224-26-xss：1806454923946787243-02.jpg；保存图证0224-26-web：1806454923946787243-02.jpg；保存图证0224-26-records：1806454923946787243-02.jpg；保存图证0224-26-source：1806454923946787243-02.jpg；保存图证0224-26-experiment：1806454923946787243-02.jpg"
+  },
+  "56": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/discovery/client-and-cloud.md,references/by-type/info-secrets.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-27-xss：1806523881735528551-02.jpg；保存图证0224-27-client：1806523881735528551-02.jpg；保存图证0224-27-secret：1806523881735528551-02.jpg；保存图证0224-27-source：1806523881735528551-02.jpg；保存图证0224-27-experiment：1806523881735528551-02.jpg"
+  },
+  "57": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md,references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/by-type/csrf.md,references/by-type/info-secrets.md,references/business-modeling.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-28-logic：1806548531534041507-02.jpg；保存图证0224-28-auth：1806548531534041507-02.jpg；保存图证0224-28-access：1806548531534041507-02.jpg；保存图证0224-28-csrf：1806548531534041507-02.jpg；保存图证0224-28-secret：1806548531534041507-02.jpg；保存图证0224-28-business：1806548531534041507-02.jpg；保存图证0224-28-source：1806548531534041507-02.jpg；保存图证0224-28-experiment：1806548531534041507-02.jpg"
+  },
+  "60": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "保存正文0224-60-passive：域后缀变体与DNS归属；保存正文0224-60-records：域后缀变体与DNS归属；保存正文0224-60-scope：域后缀变体与DNS归属"
+  },
+  "67": {
+    "dis": "merged",
+    "targets": "references/reporting.md,references/source-audit.md,references/experiment-design.md,references/scope-and-rules.md",
+    "note": "保存正文0224-38-67-report：修复回归与不同环境归并；保存正文0224-38-67-source：修复回归与不同环境归并；保存正文0224-38-67-experiment：修复回归与不同环境归并；保存正文0224-38-67-scope：修复回归与不同环境归并"
+  },
+  "70": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md,references/by-type/info-secrets.md,references/source-audit.md,references/discovery/records-and-incremental.md",
+    "note": "保存既有图证0224-70-client：1806684328828494248-02.png；保存既有图证0224-70-secret：1806684328828494248-02.png；保存既有图证0224-70-source：1806684328828494248-02.png；保存既有图证0224-70-records：1806684328828494248-02.png"
+  },
+  "74": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/by-type/xss.md,references/by-type/business-logic.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-74-web：邀请优惠入口的实际消费者；保存正文0224-74-xss：邀请优惠入口的实际消费者；保存正文0224-74-logic：邀请优惠入口的实际消费者；保存正文0224-74-source：邀请优惠入口的实际消费者；保存正文0224-74-experiment：邀请优惠入口的实际消费者"
+  },
+  "81": {
+    "dis": "corrected",
+    "targets": "references/by-type/xxe.md,references/discovery/web-and-api.md,references/source-audit.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存图证0224-39-xxe：1806784156309000543-02.jpg；保存图证0224-39-web：1806784156309000543-02.jpg；保存图证0224-39-source：1806784156309000543-02.jpg；保存图证0224-39-records：1806784156309000543-02.jpg；保存图证0224-39-experiment：1806784156309000543-02.jpg"
+  },
+  "84": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/business-logic.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-40-auth：1806886466754134122-02.jpg；保存图证0224-40-logic：1806886466754134122-02.jpg；保存图证0224-40-source：1806886466754134122-02.jpg；保存图证0224-40-experiment：1806886466754134122-02.jpg"
+  },
+  "86": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-41-client：1806972012692373723-02.png；保存图证0224-41-web：1806972012692373723-02.png；保存图证0224-41-records：1806972012692373723-02.png；保存图证0224-41-source：1806972012692373723-02.png；保存图证0224-41-experiment：1806972012692373723-02.png"
+  },
+  "92": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-41-client：1807042807779229918-02.png；保存图证0224-41-web：1807042807779229918-02.png；保存图证0224-41-records：1807042807779229918-02.png；保存图证0224-41-source：1807042807779229918-02.png；保存图证0224-41-experiment：1807042807779229918-02.png"
+  },
+  "93": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/discovery/passive-and-services.md,references/by-type/info-secrets.md,references/source-audit.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存图证0224-44-auth：1807051844876931539-02.png；保存图证0224-44-passive：1807051844876931539-02.png；保存图证0224-44-secret：1807051844876931539-02.png；保存图证0224-44-source：1807051844876931539-02.png；保存图证0224-44-records：1807051844876931539-02.png；保存图证0224-44-experiment：1807051844876931539-02.png"
+  },
+  "95": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/by-type/file-upload.md,references/by-type/idor-access-control.md,references/by-type/info-secrets.md,references/source-audit.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存图证0224-46-web：1807055686070915113-02.jpg；保存图证0224-46-files：1807055686070915113-02.jpg；保存图证0224-46-access：1807055686070915113-02.jpg；保存图证0224-46-secret：1807055686070915113-02.jpg；保存图证0224-46-source：1807055686070915113-02.jpg；保存图证0224-46-records：1807055686070915113-02.jpg；保存图证0224-46-experiment：1807055686070915113-02.jpg"
+  },
+  "96": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/discovery/records-and-incremental.md,references/reporting.md,references/scope-and-rules.md",
+    "note": "保存正文0224-96-secret：泄露工具提交量不证明凭据可用；保存正文0224-96-records：泄露工具提交量不证明凭据可用；保存正文0224-96-report：泄露工具提交量不证明凭据可用；保存正文0224-96-scope：泄露工具提交量不证明凭据可用"
+  },
+  "98": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-98-xss：plus只在特定解码链成为空格；保存正文0224-98-source：plus只在特定解码链成为空格；保存正文0224-98-experiment：plus只在特定解码链成为空格"
+  },
+  "99": {
+    "dis": "corrected",
+    "targets": "references/by-type/document-rendering.md,references/by-type/lfi-path-traversal.md,references/by-type/ssrf.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-99-doc：PDF本地文件加载和网络请求分开；保存正文0224-99-lfi：PDF本地文件加载和网络请求分开；保存正文0224-99-ssrf：PDF本地文件加载和网络请求分开；保存正文0224-99-source：PDF本地文件加载和网络请求分开；保存正文0224-99-experiment：PDF本地文件加载和网络请求分开"
+  },
+  "100": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/waf-bypass.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-100-166-xss：空白实体依HTML到JS解析链；保存正文0224-100-166-waf：空白实体依HTML到JS解析链；保存正文0224-100-166-source：空白实体依HTML到JS解析链；保存正文0224-100-166-experiment：空白实体依HTML到JS解析链"
+  },
+  "104": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/by-type/authn-session.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-47-passive：1807186799808176506-02.jpg；保存图证0224-47-auth：1807186799808176506-02.jpg；保存图证0224-47-source：1807186799808176506-02.jpg；保存图证0224-47-experiment：1807186799808176506-02.jpg"
+  },
+  "115": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/file-upload.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-53-xss：1807368677211484438-02.jpg；保存图证0224-53-files：1807368677211484438-02.jpg；保存图证0224-53-client：1807368677211484438-02.jpg；保存图证0224-53-source：1807368677211484438-02.jpg；保存图证0224-53-experiment：1807368677211484438-02.jpg"
+  },
+  "118": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/source-audit.md,references/scope-and-rules.md",
+    "note": "保存正文0224-118-sql：自动管线保留协议参数及换行语义；保存正文0224-118-web：自动管线保留协议参数及换行语义；保存正文0224-118-records：自动管线保留协议参数及换行语义；保存正文0224-118-source：自动管线保留协议参数及换行语义；保存正文0224-118-scope：自动管线保留协议参数及换行语义"
+  },
+  "120": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/info-secrets.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/experiment-design.md,references/reporting.md",
+    "note": "保存图证0224-56-auth：1807418808585384052-02.jpg；保存图证0224-56-secret：1807418808585384052-02.jpg；保存图证0224-56-client：1807418808585384052-02.jpg；保存图证0224-56-source：1807418808585384052-02.jpg；保存图证0224-56-experiment：1807418808585384052-02.jpg；保存图证0224-56-report：1807418808585384052-02.jpg"
+  },
+  "121": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/by-type/info-secrets.md,references/source-audit.md,references/reporting.md,references/experiment-design.md",
+    "note": "保存正文0224-121-access：私有报告字段可见性分层；保存正文0224-121-secret：私有报告字段可见性分层；保存正文0224-121-source：私有报告字段可见性分层；保存正文0224-121-report：私有报告字段可见性分层；保存正文0224-121-experiment：私有报告字段可见性分层"
+  },
+  "122": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md,references/by-type/info-secrets.md",
+    "note": "保存正文0224-122-web：URL信息工具采集含敏感上下文；保存正文0224-122-records：URL信息工具采集含敏感上下文；保存正文0224-122-scope：URL信息工具采集含敏感上下文；保存正文0224-122-secret：URL信息工具采集含敏感上下文；保存图证0224-57-records：1807446146362839429-02.jpg；保存图证0224-57-scope：1807446146362839429-02.jpg；保存图证0224-57-secret：1807446146362839429-02.jpg；保存图证0224-57-web：1807446146362839429-02.jpg"
+  },
+  "124": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/file-upload.md,references/by-type/info-secrets.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-59-auth：1807465466786447565-02.png；保存图证0224-59-files：1807465466786447565-02.png；保存图证0224-59-secret：1807465466786447565-02.png；保存图证0224-59-source：1807465466786447565-02.png；保存图证0224-59-experiment：1807465466786447565-02.png"
+  },
+  "125": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md,references/by-type/xss.md,references/by-type/idor-access-control.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存正文0224-125-185-client：扩展揭示前端状态不改变服务端ACL；保存正文0224-125-185-xss：扩展揭示前端状态不改变服务端ACL；保存正文0224-125-185-access：扩展揭示前端状态不改变服务端ACL；保存正文0224-125-185-records：扩展揭示前端状态不改变服务端ACL；保存正文0224-125-185-experiment：扩展揭示前端状态不改变服务端ACL"
+  },
+  "126": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-61-passive：1807496828537151751-02.png；保存图证0224-61-records：1807496828537151751-02.png；保存图证0224-61-scope：1807496828537151751-02.png；保存图证0224-61-source：1807496828537151751-02.png；保存图证0224-61-experiment：1807496828537151751-02.png"
+  },
+  "139": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/discovery/passive-and-services.md,references/source-audit.md,references/experiment-design.md,references/impact-and-acceptance.md",
+    "note": "保存图证0224-69-web：1807716019605258699-02.jpg；保存图证0224-69-passive：1807716019605258699-02.jpg；保存图证0224-69-source：1807716019605258699-02.jpg；保存图证0224-69-experiment：1807716019605258699-02.jpg；保存图证0224-69-impact：1807716019605258699-02.jpg"
+  },
+  "140": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/source-audit.md,references/experiment-design.md,references/impact-and-acceptance.md",
+    "note": "保存图证0224-70-web：1807716179517325709-02.jpg；保存图证0224-70-source：1807716179517325709-02.jpg；保存图证0224-70-experiment：1807716179517325709-02.jpg；保存图证0224-70-impact：1807716179517325709-02.jpg"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/source-audit.md,references/experiment-design.md,references/impact-and-acceptance.md",
+    "note": "保存图证0224-71-web：1807716338389143675-02.jpg；保存图证0224-71-source：1807716338389143675-02.jpg；保存图证0224-71-experiment：1807716338389143675-02.jpg；保存图证0224-71-impact：1807716338389143675-02.jpg"
+  },
+  "142": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/by-type/sql-injection.md,references/source-audit.md,references/experiment-design.md,references/impact-and-acceptance.md",
+    "note": "保存图证0224-72-web：1807722825064542595-02.jpg；保存图证0224-72-sql：1807722825064542595-02.jpg；保存图证0224-72-source：1807722825064542595-02.jpg；保存图证0224-72-experiment：1807722825064542595-02.jpg；保存图证0224-72-impact：1807722825064542595-02.jpg"
+  },
+  "144": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-144-lfi：LFI管线代理范围和URL损失；保存正文0224-144-web：LFI管线代理范围和URL损失；保存正文0224-144-records：LFI管线代理范围和URL损失；保存正文0224-144-source：LFI管线代理范围和URL损失；保存正文0224-144-experiment：LFI管线代理范围和URL损失；保存图证0224-73-lfi：1807740414117724664-02.jpg；保存图证0224-73-web：1807740414117724664-02.jpg；保存图证0224-73-records：1807740414117724664-02.jpg；保存图证0224-73-source：1807740414117724664-02.jpg；保存图证0224-73-experiment：1807740414117724664-02.jpg"
+  },
+  "145": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-145-155-passive：DNS主动爆破前提与误报；保存正文0224-145-155-records：DNS主动爆破前提与误报；保存正文0224-145-155-scope：DNS主动爆破前提与误报；保存图证0224-61-passive：1807741651844211005-02.png；保存图证0224-61-records：1807741651844211005-02.png；保存图证0224-61-scope：1807741651844211005-02.png；保存图证0224-61-source：1807741651844211005-02.png；保存图证0224-61-experiment：1807741651844211005-02.png"
+  },
+  "147": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/source-audit.md,references/impact-and-acceptance.md",
+    "note": "保存正文0224-147-passive：大规模潜在实例数不是可利用量；保存正文0224-147-source：大规模潜在实例数不是可利用量；保存正文0224-147-impact：大规模潜在实例数不是可利用量"
+  },
+  "152": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/open-redirect.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-152-xss：javascript协议中的编码制表符；保存正文0224-152-redirect：javascript协议中的编码制表符；保存正文0224-152-source：javascript协议中的编码制表符；保存正文0224-152-experiment：javascript协议中的编码制表符"
+  },
+  "155": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-145-155-passive：DNS主动爆破前提与误报；保存正文0224-145-155-records：DNS主动爆破前提与误报；保存正文0224-145-155-scope：DNS主动爆破前提与误报；保存图证0224-76-passive：1807840914695676224-02.jpg；保存图证0224-76-records：1807840914695676224-02.jpg；保存图证0224-76-scope：1807840914695676224-02.jpg；保存图证0224-76-source：1807840914695676224-02.jpg；保存图证0224-76-experiment：1807840914695676224-02.jpg"
+  },
+  "157": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md,references/by-type/mobile-ios.md,references/by-type/desktop-client.md,references/scope-and-rules.md,references/discovery/records-and-incremental.md",
+    "note": "保存正文0224-157-android：跨平台差异仍受授权限制；保存正文0224-157-ios：跨平台差异仍受授权限制；保存正文0224-157-desktop：跨平台差异仍受授权限制；保存正文0224-157-scope：跨平台差异仍受授权限制；保存正文0224-157-records：跨平台差异仍受授权限制"
+  },
+  "159": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md,references/by-type/info-secrets.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-159-files：git索引筛选与未覆盖反例；保存正文0224-159-secret：git索引筛选与未覆盖反例；保存正文0224-159-web：git索引筛选与未覆盖反例；保存正文0224-159-records：git索引筛选与未覆盖反例；保存正文0224-159-source：git索引筛选与未覆盖反例；保存图证0224-77-files：1807923132512059569-02.jpg；保存图证0224-77-secret：1807923132512059569-02.jpg；保存图证0224-77-web：1807923132512059569-02.jpg；保存图证0224-77-records：1807923132512059569-02.jpg；保存图证0224-77-source：1807923132512059569-02.jpg；保存图证0224-77-experiment：1807923132512059569-02.jpg"
+  },
+  "160": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/targeted-fuzzing.md,references/discovery/records-and-incremental.md,references/source-audit.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "保存图证0224-78-xss：1807982992733720950-02.jpg；保存图证0224-78-fuzz：1807982992733720950-02.jpg；保存图证0224-78-records：1807982992733720950-02.jpg；保存图证0224-78-source：1807982992733720950-02.jpg；保存图证0224-78-scope：1807982992733720950-02.jpg；保存图证0224-78-experiment：1807982992733720950-02.jpg"
+  },
+  "166": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md,references/by-type/waf-bypass.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-100-166-xss：空白实体依HTML到JS解析链；保存正文0224-100-166-waf：空白实体依HTML到JS解析链；保存正文0224-100-166-source：空白实体依HTML到JS解析链；保存正文0224-100-166-experiment：空白实体依HTML到JS解析链；保存既有图证0224-166-xss：1808067082782925159-02.jpg；保存既有图证0224-166-waf：1808067082782925159-02.jpg；保存既有图证0224-166-source：1808067082782925159-02.jpg；保存既有图证0224-166-experiment：1808067082782925159-02.jpg"
+  },
+  "171": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/source-audit.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "保存图证0224-80-passive：1808121984460771376-02.jpg；保存图证0224-80-web：1808121984460771376-02.jpg；保存图证0224-80-records：1808121984460771376-02.jpg；保存图证0224-80-source：1808121984460771376-02.jpg；保存图证0224-80-scope：1808121984460771376-02.jpg；保存图证0224-80-experiment：1808121984460771376-02.jpg"
+  },
+  "172": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-61-passive：1808132062668374025-02.png；保存图证0224-61-records：1808132062668374025-02.png；保存图证0224-61-scope：1808132062668374025-02.png；保存图证0224-61-source：1808132062668374025-02.png；保存图证0224-61-experiment：1808132062668374025-02.png"
+  },
+  "174": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/authn-session.md,references/source-audit.md,references/experiment-design.md,references/impact-and-acceptance.md",
+    "note": "保存图证0224-81-xss：1808138749773221908-02.jpg；保存图证0224-81-auth：1808138749773221908-02.jpg；保存图证0224-81-source：1808138749773221908-02.jpg；保存图证0224-81-experiment：1808138749773221908-02.jpg；保存图证0224-81-impact：1808138749773221908-02.jpg"
+  },
+  "178": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md,references/by-type/idor-access-control.md,references/business-modeling.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-82-logic：1808168939450782133-02.jpg；保存图证0224-82-access：1808168939450782133-02.jpg；保存图证0224-82-business：1808168939450782133-02.jpg；保存图证0224-82-source：1808168939450782133-02.jpg；保存图证0224-82-experiment：1808168939450782133-02.jpg"
+  },
+  "180": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/business-logic.md,references/by-type/host-header.md,references/by-type/crlf-response-splitting.md,references/source-audit.md,references/experiment-design.md,references/scope-and-rules.md",
+    "note": "保存图证0224-83-auth：1808183045708828941-02.jpg；保存图证0224-83-logic：1808183045708828941-02.jpg；保存图证0224-83-host：1808183045708828941-02.jpg；保存图证0224-83-crlf：1808183045708828941-02.jpg；保存图证0224-83-source：1808183045708828941-02.jpg；保存图证0224-83-experiment：1808183045708828941-02.jpg；保存图证0224-83-scope：1808183045708828941-02.jpg"
+  },
+  "183": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "保存图证0224-84-passive：1808221872661881116-02.jpg；保存图证0224-84-records：1808221872661881116-02.jpg；保存图证0224-84-scope：1808221872661881116-02.jpg；保存图证0224-84-experiment：1808221872661881116-02.jpg"
+  },
+  "184": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md,references/source-audit.md,references/experiment-design.md,references/discovery/records-and-incremental.md",
+    "note": "保存图证0224-85-cmd：1808236519880286294-02.jpg；保存图证0224-85-source：1808236519880286294-02.jpg；保存图证0224-85-experiment：1808236519880286294-02.jpg；保存图证0224-85-records：1808236519880286294-02.jpg"
+  },
+  "185": {
+    "dis": "merged",
+    "targets": "references/discovery/client-and-cloud.md,references/by-type/xss.md,references/by-type/idor-access-control.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存正文0224-125-185-client：扩展揭示前端状态不改变服务端ACL；保存正文0224-125-185-xss：扩展揭示前端状态不改变服务端ACL；保存正文0224-125-185-access：扩展揭示前端状态不改变服务端ACL；保存正文0224-125-185-records：扩展揭示前端状态不改变服务端ACL；保存正文0224-125-185-experiment：扩展揭示前端状态不改变服务端ACL"
+  },
+  "186": {
+    "dis": "corrected",
+    "targets": "references/by-type/deserialization-rce.md,references/by-type/cmd-injection-rce.md,references/by-type/file-upload.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0224-86-deser：1808304834711543936-02.jpg；保存图证0224-86-cmd：1808304834711543936-02.jpg；保存图证0224-86-files：1808304834711543936-02.jpg；保存图证0224-86-source：1808304834711543936-02.jpg；保存图证0224-86-experiment：1808304834711543936-02.jpg"
+  },
+  "188": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/source-audit.md,references/experiment-design.md,references/scope-and-rules.md,references/impact-and-acceptance.md",
+    "note": "保存图证0224-87-auth：1808380369210892545-02.jpg；保存图证0224-87-access：1808380369210892545-02.jpg；保存图证0224-87-source：1808380369210892545-02.jpg；保存图证0224-87-experiment：1808380369210892545-02.jpg；保存图证0224-87-scope：1808380369210892545-02.jpg；保存图证0224-87-impact：1808380369210892545-02.jpg"
+  },
+  "194": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md,references/discovery/passive-and-services.md,references/source-audit.md,references/scope-and-rules.md,references/discovery/records-and-incremental.md",
+    "note": "保存正文0224-194-197-cmd：RCE参数名不是命令消费者；保存正文0224-194-197-passive：RCE参数名不是命令消费者；保存正文0224-194-197-source：RCE参数名不是命令消费者；保存正文0224-194-197-scope：RCE参数名不是命令消费者；保存图证0224-90-cmd：1808447653354885303-02.png；保存图证0224-90-passive：1808447653354885303-02.png；保存图证0224-90-records：1808447653354885303-02.png；保存图证0224-90-source：1808447653354885303-02.png；保存图证0224-90-scope：1808447653354885303-02.png"
+  },
+  "197": {
+    "dis": "merged",
+    "targets": "references/by-type/cmd-injection-rce.md,references/discovery/passive-and-services.md,references/source-audit.md,references/scope-and-rules.md,references/discovery/records-and-incremental.md",
+    "note": "保存正文0224-194-197-cmd：RCE参数名不是命令消费者；保存正文0224-194-197-passive：RCE参数名不是命令消费者；保存正文0224-194-197-source：RCE参数名不是命令消费者；保存正文0224-194-197-scope：RCE参数名不是命令消费者；保存图证0224-91-cmd：1808500802060714305-02.jpg；保存图证0224-91-passive：1808500802060714305-02.jpg；保存图证0224-91-records：1808500802060714305-02.jpg；保存图证0224-91-source：1808500802060714305-02.jpg；保存图证0224-91-scope：1808500802060714305-02.jpg"
+  },
+  "199": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/waf-bypass.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0224-199-xss：SVGMath命名空间与净化边界；保存正文0224-199-waf：SVGMath命名空间与净化边界；保存正文0224-199-source：SVGMath命名空间与净化边界；保存正文0224-199-experiment：SVGMath命名空间与净化边界；保存图证0224-93-xss：1808505493880754398-02.jpg；保存图证0224-93-waf：1808505493880754398-02.jpg；保存图证0224-93-source：1808505493880754398-02.jpg；保存图证0224-93-experiment：1808505493880754398-02.jpg"
+  }
+}

@@ -1,0 +1,79 @@
+0|insufficient_technical_detail||Meta奖励回复确认lead信息影响，缺具体请求/导出绑定。
+1|distilled|references/by-type/request-smuggling.md|走私队列/响应错配概念图，缺真实分帧报文。
+2|distilled|references/by-type/authn-session.md|Go role Cookie/XFF客户端信任，Cookie error未检查/Role.Value nil；普通HTML先输出。
+3|no_technical_content||SystemHacked宣传配图无机制。
+4|distilled|references/by-type/cmd-injection-rce.md|Linux清单系统/PATH/env/kernel/sudo/挂载；版本不是提权证明。
+5|distilled|references/by-type/crlf-response-splitting.md|CRLF多重百分号换行SetCookie列表，缺实际响应。
+6|insufficient_technical_detail||BannerInformationLeak标题，未见实际banner。
+7|no_technical_content||ZOFixerlogo无技术内容。
+8|distilled|references/by-type/lfi-path-traversal.md|DNS连接失败图，不证明文件漏洞已修。
+9|distilled|references/by-type/lfi-path-traversal.md|curl直IP路径-as-is/k，200及脱敏passwd格式，范围/Host/SNI未知，不转录字段。
+10|distilled|references/by-type/xss.md|Shopifyutm_source styleanimation/animationstart摘要，需要实际模板/CSS事件条件。
+11|no_technical_content||WiFi名挑战meme无机制。
+12|distilled|references/by-type/subdomain-takeover.md|SubdomainTakeover自定义PoC页面，缺DNS/申领时间线。
+13|distilled|references/hunting-strategy.md|实践学习/VDP建议，仍需具体范围规则。
+14|distilled|references/hunting-strategy.md|基础/网络/Linux/Web语言路线，无课程正文。
+15|distilled|references/hunting-strategy.md|C/Python/Go/网络/Web课程索引，不是必学顺序。
+16|distilled|references/discovery/passive-and-services.md|Kunyu1.6.5Beta帮助显示被动Host/Web/Cert/Domain和HostCrash/AliveScan，主动行为分开。
+17|distilled|references/by-type/info-secrets.md|原Host centralconfig403，端点遮盖未见配置。
+18|distilled|references/by-type/info-secrets.md|无Host请求contentlength2返回400，HTTP2伪头信息不全。
+19|distilled|references/by-type/info-secrets.md|Host127.0.0.1 200JSON头，未见正文，路由需核对。
+20|distilled|references/by-type/deserialization-rce.md|反序列化readObject早于cast检查概念，无实际产品链。
+21|distilled|references/by-type/xss.md|Mercedes404/损坏图/alert遮盖，不能仅凭图定位DOM还是服务端反射。
+22|no_technical_content||Lamport密钥/代码装饰图，不转录密钥，缺ATO对应步骤。
+23|distilled|references/by-type/idor-access-control.md|Lark已知有效filetoken后直URL下载摘要，下载/查看权限分别验证。
+24|distilled|references/by-type/idor-access-control.md|Larkdepartment_id置空跨部门加人摘要，空/默认及终态需验证。
+25|distilled|references/by-type/idor-access-control.md|Lark团队founder兼另helpdeskadmin读无权限ticketimage摘要，角色交叉权限。
+26|distilled|references/by-type/info-secrets.md|TikTok未登录读创建日期摘要，无端点/真实日期，隐私政策需核对。
+27|distilled|references/discovery/records-and-incremental.md|?f=参数/限制99%修复片段，无具体绕过。
+28|distilled|references/discovery/records-and-incremental.md|回看IDOR修复两次绕过示意，需当前授权和版本回归。
+29|distilled|references/discovery/passive-and-services.md|subfinder/dnsx/cf-check/naabu-rate20000/httpx管道，CDN过滤/高速不代表范围或全量。
+30|distilled|references/by-type/graphql.md|GraphQL__schema/types/fields返回图，没有SQL执行证据。
+31|no_technical_content||Maliciousadmin高/中accepted列表标题遮盖，缺跨租户机制。
+32|no_technical_content||High/Resolved信息泄露状态图，缺机制。
+33|no_technical_content||Brokenlink只有状态/遮盖字段，缺申领步骤。
+34|no_technical_content||Swagger链Duplicate/Critical元数据，缺请求/邮件消费。
+35|distilled|references/by-type/business-logic.md|MailPoetorders/new p与cur=usd同数值币种摘要，Informative，未见结算/权限。
+36|no_technical_content||LinkedInendorsements无漏洞机制。
+37|distilled|references/by-type/authn-session.md|TaxJar reset token与URLaccountID错配，作者AccountantAccess邮箱变更，两叙述连接缺失。
+38|distilled|references/by-type/desktop-client.md|Stripecli本地daemon无认证gRPCListen转发webhook，另本机应用/既有妥协前提。
+39|distilled|references/by-type/info-secrets.md|SAMsystemaccountsAPI邮箱/IP/组织地点/Okta摘要，最少字段/政策证据。
+40|distilled|references/by-type/ssrf.md|Smokescreen只剥一层bracket denylist绕过摘要，历史修复不是通用安全证明。
+41|distilled|references/by-type/info-secrets.md|TomcatServletExamples披露internalIP摘要，端口/标题不是RCE。
+42|distilled|references/by-type/idor-access-control.md|TaxJarcurrent_user_data member自邀admin摘要，最终role/权限独立核对。
+43|distilled|references/scope-and-rules.md|Telekom历史奖励不合资格/HOF邮件，不代表当前规则。
+44|distilled|references/by-type/idor-access-control.md|Lark低权限读adminlog摘要，缺实际端点/响应。
+45|distilled|references/by-type/csrf.md|LarkCreateInvite CSRF需诱导运行PoC，缺cookie/token表单，不能称0click。
+46|distilled|references/by-type/idor-access-control.md|Lark撤成员后messageAPI读doccomments摘要，撤权生效/缓存/新请求分开。
+47|insufficient_technical_detail||ATOforgotpassword视频封面，未看视频无步骤。
+48|no_technical_content||JSubFinderlogo无实现。
+49|no_technical_content||xnLinkFinderbanner无实现。
+50|distilled|references/source-audit.md|PTrace Cfactorial/变量与汇编步进，路径映射不证明可利用。
+51|distilled|references/by-type/file-upload.md|multipart destinationgallery/poc.txt/Authorization/200FileUploaded，不证明匿名/覆盖/落盘。
+52|distilled|references/by-type/subdomain-takeover.md|接管店铺自定义页面，缺DNS/资源申领。
+53|distilled|references/by-type/request-smuggling.md|走私First+Smuggle、中间件、backend、Second拼接概念图，缺分帧报文。
+54|no_technical_content||Peirateslogo无实现/权限。
+55|no_technical_content||已验证转remediation邮件，statusseverity可变，无机制。
+56|distilled|references/discovery/passive-and-services.md|WOT wgetGoogle跳转200，未见Tor出口/DNS证据，不证明无追踪。
+57|distilled|references/by-type/sql-injection.md|/%22 301正文WordPressMariaDB语法错，编码/错误来源需对照，Cookie不转录。
+58|distilled|references/by-type/sql-injection.md|sqlmap tamper警告及数据库识别/字段提取标题，未见原请求，不抄值。
+59|distilled|references/by-type/cmd-injection-rce.md|IndyPOOL_UPGRADE package调用链至compose dpkg-s/run_shell_command摘要，认证和最终消费者未完整。
+60|no_technical_content||Hackeroneprofile排名无机制。
+61|distilled|references/by-type/cmd-injection-rce.md|restricted shell glob/quote/backslash/变量/替换/history列表，右底裁切不补全。
+62|distilled|references/by-type/idor-access-control.md|DatastudiosourceReportIdB/reportConfig/shareable/viewmode/pagevalues，认证共享前提缺失，不抄Cookie。
+63|insufficient_technical_detail||Text4shell仓库预览无源码/可达调用链。
+64|distilled|references/by-type/idor-access-control.md|AdminAPIPII奖励摘要遮盖，无接口/角色细节，swagger不证明授权。
+65|distilled|references/by-type/business-logic.md|Krispbusiness trial绑卡要求绕过摘要，与标题永久premium支付绕过有差别。
+66|distilled|references/targeted-fuzzing.md|Trickesttargets/gau/静态过滤/callback/payload/qsreplace/ffuf图，缺模板和响应。
+67|distilled|references/by-type/lfi-path-traversal.md|PHPrequirefilter iconv/base64长串横向裁切，resource/编码器/完整结果未知。
+68|distilled|references/experiment-design.md|PartyLoudURLlist/blocklist模拟HTTP/工具检查，不能证明抗追踪。
+69|no_technical_content||MHDDoSlogo，无技术机制，不执行DDoS。
+70|distilled|references/hunting-strategy.md|Cheatsheet资源/漏洞类型导航，无条目全文。
+71|distilled|references/hunting-strategy.md|CTFreadme资源目录，10小时/10分钟说明，无资源全文。
+72|no_technical_content||GraphQLInformationDisclosure标题/Medium，缺请求/数据。
+73|distilled|references/hunting-strategy.md|BountyGuide项目方/研究者/通用导航，无正文。
+74|distilled|references/hunting-strategy.md|12months FOS/教育/习惯/自动化赚钱承诺，100%保证不采纳。
+75|distilled|references/discovery/records-and-incremental.md|搜索存储/精筛通知/包装/并发分布式/合作条款，候选与已证实漏洞区分。
+76|distilled|references/discovery/records-and-incremental.md|基础/新目标DNS/同设置爬虫差分/休息，差异来源和授权需留记录。
+77|distilled|references/by-type/sql-injection.md|sqlmapTor/timeSec10示例，换IP不是SQLI证明，需网络/限流负例。
+78|no_technical_content||Duplicate吓人meme无机制。

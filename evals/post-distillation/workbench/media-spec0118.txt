@@ -1,0 +1,93 @@
+0|distilled|auth,access|五步骤A生成token换BID重置：令牌/用户/操作绑定；无原始交换，仅自有账户对照。
+1|no_technical_content||1000欧奖金/accepted邮件，无漏洞机制。
+2|distilled|records|Frogy多源9/15/8/6/10等计数与15unique11resolved114live21login，保存计数层/阶段非漏洞。
+3|no_technical_content||2022新年祝福图。
+4|distilled|passive|CTF nmap22SSH80Apache版本与指纹；实际实验服务状态，不作目标授权。
+5|no_technical_content||PMAT课程logo。
+6|distilled|records|Osmedeus报告8模块文件引用，报告入口≠各模块成功/漏洞。
+7|distilled|records|工作区general/quick时间/summary/logfile，记录状态依赖与产物。
+8|distilled|ssrf,cmd|Log4j插件CertainHigh但实际DNS A与时间，解析/加载/执行分阶段。
+9|distilled|xss,waf|关键词scriptalert1被blocked，保留基线字节与边缘响应。
+10|distilled|xss,waf|变体遮挡/alert3，只支持该上下文现象，不能还原或宣称通用WAF绕过。
+11|no_technical_content||Cacheentanglement演讲封面，无步骤。
+12|distilled|access,secret|GETapisix/admin/migrate/export200JSON配置/noCookie样式；导出范围与写/执行能力分别证。
+13|distilled|passive|RiotPot捕获过滤/低高交互容器/攻击数据库/协议图，诱捕身份与实际风险分开。
+14|distilled|sql|MySQLgroupconcat two列示例，排序/NULL/长度与行关系；少输出不等于少敏感读取。
+15|no_technical_content||两个开发者赞助页。
+16|no_technical_content||ReconwithMe页面标题，无实际步骤。
+17|distilled|lfi|GrafanaalertGroups raw多级遍历200textplain/passwd字段，服务版本/plugin真实读取条件。
+18|distilled|lfi,secret|同路径varlibgrafanaDB二进制片段/SQL/localhost字段，无法据片段推导可登录/秘密有效。
+19|distilled|ssrf,redirect|OOB callback插件自身写可能SSRF或openredirect，仅DNS，归因与后续消费者需证。
+20|insufficient_technical_detail||NTLM双向认证示意，无实际协商/relay结果。
+21|distilled|auth|GitHubPOSTaccountverifications令牌+launchcode单请求，无阈值/15k实际绕过证明，不复制cookie。
+22|distilled|auth|msmailprobeidentify/onprem/O365帮助示例与20/50threads，阶段/最小预算非真实用户证明。
+23|distilled|experiment|Proxy截住POSTprofiletoken，无响应；捕获不等于已发送。
+24|distilled|experiment|Repeater空且Targetnotspecified，复制/指定目的/发送/响应不同状态；未知原因不杜撰修复。
+25|insufficient_technical_detail||视频画面模糊，没有可读广告绕过步骤。
+26|distilled|files,ssrf|ImageTragick文章截图picture参数触发Share预览，只图片消费者线索，未保存执行链。
+27|distilled|scope|RPCSMBTCP/DC不能firewall图是架构/业务假设，不能推出全开放或任意方法授权。
+28|distilled|impact,ssrf|三同题Apache40438High报告列表，需根因/资产/能力区分，非扫更多内网必提级。
+29|no_technical_content||Businesslogic封面。
+30|distilled|secret|.git目录HEAD/config/index/objects/refs，是暴露线索，无完整恢复/AWS有效证明。
+31|no_technical_content||中奖广告meme。
+32|distilled|client,records|Heap快照65grep命中和10路径，字符串行/独立端点/实际调用不同，保留版本偏移。
+33|no_technical_content||HighResolved状态无机制。
+34|no_technical_content||Webcache扫描器GitHub卡片描述，无具体九技巧。
+35|distilled|passive,records|Termux安装findomain5.1.1后查询16源进度，无完成输出；安装/源进度/结果分开。
+36|no_technical_content||P4Exposed/CVE20000114列表，无请求或实际机制。
+37|no_technical_content||TriagedLow200奖状态，无header细节。
+38|no_technical_content||个人照片。
+39|insufficient_technical_detail||家庭网络WiFiInternet示意，未保存Django限速绕过。
+40|insufficient_technical_detail||failedlogin/too many requests一般示意，没有key/阈值/绕过。
+41|distilled|records,scope|Osmedeusgeneral/exclude/vuln/cidr/domains/wordlist/threads40/并发2选择，预算与阶段独立。
+42|insufficient_technical_detail||反代拓扑只有clientsproxyservers，无parserlogic漏洞。
+43|distilled|auth|Django请求XForwardedFor127.0.0.2/200/SetCookie，单图未证速率或认证绕过，可信代理键待证。
+44|distilled|secret|wpconfig_orig图DB字段和认证盐存在，遮挡值不复制/使用，实际权限与有效能力分层。
+45|no_technical_content||Critical9.1接受语句，无IDOR交换。
+46|distilled|client,records|旧新JSdiff脚本关闭TLS验证/归档日期异常，实际sourcehash/version/格式对照。
+47|no_technical_content||acceptedvalidunresolved40points奖励图。
+48|distilled|ssrf,redirect|三条件HTTPclient跟随/redirectgadget/原消费者可达，逐跳validation不是端到端自动成立。
+49|distilled|ssrf,redirect|api_video→vimeo→301302→example响应图，公开链取回不等于内部数据/身份外发。
+50|no_technical_content||ConfirmedCritical图，无机制。
+51|no_technical_content||Playbook书封面。
+52|distilled|csrf,experiment|实际uploadfileName含sleep15且15.3s，与CSRF正文错配；时间/查询或命令消费者未证，需短无副作用合成对照。
+53|distilled|report,impact|停止提交XMLRPCphp的meme，入口存在与具体影响/接受政策分开，非全部禁止。
+54|distilled|report,impact|XMLRPC技能曲线是meme非实测，归并提交需证明可达能力而非标题。
+55|no_technical_content||首次resolved/nonpayingteam徽章。
+56|distilled|cmd,ssrf|3URL测试共享回调标记/2DNS记录，无法一一绑定请求或RCE，不执行扫描器。
+57|distilled|client,experiment|copy事件setData换curl|sh含换行，界面显示与实际剪贴板不一致，只查看文本，不粘贴执行。
+58|no_technical_content||学习/报酬/HoF目标壁纸。
+59|no_technical_content||HoF回复邮件。
+60|distilled|xss,sql|query请求包含SQL再接HTMLonclick标记，错误出口与普通JSON数据出口需分开。
+61|distilled|xss,sql|HTML页面显示SQLsyntaxerror和287719alert，有浏览器执行现象不证明SQL语义/自动触发。
+62|distilled|web,records|trackingcompmuse/nodeweb→目录候选，原值与转换规则保留，输出不是当前授权或真实路由。
+63|distilled|secret|blogwp-configphpbkp返回DB配置字段，根文件受限不等于备份也执行PHP。
+64|no_technical_content||项目排名占位图。
+65|no_technical_content||7reputation名单图，无漏洞机制。
+66|no_technical_content||YahooHoF列表，非当前范围政策。
+67|distilled|lfi,web|slashdotpasswd200真实字段，ServerJetty/ramda_repository_session，不能归为默认NGINX或RCE。
+68|no_technical_content||插画，无可复用步骤。
+69|distilled|lfi,experiment|httpx多slashdot/status200/root matcher多行，只匹配输出没有完整内容/原服务身份。
+70|insufficient_technical_detail||ServerSideInjectionVRT卡片，名称不证明注入机制。
+71|distilled|xss,secret|outgoingtrackerinfo图含CSRF/origin*与stack，发送者/接收者/泄露读者需证。
+72|distilled|experiment,xss|headless模板把响应CSP改defaultsrc*unsafeinlineunsafeevaldata/blob，实验环境已改动非原站可利用性。
+73|distilled|xss,secret|inboundDOMXSS/outgoingdisclosure接口分类图，真实receiverorigin/source/sink与recipient须分别追踪。
+74|distilled|records,scope|完整OsmedeusYAML10模块/并行源/timeout3h/threads50/suppressstderr/AppendSortU/metabigor/清理，原始错误证据保留。
+75|no_technical_content||UtrechtHoF名单，无漏洞机制。
+76|no_technical_content||Rescope标志。
+77|no_technical_content||AkamaiXSS报告列表，无可读payload/响应。
+78|no_technical_content||204和serverwhydoyoucare，banner非漏洞。
+79|distilled|redirect|%5c域名regex技巧卡，真实解码顺序/规范化host与最终location读者，非所有验证都可绕过。
+80|distilled|access,web|Apache2.4.43首页403基线，仅路由/控制层线索。
+81|distilled|access,web|test路径Tomcat9.0.30404，后端路由指纹，不代表可读管理资源。
+82|distilled|access,web|manager路径Apache403，对比正常受限层。
+83|distilled|access,web|test;../manager/html认证窗仅到达认证挑战，未认证/部署/RCE；规范化层需证。
+84|distilled|xss|createElement外部SCRIPT/append并弹窗现象，有JS消费前提，真实CSP/过滤上下文未证。
+85|distilled|records,web|cut slash/colon抽域名例，IPv6/userinfo/scheme/port等会丢结构，解析器和原值同时保留。
+86|distilled|records,web|剥最后4字符443/第一4字符方案固定位置脆弱，端口非443/URL无方案为反例。
+87|distilled|source,records|RCLocals列GPG密钥身份和安装包环境，仅清单无启动持久化执行。
+88|distilled|ssrf,lfi|geojsonurl=filepasswd实际响应含metabase用户，本地文件读协议与HTTPSSRF/任意内网分开。
+89|insufficient_technical_detail||Defender实时防护On与空PowerShell，无规避/执行证明。
+90|insufficient_technical_detail||passwd裁剪图无原请求/PII字段/千万数量证据，与NationalIDs标题错配。
+91|distilled|scope,android|AndroidGuide存储/crypto/localauth/network/platform/build/tamper目录，仅维度，不是当前项目允许40%mobile。
+92|distilled|sql,auth|MySQLnearOR1=1#andpassword语法错误，SQL错误线索非成功登录/认证绕过。

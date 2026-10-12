@@ -1,0 +1,597 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 错误索引与等待函数的归因边界"
+  },
+  "2": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "Karaf 默认凭据线索与管理能力的独立证明"
+  },
+  "4": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "缺值 SQL 错误不是注入的充分证据"
+  },
+  "5": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/source-audit.md",
+    "note": "cPanel webcall 错误页反射与模板误报分开审查；Nuclei cPanel 模板的输入、匹配条件与运行证据"
+  },
+  "6": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/waf-bypass.md",
+    "note": "字符引用混合脚本方案需穿过真实链接消费者；LiteSpeed 过滤差异的比较单位是解码后的消费者"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Symfony 调试入口与配置查看的可见范围"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md,references/reporting.md,references/scope-and-rules.md",
+    "note": "理解应用设计后再提出漏洞假设；响应请求和调解需要新增事实而非状态推断；奖金额分享许可与技术披露许可分开"
+  },
+  "9": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "响应请求和调解需要新增事实而非状态推断"
+  },
+  "10": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "JBoss 管理入口可见性与部署权限逐步验证"
+  },
+  "11": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "配套移动应用 TLS 验证与设备链分开"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "数字 node 的前导零与对象授权规范化"
+  },
+  "14": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "拼接运算符受数据库与表达式上下文约束"
+  },
+  "15": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "目录列表中的 CSV 文件名与隐私内容分开"
+  },
+  "16": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md,references/source-audit.md",
+    "note": "cPanel webcall 错误页反射与模板误报分开审查；Nuclei cPanel 模板的输入、匹配条件与运行证据"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "DNS 候选、服务协议和网页可达性分别计数"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "交互终端与横向执行工具依赖已有执行权限"
+  },
+  "20": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md,references/by-type/nosql-injection.md",
+    "note": "DNS 候选、服务协议和网页可达性分别计数；MongoDB 脚本族结果按信息与权限拆分"
+  },
+  "21": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "cPanel webcall 错误页反射与模板误报分开审查"
+  },
+  "22": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "DNS 候选、服务协议和网页可达性分别计数"
+  },
+  "25": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "multipart 限文件数仍需限制全部 part 与解析成本"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Git 配置、历史提交和失效凭据的证据边界"
+  },
+  "27": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "响应请求和调解需要新增事实而非状态推断"
+  },
+  "28": {
+    "dis": "merged",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "交互终端与横向执行工具依赖已有执行权限"
+  },
+  "30": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "地图 API key 前缀与可滥用权限不是同一事实"
+  },
+  "31": {
+    "dis": "merged",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "交互终端与横向执行工具依赖已有执行权限"
+  },
+  "32": {
+    "dis": "corrected",
+    "targets": "references/by-type/request-smuggling.md",
+    "note": "Connection 指定长度字段后的多跳边界错配"
+  },
+  "33": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "依赖混淆以实际解析器选源为前提"
+  },
+  "34": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "DNS 候选、服务协议和网页可达性分别计数"
+  },
+  "35": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Symfony 调试入口与配置查看的可见范围"
+  },
+  "36": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "登录方式冲突可能是账号状态锁死而非 2FA 绕过"
+  },
+  "37": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "探测性能与去重必须保留逻辑资产维度"
+  },
+  "39": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "DNS 候选、服务协议和网页可达性分别计数"
+  },
+  "40": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "消息外部媒体请求的接收者和可见字段"
+  },
+  "43": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "账号凭据变更在每个业务入口绑定再认证"
+  },
+  "44": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "链接预览超时不能代替字节与并发预算"
+  },
+  "47": {
+    "dis": "merged",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "交互终端与横向执行工具依赖已有执行权限"
+  },
+  "48": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "Firebase 工具成功输出仍需 Rules 与回读对照"
+  },
+  "49": {
+    "dis": "corrected",
+    "targets": "references/by-type/ai-application.md",
+    "note": "ReconAIzer 的建议应回到资产证据链"
+  },
+  "50": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "探测性能与去重必须保留逻辑资产维度"
+  },
+  "51": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "验证、复测和关闭分别留下可复现结论"
+  },
+  "53": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "GitConfig 和 Grafana 索引结果保留采集时间"
+  },
+  "54": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "GitConfig 和 Grafana 索引结果保留采集时间"
+  },
+  "57": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Symfony 调试入口与配置查看的可见范围"
+  },
+  "58": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "更新攻击工具帮助与供应链可达链分开"
+  },
+  "59": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "探测性能与去重必须保留逻辑资产维度"
+  },
+  "60": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "历史链接和隐藏参数只生成可验证候选"
+  },
+  "61": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "探测性能与去重必须保留逻辑资产维度"
+  },
+  "63": {
+    "dis": "corrected",
+    "targets": "references/by-type/host-header.md",
+    "note": "代理头列表应按具体消费者拆解"
+  },
+  "64": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "直接源站候选仍需资产归属和项目授权"
+  },
+  "66": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "探测性能与去重必须保留逻辑资产维度"
+  },
+  "68": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "数字 node 的前导零与对象授权规范化"
+  },
+  "71": {
+    "dis": "corrected",
+    "targets": "references/by-type/cache-deception.md",
+    "note": "UTM 参数的缓存键与响应差异分别比较"
+  },
+  "72": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "PHPUnit eval-stdin 的部署路径和执行结果绑定"
+  },
+  "73": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "REcollapse 规范化探索以双消费者对照收敛"
+  },
+  "74": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "账号凭据变更在每个业务入口绑定再认证"
+  },
+  "75": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "重置申请不应在验证完成前改变账号凭据"
+  },
+  "76": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "扫描 SaaS 评估先核对私密数据出境边界"
+  },
+  "77": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "扫描 SaaS 评估先核对私密数据出境边界"
+  },
+  "78": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "扫描 SaaS 评估先核对私密数据出境边界"
+  },
+  "79": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "DNS 候选、服务协议和网页可达性分别计数"
+  },
+  "80": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "Blind XSS 回调应绑定输入、渲染主体和时间"
+  },
+  "81": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "image_proxy 读取响应与云接管不是同一证据"
+  },
+  "83": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL shell 与 OS shell 依赖不同权限"
+  },
+  "84": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "phpinfo 指纹确认保留 HTTP 主机与状态反例"
+  },
+  "85": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "Stripe 历史无 CSP 绕过报告保留执行边界"
+  },
+  "86": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "Stripe 历史无 CSP 绕过报告保留执行边界"
+  },
+  "88": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "扫描 SaaS 评估先核对私密数据出境边界"
+  },
+  "89": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "历史链接和隐藏参数只生成可验证候选"
+  },
+  "90": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "响应请求和调解需要新增事实而非状态推断"
+  },
+  "91": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "ICE 服务器配置暴露不自动成为 TURN 内网代理"
+  },
+  "92": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "ICE 服务器配置暴露不自动成为 TURN 内网代理"
+  },
+  "95": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "contenteditable 事件与顶层调用的触发条件"
+  },
+  "96": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "AI 与表单生成的 dork 先验证语法和范围"
+  },
+  "98": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "资产导出来源失败应与最终完成提示分开"
+  },
+  "99": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "漏洞收件方以具体公司和资产责任归属确认"
+  },
+  "100": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "资产导出来源失败应与最终完成提示分开"
+  },
+  "103": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SLEEP 请求和报告状态不能替代时间对照"
+  },
+  "104": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "self HTML 注入转为 SSRF 需要另一个服务端消费者"
+  },
+  "106": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "路径字符串进入脚本的上下文不能由短 payload 推算"
+  },
+  "108": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 错误索引与等待函数的归因边界"
+  },
+  "110": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SLEEP 请求和报告状态不能替代时间对照"
+  },
+  "111": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Git 配置、历史提交和失效凭据的证据边界"
+  },
+  "112": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Git 配置、历史提交和失效凭据的证据边界"
+  },
+  "113": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Git 配置、历史提交和失效凭据的证据边界"
+  },
+  "114": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "私网地址范围与重定向响应的取回主体"
+  },
+  "116": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "GraphQL 删除 campaign 仍需执行对象归属检查"
+  },
+  "117": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "SSO 多入口会话测试保留步骤缺口"
+  },
+  "119": {
+    "dis": "corrected",
+    "targets": "references/business-modeling.md",
+    "note": "支付沙箱测试参数不等于生产绕过"
+  },
+  "120": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "AI 与表单生成的 dork 先验证语法和范围"
+  },
+  "121": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "AI 与表单生成的 dork 先验证语法和范围"
+  },
+  "122": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md,references/by-type/mobile-ios.md",
+    "note": "Android 静态目录、改签与组件权限分别审计；iOS bundle、容器与插桩返回值的身份边界；iOS 备份取证先绑定加密、时间和 Manifest 映射；本地调试与 ELF 修改建立可复现崩溃证据"
+  },
+  "123": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SLEEP 请求和报告状态不能替代时间对照"
+  },
+  "124": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "防火墙清单按策略层与会话前提解释"
+  },
+  "125": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "shell glob 与 IFS 展开只在实际解释器内成立"
+  },
+  "126": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "JSON 邮件数组到 JavaScript sink 需逐层证明"
+  },
+  "127": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "favicon 指纹绑定原文件和算法而非品牌授权"
+  },
+  "129": {
+    "dis": "corrected",
+    "targets": "references/by-type/crlf-response-splitting.md",
+    "note": "HTTP header 名中的换行与下游命令执行分开"
+  },
+  "130": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "Blind XSS 回调应绑定输入、渲染主体和时间"
+  },
+  "131": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "deep link 入口需要复核本地 PIN 守卫"
+  },
+  "132": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "验证后再规范化可重新生出路径穿越片段"
+  },
+  "135": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "本地响应编辑不改变服务器权限事实"
+  },
+  "136": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Git 配置、历史提交和失效凭据的证据边界"
+  },
+  "137": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "历史链接和隐藏参数只生成可验证候选"
+  },
+  "138": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Git 配置、历史提交和失效凭据的证据边界"
+  },
+  "139": {
+    "dis": "corrected",
+    "targets": "references/by-type/jwt.md",
+    "note": "JWT claim 的 DOM 输出与签名信任分开"
+  },
+  "140": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "Unicode 引号示例保持原字节与数据库上下文"
+  },
+  "142": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "本地响应编辑不改变服务器权限事实"
+  },
+  "143": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "带 tab 的脚本方案受 URL 消费者与用户动作约束"
+  },
+  "144": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "交易列表与详情以对象归属对照证明越权"
+  },
+  "145": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "隐藏参数发现后仍需 DOM source 到 sink 链"
+  },
+  "147": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/clickjacking.md",
+    "note": "大小写与 onsubmit 触发必须在原上下文验证；可嵌入页面与诱导提交链需要独立证据"
+  },
+  "148": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "少见标题和相邻 ASP 文件只产生路由假设"
+  },
+  "150": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "持续项目与按需项目的范围按当次规则记录"
+  },
+  "154": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "盲 fetch 与端口推断分别设置可证伪对照"
+  },
+  "155": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "slash redirect 模板命中需保留真实 Location"
+  },
+  "157": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SLEEP 请求和报告状态不能替代时间对照"
+  },
+  "158": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "DNS 候选、服务协议和网页可达性分别计数"
+  },
+  "159": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "漏洞收件方以具体公司和资产责任归属确认"
+  },
+  "160": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "Opera 文件接收路径到 CGI 映射分别追踪"
+  }
+}

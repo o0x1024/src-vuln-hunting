@@ -1,0 +1,120 @@
+1|excluded|strategy,source|七个YouTube频道推荐仅是资料入口；保存正文无教程机制，外链全文按用户口径已覆盖，不推已学完或当前推荐排名。
+2|excluded|source,expert|WAPT、认证、OAuth、上传、IDOR、XSS检查表链接集合；未保存检查项不补写万能清单，外链全文已覆盖。
+3|excluded|source|正文只有漏洞标签；不凭标签推技术条件，图片依独立哈希记录处理。
+4|corrected|auth,sql,report|子域发现、目录扫描、Adminer默认凭据与数据库能力拆开；root/root文字及P1 Triaged RCE标题不补实际账号权限、SQL执行或操作系统执行链。
+5|corrected|xss,waf|oncut/onload、注释和实体片段需输入到HTML属性/事件及实际触发条件；换形式不保证私人项目都有效，未执行来源载荷。
+6|corrected|auth,source|Jira QueryComponentRendererValue枚举正文版本旧；官方JRASERVER-71559当前列表8.5.15/8.13.7/8.17.0与旧描述并存且提示匿名权限，图示匿名viewHtml不等于登录或接管。
+7|excluded|source,expert|IamLucif3r仓库方法、工具和PoC推广入口；无保存代码/具体机制，外链全文已覆盖且未执行。
+8|excluded|xss,source|Intigriti六月挑战入口；未保存挑战结构，不凭标签补解题步骤，外链全文已覆盖。
+9|corrected|auth,fuzz|OTP绕过标题与图中ErrResetPasswordTooManyRequests相矛盾；HTTP200/等长并非通过验证，保留业务错误、计数主体和最终动作证据界限。
+10|excluded|source|Bug Bytes114链接聚合；不将聚合标题当每篇文章已证实机制，外链全文已覆盖。
+11|excluded|redirect,records,source|UnChain重定向跟踪工具介绍；无实际跳转链/凭据或目标行为，外链全文已覆盖。
+12|corrected|android,secret,scope|两篇相同正文归一；APKLeaks、jq和LinkFinder静态候选不能直接扩大授权范围或确认有效秘密，不同尺寸图不计独立漏洞。
+13|excluded|strategy,source|对Intigriti感谢与社区表态，无可提炼技术机制。
+14|merged|android,secret,scope|转述APKLeaks原帖，归入静态候选→实际消费者→范围确认，推广图不作平台排名事实。
+15|new_knowledge|cloud,records,source|BlueCloud图展示跨云实验拓扑、子网、遥测和管理端口；图上的部署/连接意图不证明真实SG/NSG、隔离或访问成功，未复制可见凭据。
+16|excluded|strategy,source|邀请提问和个人资料截图；粉丝数量不是技术结果或权威凭据。
+17|excluded|source|Reddit Pro推广入口，没有保存方法内容，外链全文已覆盖。
+18|merged|ssrf,records|Interactsh日志图同一相关标记的AAAA与HTTP事件需原请求绑定；解析器源与HTTP源不同，不等于多个独立SSRF或目标执行证明。
+19|excluded|redirect,source|URL重定向文章链接标题，无保存跳转/校验细节，外链全文已覆盖。
+20|excluded|auth,source|旧密码验证文章入口，无保存认证状态机，外链全文已覆盖。
+21|excluded|web,source|HTTP参数污染文章入口；不能混同API属性污染或补重复参数解析规则，外链全文已覆盖。
+22|excluded|logic,report,source|750美元逻辑漏洞文章标题，无保存业务不变量或因果步骤，外链全文已覆盖。
+23|new_knowledge|fuzz,access,records|seq 1 - 1000与ffuf -w -串联先核对真实生成器argv/EOF/错误；维护者实现确有stdin且读入数据列表，不保证流式低内存，有限ID清单不证明IDOR。
+24|excluded|xss,source|PwnFunction六月挑战解法链接，无保存机制，外链全文已覆盖。
+25|excluded|xss,csrf,source|Intigriti0321 XSS/CSRF挑战标题，无保存链条，外链全文已覆盖。
+26|corrected|xss,access,impact|低权限section名称到管理员编辑的存储执行需真实跨读者证据；confirm(document.cookie)不等于外传Cookie，600奖励邮件不补被盗内容或HttpOnly条件。
+27|new_knowledge|ios,source|Mach-O图分架构、头/加载命令、类方法字符串及导入导出/签名；hooklbs匹配只是规则线索，不能自动认运行时注入、恶意或验证签名结果。
+28|excluded|passive,source|全面子域指南封面和推荐标题，无保存枚举细节，外链全文已覆盖。
+29|excluded|oauth,auth,source|社交登录预认证接管标题，无保存身份合并/验证流程，外链全文已覆盖。
+30|merged|ssrf,records,source|PII/AWS metadata标题不足补链；现存Taborator图仅同标记两DNS一HTTP且源IP遮盖，不证明云角色、元数据读出或PII。
+31|excluded|oauth,prop,auth,source|社交登录与mass assignment接管文章标题，无保存属性授权链，外链全文已覆盖。
+32|merged|auth,logic|移除captcha后注册说法并入服务端受保护动作；需集成策略/正常分支/验证token与最终账号状态，付款图不证明防护失效。
+33|excluded|source|purl仓库推广和星数卡片，无具体解析或安全行为，外链全文已覆盖。
+34|excluded|cloud,source|五个云安全资料链接，没有保存配置/请求机制，外链全文已覆盖。
+35|excluded|cloud,source|Nebula AWS C2介绍和Logo，无保存云权限/执行记录，外链全文已覆盖且未运行。
+36|excluded|source|PentestSuite价格/支持讨论及试用对话，不提炼为安全机制或当前价格。
+37|excluded|source|支持产品的社区表态，没有技术机制。
+38|excluded|report,source|现金奖励文章入口，没有保存问题/影响证据，外链全文已覆盖。
+39|excluded|xss,source|Intigriti0521解法链接无正文细节，外链全文已覆盖。
+40|corrected|android,sql,xss,impact|移动逆向、SQL与HTML注入的标题链缺逐边证据；崩溃封面不证明这些问题或完整接管，HTML插入与脚本执行不同。
+41|new_knowledge|secret,container,source|docker-compose.yml候选与图中遮盖的数据库环境变量、容器端口/卷映射分层；服务定义不等于已暴露文件或实际主机监听、有效秘密。
+42|merged|secret,container,source|转发Compose线索不是独立读取证明，纳入同一配置内容/部署消费者边界。
+43|excluded|source|pyWhat识别工具介绍和Logo，没有保存识别准确率/实际结果，外链全文已覆盖。
+44|excluded|source|Ticket CTF writeup入口，无保存题目数据或步骤，外链全文已覆盖。
+45|excluded|files,source|ADS文章入口；无保存流/文件映射证据，不补NTFS机制，外链全文已覆盖。
+46|excluded|xss,source|XSS文章标题，无保存输入/消费者链，外链全文已覆盖。
+47|excluded|source|BlueMoon CTF文章入口，无保存题目/解法，外链全文已覆盖。
+48|excluded|takeover,source|子域接管标题且注明未更新，没有当前租户认领/归属证明，外链全文已覆盖。
+49|excluded|strategy,source|三篇相同直播安排正文归一，两个不同哈希封面无技术机制；不将直播预告当完成的被动枚举。
+50|merged|scope,passive|搜索security bug report/reward/voucher/disclosure只是项目候选；索引命中与当前正式允许资产/动作分别核对，不等于漏洞或授权。
+51|excluded|access,source|更多IDOR技巧文章链接，无保存授权矩阵，外链全文已覆盖。
+52|excluded|access,source|服务集成IDOR标题，无保存对象/租户边界，外链全文已覆盖。
+53|new_knowledge|passive,records|EmailFinder图称37结果同时Yandex机器人错误；搜索引擎结果是时点字符串线索，错误/未完成不能记阴性或全集，未抄邮箱/联系目标。
+54|new_knowledge|logic,business,experiment|作者明确没在项目发现双优惠券竞争，只给假设；把允许一个优惠的权威规则、并发读写/提交、重复请求与最终折扣分层，不变成已证漏洞。
+55|excluded|source|Drfarfar相关链接无保存具体机制，外链全文已覆盖。
+56|excluded|csrf,report,source|APNIC致谢截图不含CSRF输入、受害身份或动作，作者分类不能补机制，外链全文已覆盖。
+57|corrected|scope,report|DMARC被NA/OOS但给奖励的个案不改变正式范围/承诺；缺记录不自动证明欺骗邮件成立，未发送邮件。
+58|excluded|csrf,access,source|JSON POST exploitation封面及标题无保存Content-Type/CORS/CSRF链，外链全文已覆盖。
+59|excluded|cloud,source|云红队仓库入口，没有保存云权限/动作证据，外链全文已覆盖。
+60|excluded|xss,source|Intigriti1220六月14挑战链接，无保存解法，外链全文已覆盖。
+61|excluded|auth,source|时间戳频控绕过文章标题，无保存计数/绑定证据，外链全文已覆盖。
+62|excluded|cloud,source|AWS pentest文章入口，无保存具体配置/权限证据，外链全文已覆盖。
+63|excluded|records,source|恶意流量分析CTF文章入口，无保存流量/判定，外链全文已覆盖。
+64|excluded|source|Vulnet Internal CTF文章入口，无保存实验细节，外链全文已覆盖。
+65|corrected|xss,access|Concrete5预览路径cID和iframe/svg片段需版本、预览身份、渲染模板/DOM与输入边；网址和载荷文本不证明所有部署XSS，未执行。
+66|excluded|strategy,scope,source|Lazada项目发布宣传无当前正式范围/测试方法，外链全文已覆盖。
+67|excluded|source|pfSense安装文章与欢迎菜单仅配置入口，无漏洞机制，未安装，外链全文已覆盖。
+68|excluded|source|Redpill反向连接工具介绍和斜视UI，无执行/权限记录，外链全文已覆盖且未生成或运行shell。
+69|corrected|access,secret|users/[ID]信息泄露描述需公开/私密字段与对象授权；Medium受理邮件不补实际响应，三位奖金不决定影响。
+70|merged|scope,strategy,report|用奖励关键词找SSRF项目和收款图不提供测试许可/稳定收益；与正式政策及实际机制分开。
+71|merged|scope,passive|Google收购品牌列表是历史候选声明，不能直接认所有列名目前归属Google或在VRP范围；纳入收购资产范围边界。
+72|excluded|report,source|Resolved及长期NA/重复经历仅报告状态，未显示根因或复测通过，图片按独立记录处理。
+73|excluded|ssrf,source|一天三个项目SSRF战报无保存请求/回连链，不按数量确认漏洞。
+74|excluded|strategy,source|课程感谢和Open Redirect课程封面未含输入/跳转规则，外链全文已覆盖。
+75|excluded|passive,scope,source|葡语DoD抓取社交链接标题没有保存授权或方法，外链全文已覆盖。
+76|corrected|passive,records,scope|DoD编辑器图显示复制列表/写full2.txt及模糊终端域名；生成文件不证明全量、去重、归属或授权，未执行抓取脚本。
+77|excluded|source|Defenseless实验站介绍及登录UI，没有保存实际缺陷/实验身份，外链全文已覆盖。
+78|excluded|source,report|AEM/Sling难度观点及目录枚举受理153美元邮件无配置/请求，不补机制或收益保证。
+79|merged|strategy,experiment,report|方法图范围、侦察、分析、验证、风险、报告和可选复测并入现有生命周期；复测若要声称修复则须真实证据，流程图不证明完成。
+80|excluded|auth,access,source|PII IDOR与弱密码重置接管标题/装饰图无保存身份链，外链全文已覆盖。
+81|corrected|auth,secret,source|见Django登录就尝试POST的泛化不成立；方法、CSRF、路由、调试页及副作用条件分开，不猜密码或对真实登录发起动作。
+82|new_knowledge|secret,auth,csrf|GET200/POST403并不能推出DEBUG=True或管理员邮箱泄露；官方CSRF失败view与模板可自定义，图仅报告Triaged标题，需实际字段/读者证据。
+83|excluded|source,fuzz|Day19标签和Adding Scanner Rules封面无规则配置/判定内容，不认为扫描已完成。
+84|merged|passive,records|recon12功能宣传与帮助图注明没API key会跳过相关扫描；功能声明、配置和实际执行/未完成分母分别保存，不补全部覆盖。
+85|excluded|xss,source|Intigriti1220六月15入口无保存解法，外链全文已覆盖。
+86|excluded|auth,source|Pega CVE-2021-27651 Shodan关键词与视频链接不补版本/绕过执行证据，外链全文已覆盖且未扫描。
+87|merged|access,files,source|MEC5.16.5 CVE-2021-24146导出标题纳入现有MEC导出权限边界；版本是原帖声明，XML格式不证明当前匿名私密数据可读。
+88|new_knowledge|xss,web,source|failure隐藏参数1/0切换需接受参数、分支、回显语境和真实读者；Arjun/ParamSpider找到名字不代表有效隐藏分支或可执行脚本。
+89|new_knowledge|access,waf,records|图比较Referer三值且403/403/200，但响应时间不同、无200正文；不能据状态或历史截图补同一对象保护绕过，需身份/缓存/路由与权限效果。
+90|excluded|strategy,source|编程是否必需的讨论文章入口，无具体保存技术机制，外链全文已覆盖。
+91|excluded|source|SAST/DevOps文章标题没有保存规则、源码或评估结果，外链全文已覆盖。
+92|excluded|expert,source|A2P2V路径规划工具宣传及装饰终端图，无保存真实模型/权限边，外链全文已覆盖。
+93|corrected|secret,source|两篇相同swap建议归一，图把Vim交换恢复与system memory混说；.swap名字不识别VM交换格式，strings|head只是片段不是全文，未运行编辑器恢复。
+94|excluded|takeover,source|200美元子域接管视频入口，无保存租户认领/安全边界，外链全文已覆盖。
+95|excluded|lfi,source|遍历文章链接无保存路径解释链，外链全文已覆盖。
+96|corrected|source,records|Instant Data Scraper图只1页25行且等待Next/crawl，不能称导出ALL HackerOne报告；可见公开列表与正文/私密报告不同，未装扩展。
+97|merged|passive,records|MrURL的Wayback/CommonCrawl/OTX旧版本来源是历史候选集合，不证明当前入口/全部覆盖，纳入来源时点与去重制品规则。
+98|excluded|source|OWTF工具标题无保存具体执行/证据，外链全文已覆盖。
+99|new_knowledge|passive,scope,records|dnsgen突变到puredns resolve及valid.txt是多个消费者；DNS答案、通配误报、归属、应用存活和授权分开，未进行DNS查询。
+100|new_knowledge|source,records|TChopper图用服务显示名保存分块数据、CreateService和可执行文件消费者；显示名只是数据存储，需权限/完整性/真正重组执行日志，不补横移成功，未执行。
+101|excluded|xss,source|DigitalOcean盲XSS文章入口没有保存触发者/回连日志，外链全文已覆盖且未部署回连。
+102|corrected|ssrf,passive,records|盲SSRF转端口扫描建议需实际网络消费者/超时对照/范围；500金额473.69净额图不补端口开放、服务或漏洞证据，未扫描。
+103|corrected|secret,auth,csrf,records|正文推广POST/HEAD/TRACK/PUT/DELETE；图HEAD200/TRACE405/POST403及更多信息需DEBUG=True文字仅CSRF拒绝页，不能推Debug开启/邮箱泄露或所有方法同效。
+104|excluded|source|80端口CTF工具文章入口，无保存实际枚举/消费者，外链全文已覆盖。
+105|excluded|secret,source|公司十万客户信息泄露标题缺实际响应/分母/权限，外链全文已覆盖。
+106|excluded|auth,source|Showmax家长PIN绕过标题无保存校验/身份流程，外链全文已覆盖。
+107|corrected|strategy,scope|“为产品缺陷付费”的定义和宣传图不是任意缺陷奖励承诺；正式资产/动作/资格/验收政策决定具体接收。
+108|excluded|source,passive|全部侦察工具文章入口不证明任何扫描或内容全集，外链全文已覆盖。
+109|excluded|source|Gundog M365 Defender工具名称/ASCII横幅，无实际检测或租户权限记录，外链全文已覆盖。
+110|merged|xss,web,source|隐藏参数XSS文章预告及非通用alt已读取；并入参数接受/分支/输出消费者，不补外链全文解法，外链全文已覆盖。
+111|new_knowledge|android,records|Burp DER转PEM、subject_hash_old与system CA步骤图含硬编码样例名、root/remount及host/device混合命令；安装操作不是应用信任/解密证明，需版本、实际身份和TLS消费者，不操作设备。
+112|corrected|fuzz,records,report|Smart Nuclei Alerts自动发现与抢先宣传只建立通知/候选队列；模板匹配、执行完成与人工验证独立，不把收到告警写成漏洞确认。
+113|excluded|fuzz,source|赏金词表文章入口无保存具体词表/命中条件，外链全文已覆盖。
+114|new_knowledge|experiment,report,source|Ugly Duck约5–10分钟转live security test仅功能声称；模糊JSON图需制品、可复现条件、正负判据、身份/范围和真实轨迹，不认生产攻击/测试完成。
+115|excluded|records,source|Burp七技巧网络研讨入口无正文设置步骤，外链全文已覆盖；相关配置库图依媒体记录提炼。
+116|excluded|access,source|Facebook Business Manager删除银行卡IDOR标题无保存授权/对象/删除结果，外链全文已覆盖且未操作。
+117|merged|fuzz,records|每周词表更新宣传不证明版本差异；所配图实际讲Burp Custom Configuration Libraries、速度/错误/插入点，纳入配置制品边界而不当词表内容。
+118|merged|auth,source|NCC三类2FA资料入口作为一般/代码/WebAuthn前提分支，无保存全部协议机制或完成测试证据，外链全文已覆盖。
+119|excluded|source|仅linux/web标签不证明具体机制，媒体按独立已记录内容处理。
+120|excluded|lfi,source|LFI仍常见的问句与高度遮盖Repeater图仅少量nologin/bin/false尾片段；缺参数/路径/身份/读取内容，不补确认LFI，外链全文已覆盖。

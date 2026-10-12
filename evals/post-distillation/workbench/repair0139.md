@@ -1,0 +1,1 @@
+build8f1393 source-binding rejected image27/g55 before target/ledger mutation. Added exact g55 source and default-account observation to panel facet; body55 merged. Allimage binding now included in precheck. Native/meta repaired in place, no successful append rerun.

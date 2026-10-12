@@ -1,0 +1,362 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 路径中的域名不能决定重定向目的地 redirect；0230 正文 路径中的域名不能决定重定向目的地 web；0230 正文 路径中的域名不能决定重定向目的地 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "4": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/discovery/web-and-api.md,references/experiment-design.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 错误分支是独立消费者而非强制漏洞 xss；0230 正文 错误分支是独立消费者而非强制漏洞 web；0230 正文 错误分支是独立消费者而非强制漏洞 experiment；0230 正文 错误分支是独立消费者而非强制漏洞 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "5": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md,references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 深度侦察以待验证业务假设限定 strategy；0230 正文 深度侦察以待验证业务假设限定 passive；0230 正文 深度侦察以待验证业务假设限定 records；0230 正文 深度侦察以待验证业务假设限定 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "6": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/client-and-cloud.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 归档组合去重不能丢时间和主动性 passive；0230 正文 归档组合去重不能丢时间和主动性 client；0230 正文 归档组合去重不能丢时间和主动性 records；0230 正文 归档组合去重不能丢时间和主动性 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/authn-session.md,references/targeted-fuzzing.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 Cookie 弹窗与 PHP 参数筛选各有证据限制 xss；0230 正文 Cookie 弹窗与 PHP 参数筛选各有证据限制 auth；0230 正文 Cookie 弹窗与 PHP 参数筛选各有证据限制 fuzz；0230 正文 Cookie 弹窗与 PHP 参数筛选各有证据限制 web；0230 正文 Cookie 弹窗与 PHP 参数筛选各有证据限制 experiment；0230 图证 1 xss 1822901832252858432-02.jpg；0230 图证 1 auth 1822901832252858432-02.jpg；0230 图证 1 web 1822901832252858432-02.jpg；0230 图证 1 experiment 1822901832252858432-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md,references/business-modeling.md,references/impact-and-acceptance.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 低价购买与兑换竞态是两条不变量 logic；0230 正文 低价购买与兑换竞态是两条不变量 business；0230 正文 低价购买与兑换竞态是两条不变量 impact；0230 正文 低价购买与兑换竞态是两条不变量 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "10": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md,references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 深度侦察以待验证业务假设限定 strategy；0230 正文 深度侦察以待验证业务假设限定 passive；0230 正文 深度侦察以待验证业务假设限定 records；0230 正文 深度侦察以待验证业务假设限定 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/by-type/xxe.md,references/source-audit.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 3 xxe 1822932163634901232-02.png；0230 图证 3 source 1822932163634901232-02.png；0230 图证 3 experiment 1822932163634901232-02.png；0230 图证 4 xxe 1822932163634901232-03.png；0230 图证 4 source 1822932163634901232-03.png；0230 图证 4 experiment 1822932163634901232-03.png；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "14": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 响应改写后的 OTP 状态需服务器证明 auth；0230 正文 响应改写后的 OTP 状态需服务器证明 web；0230 正文 响应改写后的 OTP 状态需服务器证明 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "15": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 6 experiment 1822972006192570464-02.jpg；0230 图证 6 web 1822972006192570464-02.jpg；0230 图证 6 records 1822972006192570464-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "17": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/client-and-cloud.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 归档组合去重不能丢时间和主动性 passive；0230 正文 归档组合去重不能丢时间和主动性 client；0230 正文 归档组合去重不能丢时间和主动性 records；0230 正文 归档组合去重不能丢时间和主动性 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "20": {
+    "dis": "corrected",
+    "targets": "references/by-type/request-smuggling.md,references/by-type/waf-bypass.md,references/by-type/authn-session.md,references/source-audit.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 9 hrs 1823026878510440588-02.jpg；0230 图证 9 waf 1823026878510440588-02.jpg；0230 图证 9 auth 1823026878510440588-02.jpg；0230 图证 9 source 1823026878510440588-02.jpg；0230 图证 9 web 1823026878510440588-02.jpg；0230 图证 9 experiment 1823026878510440588-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "27": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 11 passive 1823085995753164864-02.jpg；0230 图证 11 records 1823085995753164864-02.jpg；0230 图证 11 scope 1823085995753164864-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "28": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/by-type/api-property-pollution.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 重复对象参数的授权与读取解析需一致 access；0230 正文 重复对象参数的授权与读取解析需一致 apip；0230 正文 重复对象参数的授权与读取解析需一致 web；0230 正文 重复对象参数的授权与读取解析需一致 experiment；0230 图证 12 access 1823088596016095699-02.jpg；0230 图证 12 apip 1823088596016095699-02.jpg；0230 图证 12 web 1823088596016095699-02.jpg；0230 图证 12 experiment 1823088596016095699-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "29": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/oauth-oidc.md,references/by-type/api-property-pollution.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 13 auth 1823090242599162199-02.jpg；0230 图证 13 oauth 1823090242599162199-02.jpg；0230 图证 13 apip 1823090242599162199-02.jpg；0230 图证 13 web 1823090242599162199-02.jpg；0230 图证 13 experiment 1823090242599162199-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "34": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/source-audit.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 FrontPage 文件名不等于可用口令 secret；0230 正文 FrontPage 文件名不等于可用口令 source；0230 正文 FrontPage 文件名不等于可用口令 web；0230 正文 FrontPage 文件名不等于可用口令 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md,references/by-type/sql-injection.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 补丁比较仍要验证输入和 sink source；0230 正文 补丁比较仍要验证输入和 sink sql；0230 正文 补丁比较仍要验证输入和 sink experiment；0230 图证 14 sql 1823277612602404940-02.jpg；0230 图证 14 source 1823277612602404940-02.jpg；0230 图证 14 experiment 1823277612602404940-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "37": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md,references/by-type/info-secrets.md,references/source-audit.md,references/discovery/web-and-api.md,references/experiment-design.md,references/by-type/graphql.md,references/by-type/open-redirect.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 调试入口可见性与 eval 能力分开确认 cmd；0230 正文 调试入口可见性与 eval 能力分开确认 secret；0230 正文 调试入口可见性与 eval 能力分开确认 source；0230 正文 调试入口可见性与 eval 能力分开确认 web；0230 正文 调试入口可见性与 eval 能力分开确认 experiment；0230 图证 15 cmd 1823293148593819863-02.jpg；0230 图证 15 source 1823293148593819863-02.jpg；0230 图证 15 web 1823293148593819863-02.jpg；0230 图证 15 experiment 1823293148593819863-02.jpg；0230 图证 16 graphql 1823293148593819863-03.jpg；0230 图证 16 secret 1823293148593819863-03.jpg；0230 图证 16 source 1823293148593819863-03.jpg；0230 图证 16 web 1823293148593819863-03.jpg；0230 图证 16 experiment 1823293148593819863-03.jpg；0230 图证 17 redirect 1823293148593819863-04.jpg；0230 图证 17 secret 1823293148593819863-04.jpg；0230 图证 17 source 1823293148593819863-04.jpg；0230 图证 17 web 1823293148593819863-04.jpg；0230 图证 17 experiment 1823293148593819863-04.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "39": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/api-property-pollution.md,references/source-audit.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 限流邮箱与身份查找应统一规范化 auth；0230 正文 限流邮箱与身份查找应统一规范化 apip；0230 正文 限流邮箱与身份查找应统一规范化 source；0230 正文 限流邮箱与身份查找应统一规范化 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "41": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md,references/source-audit.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 FrontPage 文件名不等于可用口令 secret；0230 正文 FrontPage 文件名不等于可用口令 source；0230 正文 FrontPage 文件名不等于可用口令 web；0230 正文 FrontPage 文件名不等于可用口令 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "42": {
+    "dis": "corrected",
+    "targets": "references/impact-and-acceptance.md,references/experiment-design.md,references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 组合链逐环证明并按共同根因归并 impact；0230 正文 组合链逐环证明并按共同根因归并 experiment；0230 正文 组合链逐环证明并按共同根因归并 records；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "51": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 API 文档导入需绑定环境与实际请求 web；0230 正文 API 文档导入需绑定环境与实际请求 records；0230 正文 API 文档导入需绑定环境与实际请求 scope；0230 正文 API 文档导入需绑定环境与实际请求 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "52": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/cloud/cloud-misconfiguration.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/impact-and-acceptance.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 JS 云字段不证明有效权限 secret；0230 正文 JS 云字段不证明有效权限 cloud；0230 正文 JS 云字段不证明有效权限 client；0230 正文 JS 云字段不证明有效权限 source；0230 正文 JS 云字段不证明有效权限 impact；0230 图证 22 secret 1823584819852288380-02.jpg；0230 图证 22 client 1823584819852288380-02.jpg；0230 图证 22 cloud 1823584819852288380-02.jpg；0230 图证 22 source 1823584819852288380-02.jpg；0230 图证 22 impact 1823584819852288380-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "57": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md,references/source-audit.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 23 cmd 1823690423363109078-02.png；0230 图证 23 source 1823690423363109078-02.png；0230 图证 23 experiment 1823690423363109078-02.png；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "61": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md,references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 深度侦察以待验证业务假设限定 strategy；0230 正文 深度侦察以待验证业务假设限定 passive；0230 正文 深度侦察以待验证业务假设限定 records；0230 正文 深度侦察以待验证业务假设限定 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "63": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/api-property-pollution.md,references/by-type/xss.md,references/by-type/waf-bypass.md,references/source-audit.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 Unicode 每阶段须使用一致身份锚点 auth；0230 正文 Unicode 每阶段须使用一致身份锚点 apip；0230 正文 Unicode 每阶段须使用一致身份锚点 xss；0230 正文 Unicode 每阶段须使用一致身份锚点 waf；0230 正文 Unicode 每阶段须使用一致身份锚点 source；0230 正文 Unicode 每阶段须使用一致身份锚点 experiment；0230 图证 26 auth 1823739448846090668-03.jpg；0230 图证 26 apip 1823739448846090668-03.jpg；0230 图证 26 waf 1823739448846090668-03.jpg；0230 图证 26 xss 1823739448846090668-03.jpg；0230 图证 26 source 1823739448846090668-03.jpg；0230 图证 26 experiment 1823739448846090668-03.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "67": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 Headless 扫描与通知不是被动分析 fuzz；0230 正文 Headless 扫描与通知不是被动分析 web；0230 正文 Headless 扫描与通知不是被动分析 records；0230 正文 Headless 扫描与通知不是被动分析 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "68": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/targeted-fuzzing.md,references/source-audit.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 28 xss 1823782916163301440-02.jpg；0230 图证 28 fuzz 1823782916163301440-02.jpg；0230 图证 28 source 1823782916163301440-02.jpg；0230 图证 28 records 1823782916163301440-02.jpg；0230 图证 28 scope 1823782916163301440-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "74": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 被动 JS 命中绑定源文件和实际用途 secret；0230 正文 被动 JS 命中绑定源文件和实际用途 client；0230 正文 被动 JS 命中绑定源文件和实际用途 source；0230 正文 被动 JS 命中绑定源文件和实际用途 records；0230 正文 被动 JS 命中绑定源文件和实际用途 experiment；0230 图证 29 secret 1823950365986845117-02.jpg；0230 图证 29 client 1823950365986845117-02.jpg；0230 图证 29 source 1823950365986845117-02.jpg；0230 图证 29 records 1823950365986845117-02.jpg；0230 图证 29 experiment 1823950365986845117-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "76": {
+    "dis": "corrected",
+    "targets": "references/by-type/websocket.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 WAMP 与编码外观先定位协议消费者 ws；0230 正文 WAMP 与编码外观先定位协议消费者 client；0230 正文 WAMP 与编码外观先定位协议消费者 source；0230 正文 WAMP 与编码外观先定位协议消费者 auth；0230 正文 WAMP 与编码外观先定位协议消费者 access；0230 正文 WAMP 与编码外观先定位协议消费者 records；0230 正文 WAMP 与编码外观先定位协议消费者 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "79": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md,references/source-audit.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 31 cmd 1824050568484033008-02.jpg；0230 图证 31 source 1824050568484033008-02.jpg；0230 图证 31 experiment 1824050568484033008-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "84": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/targeted-fuzzing.md,references/discovery/records-and-incremental.md,references/experiment-design.md,references/scope-and-rules.md,references/discovery/web-and-api.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 32 sql 1824086794255704496-02.jpg；0230 图证 32 fuzz 1824086794255704496-02.jpg；0230 图证 32 records 1824086794255704496-02.jpg；0230 图证 32 experiment 1824086794255704496-02.jpg；0230 图证 32 scope 1824086794255704496-02.jpg；0230 图证 33 sql 1824086794255704496-03.jpg；0230 图证 33 web 1824086794255704496-03.jpg；0230 图证 33 experiment 1824086794255704496-03.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "87": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/sql-injection.md,references/targeted-fuzzing.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 34 xss 1824130645259600166-02.jpg；0230 图证 34 sql 1824130645259600166-02.jpg；0230 图证 34 fuzz 1824130645259600166-02.jpg；0230 图证 34 records 1824130645259600166-02.jpg；0230 图证 34 scope 1824130645259600166-02.jpg；0230 图证 34 experiment 1824130645259600166-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "88": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 metrics 路径须核实际返回与主体 secret；0230 正文 metrics 路径须核实际返回与主体 web；0230 正文 metrics 路径须核实际返回与主体 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "89": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/discovery/web-and-api.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 环境词 dork 保留索引和分组限制 passive；0230 正文 环境词 dork 保留索引和分组限制 records；0230 正文 环境词 dork 保留索引和分组限制 web；0230 正文 环境词 dork 保留索引和分组限制 scope；0230 图证 35 passive 1824158376332574817-02.jpg；0230 图证 35 records 1824158376332574817-02.jpg；0230 图证 35 web 1824158376332574817-02.jpg；0230 图证 35 scope 1824158376332574817-02.jpg；0230 复用图证 89 passive 1825859570905862210-02.jpg；0230 复用图证 89 records 1825859570905862210-02.jpg；0230 复用图证 89 web 1825859570905862210-02.jpg；0230 复用图证 89 scope 1825859570905862210-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "90": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md,references/by-type/ssrf.md,references/discovery/web-and-api.md,references/experiment-design.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 重定向状态和协议能力不能泛化 redirect；0230 正文 重定向状态和协议能力不能泛化 ssrf；0230 正文 重定向状态和协议能力不能泛化 web；0230 正文 重定向状态和协议能力不能泛化 experiment；0230 正文 重定向状态和协议能力不能泛化 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "100": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/targeted-fuzzing.md,references/source-audit.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 38 xss 1824364314284773729-02.jpg；0230 图证 38 fuzz 1824364314284773729-02.jpg；0230 图证 38 source 1824364314284773729-02.jpg；0230 图证 38 records 1824364314284773729-02.jpg；0230 图证 38 scope 1824364314284773729-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "104": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md,references/source-audit.md,references/discovery/web-and-api.md,references/experiment-design.md,references/by-type/idor-access-control.md,references/by-type/waf-bypass.md,references/by-type/request-smuggling.md,references/discovery/passive-and-services.md,references/by-type/ssrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 39 lfi 1824428135816757318-02.jpg；0230 图证 39 source 1824428135816757318-02.jpg；0230 图证 39 web 1824428135816757318-02.jpg；0230 图证 39 experiment 1824428135816757318-02.jpg；0230 图证 40 access 1824428135816757318-03.jpg；0230 图证 40 waf 1824428135816757318-03.jpg；0230 图证 40 source 1824428135816757318-03.jpg；0230 图证 40 web 1824428135816757318-03.jpg；0230 图证 40 experiment 1824428135816757318-03.jpg；0230 图证 41 hrs 1824428135816757318-04.jpg；0230 图证 41 access 1824428135816757318-04.jpg；0230 图证 41 source 1824428135816757318-04.jpg；0230 图证 41 web 1824428135816757318-04.jpg；0230 图证 41 experiment 1824428135816757318-04.jpg；0230 图证 42 passive 1824428135816757318-05.jpg；0230 图证 42 ssrf 1824428135816757318-05.jpg；0230 图证 42 source 1824428135816757318-05.jpg；0230 图证 42 web 1824428135816757318-05.jpg；0230 图证 42 experiment 1824428135816757318-05.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "105": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md,references/source-audit.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 工具结果必须解释输入和消费者 strategy；0230 正文 工具结果必须解释输入和消费者 source；0230 正文 工具结果必须解释输入和消费者 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "109": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/discovery/web-and-api.md,references/source-audit.md,references/impact-and-acceptance.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 发件人伪造需邮件认证和接收证据 auth；0230 正文 发件人伪造需邮件认证和接收证据 web；0230 正文 发件人伪造需邮件认证和接收证据 source；0230 正文 发件人伪造需邮件认证和接收证据 impact；0230 正文 发件人伪造需邮件认证和接收证据 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "110": {
+    "dis": "corrected",
+    "targets": "references/by-type/ai-application.md,references/source-audit.md,references/experiment-design.md,references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 AI 建议与真实执行证据保持分离 ai；0230 正文 AI 建议与真实执行证据保持分离 source；0230 正文 AI 建议与真实执行证据保持分离 experiment；0230 正文 AI 建议与真实执行证据保持分离 records；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "111": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/by-type/info-secrets.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 44 access 1824491671377285461-02.jpg；0230 图证 44 secret 1824491671377285461-02.jpg；0230 图证 44 web 1824491671377285461-02.jpg；0230 图证 44 experiment 1824491671377285461-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "112": {
+    "dis": "corrected",
+    "targets": "references/by-type/iot-security.md,references/by-type/idor-access-control.md,references/by-type/authn-session.md,references/discovery/web-and-api.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 45 iot 1824491836716749265-02.jpg；0230 图证 45 access 1824491836716749265-02.jpg；0230 图证 45 auth 1824491836716749265-02.jpg；0230 图证 45 web 1824491836716749265-02.jpg；0230 图证 45 scope 1824491836716749265-02.jpg；0230 图证 45 experiment 1824491836716749265-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "113": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/ssrf.md,references/discovery/records-and-incremental.md,references/experiment-design.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 46 xss 1824492012239982819-02.jpg；0230 图证 46 ssrf 1824492012239982819-02.jpg；0230 图证 46 records 1824492012239982819-02.jpg；0230 图证 46 experiment 1824492012239982819-02.jpg；0230 图证 46 scope 1824492012239982819-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "114": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md,references/by-type/xss.md,references/by-type/cmd-injection-rce.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 47 files 1824492174945521852-02.jpg；0230 图证 47 xss 1824492174945521852-02.jpg；0230 图证 47 cmd 1824492174945521852-02.jpg；0230 图证 47 web 1824492174945521852-02.jpg；0230 图证 47 experiment 1824492174945521852-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "116": {
+    "dis": "corrected",
+    "targets": "references/business-modeling.md,references/discovery/web-and-api.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 隐藏功能可由现有资料定位 business；0230 正文 隐藏功能可由现有资料定位 web；0230 正文 隐藏功能可由现有资料定位 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "117": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md,references/by-type/info-secrets.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 48 source 1824521702749114401-02.jpg；0230 图证 48 secret 1824521702749114401-02.jpg；0230 图证 48 web 1824521702749114401-02.jpg；0230 图证 48 experiment 1824521702749114401-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "119": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md,references/discovery/records-and-incremental.md,references/source-audit.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 公开经验迁移成可核验假设 strategy；0230 正文 公开经验迁移成可核验假设 records；0230 正文 公开经验迁移成可核验假设 source；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "120": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 证书来源与组织搜索需实体核对 passive；0230 正文 证书来源与组织搜索需实体核对 records；0230 正文 证书来源与组织搜索需实体核对 scope；0230 图证 49 passive 1824564773297758361-02.png；0230 图证 49 records 1824564773297758361-02.png；0230 图证 49 scope 1824564773297758361-02.png；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "123": {
+    "dis": "merged",
+    "targets": "references/by-type/ai-application.md,references/source-audit.md,references/experiment-design.md,references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 AI 建议与真实执行证据保持分离 ai；0230 正文 AI 建议与真实执行证据保持分离 source；0230 正文 AI 建议与真实执行证据保持分离 experiment；0230 正文 AI 建议与真实执行证据保持分离 records；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "124": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md,references/discovery/web-and-api.md,references/source-audit.md,references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 51 strategy 1824651460514111717-02.jpg；0230 图证 51 web 1824651460514111717-02.jpg；0230 图证 51 source 1824651460514111717-02.jpg；0230 图证 51 records 1824651460514111717-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "128": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/targeted-fuzzing.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 异步扫描量不是有效性和覆盖 xss；0230 正文 异步扫描量不是有效性和覆盖 fuzz；0230 正文 异步扫描量不是有效性和覆盖 scope；0230 正文 异步扫描量不是有效性和覆盖 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "129": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md,references/targeted-fuzzing.md,references/discovery/records-and-incremental.md,references/source-audit.md,references/experiment-design.md,references/scope-and-rules.md,references/discovery/web-and-api.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 LFI 管道保持字段和原始字节 lfi；0230 正文 LFI 管道保持字段和原始字节 fuzz；0230 正文 LFI 管道保持字段和原始字节 records；0230 正文 LFI 管道保持字段和原始字节 source；0230 正文 LFI 管道保持字段和原始字节 experiment；0230 正文 LFI 管道保持字段和原始字节 scope；0230 图证 53 lfi 1824771717564084406-02.png；0230 图证 53 fuzz 1824771717564084406-02.png；0230 图证 53 web 1824771717564084406-02.png；0230 图证 53 experiment 1824771717564084406-02.png；0230 图证 53 scope 1824771717564084406-02.png；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "139": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 版权文本只作新域关联候选 passive；0230 正文 版权文本只作新域关联候选 records；0230 正文 版权文本只作新域关联候选 scope；0230 图证 55 passive 1825008155819925882-02.jpg；0230 图证 55 records 1825008155819925882-02.jpg；0230 图证 55 scope 1825008155819925882-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md,references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 56 takeover 1825071753112305801-02.png；0230 图证 56 passive 1825071753112305801-02.png；0230 图证 56 web 1825071753112305801-02.png；0230 图证 56 experiment 1825071753112305801-02.png；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "146": {
+    "dis": "corrected",
+    "targets": "references/by-type/iot-security.md,references/by-type/mobile-android.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/scope-and-rules.md,references/experiment-design.md,references/discovery/records-and-incremental.md,references/by-type/business-logic.md,references/business-modeling.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 58 iot 1825131145995972786-02.jpg；0230 图证 58 android 1825131145995972786-02.jpg；0230 图证 58 client 1825131145995972786-02.jpg；0230 图证 58 source 1825131145995972786-02.jpg；0230 图证 58 scope 1825131145995972786-02.jpg；0230 图证 58 experiment 1825131145995972786-02.jpg；0230 图证 59 iot 1825131145995972786-03.jpg；0230 图证 59 client 1825131145995972786-03.jpg；0230 图证 59 records 1825131145995972786-03.jpg；0230 图证 59 scope 1825131145995972786-03.jpg；0230 图证 60 iot 1825131145995972786-04.jpg；0230 图证 60 logic 1825131145995972786-04.jpg；0230 图证 60 business 1825131145995972786-04.jpg；0230 图证 60 scope 1825131145995972786-04.jpg；0230 图证 60 experiment 1825131145995972786-04.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "149": {
+    "dis": "merged",
+    "targets": "references/by-type/websocket.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 WAMP 与编码外观先定位协议消费者 ws；0230 正文 WAMP 与编码外观先定位协议消费者 client；0230 正文 WAMP 与编码外观先定位协议消费者 source；0230 正文 WAMP 与编码外观先定位协议消费者 auth；0230 正文 WAMP 与编码外观先定位协议消费者 access；0230 正文 WAMP 与编码外观先定位协议消费者 records；0230 正文 WAMP 与编码外观先定位协议消费者 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "156": {
+    "dis": "corrected",
+    "targets": "references/by-type/api-property-pollution.md,references/by-type/idor-access-control.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 403 错误可提示字段而不证明授权 apip；0230 正文 403 错误可提示字段而不证明授权 access；0230 正文 403 错误可提示字段而不证明授权 web；0230 正文 403 错误可提示字段而不证明授权 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "158": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/by-type/info-secrets.md,references/source-audit.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 CFML 错误定位作用域和查询结构 sql；0230 正文 CFML 错误定位作用域和查询结构 secret；0230 正文 CFML 错误定位作用域和查询结构 source；0230 正文 CFML 错误定位作用域和查询结构 web；0230 正文 CFML 错误定位作用域和查询结构 experiment；0230 图证 64 sql 1825451459892093073-02.png；0230 图证 64 secret 1825451459892093073-02.png；0230 图证 64 source 1825451459892093073-02.png；0230 图证 64 web 1825451459892093073-02.png；0230 图证 64 experiment 1825451459892093073-02.png；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "161": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/by-type/idor-access-control.md,references/discovery/records-and-incremental.md,references/impact-and-acceptance.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 PII 搜索先读历史和核字段预期 secret；0230 正文 PII 搜索先读历史和核字段预期 access；0230 正文 PII 搜索先读历史和核字段预期 records；0230 正文 PII 搜索先读历史和核字段预期 impact；0230 正文 PII 搜索先读历史和核字段预期 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "163": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md,references/discovery/records-and-incremental.md,references/source-audit.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 67 fuzz 1825488285197561906-02.jpg；0230 图证 67 records 1825488285197561906-02.jpg；0230 图证 67 source 1825488285197561906-02.jpg；0230 图证 67 scope 1825488285197561906-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "167": {
+    "dis": "corrected",
+    "targets": "references/by-type/iot-security.md,references/discovery/client-and-cloud.md,references/scope-and-rules.md,references/experiment-design.md,references/by-type/authn-session.md,references/discovery/records-and-incremental.md,references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 68 iot 1825548953087082920-02.jpg；0230 图证 68 client 1825548953087082920-02.jpg；0230 图证 68 scope 1825548953087082920-02.jpg；0230 图证 68 experiment 1825548953087082920-02.jpg；0230 图证 69 iot 1825548953087082920-03.jpg；0230 图证 69 auth 1825548953087082920-03.jpg；0230 图证 69 records 1825548953087082920-03.jpg；0230 图证 69 scope 1825548953087082920-03.jpg；0230 图证 69 experiment 1825548953087082920-03.jpg；0230 图证 70 iot 1825548953087082920-04.jpg；0230 图证 70 passive 1825548953087082920-04.jpg；0230 图证 70 records 1825548953087082920-04.jpg；0230 图证 70 scope 1825548953087082920-04.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "168": {
+    "dis": "corrected",
+    "targets": "references/business-modeling.md,references/by-type/business-logic.md,references/by-type/idor-access-control.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 付费功能按服务器权益验证 business；0230 正文 付费功能按服务器权益验证 logic；0230 正文 付费功能按服务器权益验证 access；0230 正文 付费功能按服务器权益验证 scope；0230 正文 付费功能按服务器权益验证 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "169": {
+    "dis": "corrected",
+    "targets": "references/by-type/ai-application.md,references/discovery/client-and-cloud.md,references/by-type/info-secrets.md,references/source-audit.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 72 ai 1825669253338640455-02.jpg；0230 图证 72 client 1825669253338640455-02.jpg；0230 图证 72 secret 1825669253338640455-02.jpg；0230 图证 72 source 1825669253338640455-02.jpg；0230 图证 72 experiment 1825669253338640455-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "171": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md,references/by-type/open-redirect.md,references/discovery/passive-and-services.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 子域指向恶意站按 DNS 与跳转分开核验 takeover；0230 正文 子域指向恶意站按 DNS 与跳转分开核验 redirect；0230 正文 子域指向恶意站按 DNS 与跳转分开核验 passive；0230 正文 子域指向恶意站按 DNS 与跳转分开核验 scope；0230 正文 子域指向恶意站按 DNS 与跳转分开核验 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "175": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md,references/discovery/records-and-incremental.md,references/source-audit.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 复用图证 175 fuzz 1825738343969079639-02.jpg；0230 复用图证 175 records 1825738343969079639-02.jpg；0230 复用图证 175 source 1825738343969079639-02.jpg；0230 复用图证 175 scope 1825738343969079639-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "181": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/source-audit.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 78 fuzz 1825851270994788818-02.jpg；0230 图证 78 web 1825851270994788818-02.jpg；0230 图证 78 records 1825851270994788818-02.jpg；0230 图证 78 source 1825851270994788818-02.jpg；0230 图证 78 scope 1825851270994788818-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "184": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/discovery/passive-and-services.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 默认凭据清单不是部署事实 auth；0230 正文 默认凭据清单不是部署事实 passive；0230 正文 默认凭据清单不是部署事实 scope；0230 正文 默认凭据清单不是部署事实 experiment；0230 图证 80 auth 1825857392871153762-02.png；0230 图证 80 passive 1825857392871153762-02.png；0230 图证 80 scope 1825857392871153762-02.png；0230 图证 80 experiment 1825857392871153762-02.png；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "185": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/experiment-design.md,references/scope-and-rules.md,references/cloud/container-k8s-security.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 81 passive 1825868019823743200-02.jpg；0230 图证 81 records 1825868019823743200-02.jpg；0230 图证 81 experiment 1825868019823743200-02.jpg；0230 图证 81 scope 1825868019823743200-02.jpg；0230 图证 82 container 1825868019823743200-03.jpg；0230 图证 82 passive 1825868019823743200-03.jpg；0230 图证 82 records 1825868019823743200-03.jpg；0230 图证 82 scope 1825868019823743200-03.jpg；0230 图证 83 container 1825868019823743200-04.jpg；0230 图证 83 passive 1825868019823743200-04.jpg；0230 图证 83 records 1825868019823743200-04.jpg；0230 图证 83 scope 1825868019823743200-04.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "193": {
+    "dis": "merged",
+    "targets": "references/by-type/websocket.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 WAMP 与编码外观先定位协议消费者 ws；0230 正文 WAMP 与编码外观先定位协议消费者 client；0230 正文 WAMP 与编码外观先定位协议消费者 source；0230 正文 WAMP 与编码外观先定位协议消费者 auth；0230 正文 WAMP 与编码外观先定位协议消费者 access；0230 正文 WAMP 与编码外观先定位协议消费者 records；0230 正文 WAMP 与编码外观先定位协议消费者 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "194": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/source-audit.md,references/discovery/client-and-cloud.md,references/impact-and-acceptance.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 图证 89 secret 1826114606114226515-02.jpg；0230 图证 89 source 1826114606114226515-02.jpg；0230 图证 89 client 1826114606114226515-02.jpg；0230 图证 89 impact 1826114606114226515-02.jpg；0230 复用图证 194 secret 1826348288553205767-02.jpg；0230 复用图证 194 source 1826348288553205767-02.jpg；0230 复用图证 194 client 1826348288553205767-02.jpg；0230 复用图证 194 impact 1826348288553205767-02.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  },
+  "197": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/source-audit.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；0230 正文 异常标题与实际 debug 内容分开判断 secret；0230 正文 异常标题与实际 debug 内容分开判断 source；0230 正文 异常标题与实际 debug 内容分开判断 web；0230 正文 异常标题与实际 debug 内容分开判断 experiment；0230 图证 91 secret 1826140124087800258-02.jpg；0230 图证 91 source 1826140124087800258-02.jpg；0230 图证 91 web 1826140124087800258-02.jpg；0230 图证 91 experiment 1826140124087800258-02.jpg；0230 图证 92 secret 1826140124087800258-03.jpg；0230 图证 92 source 1826140124087800258-03.jpg；0230 图证 92 web 1826140124087800258-03.jpg；0230 图证 92 experiment 1826140124087800258-03.jpg；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。"
+  }
+}

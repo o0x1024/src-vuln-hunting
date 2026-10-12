@@ -1,0 +1,148 @@
+[
+  {
+    "name": "1738960223212388588-02.png",
+    "sha256": "582bfb0d62e94c197bb4ae1cad6c1dcb2f5abad0e94b925a698b4ceceb738fb1",
+    "prior": {
+      "sha256": "582bfb0d62e94c197bb4ae1cad6c1dcb2f5abad0e94b925a698b4ceceb738fb1",
+      "example_post_id": "1736852616930631977",
+      "image_name": "1736852616930631977-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/authn-session.md",
+        "references/by-type/host-header.md"
+      ],
+      "note": "重置密码清单包括自有 token 配其他邮件、Host 改写、邮件 HTML 拼接、Referer 泄露。逐一核对 token 主体/用途/失效、服务器实际邮件链接与编码、浏览器 Referrer 策略和接收端；错误拼写 Referrer 请求头不等于实际 Referer 泄露，示例无完整流程。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:22:12.420Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1739167596568838473-02.jpg",
+    "sha256": "edec5a1aecf6df4a558e98e0c21563b3a8cfba9c94f600e7eb3e4664185d9d49",
+    "prior": {
+      "sha256": "edec5a1aecf6df4a558e98e0c21563b3a8cfba9c94f600e7eb3e4664185d9d49",
+      "example_post_id": "1317618366195109890",
+      "image_name": "1317618366195109890-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整bruh双人表情图，没有模板机制；正文流水线另独立评审，不能从meme确认SSTI。",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:38:01.411722+00:00",
+      "batch": "media-0051"
+    }
+  },
+  {
+    "name": "1739745398137422016-02.png",
+    "sha256": "d20638e47922786aff29a16f6bd75e44ac25fecede9eaf4c5db002ffd276a3fd",
+    "prior": {
+      "sha256": "d20638e47922786aff29a16f6bd75e44ac25fecede9eaf4c5db002ffd276a3fd",
+      "example_post_id": "1657523158839091200",
+      "image_name": "1657523158839091200-03.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/sql-injection.md"
+      ],
+      "note": "Burp POST在X-Forwarded-For包含条件延时SQL，200OK响应耗时6448ms和正文未展开；单次时间接近6秒不能证实条件可控，需正常/真假/等成本控制与重复分布。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T00:13:46.945Z",
+      "batch": "media-0170"
+    }
+  },
+  {
+    "name": "1739745398137422016-03.jpg",
+    "sha256": "57e8698fe0240266aeddfe6dafdef0e88ff1f8956156482b40b8bed707b868ee",
+    "prior": {
+      "sha256": "57e8698fe0240266aeddfe6dafdef0e88ff1f8956156482b40b8bed707b868ee",
+      "example_post_id": "1657523158839091200",
+      "image_name": "1657523158839091200-04.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/sql-injection.md"
+      ],
+      "note": "sqlmap自报X-Forwarded-For Boolean RLIKE及time heavy query、1231 requests，未给真假响应和时序原始分布；不复制重查询/提取数据。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T00:13:56.113Z",
+      "batch": "media-0170"
+    }
+  },
+  {
+    "name": "1739745398137422016-04.png",
+    "sha256": "8c6ab8af431a8c5e3e8b76d1b4dcca10e94cca62fd36f0e5130c5a31a7d9df38",
+    "prior": {
+      "sha256": "8c6ab8af431a8c5e3e8b76d1b4dcca10e94cca62fd36f0e5130c5a31a7d9df38",
+      "example_post_id": "1657523158839091200",
+      "image_name": "1657523158839091200-05.png",
+      "disposition": "insufficient_technical_detail",
+      "targets": [],
+      "note": "报告SQL Injection in X-Forwarded-For NewOpen自报Critical10，缺少已确认服务器证据；与同组Burp与工具截图按不同层证据记录。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T00:13:56.128Z",
+      "batch": "media-0170"
+    }
+  },
+  {
+    "name": "1740047387815756090-02.jpg",
+    "sha256": "d9678352502938216038ebe1a4d004c31ab654a371621d4e663c22e8fe36fafb",
+    "prior": {
+      "sha256": "d9678352502938216038ebe1a4d004c31ab654a371621d4e663c22e8fe36fafb",
+      "example_post_id": "1736110078355530036",
+      "image_name": "1736110078355530036-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "漏洞Checklist仓库文件夹目录，没有具体步骤。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:16:32.249Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1740088630088200260-02.jpg",
+    "sha256": "588f7317d9d684613faf18f875c7967b219b008c0adc2185491500668c0b6f6b",
+    "prior": {
+      "sha256": "588f7317d9d684613faf18f875c7967b219b008c0adc2185491500668c0b6f6b",
+      "example_post_id": "1529386473392332800",
+      "image_name": "1529386473392332800-02.jpg",
+      "disposition": "insufficient_technical_detail",
+      "targets": [],
+      "note": "原始像素已实际看；Web3文章封面；不足以独立重建技术链，已保存正文机制另提炼；缺失图片和外链全文依用户覆盖，不补造。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T14:12:22.977Z",
+      "batch": "media-0125"
+    }
+  },
+  {
+    "name": "1741013754983469464-02.jpg",
+    "sha256": "660a333e4f019958df447d926730bdabf04ae8d38ff94caf0fe1a6843f38e8c0",
+    "prior": {
+      "sha256": "660a333e4f019958df447d926730bdabf04ae8d38ff94caf0fe1a6843f38e8c0",
+      "example_post_id": "1665190468085334019",
+      "image_name": "1665190468085334019-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/info-secrets.md"
+      ],
+      "note": ".git indexof元文件HEADconfigbranches hooksindex截图+RCE付款封面，目录可见与object重构/敏感内容/执行链独立，未dumprepo",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T01:29:28.780Z",
+      "batch": "media-0173"
+    }
+  },
+  {
+    "name": "1741407828022358057-02.jpg",
+    "sha256": "0163e448a4c495a4c2dc0137c69f840a7877cee979627ab3d4d464a90e3b7f42",
+    "prior": {
+      "sha256": "0163e448a4c495a4c2dc0137c69f840a7877cee979627ab3d4d464a90e3b7f42",
+      "example_post_id": "1697099102905942473",
+      "image_name": "1697099102905942473-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/open-redirect.md"
+      ],
+      "note": "开放重定向图列直接换域、协议相对 //、反斜线、无双斜线 scheme、%40 userinfo、后缀拼接、%2e、查询/fragment 放白名单域、斜线后小圆符号、中文句号编码与 %0d/%0a。保留解析层候选及最终 scheme/host/origin 比较，不把所有形状都认定跳出；图把 %0d/%0a 称 nullbyte 是错误，它们是 CR/LF，NUL 是 %00；反斜线段示例和标题未一致呈现，须按原始字节/解码次数确认；控制字符候选只在离线/受控环境核对 Location 与浏览器解析，不能把 CR/LF 自动当作重定向成功。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T05:31:19.944Z",
+      "batch": "media-0183"
+    }
+  }
+]

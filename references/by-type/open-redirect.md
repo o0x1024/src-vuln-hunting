@@ -802,3 +802,1060 @@ GitSourceEditor先newURL(a).origin白名单但再regexexec全URL捕host/project/
 实际保存图：1716824364455280844-02.png。本轮原始像素已阅；图片仅支持上述可见内容。
 
 来源：[保存帖1](https://x.com/i/status/1716824364455280844)。
+
+
+## 0197：十进制 IP 与反斜杠需要逐层 URL 解析对照
+
+正文给编码 http scheme、十进制主机数及反斜杠候选。不能凭字面不是常规 IP 就信任，也不能假设所有库/浏览器均支持同一表示。离线自有 URL 样本逐层核 percent 解码、host 解析/规范化、反斜杠/斜杠、重定向目的地与 allowlist 比较；实际跨源 Location/导航和许可政策才支持 open redirect，未打开外站或执行跳转。
+
+来源：[保存帖1](https://x.com/i/status/1724052442021499313)。
+
+
+## 保存图证0197-59-redirect：1724759302353912146-02.jpg
+
+WordPress 报告要求先正常认证，account/user 的 redirect_to 给 javascript scheme，再点 Continue；正文声称 XSS，图未显示浏览器执行。核可控跳转来源、URL 解析/协议白名单、实际导航 sink、CSP 和是否能影响其它受害者，用自有无害协议/拒绝对照。需要点击与已登录前置，不能从登录或潜在 steal-cookie 文字推断 ATO。
+
+实际保存图：1724759302353912146-02.jpg。本轮原始像素已阅；图片仅支持上述可见内容。
+
+来源：[保存帖1](https://x.com/i/status/1724759302353912146)。
+
+
+## 保存正文0198：批量替换 token 的开放跳转需要逐项成立
+
+保存正文声称替换 token 找到大量子域跳转，但未给 token 语义、完整请求或导航回执。先用自有受控入口固定身份、参数位置、编码及协议，对照默认目的地、允许站点和无害外部测试目的地。确认实际 Location 或客户端导航解析后的 host，排除仅反射、错误页、允许的用户链接和不同子域 scope；不可把数量或替换技巧当通用绕过。
+
+来源：[保存帖1](https://x.com/i/status/1726982545122922977)。
+
+
+## 保存正文0198：开放跳转扫描工具结果需要导航与归属确认
+
+RE-FuZZ 的输入与 payload 选项是工具入口。扫描结果保留原始请求、参数位置、解析后 Location 或客户端导航目的地，并用允许目的地与受控外部测试目的地对照；排除仅反射、错误页和业务允许跳转，逐域确认 scope。保存帖没有仓库实现或输出，不称检测率或可用性已验证。
+
+来源：[保存帖1](https://x.com/i/status/1728443431154811280)。
+
+
+## 保存图证0198-8-redirect：1726903569033638283-02.jpg
+
+已核对保存图片 `1726903569033638283-02.jpg`。Nextcloud2210038显示Circle display name含meta http-equiv=refresh，分享给管理员后Files Shared with Circles出现导航；保存字段→另一主体HTML渲染→refresh链。用受控标记与安全目的地、纯文本基线核验。图中标签Stored XSS不能证明JS执行、会话劫持或全部泛化影响。
+
+来源：[保存帖1](https://x.com/i/status/1726903569033638283)。
+
+
+## 保存图证0198-107-redirect：1728420776293081450-03.png
+
+已核对保存图片 `1728420776293081450-03.png`。文章保存截图描述smuggling gadget+malformed path的@example.com导致https://redacted.tld@example.com/导航及OAST DNS/HTTP条目。URL @前为userinfo真正host在后；缺请求字节、缓存键/受害请求关联和OAST内容，回连仅证明交互非traffic被窃/critical。受控标记、无@基线、独立客户端及缓存命中轨迹逐环核验。
+
+来源：[保存帖1](https://x.com/i/status/1728420776293081450)。
+
+
+## 保存图证0200-121-redirect：1734157340910489683-02.jpg
+
+1734157340910489683-02.jpg：waybackurls→httpx→gf redirect 输出 URL 列表多为 redirect=no；这证明名称筛选而非跳转。先保存归档来源/当前可达性及范围，再区分控制开关与目标 URL 消费，需 Location 或实际导航目的地，无跳转为反例。
+
+来源：[保存帖1](https://x.com/i/status/1734157340910489683)。
+
+
+## 保存图证0200-123-redirect：1734188784315441173-02.png
+
+1734188784315441173-02.png：redirect、url、next、redirect_uri、return_to 等入口候选示意，图仅5项而正文称48项。按消费端定位目标导航与授权规则，不虚构其余条目；OAuth redirect_uri 必须另查注册客户端匹配，参数名无跳转证据。
+
+来源：[保存帖1](https://x.com/i/status/1734188784315441173)。
+
+
+## 保存图证0200-149-redirect：1734898462830010627-02.jpg
+
+1734898462830010627-02.jpg：gf redirect 图仅对 URL 名称筛选，两条示例没有 Location 或导航。分别保存候选与原参数含义，匹配 next/redirect 不能证明任意目标可控，已知公共目的地例子也非验证。
+
+来源：[保存帖1](https://x.com/i/status/1734898462830010627)。
+
+
+## 既有图证0200-114-redirect：1734088829081092516-02.jpg
+
+1734088829081092516-02.jpg 与既有 1635665841013358592-02.jpg 的 SHA256 一致，复用已记录原图观察。25项open redirect路径/next/url/target/rurl/dest/return/checkout等候选参数，被称dorks但无搜索运算符或结果；需消费为Location/DOM导航和真实目标，不凭命名判漏洞。。定位Location/DOM消费者与实际目的地，名称筛选不等于导航；内部路径或业务开关为反例。
+
+来源：[保存帖1](https://x.com/i/status/1734088829081092516)。
+
+
+## 既有图证0200-163-redirect：1735215548580114644-02.jpg
+
+1735215548580114644-02.jpg 与既有 1674130695923421191-03.jpg 的 SHA256 一致，复用已记录原图观察。U+3002 全角句点与多斜杠 redirect_to 的 2020 年报告标为 New/Low/Private，无完整 Location 或导航结果。。离线对比Unicode句点、斜线规范化与最终authority；历史New/Low状态没有Location/导航，合法内部目标为反例。
+
+来源：[保存帖1](https://x.com/i/status/1735215548580114644)。
+
+
+## 保存图片 1735579351180358025-02.jpg 的 redirect 验证边界
+
+JS清单列WebSQL executeSql、location、srcdoc、XHR/AJAX、cookie等sink。location pathname/search通常同origin，XHR是请求非顶层跳转，srcdoc是HTML渲染，需逐个跟踪source→操作→权限消费者；旧WebSQL/FileSystem可用性不普遍。离线无害标记区分仅DOM改写、真实导航、客户端SQL与脚本执行，不从API存在证明漏洞。
+
+图片证据：1735579351180358025-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1735579351180358025)。
+
+
+## 保存图片 1737000336542351586-02.jpg 的 redirect 验证边界
+
+scheme 与正反斜杠及百分号编码的 URL 变体列表，没有请求结果。先比较各解析器对协议、authority 和解码次数的结果，再核对最终导航或服务端取址，允许名单按规范化 origin 比较；变体本身不能证明绕过。
+
+图片证据：1737000336542351586-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1737000336542351586)。
+
+
+## 保存图片 1737902464169288164-02.jpg 的 redirect 验证边界
+
+curl POST/HEAD 自定 Host 后303 Location 指向该域，截图支持 Host 影响重定向而未证明 reset token 可用或 ATO。区分请求 URL/TLS/Host/反代和邮件链接，使用两个自有域惰性标记，核对最终 token 主体/消费；不抄用 session值、不跟随外域。
+
+图片证据：1737902464169288164-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1737902464169288164)。
+
+
+## 0201 正文：URL 校验和导航应使用同一规范化 origin
+
+保存叙述 https://evil 被拒而 http:/evil 得跳转含authToken。对照RFC/WHATWG解析、scheme/authority、反斜杠/解码、重定向实际目的地及token主体/audience/有效期；两自有域惰性标记即可定位差异，标题不是令牌有效或接管证据，不使用真实token。
+
+来源：[保存帖1](https://x.com/i/status/1737907869431873626)。
+
+
+## 保存图片 1739126318229233748-02.jpg 的 redirect 验证边界
+
+缩写IPv4 图给1.1/127.1/192.168.1；这依历史数字地址解析规则与位宽，不能普遍理解为任意删零。离线比较URL校验、规范化host和最终取址/导航，严格IPv4解析器可能拒绝；未见请求，不访问内网或回环。
+
+图片证据：1739126318229233748-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1739126318229233748)。
+
+
+## 保存图片 1741405995203752145-02.png 的 redirect 验证边界
+
+URL 结构图把 scheme、userinfo、host、port、path/query 分开。验证授权域要比较标准解析器所得 hostname、scheme 和规范化 origin，不能用含凭据文本或 registrable-domain 字符串肉眼判定；userinfo 并非目标 host，公网后缀规则、IPv6/IDNA/编码与默认端口需按实际 parser 确认。示例图不证明任何重定向或 SSRF，最小对照仅解析自有 URL 不请求内网。
+
+图片证据：1741405995203752145-02.png。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1741405995203752145)。
+
+
+## 复用已核对图片 1741407828022358057-02.jpg 的 redirect 边界
+
+开放重定向图列直接换域、协议相对 //、反斜线、无双斜线 scheme、%40 userinfo、后缀拼接、%2e、查询/fragment 放白名单域、斜线后小圆符号、中文句号编码与 %0d/%0a。保留解析层候选及最终 scheme/host/origin 比较，不把所有形状都认定跳出；图把 %0d/%0a 称 nullbyte 是错误，它们是 CR/LF，NUL 是 %00；反斜线段示例和标题未一致呈现，须按原始字节/解码次数确认；控制字符候选只在离线/受控环境核对 Location 与浏览器解析，不能把 CR/LF 自动当作重定向成功。
+
+图片证据：1741407828022358057-02.jpg。本帖图片与已完整核对原图 SHA-256 相同；复用原观察，不补造被遮挡内容。
+
+来源：[保存帖1](https://x.com/i/status/1741407828022358057)。
+
+
+## 保存图片 1741758302009032752-02.jpg 的 redirect 验证边界
+
+截图外层页面的 iframe/modal 中显示另一站点内容；与保存 meta refresh 正文结合，需核对可控存储 HTML、子框架响应、refresh 生效及实际导航的是子框架还是顶层，sandbox/CSP/用户动作影响边界。显示外站不证明脚本执行、顶层跳转或凭据泄漏；使用自有受控导航标记，不访问图片域名。
+
+图片证据：1741758302009032752-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1741758302009032752)。
+
+
+## 保存图片 1741859326401101849-02.jpg 的 redirect 验证边界
+
+CRLF 清单分别列 Set-Cookie、Location 和 HTML body 候选，无响应。需跟踪百分号解码到 header API 是否拒绝 CR/LF、原始响应是否形成独立头/体及浏览器最终导航/执行；反射字符串与 200 不证明 splitting。X-XSS-Protection 设置不是现代 CSP 通用绕过，Content-Length 按真实字节与协议处理。使用惰性自有标记，不插会话 cookie 或混淆共享连接。
+
+图片证据：1741859326401101849-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1741859326401101849)。
+
+
+## 复用已核对图片 1743958155791360164-02.jpg 的 redirect 边界
+
+scheme 与正反斜杠及百分号编码的 URL 变体列表，没有请求结果。先比较各解析器对协议、authority 和解码次数的结果，再核对最终导航或服务端取址，允许名单按规范化 origin 比较；变体本身不能证明绕过。
+
+图片证据：1743958155791360164-02.jpg。本帖图片与已完整核对原图 SHA-256 相同；复用原观察，不补造被遮挡内容。
+
+来源：[保存帖1](https://x.com/i/status/1743958155791360164)。
+
+
+## 保存正文0204：历史 URL 的有效响应不确认开放跳转
+
+gau 收集归档 URL、curl 检查有效并展示潜在参数，正文未保存精确命令，图只是空终端。需保留参数的实际消费者，比较允许相对地址和受控外部无害目的地，核 Location/客户端导航及每跳规范化URL/范围。200、参数名、正文中URL或curl能访问均不是开放跳转；存档页与当前路由不一致作反例，不自动跟随外域。
+
+来源：[保存帖1](https://x.com/i/status/1745470506826957016)。
+
+
+## 保存图片0204 1747096589494325335-04.jpg 的 redirect 验证边界
+
+network/input 图建议端口、UDP、服务脚本及多类参数/请求头注入，底部 SOAP 等内容被裁切。明确被动服务记录与获准主动请求、保守预算和范围；Referer 不自动通向 RCE、User-Agent 不自动通向 SQL/XSS。逐次改变一个已知输入，核对原始请求和实际 sink；Host/XFH 需最终生成地址证据，XSS 需 DOM 执行，SQL/命令/文件读取须对应服务端受控证据，路径斜杠跳转需最终导航，纯错误/反射作反例；不执行脚本、爆破或全参数扫描。
+
+图片证据：1747096589494325335-04.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1747096589494325335)。
+
+
+## 保存图片0205 1748760088352068067-02.jpg 的 redirect 验证边界
+
+undici-fetch报告摘要说明服务端RequestInit.headers能较直接设置Cookie，与浏览器禁止请求头的假设不同，跨origin跳转未总清除此头；历史模块5.24.0。两个自有origin用假Cookie标记比较同origin和跨origin跳转，每跳读取实际发送头，确认凭据不随新origin转送。手工设置Cookie、cookie jar、浏览器SameSite与服务端实现分别看；不能以浏览器fetch规则证明Node行为，回调或跳转成功不是凭据泄漏。
+
+图片证据：1748760088352068067-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1748760088352068067)。
+
+
+## 保存图片0205 1749395696019784060-02.png 的 redirect 验证边界
+
+图将Wayback/gau带=URL经qsreplace替换为interactsh，再httpx -fr并看回调。httpx主动follow redirect自身就会访问callback，这不能证明服务器SSRF或浏览器开放跳转；多参数一起替换也不能归因。自有环境比较不跟随与明确记录逐跳Location的请求，再按单个参数和唯一nonce核实际调用者；HTTP回调/历史URL只生成候选，不自动跟随外域，不跑全量流水线。
+
+图片证据：1749395696019784060-02.png。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1749395696019784060)。
+
+
+## 保存图片0205 1750549293831000559-02.jpg 的 redirect 验证边界
+
+Shopify 摘要给出 confirm-account-details 的 returnTo 可接受 javascript: URL，前提是账号未完成、受害者点击链接、登录并点击 Continue。应沿参数保存至登录后跳转的状态链验证 URL 协议白名单及真实导航执行，以自有未完成/已完成账号、正常 HTTPS/非执行标记比较；点击与登录条件不能省略，Cookie 标记不等于读取 HttpOnly 或账号接管。
+
+图片证据：1750549293831000559-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1750549293831000559)。
+
+
+## 0206 301 中 header 注入到影响的证据（redirect）
+
+用户求助CRLF301且Location尝试无效，保存内容没有成功链。核实际CR/LF字节、响应头/正文边界、HTTP版本/代理以及浏览器最终导航，以隔离自有原始字节fixture与拒绝基线比较；标题/重定向不证明response splitting、XSS或open redirect，不补造成功payload。
+
+来源：[保存帖1](https://x.com/i/status/1755123787463364928)。
+
+
+## 保存图片0206 1754248465578696951-02.jpg 的 redirect 验证边界
+
+3xx清单把304理解改方法、306称换代理并由307/308推漏洞，需纠正：304是条件请求的未修改，306保留/不使用不能指挥换代理，307/308保留原方法而303通常取另一资源。保存Location、原方法/body、缓存validator及每跳身份，用自有受控跳转/304fixture对照；正常3xx不是open redirect，自动跟随会泄露凭据/扩大范围，禁止由状态直接归类漏洞。
+
+图片证据：1754248465578696951-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1754248465578696951)。
+
+
+## 保存图片0208 1758642689501986879-02.jpg 的 redirect 验证边界
+
+TikTok官方摘要redirect_url在Seller登录路径遍历导致open redirect，并称could导致接管，无具体payload或凭据流。定位URL规范化/允许列表与最终Location和OAuth/session交接；own固定origin/编码路径负例，跳转不自动证明ATO，不访问Seller或实际跳转登录。
+
+图片证据：1758642689501986879-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1758642689501986879)。
+
+
+## 正文0209 跳转参数名不是重定向证据：redirect
+
+return/url/callback/forward等只是发现词表，需实际服务端Location或客户端navigation consumer、decode/URL规范化及精确允许origin。自有合成URL比较允许sameorigin、拒绝外部/相似suffix和参数被当纯文本负例；checkout/host/page名称不证明跳转、更不说明OAuthtoken或ATO，不发送或导航URL。
+
+来源：[保存帖1](https://x.com/i/status/1764297426729320894)、[保存帖2](https://x.com/i/status/1764645618163896470)。
+
+
+## 正文0209 U3002点规范化与SSO：redirect
+
+percentencoded中文句号进入SSO callback只是候选，截图缺最终Location。raw前缀/后缀比较与URL/IDNA/decode后的主机应一致并精确scheme/host/port，redirect_uri绑定和token发放单独证明。自有惰性URL模型比合法origin、相似suffix、编码与拒绝非白名单负例；跳转成功也不单独ATO，不访问SSO或猜遮挡域。
+
+来源：[保存帖1](https://x.com/i/status/1765031161011568961)。
+
+
+## 保存图片0209 1764147214203683211-02.jpg 的 redirect 验证边界
+
+Google dork图每行-site:target.com是排除而非限制该域，与文案候选目标不一致；inurl go/return_path/redirect/location等只参数启发，“Critical”没有影响证据。自有query/URL fixture核include/exclude和最终redirect consumer，比较合法同origin/拒绝外部/编码规范化，不静默修正归档查询、不执行搜索或外推范围。
+
+图片证据：1764147214203683211-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1764147214203683211)。
+
+
+## 保存图片0209 1764159849791951254-02.jpg 的 redirect 验证边界
+
+Google dork图每行-site:target.com是排除而非限制该域，与文案候选目标不一致；inurl go/return_path/redirect/location等只参数启发，“Critical”没有影响证据。自有query/URL fixture核include/exclude和最终redirect consumer，比较合法同origin/拒绝外部/编码规范化，不静默修正归档查询、不执行搜索或外推范围。
+
+图片证据：1764159849791951254-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1764159849791951254)。
+
+
+## 保存图片0209 1765031161011568961-02.jpg 的 redirect 验证边界
+
+SSO init callback图含google.com加percentencodedU+3002再被遮挡域后缀，无Location/浏览器最终origin。raw字符串前缀allowlist与URL/IDNA点规范化必须一致，U+3002视觉点不是凭看到就成功。自有惰性URL parser用合成域比较规范后精确origin、合法redirect_uri和拒绝相似suffix，区分跳转与OAuthtoken/ATO影响；不补隐去域、发SSO请求或导航。
+
+图片证据：1765031161011568961-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1765031161011568961)。
+
+
+## 保存正文0210：Moodle redirect_uri 需验证最终导航而非落地截图（redirect）
+
+正文/mod/lti/auth.php?redirect_uri=//example.com候选，//是继承scheme的network-path reference，实际URL消费者可能拒绝/规范化为相对或需登录条件。对照受控允许/拒绝origin与返回Location/DOM导航链、hostport规范化、token是否发送；单独example.com截图不能绑定Moodle来源，不打开目标/发送SSOcode。
+
+来源：[保存帖1](https://x.com/i/status/1767222180402675844)。
+
+
+## 保存图片0210 1767937980826845330-02.png 的 redirect 验证边界
+
+TikTok登录页图redirect=javascript并alert标记，host遮盖且来源字段/邮箱输入不证明另用户身份。需导航scheme消费者、真实响应/DOM/CSP与受控触发；跳转到外站与同源JS执行是不同影响链，弹窗不等ATO，不登录真实账号或执行javascriptURL。
+
+图片证据：1767937980826845330-02.png。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1767937980826845330)。
+
+
+## 正文0211 111 redirect：U3002与精确origin一致规范化
+
+保存encoded U3002 redirect候选，视觉点/IDNA映射、percent解码及parser先后需和allowlist消费者一致。惰性canonical scheme/host/port比较suffix/相似域/标准origin，缺Location/SSOcode接收链不推token盗取或ATO；不访问链接。
+
+来源：[保存帖1](https://x.com/i/status/1770020285909241957)。
+
+
+## 保存图证0211 1769378339435720759-02.jpg redirect
+
+GoCD new.loading.page.html代码query正则取redirect_to，decodeURIComponent后赋window.location，缺参数时reload。危险scheme进入浏览器导航消费者；限制规范化scheme及origin，惰性javascript样式/合法相对路径/非法编码比较。保存代码支持候选链但无实际执行/CSP，开放跳转与脚本执行分开，不执行alert。
+
+图片证据：1769378339435720759-02.jpg。已核对完整可见像素；遮挡、裁切及未显示请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1769378339435720759)。
+
+
+## 既有图证0211 1770020285909241957-02.jpg redirect
+
+当前图片 1770020285909241957-02.jpg 内容SHA256与既有已阅 1765031161011568961-02.jpg 相同，复用已核验像素；当前字节重新核对。
+
+SSO init callback图含google.com加percentencodedU+3002再被遮挡域后缀，无Location/浏览器最终origin。raw字符串前缀allowlist与URL/IDNA点规范化必须一致，U+3002视觉点不是凭看到就成功。自有惰性URL parser用合成域比较规范后精确origin、合法redirect_uri和拒绝相似suffix，区分跳转与OAuthtoken/ATO影响；不补隐去域、发SSO请求或导航。
+
+原始阅图时间保留为 2026-10-11T13:59:29.381Z；未重新登记新阅图或访问外链。
+
+来源：[保存帖1](https://x.com/i/status/1770020285909241957)。
+
+
+## 跳转 XSS 与账号接管的独立门槛0212-redirect
+
+保存正文从跳转参数替换为 JavaScript，再推断窃 cookie 和账号接管。先查最终 URL 消费者、允许 scheme、执行 origin 和 CSP；导航字符串出现并不代表执行。惰性 URL/字符串正反例应区分允许的 HTTPS、拒绝的 scheme 与未消费参数。即使有脚本执行，也需分别证明敏感会话可读、有效登录态可重放与最终权限变化；HttpOnly、无登录态、无效 token 和二次验证是反例。不开回调、不读 cookie、不重放会话。
+
+来源：[保存帖1](https://x.com/i/status/1771975317454029109)。
+
+
+## SSO 跳转前路径和文件读取终态0212-redirect
+
+正文描述 domain.tld 跳至 domain.tod 的目录，再跳至 SSO，随后在第一次跳转后变换路径得到 200。保留 domain.tod 字面值，不能悄悄当同主机；逐跳核范围、路由、身份和实际文件消费者。惰性对照为正常私有对象、不存在路径、同内容软 404 和被拒绝标记，确认受保护字节而非仅状态。图片仅奖励题名，未保存具体读取链，不能推断任意文件/P1；不绕过登录或读系统文件。
+
+来源：[保存帖1](https://x.com/i/status/1772897102500143325)。
+
+
+## 保存图证0213-62-1776052350723231996-02.jpg-redirect
+
+已核对保存图片 `1776052350723231996-02.jpg`。Pangle历史摘要redirect参数反射缺HTML转义/输出编码而形成浏览器XSS，图未给具体上下文或payload且称已修复/no exploitation evidence。URL跳转消费者与HTML渲染消费者分开，惰性标记对照正确编码/普通文本/真实HTML上下文，需CSP与接收者证据；参数叫redirect不等纯开放跳转或普遍可执行，不发送请求。
+
+图片证据：1776052350723231996-02.jpg。采用可见内容，裁切、遮挡和未保存阶段不补造。
+
+来源：[保存帖1](https://x.com/i/status/1776052350723231996)。
+
+
+## 保存图证0213-74-1776605381285826796-02.png-redirect
+
+已核对保存图片 `1776605381285826796-02.png`。OAuth序列图登录先cookie code_verifier，authorize redirect_uri内有next，再用户登录/code回调/校验verifier与code后按next跳转；图仅流程，无DOMXSS代码或ATO终态。区分授权服务、callback、PKCE verifier的会话绑定和next导航消费者，惰性错误verifier/已用code/不允许redirect/next与正常流程对照；图未列state不代表实现无state，正文1click主张另证，不登录或读cookie。
+
+图片证据：1776605381285826796-02.png。采用可见内容，裁切、遮挡和未保存阶段不补造。
+
+来源：[保存帖1](https://x.com/i/status/1776605381285826796)。
+
+
+## 保存正文0214-redirect：相对导航与链式影响逐段确认
+
+正文称相对 URI 重定向可链 RXSS/SSRF/ATO；同源相对导航不自动是开放重定向，浏览器导航也不是服务端 fetch。每段需分别核可控目的地、渲染 sink、服务器请求及最终授权事务，离线比较同源路径、拒绝外部目的地和惰性内容。缺少任一消费者时只记录假设，不把标题链当已读利用。
+
+来源：[保存帖1](https://x.com/i/status/1779836676002693478)。
+
+
+## 保存图证0214-30-redirect：1777812338768482632-02.png
+
+已实际核对完整保存图片 `1777812338768482632-02.png`。XSS列表location/document/cookie多种语法与fetch外送，含未赋值/空参数/可疑doc缩写Unicode示例，不能当全部有效JS。导航、属性访问、cookie可读性、HttpOnly和外部connect-src是独立消费者；惰性语法/作用域/同origin/CSP允许表对照，十进制authority/scheme-relativeURL按实际解析，不读取cookie、fetch外送或执行片段。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1777812338768482632)。
+
+
+## 保存图证0214-48-redirect：1778362646980403439-02.jpg
+
+已实际核对完整保存图片 `1778362646980403439-02.jpg`。refresh-jwt 路由中的 redirect 查询值被保存报告描述为反射型 XSS，并附浏览器弹窗图。这里的关键是重定向输入进入 HTML sink；不能因参数叫 redirect 就只查导航，也不能由路由名称认定 JWT 认证绕过。以惰性标记核对解码、输出上下文、CSP 与真实浏览器消费者。报告状态和奖金不补足完整响应、跨用户影响或原生桥证据。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1778362646980403439)。
+
+
+## 保存正文0215-redirect：URI scheme 的 sink 不相同
+
+保存 file/javascript/data 候选需按实际消费者分析：导航、脚本src、HTML属性、iframe与桌面handler的允许scheme、origin和CSP不同。file:///指向本地也不自动让HTTP页读取本地文件，data HTML不保证保留原站身份，javascript也需可执行导航。离线惰性URI与拒绝scheme反例核解码/语法，不读取文件、加载恶意脚本或执行保存载荷。
+
+来源：[保存帖1](https://x.com/i/status/1781639148627275985)。
+
+
+## 保存图证0215-63-redirect：1782353270423372221-02.jpg
+
+已实际核对完整保存图片 `1782353270423372221-02.jpg`。浏览器 desync 截帧连续显示两段 HTTP/1.1 307、CL0、keep-alive 与 Location，前置请求/连接上下文未显示。两响应可能来自正常两请求/重定向；需离线核精确请求计数、字节边界、连接重用和谁解析剩余数据。CL0/keep-alive 本身非走私证明，不能据 X-Azure/X-Cache 头认定部署或缓存投毒，不复现外部 desync。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1782353270423372221)。
+
+
+## 正文0216-188-redirect：Unicode句点经解码和IDNA后的host需要重新验证
+
+正文%E3%80%82用于SSOcallback名单图仍只是URL；raw看似可信前缀经过percentdecode/Unicodehost映射最终域不同。离线parse-beforevalidate、准确host/path/scheme及SSOtransaction绑定的允许/拒绝fixture，比较query/fragment/userinfo被当文本的反例，不导航真实SSO或claimgrant，没有最终Location不足以确证重定向。
+
+来源：[保存帖1](https://x.com/i/status/1786440619864318335)、[保存帖2](https://x.com/i/status/1786503024762089695)。
+
+
+## 保存图证0216-33-redirect：1784531049101582758-02.jpg
+
+已实际核对完整保存图片 `1784531049101582758-02.jpg`。HTML链接/onclick/form/iframe/邮件与cookie外传候选；自加script-src-elem unsafe-inline字符串不自动修改真实CSP、链接不等开放重定向、file://iframe不等远程读文件、HttpOnly cookie不可由document.cookie读取。离线惰性标记按HTML文本/属性/JS/导航/嵌入消费者和origin/CSP/动作授权分别对照，不建钓鱼表单、执行script或外传。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1784531049101582758)。
+
+
+## 保存图证0216-43-redirect：1784890960263983458-02.jpg
+
+已实际核对完整保存图片 `1784890960263983458-02.jpg`。重定向scheme-relative/反斜杠/userinfo/子串/query/fragment/Unicode点/CRLF候选表；末行把%0d%0a称nullbyte不正确。每阶段URL解码/host规范化和最终Location/浏览器destination对比严格allowlist、同站path/禁无效scheme负例；子串出现可信域不等最终host，不执行重定向/SSO或凭据流。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1784890960263983458)、[保存帖2](https://x.com/i/status/1876932357699096647)。
+
+
+## 保存图证0216-43-redirect：1785587974069256395-02.jpg
+
+已实际核对完整保存图片 `1785587974069256395-02.jpg`。重定向scheme-relative/反斜杠/userinfo/子串/query/fragment/Unicode点/CRLF候选表；末行把%0d%0a称nullbyte不正确。每阶段URL解码/host规范化和最终Location/浏览器destination对比严格allowlist、同站path/禁无效scheme负例；子串出现可信域不等最终host，不执行重定向/SSO或凭据流。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1785587974069256395)。
+
+
+## 保存图证0216-44-redirect：1876932357699096647-02.jpg
+
+已实际核对完整保存图片 `1876932357699096647-02.jpg`。同重定向表不同保存字节：%40在userinfo与%23fragment/%3fquery按解码时点决定host，Unicode点与反斜杠各consumer可能不同；%0d/%0a是CR/LF非NUL。离线不导航的解析模型正反例逐层保留raw与normalizedURL，只有最终导航离开allowlist才可确认，不套用所有格式。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1784890960263983458)、[保存帖2](https://x.com/i/status/1876932357699096647)。
+
+
+## 保存图证0216-95-redirect：1786440619864318335-02.jpg
+
+已实际核对完整保存图片 `1786440619864318335-02.jpg`。SSOinitcallback含google.com%E3%80%82后续域名的URL截图，未显示Location/最终导航或grant。Unicode句点按percentdecode/IDNA/URLparser阶段影响hostname，substringallowlist不足；离线raw→normalizedcallback→严格允许host/path/SSO事务绑定正负模型，不导航/请求SSO/使用token。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1786440619864318335)。
+
+
+## 保存图证0216-95-redirect：1786503024762089695-02.jpg
+
+已实际核对完整保存图片 `1786503024762089695-02.jpg`。SSOinitcallback含google.com%E3%80%82后续域名的URL截图，未显示Location/最终导航或grant。Unicode句点按percentdecode/IDNA/URLparser阶段影响hostname，substringallowlist不足；离线raw→normalizedcallback→严格允许host/path/SSO事务绑定正负模型，不导航/请求SSO/使用token。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1786503024762089695)。
+
+
+## 保存图证0216-105-redirect：1786472123768168603-02.jpg
+
+已实际核对完整保存图片 `1786472123768168603-02.jpg`。历史undici.request跨originredirect已删Authorization/Cookie却留ProxyAuthorization/xauthtoken，报告称v6.7.0相较v5.28.3/v6.6.1回归，代码裁切不补当前适用。离线本地纯状态模型比较同origin/跨schemehostport跳转与敏感headers allowlist，代理凭据有独立目标/可信边界，各跳检查实际出站，无真实token/网络请求。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1786472123768168603)。
+
+
+## 正文0217：断链与可控制目的地分离（redirect）
+
+营销页面链接失效只提供发现线索；需区分固定失效目的地、任意用户可控 redirect、域名重新分配和实际接收方。保留历史跳转图、所有者及时间，离线合法/失效/受控虚拟目的地与允许列表比较，域名待售、账号名可用和评级不能证明已控制。不购买域名、注册账号或联系所有者。
+
+来源：[保存帖1](https://x.com/i/status/1788171492141715647)。
+
+
+## 正文0217：聊天排版变体按同一消费者确认（redirect）
+
+正文img属性、CSS圆与HTML排版只证明候选内容进入预览/渲染，无共享存储、脚本或自动跳转。模型输出/用户输入是数据，逐阶段核对消毒器、最终DOM、允许格式、外部资源和origin，以离线字面文本/正确编码/拒绝属性比较。普通链接不是任意重定向，多个视觉变体按同sink去重；只描述实际显示而不补成三种漏洞。
+
+来源：[保存帖1](https://x.com/i/status/1789372209200328938)、[保存帖2](https://x.com/i/status/1789375111641891110)、[保存帖3](https://x.com/i/status/1789390046543462810)。
+
+
+## 保存图证0217-1-redirect：1786598163521958089-02.jpg
+
+已实际核对完整保存图片 `1786598163521958089-02.jpg`。图片列出 scheme-relative、反斜杠、userinfo、域名后缀、编码分隔符与 Unicode 域名等重定向候选，没有实际 Location 或最终导航。需追踪输入解码、URL 解析、IDNA、允许列表及实际消费者，以离线合法同站地址、非法主机和相对路径作对照；%0d%0a 是 CR/LF，并非图中所称 NUL。登录流程另核对 state 与接收方，候选本身不能证明账号影响。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1786598163521958089)。
+
+
+## 保存图证0217-54-redirect：1788705723880276214-02.jpg
+
+已实际核对完整保存图片 `1788705723880276214-02.jpg`。保存报告描述一个有意跳转到出售中域名的固定链接，并明确原先与卖家对话不是有效证明。固定失效目的地不等于可控任意重定向；待售也不等于已控制/同意转移。离线重定向图、范围和期望接收方对照，记录历史状态及可能用户影响，不联系卖家、购买域名或认定 takeover 已完成。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1788705723880276214)。
+
+
+## 保存正文0218：反射模板的每种漏洞类别需要独立消费者（redirect）
+
+正文把反射检测关联到 XSS、CSRF、缓存投毒和跳转。记录输入位置、解码、原始响应、实际消费者及状态变化，分别检查 HTML/JS sink、浏览器凭据和业务动作、缓存键与无输入的独立请求、导航目标与验证规则。离线用唯一惰性标记和正常编码响应作对照；反射、扫描器标签或单次命中不能同时确认这些漏洞，弃用模板不说明目标已修复。
+
+来源：[保存帖1](https://x.com/i/status/1789677001189802094)、[保存帖2](https://x.com/i/status/1790037556102394272)。
+
+
+## 保存正文0218：YQL 重定向与命令消费者各需独立前提（redirect）
+
+正文及截图声称重定向绕回环限制，再到 ymon 命令消费者。分别核每跳的 URL/DNS/地址检查、服务端网络身份、目的服务认证以及字段是否传给命令解释器；离线虚拟取回器比较各跳重新校验。到达内部 URL 不等于可执行命令，目标参数与历史标题不证明当前可达或完整链，未发送请求。
+
+来源：[保存帖1](https://x.com/i/status/1790895772109885878)、[保存帖2](https://x.com/i/status/1791023453182570880)。
+
+
+## 保存正文0218：短链接失效或重分配不等于任意跳转控制（redirect）
+
+正文及图涉及 Bitly 官方短链接破损及可能重新认领。确认实际短链接归属、服务重分配规则、可控目标、受害者点击与业务信任；用离线映射表比较不存在、正确归属和已回收条目。失效页面不是他人可控，既有跳转功能不是认证绕过；未创建或认领短链接。
+
+来源：[保存帖1](https://x.com/i/status/1790895934878192065)、[保存帖2](https://x.com/i/status/1791023451878101070)。
+
+
+## 保存图证0218-38-redirect：1790895934878192065-02.jpg
+
+已实际核对完整保存图片 `1790895934878192065-02.jpg`。Bitly摘要为官方账号描述中的失效短链转向非预期目的地，潜在可劫持；未显示短码控制/claim或当前跳转。固定链接重分配与参数任意重定向分开，离线短码所有者/目的地/历史版本对照与批准范围确认，不注册/认领短码、访问真实用户或依据评级推定已控制。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1790895934878192065)。
+
+
+## 保存正文0219：continue 跳转中的 access token 需要目标和用途绑定（redirect）
+
+正文只保留线程1/n：continue导致转向另一app并把access_token放到查询。核实际URL解析/允许目标、token接收者与audience/scope、日志与Referer等泄露面及消费端授权；离线虚拟重定向映射和惰性token比较受限/允许目标。token字样和私人公司域示例不证明任意跳转或接管，未保存后续不补造，不访问URL或使用token。
+
+来源：[保存帖1](https://x.com/i/status/1792753282680762449)。
+
+
+## 保存正文0219：Unicode 点和多斜线按最终 URL 消费者比较（redirect）
+
+正文给U+3002/%E3%80%82和多斜线跳转候选，图仅历史报告标题。保留原字节、百分解码、Unicode域名映射、authority与最终主机，并核验证前后和每跳的处理；离线惰性允许/拒绝域比较ASCII点、Unicode点和多斜线。外观相似和黑名单差异不证明实际导航或服务端取回成功，不点击URL。
+
+来源：[保存帖1](https://x.com/i/status/1793233092943196475)。
+
+
+## 保存正文0219：文档预约链接的 404 不直接证明可认领（redirect）
+
+保存图给文档到Calendly的引用与作者认领声称。分别确认目标命名/回收规则、实际可控内容和用户信任，离线资源映射比较不存在和可回收状态；历史404或同名账号不是接管成功的当前证明，不能从链接点击推定凭据泄露，不认领、冒充或预约。
+
+来源：[保存帖1](https://x.com/i/status/1793295966877213112)。
+
+
+## 保存正文0219：反射模板命中不能同时确认多种漏洞（redirect）
+
+正文列反射模板与多类型潜在攻击，当前复用图片显示历史Nuclei反射匹配和og:image头候选。分别核浏览器sink/CORS可读/CSRF动作、缓存键与独立请求、导航与OAuth允许目标，离线惰性正常/拒绝消费者作对照。工具Low与反射不是执行或共享缓存成功，模板deprecated提示和版本应保留，未运行扫描。
+
+来源：[保存帖1](https://x.com/i/status/1793813590870569059)、[保存帖2](https://x.com/i/status/1794598785471140325)。
+
+
+## 保存图证0219-21-redirect：1793233092943196475-02.jpg
+
+已实际核对完整保存图片 `1793233092943196475-02.jpg`。历史报告题名给中文点U+3002、%E3%80%82和redirect_to中的多斜线；只有New/Open/Low题名，无Location或实际导航。记录原字节、百分解码、Unicode域名映射、URL authority及每跳消费者，离线比较同一惰性允许/拒绝域在ASCII点、U+3002和多斜线下的最终主机。过滤器与消费者规范化不一致是候选，题名不能确认当前跳转或SSRF，不访问候选URL。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1793233092943196475)。
+
+
+## 保存图证0219-26-redirect：1793295966877213112-02.jpg
+
+已实际核对完整保存图片 `1793295966877213112-02.jpg`。Doppler文档截图显示scheduling a call指向Calendly资源且作者称404后可认领同名账号，下方认领PoC裁切。分别核文档链接、服务命名/回收政策、实际可控页面和用户信任，离线映射比较不存在与可回收同名资源；404不单独证明认领，历史叙述不保证当前行为，不注册、冒充或预约。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1793295966877213112)。
+
+
+## 保存图证0220-31-redirect：1795847776028516575-02.jpg
+
+已实际核对完整保存图片 `1795847776028516575-02.jpg`。Undici历史摘要区分fetch与request/dispatch/stream/pipeline跨origin重定向清头行为，称修复v5.28.4/v6.11.1并在下部提ProxyAuthorization/x-auth-token。核具体API/构建、每跳scheme-host-port及敏感头处理，离线虚拟惰性头在同/跨origin对照。Authorization/Cookie已清不能推所有头已清，origin不同与代理身份需分别判断；保存公告不作最新保证，不发送真实凭据。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1795847776028516575)。
+
+
+## 保存图证0220-33-redirect：1796019646598094938-03.jpg
+
+已实际核对完整保存图片 `1796019646598094938-03.jpg`。Coffin 方法2显示 httpx/katana/JS、模板、扩展名、bxss、subzy、corsy 等串联，没有实际响应。katana 深度、被动来源、静态格式排除与 .js$ 过滤会丢失候选；模板路径/版本、并发、错误与范围要记录。远程脚本回连片段不作为执行指令，反射须与真实浏览器执行区分。自定义 Origin、Cookie 或 GoogleBot UA 的CORS输出须以两个受控来源、浏览器读响应及凭据状态对照；候选接管、LFI、跳转须各自确认资源归属与语义，工具名称和模板命中不补为成功链。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1796019646598094938)。
+
+
+## 保存图证0220-33-redirect：1796125702112043158-03.jpg
+
+已实际核对完整保存图片 `1796125702112043158-03.jpg`。Coffin 方法2显示 httpx/katana/JS、模板、扩展名、bxss、subzy、corsy 等串联，没有实际响应。katana 深度、被动来源、静态格式排除与 .js$ 过滤会丢失候选；模板路径/版本、并发、错误与范围要记录。远程脚本回连片段不作为执行指令，反射须与真实浏览器执行区分。自定义 Origin、Cookie 或 GoogleBot UA 的CORS输出须以两个受控来源、浏览器读响应及凭据状态对照；候选接管、LFI、跳转须各自确认资源归属与语义，工具名称和模板命中不补为成功链。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1796125702112043158)。
+
+
+## 保存图证0222-19-redirect：1801473264696627504-02.jpg
+
+已实际核对完整保存图片 `1801473264696627504-02.jpg`。redirect一行有while read host do;do语法错误；gau||等是首成功不是全部源，qsreplace替换所有参数、curl-s-L-I未引用host并跨跳转。grep恶意地址可匹配任意头/中间跳非最终导航，需结构化Location/每hoporigin/协议/阴性基线；不执行命令、不跟随外站。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1801473264696627504)。
+
+
+## 保存图证0222-25-redirect：1801558775029186642-02.jpg
+
+已实际核对完整保存图片 `1801558775029186642-02.jpg`。OAuthredirect_uri静态列表混合嵌套跳转、重复参数、%00、fragment、userinfo@、后缀域、反斜杠/CRLF与state。分别解析authority/path/query/decode次数、重复键选择与授权服务器精确注册URI，fragment和点段不自动换host、state不是redirect_uri。必须证明code/token到未注册接收方及PKCE/state限制，列表无结果不称ATO，不访问列表域。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1801558775029186642)。
+
+
+## 保存图证0222-25-redirect：1803339391596696060-02.jpg
+
+已实际核对完整保存图片 `1803339391596696060-02.jpg`。OAuthredirect_uri静态列表混合嵌套跳转、重复参数、%00、fragment、userinfo@、后缀域、反斜杠/CRLF与state。分别解析authority/path/query/decode次数、重复键选择与授权服务器精确注册URI，fragment和点段不自动换host、state不是redirect_uri。必须证明code/token到未注册接收方及PKCE/state限制，列表无结果不称ATO，不访问列表域。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1803339391596696060)。
+
+
+## 保存图证0223-54-redirect：1805173547498651905-02.jpg
+
+已实际核对完整保存图片 `1805173547498651905-02.jpg`。重定向候选清单含 next、url、target、dest、redirect_uri、returnTo、checkout_url、continue 与路径段等。参数名只是查找入口，需识别服务端 Location、客户端导航或普通资源获取的真实消费者，并以允许/拒绝的虚拟 origin 比较最终导航和校验解析；OAuth回调还须绑定客户端注册、state 和完整流程。没有实际重定向响应，不据字段名认定漏洞。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1805173547498651905)。
+
+
+## 保存图证0223-72-redirect：1805586944853950852-02.jpg
+
+已实际核对完整保存图片 `1805586944853950852-02.jpg`。#993978 报告说明旧 CNAME 指向未认领 Zendesk 子域和自定义域，创建同名 Help Center 后 HTTP 访问跳转至含作者标记的托管页，附视频未保存。区分DNS悬挂、供应商资源可认领、自定义域验证和实际受信任内容呈现，记录 HTTP/HTTPS 的差异；历史平台规则不代表当前可认领，标题或404不够。修复为移除指向或改为受控资源；只提炼保存报告，不注册租户、绑定域或接管资源。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1805586944853950852)。
+
+
+## 保存图证0223-81-redirect：1805677870662271352-02.jpg
+
+已实际核对完整保存图片 `1805677870662271352-02.jpg`。#2341038 摘要称重置邮件URL中的路径参数可改为其他域，用户点击后 token 泄露并被用于重置。应分开验证参数控制、最终导航、秘密实际传递方式、token主体/有效期/一次性与受保护改密；开放重定向不自动等于token外传或接管。使用虚拟URL和本地安全标记描述链条，截图没有完整响应及验证步骤，不发送邮件、访问接收端或使用令牌。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1805677870662271352)。
+
+
+## 保存既有图证0223-56-redirect：1804143170730504415-02.jpg
+
+当前保存图片 `1804143170730504415-02.jpg` 已按原始SHA重新核对，与既有实际看过的完整图片内容相同。redirect一行有while read host do;do语法错误；gau｜｜等是首成功不是全部源，qsreplace替换所有参数、curl-s-L-I未引用host并跨跳转。grep恶意地址可匹配任意头/中间跳非最终导航，需结构化Location/每hoporigin/协议/阴性基线；不执行命令、不跟随外站。
+
+沿用原视觉核对时间；当前帖子来源和文件名绑定，未重复计入新增视觉内容。
+
+来源：[保存帖1](https://x.com/i/status/1804143170730504415)。
+
+
+## 保存正文0224-152-redirect：javascript协议中的编码制表符
+
+%09Jav%09ascript片段可能依入口解码和URL解析规范化改变scheme，但只有实际导航消费者才相关，HTML/字符串其他位置不等效。记录字节到最终URL/DOM的顺序、允许协议与CSP，比较允许https和拒绝脚本协议的本地标记；修复绕过与ATO自述未有完整链，不接触真实会话。
+
+来源：[保存帖1](https://x.com/i/status/1807815027006607811)。
+
+
+## 0225 REFLECTION跨类型标签 redirect
+
+保存文本的reflection.yaml命令给出XSS/SSRF/缓存投毒/重定向/OAuth标签，没有模板正文。反射只定位输入到表示的候选链；分别证明浏览器执行、服务端实际连接、独立干净请求缓存消费、最终导航和OAuth绑定，不能由一个matcher同时判定多个漏洞。两篇重复正文的图片及当前来源需独立绑定。
+
+来源：[保存帖1](https://x.com/i/status/1808686018599743656)、[保存帖2](https://x.com/i/status/1815204179172053406)。
+
+
+## 0225 混合大小写javascript与CRLF redirect
+
+原帖称三斜杠导航先到evil.com.domain.com，最后混合大小写、百分号编码javascript方案和CRLF成功。该字符串不等于标准HTTP外站重定向：记录逐层解码、URL解析、Location/前端导航消费者、最终origin及CSP，区分同域子路径、脚本URL与外站跳转，不从自述还原未保存完整请求。
+
+来源：[保存帖1](https://x.com/i/status/1808812394480599129)。
+
+
+## 0225 returnUrl候选 redirect
+
+正文只有奖励与检查returnUrl提醒，没有输入或响应。检查实际解码/规范化、允许origin和最终导航消费者；同源路径/反射不等于外站跳转或ATO，奖励不补证据。
+
+来源：[保存帖1](https://x.com/i/status/1810700244700512717)。
+
+
+## 0227 正文 社交 handle 到 href redirect
+
+不同站点 profile 字段要按 handle 规则构造允许 host/path，防止社交标志掩盖任意下载目标。报告标签 RFI 不证明服务端 include，最终点击、内容来源和执行各需独立证据。
+
+来源：[保存帖1](https://x.com/i/status/1815732769735029036)、[保存帖2](https://x.com/i/status/1815733786816233507)。
+
+
+## 0227 图片 1815438252608024941-02.jpg redirect
+
+现有图片 1815438252608024941-02.jpg 的完整可见内容已按原图审阅。
+
+练习清单指出 CORS 不能仅判断白名单字符串是否出现在 Origin 中；按 scheme、host、port 解析并作精确允许列表匹配，检查 credentials 与可读敏感响应。其余私有工具、信息泄露、SSO token 重定向及 XSS 均为题目提示，需各自验证输入到消费端与受害者边界，不能凭清单确认泄露或令牌窃取。
+
+来源：[保存帖1](https://x.com/i/status/1815438252608024941)。
+
+
+## 0227 图片 1815733786816233507-02.jpg redirect
+
+现有图片 1815733786816233507-02.jpg 的完整可见内容已按原图审阅。
+
+HackerOne 报告截图说明社交 handle 校验不一致，除 Twitter 外部分字段可构造自定义 URL，并通过社交按钮引导下载恶意 zip。验证最终 href 的 scheme、host、路径与标签展示一致性，按各站 handle 语法构造链接并阻止任意目标。截图的 Remote File Inclusion 标签不证明服务端包含或执行远程文件，也不证明自动下载/执行；实际点击和内容来源信任应分开。
+
+来源：[保存帖1](https://x.com/i/status/1815733786816233507)。
+
+
+## 0230 正文 路径中的域名不能决定重定向目的地 redirect
+
+test.com/redirect.com/test 中 redirect.com 仍是原站路径，需核真实URL解析、Location、客户端跳转代码及最终origin。目录枚举或200不是开放重定向，匹配正常同源路由与自有允许/拒绝目的地再确认跳转能力，不自动推导令牌泄露或ATO。
+
+来源：[保存帖1](https://x.com/i/status/1822727393510904116)。
+
+
+## 0230 正文 重定向状态和协议能力不能泛化 redirect
+
+30X声称301–308与任意gopher/ftp/file，但304非普通导航重定向，305/306历史语义不同；303常改GET，307/308保持方法，库支持协议/凭据/重定向预算各异。核Location及实际客户端/服务端下一跳，以隔离自有目的地对照；第三方重定向可泄原URL，不上传秘密或内网目标，未访问服务。
+
+来源：[保存帖1](https://x.com/i/status/1824161806840926402)。
+
+
+## 0230 正文 子域指向恶意站按 DNS 与跳转分开核验 redirect
+
+正文只称测试子域pointing malicioussite，需保留DNSCNAME/地址链或HTTP Location、实际归属、历史资源生命周期和受控内容证据。恶意名声、测试前缀或奖励不证明可认领资源/接管，单域风险不扩到全站，未访问恶意站或注册域。
+
+来源：[保存帖1](https://x.com/i/status/1825688604464881677)。
+
+
+## 0230 图证 17 redirect 1823293148593819863-04.jpg
+
+已核对原始图片 `1823293148593819863-04.jpg`。Rails UnsafeRedirectError实际拒绝跨host并提示allow_other_host，显示RootRoutes redirect拼query_string与局部变量。错误消息支持拒绝路径而非openredirect成功；核URL最终解析和Location，debug源码/console公开是另一条能力证据，错误UI有prompt不等于可执行。未操作console或跟重定向。
+
+来源：[保存帖1](https://x.com/i/status/1823293148593819863)。
+
+
+## 0232 正文 javascript导航与分号 redirect
+
+redirect参数的javascript值执行需到实际浏览器导航/链接/DOM消费者，单个分号被拒或允许可能来自应用校验/编码差异，不能推广为协议的一般规则。alert图无原URL，javascript执行与HTTP Location外部重定向是不同证据，核最终DOM/CSP和触发，不执行。
+
+来源：[保存帖1](https://x.com/i/status/1830119604749779402)。
+
+
+## 保存图证0232-66-redirect：1830119604749779402-02.jpg
+
+已核对保存图片 `1830119604749779402-02.jpg`。页面alert(-1337)图无URL/输入来源，正文javascript:alert();与无分号差异需核URL验证/编码/属性或导航消费者，分号本身不是浏览器通用禁用规则。javascript协议不是跨站Location开放重定向的同一证据，未导航或执行。
+
+来源：[保存帖1](https://x.com/i/status/1830119604749779402)。
+
+
+## 0233 正文 三类URL解析消费者 redirect
+
+Absolute URL、Host值与浏览器CORS Origin对userinfo、端口、路径、fragment和编码的允许规则不同；把某载荷在所有上下文使用会造假候选。核输入原字节→校验→解码/IDNA→客户端或后端最终host/effectiveorigin，并考虑重定向再次校验、IPv4映射/非标准表示的实际支持。211是生成数量不是成功绕过数量，不访问工具/目标。
+
+来源：[保存帖1](https://x.com/i/status/1833198861663531389)、[保存帖2](https://x.com/i/status/1833249061631344871)。
+
+
+## 0233 正文 callback反射与跳转能力 redirect
+
+logout/callback字段可能进入HTML/JS而非HTTP Location，截图闭script后弹窗只是该页面某执行线索。核真实响应消费者、解码/CSP、交互/会话需求和独立的重定向目标，原题名“openredirect升级”不补出缺失链；未注销或执行。
+
+来源：[保存帖1](https://x.com/i/status/1833419030461301110)。
+
+
+## 保存图证0233-31-redirect：1832093353846169956-05.jpg
+
+已核对保存图片 `1832093353846169956-05.jpg`。RailsUnsafeRedirectError提示pass allow_other_host true是实际拒绝重定向，不证明开放跳转。图代码redirect_to route+querystring/变量面板需核目标构造/相对绝对解析，堆栈泄露与重定向安全边界分开；不要把错误提示当修改建议，未跳转。
+
+来源：[保存帖1](https://x.com/i/status/1832093353846169956)。
+
+
+## 保存图证0233-71-redirect：1833198861663531389-02.png
+
+已核对保存图片 `1833198861663531389-02.png`。URLvalidation工具图AbsoluteURL/HostHeader/CORS三上下文，allowed/attacker示例domains和211候选，仅8行反斜杠/编码@/#/:/;等可见。实际解析器的userinfo/authority/fragment、解码顺序/HostSNI和浏览器合法Origin分别核，candidate数量≠都可用/绕过，未生成实际目标或请求。
+
+来源：[保存帖1](https://x.com/i/status/1833198861663531389)。
+
+
+## 保存图证0233-73-redirect：1833198861663531389-04.png
+
+已核对保存图片 `1833198861663531389-04.png`。工具说明3上下文与domainallowlist/fakerelative/loopback等wordlist、Intruderpercent/everything/specialchars/UnicodeEscape编码，右/下裁缺尾。转义应匹配HTTP字段/消费者，JS样式Unicodeescape不保证URL解码，重复编码可能改变host/CORS合法性；截图说明不是当前所有版本/工具兼容保证，不运行字典。
+
+来源：[保存帖1](https://x.com/i/status/1833198861663531389)。
+
+
+## 保存图证0233-74-redirect：1833249061631344871-02.jpg
+
+已核对保存图片 `1833249061631344871-02.jpg`。另工具列表行33–45含%0D%0A/%0D、U2028/U2029、空格/@/&/;/fragment/子域后缀，211为生成数非已测。控制字符可被拒、解析分歧/显示混淆与SSRF/CORS/redirect消费者分开，简单包含example不证明allowed，最终host/effectiveOrigin与范围需核，未访问目标。
+
+来源：[保存帖1](https://x.com/i/status/1833249061631344871)。
+
+
+## 保存图证0233-76-redirect：1833419030461301110-02.jpg
+
+已核对保存图片 `1833419030461301110-02.jpg`。/facebook/logout.php callback编码引号/闭script/新script/%0aTEST与浏览器空alert图，核callback真实响应HTML/JSsink、解码/CSP/会话。不是看到callback或标题openredirect就证明Location外跳，弹窗与Cookie/ATO分开，未logout/执行。
+
+来源：[保存帖1](https://x.com/i/status/1833419030461301110)。
+
+
+## 保存正文0236：反射模板需转为各consumer的独立证据（redirect）
+
+正文把reflection命中列为potential XSS/SSRF/cache/redirect/OAuth。文字/header影响只给起点；脚本sink/执行、server fetch、cachekey/独立HIT、Location和code/state/token绑定是不同链。保存模板版本/警告、逐头唯一标记/请求身份与正常反例，工具Low/无结果不能判全部漏洞存在或安全，不外带或运行。
+
+来源：[保存帖1](https://x.com/i/status/1839365202783134073)、[保存帖2](https://x.com/i/status/1839629091026371003)、[保存帖3](https://x.com/i/status/1839655657307578492)、[保存帖4](https://x.com/i/status/1839773579765752045)。
+
+
+## 保存正文0236：同形字符绕过滤须核规范化host（redirect）
+
+正文Unicode混合名/。与图同形字符，显示相似不等URL解析结果。保留原码点→IDNA/点号/大小写规范化→allowlist→Location/browser最终host，黑名单替换不足权限，不因看似Google称一定外域，未访问注册。
+
+来源：[保存帖1](https://x.com/i/status/1840583239393804336)。
+
+
+## 保存图证0236-73-redirect：1840583239393804336-02.png
+
+已核对保存图片 `1840583239393804336-02.png`。Homograph图列大小写/相似Unicode，视觉相似不等host相同或一定不同。比较原码点、IDNA/URL解析后规范host、allowlist与真实Location/navigation，大小写一般同DNS，兼容映射依解析器；字符串黑名单/WAF命中不能证明redirect，未访问/注册。
+
+来源：[保存帖1](https://x.com/i/status/1840583239393804336)。
+
+
+## 保存正文0237：SVG 命名空间与嵌入方式（redirect）
+
+正文的 SVG 示例在 URL 与命名空间周围含尖括号，需保留原始字节并区分排版损坏与实际有效语法。onload 和跳转的表现受内联、外部资源、图片嵌入及 CSP 上下文影响；客户端导航不证明服务端重定向或 SSRF。没有上传或执行结果，不修复后执行源帖载荷。
+
+来源：[保存帖1](https://x.com/i/status/1841676040957055030)。
+
+
+## 保存图证0238-39-redirect：1844713105646932119-02.jpg
+
+当前附件 `1844713105646932119-02.jpg`。已实际审阅保存的原始图片。重定向图给出相对双斜线、反斜线、空白编码、路径规范化和用户信息分隔的 URL 候选。服务端校验、Location 生成与浏览器 URL 解析须用同一原始字节跟踪；视觉域名、编码字面与最终规范主机可能不同，但每项不保证被接受。没有跳转结果，不打开外部地址或执行候选。
+
+来源：[保存帖1](https://x.com/i/status/1844713105646932119)。
+
+
+## 保存图证0238-80-redirect：1845737400531898877-02.jpg
+
+当前附件 `1845737400531898877-02.jpg`。已实际审阅保存的原始图片。候选生成 UI 分 Absolute URL、Host header、CORS 并显示允许/攻击域字段与编码开关，保存图仅显示部分列表。不同消费者分别涉及 URL 规范主机、路由头及浏览器 Origin，不能互换输入模型；看似带允许域的字符串不保证解析为允许域或被浏览器接受，CORS 还需凭据及响应读权限证据。不生成请求、访问目标或补齐裁剪项。
+
+来源：[保存帖1](https://x.com/i/status/1845737400531898877)。
+
+
+## 保存图证0239-21-redirect：1846140813052436958-02.jpg
+
+当前附件 `1846140813052436958-02.jpg`。已实际审阅保存的原始图片。第一张 fuzz 图只展示 20 条中的 1–10：主机、耗时、权限头、CRLF、重定向、多步认证、模板、大小写、响应去重与 XSS。每类需对应真实消费者与正常对照；耗时不证明盲 SSRF，状态 200 不证明越权，命令部分不完整且选项/管道输入需核版本。高线程与 rate 不作为授权，不执行扫描。
+
+来源：[保存帖1](https://x.com/i/status/1846140813052436958)。
+
+
+## 保存图证0239-37-redirect：1846494545531576495-02.jpg
+
+当前附件 `1846494545531576495-02.jpg`。已实际审阅保存的原始图片。OAuth 图分 code 重用/客户端绑定、state、回调 URI 与移动 deep link、grant、secret、访问/刷新 token 和撤销竞态。按授权请求、代码交换、稳定主体、客户端、回调和最终权限核对；开放重定向不自动证明代码泄漏或接管，撤销 access 与 code 是不同状态。图片只给候选，不注册应用或交换 token。
+
+来源：[保存帖1](https://x.com/i/status/1846494545531576495)。
+
+
+## 保存图证0239-47-redirect：1846836914458186114-02.jpg
+
+当前附件 `1846836914458186114-02.jpg`。已实际审阅保存的原始图片。SSRF 图把 URL 解析/地址表示、重定向、DNS、协议、渲染/文件/代理入口及内网/元数据消费者分开。每层需核最终目标、实际客户端允许协议与可归因请求，回执、端口耗时、文件内容和代码执行不是同一结论。不按图列举进行内网探测、元数据访问或外带。
+
+来源：[保存帖1](https://x.com/i/status/1846836914458186114)。
+
+
+## 保存正文0240：传递依赖发现到可达漏洞（redirect）
+
+帖子声称手工 Go 审计发现路径穿越与传递依赖重定向问题，但没有保存调用代码。依赖清单/CVE 只形成候选；核对实际解析版本、传递路径、消费者、可控输入和可达调用，再区分越界路径与重定向。厂商 triaged 不证明最终定级或修复，未读取外部 CVE 全文。
+
+来源：[保存帖1](https://x.com/i/status/1848527277157408784)。
+
+
+## 保存正文0240：不可见字符与重定向消费者（redirect）
+
+保存 javascript 与冒号之间有 U+200B，URL 还带人为分隔空格，应保存原字节与规范化链，不擅自改成工作载荷。HTTP Location、DOM navigation 与链接点击的 scheme 接受、CSP 和用户动作不同；正文声称仍有效不构成当前复现，未点击或请求。
+
+来源：[保存帖1](https://x.com/i/status/1850073586863833517)。
+
+
+## 保存图片0240：附件015（redirect）
+
+URL 候选 UI 区分绝对 URL、Host 与 CORS，显示编码开关及 220 计数，但图片只显示前若干行并横向裁剪。不同输入模型涉及解析器、路由或浏览器 Origin，不能互换；用户名分隔、反斜线、fragment 与多层解码需实际消费结果，不声称读完全部候选或执行。
+
+图片证据：`1848280112598544871-02.jpg`；仅保存图实际可见内容，未读取外链全文。
+
+来源：[保存帖1](https://x.com/i/status/1848280112598544871)。
+
+
+## 保存图片0240：附件033（redirect）
+
+HackerOne 邮件显示基于 go.mod 传递依赖的 Open Redirect（CVE-2023-26494）报告被 triaged、创建内部工单且严重性可变。遮挡项目与包路径，不能重建依赖或复现；区分组件版本、可达调用与重定向消费者，triaged 不等于完成修复或最终定级。
+
+图片证据：`1848527277157408784-02.png`；仅保存图实际可见内容，未读取外链全文。
+
+来源：[保存帖1](https://x.com/i/status/1848527277157408784)。
+
+
+## 保存图片0240：附件071（redirect）
+
+HTTP 状态图按1xx–5xx分类，混有444、499、509、598/599等实现或历史扩展。需保留原始响应、代理层、正文、业务状态与重定向，不以200断言授权成功或以404/500认定漏洞；图谱不是当前标准注册表，未请求目标。
+
+图片证据：`1850069357117964810-02.jpg`；仅保存图实际可见内容，未读取外链全文。
+
+来源：[保存帖1](https://x.com/i/status/1850069357117964810)。
+
+
+## 保存正文0242：重定向管道的引用与误判（redirect）
+
+命令含smart quotes、gau/gf/qsreplace与25并发sh-c，插入URL的shell拼接有引号/元字符风险。替换全部query改变正常字段，grep Location字面含主机不保证结构化最终URL或任意外部跳转，curl-I不同GET/客户端跳转；按规范URL、状态链和目标归属对照，未执行。
+
+来源：[保存帖1](https://x.com/i/status/1852578812460257721)。
+
+
+## 保存图片0242：附件001·1852576505018363910-02.jpg（redirect）
+
+目录分别列CORS扫描与CRLF/redirect工具。CORS要求实际浏览器跨源读取、身份/credential/敏感响应；CRLF需下游解析形成头/边界变化，工具标签不是漏洞证据，未安装或执行。
+
+图片证据：`1852576505018363910-02.jpg`；按原始内容摘要对应实际审阅，同摘要的不同帖附件保留独立来源与文件名。
+
+来源：[保存帖1](https://x.com/i/status/1852576505018363910)。
+
+
+## 保存图片0243-52：1856023023368753216-02.jpg（redirect）
+
+已审阅保存原图 1856023023368753216-02.jpg。redirect工具目录含HTTP/DOM分析与CRLF/fuzz。地址字符串命中、服务器Location与浏览器导航不同consumer，规范化/允许scheme/最后目标及身份负对照另核，未执行或请求。
+
+来源：[保存帖1](https://x.com/i/status/1856023023368753216)。
+
+
+## 保存图片0244-6：1856930627393917030-02.jpg（redirect）
+
+已审阅该内容原图，当前保存附件 1856930627393917030-02.jpg。Acronis历史登录callback的redirectUrl含javascript方案，需用户点击并登录后消费；导航接收参数与JS执行上下文、CSP、origin和真实身份分别验证。document.domain提示不能自动证明HttpOnly cookie可读、账号接管或当前存在，截图底部执行图裁剪，未登录或执行。
+
+来源：[保存帖1](https://x.com/i/status/1856930627393917030)。
+
+
+## 保存图片0244-7：1856930786488062110-02.jpg（redirect）
+
+已审阅该内容原图，当前保存附件 1856930786488062110-02.jpg。另一个Acronis报告为已登录后licensing-check的redirect_url javascript参数，与callback不同入口/认证前提；区分参数拼写、实际导航与执行身份，图片未完整展示弹窗/请求。历史Medium/$100不是通用影响，未使用账号或载荷。
+
+来源：[保存帖1](https://x.com/i/status/1856930786488062110)。
+
+
+## 保存图片0244-9：1856931307873562624-02.jpg（redirect）
+
+已审阅该内容原图，当前保存附件 1856931307873562624-02.jpg。Tumblr logout redirect_to样例混反斜线百分号与@可信域，属于校验器与浏览器URL解析差异候选；应分别记录解码后字节、host/username解析及最终Location/导航。附视频未保存不补取，不能从示例称真实跳转或接管，未打开网址。
+
+来源：[保存帖1](https://x.com/i/status/1856931307873562624)。
+
+
+## 保存图片0244-19：1857029471431238131-04.jpg（redirect）
+
+已审阅该内容原图，当前保存附件 1857029471431238131-04.jpg。OWASP目录末段有逻辑时序/次数/工作流/误用/上传、DOM/JS/HTML/CSS/资源/CORS/Flash/clickjacking/WebSocket/postMessage/storage/XSSI及GraphQL、报告附录；历史Flash项不代表现代默认能力，目录不证测试完成。按消费者和业务终态分组，API/schema可见性仍需权限证据，恶意文件/跨站动作另授权。
+
+来源：[保存帖1](https://x.com/i/status/1857029471431238131)。
+
+
+## 保存图片0244-21：1857048817591292230-02.jpg（redirect）
+
+已审阅该内容原图，当前保存附件 1857048817591292230-02.jpg。双斜线路径图从/dir200到//dir的http://dir302，但//evil.com和带@样例404；候选行为不是任意域跳转已证，核验服务端Location、代理规范化及浏览器最终host，HTTP降级和重定向目标独立影响，未请求。
+
+来源：[保存帖1](https://x.com/i/status/1857048817591292230)。
+
+
+## 保存图片0244-22：1857091352745447768-02.jpg（redirect）
+
+已审阅该内容原图，当前保存附件 1857091352745447768-02.jpg。Medium关联报告描述自有域指向不存在页404后页面被认领，附图仅部分和先前关闭/重报注记；区分DNS/跳转/嵌入链接、平台slug可认领、域验证和实际访问消费，不把404或平台内容页等同域名控制。重复争议和侧栏分类不证明现状，未认领或联系。
+
+来源：[保存帖1](https://x.com/i/status/1857091352745447768)。
+
+
+## 保存图片0244-52：1858095472633872387-02.jpg（redirect）
+
+已审阅该内容原图，当前保存附件 1858095472633872387-02.jpg。Omise历史报告描述在请求Host下添X-Forwarded-Host后跳转；需要证明不可信转发头是否经受信代理重写、响应Location、普通跨站浏览器能否设置该header及最终host。代理修改成功不自动可构成受害者点击链/账号接管，未请求或跟随跳转。
+
+来源：[保存帖1](https://x.com/i/status/1858095472633872387)。
+
+
+## 保存图片0246-30：1863584134897279107-02.jpg（redirect）
+
+已审阅保存原图 1863584134897279107-02.jpg。Localize历史Duplicate报告代理改Host得到跳转，图片无Location/浏览器终态；Host注入与受害者普通访问可控制header不同，trustedproxy/虚拟主机和URL生成需验证，不因代理改动就证点击钓鱼/所有登录绕过，未请求。
+
+来源：[保存帖1](https://x.com/i/status/1863584134897279107)。
+
+
+## 保存正文0246：redirecturi与跳转链（redirect）
+
+正文提出操控redirect_uri/openredirect链，图不可读流程不补全文；注册匹配、授权请求/码兑换同uri、state/PKCE、AS/client角色及码/token不同consumer绑定分别核验。单openredirect不证token泄露/ATO，未OAuth登录或请求外链。
+
+来源：[保存帖1](https://x.com/i/status/1864761665142899048)。
+
+
+## 保存图证0247-110-redirect：1866754972483981720-02.jpg
+
+已实际核对保存图片 `1866754972483981720-02.jpg` 的原始像素。curl netrc+redirect 报告 CVE-2024-11053，两个示例 HTTPS host、301 跨主机跳转、machine 与 default 项混合，命令使用 -L --netrc-file -v；摘要称特定条件下原主机凭据传给跳转目标。提炼为每一跳应重新确定凭据作用域和用户名/密码配对，核对具体版本、选项及 netrc 配置；不泛化到所有 curl 或默认请求，日志也需防凭据泄露。下文裁切，未构造服务、创建 netrc 或发请求。
+
+来源：[保存帖1](https://x.com/i/status/1866754972483981720)。
+
+
+## 保存图证0247-123-redirect：1866951270965317921-02.jpg
+
+已实际核对保存图片 `1866951270965317921-02.jpg` 的原始像素。Point Smart 报告摘要称链接可离开预期应用环境，可能形成钓鱼入口，严重度由 Medium6.6 改为 Low2.1、已修复。需区分嵌入浏览器导航、外部 scheme、来源提示与特权 bridge/令牌携带；外部导航本身不自动构成账号接管或高权限 WebView 执行。截图没有 PoC 链接代码或全部前提，未点击导航。
+
+来源：[保存帖1](https://x.com/i/status/1866951270965317921)。
+
+
+## 保存正文0248：Location 候选需用实际 URL 解析和最终来源判断（redirect）
+
+正文问 protocol:evilsite 形态哪个open redirect，示例域带逗号，图片缺失按覆盖。不能根据字符串外观选答案；逐层保留原请求、真实Location、相对/绝对/非HTTPscheme、浏览器base与最终origin。只在隔离解析模型核受控来源，跳转是否越权及OAuth消费者另证，未访问目标。
+
+来源：[保存帖1](https://x.com/i/status/1868649032668893321)。
+
+
+## 保存正文0249：Callback URL 先辨识消费者和拒绝语义（redirect）
+
+正文换host报错，保存图给callBackUrl/OAST及Invalid Callback URL。字段可用于跳转、邮件链接或服务端取回，须分别追踪解析后scheme/authority、规范化和验证至消费的一致性；错误是拒绝证据而非绕过，null字段不透露具体验证实现。无回连/终态，不发送重置或外部请求。
+
+来源：[保存帖1](https://x.com/i/status/1872779097241518215)。
+
+
+## 保存图证0249-50-redirect：1872560707491017214-02.png
+
+已实际核对保存图片 `1872560707491017214-02.png` 的原始像素。密码重置示意Host替换evil先404，再absolute-form request target保持target而Host为evil，作者称邮件链接换域。需确认代理/源站用于路由与生成链接的authority一致、受信固定origin、重置token收件人/一次性和实际邮件终态；图非真实回执，404本身为拒绝，不能推断ATO。未发重置邮件或接收token。
+
+来源：[保存帖1](https://x.com/i/status/1872560707491017214)。
+
+
+## 保存图证0249-55-redirect：1872628677923766743-02.jpg
+
+已实际核对保存图片 `1872628677923766743-02.jpg` 的原始像素。curl2912277截图顶部明确DISREGARD、just joined example template，状态N/A；下方方括号通用模板称netrc+HTTPredirect泄密码及版本6.5–8.11.0。模板字段不是已证现行受影响版本，不能从标题Medium生成有效curl漏洞结论；将跨跳凭据作用域作为审计方向，实际版本/配置/请求另证，未运行命令。
+
+来源：[保存帖1](https://x.com/i/status/1872628677923766743)。
+
+
+## 保存图证0249-67-redirect：1872779097241518215-02.jpg
+
+已实际核对保存图片 `1872779097241518215-02.jpg` 的原始像素。JSON例有username与callBackUrl指向OAST/user/reset。字段名不说明消费者是客户端跳转、邮件链接或服务端抓取；需要真实请求方法/身份、规范origin验证、用途绑定和最终资源/回执。本图没有响应或回连，不推断SSRF或ATO，未发送到OAST。
+
+来源：[保存帖1](https://x.com/i/status/1872779097241518215)。
+
+
+## 保存图证0249-67-redirect：1872779097241518215-03.png
+
+已实际核对保存图片 `1872779097241518215-03.png` 的原始像素。配套JSON实际status400/code1125/message Invalid Callback URL/validationsnull，是拒绝线索而非绕过。真实HTTP状态与body状态字段也需分开；核验证与最终消费者解析一致、受控允许/拒绝域对照，不能由null或错误文案反推检查方式/可绕过。未探测或触发重置。
+
+来源：[保存帖1](https://x.com/i/status/1872779097241518215)。
+
+
+## 保存图证0249-86-redirect：1873074118335299794-02.jpg
+
+已实际核对保存图片 `1873074118335299794-02.jpg` 的原始像素。Truecaller/v4/profile头像URL报告称只查https开头及允许CDN字符串出现任意位置，可把可信字符串放#fragment而URL指向另一host，并有反斜杠示例。用解析后的scheme/authority/port及规范host验证，片段不能作为来源证明；浏览器资源、服务端抓取和HTML/SVG脚本是不同消费者/影响。截图请求/响应小图有限，不宣称三种漏洞全被实证；未改头像或触发外部取回。
+
+来源：[保存帖1](https://x.com/i/status/1873074118335299794)。

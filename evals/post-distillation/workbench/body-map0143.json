@@ -1,0 +1,572 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "UUID 泄漏与 IDOR 入口矩阵分别核对对象权限"
+  },
+  "6": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "ProxyNotShell 的 IIS 404 不能作为漏洞确认"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "字符索引形式的安全头要追溯生成与浏览器处理"
+  },
+  "10": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "参数与授权工具按实际重放副作用划分"
+  },
+  "11": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "依赖混淆从 resolver 选择到下游消费者逐段证明"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Jira QueryComponent 页面区分公开项目与私有元数据"
+  },
+  "13": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md,references/by-type/cmd-injection-rce.md",
+    "note": "PHP 路径过滤必须在分隔符转换后核对最终文件；日志追加到 include 的执行链保留每个前提"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "refresh SSO JWT 与 authType null 是不同认证候选"
+  },
+  "21": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "PHP 路径过滤必须在分隔符转换后核对最终文件"
+  },
+  "22": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "角色邀请的接受与降级必须使旧授权失效"
+  },
+  "24": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "项目响应时长与投入期限记录实际条件"
+  },
+  "30": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "WordPress 集合与单项作者入口复核同一可见性规则"
+  },
+  "31": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "混淆字符必须跨传输和解析层验证真实执行"
+  },
+  "36": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "OTP 限制按账户与挑战状态核对"
+  },
+  "38": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/targeted-fuzzing.md",
+    "note": "盲 XSS 追踪提交字段到异步渲染消费者；历史 URL 到主动扫描之间增加范围与队列校验"
+  },
+  "39": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "混淆字符必须跨传输和解析层验证真实执行"
+  },
+  "40": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "固定 URL 前缀加 endpoint 仍需验证最终 authority"
+  },
+  "43": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "UUID 泄漏与 IDOR 入口矩阵分别核对对象权限"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 扫描器比较要隔离旧 session 和网络失败"
+  },
+  "51": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "WordPress 集合与单项作者入口复核同一可见性规则"
+  },
+  "53": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "会话低影响项组合需证明连接处的权限"
+  },
+  "56": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "ProxyNotShell 的 IIS 404 不能作为漏洞确认"
+  },
+  "57": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "jQuery UI 选项注入按初始化与后续事件分开验证"
+  },
+  "58": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "代理与后渗透工具保留初始执行及身份前提"
+  },
+  "61": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "请求转模板和 matcher 改写必须保留真实语义"
+  },
+  "66": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Git 元数据泄漏区别于正常公开 ignore 文件"
+  },
+  "67": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "CodeQL 查询贡献奖励与实际应用漏洞分开记录"
+  },
+  "68": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "CodeQL 查询贡献奖励与实际应用漏洞分开记录"
+  },
+  "69": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "CodeQL 查询贡献奖励与实际应用漏洞分开记录"
+  },
+  "70": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "CodeQL 查询贡献奖励与实际应用漏洞分开记录"
+  },
+  "72": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "删除考核结果复测必须绑定自有对象并读回"
+  },
+  "73": {
+    "dis": "merged",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "代理与后渗透工具保留初始执行及身份前提"
+  },
+  "75": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 扫描器比较要隔离旧 session 和网络失败"
+  },
+  "76": {
+    "dis": "merged",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "代理与后渗透工具保留初始执行及身份前提"
+  },
+  "85": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "报告聚合保持 finding 与原始证据对应"
+  },
+  "86": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "DNS 验证与实际连接分别绑定解析结果"
+  },
+  "87": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "多归档索引的 EVERYTHING 不等于完整覆盖"
+  },
+  "88": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "密钥字段搜索保留仓库范围与可用性边界"
+  },
+  "89": {
+    "dis": "corrected",
+    "targets": "references/by-type/request-smuggling.md",
+    "note": "Connection 指定字段要比对各 hop 的真实分帧"
+  },
+  "91": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "搜索注册入口与 GraphQL 错误保持索引边界"
+  },
+  "99": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "依赖混淆从 resolver 选择到下游消费者逐段证明"
+  },
+  "101": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "历史 win.ini 读取摘要不能替代当前路径实证"
+  },
+  "102": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "crossdomain URL 的读取取回与渲染分成独立链"
+  },
+  "103": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "固定 URL 前缀加 endpoint 仍需验证最终 authority"
+  },
+  "106": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "findusers 排序白名单的类型问题要追到 SQL sink"
+  },
+  "108": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "GitHub 导入的 JSON 方法映射要追到后续调用"
+  },
+  "110": {
+    "dis": "merged",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "代理与后渗透工具保留初始执行及身份前提"
+  },
+  "111": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "接管候选必须核对服务状态与可申领权限"
+  },
+  "114": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "all 扫描要展开协议端口与误判条件"
+  },
+  "117": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "ASP.NET 指纹不构成 SQL 注入证据"
+  },
+  "122": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "403 转 404 先排除身份时间与边缘状态变化"
+  },
+  "123": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "OSINT 工具结果保持来源和身份歧义"
+  },
+  "124": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "收据成功模板要排除跨请求残留对象状态"
+  },
+  "127": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "Cloudfox all checks 保留区域权限错误与缓存来源"
+  },
+  "128": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "历史 URL 到主动扫描之间增加范围与队列校验"
+  },
+  "131": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "缓存扫描器标题不替代 key 隔离证据"
+  },
+  "132": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "PHP 扩展黑名单需要真实处理器和存储证据"
+  },
+  "133": {
+    "dis": "merged",
+    "targets": "references/by-type/file-upload.md",
+    "note": "PHP 扩展黑名单需要真实处理器和存储证据"
+  },
+  "137": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "邮件头解析保留信任边界与链接错配"
+  },
+  "139": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "OSINT 工具结果保持来源和身份歧义"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 片段按查询上下文与方言做最小对照"
+  },
+  "142": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 片段按查询上下文与方言做最小对照"
+  },
+  "143": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 片段按查询上下文与方言做最小对照"
+  },
+  "144": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 片段按查询上下文与方言做最小对照"
+  },
+  "146": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "混淆字符必须跨传输和解析层验证真实执行"
+  },
+  "154": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "搜索注册入口与 GraphQL 错误保持索引边界"
+  },
+  "155": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "all 扫描要展开协议端口与误判条件"
+  },
+  "156": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "盲 XSS 追踪提交字段到异步渲染消费者"
+  },
+  "158": {
+    "dis": "merged",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "代理与后渗透工具保留初始执行及身份前提"
+  },
+  "159": {
+    "dis": "merged",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "代理与后渗透工具保留初始执行及身份前提"
+  },
+  "160": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "ServiceStack metadata 与真实业务权限分开审计"
+  },
+  "161": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "密钥字段搜索保留仓库范围与可用性边界"
+  },
+  "164": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "分布式 SSH 尝试保留连接失败与认证结果区别"
+  },
+  "165": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 片段按查询上下文与方言做最小对照"
+  },
+  "166": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "混淆字符必须跨传输和解析层验证真实执行"
+  },
+  "167": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 片段按查询上下文与方言做最小对照"
+  },
+  "169": {
+    "dis": "merged",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "代理与后渗透工具保留初始执行及身份前提"
+  },
+  "170": {
+    "dis": "merged",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "代理与后渗透工具保留初始执行及身份前提"
+  },
+  "172": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "旧 API 与相邻子域各自核对当前策略"
+  },
+  "174": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "盲 XSS 追踪提交字段到异步渲染消费者"
+  },
+  "175": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "CLI 文件路径警报核对调用者与真实写入语义"
+  },
+  "176": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "ACME challenge 文本先核对预期公开用途"
+  },
+  "177": {
+    "dis": "corrected",
+    "targets": "references/business-modeling.md",
+    "note": "功能清单按对象角色状态和消费者建模"
+  },
+  "178": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "搜索注册入口与 GraphQL 错误保持索引边界"
+  },
+  "180": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "ProxyNotShell 的 IIS 404 不能作为漏洞确认"
+  },
+  "181": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 片段按查询上下文与方言做最小对照"
+  },
+  "182": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 扫描器比较要隔离旧 session 和网络失败"
+  },
+  "192": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "盲 XSS 追踪提交字段到异步渲染消费者"
+  },
+  "197": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "DNS MX 与 zone IP 不扩大主动网络范围"
+  },
+  "199": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "自动化与手工并行保持请求和状态归因"
+  },
+  "200": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "跳转候选按真实解析结果而非字符串特征判定"
+  },
+  "202": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "混淆字符必须跨传输和解析层验证真实执行"
+  },
+  "204": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "旧 API 与相邻子域各自核对当前策略"
+  },
+  "205": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "移动客户端 pinning 结果绑定具体 build 与端点"
+  },
+  "206": {
+    "dis": "merged",
+    "targets": "references/business-modeling.md",
+    "note": "功能清单按对象角色状态和消费者建模"
+  },
+  "207": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "迁移 step2 不能代替对前序身份与对象的校验"
+  },
+  "212": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "Flask 字符删除不能覆盖 HTML script 与 DOM 两层"
+  },
+  "215": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Git 元数据泄漏区别于正常公开 ignore 文件"
+  },
+  "220": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "密钥字段搜索保留仓库范围与可用性边界"
+  },
+  "223": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "APK 字符串 URL 管道保留构建与调用上下文"
+  },
+  "224": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "ASN route 查询保留多 origin 与 IPv6 缺口"
+  },
+  "228": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "盲 XSS 追踪提交字段到异步渲染消费者"
+  },
+  "229": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "请求转模板和 matcher 改写必须保留真实语义"
+  },
+  "237": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "Salesforce debug shell 页面不证明服务端执行权限"
+  },
+  "238": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL 扫描器比较要隔离旧 session 和网络失败"
+  },
+  "239": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "安装与管理端点区分配置可见和状态修改"
+  },
+  "240": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "localhost Host 差异核对路由与授权来源"
+  },
+  "241": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "研究收益比较保留时间预算与可验证假设"
+  },
+  "242": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "条件重写与宏保留修改前后的实际请求"
+  },
+  "243": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "密钥字段搜索保留仓库范围与可用性边界"
+  },
+  "244": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "密钥字段搜索保留仓库范围与可用性边界"
+  },
+  "245": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "带外参数发现分开 DNS HTTP 与消费来源"
+  },
+  "246": {
+    "dis": "merged",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "接管候选必须核对服务状态与可申领权限"
+  },
+  "247": {
+    "dis": "merged",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "跳转候选按真实解析结果而非字符串特征判定"
+  }
+}

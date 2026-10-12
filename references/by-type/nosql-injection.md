@@ -59,3 +59,142 @@ Rocket.Chat 摘要称 listEmojiCustom 存在 unauthenticated NoSQL 注入且至�
 来源：[保存帖1](https://x.com/i/status/1656034070235693059)。
 
 保存图片 `1656034070235693059-02.jpg`：RocketChat listEmojiCustomNoSQL unauth需至少1customemoji，延迟有限impact摘要，无payload/测量，不以sideSQLInjection标签当SQLDB。 本段仅使用实际查看的保存原图，不补未保存内容。
+
+
+## 保存图证0221-48-nosql：1800020622996828608-02.jpg
+
+已实际核对完整保存图片 `1800020622996828608-02.jpg`。JS Recon清单涵盖硬编码/隐藏URL/API/注释/错误/调用/混淆、localStorage/Cookie flags与scope、GraphQL introspection/授权/复杂度、MongoDB配置/NoSQL、JSON类型/解析、eval/innerHTML/document.write/定时器/Function及第三方库/CSP/CORS/HTTPS/log。图右缘有裁剪，缺字不补。禁用introspection、加密存储和出现危险函数都不独立决定安全；优先记录真实源到sink、执行上下文、服务端对象权限和公开常量反例，定时器函数回调与字符串求值区分，以惰性解析对照，不执行脚本。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1800020622996828608)、[保存帖2](https://x.com/i/status/1810146101619740822)、[保存帖3](https://x.com/i/status/1837677848955703449)。
+
+
+## 保存图证0221-48-nosql：1810146101619740822-02.jpg
+
+已实际核对完整保存图片 `1810146101619740822-02.jpg`。JS Recon清单涵盖硬编码/隐藏URL/API/注释/错误/调用/混淆、localStorage/Cookie flags与scope、GraphQL introspection/授权/复杂度、MongoDB配置/NoSQL、JSON类型/解析、eval/innerHTML/document.write/定时器/Function及第三方库/CSP/CORS/HTTPS/log。图右缘有裁剪，缺字不补。禁用introspection、加密存储和出现危险函数都不独立决定安全；优先记录真实源到sink、执行上下文、服务端对象权限和公开常量反例，定时器函数回调与字符串求值区分，以惰性解析对照，不执行脚本。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1800020622996828608)、[保存帖2](https://x.com/i/status/1810146101619740822)、[保存帖3](https://x.com/i/status/1837677848955703449)。
+
+
+## 保存图证0221-48-nosql：1800172790617874740-02.jpg
+
+已实际核对完整保存图片 `1800172790617874740-02.jpg`。JS Recon清单涵盖硬编码/隐藏URL/API/注释/错误/调用/混淆、localStorage/Cookie flags与scope、GraphQL introspection/授权/复杂度、MongoDB配置/NoSQL、JSON类型/解析、eval/innerHTML/document.write/定时器/Function及第三方库/CSP/CORS/HTTPS/log。图右缘有裁剪，缺字不补。禁用introspection、加密存储和出现危险函数都不独立决定安全；优先记录真实源到sink、执行上下文、服务端对象权限和公开常量反例，定时器函数回调与字符串求值区分，以惰性解析对照，不执行脚本。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1800172790617874740)。
+
+
+## 保存图证0221-49-nosql：1837677848955703449-02.jpg
+
+已实际核对完整保存图片 `1837677848955703449-02.jpg`。该独立图完整核对同一JS Recon清单：静态数据/API/注释/混淆、存储/Cookie、GraphQL/MongoDB/JSON、动态求值/DOM sink和策略字段，右缘裁剪不补字。为每命中关联原JS版本、调用可达性、类型与主体权限；函数出现、schema可见或存储加密不单独证明漏洞/安全，字符串与函数回调分别建模，用本地惰性样本/正确拒绝对照，不使用token或运行载荷。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1800020622996828608)、[保存帖2](https://x.com/i/status/1810146101619740822)、[保存帖3](https://x.com/i/status/1837677848955703449)。
+
+
+## 保存图证0222-37-nosql：1801715062077300807-02.jpg
+
+已实际核对完整保存图片 `1801715062077300807-02.jpg`。右侧裁剪JSrecon清单覆盖静态keys/host/端点/comments/errors/混淆，runtimeCookie/localStorageflags、GraphQLdepth/ACL、MongoDB/JSON、eval/innerHTML/documentwrite/timers/Function/CSP/CORS。静态关键词不证明runtime状态/有效secret、introspection非ACL、functioncallback不等同字符串timer，逐source-sink角色/解析类型核对，不按清单自报全覆盖。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1801715062077300807)。
+
+
+## 保存图证0223-45-nosql：1805060956734861700-02.jpg
+
+已实际核对完整保存图片 `1805060956734861700-02.jpg`。图片只列 Nmap mongodb-info 与 mongodb-databases 针对 27017 的占位命令，无执行输出。开放端口或产品识别不等于无认证数据库读取，信息与列库权限也应分别验证；记录部署端口、协议、认证角色和最小虚拟元数据的允许/拒绝比较，使用实际响应才能判断泄露。不运行脚本、读取真实数据库或默认猜测。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1805060956734861700)。
+
+
+## 0225 原图090 nosql
+
+GraphQLexcessivequery/permissiveschema/introspection/fieldACL/complexqueries与SQLNoSQLcommand分类图。introspection只给结构，复杂度不自动暴露；resolver具体下游parser/对象字段权限与返回筛选必要，身份认证和授权不能混称，不执行注入。
+
+图像证据文件名：1810349834668589182-03.jpg。
+
+来源：[保存帖1](https://x.com/i/status/1810349834668589182)。
+
+
+## 0225 复用图007 nosql
+
+JS Recon清单涵盖硬编码/隐藏URL/API/注释/错误/调用/混淆、localStorage/Cookie flags与scope、GraphQL introspection/授权/复杂度、MongoDB配置/NoSQL、JSON类型/解析、eval/innerHTML/document.write/定时器/Function及第三方库/CSP/CORS/HTTPS/log。图右缘有裁剪，缺字不补。禁用introspection、加密存储和出现危险函数都不独立决定安全；优先记录真实源到sink、执行上下文、服务端对象权限和公开常量反例，定时器函数回调与字符串求值区分，以惰性解析对照，不执行脚本。
+
+当前图像证据文件名：1810580130680438806-02.jpg。原有完整像素审阅及原始时间保留，当前字节校验一致。
+
+来源：[保存帖1](https://x.com/i/status/1810580130680438806)。
+
+
+## 0226 图片 025 nosql
+
+原始图片 `1811536133182095683-02.jpg` 已实际审阅。Rocket.Chat图明确loginByToken预认证token未校验，可$regex枚举visitor token并与loadHistory第二NoSQLi组合泄露聊天；代码getVisitorByToken(token,{projection:{_id:1}})示查询入口，截断后续。输入应限定字符串/拒绝操作符，登录token枚举oracle与历史权限分别验证，未读取真实消息。
+
+来源：[保存帖1](https://x.com/i/status/1811536133182095683)。
+
+
+## 0227 重复图片 1815564603658731737-02.jpg nosql
+
+现有图片 1815564603658731737-02.jpg 与此前已审阅原图逐字节哈希一致，本轮复核全部审阅记录，保留原审阅时间，不重新计数。
+
+JS Recon清单涵盖硬编码/隐藏URL/API/注释/错误/调用/混淆、localStorage/Cookie flags与scope、GraphQL introspection/授权/复杂度、MongoDB配置/NoSQL、JSON类型/解析、eval/innerHTML/document.write/定时器/Function及第三方库/CSP/CORS/HTTPS/log。图右缘有裁剪，缺字不补。禁用introspection、加密存储和出现危险函数都不独立决定安全；优先记录真实源到sink、执行上下文、服务端对象权限和公开常量反例，定时器函数回调与字符串求值区分，以惰性解析对照，不执行脚本。
+
+来源：[保存帖1](https://x.com/i/status/1815564603658731737)。
+
+
+## 0229 图证 88 nosql 1822409356060856385-02.jpg
+
+已核对原始图片 `1822409356060856385-02.jpg`。Rocket.Chat2022 login-token handler只检查result.loginToken真假后把该值直接放Mongo services.loginToken.token条件，返回user后unset令牌。应严格拒绝非字符串/查询结构并核令牌subject/purpose/lifetime、原子消费与服务器身份；可形成NoSQL查询类型混淆假设，但图未给具体绕过输入或实际登录回执，不能补造万能payload或现行漏洞。
+
+来源：[保存帖1](https://x.com/i/status/1822409356060856385)。
+
+
+## 保存图证0232-76-nosql：1830479795756355692-02.png
+
+已核对保存图片 `1830479795756355692-02.png`。Web清单认证列密码/限速/MFA/恢复/会话固定/退出/默认凭据/锁定/存储/expiry/flags/HTTPS日志/验证码/复杂度/rememberme/timeout/inactive；授权列纵横角色/对象/租户/最小权限/强制浏览/时间动态状态；输入列XSS/SQLNoSQL/命令LDAPXXE/客户端服务端/XSSI/HPP/RCE/遍历/include/模板/长度。把每项落到主体动作消费者与正常/拒绝对照，缺Cookieflags/匿名公开API/客户端校验不是独立接管，CSP和密码复杂度等按实际业务核，不执行清单扫描。
+
+来源：[保存帖1](https://x.com/i/status/1830479795756355692)。
+
+
+## 保存图证0232-97-nosql：1830946988424069202-03.jpg
+
+已核对保存图片 `1830946988424069202-03.jpg`。数据库蜜罐列表ESDelilah/ESPot旧CVE/ElasticPot/Elastichoney、MongoHoneyProxy/NoSQLpot、Cmysql/MysqlPot、pghoney/stickyelephant、RedisHoneyPot列低/中/高交互分类。协议握手/仿造命令或错误未必真实数据库读写，核自有服务实现/隔离日志/消费者，交互级别不表示权限或漏洞，未连接数据库/部署。
+
+来源：[保存帖1](https://x.com/i/status/1830946988424069202)。
+
+
+## 保存图证0233-13-nosql：1831529298940809273-02.jpg
+
+已核对保存图片 `1831529298940809273-02.jpg`。Enumeration图按NetBIOSSMB139/445、LDAP389/636、RPC135、SMTP25、SNMP161/162、RDP3389、FTP21、HTTP80/443、MySQL3306/MSSQL1433/Postgres5432/Oracle1521、NFS2049、DNS53列工具/脚本含brute/readfile/xpcmdshell等。端口映射非实际协议/漏洞，rpcinfo与135等工具需核真实服务；身份/枚举/读写/命令动作分开，不把清单默认执行或扩授权，未扫描/登录/读库。
+
+来源：[保存帖1](https://x.com/i/status/1831529298940809273)。
+
+
+## 保存图证0237-46-nosql：1842141404136431819-03.jpg
+
+当前附件 `1842141404136431819-03.jpg`。已实际审阅保存的原始图片。API 清单第二张覆盖功能授权、批量赋值、配置和注入。检查每个方法与路由的服务端角色约束、允许写入字段及实际解释器；ORM、类型校验或输入过滤均不能单独替代正确参数化和权限控制。仅示意接收对象后保存不证明可修改敏感字段，需核对实际模式与最终持久化状态。
+
+来源：[保存帖1](https://x.com/i/status/1842141404136431819)。
+
+
+## 保存图片0241：附件033（nosql）
+
+SQL工具目录混合SQL自动化、payload表、NoSQLMap与API包装。实际数据库/驱动/方言、输入类型和权限是不同前提，工具名不保证注入或接管；检测和枚举/写入影响不同，未安装或运行。
+
+图片证据：`1850910403137806422-02.jpg`；按保存原图可见内容提炼，未读取外链全文。
+
+来源：[保存帖1](https://x.com/i/status/1850910403137806422)。
+
+
+## 保存图片0244-18：1857029471431238131-03.jpg（nosql）
+
+已审阅该内容原图，当前保存附件 1857029471431238131-03.jpg。OWASP目录片段列session puzzling/hijack、输入验证含不同数据库/ORM、LDAP/XML/XPath/SSI/邮件/code/file/cmd/format、HTTP拆分和Host/SSTI/SSRF、错误和弱密码学；名称是测试分类而非通用载荷或漏洞证明。先确定真实消费者及版本，再设计独立对照；不把NoSQL/ORM统称SQL或重放会话当授权，未运行。
+
+来源：[保存帖1](https://x.com/i/status/1857029471431238131)。

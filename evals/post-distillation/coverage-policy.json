@@ -1,0 +1,9 @@
+{
+  "policy": "user-specified coverage scope",
+  "recorded_at": "2026-10-10",
+  "user_instruction": "缺失图片、外链全文 不用管，按已覆盖算",
+  "missing_images": {"action": "no recovery or additional review required", "coverage": "covered_by_user_waiver", "actually_viewed": false},
+  "external_full_text": {"action": "no external full-text acquisition required", "coverage": "covered_by_user_waiver", "actually_read": "only when independently recorded as read"},
+  "remaining_required_work": ["Review remaining complete saved post bodies", "Review remaining currently available attached image contents", "Distill mechanisms and corrections into standalone target references", "Verify full saved-post coverage and target integrity"],
+  "observations": "Review counts retain their actual read/view meaning. Waived content counts as covered without claiming it was read or viewed. Unsaved external thread continuations follow the same external-content waiver."
+}

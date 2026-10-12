@@ -1,0 +1,93 @@
+0|distilled|references/by-type/waf-bypass.md|表格对照form、JSON及畸形Content-Type导致应用与WAF解释不同；仅示意绕过，无请求响应实测。
+1|insufficient_technical_detail||IDOR及race报告标题与奖金，关键内容涂黑，缺复现。
+2|distilled|references/discovery/passive-and-services.md|侦察图：被动域名来源/字典→子域名→证书→DNS解析→IP端口/HTTP/vhost→历史URL；Brutespray仅工具名，不授权口令攻击。
+3|no_technical_content||P1待评估报告列表，无机制。
+4|insufficient_technical_detail||高级IDOR文章预览，localhost users JSON示意，正文模糊无跨用户证据。
+5|no_technical_content||23美元课程促销，无技术内容。
+6|no_technical_content||Wageningen致谢名录2023，无漏洞细节。
+7|distilled|references/by-type/idor-access-control.md|Nextcloud ReferenceManager缓存cachePrefix独立用户，User1先访问deck卡片并分享链接，知board/card ID的未授权用户后读到引用；CVE-2023-22469历史摘要。
+8|distilled|references/by-type/desktop-client.md|Node --inspect macOS 0.0.0.0及ComputerName.local解析绕过旧DNS保护，历史14/16/18版本声明非当前验证。
+9|distilled|references/discovery/client-and-cloud.md|gau/waybackurls后grep只匹配.js结尾再anew；会漏.js?参数，历史地址需重新验证范围和存活。
+10|insufficient_technical_detail||ZIP密码概念插画，无bkcrack命令或已知明文条件。
+11|distilled|references/by-type/oauth-oidc.md|GHES scoped user-to-server token提权；先有admin安装App权限，历史修复3.3.17/3.4.12/3.5.9/3.6.5；CVE-2022-23741摘要，非匿名提权。
+12|insufficient_technical_detail||汽车行业Mattermost频道Azure Cloud截图，正文全遮挡，未给访问条件。
+13|distilled|references/by-type/subdomain-takeover.md|mx-takeover管道Mailgun API、16并发、check-whois，日志possible/reclaimed及domain already exists；会实际注册变更，不能把扫描输出等同可接管或复现。
+14|distilled|references/by-type/info-secrets.md|database.php.orig保存源码DB字段；view-source显示已有响应不会新增服务器权限，凭据涂黑无需登录验证。
+15|distilled|references/by-type/request-smuggling.md|CL.0、CL-CL、CL-TE、TE-CL、TE-TE请求帧示意；前后端消费边界不同，示例长度需按实际字节重算，仅隔离自有连接确认。
+16|distilled|references/scope-and-rules.md|漏洞报告入口Google搜索结果，历史索引非当前授权。
+17|distilled|references/by-type/mobile-android.md|APK解包Nuclei file info匹配email/URL/firebase；libflutter和AndroidX等第三方噪声，public数据库地址不等于可读秘密。
+18|no_technical_content||Burp认证证书，无漏洞技术。
+19|distilled|references/by-type/waf-bypass.md|JSON明文登录注入候选返回CloudFront HTML403；不能说明数据库接收。
+20|distilled|references/by-type/waf-bypass.md|Unicode JSON登录候选也403但JSON UNKNOWN_USER；支持响应层改变而非SQLi/ATO已确认。
+21|distilled|references/by-type/info-secrets.md|GitHub OrgKey/UserKey/Token导致未授权操作的报告标题，操作范围和实际端点缺失。
+22|distilled|references/impact-and-acceptance.md|Yelp robots.txt扫描报告Not-applicable，仅索引说明，敏感正文/未授权读取未给。
+23|distilled|references/by-type/xss.md|FirstName与LastName拼成IMG SRC及onmouseover表达式，分别过滤后拼接可改变HTML解析；图未见执行证据。
+24|distilled|references/by-type/xss.md|两字段示例后alert xxs弹窗，域名遮挡；需要具体拼接模板和浏览器事件路径。
+25|no_technical_content||Pentabug入驻邮件，无漏洞机制。
+26|distilled|references/source-audit.md|EAR图实际200页面加载登录再客户端跳转，view-source取已发响应；检查JS API key权限但不自动等同服务端执行。
+27|distilled|references/targeted-fuzzing.md|Fuzzable函数评分/符号位置，11分析8跳过，静态候选分数不证明可利用。
+28|distilled|references/by-type/desktop-client.md|Mattermost Windows安装→登录→卸载→重装自动登录，先有本人会话；本地配置/凭据残留及注销撤销语义需分开。
+29|distilled|references/by-type/ssrf.md|SSRF assetfinder httprobe gau gf→特定MicroStrategy模板或10并发curl代理，-k隐藏TLS问题且丢错误；候选参数不保证触发。
+30|distilled|references/by-type/xss.md|Markdown请求git mode含img onerror，输出删除事件属性但保留img src，当前图不支持XSS执行。
+31|no_technical_content||500美元确认邮件，无信息泄漏细节。
+32|distilled|references/source-audit.md|AVIator AES/shellcode注入/线程选项界面，仅提炼工具静态鉴别与样本隔离，不提操作生成或免杀流程。
+33|distilled|references/discovery/passive-and-services.md|Bitcoin交易图两个地址发送到交易；链上关联不证明现实身份或诈骗定性。
+34|distilled|references/cloud/cloud-misconfiguration.md|GCP SSH浏览器端newLinuxUsername URL含attacker及编码public key和末尾CRLF；截图未见请求鉴权或metadata结果，审计用户名与公钥结构化边界。
+35|insufficient_technical_detail||SPI Flash课程标题，没有固件提取细节。
+36|distilled|references/targeted-fuzzing.md|rush20并发SQLmap、Dalfox multicast、重定向Location检查、CRLF标题，存活非漏洞；需每目标会话输出隔离和预算。
+37|distilled|references/discovery/web-and-api.md|swagger paths、CORS curl、Host fuzz、recon.dev、只200跟重定向、XSS反射、IP域名映射；curl头不证明浏览器读/CSP脚本，跨域范围重新过滤。
+38|no_technical_content||OneLiner README作者/MIT/Page1/2目录，无新增机制。
+39|insufficient_technical_detail||2FA cheatsheet封面无15项正文。
+40|distilled|references/discovery/web-and-api.md|AEM/Sling路径长列表含console/crx/logs/JCR version/profile/config/query/content infinity/replication/cloudservices；selector编码与匿名权限需对照，深度限制无全树抓取。
+41|distilled|references/by-type/desktop-client.md|VuCSA非HTTP厚客户端实验类别buffer-overread/command/SQL/enumeration/XML/horizontal/vertical；案例界面不证明真实目标漏洞。
+42|distilled|references/by-type/xxe.md|VuCSA XML页明确external entities/XInclude练习，当前storage keys正常回显，没见实体读取。
+43|distilled|references/by-type/desktop-client.md|VuCSA Java/JavaFX非HTTP厚客户端说明，工具适用边界。
+44|no_technical_content||CERT-In事件登记邮件，细节模糊，无BAC证据。
+45|distilled|references/cloud/cloud-misconfiguration.md|Cognito bundle识别IdentityPool/UserPool/Client/Region，匿名临时凭据需IAM实际超权限，公共ID不是secret。
+46|distilled|references/by-type/authn-session.md|仅管理员建号业务却开放SignUp API，需应用接受新账户且授予受限功能；开放注册不自动authbypass。
+47|distilled|references/by-type/authn-session.md|Cognito可写用户属性提权风险；列标准属性不证明角色字段可信使用，需AppClient写属性→token→服务授权链。
+48|distilled|references/by-type/authn-session.md|Cognito email禁改UI可通过本人access-token update-user-attributes；验证pending/verified与恢复邮箱/tenant授权边界，不是任意改别人邮箱。
+49|no_technical_content||Exploit Notes分类入口，无具体技术。
+50|distilled|references/by-type/mobile-android.md|ownCloud Android ReceiveExternalFilesActivity外部路径未妥善验证，android.intent.extra.STREAM读写内部storage；旧修复旁路摘要未见完整代码。
+51|distilled|references/by-type/info-secrets.md|Algolia index/AppId/apiKey发现输出，值遮挡不见ACL，Admin权限仅帖主声称。
+52|no_technical_content||eMAPT证书无技术。
+53|distilled|references/by-type/csrf.md|Burp Generate CSRF PoC右键入口，仅生成不证明浏览器真实cookie携带/状态改变。
+54|no_technical_content||回归账号小熊meme无技术。
+55|distilled|references/by-type/business-logic.md|Mattermost消息deleted_at>0导致查看频道webapp白屏，pending_post_id需唯一，CVE-2021-37863；界面崩溃和服务器DOS分开，自有隔离单消息不持续循环。
+56|no_technical_content||APTRS宣传封面无报告算法。
+57|distilled|references/discovery/records-and-incremental.md|Caido转发队列多域名/端口及Drop/Forward，请求捕获与发送区分，scope隔离。
+58|distilled|references/discovery/passive-and-services.md|Mitaka右键Censys/Shodan/SecurityTrails等检索IP，第三方外发IoC与只读索引有边界。
+59|distilled|references/discovery/passive-and-services.md|chaos -d→naabu full→httpx输出多端口耗时1m29，DNS/共享CDN/IP授权边界，工具时间非稳定性能承诺。
+60|distilled|references/discovery/passive-and-services.md|同侦察管道缩放图，多端口CDN候选，不等于全端口真实后端。
+61|distilled|references/scope-and-rules.md|IBM Tokens & Secrets低危Triaged，仅状态无secret细节。
+62|distilled|references/scope-and-rules.md|IBM Tokens & Secrets中危Resolved，仅状态无私邀保证。
+63|distilled|references/discovery/passive-and-services.md|ZoomEye服务聚合Apache/Exchange/OpenSSH/cPanel/Dovecot/Exim，技术分布索引非所有权。
+64|distilled|references/discovery/passive-and-services.md|ZoomEye历史200 banner及安全头，时间2023，索引需活性和scope重证。
+65|insufficient_technical_detail||Authentication pinpoints封面无cheatsheet正文。
+66|distilled|references/by-type/authn-session.md|Mattermost连续改邮箱B→C且验证C，旧B验证链接仍有效可重新绑定；旧token须失效并绑定email变更版本。
+67|distilled|references/by-type/authn-session.md|signup_user_complete d参数email和t邀请token，空email触发误认会话；截图到空值步骤，缺后续完整ATO。
+68|distilled|references/by-type/authn-session.md|Mattermost邀请未注册邮箱无撤回选项，旧邀请仍能加入；标题提醒重发与图实际无取消步骤不相同，撤回/提醒/消费各检查。
+69|distilled|references/by-type/xss.md|Mattermost邀请guest自定义message渲染a/input HTML到邮件，证明标记注入非脚本/直接ATO；仅自有邮箱无钓鱼。
+70|distilled|references/by-type/xss.md|JourneyAPI旧Swagger HTML注入标题和timeline，无sink流程。
+71|distilled|references/by-type/xss.md|InDesign Swagger configUrl外部配置DOM XSS报告标题，无恶意spec与执行证据，外部配置入口可审计。
+72|distilled|references/by-type/idor-access-control.md|SICOM /~sicom/mgrng/index.phpa管理console标题，高危状态但缺未登录功能证据。
+73|distilled|references/discovery/passive-and-services.md|Kscan私网/24指纹多个SSH/SMB/FTP/HTTP及Cisco配置候选，服务识别不是凭据或漏洞确认。
+74|no_technical_content||OSINT词云无Google dorks具体查询。
+75|no_technical_content||Ethical hacking meme无技术。
+76|distilled|references/by-type/info-secrets.md|账号删除后残留数据报告标题和50美元，具体公开profile路径需正文提炼。
+77|no_technical_content||Tide密码挑战促销，无破解细节。
+78|insufficient_technical_detail||HPP标题封面无参数优先规则。
+79|distilled|references/by-type/xss.md|XSSHunter Discord fired通知W3Schools tryit本地演示，通知是观察渠道非目标漏洞与来源保证。
+80|distilled|references/by-type/open-redirect.md|gau tee追加archive→gf redirect→cut按冒号→qsreplace→httpx location；cut截URL可能破坏scheme/port且全部参数替换混因，历史文件串目标。
+81|distilled|references/by-type/csrf.md|localhost compose GET含msg/rID/action/confirm/csrf=1成功发送页面；单成功页面不证明跨站、token或认证边界。
+82|no_technical_content||SwaggerUI概念插画无技术。
+83|no_technical_content||India声望榜95位截图，无技术。
+84|distilled|references/discovery/web-and-api.md|Yelp PURGE unauth缓存失效声明，截图仅GET200/varnish/AmazonS3/XCacheHits，Informative，未见PURGE前后实测成本。
+85|distilled|references/by-type/mobile-android.md|KAYAK Android161.1 deeplink窃session摘要及161.2历史初修，无URI/handler代码；仅最小own canary，不偷cookie。
+86|distilled|references/by-type/graphql.md|GraphQL search/opportunities_search aggs返回私有program handles，聚合必须先受相同可见性过滤，不只过滤hits。
+87|distilled|references/by-type/xss.md|主搜索额外query参数生成hidden input name/value，属性上下文逃逸XSS；截图部分无完整payload，可审计动态任意参数渲染。
+88|distilled|references/source-audit.md|所谓钱包抓取截图实际Paramiko SSH密码连接SFTP打开固定/path/file.dat打印；AutoAddPolicy信任未知host危险，非自传播/无凭据远程抓取，不保留窃密流程。
+89|distilled|references/by-type/info-secrets.md|信息泄漏标题封面无后续正文。
+90|distilled|references/impact-and-acceptance.md|WordPress图WPScan枚举用户/API情报、密码字典及wp-cron DOS工具声明；没有DNS重绑定或DOS请求证据，纠正扫描/爆破/服务危害推断，不传授持续压测。
+91|no_technical_content||Jhaddix方法论演讲宣传，无具体分析步骤。
+92|distilled|references/targeted-fuzzing.md|gau→unfurl parameters→filter/popularity图，字典按目标上下文排序保留低频而非频率等于漏洞。

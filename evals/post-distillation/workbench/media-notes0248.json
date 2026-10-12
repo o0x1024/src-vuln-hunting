@@ -1,0 +1,382 @@
+[
+  [
+    "D",
+    "auth,oauth,saml,access,business,source,scope,experiment",
+    "Okta 多租户示意：攻击者创建 target.com 组织邀请受害邮箱、绑定自己的 Okta、创建同邮箱未验证用户，再登录并切换受害组织。关键是信任的 issuer/tenant、外部 subject 与本地不可变账号的绑定，不能仅按未验证 email 合并身份；邀请待接受成员与真实权限、组织切换消费者也须独立核验。末行裁切、无原始请求，不能泛化所有 Okta SaaS；未邀请、建账号或操作真实租户。"
+  ],
+  [
+    "D",
+    "web,fuzz,graphql,xxe,source,scope,experiment",
+    "API fuzz 图列工具、词表、Swagger 转请求/路由、GUID/API-key guesser，概括 SOAP HTTP/XML、REST、GraphQL 单入口及 race/%00。按真实合同记录方法、输入位置、编码、认证和对象归属；GraphQL 入口不代表单 resolver 权限，%00 不自动泄露内存，猜测 ID/key 不证明可行或获准。截图右边横向裁切，仓库/清单全文按覆盖；未下载或扫描。"
+  ],
+  [
+    "N",
+    "",
+    "RUET 讲台人物照片，没有讲座全文、账号接管机制或步骤。"
+  ],
+  [
+    "N",
+    "",
+    "RUET 另一讲台照片，没有演示内容或账号接管证据。"
+  ],
+  [
+    "N",
+    "",
+    "Cyber Fest 24 授证合影，证书小字不构成技术内容，未识别人或补造讲稿。"
+  ],
+  [
+    "D",
+    "passive,web,records,fuzz,source,scope,experiment",
+    "Recon 封面内有 mkdir/子域收集、有效子域/URL过滤、交 Burp、隐藏目录/参数和扫描的目录，终端 SSL Certificates 候选后 starting subbrute。证书名与通配符不是实际存活/授权资产，从历史候选到主动枚举/爬取应保留阶段输入输出、归属及预算。小窗口部分命令遮挡不可复原，未运行流程。"
+  ],
+  [
+    "D",
+    "race,logic,business,source,scope,experiment",
+    "转账 race 示例称 A 有4美元，B 已收到而 A UI 延迟清零，Turbo Intruder 多次转出。界面滞后也可能只是最终一致性，需以隔离账本证明两次授权/扣减交错、实际终态和余额守恒失效；infinite 不能由有限演示推导。嵌入请求小字有限，未运行脚本、转钱或并发测试。"
+  ],
+  [
+    "I",
+    "",
+    "奖励邮件称内部定 Low、Rs25000，没有字典命中、漏洞请求或修复验证，奖金不能证明 fuzzing 方法或影响。"
+  ],
+  [
+    "N",
+    "",
+    "Chrome Web Store 首页截图，没有 FoxyProxy 规则、Burp 监听、TLS 证书配置或捕获流量；视频全文按覆盖。"
+  ],
+  [
+    "N",
+    "",
+    "面具人物与背景终端照片，不显示 Scope 泄露机制、文档或权限证据。"
+  ],
+  [
+    "I",
+    "",
+    "disclosure 邮件说开发团队已知且正在修复，没有漏洞机制或修复结果；不能从反馈推断严重度或独立发现。"
+  ],
+  [
+    "I",
+    "",
+    "收件箱多条 Report successfully received 与部分状态通知，目标和编号遮挡；不能核实53个独立根因、有效或奖金。"
+  ],
+  [
+    "N",
+    "",
+    "SSRFUtility 首页只有 New Instance/既有 ID 输入与宣传，无请求、回连或输出，未创建实例。"
+  ],
+  [
+    "I",
+    "",
+    "WHO 荣誉榜更新时间邮件，无账号接管机制或已验证影响，不联系对方。"
+  ],
+  [
+    "D",
+    "oauth,auth,client,source,scope,experiment",
+    "LinkedIn OAuth 报告称 hash 按钮 ID 与按住空格使用户未明确同意授权第三方，摘要限定需访问钓鱼链接和按键、第三方能力通常有限，严重度6.8改4.2。需核 fragment 聚焦/默认键动作、同意界面、实际授权主体/范围与回调终态；不是零点击或完整接管，未发送钓鱼、注册应用或诱导用户。"
+  ],
+  [
+    "D",
+    "secret,cloud,source,scope,experiment",
+    "终端 strings heapdump | grep -B2 -A2 AKIA 给 accessKey 和 AWS Credential/调用元数据，值遮挡。内存字符串是凭据候选，需核原始文件来源、版本、当前部署、公开ID与配对秘密/会话期限及具体IAM权限；grep附近内容不证明全部 key 可用或云接管。未下载dump、提取真实秘密或调用AWS。"
+  ],
+  [
+    "D",
+    "secret,auth,source,scope,experiment",
+    "heapdump 图可见 authorization:Bearer、content-length、application/json 与 Java UA，其余值模糊。内存HTTP片段需绑定真实消费者、token用途/audience、主体和撤销状态；JWT形态不是签名/有效会话证明，不能从截图复原token或用户身份。未解码或使用凭据。"
+  ],
+  [
+    "D",
+    "secret,cloud,web,source,scope,experiment",
+    "heapdump 片段含 Elasticsearch Java7.17.15、AWS服务Host片段、Basic头与查询体，凭据及完整目标遮挡。Basic Base64不等于加密；需分别核秘密持有方、具体索引和读写权限、服务TLS与访问ACL，库版本头不证明集群当前版本或全部数据可读。未转录凭据、发搜索或下载dump。"
+  ],
+  [
+    "I",
+    "",
+    "YesWeHack Cache Deception CWE524 Medium6.5 +20积分宣传卡，无缓存键、请求身份或私有内容回执；正文机制需要独立验证。"
+  ],
+  [
+    "I",
+    "",
+    "后台消息列表与遮挡发件内容，未显示base标签、脚本执行或回连；不能据界面证明正文BlindXSS载荷成功。"
+  ],
+  [
+    "D",
+    "secret,auth,source,scope,experiment",
+    "core 字符串筛选显示 JWT_SECRET、DB_HOST/PORT3306、DB_PASSWORD/USERNAME/DATABASE、MYSQL_* 等候选，多值模糊。重复内存副本不代表独立秘密或不同部署，JWT签名secret与普通token需分开，DB host/用户名不等于可登录权限；保存来源与最小脱敏字段角色，不读取实际dump、复原或使用密码。"
+  ],
+  [
+    "D",
+    "secret,source,scope,experiment",
+    "core 字符串图含 GPG_KEYS、APP_DEBUG=true、APP_ENV=local、APP_KEY=base64 前缀、URL/NAME。GPG_KEYS可能是安装验签公钥标识，不能等同私钥；APP_KEY是否应用加密秘密要核用途与消费者，base64不保护秘密。local/debug字段不证明互联网当前可见或RCE；未提取、解码密钥或访问服务。"
+  ],
+  [
+    "D",
+    "fuzz,web,secret,records,source,scope,experiment",
+    "fuzzuli stdin URL 动态生成域名衍生 .rar/.zip/.7z/.tar/.jar 等候选，图报 .7z SC200 CTapplication/x-7z-compressed CL174。200/MIME/文件名只能候选，需区分soft404、示例压缩包和真实备份并绑定源版本/ACL；程序称Sensitive file不能替代内容证据。截掉部分列表，未运行、下载或解压。"
+  ],
+  [
+    "N",
+    "",
+    "loxs-optimized GitHub 仓库卡片及45stars/9forks，没有脚本、使用步骤或命中证据。"
+  ],
+  [
+    "I",
+    "",
+    "多条 Trades exported successfully 提示，没有限流计数、后端实际导出或响应操纵对照；客户端toast可被修改，不能证明绕过。"
+  ],
+  [
+    "I",
+    "",
+    "CAdvisor exposed through IP 奖励邮件4000卢布，没有界面、返回数据、权限或版本证据；经邮箱处理不等于当前部署有效。"
+  ],
+  [
+    "D",
+    "passive,fuzz,records,source,scope,experiment",
+    "Nmap 选项图覆盖目标清单/随机目标/排除、主机发现、TCP/UDP/旗标扫描、端口和服务版本、NSE、OS、时序重试/速率、输出追加/恢复以及分片/decoy/spoof等。扫描阶段与结果格式、原始输出、错误和已扫描集合要分开；-Pn只是跳过发现并假定主机在线，-A/-sC包含额外主动探测，--open和过滤会隐藏拒绝/未知证据，--append-output易混旧数据。示意参数不保证版本兼容或隐身，未运行或扩大范围。"
+  ],
+  [
+    "I",
+    "",
+    "Tomcat CVE 图显示 localhost127.0.0.1:8071 GET、文本qax、Windows10/Tomcat9.0.97与计算器，路径和触发步骤不可见。计算器窗口不能独立证明由HTTP请求执行，写启用default servlet是正文前提而非所有Tomcat，未运行PoC或请求。"
+  ],
+  [
+    "N",
+    "",
+    "Advanced SSTI/RCE everywhere 讲座宣传封面，没有引擎、沙箱、对象链或载荷；不据标题推断每种模板都可RCE。"
+  ],
+  [
+    "I",
+    "",
+    "300美元 Reflected XSS via scope parameter 奖励通知，没有参数值、HTML/DOM上下文或执行结果。"
+  ],
+  [
+    "D",
+    "cmd,secret,cloud,auth,access,source,scope,experiment",
+    "DoD 报告称启用 Jenkins /jenkins/script 可在 host 执行系统命令，并概括 IAM 凭据影响。script console 本身是高权限功能，需先证明不应有权的主体可访问/执行，再区分 Jenkins 进程、容器与宿主权限；IAM标识/泄露不自动拥有所有读写、建删资源或用户权限。截图无完整PoC/凭据，未请求console、执行命令或调用AWS。"
+  ],
+  [
+    "D",
+    "csrf,auth,access,source,scope,experiment",
+    "报告2699029可见 /account/register、未验证邮箱仍可登录、/account/profile/edit 更改名字/邮箱的流程，称CSRF→ATO。未验证注册、跨站请求保护和更改邮箱后的恢复身份是独立边界；核对实际方法/Content-Type、cookie/SameSite、token/Origin、邮箱变更与密码重置终态。图在步骤3裁切，未证明跨站受害者提交或完整接管，不注册/改邮箱。"
+  ],
+  [
+    "D",
+    "csrf,auth,access,source,scope,experiment",
+    "另一报告2712857同样显示注册、跳过邮箱验证登录及 /account/profile/edit 改字段，域名遮挡且末尾裁切。分别保留该来源和时间，不因相似截图计作相同或独立根因结论；需后端跨站授权、邮箱确认与恢复消费者证据，不把正常自改字段当CSRF或接管。"
+  ],
+  [
+    "D",
+    "secret,web,source,scope,experiment",
+    "Jira CVE-2020-14179 摘要称 /secure/ 某端点向未认证者暴露自定义字段/SLA名、Project/Status/Limits/Creator/Query/日期等元数据。元数据可见与实际项目内容/PII或写权限是不同影响；需实际部署/版本、预期公开合同和匿名响应证据。路径/目标遮挡，没有字段响应，不从标题扩张到所有Jira或数据接管，未请求。"
+  ],
+  [
+    "N",
+    "",
+    "Facebook writeup 年份索引、作者、奖金和文章标题，没有具体机制；下端裁切，外链全文按覆盖，不能当作全部文章已读。"
+  ],
+  [
+    "D",
+    "csrf,auth,logic,source,scope,experiment",
+    "报告描述 profile 安全问题/答案变更未校验CSRF，密码重置消费者再用该答案；可见 POST /member/updatesecurityquestions、占位Cookie，body下端裁切。要证明跨站浏览器实际发送凭据、参数可控、答案落库及后续恢复身份绑定；一条示例请求或High8.8不自动完整接管。未改答案或重置账户。"
+  ],
+  [
+    "D",
+    "csrf,access,logic,source,scope,experiment",
+    "报告称通过 GET /mediagallery/delete/id/{album-id} 删除相册且缺CSRF验证，示例cookie/session占位。GET副作用需核真实浏览器跨站cookie、Origin/Referer/SameSite、对象归属与删除终态，不能仅看GET/token缺失宣称成功；对象越权另核。没有后端回执，未删除相册。"
+  ],
+  [
+    "D",
+    "xss,client,web,source,scope,experiment",
+    "CVE-2018-1000129 报告给 URI中百分号编码 svg onload alert 候选和 ?mimeType=text/html，目标遮挡。实际解码次数、MIME控制、HTML sink、CSP/事件与浏览器执行要串联；弹document.cookie不保证认证cookie可读或账号接管，报告通用impact不证明全部能力。未访问、注入或执行。"
+  ],
+  [
+    "D",
+    "xss,csrf,auth,source,scope,experiment",
+    "CSRF to XSS 图实际以通用定义解释二者组合：同源脚本可能发起用户动作或读取页面CSRF token。需将外部跨站请求、同源脚本执行、敏感动作权限分段实证；HttpOnly、再次认证和受限会话是不同限制，不能从通用描述推断cookie可盗或每种token防护均可绕。图无目标PoC，未执行链。"
+  ],
+  [
+    "D",
+    "xss,client,auth,source,scope,experiment",
+    "Reflected XSS 描述请求不受信数据进入即时响应并由浏览器执行。反射需到HTML/JS上下文的真实sink及执行证据，正确JSON/文本编码是反例；cookie窃取与所有用户动作受CSP/HttpOnly和服务权限限制。图为通用说明，无目标参数/执行回执，不将报告Medium或链接当作复现。"
+  ],
+  [
+    "D",
+    "csrf,access,logic,records,source,scope,experiment",
+    "相册删除报告2697588注明此前报告在不同子域，给 GET /mediagallery/delete/id/{album-id}、占位会话与Referer。跨站cookie和真实删除终态需实证，same route across domains是否独立部署/授权实现不能仅按主机数判断；未删除或扩展到遮挡目标。"
+  ],
+  [
+    "D",
+    "auth,access,secret,web,source,scope,experiment",
+    "报告称 profile 无认证暴露姓名/邮箱/EDIPI且可见update，步骤建议证书选择提示点击cancel否则403，再同意条款跳转。证书UI取消可能改变客户端证书身份，应区分TLS网关与应用会话、真实匿名返回；update按钮不是写入权限证明。图未给响应或更新终态，不补造敏感值、改数据或请求服务。"
+  ],
+  [
+    "I",
+    "",
+    "Intigriti两条100欧元payout、单owner限制和2FA标题，没有对象、请求或后端终态；付款处理中不证明漏洞细节。"
+  ],
+  [
+    "N",
+    "",
+    "排行榜截屏含xBow名次与Reputation/Signal/Impact，没有AI运行方式、成本或漏洞证据，不据此推断AI已替代人或效果统计。"
+  ],
+  [
+    "I",
+    "",
+    "Indeed2500美元奖励通知称未认证IDOR/JSON参数，方法、参数、对象遮挡，P3升级P2因PII数量。正文4端点链没有实际请求，不能补造所有用户PII或独立根因；金额/评级为历史反馈。"
+  ],
+  [
+    "D",
+    "web,auth,source,scope,experiment",
+    "curl协议限制报告图称 --proto -all,-http 仍发HTTP、另列 --proto =all；状态实际N/A，与正文Low标题分开保留。选项集合解析、默认/空集合、URL及redirect协议限制、实际版本与退出/网络回执需核验，不能从作者解释保证当前curl存在限制绕过或明文泄露；未运行命令。"
+  ],
+  [
+    "I",
+    "",
+    "WHO荣誉榜实际条目是Host header injection，正文称ATO；榜单无请求、密码重置链接或会话终态，两种描述不可直接互证。"
+  ],
+  [
+    "N",
+    "",
+    "WHAT UP DOGG 梗图，无SQLi载荷或证据。"
+  ],
+  [
+    "D",
+    "sql,web,fuzz,source,scope,experiment",
+    "SQL injection by headers 图把许多头统一置为带 sleep(30) 的字符串，含Accept、Authorization、Content-Length、Cookie、Origin、X-Forwarded等。需找到真正进入数据库的消费者，认证/长度/协议头各有类型语法，批量改变会破坏基线；时延可能来自网络、解析或队列，不能一概判SQLi。使用隔离有界证据与单因素设计，未发送载荷或实施长sleep/扫描。"
+  ],
+  [
+    "I",
+    "",
+    "CVE2020-3187任意文件删除P2Resolved、2500美元卡，目标与请求遮挡，无删除消费者或文件终态；不能从评级证明所有服务器文件可删，不测试破坏性删除。"
+  ],
+  [
+    "D",
+    "logic,race,business,access,source,scope,experiment",
+    "Basecamp free非trial图称admin、0项目、捕获AddProject请求、Intruder暴力项目名并重载出现多个项目；报告Informative/No rating。限制要在服务端授权与创建事务检查，区分重复、并发竞态、客户端UI和实际套餐合同；截图无请求/并发交错/状态回执，不能单独保证race或安全影响。未创建项目、升级/购买或运行Intruder。"
+  ],
+  [
+    "I",
+    "",
+    "Dependency confusion P2 Unresolved1750美元卡，目标和内容遮挡，无包解析、安装来源或执行结果。"
+  ],
+  [
+    "I",
+    "",
+    "2022年状态/积分/1750美元及额外奖励评论，没有PoC内容；不能从感谢报告保证所有dependency confusion均RCE。"
+  ],
+  [
+    "D",
+    "strategy,business,access,source,scope,experiment",
+    "D Day Approach图四步：正常用户映射目标、寻找限制“No”、读文档解释限制、尝试突破后称bug。将限制写成主体/对象/动作/状态不变量，比较允许与拒绝的自有受控角色和真实后端终态；文档差异/UI变更不必然是安全漏洞，也不能保证必有发现。"
+  ],
+  [
+    "D",
+    "ssti,cmd,ssrf,source,scope,experiment",
+    "CraftCVE2024-56145实验终端生成带system/sort(call_user_func)的Twig，启动FTP2121和监听4444，经templatesPath=ftp://...请求，FTP RETR index.twig97bytes后反连并id显示uid/gid1000。关键是请求参数覆盖模板路径、远端加载、模板编译到命令消费者，FTP回连与命令终态是不同证据。ddev本地实验不证明所有Craft版本/宿主root或公网可用，未运行exploit、启动服务或反连。"
+  ],
+  [
+    "I",
+    "",
+    "Paytm邮件感谢复核修复并要求UPI支付，金额遮挡，没有漏洞或复验请求，不联系或提交支付资料。"
+  ],
+  [
+    "I",
+    "",
+    "Low information disclosure200美元侧栏，无phpinfo响应或秘密字段，不能证明正文路径结果。"
+  ],
+  [
+    "D",
+    "web,secret,auth,files,source,scope,experiment",
+    "WordPress端点清单混列登录/注册、wp-config、uploads、wp-json、includes、cron、xmlrpc、mail、trackback等，wp-signup重复、Wp-load/Wp-json大小写及wp-admin.php/admin-bar.php需按真实部署验证。存在/正常执行PHP入口不等于源代码下载、秘密、目录索引或权限绕过；分别核公开合同、身份、内容与消费者，未枚举端点。"
+  ],
+  [
+    "D",
+    "xss,waf,client,source,scope,experiment",
+    "svg/onload 属性中JSFuck样式长表达式，仅有代码截图，无过滤器、解码或执行回执。符号混淆不能自动绕HTML属性编码、CSP或WAF，须追踪真实属性闭合/事件处理器和运行环境；未eval、复原执行或打开SVG，不把长表达式等同可执行成功载荷。"
+  ],
+  [
+    "D",
+    "lfi,web,source,scope,experiment",
+    "PathTraversal图用反斜杠和多层父目录列etc/passwd、issue、boot.ini、Windows hosts。OS路径、URL解码/代理归一化、真实文件API、基目录及文件ACL分别核对，Windows/Linux混列不保证语法通用；重复深度或文件名不是读取结果。只作隔离路径模型审计线索，未读系统文件或发送载荷。"
+  ],
+  [
+    "D",
+    "cloud,waf,host,access,web,source,scope,experiment",
+    "2022 Bypassing CDN WAF with Alternate Domain Routing 文章页照片可见共享CDN出站IP、源站仅allowlist CDN网段仍可能接收另一distribution转发、在自己分发中配置源IP/virtualhost绕过原分发策略的思路。源IP白名单只认证供应商网络，不能证明预期分发/租户身份；需核原站绑定、mTLS/签名等来源约束与Host/SNI、后端应用权限。页边反光裁切、手写不全，不当作全文已读或当前所有云可用；未创建分发/路由或发请求。"
+  ],
+  [
+    "I",
+    "",
+    "自动收信通知称预计5–10工作日跟进及披露规则，无票务漏洞请求或验证，不联系/发布。"
+  ],
+  [
+    "D",
+    "passive,web,fuzz,records,source,scope,experiment",
+    "SubdomainRadar1.3.2历史更新说明隐藏non200/unknown、只扫CriticalHighMedium、扫描前自动路径/JS发现、截图和枚举修复。UI过滤不代表无低危/拒绝/限流资产，分页reset也可能改变可见集合；发现/爬取都是独立请求阶段，需按权限/预算保存原始覆盖和错误。速度/修复声明不证明当前可靠，不运行或订阅。"
+  ],
+  [
+    "D",
+    "secret,passive,source,scope,experiment",
+    "GitHub dork 图用目标域加send_keys/password/api_key/apikey/jira_password/root password/access_token/config/client_secret/user auth，且一行target,com不同标点。关键词仅生成候选，须记录仓库归属、提交与真实引用用途，公开样例/标识/测试值是反例；不能将名字或高熵判为有效秘密，未搜索或使用凭据。"
+  ],
+  [
+    "I",
+    "",
+    "Udemy多条Medium报告列表，标题/机制遮挡，时间和数量不证明独立根因或always find声明。"
+  ],
+  [
+    "I",
+    "",
+    "UdemyResolvedClosed Medium5.3/300美元private侧栏，弱点和对象遮挡，无实际请求或影响证据。"
+  ],
+  [
+    "D",
+    "passive,web,secret,fuzz,records,source,scope,experiment",
+    "GAU图将hosts去scheme→gau→grep JS→sort-u→ffuf200并replay到127.0.0.1:8080→Burp被动提取accessToken/access_token。区分历史URL来源与当前主动请求、代理重放和被动响应分析；扩展名regex遗漏/误分类、仅200过滤隐藏拒绝/429/错误，JS列表并非全覆盖。命中token形态不能证明用途/有效权限，认证和私密查询不得随重放泄露；未执行或验证真实token。"
+  ],
+  [
+    "D",
+    "passive,scope,records,source,experiment",
+    "Bug Bounties第三方目录以公司、Contact和Rewards图标整理responsible disclosure。接受报告不等于授权任意测试、当前scope/奖励保证；需要项目实际规则、更新时间和联系用途记录，重复品牌也不能扩张资产。未点击联系人、发送消息或测试公司。"
+  ],
+  [
+    "D",
+    "web,client,records,scope,source,experiment",
+    "Burp TLS Pass Through图列启用的google/gstatic/googleapis/pki.goog/mozilla正则和端口，自动TLS失败追加未选。透传影响能否解密、拦截和保留HTTP证据，不能把隐藏噪声当完整捕获；正文第一个星号与图中点星存在差异，按实际regex边界防宽匹配，保留绕过集合及时间。截图说明文字边缘有限，未改代理或安装扩展/证书。"
+  ],
+  [
+    "N",
+    "",
+    "API/Web Service课程页、评分学生数与2023更新日期及课程主题目录，没有课件正文或机制；不购买/报名或声称学完全部。"
+  ],
+  [
+    "I",
+    "",
+    "1750美元银行信息支付邮件，没有OTP参数、计数或会话终态，不提交银行/身份资料。"
+  ],
+  [
+    "D",
+    "access,graphql,secret,auth,records,source,scope,experiment",
+    "HackerOne报告2632876Low3.1称离开私有项目的Reporter/Participant/Staff仍可经 /:handle/hacker_demand 与GraphQL看到有限policy、联系邮箱、highlights、状态、更新时间、top hackers/VPN等；作者明确该端点目的未找到文档。角色、报告参与权与项目成员权、撤权时点和会话缓存应分开，有限元数据不等于全部报告/项目权限或匿名读取。截图无实际GraphQL返回，不访问私有项目或邀请人员。"
+  ],
+  [
+    "D",
+    "xss,cloud,web,source,scope,experiment",
+    "AWS VDP报告称EC2 errorCode反射的CVE2022-29548，遮挡URL后露 alert(document.domain)语法片段；主体Medium而侧栏High7.2，状态Informative。需核真实组件/租户资产、参数解码、JS/HTML sink、CSP和浏览器执行；部署在EC2不表示EC2平台漏洞或宿主代码执行。未请求实例或执行载荷。"
+  ],
+  [
+    "I",
+    "",
+    "AWS VDP F5BIG-IP TMUICVE2020-5902卡Critical9.8Informative，版本/URL遮挡，没有具体解析、请求或执行终态；不能把云部署/CVE名称当作AWS平台可利用RCE。"
+  ],
+  [
+    "N",
+    "",
+    "AWS品牌logo，没有EC2 XSS技术内容。"
+  ],
+  [
+    "I",
+    "",
+    "HackenProof5reputation points邮件仅SensitiveAPIkey/tokens inJS标题，没有key角色、消费者或有效性证据，不使用秘密。"
+  ]
+]

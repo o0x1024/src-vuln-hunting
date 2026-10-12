@@ -1,0 +1,146 @@
+1|corrected|references/discovery/passive-and-services.md|保存正文0199：favicon 与 CVE 名称只生成服务候选
+2|excluded||完整保存正文/有意义替代文字已实际读完；“Navigating Risks: Vulnerability Stemming from a Third-Party Integration”；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+3|excluded||完整保存正文/有意义替代文字已实际读完；The Crucial Role of Ethics in Cybersecurity；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+4|excluded||完整保存正文/有意义替代文字已实际读完；HackTheBox — Web Attacks: Error Based XXE to exfiltrate data；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+5|excluded||完整保存正文/有意义替代文字已实际读完；️ Final Call: 10 Cybersecurity Black Friday/ Cyber Monday Deals You Don’t Want to Miss!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+6|excluded||完整保存正文/有意义替代文字已实际读完；CyberDay！UPAS挾「零信任」、「SEMI E187」前進南台灣；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+7|excluded||完整保存正文/有意义替代文字已实际读完；Apple security research.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+8|corrected|references/by-type/info-secrets.md|保存正文0199：robots 中的 API 路径并非敏感信息证明
+9|corrected|references/by-type/xss.md,references/by-type/file-upload.md|保存图证0199-9-xss：1729417875520360674-02.jpg；保存图证0199-9-files：1729417875520360674-02.jpg
+10|excluded||完整保存正文/有意义替代文字已实际读完；Account Takeover Tip:；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+11|corrected|references/by-type/desktop-client.md,references/discovery/client-and-cloud.md|保存图证0199-11-desktop：1729440157462655111-02.jpg；保存图证0199-11-client：1729440157462655111-02.jpg
+12|corrected|references/by-type/sql-injection.md,references/scope-and-rules.md|保存图证0199-12-sql：1729440304342966765-02.jpg；保存图证0199-12-scope：1729440304342966765-02.jpg
+13|corrected|references/by-type/xss.md,references/by-type/desktop-client.md|保存图证0199-13-xss：1729440446513135873-02.jpg；保存图证0199-13-desktop：1729440446513135873-02.jpg
+14|corrected|references/source-audit.md,references/targeted-fuzzing.md|保存图证0199-14-source：1729440636452114824-02.jpg；保存图证0199-14-fuzz：1729440636452114824-02.jpg
+15|corrected|references/impact-and-acceptance.md,references/by-type/desktop-client.md|保存图证0199-15-impact：1729440771055792396-02.jpg；保存图证0199-15-desktop：1729440771055792396-02.jpg
+16|corrected|references/by-type/authn-session.md,references/impact-and-acceptance.md|保存图证0199-16-auth：1729440905109938419-02.jpg；保存图证0199-16-impact：1729440905109938419-02.jpg
+17|corrected|references/experiment-design.md,references/impact-and-acceptance.md|保存图证0199-17-experiment：1729441051843453423-02.jpg；保存图证0199-17-impact：1729441051843453423-02.jpg
+18|corrected|references/by-type/xss.md,references/impact-and-acceptance.md|保存图证0199-18-xss：1729441194676302229-02.jpg；保存图证0199-18-impact：1729441194676302229-02.jpg
+19|corrected|references/by-type/lfi-path-traversal.md,references/by-type/info-secrets.md,references/scope-and-rules.md|保存图证0199-19-lfi：1729441332618567801-02.jpg；保存图证0199-19-secret：1729441332618567801-02.jpg；保存图证0199-19-scope：1729441332618567801-02.jpg
+20|corrected|references/by-type/info-secrets.md,references/impact-and-acceptance.md|保存图证0199-20-secret：1729441468903981252-02.jpg；保存图证0199-20-impact：1729441468903981252-02.jpg
+21|corrected|references/by-type/info-secrets.md,references/scope-and-rules.md|保存图证0199-21-secret：1729441602379366560-02.jpg；保存图证0199-21-scope：1729441602379366560-02.jpg
+22|corrected|references/by-type/xss.md,references/impact-and-acceptance.md|保存图证0199-22-xss：1729441752078229650-02.jpg；保存图证0199-22-impact：1729441752078229650-02.jpg
+23|excluded||完整保存正文/有意义替代文字已实际读完；XSS - Weaponization ATO；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+24|excluded||完整保存正文/有意义替代文字已实际读完；⚙️ reconFTW is a tool designed to perform automated recon on a target domain !；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+25|excluded||完整保存正文/有意义替代文字已实际读完；Read Our Blog!!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+26|excluded||完整保存正文/有意义替代文字已实际读完；The Digital City’s SSH Dilemma: A Tale of Exploited Vulnerabilities and Renewed Safeguards；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+27|excluded||完整保存正文/有意义替代文字已实际读完；Innovate responsibly with GPTs；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+28|excluded||完整保存正文/有意义替代文字已实际读完；VulnLab — SQLi Injection series — Bypass Login；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+29|excluded||完整保存正文/有意义替代文字已实际读完；Detection Engineering — False Positives, False Negatives and Mis-Detections；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+30|excluded||完整保存正文/有意义替代文字已实际读完；Critical Vulnerabilities Expose Windows Hello Authentication on Popular Laptops: Research；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+31|excluded||完整保存正文/有意义替代文字已实际读完；A step-by-step Android penetration testing guide for beginners 📱；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+32|corrected|references/by-type/info-secrets.md|保存正文0199：YAML 搜索要区分配置标识与真实秘密
+33|excluded||完整保存正文/有意义替代文字已实际读完；If you are trying to start your API testing journey, I highly recommend you watch the below talk by @InsiderPhD. You can also check out her channel for a more deeper；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+34|excluded||完整保存正文/有意义替代文字已实际读完；$ BUG BOUNTY Hacking $ [ ' Steps ' ]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+35|corrected|references/discovery/client-and-cloud.md|保存正文0199：反编译与抓包需要建立版本和调用关联
+36|excluded||完整保存正文/有意义替代文字已实际读完；Microsoft Hall Of Fame for the second time!🎯；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+37|excluded||完整保存正文/有意义替代文字已实际读完；Abusing XSS to bypass OPT ｜CTF；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+38|excluded||完整保存正文/有意义替代文字已实际读完；Reported 20+ Sensitive Leaks on H1 in the last 3 months! Here's how I found them and how you can too👇；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+39|corrected|references/by-type/info-secrets.md,references/discovery/records-and-incremental.md|保存正文0199：高熵和 Base64 应用于筛选而非有效性判定；保存正文0199：JS 秘密筛选需保留原始版本与最小范围
+40|excluded||完整保存正文/有意义替代文字已实际读完；Resharing All My SSRF Writeups:；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+41|excluded||完整保存正文/有意义替代文字已实际读完；SSRF via DNS Rebinding (CVE-2022–4096) - [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+42|excluded||完整保存正文/有意义替代文字已实际读完；Quantum Computers vs. Classical Computers: A Technical Exploration；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+43|corrected|references/by-type/xss.md,references/by-type/authn-session.md,references/source-audit.md|保存正文0199：echo 拼接登录失败 JSON 需要追踪消费者；保存正文0199：错误分支反射与认证绕过是两条证据链；保存图证0199-43-xss：1729781353699299400-02.jpg；保存图证0199-43-source：1729781353699299400-02.jpg；保存图证0199-43-auth：1729781353699299400-02.jpg
+44|excluded||完整保存正文/有意义替代文字已实际读完；Hey guys, am back with another critical bug i found a while back on a program at @intigriti.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+45|excluded||完整保存正文/有意义替代文字已实际读完；Imposing consequences on cyber adversaries — How we help the FBI to fight cybercrime；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+46|excluded||完整保存正文/有意义替代文字已实际读完；AI Elevates Corporate Defense Against Cybercriminals from Peashooter to Howitzer Power；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+47|excluded||完整保存正文/有意义替代文字已实际读完；A Random $10,000 bug #bugbounty #bugbountytips #bugbountyhunter；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+48|corrected|references/business-modeling.md|保存正文0199：先建立正常业务，再沿同一不变量查变体
+49|corrected|references/by-type/info-secrets.md|保存图证0199-49-secret：1729832725958520942-02.jpg
+50|excluded||完整保存正文/有意义替代文字已实际读完；What’s the Difference Between a Black Hat and White Hat Hacker?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+51|excluded||完整保存正文/有意义替代文字已实际读完；Triaged at @Bugcrowd 🥰；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+52|excluded||完整保存正文/有意义替代文字已实际读完；Iranian Hackers Exploit PLCs in Attack on Water Authority in U.S.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+53|excluded||完整保存正文/有意义替代文字已实际读完；Vous vous demandez comment la transformation numérique peut améliorer le succès de votre entreprise…；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+54|excluded||完整保存正文/有意义替代文字已实际读完；Day 4 of the #LetsDefendChallenge has been an enlightening journey into the intricacies of Email…；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+55|excluded||完整保存正文/有意义替代文字已实际读完；Http Basic Auth: a Letsdefend challenge.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+56|excluded||完整保存正文/有意义替代文字已实际读完；Race condition techniques；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+57|excluded||完整保存正文/有意义替代文字已实际读完；Italian cybersecurity challenges between culture and technology market；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+58|corrected|references/by-type/info-secrets.md,references/by-type/idor-access-control.md|保存图证0199-58-secret：1729953527173435867-02.jpg；保存图证0199-58-access：1729953527173435867-02.jpg
+59|corrected|references/by-type/idor-access-control.md,references/by-type/info-secrets.md|保存图证0199-59-access：1729968619235443161-02.jpg；保存图证0199-59-secret：1729968619235443161-02.jpg
+60|corrected|references/source-audit.md,references/experiment-design.md|保存图证0199-60-source：1729983728011919581-02.jpg；保存图证0199-60-experiment：1729983728011919581-02.jpg
+61|excluded||完整保存正文/有意义替代文字已实际读完；Revolutionizing Security: The Role of AI and Machine Learning in Threat Anomaly Detection；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+62|corrected|references/by-type/idor-access-control.md,references/by-type/business-logic.md|保存图证0199-62-access：1730013928934211890-02.jpg；保存图证0199-62-logic：1730013928934211890-02.jpg
+63|corrected|references/by-type/authn-session.md,references/experiment-design.md|保存图证0199-63-auth：1730014065018413297-02.jpg；保存图证0199-63-experiment：1730014065018413297-02.jpg
+64|excluded||完整保存正文/有意义替代文字已实际读完；How to exploit a CSRF；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+65|excluded||完整保存正文/有意义替代文字已实际读完；Guardians of the Digital Frontier: The Pioneering Alliance of 5 STAR BDM and the Levan Innovation…；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+66|excluded||完整保存正文/有意义替代文字已实际读完；TryHackMe ｜ Boogeyman 2；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+67|excluded||完整保存正文/有意义替代文字已实际读完；Project 2510: Bug Bounty Challenge — The End?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+68|excluded||完整保存正文/有意义替代文字已实际读完；Kuantum Bilgisayarlar ve Kriptoloji: Geleceğin Şifreleme Savaşları；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+69|corrected|references/discovery/web-and-api.md,references/experiment-design.md|保存图证0199-69-web：1730113410891964482-02.png；保存图证0199-69-experiment：1730113410891964482-02.png
+70|excluded||完整保存正文/有意义替代文字已实际读完；DNS Amplification；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+71|excluded||完整保存正文/有意义替代文字已实际读完；Finally, November has ended, and I got 1838$ in bounty and 3 report bounties are still pending. This month I got 8 duplicates, 2 informatives, 4 triages, and 3 in pe；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+72|excluded||完整保存正文/有意义替代文字已实际读完；OSI Layer 4 Port Scanning Attack；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+73|excluded||完整保存正文/有意义替代文字已实际读完；SSL Stripping；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+74|excluded||完整保存正文/有意义替代文字已实际读完；Escaping The Dangers: Ensuring Your Online Security；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+75|excluded||完整保存正文/有意义替代文字已实际读完；Cyber Safety for Small Business Owners: Protecting Your Digital Assets；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+76|excluded||完整保存正文/有意义替代文字已实际读完；Navigating Challenges: The Road to Becoming a Cybersecurity Professional；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+77|excluded||完整保存正文/有意义替代文字已实际读完；When will @Hacker0x01 stop offering reputations for VDPs like bugcrowd, but instead can offer +5 reputations for Bonus rewards；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+78|corrected|references/source-audit.md,references/by-type/desktop-client.md|保存图证0199-78-source：1730270634637455870-02.jpg；保存图证0199-78-desktop：1730270634637455870-02.jpg
+79|corrected|references/by-type/authn-session.md,references/by-type/idor-access-control.md|保存图证0199-79-auth：1730270775935213729-02.jpg；保存图证0199-79-access：1730270775935213729-02.jpg
+80|corrected|references/by-type/authn-session.md,references/by-type/business-logic.md|保存图证0199-80-auth：1730270922182160836-02.jpg；保存图证0199-80-logic：1730270922182160836-02.jpg
+81|corrected|references/by-type/info-secrets.md,references/by-type/sql-injection.md|保存图证0199-81-secret：1730271065899986957-02.jpg；保存图证0199-81-sql：1730271065899986957-02.jpg
+82|corrected|references/by-type/idor-access-control.md,references/by-type/file-upload.md|保存图证0199-82-access：1730271211668828544-02.jpg；保存图证0199-82-files：1730271211668828544-02.jpg
+83|corrected|references/by-type/lfi-path-traversal.md,references/source-audit.md,references/by-type/desktop-client.md|保存图证0199-83-lfi：1730271354946253002-02.jpg；保存图证0199-83-source：1730271354946253002-02.jpg；保存图证0199-83-desktop：1730271354946253002-02.jpg
+84|corrected|references/source-audit.md,references/by-type/desktop-client.md,references/by-type/idor-access-control.md|保存图证0199-84-source：1730271504561271212-02.jpg；保存图证0199-84-desktop：1730271504561271212-02.jpg；保存图证0199-84-access：1730271504561271212-02.jpg
+85|excluded||完整保存正文/有意义替代文字已实际读完；Diary of a Secured Sis (Day 3)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+86|excluded||完整保存正文/有意义替代文字已实际读完；InfoSecSherpa’s News Roundup for Thursday, November 30, 2023；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+87|corrected|references/by-type/ssrf.md,references/by-type/oauth-oidc.md,references/experiment-design.md|保存正文0199：OIDC request_uri 回连应关联实际服务端行为；保存图证0199-87-ssrf：1730372366306267218-02.jpg；保存图证0199-87-oauth：1730372366306267218-02.jpg；保存图证0199-87-ssrf：1730372366306267218-03.jpg；保存图证0199-87-oauth：1730372366306267218-03.jpg；保存图证0199-87-experiment：1730372366306267218-03.jpg
+88|excluded||完整保存正文/有意义替代文字已实际读完；RasCam: Raspberry Pi Powered Home Security Solution；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+89|excluded||完整保存正文/有意义替代文字已实际读完；WIFI PASSWORD CRACKING；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+90|excluded||完整保存正文/有意义替代文字已实际读完；Everyone knows about 0 days but do you know about 0.5 days and 0.75 days??? 😂；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+91|excluded||完整保存正文/有意义替代文字已实际读完；Internet Download Manager v6.42 Build 2 Full Activated – Discount 100% OFF [外链] #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity #100DaysOfCode #Malwar；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+92|excluded||完整保存正文/有意义替代文字已实际读完；Stealth ｜｜ TryHackMe Walkthrough；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+93|excluded||完整保存正文/有意义替代文字已实际读完；I just published my first article on Medium! I believe that any level of AppSec professional will be benefited from this write-up. You haven't read more insightful a；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+94|corrected|references/by-type/info-secrets.md|既有图证0199-94-secret：1730459787954155790-02.jpg
+95|excluded||完整保存正文/有意义替代文字已实际读完；What is your security weakest link?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+96|corrected|references/by-type/xss.md|保存正文0199：email 与 search 的 SVG 候选需确认解析上下文
+97|excluded||完整保存正文/有意义替代文字已实际读完；Untold Story of Cybersecurity Professionals: Navigating the Maze of Organizational Challenges；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+98|excluded||完整保存正文/有意义替代文字已实际读完；Hi everyone, whats ur's #Hacking plan for Dec are u going to stick to one particular program, what is your aim to achieve for this month! I'm aming to get 10 duplica；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+99|excluded||完整保存正文/有意义替代文字已实际读完；Guess these will look good on my wall 👀；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+100|merged|references/business-modeling.md|保存正文0199：先建立正常业务，再沿同一不变量查变体
+101|excluded||完整保存正文/有意义替代文字已实际读完；Check out new asset and vulnerability discovery tool by @thakare_prateek @praveenkanniah @0xbharath for product security #bugbounty #bugbountytips #hackerone #bugcro；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+102|corrected|references/by-type/idor-access-control.md,references/discovery/web-and-api.md|保存正文0199：FAT GET 的方法与输入优先级须单独比较；保存图证0199-102-access：1730595107370393630-02.png；保存图证0199-102-web：1730595107370393630-02.png
+103|excluded||完整保存正文/有意义替代文字已实际读完；How to Find Information About Anyone；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+104|excluded||完整保存正文/有意义替代文字已实际读完；Cybersecurity Breach Report: Solarwinds；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+105|excluded||完整保存正文/有意义替代文字已实际读完；In Europe, the EUCC is a New Type of Cybersecurity Scheme for the Certification of ICT Products；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+106|excluded||完整保存正文/有意义替代文字已实际读完；In November, I participated in the @ekoparty Village @BugBountyArg , where I demonstrated a full SSRF on Amazon AWS through a series of #bugbountytips chaining. If y；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+107|corrected|references/by-type/info-secrets.md|保存正文0199：IIS shortname 和备份扩展只是发现入口
+108|merged|references/by-type/info-secrets.md|保存正文0199：IIS shortname 和备份扩展只是发现入口
+109|corrected|references/by-type/info-secrets.md,references/discovery/passive-and-services.md|保存图证0199-109-secret：1730685701618901221-02.jpg；保存图证0199-109-passive：1730685701618901221-02.jpg
+110|corrected|references/discovery/web-and-api.md|保存正文0199：Target 参数清单需要映射到实际请求上下文
+111|excluded||完整保存正文/有意义替代文字已实际读完；20 Days Of Hacking: Bug Bounty Challenge — Day 1；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+112|excluded||完整保存正文/有意义替代文字已实际读完；Authentication Methods；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+113|excluded||完整保存正文/有意义替代文字已实际读完；Prompt Injection Attacks: The Achilles’ Heel of AI Chatbots；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+114|excluded||完整保存正文/有意义替代文字已实际读完；nothing against automation, but unless you have a world-class setup, you're not beating the top automationists. have fun getting dupes #bugbountytips；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+115|excluded||完整保存正文/有意义替代文字已实际读完；TryHackMe ｜ Advent of Cyber 2023 ｜ Day 1；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+116|corrected|references/by-type/authn-session.md,references/by-type/business-logic.md,references/by-type/idor-access-control.md|保存正文0199：可复用用户名不应成为会话的身份锚点；保存图证0199-116-auth：1730881991720190262-02.jpg；保存图证0199-116-logic：1730881991720190262-02.jpg；保存图证0199-116-access：1730881991720190262-02.jpg
+117|excluded||完整保存正文/有意义替代文字已实际读完；💡 Bug bounty tips of the week is by @_Vinaysati. In this scenario, Vinay explores exploiting Broken Access Control (BAC) to execute a mass account takeover, with a s；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+118|corrected|references/by-type/authn-session.md,references/business-modeling.md,references/by-type/idor-access-control.md,references/by-type/business-logic.md|保存正文0199：生成服务身份的邮箱控制不等价于身份所有权；保存图证0199-118-auth：1730957494267085053-02.png；保存图证0199-118-business：1730957494267085053-02.png；保存图证0199-118-auth：1730957494267085053-03.png；保存图证0199-118-access：1730957494267085053-03.png；保存图证0199-118-logic：1730957494267085053-03.png
+119|excluded||完整保存正文/有意义替代文字已实际读完；y0；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+120|corrected|references/by-type/info-secrets.md,references/discovery/passive-and-services.md|保存图证0199-120-secret：1731048089157599394-02.jpg；保存图证0199-120-passive：1731048089157599394-02.jpg
+121|corrected|references/discovery/passive-and-services.md|保存正文0199：URL 一行提取式不等于完整资产解析
+122|corrected|references/by-type/csrf.md,references/discovery/client-and-cloud.md,references/by-type/authn-session.md|保存图证0199-122-csrf：1731070018643997154-02.jpg；保存图证0199-122-client：1731070018643997154-02.jpg；保存图证0199-122-auth：1731070018643997154-02.jpg
+123|excluded||完整保存正文/有意义替代文字已实际读完；The Shocking Secrets Behind Foolproof Vulnerability Response!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+124|excluded||完整保存正文/有意义替代文字已实际读完；My First Valid Bug!!!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+125|merged|references/by-type/info-secrets.md|保存正文0199：高熵和 Base64 应用于筛选而非有效性判定
+126|excluded||完整保存正文/有意义替代文字已实际读完；🚨 Zseano's Methodology 🚨；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+127|merged|references/business-modeling.md|保存正文0199：先建立正常业务，再沿同一不变量查变体
+128|corrected|references/scope-and-rules.md,references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md|保存图证0199-128-scope：1731238707213246556-02.jpg；保存图证0199-128-passive：1731238707213246556-02.jpg；保存图证0199-128-records：1731238707213246556-02.jpg
+129|excluded||完整保存正文/有意义替代文字已实际读完；Digital India: Empowering a Nation through Technology；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+130|excluded||完整保存正文/有意义替代文字已实际读完；Twitter be like:；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+131|excluded||完整保存正文/有意义替代文字已实际读完；Be Honest 🙂；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+132|excluded||完整保存正文/有意义替代文字已实际读完；Are you interested in template injections? As part of my master's thesis, I spent over 6 months working intensively on the detection and identification of template i；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+133|merged|references/by-type/xss.md,references/by-type/authn-session.md,references/targeted-fuzzing.md|保存正文0199：email 与 search 的 SVG 候选需确认解析上下文；保存图证0199-133-xss：1731309514824016074-02.jpg；保存图证0199-133-auth：1731309514824016074-02.jpg；保存图证0199-133-xss：1731309514824016074-03.jpg；保存图证0199-133-fuzz：1731309514824016074-03.jpg
+134|corrected|references/by-type/info-secrets.md,references/by-type/waf-bypass.md|保存图证0199-134-secret：1731319880694317235-02.png；保存图证0199-134-waf：1731319880694317235-02.png
+135|corrected|references/by-type/idor-access-control.md,references/experiment-design.md|保存图证0199-135-access：1731334979052060685-02.jpg；保存图证0199-135-experiment：1731334979052060685-02.jpg
+136|corrected|references/by-type/cors.md,references/experiment-design.md|保存图证0199-136-cors：1731350078084780406-02.jpg；保存图证0199-136-experiment：1731350078084780406-02.jpg
+137|corrected|references/by-type/info-secrets.md|保存正文0199：Profiler 与 phpinfo 入口需验证读取身份和字段用途；保存图证0199-137-secret：1731360051976179723-02.jpg
+138|excluded||完整保存正文/有意义替代文字已实际读完；Coding the Foundation: Infrastructure as Code in DevSecOps；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+139|excluded||完整保存正文/有意义替代文字已实际读完；Threat Hunting: Important things on how to start hunting?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+140|corrected|references/targeted-fuzzing.md,references/by-type/idor-access-control.md|保存正文0199：工作流与年份 glob 是模板选择，不是缺陷确认；保存图证0199-140-fuzz：1731516175044182453-02.jpg；保存图证0199-140-access：1731516175044182453-02.jpg
+141|excluded||完整保存正文/有意义替代文字已实际读完；TryHackMe/Cyber Careers Fundamentals Part 1；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+142|merged|references/targeted-fuzzing.md,references/discovery/records-and-incremental.md|保存正文0199：工作流与年份 glob 是模板选择，不是缺陷确认；保存图证0199-142-fuzz：1731593246764306716-02.jpg；保存图证0199-142-records：1731593246764306716-02.jpg
+143|excluded||完整保存正文/有意义替代文字已实际读完；Your Digital Footprint is Being Tracked. What You Can Do About It?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+144|excluded||完整保存正文/有意义替代文字已实际读完；Read Our Blog；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+145|excluded||完整保存正文/有意义替代文字已实际读完；Cybersecurity VS Software Engineering；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+146|excluded||完整保存正文/有意义替代文字已实际读完；Oauth 2.0 Explained in Simple Terms；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。

@@ -1,0 +1,107 @@
+[
+  {
+    "name": "1853566420816151036-02.jpg",
+    "sha256": "dd9c8b684ffa1c9af2534a16559c5729672c56dc3a64393d5451e34f4b781e53",
+    "prior": {
+      "sha256": "dd9c8b684ffa1c9af2534a16559c5729672c56dc3a64393d5451e34f4b781e53",
+      "example_post_id": "1829536283062071457",
+      "image_name": "1829536283062071457-02.jpg",
+      "disposition": "insufficient_technical_detail",
+      "targets": [],
+      "note": "EdOverflow cheatsheet仓库卡/星数，无清单原文或载荷。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T23:04:23.543Z",
+      "batch": "media-0226"
+    }
+  },
+  {
+    "name": "1853938340518678916-02.png",
+    "sha256": "6d7c57b8284ae69cd1bebe405150dbd4112c25bd8a9e496d4140f9c31b704838",
+    "prior": {
+      "sha256": "6d7c57b8284ae69cd1bebe405150dbd4112c25bd8a9e496d4140f9c31b704838",
+      "example_post_id": "1585468941480124416",
+      "image_name": "1585468941480124416-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "TikToklogo无监控机制。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T18:12:10.996Z",
+      "batch": "media-0140"
+    }
+  },
+  {
+    "name": "1854016610886943120-02.jpg",
+    "sha256": "c841ebae4b8dd1180f33108f5faf450f96c7cc649d15e6b639eed0900168ab95",
+    "prior": {
+      "sha256": "c841ebae4b8dd1180f33108f5faf450f96c7cc649d15e6b639eed0900168ab95",
+      "example_post_id": "1800077332075450673",
+      "image_name": "1800077332075450673-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "文件后缀.jpg实际为静态SVG（仅svg/path，viewBox36x36，无script/href/text）；原字节hash已核对，并实际查看按全图144x144生成的无损PNG预览，显示伊朗狮子旗图标，无Burp压缩包/内存技术步骤。格式转换仅供查看，未改动原文件。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T18:51:31.046Z",
+      "batch": "media-0215"
+    }
+  },
+  {
+    "name": "1854047172121051246-03.png",
+    "sha256": "939c9deaea8a678202a9fec602d1f5ba23f13f63a12fa7c5eb91c21ad186069c",
+    "prior": {
+      "sha256": "939c9deaea8a678202a9fec602d1f5ba23f13f63a12fa7c5eb91c21ad186069c",
+      "example_post_id": "1792995208562401567",
+      "image_name": "1792995208562401567-02.png",
+      "disposition": "insufficient_technical_detail",
+      "targets": [],
+      "note": "报告列表按takeov搜索，显示Critical/High/Pending/Accepted标题，目标遮盖，无实际域接管、DOM资源加载或脚本执行链。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:58:48.053Z",
+      "batch": "media-0213"
+    }
+  },
+  {
+    "name": "1854075223588618356-02.png",
+    "sha256": "6dab4618d64a8d74170998283babeee2d3fe790800cf052d34412886649bae11",
+    "prior": {
+      "sha256": "6dab4618d64a8d74170998283babeee2d3fe790800cf052d34412886649bae11",
+      "example_post_id": "1833886292460884095",
+      "image_name": "1833886292460884095-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "curl风格logo无OCSP实现或证书验证机制。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T23:35:10.377Z",
+      "batch": "media-0227"
+    }
+  },
+  {
+    "name": "1854118982036468097-02.png",
+    "sha256": "6dab4618d64a8d74170998283babeee2d3fe790800cf052d34412886649bae11",
+    "prior": {
+      "sha256": "6dab4618d64a8d74170998283babeee2d3fe790800cf052d34412886649bae11",
+      "example_post_id": "1833886292460884095",
+      "image_name": "1833886292460884095-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "curl风格logo无OCSP实现或证书验证机制。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T23:35:10.377Z",
+      "batch": "media-0227"
+    }
+  },
+  {
+    "name": "1854800617551626284-02.jpg",
+    "sha256": "6d39d1b1ed142bc1c0b303fe6a420c1049582a3e733a6d872f413b070e7618b4",
+    "prior": {
+      "sha256": "6d39d1b1ed142bc1c0b303fe6a420c1049582a3e733a6d872f413b070e7618b4",
+      "example_post_id": "1789154823604211934",
+      "image_name": "1789154823604211934-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "漏洞检查清单 GitHub 分享封面，无展开正文或技术证据。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:24:11.477Z",
+      "batch": "media-0211"
+    }
+  }
+]

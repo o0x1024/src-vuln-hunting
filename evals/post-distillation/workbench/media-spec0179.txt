@@ -1,0 +1,93 @@
+0|distilled|references/discovery/records-and-incremental.md|Discordgeneral域名条目遮盖部分，无源/采集时点或DNS/漏洞证；channel增量和asset候选分开
+1|insufficient_technical_detail||OperaRXSS P3unresolved0赏金标题无机制
+2|distilled|references/discovery/passive-and-services.md|dnsx PTR响应only173.0.84.0/24与多个名字；PTR关联非当前forwardDNS/owner/scope
+3|distilled|references/by-type/open-redirect.md|图subfinder裸domain而正文http://scheme差异；httprobeWaybackqueryfilterNucleiexternaltemplate只候选缺Location
+4|insufficient_technical_detail||MorphoAave collateralsetter deadlock标题无代码
+5|insufficient_technical_detail||两adminpanelP1标题无身份/读写证
+6|no_technical_content||EcommerceAndroidhackedcoupon封面，无交易
+7|distilled|references/by-type/authn-session.md|root array claim示例是nested JSONrootobject，讽刺封面不是代码反证，验证schema/role/credentials响应不可补
+8|no_technical_content||GoogleDorks封面
+9|distilled|references/scope-and-rules.md|CERT-EUHOF明确先读CVDpolicy，鸣谢不提供授权/当前规则
+10|no_technical_content||400奖励paypal邮件
+11|distilled|references/by-type/business-logic.md|邀请role0声称永久账户DoS，500页截图只有一时错误/目标遮挡；邀请组织membership vs全账号状态/恢复可逆，非永久证明
+12|distilled|references/discovery/records-and-incremental.md|CRTERdomainsinputoutput CT查询IBM子域重复，保持原证书时点去重不证明当前服务/全子域
+13|no_technical_content||Newsletter推荐标题工具/CTF广告无全文
+14|no_technical_content||APIsecurity30days横幅
+15|distilled|references/discovery/records-and-incremental.md|BurpUseroptionsDisplay UI字体与HTTPmessage monospace不同设置15pt，阅读体验改动不改变wire/证据，历史界面路径
+16|no_technical_content||zseano方法论封面
+17|distilled|references/by-type/idor-access-control.md|H1reportparticipants invite未注册邮箱 thenGET reportID participants；自有report前提与他reportACL/邮件字段最小化分开，cookie截图要脱敏底部裁切无他人响应
+18|no_technical_content||NucleiCloudAI封面
+19|distilled|references/by-type/request-smuggling.md|H2Cupgrade Upgrade/HTTP2Settings connectionhopbyhop被proxy转后backend101形成opaqueH2 tunnel 绕代理routingWAFauth internal对照403→200示意；HTTP1.1也可persistent与H2 TLS独立，不把图作为真实trace
+20|distilled|references/scope-and-rules.md|VDPaccepted明说不允许publicdisclosure，报告accepted≠允许公开/额外测试，当前匿名通用提炼无目标细节
+21|insufficient_technical_detail||UnauthCachePurging accepted邮件，无PURGE/命中变化
+22|no_technical_content||邮件列表状态无机制
+23|insufficient_technical_detail||多P3/P4triagedXSScontenttype/API/activation/WAF标题无请求sink
+24|insufficient_technical_detail||公司emails注册信息/SXSS多reportP2P3result标题无数据
+25|insufficient_technical_detail||member→adminStoredXSS标题無sink
+26|distilled|references/cloud/container-k8s-security.md|docker-machine从worker返回version等信息给bastion输出escape sequence；需要CI任务已可通过dockersocket rootworker并替换daemon，然后ls输出，终端控制序列≠shellRCE，无PoC下半
+27|distilled|references/by-type/idor-access-control.md|notes_finderpersonal_snippet branch PersonalSnippet.all contrastedproject/currentuser filters;自控projectcomment指向私有snippet创建note漏activitytitle，ownnoteID edit/delete notownsnippetread; nofullHTTP
+28|distilled|references/by-type/idor-access-control.md|Ultimate可建multi-level epic RESTattackergrp parent_id指他groupID，public/internal知道ID/private猜ID但initialnoinfo，stafffollowchild潜在额外泄露无证明，victimlicense不确定
+29|distilled|references/by-type/xss.md|Kroki enabled selector接受prelang或code lang，却取parent lang优先，validchild如wavedrom使任意parent lang到resultimg attrs；v15.6.2 code截尾，校验消费者值同一来源，没实执行截图
+30|distilled|references/by-type/authn-session.md|NextcloudWebDAVcalendarprivatelink Basic header Base64userpass，截图复现截在payload生成，缺次数/失败窗口/认证成功；base64非加密不等同绕过因素
+31|distilled|references/discovery/passive-and-services.md|ASN AS14421naabu80/443输出IPport，ASN路由归属不所有客户授权/HTTP产品
+32|distilled|references/impact-and-acceptance.md|Meta答复可由特定email查Oculus用户，关联去匿名非全部PII/ATO，无具体API/字段response
+33|no_technical_content||95天延迟10%750奖励邮件无额外机制
+34|no_technical_content||beginnerguide仓库卡片
+35|no_technical_content||SubGPT仓库卡无实际查询/结果
+36|distilled|references/discovery/web-and-api.md|Wappalyzerbootstrap4.0.0/FBpixel version/CloudflareHSTScaptcha技术标签，无URL/redirect证；fingerprint≠vuln/currentpermission
+37|distilled|references/scope-and-rules.md|SonyassetOther历史截图声称owner operated controlled product/domaininscope，仍需当前规则与权属不能TLS名自动许可
+38|insufficient_technical_detail||URLstructure openredirect reportLowtitle无Location
+39|insufficient_technical_detail||QR仅像素可见未解码无独立技术文，未跳转外链
+40|no_technical_content||Vidocnewfeatures广告截图无可核源或机制
+41|distilled|references/by-type/ai-application.md|正文Burptips但图ATTACKRAG：STIX/TAXIIpyclient→documents/tokenizationembeddingvectorDB→queryretrievercontextLLM；来源匹配须分开，检索context不是事实验证/prompt信任
+42|distilled|references/by-type/csrf.md|CSRFlist capture tokens predictability remove/value/name crossaccount samelength methodGET _methodcontenttype Refererblank XSS/CORS tokenread plainJSONFlash; checklist baselineactualbrowsercookies/preflight/finalstate XSS/CORSextra precondsFlashlegacy notautomatic
+43|distilled|references/by-type/open-redirect.md|isSafeHost uri.slice indexof ://+3 startsWith allowlist 缺URLprotocol/parser exacthostname，javascript前缀+comment让afterfirst://startswith满足；localhosthostincludes也不严格，bottomsink裁切不能补实际navigation/exec
+44|distilled|references/by-type/xss.md|SiteMinderhistoricalCVE2013-5968 smpwservices.fcc SMAUTHREASONUSERNAME Unicodeescapedimg event片段，backendJSdecoder andDOMsink/CAaccess前提 noactualbrowserproof
+45|distilled|references/by-type/info-secrets.md|ITS M indexedcreds firstvalidnorights secondclaimedCVE201818862 exploit historicalfollowup site downlaterup; noactualcredential/action evidence cannot reuse orinferallvalidkeys
+46|no_technical_content||Bandicam文件窗口终端空prompt，无timeSQLi输出
+47|distilled|references/by-type/xss.md|TikTok官方摘要link参数浏览器JS能力但私report未展开 无payload/sink，historynotalllinks
+48|distilled|references/by-type/idor-access-control.md|TikTokfamily user_id POST可disable arbitrary screenlimit或self受限解除，关系owner/guardianandactionauth nofullrequest，Lowhistorical
+49|distilled|references/discovery/records-and-incremental.md|bashsubfinderassetfinderappend同files→httpx-status-code输出含status再Wayback expectsURL; ffuf-url$extensions整串不是各扩展 -o同file覆盖&200only丢错误auth，wildcardinputsyntaxnotnormaldomain，睡眠后台非预算
+50|no_technical_content||ZenMateconnectedRomaniaUI非解除ban證
+51|distilled|references/reporting.md|NA后补PoCclaimedauth reopened，对可见permission/impact新证据而非magicwords，auth真正样图遮盖
+52|distilled|references/reporting.md|内部review reopenpendingresolved说present但currentlynotreplicable，与本次确认修复分开；日期流程无currenttest
+53|distilled|references/scope-and-rules.md|privateprogram邀请可见请不公开，HoFranking不是范围或披露许可，目标仍隐藏
+54|distilled|references/by-type/xss.md|Redditdest javascript afterlogin pop described scheme/websafe regression browserconsumer不自动Locationexec，视频未保存不能称完整execution
+55|insufficient_technical_detail||subtakeover奖励协商300邮件noDNSserviceproof
+56|no_technical_content||AppleHOF列表
+57|distilled|references/targeted-fuzzing.md|Feroxbash --depth3 threads300 output同路径 reused, arrayelement含spaces optionpairs当单argv、~引号不展开、http前缀假定/unusedreg、grep200awk2依旧format token；未运行不要repairautobatch
+58|insufficient_technical_detail||自有landing名labelIntigriti无DNSclaim前后
+59|distilled|references/discovery/records-and-incremental.md|croco nuclei reltest total6426added0removed6426模板labels tildatakeover/CVE2020-35489 clipped；countdelta需要baseline/失败/原始输出不证实际domain takeover或10s全成功
+60|no_technical_content||Fry表情
+61|distilled|references/by-type/info-secrets.md|.git indexof元文件HEADconfigbranches hooksindex截图+RCE付款封面，目录可见与object重构/敏感内容/执行链独立，未dumprepo
+62|distilled|references/by-type/mobile-android.md|WhatsApp输入wa.me/settings字段，titlecrash但无crashtrace/版本/refactor证明，URL消费者canonicaltype异常夹具不传播crashmsg
+63|distilled|references/reporting.md|BACIDORtriagednotification和正文hit submit request，服务端动作证据比UI更强；通知不补请求/影响
+64|distilled|references/reporting.md|priorityP1→none说明级别可以改变与最终Triaged独立，no自动P1
+65|distilled|references/reporting.md|NA no reward通知对比triaged，不认magicwords保证或目标权证
+66|distilled|references/by-type/cache-deception.md|PURGE返回statusok id HTTP非正文https且targethidden，受理≠实际samekeycacheeviction/backendcostnoauthproof
+67|no_technical_content||fuxploider仓库工具封面
+68|distilled|references/by-type/xss.md|AdWordsConversionname含SVGonload片段有origin alert，地址带clidocid应不复制ids；单browser图不能证明保存请求/其他用户reach，stored正文需持久证
+69|no_technical_content||autossrf仓库工具卡片
+70|no_technical_content||XSS文章封面
+71|distilled|references/by-type/cache-deception.md|MDNXForwardedHost错误404缓存返回shared用户claim，使用uniquequerycachebusteronly该key，TTL未知repeat并不无限证明；responsehead未示 hit/age控制二会话干净request，勿污染publickey
+72|distilled|references/by-type/info-secrets.md|图中 subfinder/httpx/waybackurls 管道输出 JS 候选 URL，后续 grep 关键字未展示实际 JS 响应体；.js 正则未转义，递归 grep 与管道语义需核对。URL 中关键字不能证明密钥泄露，需保存真实响应及字段上下文，无实际凭据有效性证据。
+73|no_technical_content||URL redirection 课程封面，无请求响应。
+74|distilled|references/by-type/info-secrets.md|浏览器展示 wp-content/uploads 下文本文件，含 WordPress/FTP 登录字段，部分域名及密码遮盖；只保留暴露类型及文件来源，不抄录或使用凭据，不证明当前有效、账号权限或正文所称全部20站点。
+75|distilled|references/by-type/info-secrets.md|模糊主体的圆形放大处可见 server/admin/password 结构，目标部分遮盖；只记录凭据式文本公开展示，不复写密码或推断登录成功与全部站点范围。
+76|distilled|references/by-type/info-secrets.md|上传目录文本中可见 WordPress/hosting 及未完全遮盖的密码式字符串；不抄录实际值，不尝试登录，截图仅证明保存时敏感字段展示，未证明现时有效和权限。
+77|no_technical_content||Mass assignment 视频封面，无 API 请求响应。
+78|no_technical_content||Nahamcon Shodan 演讲日程宣传封面，无实测。
+79|distilled|references/by-type/waf-bypass.md|Cloudfront XSS WAF 提示以 window 属性拆分、模板标签替代括号、HTML 空白替换及百分号编码示例；未示 HTTP 解码层、规则版本和执行结果，JS模板调用与括号参数语义不同，SVG分隔符仅特定HTML语境有效，不能称通用绕过。
+80|distilled|references/by-type/info-secrets.md|Firebase API_KEY/AUTH_DOMAIN/DB_URL/BUCKET 名称图，无真实值或规则；客户端配置标识不自动等于私钥，必须区分服务端credential与访问规则/授权结果，不试用第三方值。
+81|distilled|references/discovery/records-and-incremental.md|Burp Crawl paths beta 首次到达路径显示 Edit portfolio/Overview/Attribution/Exposures/Risk/Holdings/Analytics 点击链；导航发现证据不是完整认证上下文/覆盖率或漏洞，保存起始角色状态URL及请求与重复路径。
+82|distilled|references/scope-and-rules.md|平台目录截图2023-06-07页1/3，Name Location Twitter Active Private/Public Bounties列含红叉与问号；仅历史候选目录，缺失页按豁免，平台状态非单项目授权/奖金保证，按当前项目规则核实。
+83|distilled|references/by-type/oauth-oidc.md|Cloudflare CASB公开摘要：若枚举到已经集成的Microsoft tenant UUID/domain或GitHub installation_id，可新建integration露出敏感信息，修复阻止同tenant多integration。结果页面Critical9.7/3300/Resolved；核心租户归属和委托授权，公共tenantID非secret，不能以阻止重复单独代替所有权校验。
+84|distilled|references/scope-and-rules.md|Microsoft 邮件确认修复和关闭case，要求协作审阅披露草稿避免客户风险；截图只支持修复回执及披露协作，不提供大写Sec字段绕过机制，不替代当前披露批准。
+85|no_technical_content||捕虫插画封面，无机制。
+86|distilled|references/by-type/desktop-client.md|Bitwarden Windows Hello 解锁保存Biometric masterkey到Wincred，CredWrite/CredRead，条目名称账户UUID与本地data.json同当前user普通进程可读，Hello提示与密钥访问不绑定，锁vault/关闭仍持久。代码引用位置及报告Medium6.2Resolved可见，末尾截断不猜跨用户/远程访问或当前版本。
+87|distilled|references/reporting.md|公开HackerOne报告附图暴露私有program报告入口，部分遮盖不足，Low3.8Resolved；公开容器不意味着嵌套内容都可公开，发布前逐项审阅附图/预览/历史版本及脱敏，截图不证明所有私有报告内容已可读取。
+88|no_technical_content||BChecks/Nuclei templates 掰手腕梗图，无工具运行证据。
+89|no_technical_content||后备箱RedBull奖励照片，无takeover链。
+90|distilled|references/by-type/mobile-android.md|Basecamp Android com.basecamp.bc3 3.26.3 公开摘要：路径穿越可写app私有目录，恶意intent/customdeeplink可使serverreply敏感信息给第三方app。High8.8Resolved；标题未给具体extra/path/handler，两个边界独立验，不推断任意app文件读或RCE。
+91|insufficient_technical_detail||200欧奖励/invoice/PayPal邮件，无FAQ XSS请求与执行，仅支付回执；不联系不生成付款动作。
+92|distilled|references/targeted-fuzzing.md|Agartha Burp界面 DT/LFI CommandInj/RCE SQLi Depth WafBypass与AuthorizationMatrix选项，列表LinuxWindows路径是生成候选，不证明读取文件/执行/越权。敏感shadow/environ/authlog不可当默认验证目标，先合成无敏感验证样本，WafBypass标签不是覆盖结果。

@@ -1,0 +1,137 @@
+[
+  {
+    "name": "1806030964927389823-03.jpg",
+    "sha256": "a902ef67d41c17b1c5f3968d16210ca5f69111e5af60ab1435f7173e3600ed82",
+    "prior": {
+      "sha256": "a902ef67d41c17b1c5f3968d16210ca5f69111e5af60ab1435f7173e3600ed82",
+      "example_post_id": "1805602376117895239",
+      "image_name": "1805602376117895239-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/xss.md",
+        "references/by-type/waf-bypass.md",
+        "references/source-audit.md",
+        "references/experiment-design.md"
+      ],
+      "note": "多字符 HTML实体示例描述 fjlig 展开为 fj 及 nvlt/nvgt 附组合码点，并特别写明服务器先实体解码、移除部分 Unicode 或 iframe src-doc 等前提。实体解析输出通常不会在同一次 HTML解析中自动重新成为标签，且属性实际名称是 srcdoc 而非 src-doc。逐层保留入口字节、解码/规范化顺序与最终sink，用本地安全文本比较结构；不存在二次解析就不能泛化为WAF绕过，不执行代码。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T19:47:06.477Z",
+      "batch": "media-0217"
+    }
+  },
+  {
+    "name": "1806605993427472817-02.png",
+    "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+    "prior": {
+      "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+      "example_post_id": "1311048137340006400",
+      "image_name": "1311048137340006400-03.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整DoDseal装饰，无IDOR请求或改密终态",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:07:25.820172+00:00",
+      "batch": "media-0047"
+    }
+  },
+  {
+    "name": "1806605994866229700-02.png",
+    "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+    "prior": {
+      "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+      "example_post_id": "1311048137340006400",
+      "image_name": "1311048137340006400-03.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整DoDseal装饰，无IDOR请求或改密终态",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:07:25.820172+00:00",
+      "batch": "media-0047"
+    }
+  },
+  {
+    "name": "1806605996560691660-02.png",
+    "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+    "prior": {
+      "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+      "example_post_id": "1311048137340006400",
+      "image_name": "1311048137340006400-03.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整DoDseal装饰，无IDOR请求或改密终态",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:07:25.820172+00:00",
+      "batch": "media-0047"
+    }
+  },
+  {
+    "name": "1806684328828494248-02.png",
+    "sha256": "47fed9ff53b8f711fcc5b3534b972d7527de140262fa371dd2c73091d623f177",
+    "prior": {
+      "sha256": "47fed9ff53b8f711fcc5b3534b972d7527de140262fa371dd2c73091d623f177",
+      "example_post_id": "1803736078773629164",
+      "image_name": "1803736078773629164-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/client-and-cloud.md",
+        "references/by-type/info-secrets.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md"
+      ],
+      "note": "DevTools 网络搜索在首页第三方脚本及静态常量中匹配 access_key、access_token、admin 等词，并可见 GIPHY、IFRAMEly API_KEY 和 Sentry DSN。关键词、公开 SDK 标识以及 credentials: same-origin 并不证明私密凭据泄露。记录资源来源、代码位置、角色和消费者，区分第三方归属、公开客户端标识与服务端秘密；检查权限和实际数据边界的结论必须有独立证据。保留方法而不复制或使用任何具体凭据值。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T19:39:15.837Z",
+      "batch": "media-0217"
+    }
+  },
+  {
+    "name": "1806738869968056797-02.jpg",
+    "sha256": "c841ebae4b8dd1180f33108f5faf450f96c7cc649d15e6b639eed0900168ab95",
+    "prior": {
+      "sha256": "c841ebae4b8dd1180f33108f5faf450f96c7cc649d15e6b639eed0900168ab95",
+      "example_post_id": "1800077332075450673",
+      "image_name": "1800077332075450673-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "文件后缀.jpg实际为静态SVG（仅svg/path，viewBox36x36，无script/href/text）；原字节hash已核对，并实际查看按全图144x144生成的无损PNG预览，显示伊朗狮子旗图标，无Burp压缩包/内存技术步骤。格式转换仅供查看，未改动原文件。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T18:51:31.046Z",
+      "batch": "media-0215"
+    }
+  },
+  {
+    "name": "1808067082782925159-02.jpg",
+    "sha256": "b2a942ee3987151083af516bd1d0d21dc063e1025831f7de72b99e7e85451964",
+    "prior": {
+      "sha256": "b2a942ee3987151083af516bd1d0d21dc063e1025831f7de72b99e7e85451964",
+      "example_post_id": "1805174505528001009",
+      "image_name": "1805174505528001009-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/xss.md",
+        "references/by-type/waf-bypass.md",
+        "references/source-audit.md",
+        "references/experiment-design.md"
+      ],
+      "note": "过滤绕过图列 HTML数字/命名实体、Unicode及URL表示的 JS 空白字符，示例使用 img onerror 中函数与参数间的分隔。HTML属性实体解码和 JS 词法解析是不同阶段，URL编码也需实际入口解码才生效；CR/LF可能影响自动分号或属性结构，所有表示并非在每种 sink 互换。记录准确字节和解析层，使用本地安全标记比较 DOM/执行、CSP及净化器；表格不证明真实 WAF 绕过，不运行示例。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T19:44:56.677Z",
+      "batch": "media-0217"
+    }
+  },
+  {
+    "name": "1808189314125255125-02.jpg",
+    "sha256": "e68c18b5c5afc584700c3b4cf5aee40f6ee8fcb1b9f23f2a19b600856776a6fa",
+    "prior": {
+      "sha256": "e68c18b5c5afc584700c3b4cf5aee40f6ee8fcb1b9f23f2a19b600856776a6fa",
+      "example_post_id": "1710966877176860798",
+      "image_name": "1710966877176860798-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "Power of Recon演讲封面，无幻灯片方法。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T07:04:29.713Z",
+      "batch": "media-0186"
+    }
+  }
+]

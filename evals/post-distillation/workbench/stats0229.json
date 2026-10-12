@@ -1,0 +1,24 @@
+{
+  "facets": 392,
+  "topics": 34,
+  "urls": 414,
+  "groups": 200,
+  "posts": 201,
+  "mapped": 78,
+  "excluded": 122,
+  "bound": 58,
+  "duplicateFacets": 9,
+  "newMedia": 96,
+  "current": 101,
+  "unique": 99,
+  "prior": 3,
+  "mediaDispositions": {
+    "insufficient_technical_detail": 34,
+    "no_technical_content": 7,
+    "distilled": 55
+  },
+  "bodyDispositions": {
+    "corrected": 73,
+    "merged": 5
+  }
+}

@@ -1,0 +1,560 @@
+[
+  [
+    0,
+    "D",
+    "takeover,scope,records",
+    "Netlify历史报告validator-demo-site CNAME到netlifyglobalcdn、Site Not Found与后续blog theme对照，部分说明遮挡。DNS悬空、域可绑定及实际受控内容需绑定同host/时间/nonce；自有DNS与强域验证/已占用资源负例，主题页面不是独立nonce证据，不由正文未付款指控推定现时诈骗，不申请真实资源或接管域。"
+  ],
+  [
+    1,
+    "D",
+    "scope,impact,report",
+    "Cerebrum旧政策像素显示示例分类与500/1500/3000奖励，无法确认全条款、域范围和时间。机制风险/平台资格/支付承诺分别记录，min合成案例与明确排除范围负例，奖励等级不是检测证据或当前规则，不联系负责人/追讨款/提交报告。"
+  ],
+  [
+    2,
+    "D",
+    "takeover,records",
+    "Netlify自定义域及6aliases均Awaiting External DNS，列表包含provenance等。域填写成功/待DNS不等从Internet可托管，须独立解析和受控内容nonce以及绑定权；自有等待/已绑定/强校验负例，不将6列表自动算6已接管，不添加真实域或托管内容。"
+  ],
+  [
+    3,
+    "D",
+    "redirect,auth,source",
+    "TikTok官方摘要redirect_url在Seller登录路径遍历导致open redirect，并称could导致接管，无具体payload或凭据流。定位URL规范化/允许列表与最终Location和OAuth/session交接；own固定origin/编码路径负例，跳转不自动证明ATO，不访问Seller或实际跳转登录。"
+  ],
+  [
+    4,
+    "N",
+    null,
+    "F5 BIGIP scanner GitHub简介卡，无识别算法、源码或实际版本输出。"
+  ],
+  [
+    5,
+    "D",
+    "takeover,passive,scope",
+    "Mashery图CNAME经premium-east/ptl到AWS ELB仍有A，页面Unrecognized domain，无资源领取过程。共享API网关域未识别不等悬空可占用，核provider绑定认证/域所有权和租户状态，own自有模拟未知路由/已占用负例。TLS不安全提示非takeover证据，不申请域或扫描ELB。"
+  ],
+  [
+    6,
+    "D",
+    "oauth,auth,experiment",
+    "Nextcloud截图称authorization_code存储无timeout，已有代码可将来兑换，引用RFC与CVE；未显示实际等待/兑换响应。own假时钟码存储比较有效期前后/单次/PKCE/client和redirect_uri主体绑定，用真实服务端拒绝确认而非评级。10分钟是截图转述非强制所有实现策略，长寿命不自动证明ATO，不猜码或调用OAuth。"
+  ],
+  [
+    7,
+    "D",
+    "access,files,business",
+    "Nextcloud共享folder view-only，第二Testuser目录截图提示无权限下载/编辑，标题称zip可下载；zip动作/响应未显示。权限应覆盖列表/预览/单文件/聚合导出及每个成员，own虚拟树比对view-only与allow-download、不同owner，不因压缩入口跳过子对象授权；未显示归档内容不称已下载，不取真实文件。"
+  ],
+  [
+    8,
+    "N",
+    null,
+    "Critical认证alternate path分类和2000奖励侧栏，无请求/路径/身份。"
+  ],
+  [
+    9,
+    "N",
+    null,
+    "50one-liner封面，未显示脚本。"
+  ],
+  [
+    10,
+    "I",
+    null,
+    "文章裁图只显示使用错误/网上样例证件和证件像素，未显示上传端点、核验输入与接受结果；不足确认KYC绕过。不复制个人证件资料、不制造或提交证件，不由正文Photoshop标题补造流程。"
+  ],
+  [
+    11,
+    "N",
+    null,
+    "CSRF leads ATO奖励通知，无token/cookie或最终状态步骤。"
+  ],
+  [
+    12,
+    "D",
+    "access,auth,logic",
+    "POST api/projects/id/collaborators JSON含user/invitation/access_level read和Bearer，只有请求无响应，凭据不抄录。服务端将邀请token与project/目标user/role/currentactor绑定；own惰性邀请对象比对错user/过期/撤销/不允许role，最终状态确认而非提交请求。截图不能证明升级，不发送邀请/使用token。"
+  ],
+  [
+    13,
+    "N",
+    null,
+    "Google搜索概念插画，无具体dork或结果。"
+  ],
+  [
+    14,
+    "N",
+    null,
+    "Github Recon文章封面/作者/logo，无搜索语法或泄露文件。"
+  ],
+  [
+    15,
+    "N",
+    null,
+    "Code Injection分类Medium和1900奖励侧栏，没有技术内容。"
+  ],
+  [
+    16,
+    "D",
+    "xss,desktop,impact",
+    "HTMLi页面注入了自述与四链接称calculator/phishing/IP/RCE，旁边计算器窗口，无payload/URL/bridge或执行日志。HTML解释能力、浏览器脚本、桌面原生能力分别证明；own惰性HTML片段文本编码/禁止协议/隔离bridge负例。图中程序共现不证实因果，HTMLi不能自动推出OS执行或地理定位，不运行计算器/命令/钓鱼页面或外发数据。"
+  ],
+  [
+    17,
+    "N",
+    null,
+    "accounting付款合并邮件，无affiliate字段泄露证据。"
+  ],
+  [
+    18,
+    "N",
+    null,
+    "Huawei致谢信无漏洞机制。"
+  ],
+  [
+    19,
+    "D",
+    "secret,passive,source",
+    "Github query path*.env 排除sample/root等、password outlook.com结果，能看见XXX和generatedapppassword占位/注释SMTP配置。关键词过滤不能证明secret有效、repo归属/生产消费；own已保存合成env与占位键负例确认用途/版本/最小指纹，结果71不是71秘密，不复制或使用凭据/执行搜索。"
+  ],
+  [
+    20,
+    "D",
+    "secret,client,scope",
+    "Google搜索filepicker_key api docs curl定位Filestack File API摘要upload/store/overwrite/delete/metadata，没有key或API响应。从字段到供应商文档用途和token权限分别确认，公开app key/受签名policy控制负例；docs功能不等每个key可删写，不查询真实key、上传删除对象或下载全文。"
+  ],
+  [
+    21,
+    "D",
+    "xss,waf,client",
+    "polyglot图SVG/onload与String.fromCharCode[47]、单引号闭合解释；[47]是函数属性索引非函数调用，表达式结果/引号上下文不可假定生成斜杠或有效handler。own惰性HTML/JS词法记录真实属性与文本编码/CSP负例，不宣称关闭任意属性或自动执行，不运行归档表达式。"
+  ],
+  [
+    22,
+    "N",
+    null,
+    "组织Admin→Owner标题P3，无请求或最终权限。"
+  ],
+  [
+    23,
+    "D",
+    "xss,client,source",
+    "PortSwigger报告允许google/recaptcha路径并加载main.min.js含Angular，ng-on-error访问event.target.ownerDocument.defaultView；续篇nonce升级代码裁切。第三方允许来源中可编译框架造成已有HTML注入到脚本能力，须实际CSP、版本、ng编译sink/动态script nonce链；own惰性框架模型和禁编译/最小来源负例。未显示nonce读取代码不补造，不下载或加载真实脚本。"
+  ],
+  [
+    24,
+    "D",
+    "source,records",
+    "find*.py grep-l time tee summary wc-l示例输出4；关键词匹配文件名/行数不是调用图或漏洞证据，文件名含换行和管道grep失败会影响计数。own固定惰性文件集对照注释/字符串/真实调用和多文件输出，保留path/hash/出处，命令固定输出路径会覆盖，不运行归档脚本或把4当4风险。"
+  ],
+  [
+    25,
+    "D",
+    "xss,waf,client",
+    "img bogus x:x触发onerror再location拼javascript并hex escapes；图解释说避免加载错误与使用onerror相矛盾。需实际HTML词法、handler执行、导航协议和CSP/用户环境，own惰性img/合法图无error/文本转义负例；字符串拼接不保证执行，不运行alert或跳转。"
+  ],
+  [
+    26,
+    "N",
+    null,
+    "OTP bypass视频封面，没有流程。"
+  ],
+  [
+    27,
+    "N",
+    null,
+    "BurpSuite cheatsheet GitHub卡未显示测试例。"
+  ],
+  [
+    28,
+    "N",
+    null,
+    "Netlas宣传封面，无工业资产查询条件。"
+  ],
+  [
+    29,
+    "D",
+    "access,auth,business",
+    "LinkedIn官方摘要My Company employee-reserved page非该公司员工可访问，具体请求和私有字段未显示。服务端以独立验证雇佣关系授权，不仅个人profile self-claim；own两公司合成employee/nonemployee访问矩阵与公开company页负例，确认最少受保护字段，不能据评级推全公司数据，不操作真实身份/账户。"
+  ],
+  [
+    30,
+    "D",
+    "access,business,secret",
+    "inDrive driver报价生成tender id，getTenderStatus使用order_id/tender_id，声称未接受报价即可见电话/位置；底部后续遮挡。交易状态acceptance、driver/customer对象绑定与字段最小披露需服务器检查，own合成未接受/接受/其他driver对照，生成tender不等获得全部客户数据，不下真实报价或读位置。"
+  ],
+  [
+    31,
+    "D",
+    "client,secret,files",
+    "inDrive api/image/upload返回URL后api/order/create最终图片字段可改为外部URL，文章声称预览获取IP/UA。浏览器直取与服务端proxy/缓存取图的来源不同；own离线假加载器记录受控nonce、客户端vs代理sender，固定图片origin负例。IP日志不自动证明SSRF或地理位置，不引导真实用户/外部OAST。"
+  ],
+  [
+    32,
+    "D",
+    "files,access,impact",
+    "Mars官方摘要匿名无限制类型上传端点被隐藏，未显示文件类型、存储后访问/执行。区分上传接受/身份配额、MIME及内容校验、存储隔离、下游渲染/解释；own无害合成文件与拒绝危险消费负例，Critical评分不等RCE，不上传真实目标或执行文件。"
+  ],
+  [
+    33,
+    "D",
+    "sql,waf,experiment",
+    "MySQL time-based列表含XOR/IF now=sysdate、注释/子查询/percentencoding和sleep5，未提供响应。每个语法依赖真实SQL上下文/版本/SQLmode、URL解码和权限；own惰性查询消费者以真假条件和参数化/缓存/抖动负例，延迟单值不证明注入，不运行sleep/枚举或输出长payload集合当验证。"
+  ],
+  [
+    34,
+    "N",
+    null,
+    "Meteor cloud takeover标题与P3，无DNS/provider绑定步骤。"
+  ],
+  [
+    35,
+    "N",
+    null,
+    "Alert1装饰插图，乱码非实际源码，无技术证据。"
+  ],
+  [
+    36,
+    "D",
+    "passive,scope,records",
+    "SSH命令图区分-p端口/-i私钥/-L本地转发/-R远程转发/-J跳板/-F配置/scp/ssh-copy-id。跳板身份与终端目标、端口监听地址及AllowTcpForwarding/GatewayPorts影响边界；own惰性连接图对照拒绝转发/仅回环，不从连通能力推扫描权限。ssh-copy-id会改authorized_keys，scp复制，图非执行授权，不发SSH/复制密钥/开隧道。"
+  ],
+  [
+    37,
+    "D",
+    "scope,report",
+    "Meta历史triage通知只允许继续own test users/assets，三条旧消息未显示。triaged非扩大授权或完成确认；对照原scope与后续限制/自有测试对象记录时间，不将转团队消息当漏洞机制。不联系人员或继续真实测试。"
+  ],
+  [
+    38,
+    "D",
+    "secret,client,impact",
+    "Day29 Secretfinder识别access token/API/S3，gmaps scanner校验Maps限制，未显示输出。JS中公开Maps key可能设计公开，API种类/应用限制/用途/配额和可控权限需分开；own合成key/公开受限负例，字符串匹配不是有效secret，不用真实key或发送计费请求。"
+  ],
+  [
+    39,
+    "D",
+    "cache,host,experiment",
+    "Toxicache图3个Header reflected X-Forwarded-Host/Scheme在academyURL；无cachekey/Age/HIT或独立观察者。反射与缓存污染不同，own惰性cache受控nonce检查key覆盖、存储策略和干净第二请求，header单项/组合逐个变因，no-store负例；不执行扫描或缓存投毒。"
+  ],
+  [
+    40,
+    "D",
+    "hrs,host,records",
+    "HTTP1.1 chunked POST含DESYNC后GET/Host，响应连续404与301且Location/HTML含端口；两次响应可能正常pipeling不是前后端不同步。own惰性byte parser分开记录chunk边界/实际request数量/连接与前后端消费、一致解析负例；缺独立request queue/污染响应不确认HRS或cache影响，不重放原字节。"
+  ],
+  [
+    41,
+    "D",
+    "hrs,web,source",
+    "图比较短连接/持久串行/HTTP pipelining，pipeline一连接在等前回应前发送多次，响应箭头示意有序。协议流水线性能概念与smuggling边界差异不同；own惰性队列对照一请求一响应/禁止pipeline，确认解析与响应归属，不由连接复用推出漏洞，不发实际pipeline请求。"
+  ],
+  [
+    42,
+    "D",
+    "xss,client,impact",
+    "TikTok官方摘要Ads endpoint q参数可注入HTML标签或钓鱼，无具体sink/payload。确认不可信q经服务端模板或DOM HTML消费、text编码/允许安全标签负例，own无害片段不外链。HTMLi/界面内容完整性与JS/ATO单独确认，Low分类不等限制或升级事实，不构造钓鱼页面。"
+  ],
+  [
+    43,
+    "D",
+    "files,source,doc,experiment",
+    "File upload图按ASP/PHP/SVG/GIF/CSV/XML/AVI/HTML/JPEG/ZIP/PDF等对应候选危害，并给文件名遍历/SQL/HTML/命令表达式。真正消费者是存储路径、数据库绑定、HTML标签、shell argv、解压/文档解析；扩展名不自动触发漏洞。own惰性文件名/内容模型与随机存储名、参数绑定、隔离渲染/资源限额负例，不执行shell/webshell/10秒延迟、解析巨大图片或发OAST。"
+  ],
+  [
+    44,
+    "N",
+    null,
+    "安全配置200奖励通知，无DoS机制。"
+  ],
+  [
+    45,
+    "N",
+    null,
+    "Bricks RCE GitHub卡历史版本和stars，无代码。"
+  ],
+  [
+    46,
+    "N",
+    null,
+    "AzureDevOps CI/CD封面，仅标题。"
+  ],
+  [
+    47,
+    "D",
+    "secret,web,records",
+    "记事本env显示DB_NAME/USER为blog_wordpress，password和host遮挡，未显示URL/响应/连接。公开路由/blog可考虑独立部署配置候选，但文件命名/截图不等真实下载或有效DB权限。own合成env/正常404和公开示例负例确认最小秘密字段与来源hash，不猜遮挡内容、不连接DB或用凭据。"
+  ],
+  [
+    48,
+    "D",
+    "crlf,waf,source",
+    "GBK标题图比较404/400/200并有%E5%98%8D和不完整%E5%98%8序列、Set-Cookie文本；没有响应header或cookie存储。逐层percent decode、字符集转换/字节截断及header构造必须以实际实现确认，GBK标签不能确定解码器。own惰性字节模型对照拒绝CRLF/普通Unicode路由200；不自动补齐字节或等同header injection，不发请求。"
+  ],
+  [
+    49,
+    "N",
+    null,
+    "one-liner仓库卡无脚本。"
+  ],
+  [
+    50,
+    "N",
+    null,
+    "Confidential documents P1标题列表未显示下载、权限或敏感内容。"
+  ],
+  [
+    51,
+    "N",
+    null,
+    "Atlas repo简介卡没有具体tamper算法。"
+  ],
+  [
+    52,
+    "D",
+    "report,experiment,scope",
+    "Bugcrowd旧邮件Db-Exposure false-positive闭报，要求新的详细影响，图片附件未加载。own最小合成案例记录scope、身份、浏览器清理前后/缓存与响应、最终受保护状态及反例；无法从拒绝推真实无漏洞或从作者解释推真实有，不替缺失附件补机制、不重复联系或提交报告。"
+  ],
+  [
+    53,
+    "N",
+    null,
+    "RXSS Medium和500奖励侧栏，无payload与响应。"
+  ],
+  [
+    54,
+    "D",
+    "secret,source,impact",
+    "解压后列表env/composer/dump.sql/web/config，env生产标志和部分DB/salts遮挡。历史包泄露包含配置与数据库备份可能影响，但截图不提供实际URL/下载身份或有效性；own合成zip比较公开包/排除env和dump、最小指纹与构建产物hash，盐/密钥权限分别确认，不复制秘密、下载真实包、连接数据库或拿salt伪造会话。"
+  ],
+  [
+    55,
+    "N",
+    null,
+    "JS内APIkey报告标题与Medium，未显示key/用途/验证。"
+  ],
+  [
+    56,
+    "N",
+    null,
+    "paid/secret/valid APIkey标题与等级，未显示限制和结果。"
+  ],
+  [
+    57,
+    "N",
+    null,
+    "CompanyCertification/Update和CompanyAddress/Update IDOR+storedXSS报告标题，没有字段、权限变化或sink。域IP迁移范围以正文单独纠正，不从标题补造payload。"
+  ],
+  [
+    58,
+    "D",
+    "secret,web,source",
+    "conf.php.old记事本含AWS_KEY/SECRET遮挡、version/region/bucket和业务价格、hookURL；old后缀可能让PHP不经解释而作为源码。实际响应MIME/内容与公开配置/受保护备份负例独立核验，200不是足够。own合成php.old最小指纹，不能由键名推读写IAM权限，不用key/访问bucket或hook。"
+  ],
+  [
+    59,
+    "N",
+    null,
+    "Follow人物配图无技术信息。"
+  ],
+  [
+    60,
+    "D",
+    "logic,business,auth,experiment",
+    "Twitter Blue报告称到期前修改资料触发复审、取消订阅后复审恢复徽章，官方摘要指出订阅到期时间未正确校验；永远保留徽章的长期状态未展示。异步复审完成时应重新读取当前订阅状态/到期时间，不能沿用入队时资格。用自有mock时钟和审核任务比较有效、取消、已到期资格及完成前状态变化，核最终权益；不购买订阅或操作真实账号。"
+  ],
+  [
+    61,
+    "D",
+    "cloud,source,lfi,impact,scope",
+    "Cloudflare Pages摘要描述自定义redirects/headers功能输入校验缺陷使构建中权限提升并读取文件，官方同时说明每项目隔离；研究者称另两漏洞可跨项目串联，但链条全文未保存。区分配置控制、构建解释器、权限与项目隔离四层，以惰性配置fixture和项目路径边界验证，拒绝越界及无效配置；不能将跨项目影响归给单一漏洞，不执行构建、读真实文件或补造链条。"
+  ],
+  [
+    62,
+    "D",
+    "waf,xss,source,experiment",
+    "两幅Burp请求以Content-Encoding: WAFBYPASS对比403与200 JSON成功并含script文本；时间不同且未展示DOM执行。比较同一惰性JSON正文、认证状态与单一编码头，分别检查边缘解析/策略和源站解码/消费，未知编码应明确拒绝；200或JSON反射不证明XSS，需独立HTML/DOM危险sink与执行证据。以本地无害标记及纯文本负例检查，不重放请求或执行script。"
+  ],
+  [
+    63,
+    "D",
+    "auth,passive,records",
+    "扫描结果把若干公开内部门户标Low、SapphireIMS LoginPage.do默认管理员凭据标Critical，主机被遮挡；无实际凭据、认证请求或登录结果。保存扫描器匹配规则/版本/原始响应，区分公开登录页面与受保护动作，使用自有fixture比较匿名、正常主体和明确拒绝状态。评级/模板命中不能确认默认凭据或越权，不猜测、尝试或扫描真实凭据。"
+  ],
+  [
+    64,
+    "D",
+    "cache,client,experiment",
+    "通用示意图展示两个访客访问index.php经前端/后端共享缓存，未展示私有内容或路径混淆。独立核对响应隐私、cache key主体隔离和no-store策略；自有假缓存用两主体及匿名访问合成nonce，比较公共页可共享、私有页隔离与过期负例。共用缓存图不证明缓存欺骗或敏感数据泄露。"
+  ],
+  [
+    65,
+    "D",
+    "cache,auth,client,experiment",
+    "文章片段假设/account/billing/nonexistent.js在cookie认证下HIT并缓存账单，涉及未登录、Bearer头、同区域、预先填充和TTL限制；标题称无需路径混淆的实际案例未保存。定位后端回退路由与静态缓存策略、身份/缓存键和独立第二观察者。自有合成缓存比较公共/no-store、cookie与授权fetch流程、TTL/区域/预填充负例；直接导航不带Bearer头不等于所有Bearer流程不可能，也不能从片段确认私有账单泄露。不发送受害者链接或读真实账单。"
+  ],
+  [
+    66,
+    "D",
+    "source,cmd,web,auth,impact",
+    "Bricks render_element请求包含queryEditor和异常文本，200 JSON html返回uid/gid(www-data)；nonce被遮挡、页面没有完整认证状态/受影响版本。定位调用者可控queryEditor是否进入PHP求值/命令消费者，nonce可获取性与真正权限分别核对。自有惰性AST/模板fixture比较仅数据处理、拒绝执行和权限保护，独立异常中的动态标记及来源，200或反射uid文本不能单独证明执行；不执行图中系统命令，不补造认证绕过或版本范围。"
+  ],
+  [
+    67,
+    "D",
+    "auth,secret,source,experiment",
+    "Sessionless界面把oauth2_proxy_csrf样式token拆成消息/签名/分隔符并显示3647 secrets/15 salts的brute force进度，右侧200 Admin console含Login链接；没有恢复密钥、验签成功或受保护动作证据。以自有假密钥fixture区分解析、算法/盐/编码和服务端验签、过期/用途/主体绑定，篡改消息与错误签名必须拒绝；登录壳页面和枚举进度不等于会话伪造。保留结构不复制token、不运行爆破或使用真实密钥。"
+  ],
+  [
+    68,
+    "D",
+    "xss,client,source,experiment",
+    "CSP报告可见innerHTML→iframe srcdoc/Angular ng-csp/允许Google脚本以及事件中读取nonce创建外部script的旧链条；新增demo代码被裁切。nonce在DOM可读本身不是漏洞，需先证明攻击者输入到达可执行事件/模板上下文及该策略实际允许脚本。自有惰性DOM解析检查srcdoc策略继承、trusted script消费和nonce传播，转义/无事件执行/不同nonce负例；旧链和评级不确认新增绕过，不加载外部脚本或补全裁切payload。"
+  ],
+  [
+    69,
+    "N",
+    null,
+    "只有Stored XSS标题、P3/Resolved、400美元和积分，目标遮挡，未显示入口、sink、请求或执行机制；不得从奖金与结案状态补造技术细节。"
+  ],
+  [
+    70,
+    "N",
+    null,
+    "projectdiscovery/fuzzing-templates仓库宣传卡与统计，未显示YAML、匹配器或请求/响应；仓库简介不构成独立漏洞机制，不执行或下载模板。"
+  ],
+  [
+    71,
+    "N",
+    null,
+    "LockBit站点执法接管新闻截图，展示新闻栏目和机构标识；无漏洞入口或验证链，按新闻资料处理，不访问泄漏站或获取数据。"
+  ],
+  [
+    72,
+    "D",
+    "passive,records,scope",
+    "终端仅cat subdomains.txt列出大量twitter子域，包括dev/staging/sandbox名称；未显示发现方式、存活、所有权或授权。把域名当带来源时间的候选，规范URL/主机并保留别名、环境标签、端口和明确范围；自有列表比较重复/无效行/相似外域与排除规则。子域词形和列表长度不确认内部暴露或可测范围，不访问或扫描这些域名。"
+  ],
+  [
+    73,
+    "D",
+    "source,cmd,web,auth,impact",
+    "Bricks render_element图显示可控queryEditor异常和uid/gid www-data返回；同正文FOFA指纹、CVSS评级不能替代服务端求值证据，nonce遮挡及无认证状态使无认证RCE结论有限。用自有惰性PHP解析fixture标记数据与求值边界、权限和受影响组件配置，纯反射/拒绝执行负例；不执行id或查询资产，不外推到全部Bricks版本。"
+  ],
+  [
+    74,
+    "N",
+    null,
+    "只有110000美元奖励与赞扬片段，无入口、漏洞类型、请求响应或机制；金额不能证明影响或验证方法。"
+  ],
+  [
+    75,
+    "N",
+    null,
+    "HackerOne4500美元奖励与all users shipping address标题，无实际数据/请求/覆盖率证据；正文checkout address_id机制单独提炼，图片不能把两主体复现外推所有用户或批量披露。"
+  ],
+  [
+    76,
+    "N",
+    null,
+    "蓝底虫子装饰性封面，无技术内容或机制。"
+  ],
+  [
+    77,
+    "N",
+    null,
+    "ReconAIzer仓库卡介绍把GPT接入Burp辅助recon并列统计，无代码、模型证据或具体漏洞机制；不下载或上传流量。"
+  ],
+  [
+    78,
+    "D",
+    "source,impact,records",
+    "Windows终端只有dir C盘和whoami管理员输出，未显示Minecraft/Log4j入口、输入、回调或取得终端的因果过程。正文版本线索应落实实际bundled库、补丁和日志消费路径，再以自有惰性日志fixture检查外部输入与禁用lookup负例；命令结果截图不确认远程执行或从游戏升级到管理员权限。不重现命令、JNDI调用或读取文件。"
+  ],
+  [
+    79,
+    "N",
+    null,
+    "OBS中嵌套Shodan Facet Analysis统计页面，文本大多小且无可读完整查询/匹配规则或漏洞机制；视频录屏工具与柱形图不证明资产权限，不猜测模糊IP。"
+  ],
+  [
+    80,
+    "N",
+    null,
+    "Bugcrowd邮件只有多处反射XSS标题、triaged和保密提示，目标遮挡，无请求/响应/执行链；正文路由线索单独核对，分诊状态不能替代复现或授权。"
+  ],
+  [
+    81,
+    "N",
+    null,
+    "Grafana GitHub公告卡只显示JWT URL-login泄漏到datasource标题与Moderate、日期；完整正文没有保存，机制仅按当前帖子可见描述提炼，不补造版本范围、配置或请求证据。"
+  ],
+  [
+    82,
+    "D",
+    "cloud,auth,source,records,experiment",
+    "PyCharm中EC2枚举脚本只显示标题，终端boto3返回Reservations/Instances、HTTP200 request id和lab对象；MetadataOptions见HttpTokens optional且HttpEndpoint enabled。枚举成功未表明未授权，optional是配置线索不是SSRF/凭据已取走。以自有JSONfixture检验角色/资源/action允许范围和元数据选项解析，比较authorized与denied及required配置负例；不复制账号/实例标识、不调用AWS或元数据网络。"
+  ],
+  [
+    83,
+    "D",
+    "fuzz,records,experiment",
+    "ffuf v1.5.0-dev 40threads、timeout10、redirect false、calibration false、多status matcher输出CSV，再awk逗号分隔取2/5/6/9列与column显示；301/403只证明状态候选。CSV字段可能带引号/逗号/换行，版本字段序号需表头校对。自有合成CSV使用真正CSV解析器，比较正常、带分隔符、soft404、同长错误页和重定向保留Location，保持原始证据/单位/失败；表格排版、字段过滤和status本身不确认路径泄露，不运行扫描。"
+  ],
+  [
+    84,
+    "D",
+    "cors,auth,secret,source,experiment,scope",
+    "Burp GET/api/me带cookie和近似目标但不同的Origin，响应200反射该Origin且Access-Control-Allow-Credentials:true、返回本人样例身份字段；浏览器跨源可读性未在此图独立展示。核Origin完整scheme/host/port精确白名单、SameSite/credentials实际发送和响应私密性，以自有双origin惰性fixture比较合法、相似子域、无cookie和不同scheme负例。匹配Origin不等于攻击者可控制且可携带cookie；源帖标out-of-scope，技术现象不授权该目标，不复制cookie/邮箱或发送请求。"
+  ],
+  [
+    85,
+    "D",
+    "cors,xss,auth,client,experiment,scope",
+    "浏览器页面显示HTML/JS样式文本和弹窗内样例身份JSON，但地址及目标遮挡，未见完整XHR设置/网络凭据/Origin。将DOM注入能力、跨源请求凭据、服务器CORS授权和独立可读响应四层分别证明；用自有假DOM/双origin响应fixture与拒绝CORS/no-cookie/纯文本负例。弹窗不能独立确认远程受害者凭据、所有用户或ATO；正文out-of-scope限定保留，不补全隐去地址或执行脚本。"
+  ],
+  [
+    86,
+    "N",
+    null,
+    "TikTok2500美元DOM Stored XSS奖励邮件，入口被遮挡且无DOM sink、输入或执行链；奖励和保密提示不构成独立技术机制。"
+  ],
+  [
+    87,
+    "D",
+    "xss,client,source,experiment",
+    "DevTools控制台手动createElement(script)，无nonce被CSP拒绝，复制DOM nonce后网络404；图展示已在页面JS执行权限下的策略实验，没有攻击者输入到执行sink。nonce本来可被受信脚本读取，不单独构成绕过；自有惰性DOM/策略fixture比较未信输入转义、nonce未知/错误与合法脚本授权，区分CSP放行、下载成功和代码执行。404不证明执行，不加载外部脚本或将控制台自操作判漏洞。"
+  ],
+  [
+    88,
+    "D",
+    "xss,client,records,experiment",
+    "Network截图同名evil.js一次blocked:csp另一次404，另有子资源过滤阻断；无响应脚本或执行结果。精确对应请求id、initiator、策略与缓存/扩展状态，区分CSP拒绝、扩展阻断、网络失败及下载/执行阶段；自有假事件记录单变量对照和无nonce负例。不能把404或未显示blocked:csp当成功执行证据。"
+  ],
+  [
+    89,
+    "D",
+    "passive,records,scope",
+    "Shodan hostname:*apnic.net页面显示925总结果、Captcha标题、主机名/端口/时间及其他域SSL证书；不说明免费账户配额或全部结果可导出。保留搜索谓词、抓取时间、主机/端口/证书与来源，区分结果数、去重IP和共享主机归属；自有HTML fixture按结构提取而非strong/cut字符串，IPv6/重复/字段变化负例。banner或证书名称不授权IP，也不确认这些主机属于同一项目，不执行搜索或规避账户限额。"
+  ],
+  [
+    90,
+    "N",
+    null,
+    "alterx仓库宣传卡只介绍DSL子域词表生成器及统计，无DSL语法、代码或验证机制；不下载或执行工具。"
+  ],
+  [
+    91,
+    "N",
+    null,
+    "API装饰性封面，不含Mass Assignment具体请求/字段/权限规则。"
+  ],
+  [
+    92,
+    "D",
+    "xss,client,source,experiment",
+    "Automattic报告可见两缺陷组合：widgets.wp.com sharing-buttons-preview DOM XSS与Jetpack Likes监听允许该origin而avatar_url未验证/编码进入DOM；附PoC导航和alert声明但运行结果图被裁切。允许精确origin仍需校验消息schema、source窗口、用途和avatar_url协议及DOM安全赋值；可信origin可被XSS控制形成信任链。自有惰性message/DOM fixture比较正常https头像、非法scheme、错误origin/source、无Likes配置与纯文本负例，分别证明发送方可控和接收sink。不能从标题扩大全部域/版本，不导航PoC或执行alert。"
+  ]
+]

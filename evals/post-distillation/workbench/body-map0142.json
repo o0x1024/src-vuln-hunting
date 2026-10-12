@@ -1,0 +1,502 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "Leonidas 部署链与测试资源必须分别核对权限"
+  },
+  "2": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "上传后果按实际消费者验证而非扩展名分类"
+  },
+  "3": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "移除 Bearer 的方法差异要读回对象状态"
+  },
+  "4": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "Bitbucket archive 候选不能省略 repository read 前提"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "Triaged 与 duplicate 状态保留裁决和复现边界"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "Gallia 电源控制和协议请求分开定义实验范围"
+  },
+  "9": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "多搜索来源的空结果不代表资产不存在"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "ffuf 部分进度与 200/301 只用于候选筛选"
+  },
+  "15": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "侦察到 CVE 模板的流水线需要产品和请求证据"
+  },
+  "17": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "file URI 与多斜线路径要定位真实读文件消费者"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "域前置扫描 HIT 需要 SNI Host 和上游行为对照"
+  },
+  "22": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "目标派生备份名与本地解压目录不能直接认定泄露"
+  },
+  "23": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "Dalfox discovery 与浏览器及 blind 验证分开"
+  },
+  "26": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "file URI 与多斜线路径要定位真实读文件消费者"
+  },
+  "27": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "Karma 的证书 ASN CDN 关联不能定义授权范围"
+  },
+  "29": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "Triaged 与 duplicate 状态保留裁决和复现边界"
+  },
+  "30": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "HTTP 端口和跳过 TLS 校验保留不同含义"
+  },
+  "31": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "HTTP 端口和跳过 TLS 校验保留不同含义"
+  },
+  "34": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "元数据目录响应与服务端请求来源分别证明"
+  },
+  "43": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "非法头的缓存 HIT 需要干净请求受到污染的证据"
+  },
+  "48": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "Karma 的证书 ASN CDN 关联不能定义授权范围"
+  },
+  "49": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "侦察到 CVE 模板的流水线需要产品和请求证据"
+  },
+  "50": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "CSRF 生成器保留中文编码及浏览器凭据条件"
+  },
+  "52": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "SPF DMARC 记录检查与实际邮箱身份分开"
+  },
+  "56": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "Triaged 与 duplicate 状态保留裁决和复现边界"
+  },
+  "59": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "https 字串存在与无条件前缀不是同一过滤"
+  },
+  "61": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "侦察平台计数和队列要保留阶段输入及失败"
+  },
+  "63": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "Logger token 过滤仍需保留原始请求和响应"
+  },
+  "64": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "邮件 iframe 假设要确定实际渲染和过滤消费者"
+  },
+  "65": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "GitHub AWS 和连接字段检索只形成待核实候选"
+  },
+  "66": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "GitHub AWS 和连接字段检索只形成待核实候选"
+  },
+  "67": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "HTTP 端口和跳过 TLS 校验保留不同含义"
+  },
+  "68": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "TCP shell 和 PTH 演示保留既有执行及身份前提"
+  },
+  "70": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "GitHub AWS 和连接字段检索只形成待核实候选"
+  },
+  "72": {
+    "dis": "corrected",
+    "targets": "references/business-modeling.md",
+    "note": "功能笔记要区分状态机前提与未验证想法"
+  },
+  "74": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "侦察平台计数和队列要保留阶段输入及失败"
+  },
+  "75": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "旧客户端升级提示与服务端权限边界分开"
+  },
+  "78": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "Schema valid 与基线工具不能替代安全措施验证"
+  },
+  "85": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "多搜索来源的空结果不代表资产不存在"
+  },
+  "87": {
+    "dis": "merged",
+    "targets": "references/business-modeling.md",
+    "note": "功能笔记要区分状态机前提与未验证想法"
+  },
+  "93": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "演示 token 和缓存账户接管标题不等于泄露链"
+  },
+  "94": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "正则 authority 黑名单与真实连接解析需要一致"
+  },
+  "95": {
+    "dis": "merged",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "TCP shell 和 PTH 演示保留既有执行及身份前提"
+  },
+  "100": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "Source map 先核对实际引用及内容再审计 source"
+  },
+  "105": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "AEM 参数名中的编码冒号按每层解码比较"
+  },
+  "107": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "Schema valid 与基线工具不能替代安全措施验证"
+  },
+  "108": {
+    "dis": "corrected",
+    "targets": "references/by-type/jwt.md",
+    "note": "JWT none 和算法混淆验证服务端允许集合及 key 绑定"
+  },
+  "109": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "Burp scope 正则按 host protocol port 与排除字段验证"
+  },
+  "110": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "Cookie 审计分离字段消费者与服务端信任"
+  },
+  "115": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "汇编克隆得分要回到可达输入与基本块语义"
+  },
+  "124": {
+    "dis": "merged",
+    "targets": "references/by-type/file-upload.md",
+    "note": "上传后果按实际消费者验证而非扩展名分类"
+  },
+  "126": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "模拟协议和 honeypot 事件不认定生产漏洞"
+  },
+  "132": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "Domain Protect DNS 观测 通知与接管动作分开"
+  },
+  "134": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "file URI 与多斜线路径要定位真实读文件消费者"
+  },
+  "135": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "SVG background image 先确定浏览器还是后端消费者"
+  },
+  "136": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "模拟协议和 honeypot 事件不认定生产漏洞"
+  },
+  "139": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "PUT 写入 文件 listing 与执行 handler 分别证明"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "WP XML-RPC 用户候选与 XSPA 操作按功能逐项验证"
+  },
+  "142": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "WP XML-RPC 用户候选与 XSPA 操作按功能逐项验证"
+  },
+  "157": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "网页 sign in 与 GitLab API 原始资源分别验证"
+  },
+  "161": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "词汇变换百万字典不构成认证测试授权"
+  },
+  "162": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "集成 Jira title 的渲染到 POST 链保留缺失 gadget 边界"
+  },
+  "165": {
+    "dis": "corrected",
+    "targets": "references/by-type/oauth-oidc.md",
+    "note": "OAuth 授权响应 回调和资源权限分别绑定"
+  },
+  "166": {
+    "dis": "merged",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "TCP shell 和 PTH 演示保留既有执行及身份前提"
+  },
+  "167": {
+    "dis": "corrected",
+    "targets": "references/by-type/cors.md",
+    "note": "ACAC true 单一响应头不能认定 CORS 数据泄露"
+  },
+  "168": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "Password autocomplete 功能与独立攻击前提分开"
+  },
+  "171": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "侦察平台计数和队列要保留阶段输入及失败"
+  },
+  "175": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "mDNS 设备和服务广播只说明当前局域网可见信息"
+  },
+  "179": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "id 字串和 profile link 标题不能替代 A B 对象授权"
+  },
+  "180": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "Burp scope 正则按 host protocol port 与排除字段验证"
+  },
+  "183": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "DSAR 删除流程从匿名受理到最终身份验证逐阶段核对"
+  },
+  "189": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "Wildcard 路由 重复参数及修复分支分别读最终导航"
+  },
+  "190": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "noscript 解析模式与 WAF 事件词不能生成通用绕过"
+  },
+  "191": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "noscript 解析模式与 WAF 事件词不能生成通用绕过"
+  },
+  "192": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "POST 时间候选先验证条件和抖动再限制工具动作"
+  },
+  "193": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "POST 时间候选先验证条件和抖动再限制工具动作"
+  },
+  "195": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "Triaged 与 duplicate 状态保留裁决和复现边界"
+  },
+  "196": {
+    "dis": "merged",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "Wildcard 路由 重复参数及修复分支分别读最终导航"
+  },
+  "197": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "密码策略必须校验服务端接受的最终值"
+  },
+  "202": {
+    "dis": "merged",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "Wildcard 路由 重复参数及修复分支分别读最终导航"
+  },
+  "203": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "id 字串和 profile link 标题不能替代 A B 对象授权"
+  },
+  "205": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "Triaged 与 duplicate 状态保留裁决和复现边界"
+  },
+  "212": {
+    "dis": "corrected",
+    "targets": "references/by-type/oauth-oidc.md",
+    "note": "外部账号改名后绑定以稳定身份和实际权限判断"
+  },
+  "213": {
+    "dis": "merged",
+    "targets": "references/by-type/file-upload.md",
+    "note": "上传后果按实际消费者验证而非扩展名分类"
+  },
+  "214": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "DLL Hijack found 需要真实搜索路径和目录权限"
+  },
+  "215": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "密码策略必须校验服务端接受的最终值"
+  },
+  "217": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "CIDR PTR Shodan 和组织字串保留资产关联链"
+  },
+  "220": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "CIDR PTR Shodan 和组织字串保留资产关联链"
+  },
+  "221": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "企业邮箱字符串与 SSO 组织权限不得直接等同"
+  },
+  "226": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "Deadfinder 404 死链不自动证明可控内容或接管"
+  },
+  "227": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "ProxyNotShell 的 IIS 404 matcher 不能确认 Exchange SSRF"
+  },
+  "228": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "侦察到 CVE 模板的流水线需要产品和请求证据"
+  },
+  "231": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "CIDR PTR Shodan 和组织字串保留资产关联链"
+  },
+  "235": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "目录 403 与子文件读取是不同授权对象"
+  },
+  "240": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "XSS shell 流水线先修正输入和保留请求语义"
+  },
+  "243": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "Burp 扩展名称和 passive 标签不代替动作审核"
+  },
+  "244": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "Rails Accept 文件泄露按 render file 条件判断且读取正文"
+  },
+  "245": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "无用户名随机口令响应要排除环境内已有认证"
+  },
+  "246": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "CIDR PTR Shodan 和组织字串保留资产关联链"
+  },
+  "248": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "cmd code ping 参数名只是 sink 审计候选"
+  }
+}

@@ -1,0 +1,270 @@
+[
+  {
+    "name": "1735577937133355110-02.jpg",
+    "sha256": "e761ded449bfa0793adf017ccb27e9454bf2c0d1199a497d31d39a0f9924c942",
+    "prior": {
+      "sha256": "e761ded449bfa0793adf017ccb27e9454bf2c0d1199a497d31d39a0f9924c942",
+      "example_post_id": "1340998220902625280",
+      "image_name": "1340998220902625280-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/authn-session.md",
+        "references/by-type/idor-access-control.md",
+        "references/source-audit.md",
+        "references/scope-and-rules.md"
+      ],
+      "note": "完整八步骤/api/u/resetPwd→/api/su/resetPwd用户名固定后缀密码叙述，新增特权恢复主体/资格/可预测值与实际登录能力分别留证；无原请求，不重置真人",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T10:08:11.898Z",
+      "batch": "media-0062"
+    }
+  },
+  {
+    "name": "1735665587810881886-02.jpg",
+    "sha256": "69e6c46d6bbdbca4efe08c23665fe444331edfd048e0153c86d5fb731de997f9",
+    "prior": {
+      "sha256": "69e6c46d6bbdbca4efe08c23665fe444331edfd048e0153c86d5fb731de997f9",
+      "example_post_id": "1376432505591631874",
+      "image_name": "1376432505591631874-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md",
+        "references/by-type/waf-bypass.md",
+        "references/discovery/web-and-api.md",
+        "references/source-audit.md",
+        "references/experiment-design.md"
+      ],
+      "note": "路径 admin 与变形路径的 302/200 图合并路径归一化、代理转发与相同处理器的对照；还需身份和私有能力证据，状态码差异本身不能证明越权。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-09T14:12:02.125Z",
+      "batch": "media-0079"
+    }
+  },
+  {
+    "name": "1735864828613239213-02.jpg",
+    "sha256": "36a87795471ee0a942cf592bdb1ba6a7cde820b033c3dd3db9bc4622b0c58966",
+    "prior": {
+      "sha256": "36a87795471ee0a942cf592bdb1ba6a7cde820b033c3dd3db9bc4622b0c58966",
+      "example_post_id": "1602023209007996928",
+      "image_name": "1602023209007996928-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md"
+      ],
+      "note": "管理员路径 /admin 为302而空白编码变体为200的教学图，无后台权限/页面正文。核对路由规范化、代理和应用匹配及最终身份权限，状态差异不代表管理动作可执行。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T19:25:26.668Z",
+      "batch": "media-0147"
+    }
+  },
+  {
+    "name": "1735940325019967620-02.jpg",
+    "sha256": "acc9b65c83eba522f41810dec97f968b7f6efb1ada8500e10db67a176a103e33",
+    "prior": {
+      "sha256": "acc9b65c83eba522f41810dec97f968b7f6efb1ada8500e10db67a176a103e33",
+      "example_post_id": "1315593774773334016",
+      "image_name": "1315593774773334016-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md",
+        "references/targeted-fuzzing.md",
+        "references/source-audit.md"
+      ],
+      "note": "完整七条401403提示，headerIP/Unicode视似/重写/pathvariants/方法/IPVhost/fuzz非通用；真实代理、路由、身份和受保护内容另证，未批扫。",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:30:29.881781+00:00",
+      "batch": "media-0050"
+    }
+  },
+  {
+    "name": "1736121518579388642-02.png",
+    "sha256": "5c6eeee270f9d9dbd42ca3c4d7f42c4cf6295a8a3fcaac80c0c19bec32784f93",
+    "prior": {
+      "sha256": "5c6eeee270f9d9dbd42ca3c4d7f42c4cf6295a8a3fcaac80c0c19bec32784f93",
+      "example_post_id": "1329705441883017218",
+      "image_name": "1329705441883017218-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md",
+        "references/discovery/web-and-api.md",
+        "references/source-audit.md",
+        "references/scope-and-rules.md"
+      ],
+      "note": "完整byp4xx help/HTTP方法及变体状态输出，X-Rewrite-URL200/X-Original-URL404缺实际响应/权限证据；POST/PUT等动作不因403无副作用，未运行",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T08:47:51.204Z",
+      "batch": "media-0057"
+    }
+  },
+  {
+    "name": "1736715346953076795-02.png",
+    "sha256": "683178113f4150c4894597507aaab41dbe0f23e5bdbe8627efb22567cad4ffff",
+    "prior": {
+      "sha256": "683178113f4150c4894597507aaab41dbe0f23e5bdbe8627efb22567cad4ffff",
+      "example_post_id": "1311978448626348037",
+      "image_name": "1311978448626348037-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/scope-and-rules.md",
+        "references/discovery/records-and-incremental.md"
+      ],
+      "note": "完整bcscopeplaceholderTOKEN_HERE/c2/grep*仅跨项目wildcardlist，没有ruleexceptions/资格/版本，不allscope",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:13:09.223256+00:00",
+      "batch": "media-0048"
+    }
+  },
+  {
+    "name": "1736782068468568295-02.jpg",
+    "sha256": "c2a41f06b65998f8449825108bb9fe170895b1406d13adf6c68e44e9960f078c",
+    "prior": {
+      "sha256": "c2a41f06b65998f8449825108bb9fe170895b1406d13adf6c68e44e9960f078c",
+      "example_post_id": "1309403695977648129",
+      "image_name": "1309403695977648129-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/graphql.md",
+        "references/by-type/idor-access-control.md"
+      ],
+      "note": "完整清单两版本introspection/path/tools/IDOR方向；mostlyRESTwrapper不是普遍实现，不证明当前实际resolver/漏洞",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:07:25.819261+00:00",
+      "batch": "media-0047"
+    }
+  },
+  {
+    "name": "1737027489682399363-02.jpg",
+    "sha256": "9be5d22d306d6c7cebfe92ec37f46fbbda592052825f3f8b47f6cb3aa91fa627",
+    "prior": {
+      "sha256": "9be5d22d306d6c7cebfe92ec37f46fbbda592052825f3f8b47f6cb3aa91fa627",
+      "example_post_id": "1317218511937261570",
+      "image_name": "1317218511937261570-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md",
+        "references/discovery/web-and-api.md",
+        "references/source-audit.md"
+      ],
+      "note": "完整XOriginalURL/Referer到api/getUser200示意，无protectedbody/realprincipal；信任层/后端handler/同对象权限已有，未probe。",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:38:01.410214+00:00",
+      "batch": "media-0051"
+    }
+  },
+  {
+    "name": "1737027489682399363-03.jpg",
+    "sha256": "64c6bef208fb944794a93f22c0fab717a8fde79fc8b01d6431aab57488c48290",
+    "prior": {
+      "sha256": "64c6bef208fb944794a93f22c0fab717a8fde79fc8b01d6431aab57488c48290",
+      "example_post_id": "1317218511937261570",
+      "image_name": "1317218511937261570-03.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md",
+        "references/discovery/web-and-api.md",
+        "references/by-type/api-property-pollution.md"
+      ],
+      "note": "完整十一种表示json/path/APIversion/params变体，bypassok无实际对象能力；&在path不必query/不同APIhandler和对象引用另证，未批量改真实ID。",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:38:01.410613+00:00",
+      "batch": "media-0051"
+    }
+  },
+  {
+    "name": "1737027489682399363-04.jpg",
+    "sha256": "1a39a8a3aaf1fa8626545e9edfbf0a55795d8f154e5de07dccc4837feb9750e0",
+    "prior": {
+      "sha256": "1a39a8a3aaf1fa8626545e9edfbf0a55795d8f154e5de07dccc4837feb9750e0",
+      "example_post_id": "1317218511937261570",
+      "image_name": "1317218511937261570-04.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md",
+        "references/discovery/web-and-api.md",
+        "references/source-audit.md"
+      ],
+      "note": "完整API变体符号表与headers，文字fragment/百分编码/路径/表示后缀不同解析，既有实际出站/规范化/权限条件，无真实请求。",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:38:01.410865+00:00",
+      "batch": "media-0051"
+    }
+  },
+  {
+    "name": "1737148284874137726-02.jpg",
+    "sha256": "fbb383122ca0a3026707d0245e09a7ebce4d2291110f470f4e037c4e8597929f",
+    "prior": {
+      "sha256": "fbb383122ca0a3026707d0245e09a7ebce4d2291110f470f4e037c4e8597929f",
+      "example_post_id": "1555786315232206848",
+      "image_name": "1555786315232206848-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md"
+      ],
+      "note": "41 g100 Forwarded-IP header list contains repeated and misspelled headers with localhost values. Verify actual trusted proxy hops and protected action; user-supplied localhost text or status alone does not establish authorization bypass.",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T16:05:20.283Z",
+      "batch": "media-0131"
+    }
+  },
+  {
+    "name": "1737389878407791098-02.jpg",
+    "sha256": "facb0b743d4e49b8a3bdee93e38d09cd6cfec98581f1b11c1331e0009046d243",
+    "prior": {
+      "sha256": "facb0b743d4e49b8a3bdee93e38d09cd6cfec98581f1b11c1331e0009046d243",
+      "example_post_id": "1381957889443553288",
+      "image_name": "1381957889443553288-03.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/host-header.md",
+        "references/by-type/waf-bypass.md",
+        "references/by-type/idor-access-control.md",
+        "references/by-type/authn-session.md",
+        "references/source-audit.md",
+        "references/experiment-design.md"
+      ],
+      "note": "整张curl-I HEAD403与加X-Client-IP后302/login图实际核读，主机部分遮盖；外层放行/登录跳转非受保护授权能力，身份/方法/路由分别记，不发请求或改全局shell。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-09T14:51:03.194Z",
+      "batch": "media-0082"
+    }
+  },
+  {
+    "name": "1737510674501103845-02.jpg",
+    "sha256": "b34e2b61962827c5182f0eaa03d56bfc70f26cc975d9cec59894c78f2e454c31",
+    "prior": {
+      "sha256": "b34e2b61962827c5182f0eaa03d56bfc70f26cc975d9cec59894c78f2e454c31",
+      "example_post_id": "1359359602584735745",
+      "image_name": "1359359602584735745-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/authn-session.md",
+        "references/by-type/api-property-pollution.md",
+        "references/by-type/host-header.md",
+        "references/source-audit.md",
+        "references/experiment-design.md",
+        "references/scope-and-rules.md"
+      ],
+      "note": "完整reset五条重复email/数字tokenbrute旋IP/跨账号自有token/Host邮件/TimeIDemail生成候选，沿既有真实selector/收件者/账号用途时效/随机性与serverstate，不brute或给他人恢复",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-09T12:35:37.079Z",
+      "batch": "media-0072"
+    }
+  },
+  {
+    "name": "1738416686041297353-02.jpg",
+    "sha256": "f0d802159a88578cce4848dbfc626982d0c989a42ef154a0b7e9405b4d5213f1",
+    "prior": {
+      "sha256": "f0d802159a88578cce4848dbfc626982d0c989a42ef154a0b7e9405b4d5213f1",
+      "example_post_id": "1551919268442284034",
+      "image_name": "1551919268442284034-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/passive-and-services.md"
+      ],
+      "note": "54 g141 同Amass速查实际完整读，复用同主题但绑定该postURL。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T15:52:14.903Z",
+      "batch": "media-0130"
+    }
+  }
+]

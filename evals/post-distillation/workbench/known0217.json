@@ -1,0 +1,217 @@
+[
+  {
+    "name": "1786674659208966625-02.png",
+    "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+    "prior": {
+      "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+      "example_post_id": "1311048137340006400",
+      "image_name": "1311048137340006400-03.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整DoDseal装饰，无IDOR请求或改密终态",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:07:25.820172+00:00",
+      "batch": "media-0047"
+    }
+  },
+  {
+    "name": "1786674660488212705-02.png",
+    "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+    "prior": {
+      "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+      "example_post_id": "1311048137340006400",
+      "image_name": "1311048137340006400-03.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整DoDseal装饰，无IDOR请求或改密终态",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:07:25.820172+00:00",
+      "batch": "media-0047"
+    }
+  },
+  {
+    "name": "1786999432552063338-02.png",
+    "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+    "prior": {
+      "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+      "example_post_id": "1311048137340006400",
+      "image_name": "1311048137340006400-03.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整DoDseal装饰，无IDOR请求或改密终态",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:07:25.820172+00:00",
+      "batch": "media-0047"
+    }
+  },
+  {
+    "name": "1786999435244831229-02.png",
+    "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+    "prior": {
+      "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+      "example_post_id": "1311048137340006400",
+      "image_name": "1311048137340006400-03.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整DoDseal装饰，无IDOR请求或改密终态",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:07:25.820172+00:00",
+      "batch": "media-0047"
+    }
+  },
+  {
+    "name": "1787023343478071729-02.jpg",
+    "sha256": "29fe9ce0d071442d147bae05bf503c1c2f0d2a30bd3aab0dbb78ea3da57f68c8",
+    "prior": {
+      "sha256": "29fe9ce0d071442d147bae05bf503c1c2f0d2a30bd3aab0dbb78ea3da57f68c8",
+      "example_post_id": "1784187644739825805",
+      "image_name": "1784187644739825805-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "Auth0 Misconfiguration账号创建文章封面，缺少配置/请求。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T16:54:10.084Z",
+      "batch": "media-0210"
+    }
+  },
+  {
+    "name": "1787381251227230538-02.jpg",
+    "sha256": "055a995ac8a2347843407d1d077f6eb142b2c772e87b4d3c4ea78c2324b830b6",
+    "prior": {
+      "sha256": "055a995ac8a2347843407d1d077f6eb142b2c772e87b4d3c4ea78c2324b830b6",
+      "example_post_id": "1785314984945160539",
+      "image_name": "1785314984945160539-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/authn-session.md",
+        "references/source-audit.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "重置链接重复使用、第二grant使用后第一个仍有效、主动改密码后旧grant仍有效的三场景，需要核TTL/单次消费/凭据更改与grant撤销及账户不可变绑定。离线两个自有grant时间序列＋成功消费/过期/撤销负例，只检查状态机，不真的重置账号或假设已控制邮箱。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T16:57:14.050Z",
+      "batch": "media-0210"
+    }
+  },
+  {
+    "name": "1787381251227230538-03.jpg",
+    "sha256": "13fa6ecd7489d457da3e64b99eab48b35c775f84c7203544775e1e0cb477906c",
+    "prior": {
+      "sha256": "13fa6ecd7489d457da3e64b99eab48b35c775f84c7203544775e1e0cb477906c",
+      "example_post_id": "1785314984945160539",
+      "image_name": "1785314984945160539-03.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/authn-session.md",
+        "references/by-type/info-secrets.md",
+        "references/discovery/client-and-cloud.md",
+        "references/source-audit.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "历史重置页到Facebook的Referer全文包含token以及forgotpassword响应返回resetPasswordLink示例；浏览器当前ReferrerPolicy/跨源降级规则与授权响应消费者决定是否泄露，响应键名不自动漏洞。离线惰性grant→导航header与匿名/正确主体响应对照，token只应送合法channel，mask敏感字段，不使用截图cookie或令牌。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T16:57:14.061Z",
+      "batch": "media-0210"
+    }
+  },
+  {
+    "name": "1787825070531829944-02.jpg",
+    "sha256": "c7d9ef76743c466e51e0bc7faa34c9af72c7d4af76102ed3af73d7228488fbeb",
+    "prior": {
+      "sha256": "c7d9ef76743c466e51e0bc7faa34c9af72c7d4af76102ed3af73d7228488fbeb",
+      "example_post_id": "1785661742212608004",
+      "image_name": "1785661742212608004-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/authn-session.md",
+        "references/by-type/api-property-pollution.md",
+        "references/source-audit.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "POST api/v1/login提交email/password/realm返回200token，图无无权限基线、realm角色mapping或后续权限，不能从正常登录推23000验证绕过/上传/覆盖。核认证principal、realm可信来源与token受众/权限分开，离线自有固定主体正常/错误realm对照，不使用token/凭据。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T16:58:03.279Z",
+      "batch": "media-0210"
+    }
+  },
+  {
+    "name": "1788181171844575517-02.png",
+    "sha256": "f9c8eb2cb479928ce52108329d144ad5cd77ff9db1b65c1c9f23de0b92cdc6aa",
+    "prior": {
+      "sha256": "f9c8eb2cb479928ce52108329d144ad5cd77ff9db1b65c1c9f23de0b92cdc6aa",
+      "example_post_id": "1337566602095693827",
+      "image_name": "1337566602095693827-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整Xlogo，与正文alt一致，无安全机制",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T09:43:23.471Z",
+      "batch": "media-0060"
+    }
+  },
+  {
+    "name": "1788403876972126574-02.jpg",
+    "sha256": "779b4a119f8f72d4be462e99b5dfa06cefcdb39f3b86cc9ff4ca87386219ae6b",
+    "prior": {
+      "sha256": "779b4a119f8f72d4be462e99b5dfa06cefcdb39f3b86cc9ff4ca87386219ae6b",
+      "example_post_id": "1785313097990672387",
+      "image_name": "1785313097990672387-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/xss.md",
+        "references/discovery/client-and-cloud.md",
+        "references/source-audit.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "pagenum参数含alert;[alert][0].call片段与popup1，URL右侧裁切，没有响应sink与CSP。数组/函数引用等价调用仅在可控内容已经进入JS语法成立，不能用关键字绕过标签推所有WAF；离线AST/惰性数值与正确字符串转义负例核source→实际响应→DOM，不执行脚本。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T16:56:39.079Z",
+      "batch": "media-0210"
+    }
+  },
+  {
+    "name": "1788403876972126574-03.jpg",
+    "sha256": "1ae5eb3bcce15af0f152d331fd5e1a85758a130f369f9b4d8d7485dc0de09e5d",
+    "prior": {
+      "sha256": "1ae5eb3bcce15af0f152d331fd5e1a85758a130f369f9b4d8d7485dc0de09e5d",
+      "example_post_id": "1785313097990672387",
+      "image_name": "1785313097990672387-03.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/xss.md",
+        "references/discovery/client-and-cloud.md",
+        "references/source-audit.md",
+        "references/experiment-design.md"
+      ],
+      "note": "GET pagenum=alert;[alert][0].call(this,1)返回script内varpaged裸表达式，year串all分开。可控JS语法边界而非一般HTML字符滤过；离线惰性数值/不允许输入/正确JSON字符串编码负例核准确消费者，JS数组索引调用仍需函数可见/CSP有效；不执行alert或泛化所有WAF。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T16:57:13.997Z",
+      "batch": "media-0210"
+    }
+  },
+  {
+    "name": "1788875886428913998-02.jpg",
+    "sha256": "e71655326311a3598fc1416611d67e92e4c87a7e15d08fd0a28de6a28ff57bb9",
+    "prior": {
+      "sha256": "e71655326311a3598fc1416611d67e92e4c87a7e15d08fd0a28de6a28ff57bb9",
+      "example_post_id": "1785903749300699339",
+      "image_name": "1785903749300699339-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/sql-injection.md",
+        "references/targeted-fuzzing.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md"
+      ],
+      "note": "Wayback参数清空/CASE SLEEP(5)/timecurl候选命令图无输出、版本或因果。同文件tee/sort竞争、URL插bash源码和同时改所有等号会失语义；离线独立文件、保留参数类型/一次一字段的无延时真假/负例和绑定检查，不执行演练站/真实目标请求。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T16:58:46.288Z",
+      "batch": "media-0210"
+    }
+  }
+]

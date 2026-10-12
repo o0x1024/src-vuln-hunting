@@ -1,0 +1,402 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "协作介绍、业务反例与思路恢复的记录方式"
+  },
+  "2": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "命令注入示意中的 shell 消费与进程权限"
+  },
+  "6": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "数据库错误、扫描初始阳性与最终误报结论分开"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "Dashboard 索引与默认 admin 候选的身份边界"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "401/403 返回变化与真实授权绕过的区别"
+  },
+  "9": {
+    "dis": "corrected",
+    "targets": "references/by-type/xxe.md",
+    "note": "XMLParser 教学图不能替代实际库版本与实体行为"
+  },
+  "11": {
+    "dis": "merged",
+    "targets": "references/by-type/deserialization-rce.md",
+    "note": "不可信 PHP unserialize 调用与 gadget 触发之间"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "登录源码、搜索路径与配置文件曝光的敏感性确认"
+  },
+  "13": {
+    "dis": "corrected",
+    "targets": "references/by-type/deserialization-rce.md",
+    "note": "不可信 PHP unserialize 调用与 gadget 触发之间"
+  },
+  "14": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "登录源码、搜索路径与配置文件曝光的敏感性确认"
+  },
+  "17": {
+    "dis": "corrected",
+    "targets": "references/by-type/iot-security.md",
+    "note": "Google Home 历史账号绑定场景的同网与安装前提"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "ffuf 路径输出的筛选与 JSON 提取误差"
+  },
+  "23": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "文件参数、Web 配置和 proc cmdline 的独立读取证据"
+  },
+  "25": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "发票备注 HTML 表单与浏览器自动填充的交互条件"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "Nextcloud 再分享权限不得扩大原分享下载能力"
+  },
+  "27": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "混合命令便笺先按权限、目的与输出敏感性拆分"
+  },
+  "28": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "报告数量、历史战绩与状态变化保留原始口径"
+  },
+  "32": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "登录源码、搜索路径与配置文件曝光的敏感性确认"
+  },
+  "34": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "401/403 返回变化与真实授权绕过的区别"
+  },
+  "37": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "Wireshark 显示过滤图用于证据定位而非证明解密"
+  },
+  "38": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "WAF 429 和重置邮件限流分别记录计数与副作用"
+  },
+  "39": {
+    "dis": "corrected",
+    "targets": "references/business-modeling.md",
+    "note": "低代码连接身份、应用操作人和审计主体的三层边界"
+  },
+  "40": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "请求观察、JS 路径正则与新增域名只产出候选"
+  },
+  "43": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "登录注销 rurl 与转 XSS 的两个验证层"
+  },
+  "44": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "document.write 和 URL hash eval 的源到 sink 条件"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/by-type/oauth-oidc.md,references/by-type/mobile-android.md,references/by-type/mobile-ios.md",
+    "note": "移动 deeplink 授权码劫持须闭合 PKCE 兑换绑定；Android 回调 intent 路由与 OAuth 会话各自验证；iOS 自定义 URL scheme 与授权码消费者的分离"
+  },
+  "47": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "文件参数、Web 配置和 proc cmdline 的独立读取证据"
+  },
+  "50": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "数据库错误、扫描初始阳性与最终误报结论分开"
+  },
+  "52": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "模板库、模块分类与移动管道的匹配证据"
+  },
+  "53": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "Nextcloud 登录流 v2 的授权诱导与 token 轮询边界"
+  },
+  "56": {
+    "dis": "corrected",
+    "targets": "references/by-type/smart-contract.md",
+    "note": "共识 liveness 描述必须绑定协议和故障阈值"
+  },
+  "57": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "客户端免费转付费展示与服务端权益状态分开"
+  },
+  "58": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "请求观察、JS 路径正则与新增域名只产出候选"
+  },
+  "59": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "模板库、模块分类与移动管道的匹配证据"
+  },
+  "60": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "宽范围项目预设与授权边界仍须逐请求核验"
+  },
+  "61": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "邮件未验证能进面板与真实业务资格的区分"
+  },
+  "65": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "宽范围项目预设与授权边界仍须逐请求核验"
+  },
+  "68": {
+    "dis": "corrected",
+    "targets": "references/by-type/ai-application.md",
+    "note": "AI 故意脆弱示例需要逐标签验证并隔离运行"
+  },
+  "69": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "数据库错误、扫描初始阳性与最终误报结论分开"
+  },
+  "70": {
+    "dis": "corrected",
+    "targets": "references/by-type/crlf-response-splitting.md",
+    "note": "CRLF 文本视图与 hop-by-hop Location 消费链"
+  },
+  "71": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "模板库、模块分类与移动管道的匹配证据"
+  },
+  "72": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "邮件未验证能进面板与真实业务资格的区分"
+  },
+  "74": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "Blind XSS 页面秘密检测扩展的回连和数据最小化"
+  },
+  "75": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "报告数量、历史战绩与状态变化保留原始口径"
+  },
+  "76": {
+    "dis": "merged",
+    "targets": "references/by-type/ai-application.md",
+    "note": "AI 故意脆弱示例需要逐标签验证并隔离运行"
+  },
+  "77": {
+    "dis": "merged",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "登录注销 rurl 与转 XSS 的两个验证层"
+  },
+  "78": {
+    "dis": "corrected",
+    "targets": "references/by-type/request-smuggling.md",
+    "note": "HTTP 请求走私需证明前后端解析分歧和连接关联"
+  },
+  "82": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "协作介绍、业务反例与思路恢复的记录方式"
+  },
+  "83": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "登录源码、搜索路径与配置文件曝光的敏感性确认"
+  },
+  "84": {
+    "dis": "corrected",
+    "targets": "references/cloud/container-k8s-security.md",
+    "note": "Docker 基线检查、监测与逃逸工具列表的角色拆分"
+  },
+  "86": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "Hook URLSearchParams.get 的执行路径与 DOM XSS 判据"
+  },
+  "87": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "ffuf 路径输出的筛选与 JSON 提取误差"
+  },
+  "89": {
+    "dis": "corrected",
+    "targets": "references/by-type/prototype-pollution.md",
+    "note": "Rocket.Chat 管理员原型污染与托管宿主权限边界"
+  },
+  "90": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "报告数量、历史战绩与状态变化保留原始口径"
+  },
+  "92": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "请求观察、JS 路径正则与新增域名只产出候选"
+  },
+  "93": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "SSRF 图谱按输入入口、解析目标与协议消费者拆分；SSRF scheme、文件与云元数据的运行时前提"
+  },
+  "94": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "document.write 和 URL hash eval 的源到 sink 条件"
+  },
+  "98": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "报告数量、历史战绩与状态变化保留原始口径"
+  },
+  "99": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "短链历史、证书 JSON 与参数采集的一致性"
+  },
+  "101": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "文件参数、Web 配置和 proc cmdline 的独立读取证据"
+  },
+  "102": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "协作介绍、业务反例与思路恢复的记录方式"
+  },
+  "104": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "预登录 XSS 改写表单的本地证据和用户提交前提"
+  },
+  "105": {
+    "dis": "merged",
+    "targets": "references/cloud/container-k8s-security.md",
+    "note": "Docker 基线检查、监测与逃逸工具列表的角色拆分"
+  },
+  "107": {
+    "dis": "merged",
+    "targets": "references/by-type/crlf-response-splitting.md",
+    "note": "CRLF 文本视图与 hop-by-hop Location 消费链"
+  },
+  "109": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "shop 字典候选、模板命中与域绑定所有权"
+  },
+  "111": {
+    "dis": "corrected",
+    "targets": "references/cloud/container-k8s-security.md",
+    "note": "Argo CD 分片 reconciliation 必须执行命名空间限制"
+  },
+  "112": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "WAF 429 和重置邮件限流分别记录计数与副作用"
+  },
+  "114": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "请求观察、JS 路径正则与新增域名只产出候选"
+  },
+  "115": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "WAF 变体分类与实际语言语义分开验证"
+  },
+  "116": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "WAF 变体分类与实际语言语义分开验证"
+  },
+  "118": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "短链历史、证书 JSON 与参数采集的一致性"
+  },
+  "119": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "短链历史、证书 JSON 与参数采集的一致性"
+  },
+  "120": {
+    "dis": "merged",
+    "targets": "references/by-type/ai-application.md",
+    "note": "AI 故意脆弱示例需要逐标签验证并隔离运行"
+  },
+  "121": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "Hook URLSearchParams.get 的执行路径与 DOM XSS 判据"
+  },
+  "125": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "账户 ID 改邮箱到重置接管的主体绑定链"
+  },
+  "126": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/by-type/cache-deception.md,references/by-type/cors.md",
+    "note": "安全响应头按资源与浏览器行为验证，缺头不等于漏洞；no-cache、no-store 与内容下载策略的独立含义；自定义 X 头、压缩与 CORS 方法声明不是安全授权"
+  },
+  "127": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "报告数量、历史战绩与状态变化保留原始口径"
+  },
+  "128": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "WAF 变体分类与实际语言语义分开验证"
+  },
+  "131": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "登录源码、搜索路径与配置文件曝光的敏感性确认"
+  },
+  "133": {
+    "dis": "corrected",
+    "targets": "references/by-type/document-rendering.md",
+    "note": "Word RTF 字体表 PoC 的生成数据与利用结论分离"
+  }
+}

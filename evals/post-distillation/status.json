@@ -1,0 +1,67 @@
+{
+  "objective": "完成所有posts内容的提炼",
+  "state": "in_progress",
+  "updated_at": "2026-10-12T07:32:48.526865+00:00",
+  "post_snapshot_sha256": "c3ba1c34b72295375ce4a5287ee3cc1b3a449702292fd40f2424f41fd78b6520",
+  "total_posts": 52716,
+  "unique_complete_bodies": 51479,
+  "body_reviewed_groups": 39920,
+  "body_reviewed_posts": 41106,
+  "remaining_body_groups": 11559,
+  "body_followup_groups": 0,
+  "review_scope": "complete saved text including non-generic image alt text and trailing captions; image pixels reviewed separately; missing images and external full text waived by user and count as covered; unavailable unsaved thread continuations are outside saved-post coverage",
+  "attached_media_review": "separate; visual reviews and machine OCR do not establish complete image understanding",
+  "media_visually_reviewed_unique_contents": 16152,
+  "media_review_dispositions": {
+    "distilled": 9656,
+    "no_technical_content": 4097,
+    "insufficient_technical_detail": 2399
+  },
+  "all_posts_content_distilled": false,
+  "runtime_dependency": "none; this directory is review evidence, not required to use the distilled skill",
+  "unbound_visual_observations_count": 2,
+  "unbound_visual_observations_scope": "Actual visible images observed before source paths disappeared; no completed contemporaneous byte rehash. Separate from hash-bound media coverage.",
+  "media_source_reconciliation": {
+    "verified_at": "2026-10-09T08:23:00.602559+00:00",
+    "prior_media_files": 81961,
+    "current_media_files": 25663,
+    "prior_unique_contents": 29700,
+    "current_unique_contents": 22398,
+    "missing_prior_paths": 56298,
+    "missing_prior_unique_contents": 7302,
+    "changed_existing_paths": 0,
+    "new_current_paths": 0
+  },
+  "inline_media_inventory": {
+    "verified_at": "2026-10-09T04:55:57.106085+00:00",
+    "source_documents_scanned": 52716,
+    "inline_occurrences": 9,
+    "unique_inline_contents": 3,
+    "all_detected_inline_contents_visually_reviewed": true,
+    "scope": "All data:image prefixes in current saved Markdown accounted for; source document hashes and decoded binary hashes bound. No text-body verdict inferred from this image review."
+  },
+  "coverage_policy": {
+    "policy": "user-specified coverage scope",
+    "recorded_at": "2026-10-10",
+    "user_instruction": "缺失图片、外链全文 不用管，按已覆盖算",
+    "missing_images": {
+      "action": "no recovery or additional review required",
+      "coverage": "covered_by_user_waiver",
+      "actually_viewed": false
+    },
+    "external_full_text": {
+      "action": "no external full-text acquisition required",
+      "coverage": "covered_by_user_waiver",
+      "actually_read": "only when independently recorded as read"
+    },
+    "remaining_required_work": [
+      "Review remaining complete saved post bodies",
+      "Review remaining currently available attached image contents",
+      "Distill mechanisms and corrections into standalone target references",
+      "Verify full saved-post coverage and target integrity"
+    ],
+    "observations": "Review counts retain their actual read/view meaning. Waived content counts as covered without claiming it was read or viewed. Unsaved external thread continuations follow the same external-content waiver."
+  },
+  "waived_missing_images_count_as_covered": true,
+  "waived_external_full_text_count_as_covered": true
+}

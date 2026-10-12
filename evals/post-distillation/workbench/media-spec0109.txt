@@ -1,0 +1,91 @@
+0|no_technical_content||AD图标，没有权限或审计内容。
+1|distilled|web|JSSpider终端含重复脚本和第三方域；保留来源、去重、范围及实际消费边界。
+2|insufficient_technical_detail|auth|P3 New阶段标签，没有DELETE请求、最终MFA绕过或challenge身份。
+3|distilled|strategy|完整Frogy资产/端口/OSINT/自动手工验证方法图已读，分阶段与范围/预算绑定。
+4|distilled|auth,web|WebSocket测试日志SessionID和customerLogout属于消息，缺握手Origin/认证继承和最终读者。
+5|distilled|web|goverview状态/时间/checksum/8322长度/CSP/favicon等是元数据，不证明漏洞或内容完整。
+6|distilled|references/by-type/cicd-supply-chain.md|SLSA八边界A至H源代码/构建/依赖/仓库/消费者图，缺实际构建provenance和等级证明。
+7|distilled|ssrf|IAM元数据JSON已遮掩，结构不证明key有效/权限或真实backend请求。
+8|distilled|ssrf,lfi|标passwd图仍是IAM credential JSON及metadata URL；正文图错配不补本地文件读。
+9|distilled|strategy|更新Frogy图同方法但新制品hash，发现与证实节点按阶段/产物记录。
+10|distilled|source|BeaconEye两个红进程和monitoring2是候选标记，缺真实通信或operator命令。
+11|distilled|passive|grepgithub历史半百万仓库与语言筛选广告，不能替代当前全部索引覆盖。
+12|distilled|access|AD图2targets/19 possible pwns/7users/1group/0computer只是推导图，需具体ACL边和实际动作。
+13|no_technical_content||Radio4宣传海报，无客户端漏洞链。
+14|insufficient_technical_detail||CTF screenshotter页面Create/note/title及测试，未给漏洞或实际图像处理失败。
+15|distilled|secret|Symfony profiler四候选路径/Open instances图，没有敏感profile数据，需响应/owner核对。
+16|no_technical_content||Hashcat标志，没有规则或实际密码材料。
+17|distilled|host|十种Host变体含绝对URI/缩进/重复头/XFH/空行/端口/IP，逐层authority消费不自动绕过。
+18|no_technical_content||Zoom标志，无漏洞技术内容。
+19|insufficient_technical_detail||Huan空PowerShell标志窗口，无PE加载/执行。
+20|no_technical_content||学习基础梗图，无漏洞机制。
+21|insufficient_technical_detail||mindmap仓库目录表，无图内部方法。
+22|distilled|oauth|OAuth左右列完整清单已读，按actor/流程阶段/发行及消费合同分解，传body并非总漏洞。
+23|distilled|ios|MEAT帮助logical AFC jailed/filesystem/hash输出开关，须区分采集访问层与完整性证明。
+24|distilled|prop|PHP account_id与未闭合方括号参数折叠演示，记录原始输入/版本/实际_GET，非权限证明。
+25|no_technical_content||PEzor版本banner与链接，未展示运行。
+26|insufficient_technical_detail|access|H1提案报告triaged状态，没有对象/动作权限请求。
+27|insufficient_technical_detail||倾斜Windows netstat图，没有Speakeasy模拟器执行结果。
+28|distilled|records|HawkScan进度/line count/错误/输出格式changelog属于可观测性，未给误报率实测。
+29|no_technical_content||DeFi/H1推广海报，无合约代码。
+30|distilled|source,access|Reg1c1de帮助HKLM可写/属性/日志开关，未给实际ACL和特权消费者边。
+31|distilled|auth|getPasswordToken username JSON返回id/token/stamp，部分脱敏；认证/发行意图/重置终态仍缺。
+32|no_technical_content||2FA标志，未给绕过。
+33|distilled|records|trick3st图20 running/2成功、dnsx resolver/type/t200，阶段计数不代表全流程完成。
+34|no_technical_content||Bookmarkz博客名单，没有内部技术全文。
+35|no_technical_content||个人deser/OWASP2017徽章，没有利用机制。
+36|distilled|records,report|wmn按template ID输出4引用链接，保留commit/metadata来源，不把引用当扫描命中。
+37|no_technical_content||Fpicker toast标志，无崩溃/输入。
+38|distilled|auth,web|customerProfileChanged消息头/目的用户，没有SessionID或握手认证，不能补hijack。
+39|distilled|source|SigFlip msbuild/input-output SHA1/sign标志/padding修改，工具打印非独立签名链验证或可信执行。
+40|insufficient_technical_detail||200美元邮件同时提XSS和IDOR删除标题，缺两者技术正文/状态。
+41|insufficient_technical_detail||403Bypasser banner及社交链接，无设置/响应。
+42|distilled|passive|Phonebook选择Domains、历史索引量、域/URL结果形态需区分查询类型和资产归属。
+43|distilled|host|internet/proxy/server简图只结构，需路由authority与身份头消费对照。
+44|distilled|lfi|倾斜WEB-INF/web.xml图JavaEE3.1/Spring配置，仅具体文件读取，不补RCE或全部源码。
+45|distilled|cmd,auth|whoami admin/sudo要求密码/idroot图是合法提升上下文，缺SSH key绕过/首次RCE因果。
+46|no_technical_content||二进制背景，没有MSCHAP技术内容。
+47|no_technical_content||Outlook标志，无枚举请求/响应。
+48|distilled|secret,report|Mailru图report1083543与正文ID不同，critical debug摘要未展示实际secret值或权限。
+49|distilled|cmd,prop|locale JSON system/id和uid1000www-data响应关联，静态截图缺受控变量/consumer；PII不复制。
+50|no_technical_content||MobileAudit标志，无审计结果。
+51|no_technical_content||CoinSwitch BTC入金邮件，无漏洞技术内容。
+52|no_technical_content||第二BTC入金邮件，不证明XSS/CORS/noRate/SPF机制。
+53|distilled|records|daily cron recon UML的scope→各工具→去重→每日/昨日差异→DB/view，新增候选与漏洞分开。
+54|no_technical_content||CobaltStrikeParser标志/装饰架构，未给config解析。
+55|distilled|files|PHP/ASP后缀图合并既有handler/制品内容/保存和消费链，后缀不自动执行。
+56|distilled|access,logic|removefiles file_id POST200 success_0只响应，需一次受控对象最终状态，不补删除或DoS。
+57|distilled|lfi,cmd|Windows PHP SMB share图单前导反斜杠，需实际UNC字节、OS路径/include/读取和网络权限。
+58|distilled|lfi,cmd|缩小版SMB路径同条件示意，没有新网络/执行收据，按实际制品hash记录。
+59|no_technical_content||Zuthaka标志，无扫描规则。
+60|insufficient_technical_detail|ssrf|Synack500 accepted标题BlindSSRF port scanning，没有保存具体目的地/响应或端口证据。
+61|distilled|impact|Google accepted但奖励未发和always login观点，分triage/acceptance/award及漏洞机制。
+62|insufficient_technical_detail||Bugsfeed浅色UI只标签，无可读具体漏洞记录。
+63|distilled|secret,passive|代码paste/trello多站OR target关键词图，限定查询分组、来源owner/时间与实际字段。
+64|distilled|source|GoPurple13技术选项/生成/server8000零incoming，能力不证明执行、会话或EDR绕过。
+65|distilled|cloud,secret|S3 versions/gz/signature/toolzip对象列表，名称不证明敏感内容可读、解密或key有效。
+66|no_technical_content||Udemy课程证书，无技术正文。
+67|no_technical_content||dependency confusion演讲标题封面，无链路。
+68|distilled|references/by-type/jwt.md|JWT图HS256误称加密需纠正；kid/alg/jku/jwk/x5u/x5c各按验证器密钥信任消费绑定。
+69|no_technical_content||LigoloNG标志，未展示转发。
+70|distilled|secret,impact|IIS web.config GET200/octets及header设置无秘密；按字段语义/权限/消费者判影响。
+71|insufficient_technical_detail||origin IP800奖励邮件，没有直连origin绕过对照。
+72|no_technical_content||PacketSifter标志，无网络记录。
+73|distilled|secret,passive|Github文件名/关键词/provider分类表是候选查询面，不能计实际秘密/当前索引完整。
+74|no_technical_content||2FA讲座封面，无幻灯技术内容。
+75|distilled|cmd|Confluence curl doenterpagevariables grepformaction并标Vulnerable，只指纹不证明OGNL/CVE26084。
+76|distilled|source,cmd|Penelope既有PTY后脚本/上传/下载/kill日志不证明首次RCE，逐动作授权和产物收据分开。
+77|distilled|doc,xss|esign APP/发文档/recipient签名/多存储图，核对读者origin/token/文档生命周期不补实际XSS。
+78|no_technical_content||API fuzz白皮书封面，无保存正文。
+79|distilled|access,logic|组织邀请回复只发email不能加入，邀请与membership gate/最终权限分开，负证据保留。
+80|no_technical_content||Tigmint标志，无方法。
+81|insufficient_technical_detail|auth|旧验证link删除说法图仅250奖励，缺challenge变化和最终删除状态。
+82|insufficient_technical_detail|access|private follow旧请求图仅250奖励，缺pending/active最终关系与策略。
+83|distilled|xss,doc|esign eventhandler/entity/quote payload图缺实际sink/执行，记录HTML/JS/URL/CSP/origin阶段不外传token。
+84|distilled|android,auth|Android Java构造flashcall恢复cuid/encrypted phone/cli请求，只静态客户端参数非server绑定证明。
+85|distilled|auth|TrevorSpray两帐号/1 valid MFA in use日志仅credential阶段，缺最终MFA session/OAuth资源权限。
+86|distilled|source|SharpStrike WMI/CIM主机身份/进程列表/legend/time0，不证明killEDR或未授权RCE，未用凭据。
+87|distilled|cloud,auth|MinIO9000/minio/cdn目录1.61GB/图对象，无认证方式或默认凭证实际有效证据。
+88|distilled|strategy|OWASP2017→2021映射与统计是历史分类，分类覆盖不同于资产/动作测试覆盖。
+89|distilled|auth,logic|rate poster列session/IP/cache/header/空白/UA/cookie/encoding等，计数键需同身份同逻辑动作。
+90|no_technical_content||databroker Gitcoin1.2ETH bounty海报，无技术机制或当前范围授权。

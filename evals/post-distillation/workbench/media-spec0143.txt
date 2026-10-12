@@ -1,0 +1,109 @@
+0|insufficient_technical_detail||通用XSS到受害者与会话cookie流程示意；没有实际入口、执行环境、HttpOnly或会话复用证据。
+1|distilled|references/by-type/xss.md|HTTP响应把安全头文本拆成0、1等数字字段及单字符值；需核对生成代码、实际CSP字段和浏览器执行，不能由畸形旧头直接宣称绕过。
+2|distilled|references/by-type/info-secrets.md|Jira /secure/QueryComponent!Default.jspa 报告声称匿名查看问题与项目名；先区别公开项目与私有对象，用自有项目最小对照。
+3|distilled|references/by-type/lfi-path-traversal.md,references/by-type/cmd-injection-rce.md|PHP先删除../后OSPath转换反斜杠，include先于语言检查，!=en或!=fr恒真，原样追加log.txt；路径恢复、日志可达、解释执行和权限均需独立验证。
+4|no_technical_content||人物使用电脑的宣传配图，无技术内容。
+5|distilled|references/by-type/business-logic.md|Reddit Talk晋升邀请接受或降级后未失效的报告；核对邀请单次使用、当前角色与撤销后实际权限，截图下部步骤缺失不补造。
+6|insufficient_technical_detail||Prototype poisoning演讲封面，缺少原型写入、受影响消费者与触发条件。
+7|no_technical_content||励志动漫图，无技术内容。
+8|no_technical_content||奖励Accepted/High及待支付金额截图，不证明漏洞机制。
+9|insufficient_technical_detail||Awesome Red Teaming资源目录，仅分类导航。
+10|distilled|references/by-type/info-secrets.md|WordPress users集合、单项、rest_route和author多入口候选；作者公开元数据不自动属于敏感泄露，集合拦截不保证单项同策略。
+11|no_technical_content||httpx标志，无命令或探测语义。
+12|distilled|references/by-type/authn-session.md|Cloudflare报告摘要称OTP失败多次仍可猜测，修复限制2FA尝试；Resolved/Low250历史结果不通用，需账户挑战绑定及有限失败后状态对照。
+13|distilled|references/by-type/xss.md,references/targeted-fuzzing.md|XSS流水线发现子域、waybackurls、gf到Dalfox普通与blind；候选归属及历史可达需复核，追加污染与主动预算，回连不等于浏览器执行。
+14|distilled|references/by-type/ssrf.md|localhost/test JSON endpoint=/adduser基线请求，无响应或代码。
+15|distilled|references/by-type/ssrf.md|相同请求endpoint=@attacker.com/adduser候选userinfo改变；需真实后端拼接、URL解析及连接证据，请求截图未证明SSRF。
+16|no_technical_content||H标志，无技术内容。
+17|distilled|references/by-type/idor-access-control.md|IDOR样本饼图涵盖GET、POST、REST、GraphQL、PUT、Cookie与头，分类重叠且样本不代表总体；用于入口清单不是概率。
+18|distilled|references/by-type/sql-injection.md|Ghauri截图报告MySQL URI时间注入SLEEP与9请求检测后提取库名；工具成功标签须原始时序配对对照，非必要不提取真实库数据。
+19|distilled|references/by-type/sql-injection.md|sqlmap同文件不同配置/时段，301、随机UA、WAF、连接失败、延迟及403；不可据此判定Ghauri普遍优于sqlmap或未发现等于安全。
+20|distilled|references/by-type/info-secrets.md|WordPress枚举候选同10变体像素，公开作者与权限边界对照。
+21|distilled|references/by-type/authn-session.md|把P5/P4/P3放入搅拌机得到P1的比喻，缺少可组合前提与真实权限链。
+22|distilled|references/by-type/xss.md|jQuery UI position.of、dialog.closeText、tooltip/title、dialog/title四类历史消费者示意；确认真实数据流、初始化/悬停条件与产品版本，不能仅版本或URL参数证明XSS。
+23|distilled|references/by-type/cmd-injection-rce.md|Java类加载C2流程：服务端下发字节码、客户端执行并回传，已有信任/执行入口前提，不证明初始入侵。
+24|insufficient_technical_detail||Splunk式日志记录发现内网主机事件，缺少Nessus扫描/自动化实现与漏洞证据。
+25|insufficient_technical_detail||Flask开发服务器lab绑定全地址/8081且Debug off；单个启动日志不证明具体弱点或生产暴露。
+26|distilled|references/targeted-fuzzing.md|Burp Repeater localhost8081基线无响应，Nuclei标签只显示入口；请求转模板需脱敏、可控匹配器与主动预算。
+27|distilled|references/by-type/info-secrets.md|Git/SVN路径字典含元数据和正常公开gitignore等配置，200/目录名不能等于完整仓库或泄露。
+28|distilled|references/source-audit.md|Python邮件注入CodeQL查询贡献奖截图，无查询源/数据流；分类CWE与赏金标签不作为真实应用证据。
+29|distilled|references/source-audit.md|Java partial path traversal CodeQL查询贡献奖截图，缺少查询和真实目标。
+30|distilled|references/source-audit.md|Java正则dot绕过查询贡献奖，未见代码与实际验证。
+31|distilled|references/source-audit.md|C++证书主机名校验查询贡献奖，未见代码与运行。
+32|distilled|references/by-type/idor-access-control.md|LinkedIn DELETE技能考核结果报告指出profileId和skill构成对象标识；应自有AB对象最小操作后独立读回，公开UUID不授予删除权，不能对他人结果操作。
+33|distilled|references/by-type/cmd-injection-rce.md|GC2工作流5秒轮询Sheets命令、下载Drive并回传；植入执行和云凭据/共享权限是前提。
+34|distilled|references/by-type/sql-injection.md|Ghauri从已保存session恢复时间注入并提取数据库；旧缓存不能当新复测，需隔离版本、请求、身份、响应配对。
+35|distilled|references/by-type/cmd-injection-rce.md|REAVE ESXi agent参数/本地用户/挂载点输出；说明已有代理与主机执行上下文，缺少初始入口或逃逸证据。
+36|distilled|references/by-type/cmd-injection-rce.md|REAVE ESXi后渗透模块含日志读、文件传输、加用户/SSH键、改防火墙；显式有执行与权限前提，版本兼容宣称不证明入口或隔离逃逸。
+37|insufficient_technical_detail||WordPress获利文章标题，无机制。
+38|distilled|references/reporting.md|PeTeReport示例仪表盘按产品报告/CWE聚合，数量和等级不证明去重/验证；保留原证据、身份、对象、状态和复测绑定。
+39|distilled|references/by-type/ssrf.md|LINE报告摘要称参数DNS验证绕过可访问内网；检查验证时地址与连接时地址及每跳，缺少具体payload/实测内网影响不能补造。
+40|distilled|references/discovery/records-and-incremental.md|waymore多索引简介卡；索引、分页、时间窗和失败需分开，EVERYTHING宣传不证明全量或当前可达。
+41|distilled|references/by-type/info-secrets.md|GitHub搜索字段与后缀图，一行重叠不可精确恢复；限制owner/repo，区分占位配置和有效密钥，不使用发现值。
+42|distilled|references/by-type/request-smuggling.md|Akamai历史文章可见开头解释hop-by-hop头与Connection指定字段，后文未保存；验证代理删除/转发后真实消息分帧，不从标题推导完整利用。
+43|insufficient_technical_detail||浏览器地址payload与cookie弹框，大量遮盖；无完整请求/消费者，不能从弹框补出权限、HttpOnly或ATO。
+44|distilled|references/discovery/web-and-api.md|GraphQL错误码搜索候选，包括鉴权失败/持久查询缺失；索引命中不等于端点、schema或越权。
+45|no_technical_content||SQL Injection Critical已关闭标签，缺少具体注入机制及证据。
+46|distilled|references/source-audit.md|依赖混淆POC仓库安装步骤示意，没有resolver命中或下游构建日志，不运行。
+47|distilled|references/source-audit.md|OAST两DNS一HTTP/curl截图；只能按已见回连记录，需安装钩子/请求时间/自有构建绑定，不能单独证明依赖混淆RCE。
+48|distilled|references/by-type/lfi-path-traversal.md|Sony摘要称CVE2018-1271读取win.ini；缺少实际请求及版本，路径读取与执行分离，最小自有非敏感canary。
+49|distilled|references/by-type/ssrf.md|Sony crossdomain.php url消费者报告摘要同时LFI、EC2元数据、外部SVG反射XSS；逐段证明读/取回/内容类型/浏览器同源，不把SSRF一律Critical或ATO。
+50|distilled|references/by-type/ssrf.md|userinfo同基线请求只有endpoint=/adduser，缺少响应；与40正文合并保持观察边界。
+51|distilled|references/by-type/sql-injection.md|ImpressCMS代码见分组POST进入函数、user_sort白名单in_array及默认uname、user_order分支下方截断；数组/类型/SQL结构是假设，未见完整sink不得补造SQL到RCE。
+52|no_technical_content||I Own Your Building插画，无技术内容。
+53|distilled|references/by-type/cmd-injection-rce.md|GitLab GitHub importer摘要称Sawyer把JSON键映射Ruby方法/redis命令注入，代码下部截断；需键进入后续方法调用及Redis命令消费者，不能仅JSON存在自动RCE。
+54|distilled|references/by-type/cmd-injection-rce.md|Gofrette本机127.0.0.1回连与重连示例；现有程序执行/监听前提，不证明EDR通用绕过或远端漏洞。
+55|no_technical_content||Yogosha修复奖励/KYC对话，缺少cache poisoning技术链。
+56|distilled|references/discovery/passive-and-services.md|zBuster服务/端口/目录扩展模块帮助；all不含dirbusting且工具范围不同，先分解任务、身份、协议与请求预算，勿all当全覆盖。
+57|insufficient_technical_detail||勒索提示与示例解密字段，缺少算法/执行实现，仅界面，未运行。
+58|insufficient_technical_detail||SQLi Triaged/Medium侧栏遮盖大多数正文，缺少具体payload/消费者，ASP.NET不自动证明注入。
+59|no_technical_content||职业活动海报，无技术内容。
+60|insufficient_technical_detail||Vichiti OSINT封面仅工具定位。
+61|distilled|references/discovery/passive-and-services.md|Vichiti菜单包含WHOIS/定位/URL展开/端口扫描/邮箱验证等不同副作用；每项独立来源、范围和预算，定位不等于所有权或身份。
+62|distilled|references/by-type/idor-access-control.md|收据示意：两个id分别success/error，不能仅模板名判定授权或实际数据。
+63|distilled|references/by-type/idor-access-control.md|收据先合法对象后非法对象也success的状态示意；需复用session/缓存/后台保存对象与并发隔离，独立读回B自有标记，排除只是模板成功。
+64|insufficient_technical_detail||Go arsenal工具合集视频封面，无安装/扫描实现。
+65|insufficient_technical_detail||Parrot桌面和aircrack-ng帮助演示，未见目标或攻击结果，发行版覆盖宣称不证明能力。
+66|distilled|references/cloud/cloud-misconfiguration.md|Cloudfox assumed-role执行allchecks，输出大量任务完成/错误/部分资源及旧缓存解释；逐区域服务权限失败需保留，IAM路径候选/模拟不证明实际提升，不能凭0或任务完成称完整。
+67|insufficient_technical_detail||ShellStorm目录下空终端，无参数或结果。
+68|insufficient_technical_detail||Web Cache Vulnerability Scanner封面，无检测语义。
+69|insufficient_technical_detail||Laravel9.x PR增PHP扩展标题截图无diff；正文黑名单仍需实际webserver处理器/存储/路由证明，不以PHP7/8决定扩展执行。
+70|insufficient_technical_detail||HEADMAIL封面无机制。
+71|distilled|references/by-type/info-secrets.md|HeadMail本地邮件头解析输出Received-SPF pass、发送者、Content-Type等；区分信任接收边界和原始头，SPF pass不等于From/DKIM/DMARC对齐；正文repo指向cache扫描器不匹配。
+72|insufficient_technical_detail||Nexfil按用户名找profile封面，无身份关联证据。
+73|distilled|references/discovery/passive-and-services.md|Nexfil示例351URL/20秒/DNS配置、多站同名adam返回列表；同名、超时、软404不能证明同一人或全量，勿主动登录验证。
+74|insufficient_technical_detail||忘记密码ATO视频封面，缺少令牌和恢复流程。
+75|distilled|references/discovery/web-and-api.md|Google site加register索引视频截图，FAQ结果不是注册端点存在或匿名实际功能，搜索否定不能证明缺失。
+76|distilled|references/discovery/passive-and-services.md|Nmap脚本TCP SYN全端口、跳过探活/DNS、源端口53、低重试与RST忽略，输出警告closed可能变filtered；脚本service变量未定义/主机参数未引用，状态不等于UDP/全服务覆盖，权限预算与报错保留。
+77|distilled|references/by-type/xss.md|Burp User-Agent全局替换blindXSS加通知图；严格目标范围/单标记与异步消费者归因，邮件通知不证明cookie或他人管理权限。
+78|insufficient_technical_detail||ExecutedProgramsList程序及时间列表，无前后对照或擦除实现；不把清理工具称不留痕，不执行删除证据。
+79|distilled|references/by-type/cmd-injection-rce.md|ReverseSSH汇聚已经shelled客户端与humanSSH示意，已有执行/连接和身份前提。
+80|no_technical_content||ReverseSSH航天插画，只概念连接，无新机制。
+81|distilled|references/discovery/web-and-api.md|ServiceStack ResourceRequest文档列GET/POST、参数、响应类；仅schema可见不证明调用授权或私有数据，不把所有metadata统一称Swagger。
+82|distilled|references/discovery/web-and-api.md|ServiceStack metadata操作列表/XMLJSONSOAP/XSDWSDL，按消费者发现候选，文档授权与业务操作独立。
+83|distilled|references/by-type/info-secrets.md|搜索算子历史表包含cache/link等；按当前支持确认而非照抄旧语法保证有效，关键字命中不证明泄露或权限。
+84|distilled|references/by-type/authn-session.md|OrbitalDump分布式SSH口令尝试截图混合大量连接错误和成功标签；代理不扩大许可、失败不等于认证拒绝，有限自有凭据测试与预算/锁定，不复制展示凭据。
+85|insufficient_technical_detail||DonPAPI标志，无解密流程。
+86|distilled|references/by-type/xss.md|三封XSS Hunter通知无具体数据源/执行上下文，数量不证明三个独立漏洞或ATO。
+87|distilled|references/source-audit.md|Hyperledger CLI os.Args[3]→resultPipeName→os.OpenFile(APPEND｜WRONLY,0644)可见，已有本地调用权限；写文件不是读任意文件，作用于CLI受信边界/进程权限，Informative与静态路径警报不自动漏洞。
+88|distilled|references/by-type/info-secrets.md|ACME well-known challenge返回部分遮盖字符串，不自动secret/leak；需用途、访问设计与授权边界，不尝试申请他人证书。
+89|distilled|references/business-modeling.md|功能→XSS/模板/IDOR/CSRF/SQL/SSRF入口脑图；同入口多consumer与roles/方法/状态映射，功能名字不证明存在sink/弱点。
+90|distilled|references/by-type/sql-injection.md|SQL拼接历史速查展示Oracle/PostgreSQL双竖线、Microsoft加号、MySQL相邻字符串/CONCAT；必须实际方言、模式与表达式上下文，不跨DB照抄。
+91|distilled|references/by-type/sql-injection.md|Ghauri正在测试布尔URI参数，截图未见终局；检测过程不等于发现、不同工具对比需同请求/环境/预算与缓存隔离。
+92|no_technical_content||办公电脑代码照片，无法阅读具体机制，装饰。
+93|distilled|references/by-type/open-redirect.md|redirect与next示例涉及userinfo/反斜杠/百分号/控制字符/重复解码；需逐层真实字节、验证与导航最终origin，javascript消费者另为XSS，字符串匹配不等于跳转。
+94|distilled|references/by-type/business-logic.md|Liberapay迁移POST step2跳过前序校验，username与任意email_address组合声称返回目标邮箱；示例目标None不能替代自有AB业务结果，Cookie/CSRF有效不证明目标归属，最小邮箱标记。
+95|insufficient_technical_detail||BeVigil视频封面无具体数据或APK验证。
+96|distilled|references/by-type/xss.md|Flask/profile删除单引号后直接插Python格式化JavaScript name字符串再innerHTML+=；HTML script结束与后续DOM解释不同层，单字符黑名单不是上下文编码，实验要固定缺参类型/响应类型/实际执行。
+97|insufficient_technical_detail||Top5 bounty视频封面，无步骤。
+98|insufficient_technical_detail||EvilnoVNC钓鱼平台标志，无机制或测试许可。
+99|insufficient_technical_detail||HSTP/TCP/HTTP层级示意，无协议规范或数据实现。
+100|distilled|references/by-type/xss.md|TikTok票务storedXSS摘要及历史状态变化，未见具体字段/渲染器；票务提交到消费者链用自有票据与可见标记验证，不能补造admincookie。
+101|no_technical_content||私有项目邀请梗图，无技术内容。
+102|no_technical_content||Hall of Fame名单与圈选，无机制。
+103|distilled|references/discovery/web-and-api.md|Salesforce AJAX Toolkit Shell空编辑框，未见登录态/执行/返回；静态页面可见不证明服务端shell权限。
+104|insufficient_technical_detail||修改admin密码/数据库配置P1标题，缺少请求和前后状态；结合正文安装端点按最小只读配置与自有环境验证，不实际更改他人配置。
+105|distilled|references/hunting-strategy.md|研究收益对竞争/信息清晰度天平比喻；不能作收益概率，保留有时间限额的假设验证与停止条件。
+106|no_technical_content||Yogosha150奖励通知无token有效性证据；正文低危泄露主张不能以金额校准所有泄露。
+107|distilled|references/by-type/ssrf.md|lorsrf参数/带外加载候选工具卡，SSRF和resource load分开，DNS/HTTP来源与主动预算，单回连不证明内网影响。
+

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "1771454436512067801-02.png",
+    "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+    "prior": {
+      "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+      "example_post_id": "1311048137340006400",
+      "image_name": "1311048137340006400-03.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整DoDseal装饰，无IDOR请求或改密终态",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:07:25.820172+00:00",
+      "batch": "media-0047"
+    }
+  },
+  {
+    "name": "1772295974079078565-02.png",
+    "sha256": "ad083a69bef3d565dd0f0b6bdb9c6a56ba257611691775d0cdcac3937b6e20b3",
+    "prior": {
+      "sha256": "ad083a69bef3d565dd0f0b6bdb9c6a56ba257611691775d0cdcac3937b6e20b3",
+      "example_post_id": "1762170104521875723",
+      "image_name": "1762170104521875723-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "香蕉装饰图，newsletter封面，无技术机制。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T13:50:46.238Z",
+      "batch": "media-0203"
+    }
+  },
+  {
+    "name": "1773235282667622594-02.jpg",
+    "sha256": "f8ee569fa9483d3bce0311a714f52af633ea90f1b9ca25299fe3c4679a40a6a4",
+    "prior": {
+      "sha256": "f8ee569fa9483d3bce0311a714f52af633ea90f1b9ca25299fe3c4679a40a6a4",
+      "example_post_id": "1759511435846009207",
+      "image_name": "1759511435846009207-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "Netlas宣传封面，无工业资产查询条件。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T13:26:47.318Z",
+      "batch": "media-0202"
+    }
+  }
+]

@@ -1,0 +1,250 @@
+1|excluded||Owt命令行WiFi审计工具标题/标志，无保存机制或扫描结果。
+2|excluded||Nuclei模板仓库卡片/星数，无保存template规则或实测。
+3|excluded||13种OTP绕过标题缺方法图片，按用户约定计覆盖。
+4|new_knowledge|xss|Reflector图POST反射/HTMLscript/Vulnerable与两个奖励条目，缺实际浏览器执行，筛选和证实分层。
+5|new_knowledge|passive,source|EDD帮助function/domain/computer/group/user/share/search与threads，help done不等于枚举完成。
+6|excluded||Radio5 podcast海报，无保存方法或triaging正文。
+7|corrected|references/by-type/crlf-response-splitting.md,waf|百分号hex大小写同八位字节但字符串WAF可不同；必须真实消费换行及成对对照。
+8|new_knowledge|source,secret|URL反斜杠引发PCRE编译/缺delimiter错误，支持regex构建异常，不能补执行或敏感权限。
+9|excluded||xRay已激活广告，无保存规则或可信检测结果。
+10|excluded||JWT文章标题，无保存全文。
+11|excluded||nrp no redirect工具链接，无保存参数或实现。
+12|new_knowledge|web|WWWGrep帮助区分literal/regex、header/HTML/JS、root/any递归和认证代理，按消费者保留来源。
+13|excluded||7500 triaged奖图，秘密机制遮掩，无保存漏洞正文。
+14|merged|report|建议分享方法而非奖金合并问题、条件、最小证据和反例报告。
+15|excluded||删除账号IDOR文章外链，无保存请求或终态。
+16|merged|impact|低危可组成链是条件建议，合并独立边/consumer/授权，不保证提影响。
+17|excluded||Google Groups数百公司文章，无保存机制。
+18|excluded||新手看计划后做什么的提问，无保存答案。
+19|corrected|cloud,access|execute-api域发现不保证无auth；具体route/stage/actor/action及范围才决定权限。
+20|excluded||学校邮箱Shodan优惠推荐，无安全方法。
+21|excluded||新writeup推荐，无保存技术正文。
+22|new_knowledge|lfi,access|已读两张WindowsADS卡片，::$DATA与$INDEX_ALLOCATION仅候选，需NTFS/handler/路径/实际响应。
+23|excluded||Karta宣传标志，无保存IDA匹配结果。
+24|corrected|xss|重定向Rickroll不是最小XSS证明；需读者origin/受控标记与执行因果。
+25|excluded||Admin Dashboard标题，缺图片按用户约定覆盖。
+26|merged|secret,passive|GitHub send_keys/client_secret/jira/root关键词只是候选；源版本/owner/用途及脱敏最小字段。
+27|new_knowledge|records,passive|pagodo2.0图库/字典接口/代理/minmax等待和all_dorks固定文件改变，绑定版本与查询收据。
+28|excluded||cyfe CSRF封面/外链，无保存具体机制。
+29|excluded||持续学习鼓励，无技术合同。
+30|excluded||Unbounce接管报告链接，无保存DNS/provider正文。
+31|excluded||学习渠道投票，无漏洞机制。
+32|excluded||Pollenisator标志，无保存协作数据或执行。
+33|excluded||社工能力观点，没有具体获准机制。
+34|excluded||leetcipher视频赞赏/IDOR海报，无保存步骤。
+35|corrected|auth|分号路径只Java可绕限流的绝对断言不成立；记录各层raw/normalizedroute计数键及版本。
+36|excluded||DHS halloffame头像图，无保存漏洞机制。
+37|new_knowledge|access,web|Grafana404→home后403消失的叙述缺会话/对象数据；route/UI/API终态分开。
+38|excluded||ODBParser标志和外链，无保存开放数据库内容。
+39|excluded||被动recon直播宣传，无保存方法。
+40|excluded||WhatsApp营销软件广告，无安全知识正文。
+41|excluded||SendBlaster营销软件广告，重复帖子同正文计覆盖。
+42|excluded||日常bugbounty视频，无保存正文。
+43|excluded||Autoharness图仅函数名清单，缺生成harness输入/输出及覆盖。
+44|excluded||WebcamMax软件广告，无安全机制。
+45|excluded||webinar成功拼图谈收入/职业前景，无漏洞技术内容。
+46|corrected|auth,secret|默认凭证历史表需产品版本/初始化/部署配置，未复制值或登录，不推当前实例有效。
+47|new_knowledge|access,waf|路径大小写候选按edge/router/filesystem/授权规范化逐层核对，不自动403绕过。
+48|excluded||Dialogflow IDOR标题/Google标志，无保存API授权证据。
+49|new_knowledge|business|官方教程可发现功能入口；绑定文档/产品版本与真实权限，不保证无人测试。
+50|excluded||提权报告链接，无保存机制。
+51|excluded||Shodan/OSINT/Github标签，图片缺失/既有记录，不补查询全文。
+52|corrected|xss,web|subfinder/httpx/hakrawler/kxss grep引号串联仅反射候选，变量拼写和scope/来源/上下文需保留。
+53|excluded||1420SSRFinternalport自述/架构图，缺真实取回及端口收据。
+54|excluded||桌面应用研究者招聘，无方法正文。
+55|excluded||Gokart标志，无保存Go审计规则。
+56|excluded||Nubank历史计划新闻，非当前范围授权。
+57|excluded||GoogleIDOR5000文章外链，无保存细节。
+58|excluded||DialogflowIDOR3133文章外链，无保存细节。
+59|excluded||Confluence报告文章，无保存全文。
+60|excluded||BurpEnterprise扩展新闻，无保存配置/实测。
+61|excluded||VMware否认泄漏新闻，无保存技术内容。
+62|excluded||CloudKit/Shortcut删除文章宣传封面，无保存链路。
+63|excluded||CloudKit同文章另一链接，无保存技术全文。
+64|excluded||newsletter摘要，无保存具体方法。
+65|excluded||OG tips感叹，无技术内容。
+66|excluded||CloudKit文章标题，无保存全文。
+67|excluded||abaddon repo推荐，无保存红队机制。
+68|merged|strategy|耗时工作建议合并可验证假设/预算/停止条件，不保证高奖励。
+69|excluded||Peirates标志，无保存K8s测试机制。
+70|excluded||坚持鼓励，无技术方法。
+71|excluded||买iPhone感叹，无方法证据。
+72|excluded||远程pentester招聘，无漏洞知识。
+73|new_knowledge|auth|Facebook flashcall recovery请求/回包图缺密码变更终态；cli/code/filter_map各按challenge阶段绑定。
+74|excluded||clickjacking首次奖金故事外链，无保存机制。
+75|new_knowledge|auth,source|targetedKerberoast图打印票据样式串，缺实际ACL修改/恢复和权限；未复制或破解hash。
+76|excluded||付费学习建议图，无漏洞机制。
+77|corrected|strategy|VDP/B2B/平台目标排序是偏好，不保证邀请/易用；按能力、授权、业务功能选择。
+78|new_knowledge|xss,scope|0921 challenge规则图要求指定域/ChromeFirefox/非selfXSSMITM/域标记；历史规则非现授权。
+79|excluded||Grafana Shodan文章，无保存具体访问证据。
+80|excluded||上传限制绕过文章，无保存全文。
+81|excluded||视频营销软件广告，无技术知识。
+82|new_knowledge|android,web|jadx注解grep图含GET/POST/{url}/动态path，需baseURL/version/callsite/实际请求，非全部API。
+83|excluded||Ivanti swag衫，无保存漏洞机制。
+84|excluded||BoobSnail标志，无保存XLM生成或消费。
+85|new_knowledge|access|移除成员后旧添加文件/编辑请求权限未刷新叙述；奖励图title data_requestsreports不完全同file动作。
+86|excluded||保存3/4报告URL名单无正文，缺前后续按约定覆盖。
+87|corrected|lfi,waf|file URL问号、双编码、shell变量/替换分属不同消费者，不保证应用展开或LFI。
+88|excluded||作业代写广告，无安全方法。
+89|corrected|cmd,passive|Jira ContactAdministrators dork只是历史功能候选；版本/配置/执行因果缺失不直接CVE命中。
+90|excluded||OOB SQL文章，无保存技术全文。
+91|excluded||Burp课程优惠，无保存正文。
+92|new_knowledge|records,scope|trickest模板卡列ASN/URLs/JS/redirect/brute等动作，模板分类非运行收据或授权。
+93|new_knowledge|business,strategy|图片反思无目标改请求与建立asset关系的区别，整理业务对象/消费者/可证伪假设。
+94|merged|lfi|LFI标题无新保存输入细节，合并问号/解码/消费者条件，不据标题认定绕过。
+95|excluded||课程免费推广，无技术正文。
+96|excluded||SQL资源thread标题，无保存具体挑战或答案。
+97|excluded||iOS教程介绍，无保存技术全文。
+98|merged|lfi,waf|同LFI候选清单不同帖hash，合并file URL与shell语法消费者区分。
+99|new_knowledge|xss,waf|jQuery.ajax onfocus载script候选与triage图缺真实执行；jQuery/CSP/event/加载reader条件必须绑定。
+100|excluded||Vailyn repo标题，无保存执行/实现。
+101|excluded||开发技能文章推荐，无保存全文。
+102|new_knowledge|logic|图列Success/Referer/Callback URL再打开称支付成功，需账单/签名/结算/交付，非页面确认。
+103|excluded||DOMXSS accepted852.5图和lab推荐，无保存sink技术链。
+104|corrected|cloud,secret|Firebase db URL/框架识别只是公开配置线索；无read/write/data证据，缺2/2不补泄漏。
+105|excluded||Chess.comATO十分钟文章，无保存链路。
+106|excluded||入门文章，无保存正文。
+107|excluded||IRCTC票据泄漏标题，无保存请求/对象数据。
+108|new_knowledge|records,passive|OneForAll两图不同dev版本API跳过/外部404500/port80仅2alive及csv覆盖，不能全部资产。
+109|new_knowledge|files|图只multipart cat.html/textHTML/h1test请求，无保存或取回；黑白名单和Exif非执行证明。
+110|excluded||Bugv排行/付款图，无保存漏洞机制。
+111|excluded||Intigriti个人奖励，无技术内容。
+112|merged|lfi,waf|转载LFI候选重复，只合并逐解析层验证，不执行源shell语法。
+113|excluded||AEM首bug文章，无保存全文。
+114|excluded||shell升级文章，无保存步骤。
+115|excluded||GCP笔记外链，无保存内容。
+116|excluded||奖金感想外链，无保存机制。
+117|excluded||CloudKit媒体新闻，无保存技术链。
+118|new_knowledge|references/by-type/prototype-pollution.md|Plution图仅本地fixtures Vulnerable；需要实际source→原型写→gadget消费，非全真实网站证明。
+119|excluded||ADcheatsheet part2外链，无保存正文。
+120|excluded||RCE两个情形引言缺续文，按约定覆盖。
+121|excluded||LUKS文章，无保存技术正文。
+122|new_knowledge|doc,source|Word与计算器同屏不证明doc触发；文档/版本/激活/子进程链与CVE标题分开。
+123|corrected|passive|ping254后台并发文字无wait/result分类，ICMP不响应不证明hostdown，未扫描网络。
+124|excluded||Twilio/GitOps/apkeep/iOS文章列表及封面，无保存正文。
+125|excluded||云pentest笔记外链，无保存方法。
+126|merged|graphql|Voyager可视化推荐缺图/实际schema，合并schema见性与授权差别。
+127|excluded||OSINT ransomware文章，无保存正文。
+128|merged|takeover|DNSTake missing zones标题合并NS/provider实际binding/授权条件。
+129|excluded||Burp已激活广告，无技术方法。
+130|corrected|secret|MongoDB密码在HTML的玩笑无保存字段/上下文，不能把客户端配置自动当有效DB身份。
+131|new_knowledge|references/by-type/desktop-client.md|厚客户端two-tier数据库图只架构；客户端/网络/DB独立身份与连接收据需核对。
+132|excluded||生活建议视频，无安全机制。
+133|excluded||JSON CSRF文章，无保存技术全文。
+134|excluded||On-The-Fly低清VM图细字不可可靠读，无获准测试输入/结果。
+135|excluded||笔记软件提问，无保存答案。
+136|merged|passive|ping范围脚本同示例，合并ICMP/应用层、并发终态和范围合同，不运行。
+137|new_knowledge|source,auth|NTLM_theft图只是生成文件/localhost shortcut，没触发、网络认证或hash收据。
+138|corrected|scope,records|GitHubActions乘250扫所有program不等于范围/平台授权，速率/IP封禁须独立限界。
+139|excluded||保持专注/自立建议，无技术内容。
+140|merged|cloud,source|完整alt已读OMIGOD产品列表只是组件候选，实际OMI版本/配置/暴露缺失，非所有Azure受影响。
+141|corrected|sql|正常username与恒真式同内容不足证明SQL，需成对真假/数据和查询构造及解析基线。
+142|corrected|scope,references/by-type/cors.md|scope内CORS信任不授权scope外XSS；须独立授权、reader凭证/可读内容，奖金非许可。
+143|new_knowledge|secret,web|gau去query/regex/fff200保存/gf循环图需目录输入和阶段连接，模式命中不是有效secret。
+144|new_knowledge|auth,logic|OTP请求图phone number/SMS format只字段，无发送/挑战消费；绑收件人与用途，未发SMS。
+145|excluded||Facebookemailphone朋友泄漏文章，无保存机制。
+146|new_knowledge|secret|Drupal config/sync和core services示意候选需具体字段/版本/read权限，installedmodule非全confidential。
+147|excluded||RFC参考链接未保存规范全文，不据资源列表推已读。
+148|merged|secret|Drupal>=8隐藏配置建议合并已读146图的方法，非全部>=8可泄漏。
+149|excluded||打印驱动提权标题/装饰图，无保存机制。
+150|excluded||MongoDBObjectId构造函数doc标题截图提问，缺输入/实现/上下文，不判有害。
+151|new_knowledge|passive,scope|证书内部CN/reversewhois线索不证明内网可达或授权，分主体/历史SAN/路由/资产owner。
+152|excluded||无经验入行讲座海报，无保存技术正文。
+153|excluded||Android攻击面讲座海报，无保存内容。
+154|excluded||云appsec讲座海报，无保存方法。
+155|merged|source,web|手工JS审查和视频列表只入口建议，合并source/sink、版本、调用链和实际消费。
+156|excluded||Docker/K8sCI/CD讲座海报，无保存技术内容。
+157|excluded||CodeQLWorkshop封面/repo，无保存查询实现或审计正文。
+158|excluded||漏洞报告写作讲座封面，无保存正文。
+159|merged|graphql|BatchQL标题合并已存在逻辑operation/alias/resolver预算与独立mutation授权。
+160|excluded||社工讲座海报，无保存方法。
+161|excluded||夸大奖金/0day反讽及车图，无安全知识。
+162|excluded||nonceCSP动态分析文章，无保存正文。
+163|new_knowledge|access|POST改GET可走不同handler；需同object/actor/action及状态，方法切换本身非IDOR。
+164|merged|passive|常见端口表不是实际协议识别/服务暴露；按获准资产和真实响应核对，未扫描。
+165|excluded||QLOG title，无保存日志/规则。
+166|new_knowledge|host,auth|XFFor双IP数组图依赖代理顺序与信任消费者，实际请求/免费权益终态缺失。
+167|excluded||Go-Blogs CTF封面/外链，无保存writeup。
+168|new_knowledge|xss,oauth|身份提供者email字段进入依赖服务sink需数据类型/输出context/origin，不据允许mail格式认定XSS。
+169|corrected|references/by-type/race-conditions.md,records|race adduser标题图实际Twitter按latest时间筛URL代码，不能补竞态；保留图错配和逐记录日期边界。
+170|excluded||DEFCON Delhi海报，无保存方法正文。
+171|corrected|scope|开放RDP/整subnet/VPS玩笑不授权使用或扩大范围，未扫描/登录。
+172|merged|scope,auth|SMS限流谨慎建议合并自有recipient/极小预算/停止条件，未实际发送。
+173|new_knowledge|android|jadx manifest图targetSDK25、权限、singleInstance及exportedfalse receiver，静态声明非全运行权限/可达。
+174|new_knowledge|source|inlineexecuteassembly图既有beacon执行SeatbeltLastShutdown，非首次入口/EDR绕过，运行与产物分开。
+175|excluded||IoT学习资料请求，无保存答案。
+176|excluded||GreatIDOR Finding标题缺具体内容，图片缺失计覆盖。
+177|new_knowledge|source|PS2EXE图编译HelloWorld输出文件，不证明运行/权限提升，源制品hash/运行身份分层。
+178|excluded||SQLaccepted3000奖图，无保存注入输入/响应。
+179|excluded||NASA漏洞文章，无保存机制。
+180|excluded||XSS当医生文章，无保存正文。
+181|new_knowledge|lfi,cmd|完整LFI图概念/Log poisoning链需可控日志字节/可读路径/include解释/权限，不自动shell/DoS。
+182|excluded||Instagram unlimitedreport文章，无保存请求/配额证据。
+183|excluded||CrowdSec标志，无保存规则/效果。
+184|excluded||H1swag图，无技术内容。
+185|excluded||Subnetting文章，无保存全文。
+186|excluded||Pythonvenv文章，无保存机制。
+187|excluded||BBC凭证泄漏文章，无保存字段/consumer。
+188|merged|source|info grep帮助阅读建议合并自有工具参数核对；不执行archive指令。
+189|corrected|secret,passive|CDX图多个重复api-key query，有test标记；历史行数不能10k有效premium身份，未复制值。
+190|excluded||Twitterevent资源过滤链接，无保存内容。
+191|corrected|impact,report|图/metrics GC周期NA不能推因名气拒绝；按字段敏感性、政策、报告差异和时间核对。
+192|excluded||500奖邮件遮掩机制，无技术细节。
+193|excluded||MailRip主菜单无实际SMTP检查/成功或授权。
+194|merged|report|StackEdit写报告软件建议无特殊方法，合并问题/证据/最小脱敏与反例结构。
+195|corrected|scope,records|改工具UA不提供匿名/许可；若项目指定识别保留标识、记录agent及版本，不以绕封禁为授权。
+196|excluded||Websecurity roadmap外链，无保存图/正文。
+197|excluded||iOS15锁屏绕过新闻，无保存机制。
+198|excluded||ConfluenceCVE视频，无保存技术正文。
+199|excluded||npm5RCE文章，无保存漏洞链。
+200|excluded||OWASPdraft新闻，无保存技术全文。
+201|excluded||visma reflectedXSS视频，无保存sink/执行正文。
+202|merged|secret,web|TruffleHogChrome标题/keys meme合并脚本来源、匹配/真实秘密用途与访问权限区别。
+203|excluded||newsletter订阅图，无技术内容。
+204|new_knowledge|access|API添加internal路由403→200只有状态自述；私有数据/角色/动作绑定，非总绕过。
+205|new_knowledge|web|错误页逆图搜索识别框架只fingerprint候选；模板复用/版本错配与实际组件验证分开。
+206|merged|report|未回复公开催办不证明处置状态；合并原始报告/收件/时间与获准渠道，不发送消息。
+207|corrected|xss,csrf,ssrf|selfXSS+CSRF需可强制种植/读者执行；缺X-XSS-Protection与window.location客户端请求不证明SSRF/XSPA。
+208|excluded||PyHook图空cmd和文件目录，无保存捕获或hook消费。
+209|new_knowledge|fuzz|Weakpass两个seed生成432只是候选扩增/规则，不证明正确密码，未用wordlist登录或破解。
+210|merged|files,source|vCenterCVE22005标题/官方链接未读全文，合并版本/config实际上传存储/解释链，非标题命中。
+211|new_knowledge|passive,source|整张网络工具图已读，按连接/协议/路由/观察/配置副作用划分，不当执行授权。
+212|new_knowledge|auth,logic,impact|两100邮件题为daily notification/admin创建和invitebomb，缺实际限流证据；业务send预算与政策阶段分离。
+213|new_knowledge|references/by-type/desktop-client.md|WorkSpaces协议图3.1.6.2064初始--uri嵌gpu-launcher，缺calc子进程，按解析/argv/再派发核对。
+214|excluded||DirSearchGo标志，无保存扫描机制。
+215|excluded||Diamondleague个人图，无技术内容。
+216|excluded||Mozilla mXSS文章，无保存DOM/变异结果。
+217|excluded||Telegramchannel推广，无技术知识。
+218|merged|fuzz|Haptyc attackmode推荐合并参数位置/组合数/逻辑预算，不运行TurboIntruder。
+219|excluded||Burp课程推广，无保存教程。
+220|excluded||Nessus值不值的提问，无保存比较。
+221|merged|scope|历史FacebookSSRF停止条款自述非当前政策；按书面授权/停止规则，不进一步探测。
+222|excluded||AES密码经理标志，算法名非实现安全证明。
+223|corrected|strategy|每站必有漏洞/爬所有端点无根据；按授权功能矩阵和证据定义覆盖，不保证发现。
+224|corrected|host,scope|Apple多数subdomain问题自述图一架构一XFH302；真实支持URL生成未证明internalapp可读/全子域。
+225|new_knowledge|auth,source|NTLMgenerator现代格式列表和跳过SCF/zoom等只制品生成，reader触发/网络hash另证。
+226|excluded||GraphQL资源链接列表，无保存全文。
+227|excluded||双program金额自述，无漏洞机制。
+228|new_knowledge|graphql,access|VoiceCreator query到creator.email_settings.confirmed_email.email_address缺response/actor，不等于全subscriber列表。
+229|excluded||课程优惠广告，无保存知识。
+230|corrected|lfi,cmd|PHP input://拼写与php://file错误分类，input/filter/expect能力及include条件分开，官方规范已核对。
+231|excluded||DOMXSS视频封面，无保存方法正文。
+232|excluded||Wordlistgen标题/WORDS标志，无保存生成规则。
+233|excluded||NoSQL教学视频封面，无保存方法。
+234|new_knowledge|xss|图仅semangkablog域alert及裁切URL，读者origin可观察但source/sink/触发途径和权限仍缺。
+235|corrected|impact,report|私人红队奖励图将多类别皆Critical，缺完整consumer/影响证据，不当通用评级表。
+236|excluded||MSRC历史署名页，无保存漏洞机制。
+237|new_knowledge|references/by-type/prototype-pollution.md|JSPanda控制台主动defineProperty(Object.prototype)并打印Polluted，是实验写入而非应用污染source/gadget成立。
+238|new_knowledge|xss|符号代码图从类型强转/字符串索引拼constructor/Function，片段缺无括号调用末尾和实际执行。
+239|corrected|scope|荷兰政府网站清单/sw ag推荐不能替代逐资产当前披露规则，未抓列表/扫描。
+240|corrected|cmd,impact|exportPS1改提示符外观不改变uid/权限/执行边界，反讽不能计提升影响。
+241|new_knowledge|lfi,web|curl/browser/Python路径规范化说法需版本/选项/原始wire，不能泛化所有Python原样。
+242|corrected|xss|Safari14.1 works图只BrowserStack选择页，无payload/执行且历史latest非当前，分版本选择/测试收据。
+243|merged|scope,container|CloudShelldockerdesktop6080候选启动不提供公网访问安全/扫描许可，需runtime/端口认证及使用规则。
+244|excluded||AEMwebseries视频，无保存正文。
+245|merged|lfi,cmd|黑白LFI概念/log图完整已读，合并181各前提，不从DOS/shell标签补实测。
+246|excluded||ASP.NETCore traversal文章，无保存路径/实现全文。
+247|new_knowledge|auth,experiment|先preauth场景再postauth建议形成无会话/低权/高权矩阵及同对象状态基线。
+248|new_knowledge|auth,android|Web与Android同邮箱不同密码注册保存1/2缺续文；须统一identity/realm/verification/documentowner最终状态。
+249|excluded||informationdisclosure标题缺方法图片，按约定计覆盖。
+250|excluded||Reconky脚本推荐，无保存实现，未执行。

@@ -1,0 +1,562 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "WordPress公开元数据与私有调试文件分开确认"
+  },
+  "2": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "免括号语法候选仍依赖具体脚本消费者"
+  },
+  "4": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "报表file URI与插件下载参数各自核对读取边界"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "Aura风险分与PyPI相似包只生成审计候选"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "打印服务与令牌工具须补齐初始权限和触发前提"
+  },
+  "13": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "403工具卡不能替代拒绝原因和最终业务权限"
+  },
+  "14": {
+    "dis": "merged",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "打印服务与令牌工具须补齐初始权限和触发前提"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "现成Shell菜单不构成最初RCE路径"
+  },
+  "20": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "客户端在范围外时不能借最终范围内消费者扩张授权"
+  },
+  "22": {
+    "dis": "merged",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "打印服务与令牌工具须补齐初始权限和触发前提"
+  },
+  "23": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "浏览器扩展按身份隔离和真实请求检验"
+  },
+  "24": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "UserAgent时间SQL候选需区分函数时钟与网络等待"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "Teams GIF演示需要区分显示内容与本地命令来源"
+  },
+  "27": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "搜索查询与实际回跳目标不能混同"
+  },
+  "31": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "CVE管道命中须在范围和模板请求之间设证据边界"
+  },
+  "32": {
+    "dis": "corrected",
+    "targets": "references/by-type/oauth-oidc.md",
+    "note": "OAuth外部redirect示意要绑定客户端与实际授权响应"
+  },
+  "35": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "报表file URI与插件下载参数各自核对读取边界"
+  },
+  "36": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "cachebuster改变缓存状态也可能改变实验变量"
+  },
+  "37": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md,references/targeted-fuzzing.md",
+    "note": "报表file URI与插件下载参数各自核对读取边界；CVE管道命中须在范围和模板请求之间设证据边界"
+  },
+  "39": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "免括号语法候选仍依赖具体脚本消费者"
+  },
+  "40": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "无线接口菜单和IQ波形区分被动采集与主动修改"
+  },
+  "44": {
+    "dis": "merged",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "无线接口菜单和IQ波形区分被动采集与主动修改"
+  },
+  "48": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "security.txt联系渠道和公开项目标签不授予测试权限"
+  },
+  "53": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md,references/targeted-fuzzing.md",
+    "note": "报表file URI与插件下载参数各自核对读取边界；CVE管道命中须在范围和模板请求之间设证据边界"
+  },
+  "54": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "子域排列与单IPv4管道不能代表全部解析覆盖"
+  },
+  "56": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "PHPwrapper特性表不是任意文件读到RCE的通用桥"
+  },
+  "63": {
+    "dis": "corrected",
+    "targets": "references/cloud/container-k8s-security.md",
+    "note": "kubectl秘密读取需按当前RBAC及响应最小化"
+  },
+  "64": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "现成Shell菜单不构成最初RCE路径"
+  },
+  "65": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "403工具卡不能替代拒绝原因和最终业务权限"
+  },
+  "67": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "静态页面与JavaScript仍可形成真实API入口线索"
+  },
+  "68": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "403工具卡不能替代拒绝原因和最终业务权限"
+  },
+  "71": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md,references/by-type/subdomain-takeover.md",
+    "note": "子域到自动化流程必须保留每阶段来源与失败；404及takeover指纹须与实际资源绑定条件复核"
+  },
+  "72": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "临时目录HTTP服务要核对监听范围与上传权限"
+  },
+  "73": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "网站词表与OWA包装器需固定账号和失败预算"
+  },
+  "75": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "网站词表与OWA包装器需固定账号和失败预算"
+  },
+  "76": {
+    "dis": "merged",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "打印服务与令牌工具须补齐初始权限和触发前提"
+  },
+  "77": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "目录递归与后缀组合应按整个队列计预算"
+  },
+  "79": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "目录递归与后缀组合应按整个队列计预算"
+  },
+  "85": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md,references/by-type/subdomain-takeover.md",
+    "note": "子域到自动化流程必须保留每阶段来源与失败；404及takeover指纹须与实际资源绑定条件复核"
+  },
+  "87": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "给请求加标签头会改变被观测实验"
+  },
+  "88": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "XLL加载提示与Excel进程属性分开证明执行"
+  },
+  "89": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "子域排列与单IPv4管道不能代表全部解析覆盖"
+  },
+  "91": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "免括号语法候选仍依赖具体脚本消费者"
+  },
+  "92": {
+    "dis": "corrected",
+    "targets": "references/by-type/graphql.md",
+    "note": "GraphQL批处理按逻辑操作而非HTTP包数检查限流"
+  },
+  "93": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "Webhook与PDF及邮箱域回调要定位真正消费者"
+  },
+  "95": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md,references/by-type/document-rendering.md",
+    "note": "Webhook与PDF及邮箱域回调要定位真正消费者；PDF外部资源与文档URL导入分步确认"
+  },
+  "96": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "Registry Run自动分类须复核ACL与真实登录触发"
+  },
+  "97": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "产品版本接口与漏洞影响应分开判断"
+  },
+  "98": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "现成Shell菜单不构成最初RCE路径"
+  },
+  "101": {
+    "dis": "merged",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "XLL加载提示与Excel进程属性分开证明执行"
+  },
+  "102": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "静态页面与JavaScript仍可形成真实API入口线索"
+  },
+  "103": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "复现争议按完整环境与根因证据沟通"
+  },
+  "104": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "复现争议按完整环境与根因证据沟通"
+  },
+  "105": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "复现争议按完整环境与根因证据沟通"
+  },
+  "106": {
+    "dis": "corrected",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "CIA影响应落在受保护对象和最终状态上"
+  },
+  "108": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "静态特征动态日志和模型分数保存各自证据来源"
+  },
+  "109": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "子域排列与单IPv4管道不能代表全部解析覆盖"
+  },
+  "110": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "客户端在范围外时不能借最终范围内消费者扩张授权"
+  },
+  "112": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "子域排列与单IPv4管道不能代表全部解析覆盖"
+  },
+  "113": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "静态特征动态日志和模型分数保存各自证据来源"
+  },
+  "114": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "复现争议按完整环境与根因证据沟通"
+  },
+  "118": {
+    "dis": "merged",
+    "targets": "references/experiment-design.md",
+    "note": "浏览器扩展按身份隔离和真实请求检验"
+  },
+  "120": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "GitHub配置字段关键词须回到发行提交和有效边界"
+  },
+  "121": {
+    "dis": "corrected",
+    "targets": "references/by-type/jwt.md",
+    "note": "JWT前缀和可解码内容不能说明加密或认证有效"
+  },
+  "125": {
+    "dis": "merged",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "无线接口菜单和IQ波形区分被动采集与主动修改"
+  },
+  "126": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "静态特征动态日志和模型分数保存各自证据来源"
+  },
+  "128": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "GitHub配置字段关键词须回到发行提交和有效边界"
+  },
+  "132": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "登录CookiePath不能解释Jetty目录列表的权限"
+  },
+  "135": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "USB进程附加与APK重签名改变本地验证前提"
+  },
+  "136": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "地址变体清单必须绑定最终连接解析器"
+  },
+  "145": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "GitHub配置字段关键词须回到发行提交和有效边界"
+  },
+  "148": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "massassignment角色变化需检查真实写入对象"
+  },
+  "151": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "目录递归与后缀组合应按整个队列计预算"
+  },
+  "153": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "Oracle条件错误候选需以可观测真假分支确认"
+  },
+  "154": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/by-type/xss.md",
+    "note": "PHP顺序替换黑名单须模拟最终SQL字节；SQL挑战的无结果反射还有独立HTML消费者"
+  },
+  "155": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "OpenAPI负向生成需标明实际契约与状态副作用"
+  },
+  "156": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "静态特征动态日志和模型分数保存各自证据来源"
+  },
+  "159": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "子域排列与单IPv4管道不能代表全部解析覆盖"
+  },
+  "160": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "复现争议按完整环境与根因证据沟通"
+  },
+  "163": {
+    "dis": "merged",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "USB进程附加与APK重签名改变本地验证前提"
+  },
+  "164": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md,references/by-type/cmd-injection-rce.md",
+    "note": "CVE管道命中须在范围和模板请求之间设证据边界；Bitbucket公共仓库和Git错误须分别归因"
+  },
+  "168": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "选择功能假设与练习环境要按证据收益控制投入"
+  },
+  "169": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "子域排列与单IPv4管道不能代表全部解析覆盖"
+  },
+  "170": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "CSP阻断与另一浏览器弹窗必须保留同源条件"
+  },
+  "171": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "prototype转换效果仍须证明不受信输入进入该链"
+  },
+  "176": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "UserAgent时间SQL候选需区分函数时钟与网络等待"
+  },
+  "178": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "子域到自动化流程必须保留每阶段来源与失败"
+  },
+  "186": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "虚拟主机实验单变量区分Host路径和SNI"
+  },
+  "187": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "协议信息功能不能默认包含踢人或代理捕获"
+  },
+  "189": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "子域到自动化流程必须保留每阶段来源与失败"
+  },
+  "199": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "Tor配置完成与恢复文字需要实际网络状态对照"
+  },
+  "207": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "登录和注册回跳应各自验证当前修复状态"
+  },
+  "208": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "付费内容访问先确定订单权益和被访问对象"
+  },
+  "209": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md,references/by-type/cmd-injection-rce.md",
+    "note": "CVE管道命中须在范围和模板请求之间设证据边界；Bitbucket公共仓库和Git错误须分别归因"
+  },
+  "211": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "盲XSS通知计数不能替代输入到消费者归因"
+  },
+  "220": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "免括号语法候选仍依赖具体脚本消费者"
+  },
+  "224": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "选择功能假设与练习环境要按证据收益控制投入"
+  },
+  "226": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "子域排列与单IPv4管道不能代表全部解析覆盖"
+  },
+  "227": {
+    "dis": "corrected",
+    "targets": "references/by-type/ldap-xpath.md",
+    "note": "匿名AD绑定成功不代表枚举模块全部成功"
+  },
+  "228": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "子域排列与单IPv4管道不能代表全部解析覆盖"
+  },
+  "230": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "子域排列与单IPv4管道不能代表全部解析覆盖"
+  },
+  "231": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md,references/hunting-strategy.md",
+    "note": "目录递归与后缀组合应按整个队列计预算；选择功能假设与练习环境要按证据收益控制投入"
+  },
+  "232": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "邮件触发限流用最小自有次数验证"
+  },
+  "233": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "选择功能假设与练习环境要按证据收益控制投入"
+  },
+  "234": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "自定义CA与OCSP设置不能证明pinning绕过"
+  },
+  "242": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "客户端在范围外时不能借最终范围内消费者扩张授权"
+  },
+  "243": {
+    "dis": "merged",
+    "targets": "references/by-type/jwt.md",
+    "note": "JWT前缀和可解码内容不能说明加密或认证有效"
+  },
+  "244": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "子域排列与单IPv4管道不能代表全部解析覆盖"
+  },
+  "245": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "溢出实验的崩溃阈值偏移与执行证据不能跨环境拼接"
+  },
+  "246": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "GitHub配置字段关键词须回到发行提交和有效边界"
+  },
+  "249": {
+    "dis": "merged",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "搜索查询与实际回跳目标不能混同"
+  },
+  "250": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "免括号语法候选仍依赖具体脚本消费者"
+  }
+}

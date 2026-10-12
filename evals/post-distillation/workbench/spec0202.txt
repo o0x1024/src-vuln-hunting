@@ -1,0 +1,155 @@
+1|corrected|references/by-type/authn-session.md|0202 正文：索引到管理登录页的发现边界
+2|corrected|references/by-type/info-secrets.md,references/by-type/authn-session.md,references/by-type/idor-access-control.md|保存图片 1738513201380126996-02.jpg 的 secret 验证边界；保存图片 1738513201380126996-03.jpg 的 secret 验证边界；保存图片 1738513201380126996-03.jpg 的 auth 验证边界；保存图片 1738513201380126996-04.jpg 的 secret 验证边界；保存图片 1738513201380126996-04.jpg 的 access 验证边界
+3|corrected|references/targeted-fuzzing.md,references/by-type/idor-access-control.md|保存图片 1738513561238810700-02.jpg 的 fuzz 验证边界；保存图片 1738513561238810700-02.jpg 的 access 验证边界
+4|excluded||完整保存正文/有意义替代文字已实际读完；First release of my Bugcrowd stats tool [外链] to download info about the programs you have access to - similar to h1stats by @defparam - please let me know if you hav；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+5|excluded||完整保存正文/有意义替代文字已实际读完；🚨Server Side Request Forgery (SSRF)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+6|corrected|references/discovery/passive-and-services.md,references/scope-and-rules.md|保存图片 1738515100707717369-02.jpg 的 passive 验证边界；保存图片 1738515100707717369-02.jpg 的 scope 验证边界
+7|excluded||完整保存正文/有意义替代文字已实际读完；🐛🦟🐌🐜🐝🐞🦋🦗🪲；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+8|corrected|references/by-type/xss.md|0202 正文：编码与脚本上下文必须经过真实解析链
+9|corrected|references/discovery/records-and-incremental.md,references/targeted-fuzzing.md|保存图片 1738522339841913251-02.png 的 records 验证边界；保存图片 1738522339841913251-02.png 的 fuzz 验证边界
+10|corrected|references/discovery/passive-and-services.md,references/scope-and-rules.md|保存图片 1738527416144769062-02.jpg 的 passive 验证边界；保存图片 1738527416144769062-02.jpg 的 scope 验证边界
+11|corrected|references/discovery/records-and-incremental.md|保存图片 1738579807762546844-02.png 的 records 验证边界；保存图片 1738579807762546844-03.png 的 records 验证边界
+12|corrected|references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md|保存图片 1738597836139422115-02.jpg 的 passive 验证边界；保存图片 1738597836139422115-02.jpg 的 records 验证边界；保存图片 1738597836139422115-02.jpg 的 scope 验证边界
+13|corrected|references/hunting-strategy.md,references/scope-and-rules.md|保存图片 1738604692446581088-02.jpg 的 strategy 验证边界；保存图片 1738604692446581088-02.jpg 的 scope 验证边界
+14|excluded||完整保存正文/有意义替代文字已实际读完；Advanced SQL Injection Cheatsheet；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+15|corrected|references/by-type/cmd-injection-rce.md,references/source-audit.md|保存图片 1738666074890019202-02.jpg 的 cmd 验证边界；保存图片 1738666074890019202-02.jpg 的 source 验证边界
+16|corrected|references/by-type/desktop-client.md,references/discovery/records-and-incremental.md,references/source-audit.md|保存图片 1738668891499336073-02.jpg 的 desktop 验证边界；保存图片 1738668891499336073-02.jpg 的 records 验证边界；保存图片 1738668891499336073-03.jpg 的 desktop 验证边界；保存图片 1738668891499336073-03.jpg 的 source 验证边界
+17|excluded||完整保存正文/有意义替代文字已实际读完；{JS-ON: Security-OFF}: Abusing JSON-Based SQL to Bypass WAF；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+18|excluded||完整保存正文/有意义替代文字已实际读完；Hi @jobertabma @Hacker0x01；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+19|excluded||完整保存正文/有意义替代文字已实际读完；UAC-0099 Using WinRAR Exploit to Target Ukrainian Firms with LONEPAGE Malware；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+20|excluded||完整保存正文/有意义替代文字已实际读完；Decoy Microsoft Word Documents Used to Deliver Nim-Based Malware；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+21|corrected|references/impact-and-acceptance.md|0202 正文：链条的每一步需要独立前提和证据
+22|excluded||完整保存正文/有意义替代文字已实际读完；Slides of @GodfatherOrwa talk in bsidesodisha about •Build your setup for hunting Tools , Extensions , Etc…；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+23|excluded||完整保存正文/有意义替代文字已实际读完；CVE-2023-5528: Insufficient input sanitization in in-tree storage plugin leads to privilege escalation on Windows nodes；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+24|excluded||完整保存正文/有意义替代文字已实际读完；Possibility of Request smuggling attack；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+25|excluded||完整保存正文/有意义替代文字已实际读完；👉SQL Injection Payload List👈；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+26|merged|references/by-type/authn-session.md,references/by-type/host-header.md|复用已核对图片 1738960223212388588-02.png 的 auth 边界；复用已核对图片 1738960223212388588-02.png 的 host 边界
+27|excluded||完整保存正文/有意义替代文字已实际读完；Resources for Vulnerability Research 🔎；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+28|corrected|references/by-type/api-property-pollution.md|0202 正文：隐藏参数候选和属性授权
+29|excluded||完整保存正文/有意义替代文字已实际读完；Hacking , bughunting, Forensics Reverse-Engineering 📚；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+30|corrected|references/by-type/waf-bypass.md,references/source-audit.md|保存图片 1739020621420314959-02.jpg 的 waf 验证边界；保存图片 1739020621420314959-02.jpg 的 source 验证边界；0202 正文：日志表达式和回调不等于命令执行
+31|corrected|references/by-type/idor-access-control.md,references/discovery/web-and-api.md,references/source-audit.md|保存图片 1739033796576723314-02.png 的 access 验证边界；保存图片 1739033796576723314-02.png 的 web 验证边界；保存图片 1739033796576723314-02.png 的 source 验证边界；0202 正文：AEM 与 Jira 的版本和实际暴露面
+32|corrected|references/by-type/ssrf.md,references/by-type/open-redirect.md|保存图片 1739126318229233748-02.jpg 的 ssrf 验证边界；保存图片 1739126318229233748-02.jpg 的 redirect 验证边界；0202 正文：短 IPv4 与 URL 解析的授权域比较
+33|excluded||完整保存正文/有意义替代文字已实际读完；Operation RusticWeb: Rust-Based Malware Targets Indian Government Entities；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+34|excluded||完整保存正文/有意义替代文字已实际读完；Rogue WordPress Plugin Exposes E-Commerce Sites to Credit Card Theft；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+35|excluded||完整保存正文/有意义替代文字已实际读完；British LAPSUS$ Teen Members Sentenced for High-Profile Attacks；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+36|corrected|references/scope-and-rules.md|0202 正文：security.txt 是披露联系信息
+37|corrected|references/discovery/records-and-incremental.md|0202 正文：资产搜集与 HTTP 探测要保留输入和完成状态
+38|corrected|references/discovery/passive-and-services.md,references/scope-and-rules.md|保存图片 1739198713883734091-02.jpg 的 passive 验证边界；保存图片 1739198713883734091-02.jpg 的 scope 验证边界
+39|excluded||完整保存正文/有意义替代文字已实际读完；😂😂😂；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+40|corrected|references/by-type/sql-injection.md|保存图片 1739202821923475841-02.jpg 的 sql 验证边界；0202 正文：SQL 候选需要可控输入到查询的证据
+41|excluded||完整保存正文/有意义替代文字已实际读完；🚨AWS, AZURE, Bug Bounty, etc. Dorks List🚨；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+42|corrected|references/by-type/info-secrets.md,references/discovery/records-and-incremental.md|保存图片 1739247116118306874-02.jpg 的 secret 验证边界；保存图片 1739247116118306874-02.jpg 的 records 验证边界
+43|corrected|references/by-type/lfi-path-traversal.md|0202 正文：配置文件读取与包含执行要分开
+44|excluded||完整保存正文/有意义替代文字已实际读完；🚨Bug Hunter Handbook🚨；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+45|corrected|references/by-type/idor-access-control.md,references/discovery/web-and-api.md|保存图片 1739322613015470452-02.png 的 access 验证边界；保存图片 1739322613015470452-02.png 的 web 验证边界
+46|merged|references/discovery/records-and-incremental.md|0202 正文：资产搜集与 HTTP 探测要保留输入和完成状态
+47|merged|references/by-type/sql-injection.md|0202 正文：SQL 候选需要可控输入到查询的证据
+48|corrected|references/by-type/sql-injection.md|保存图片 1739352842111160422-02.jpg 的 sql 验证边界；0202 正文：SQL 候选需要可控输入到查询的证据
+49|corrected|references/by-type/oauth-oidc.md,references/by-type/authn-session.md|保存图片 1739383010045432049-02.jpg 的 oauth 验证边界；保存图片 1739383010045432049-02.jpg 的 auth 验证边界；0202 正文：SSO 邮箱匹配的身份来源
+50|corrected|references/source-audit.md,references/by-type/ssrf.md,references/by-type/idor-access-control.md|保存图片 1739403145535766918-02.png 的 source 验证边界；保存图片 1739403145535766918-02.png 的 ssrf 验证边界；保存图片 1739403145535766918-02.png 的 access 验证边界；0202 正文：AEM 与 Jira 的版本和实际暴露面
+51|excluded||完整保存正文/有意义替代文字已实际读完；Mastering Bug Bounty: Your Ultimate Guide to Cybersecurity Success；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+52|excluded||完整保存正文/有意义替代文字已实际读完；Deep Dive Into XSS；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+53|excluded||完整保存正文/有意义替代文字已实际读完；Cloud Atlas' Spear-Phishing Attacks Target Russian Agro and Research Companies；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+54|corrected|references/by-type/idor-access-control.md,references/discovery/web-and-api.md,references/source-audit.md|保存图片 1739540621227077729-02.png 的 access 验证边界；保存图片 1739540621227077729-02.png 的 web 验证边界；保存图片 1739540621227077729-02.png 的 source 验证边界
+55|corrected|references/targeted-fuzzing.md,references/discovery/records-and-incremental.md|保存图片 1739609502952161476-02.jpg 的 fuzz 验证边界；保存图片 1739609502952161476-02.jpg 的 records 验证边界
+56|corrected|references/impact-and-acceptance.md,references/hunting-strategy.md|保存图片 1739673589266231312-02.jpg 的 impact 验证边界；保存图片 1739673589266231312-02.jpg 的 strategy 验证边界；0202 正文：链条的每一步需要独立前提和证据
+57|corrected|references/by-type/xss.md,references/by-type/api-property-pollution.md,references/source-audit.md|保存图片 1739674089537601758-02.jpg 的 xss 验证边界；保存图片 1739674089537601758-02.jpg 的 apip 验证边界；保存图片 1739674089537601758-02.jpg 的 source 验证边界；0202 正文：tel URI 解析后的下游语境
+58|merged|references/by-type/sql-injection.md|0202 正文：SQL 候选需要可控输入到查询的证据
+59|merged|references/by-type/sql-injection.md|复用已核对图片 1739745398137422016-02.png 的 sql 边界；复用已核对图片 1739745398137422016-03.jpg 的 sql 边界
+60|corrected|references/by-type/authn-session.md,references/by-type/idor-access-control.md|保存图片 1739762281607758283-02.png 的 auth 验证边界；保存图片 1739762281607758283-02.png 的 access 验证边界；0202 正文：客户端成功与服务器主体要分开
+61|excluded||完整保存正文/有意义替代文字已实际读完；Big thanks to @immunefi and @OddlySpecivik for shining a light on our journey!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+62|corrected|references/discovery/records-and-incremental.md,references/discovery/passive-and-services.md|保存图片 1739836870756831332-02.png 的 records 验证边界；保存图片 1739836870756831332-02.png 的 passive 验证边界
+63|corrected|references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md|保存图片 1739851093415190575-02.jpg 的 passive 验证边界；保存图片 1739851093415190575-02.jpg 的 records 验证边界
+64|excluded||完整保存正文/有意义替代文字已实际读完；Carbanak Banking Malware Resurfaces with New Ransomware Tactics；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+65|corrected|references/by-type/authn-session.md,references/source-audit.md|保存图片 1739926592091250849-02.jpg 的 auth 验证边界；保存图片 1739926592091250849-02.jpg 的 source 验证边界；0202 正文：SSH hardening 由实际配置和威胁边界验证
+66|excluded||完整保存正文/有意义替代文字已实际读完；Top 10 Recon Tools；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+67|corrected|references/by-type/deserialization-rce.md,references/source-audit.md|保存图片 1739978715801801021-02.jpg 的 deser 验证边界；保存图片 1739978715801801021-02.jpg 的 source 验证边界；0202 正文：不可信 YAML/PHP 数据到对象实例化
+68|excluded||完整保存正文/有意义替代文字已实际读完；Didn't realize but @h1Disclosed is currently broken, probably due to the new hacktivity update 🙄；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+69|corrected|references/experiment-design.md,references/source-audit.md,references/scope-and-rules.md|保存图片 1739987449990836288-02.jpg 的 experiment 验证边界；保存图片 1739987449990836288-02.jpg 的 source 验证边界；保存图片 1739987449990836288-03.jpg 的 scope 验证边界；0202 正文：单次 504 和服务停止范围
+70|excluded||完整保存正文/有意义替代文字已实际读完；DOM XSS on Hackerone Programs — Bug Bounty Tuesday；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+71|corrected|references/by-type/info-secrets.md,references/discovery/passive-and-services.md|保存图片 1740003145806483895-02.png 的 secret 验证边界；保存图片 1740003145806483895-02.png 的 passive 验证边界；0202 正文：metrics 暴露的实际数据与推断
+72|excluded||完整保存正文/有意义替代文字已实际读完；“Secrets of the Hunter: Pro Tips for Effective Bug Bounty Hunting”；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+73|corrected|references/by-type/xss.md|保存图片 1740009798291349842-02.jpg 的 xss 验证边界；0202 正文：UTM 内容拼接与内容欺骗
+74|corrected|references/by-type/request-smuggling.md,references/source-audit.md|保存图片 1740009942176915674-02.jpg 的 hrs 验证边界；保存图片 1740009942176915674-02.jpg 的 source 验证边界；0202 正文：Tomcat trailer 限制与代理后端差异
+75|corrected|references/by-type/authn-session.md,references/source-audit.md|保存图片 1740010087295721644-02.jpg 的 auth 验证边界；保存图片 1740010087295721644-02.jpg 的 source 验证边界；0202 正文：curl 公共后缀与 cookie 接受边界
+76|corrected|references/by-type/request-smuggling.md,references/source-audit.md|保存图片 1740032670653157809-03.jpg 的 hrs 验证边界；保存图片 1740032670653157809-03.jpg 的 source 验证边界
+77|merged|references/by-type/lfi-path-traversal.md|0202 正文：配置文件读取与包含执行要分开
+78|excluded||完整保存正文/有意义替代文字已实际读完；This repository contain a lot of web and api vulnerability checklist；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+79|excluded||完整保存正文/有意义替代文字已实际读完；Hacking Web3: Introduction and How to Start : 📓；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+80|corrected|references/source-audit.md,references/by-type/info-secrets.md|保存图片 1740107784782299607-02.jpg 的 source 验证边界；保存图片 1740107784782299607-02.jpg 的 secret 验证边界；0202 正文：日志表达式和回调不等于命令执行
+81|corrected|references/by-type/info-secrets.md|0202 正文：配置备份和源码返回
+82|corrected|references/impact-and-acceptance.md,references/by-type/authn-session.md|保存图片 1740198403899105520-04.jpg 的 impact 验证边界；保存图片 1740198403899105520-04.jpg 的 auth 验证边界；0202 正文：客户端成功与服务器主体要分开
+83|excluded||完整保存正文/有意义替代文字已实际读完；A collection of awesome security hardening guides, tools and other resources；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+84|excluded||完整保存正文/有意义替代文字已实际读完；Chinese Hackers Exploited New Zero-Day in Barracuda's ESG Appliances；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+85|excluded||完整保存正文/有意义替代文字已实际读完；Critical Zero-Day in Apache OfBiz ERP System Exposes Businesses to Attack；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+86|merged|references/by-type/info-secrets.md|0202 正文：配置备份和源码返回
+87|corrected|references/source-audit.md|保存图片 1740288978895720649-02.jpg 的 source 验证边界
+88|excluded||完整保存正文/有意义替代文字已实际读完；Text Injection/ Content Spoofing on [外链] by breaking out of input tag.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+89|corrected|references/discovery/records-and-incremental.md,references/scope-and-rules.md|保存图片 1740334278859538779-02.jpg 的 records 验证边界；保存图片 1740334278859538779-02.jpg 的 scope 验证边界
+90|excluded||完整保存正文/有意义替代文字已实际读完；Stored XSS via File upload(using svg file)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+91|excluded||完整保存正文/有意义替代文字已实际读完；⛔️WordPress Bug Bounty Tips⛔️⛔️；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+92|excluded||完整保存正文/有意义替代文字已实际读完；⛔️Useful Tools for Digital Forensic and Incident Response (DFIR)⛔️⛔️；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+93|corrected|references/discovery/records-and-incremental.md,references/by-type/desktop-client.md|保存图片 1740391339475509732-02.jpg 的 records 验证边界；保存图片 1740391339475509732-02.jpg 的 desktop 验证边界
+94|merged|references/discovery/records-and-incremental.md|0202 正文：资产搜集与 HTTP 探测要保留输入和完成状态
+95|excluded||完整保存正文/有意义替代文字已实际读完；🚨40,000+ Nuclei templates for security scanning and detection across diverse web applications and services🚨；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+96|corrected|references/by-type/idor-access-control.md,references/discovery/web-and-api.md|保存图片 1740416405227577717-02.jpg 的 access 验证边界；保存图片 1740416405227577717-02.jpg 的 web 验证边界
+97|corrected|references/by-type/sql-injection.md,references/experiment-design.md,references/targeted-fuzzing.md|保存图片 1740417938035982379-02.png 的 sql 验证边界；保存图片 1740417938035982379-02.png 的 experiment 验证边界；保存图片 1740417938035982379-03.png 的 sql 验证边界；保存图片 1740417938035982379-03.png 的 fuzz 验证边界；0202 正文：SQL 候选需要可控输入到查询的证据
+98|excluded||完整保存正文/有意义替代文字已实际读完；Amazing writeup showcasing a supply chain attack using a Mac CVE.....；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+99|corrected|references/by-type/authn-session.md|保存图片 1740457884172034544-02.png 的 auth 验证边界；0202 正文：开发登录标签不证明默认弱认证
+100|corrected|references/by-type/authn-session.md,references/by-type/idor-access-control.md|保存图片 1740461273299742873-02.png 的 auth 验证边界；保存图片 1740461273299742873-02.png 的 access 验证边界；0202 正文：客户端成功与服务器主体要分开
+101|excluded||完整保存正文/有意义替代文字已实际读完；Credits:@rez0__；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+102|merged|references/by-type/xss.md|0202 正文：编码与脚本上下文必须经过真实解析链
+103|corrected|references/by-type/xss.md,references/discovery/client-and-cloud.md|保存图片 1740505841348792755-02.jpg 的 xss 验证边界；保存图片 1740505841348792755-02.jpg 的 client 验证边界；0202 正文：编码与脚本上下文必须经过真实解析链
+104|merged|references/by-type/info-secrets.md|0202 正文：配置备份和源码返回
+105|corrected|references/discovery/records-and-incremental.md,references/cloud/cloud-misconfiguration.md|保存图片 1740550956587315666-02.png 的 records 验证边界；保存图片 1740550956587315666-02.png 的 cloud 验证边界；0202 正文：并发扫描到云产物的完成证明
+106|corrected|references/discovery/records-and-incremental.md,references/cloud/cloud-misconfiguration.md|保存图片 1740551520515510500-02.png 的 records 验证边界；保存图片 1740551520515510500-02.png 的 cloud 验证边界；0202 正文：并发扫描到云产物的完成证明
+107|corrected|references/source-audit.md,references/business-modeling.md|保存图片 1740575870912262144-02.jpg 的 source 验证边界；保存图片 1740575870912262144-02.jpg 的 business 验证边界
+108|excluded||完整保存正文/有意义替代文字已实际读完；This repository contains a lot of web and api vulnerability checklist；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+109|corrected|references/by-type/xss.md,references/by-type/waf-bypass.md|保存图片 1740618015266238774-02.jpg 的 xss 验证边界；保存图片 1740618015266238774-02.jpg 的 waf 验证边界；保存图片 1740618015266238774-03.jpg 的 xss 验证边界；保存图片 1740618015266238774-03.jpg 的 waf 验证边界；0202 正文：编码与脚本上下文必须经过真实解析链
+110|excluded||完整保存正文/有意义替代文字已实际读完；40,000+ Nuclei templates for security scanning and detection across diverse web applications and services；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+111|corrected|references/by-type/deserialization-rce.md,references/source-audit.md|保存图片 1740636556862591129-02.jpg 的 deser 验证边界；保存图片 1740636556862591129-02.jpg 的 source 验证边界；0202 正文：不可信 YAML/PHP 数据到对象实例化
+112|corrected|references/by-type/oauth-oidc.md,references/by-type/authn-session.md|保存图片 1740636693060059330-02.jpg 的 oauth 验证边界；保存图片 1740636693060059330-02.jpg 的 auth 验证边界；0202 正文：SSO 邮箱匹配的身份来源
+113|merged|references/impact-and-acceptance.md|0202 正文：链条的每一步需要独立前提和证据
+114|excluded||完整保存正文/有意义替代文字已实际读完；40K Nuclei-Templates；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+115|excluded||完整保存正文/有意义替代文字已实际读完；Authentication bypass on JetPack SSO manager - Allows to access the administration panel of wordpress without user interaction；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+116|excluded||完整保存正文/有意义替代文字已实际读完；RCE on Wordpress website；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+117|corrected|references/by-type/info-secrets.md,references/source-audit.md|保存图片 1740659213125255218-02.png 的 secret 验证边界；保存图片 1740659213125255218-02.png 的 source 验证边界；0202 正文：配置备份和源码返回
+118|corrected|references/by-type/xss.md,references/by-type/waf-bypass.md|保存图片 1740671421515551036-02.jpg 的 xss 验证边界；保存图片 1740671421515551036-02.jpg 的 waf 验证边界；保存图片 1740671421515551036-03.jpg 的 xss 验证边界；保存图片 1740671421515551036-03.jpg 的 waf 验证边界；0202 正文：编码与脚本上下文必须经过真实解析链
+119|excluded||完整保存正文/有意义替代文字已实际读完；11000 reputation on @Hacker0x01；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+120|excluded||完整保存正文/有意义替代文字已实际读完；Beyond Search Queries: Bug Bounty Hunting with Dorkz；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+121|excluded||完整保存正文/有意义替代文字已实际读完；Active Directory Penetration Testing Mind Map；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+122|excluded||完整保存正文/有意义替代文字已实际读完；⛔Awesome Cybersecurity Handbooks⛔⛔；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+123|excluded||完整保存正文/有意义替代文字已实际读完；My goals for 2024；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+124|excluded||完整保存正文/有意义替代文字已实际读完；Logii Browser Agency v1.6.0 Full Activated – Discount 100% OFF [外链] #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity #100DaysOfCode #Malware #CodeNewbi；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+125|excluded||完整保存正文/有意义替代文字已实际读完；Burp Suite Professional Edition v2023.12.1 x64 Full Activated Hacking Gifts – Discount 100% OFF [外链] #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity #；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+126|corrected|references/by-type/sql-injection.md,references/discovery/records-and-incremental.md|保存图片 1740801901699166208-02.jpg 的 sql 验证边界；保存图片 1740801901699166208-02.jpg 的 records 验证边界；0202 正文：SQL 候选需要可控输入到查询的证据
+127|excluded||完整保存正文/有意义替代文字已实际读完；Looking at an unfixed iOS vulnerability #iOSSecurity #jailbreak #bugbountytips；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+128|excluded||完整保存正文/有意义替代文字已实际读完；Subdomain TakeOvers methodology by Aakash Rathee；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+129|corrected|references/by-type/idor-access-control.md,references/by-type/business-logic.md|保存图片 1740855365456240694-02.jpg 的 access 验证边界；保存图片 1740855365456240694-02.jpg 的 logic 验证边界；0202 正文：列表 owner 与授予角色的委派边界
+130|merged|references/by-type/sql-injection.md|0202 正文：SQL 候选需要可控输入到查询的证据
+131|corrected|references/discovery/client-and-cloud.md|0202 正文：JS URL 正则提取保留解析证据
+132|excluded||完整保存正文/有意义替代文字已实际读完；Find Unique Subdomains using Unique tools with Required sources with Commands ❟❛❟；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+133|excluded||完整保存正文/有意义替代文字已实际读完；Thanks @theXSSrat for reviewing my article! I appreciate your feedback.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+134|merged|references/by-type/info-secrets.md|复用已核对图片 1741013754983469464-02.jpg 的 secret 边界
+135|excluded||完整保存正文/有意义替代文字已实际读完；access list owner can escalate his role to the highest roles；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+136|corrected|references/by-type/mobile-android.md,references/source-audit.md|保存图片 1741042365371138172-02.png 的 android 验证边界；保存图片 1741042365371138172-02.png 的 source 验证边界
+137|excluded||完整保存正文/有意义替代文字已实际读完；Hackerone Triager Vs Resarcher After Christmas 🎅；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+138|excluded||完整保存正文/有意义替代文字已实际读完；There's a new OWASP API Top 10, let's chat about it! Overall this version of it is definitely more hacker focused than previous versions. Here are the 5 major change；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+139|corrected|references/by-type/sql-injection.md,references/discovery/records-and-incremental.md|保存图片 1741103372479176747-02.jpg 的 sql 验证边界；保存图片 1741103372479176747-02.jpg 的 records 验证边界
+140|excluded||完整保存正文/有意义替代文字已实际读完；Top 10 best free burp suite extensions；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+141|excluded||完整保存正文/有意义替代文字已实际读完；1/9；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+142|excluded||完整保存正文/有意义替代文字已实际读完；Free android app scanner；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+143|corrected|references/by-type/xss.md,references/targeted-fuzzing.md|保存图片 1741363525568823385-02.png 的 xss 验证边界；保存图片 1741363525568823385-02.png 的 fuzz 验证边界；0202 正文：XSS 工具流水线的遗漏与数据边界
+144|corrected|references/discovery/client-and-cloud.md,references/discovery/records-and-incremental.md|保存图片 1741365307342799214-02.png 的 client 验证边界；保存图片 1741365307342799214-02.png 的 records 验证边界；0202 正文：JS URL 正则提取保留解析证据
+145|excluded||完整保存正文/有意义替代文字已实际读完；🚨Secure coding practice checklist🚨；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+146|corrected|references/by-type/xss.md,references/by-type/waf-bypass.md|保存图片 1741395859772678317-02.png 的 xss 验证边界；保存图片 1741395859772678317-02.png 的 waf 验证边界；保存图片 1741395859772678317-03.png 的 xss 验证边界；保存图片 1741395859772678317-03.png 的 waf 验证边界；0202 正文：编码与脚本上下文必须经过真实解析链
+147|corrected|references/by-type/waf-bypass.md,references/scope-and-rules.md|保存图片 1741401692120535161-02.png 的 waf 验证边界；保存图片 1741401692120535161-02.png 的 scope 验证边界
+148|excluded||完整保存正文/有意义替代文字已实际读完；⛔ Bug Bounty Reports Templates ⚡️；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+149|corrected|references/by-type/open-redirect.md,references/by-type/ssrf.md|保存图片 1741405995203752145-02.png 的 redirect 验证边界；保存图片 1741405995203752145-02.png 的 ssrf 验证边界；0202 正文：短 IPv4 与 URL 解析的授权域比较
+150|merged|references/by-type/open-redirect.md,references/by-type/ssrf.md|复用已核对图片 1741407828022358057-02.jpg 的 redirect 边界；0202 正文：短 IPv4 与 URL 解析的授权域比较
+151|excluded||完整保存正文/有意义替代文字已实际读完；🔹How to Get Unique Subdomains on Large scope ??? 🔹；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+152|corrected|references/by-type/sql-injection.md,references/experiment-design.md|保存图片 1741412928140755358-02.png 的 sql 验证边界；保存图片 1741412928140755358-02.png 的 experiment 验证边界；0202 正文：SQL 候选需要可控输入到查询的证据
+153|excluded||完整保存正文/有意义替代文字已实际读完；if you are testing a payment system or a shop, check the whitepaper that @irsdl had written:[外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+154|merged|references/by-type/sql-injection.md|0202 正文：SQL 候选需要可控输入到查询的证据
+155|excluded||完整保存正文/有意义替代文字已实际读完；I hate Hackerone / X Website Vulnerability — Bug Bounty Hunter；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。

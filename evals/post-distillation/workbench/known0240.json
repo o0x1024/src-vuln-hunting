@@ -1,0 +1,83 @@
+[
+  {
+    "name": "1847913475781046304-02.jpg",
+    "sha256": "d52a7b6374c6458df471a50172061425e7a7d82dc98caab9507b28ca85d8f8ae",
+    "prior": {
+      "sha256": "d52a7b6374c6458df471a50172061425e7a7d82dc98caab9507b28ca85d8f8ae",
+      "example_post_id": "1760568367281320268",
+      "image_name": "1760568367281320268-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "one-liner仓库卡无脚本。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T13:30:32.910Z",
+      "batch": "media-0202"
+    }
+  },
+  {
+    "name": "1848321037923967372-02.png",
+    "sha256": "0e18bdc21d3e82250401b3d19be6061b138872b33b186c36101f53061066e967",
+    "prior": {
+      "sha256": "0e18bdc21d3e82250401b3d19be6061b138872b33b186c36101f53061066e967",
+      "example_post_id": "1426615994659844096",
+      "image_name": "1426615994659844096-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "MTNlogo，无SQL证据。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T05:56:22.111Z",
+      "batch": "media-0102"
+    }
+  },
+  {
+    "name": "1848370994383368238-02.jpg",
+    "sha256": "f42df8872752eb55ad078eabb482d389ed5db0a96acc6165b8e75c75f6bb952d",
+    "prior": {
+      "sha256": "f42df8872752eb55ad078eabb482d389ed5db0a96acc6165b8e75c75f6bb952d",
+      "example_post_id": "1596801162006581250",
+      "image_name": "1596801162006581250-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "Awesome-web-security repository promotional card only.",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T19:03:31.015Z",
+      "batch": "media-0145"
+    }
+  },
+  {
+    "name": "1848996755817275784-02.jpg",
+    "sha256": "c841ebae4b8dd1180f33108f5faf450f96c7cc649d15e6b639eed0900168ab95",
+    "prior": {
+      "sha256": "c841ebae4b8dd1180f33108f5faf450f96c7cc649d15e6b639eed0900168ab95",
+      "example_post_id": "1800077332075450673",
+      "image_name": "1800077332075450673-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "文件后缀.jpg实际为静态SVG（仅svg/path，viewBox36x36，无script/href/text）；原字节hash已核对，并实际查看按全图144x144生成的无损PNG预览，显示伊朗狮子旗图标，无Burp压缩包/内存技术步骤。格式转换仅供查看，未改动原文件。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T18:51:31.046Z",
+      "batch": "media-0215"
+    }
+  },
+  {
+    "name": "1849843413077684280-02.jpg",
+    "sha256": "24574f5ff3d36067209e06107a4a3c574e4558a7ba97ab1726a0ce85a97f8ae3",
+    "prior": {
+      "sha256": "24574f5ff3d36067209e06107a4a3c574e4558a7ba97ab1726a0ce85a97f8ae3",
+      "example_post_id": "1838188799534227766",
+      "image_name": "1838188799534227766-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/web-and-api.md",
+        "references/discovery/records-and-incremental.md",
+        "references/targeted-fuzzing.md",
+        "references/scope-and-rules.md",
+        "references/experiment-design.md"
+      ],
+      "note": "Katana v0.0.1 历史输出列表包含公开购物/支持/语言路径、JS 和参数，入口发现不证明当前可达/漏洞/完整覆盖。按原来源、规范化、身份、请求方法和时间保留不同变体，跨子域与自动表单/JS 消费须核 scope 与预算，未运行爬虫或打开购物功能。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-12T00:43:36.276Z",
+      "batch": "media-0229"
+    }
+  }
+]

@@ -1,0 +1,75 @@
+0|distilled|cloud,passive,scope|onaws help与JSON显示EC2/subnet/eu-west-1；provider匹配不补租户、范围或S3桶地域。
+1|distilled|waf,fuzz,experiment|WAF-A-MoLE队列p/sigma、mutation、adapter和feedback图；评分、语义保持及消费者结果独立。
+2|no_technical_content|files,source|image-upload-exploits repo卡片，无保存载荷/上传消费者。
+3|insufficient_technical_detail|cloud,source|彩色ATT&CK矩阵缺可读图例/控制标识与实际配置，不证明控制覆盖。
+4|insufficient_technical_detail|takeover,report|ESET alias removed邮件/旧swag政策，无分配控制和重测链。
+5|no_technical_content|strategy,source|BugFever视频封面，没有方法。
+6|distilled|strategy,records|六点todo/文档/新鲜视角/少走路径建议，只并入计划与证据记录。
+7|no_technical_content|cloud,source|RedShadow卡通Logo无IAM策略内容。
+8|distilled|prop,access,web,source|API请求形状/类型/旧接口/导出清单，逐一真实解析和消费者，不认通用Ruby RCE或自动范围。
+9|distilled|prop,sql,xxe,auth|JSON类型、user[]/$ne和XML支持清单，严格schema、查询操作符和DTD处理是不同条件。
+10|distilled|web,records|robots grep/awk/cut实际输出isallow且收注释，转换错误与host/UserAgent缺失保留。
+11|insufficient_technical_detail|access,report|BAC反馈邮件称确认问题但无请求、两身份或修复读回。
+12|no_technical_content|source|2021讲座议程封面无方法。
+13|distilled|web,records|robotstxt README stdin URL列表到unique paths；输出路径来源和实际安装未证，未执行安装。
+14|distilled|web,records|另一尺寸/哈希图仍isallow错误输出，同类纠正而非新漏洞。
+15|insufficient_technical_detail|report|HackerEarth奖励收集个人联系方式，无安全机制；未联系。
+16|distilled|records,source,experiment|DNSteal help payload4..240/custom server/TcpOnly/delay；实际编码标签预算、分片与重组未保存。
+17|insufficient_technical_detail|auth,report|High ATO战报脱敏，无接管链。
+18|distilled|records,source,scope|Lazyrecon环境变量含token/webhook名、source配置/sudo-E/通配运行；未加载配置、外发或复制秘密。
+19|no_technical_content|source|epicbounties Logo无方法。
+20|insufficient_technical_detail|report|Synack Accepted脱敏图没有机制。
+21|insufficient_technical_detail|xss,report|Accepted Reflected XSS标题没有输入、消费者或原始响应。
+22|distilled|cmd,deser,source|PHP POST cmd与uid33 www-data响应，不是序列化对象/根权限；Content-Length显示6与可见正文不符。
+23|distilled|auth,deser,source|编码Cookie与Welcome Admin同时仍Please Login，局部UI不证明完整认证，不复制Cookie。
+24|distilled|deser,source,secret|500 Unexpected end JSON栈JSON.parse/unserialize与server.js行号，只是消费者候选不是gadget执行。
+25|distilled|records,deser,source|Nmap Node/Express8080与其他图私网IP/日期不同，不能拼同实例链；未扫描。
+26|no_technical_content|fuzz,source|top25 v1.0.7 repo卡片无实际模式内容。
+27|distilled|passive,secret,scope|GitHub/Google org、API_key等查询示意无命中，关键词不是有效秘密或范围。
+28|distilled|xss,source,auth|浏览器显示reCAPTCHA JS与hello DOM选择器、隐藏token字段，无实际攻击执行；sitekey不作为秘密。
+29|distilled|android,ios,xss|扫码javascript确认提示QR图，无实际设备/扫描消费者；未执行二维码。
+30|distilled|android,ios,xss|第二帖同类QR图的不同像素哈希实际看，分派/scheme/WebView条件同样未证。
+31|insufficient_technical_detail|auth,secret,source|Google People API Enable卡片不能补组织Directory授权或数据字段。
+32|distilled|auth,access,source|POST表单/Bearer与黑块响应，保留认证载体存在与数据遮挡边界。
+33|distilled|auth,access,source|username空值框与Bearer仍在，无法由省略字段认无认证/PII全读或ATO。
+34|distilled|web,records|cat subs到robotstxt/cleanpath/anew的图，原输入是域名还是URL与路径去来源需保全。
+35|no_technical_content|source|BloodHound Logo无实际AD图或权限。
+36|distilled|report,source|漏洞名称/CWE/CAPEC混排列表，分类映射不代实际机制或当前奖励政策。
+37|distilled|report,source|列表混有客户端/服务端模板等标签，不从字面编号认准确分类或实测。
+38|distilled|report,source|移动漏洞分类列表无调用链，不认为完成移动覆盖。
+39|distilled|report,source|SSL pinning/权限/注入等列表有重叠与映射，按真实组件/消费者分类。
+40|distilled|cmd,source,secret|eval-stdin GET正文phpinfo和PHP7.4.20输出候选；版本号是运行时而非phpunit包，未执行PHP或复制cookie。
+41|no_technical_content|source|vlog森林封面无技术内容。
+42|no_technical_content|source|CyberXplore课程宣传图无方法。
+43|distilled|xss,source|DOM Invader document.write三条同栈属性/脚本候选，标记进入汇不补未修改浏览器的实际执行。
+44|insufficient_technical_detail|xss,report|两DOM XSS P3 Triaged/Still being assessed不是最终Accepted/修复验证，缺实际链。
+45|distilled|android,records,source|frida-dexdump帮助默认前台、未指定PID全dump、spawn/deep参数；范围/制品完整性另证，未运行Frida。
+46|distilled|report,impact|PoC图组件/原因、条件与步骤、影响/修复参考，保留可证影响与独立根因。
+47|insufficient_technical_detail|strategy,report|个人提交类型次数表无独立根因或具体方法，不代表平台概率。
+48|insufficient_technical_detail|report|三条Unresolved奖金额图无机制，不能补已修复或当前评级。
+49|no_technical_content|fuzz,xss,source|Cisco bulk scanner repo卡片无代码/匹配结果。
+50|distilled|xss,fuzz,report|XSS Rush FOUND与浏览器alert图缺原始响应和工具修改对照，弹窗不证明整个扫描正确。
+51|no_technical_content|source|Backstab配图为装饰安全图，无进程/驱动事实。
+52|no_technical_content|auth,source|Email Verification Bypass视频封面无验证链。
+53|distilled|sql,source|H2登录模板Driver/JDBC/sa空password为UI值，不证明登录成功或外网可达。
+54|distilled|sql,source|自选嵌入库与用户名表单不证明连接既有目标库，数据库路径/身份需绑定。
+55|distilled|sql,secret,source|FILE_READ与passwd样式结果是文件读取候选，不直接证明命令执行/root进程。
+56|distilled|sql,cmd,source|H2 1.4.196 CALL REVEXEC结果uid0，但alias定义/创建权限及与前图同实例关联缺失。
+57|distilled|xss,ssrf,experiment|Juice Shop profile注入样式文本/Link Image回连URL与坏图片，未见alert/OOB收据或最终消费者。
+58|distilled|redirect,xss,source|location字段、assign/replace/open、srcdoc与AJAX混列，分开源、导航、HTML消费者和网络能力。
+59|distilled|auth,report,source|Uber driver RPC手机号输入、Cookie redacted但保留CSRF头；请求不是OTP投递或信箱认证证据，不复制头/号码。
+60|distilled|auth,report|Intruder多个200而JSON failure/Multiple drivers found是响应语义，枚举候选不证明账户接管。
+61|insufficient_technical_detail|report,impact|两条well reported好评无机制、处理时长或付款保证。
+62|no_technical_content|source|服饰bounty介绍封面无技术方法。
+63|distilled|scope,impact|概述协议/披露/奖励，只并入规则资格边界，不保证发现即付款。
+64|distilled|source,records,experiment|TiEtwAgent RUNNING与进程列表及空agentlog，不证明检测成功/无注入；事件丢失与基线需区分。
+65|distilled|access,logic,source|JSF局部ajax选择ID与ViewState请求，无响应/主体/权威删除读回，未复制状态令牌。
+66|distilled|access,logic,source|第二JSF请求缺选择字段/含列顺序，截断上下文不说明完整删除流程或两身份。
+67|distilled|auth,source|公司邮箱quoted local/comment与换行SMTP声明，无真实接受/投递证据；语法/资格/路由独立。
+68|no_technical_content|access,source|IDOR标题封面没有身份/对象链。
+69|distilled|source,experiment|2021 AV 0/26与广告缺制品哈希、引擎配置和动态结果；不能认全面隐蔽或安全。
+70|distilled|auth,csrf,source|2FA十项图混客户端响应、重用/跨账户码、重置降级与猜测；不同消费者/挑战条件不计成功。
+71|distilled|auth,secret,access|示例payment query含user_id/access_token，示意字符串不等真实有效秘密或无授权。
+72|distilled|auth,access,source|token被描述为用户名Base64编码，编码不提供不可伪造性但需实际服务端验证契约，未用令牌。
+73|insufficient_technical_detail|access,report|Synack Accepted奖金脱敏图无实际IDOR机制。
+74|distilled|secret,source,records|GitDump Fetching index/refs并Parsing Index再objects路径，没有HTTP状态/字节/复原结果；无目录列表不排除已知路径访问。

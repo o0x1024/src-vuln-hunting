@@ -1,0 +1,64 @@
+[
+  {
+    "name": "1855173092080792031-02.jpg",
+    "sha256": "c841ebae4b8dd1180f33108f5faf450f96c7cc649d15e6b639eed0900168ab95",
+    "prior": {
+      "sha256": "c841ebae4b8dd1180f33108f5faf450f96c7cc649d15e6b639eed0900168ab95",
+      "example_post_id": "1800077332075450673",
+      "image_name": "1800077332075450673-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "文件后缀.jpg实际为静态SVG（仅svg/path，viewBox36x36，无script/href/text）；原字节hash已核对，并实际查看按全图144x144生成的无损PNG预览，显示伊朗狮子旗图标，无Burp压缩包/内存技术步骤。格式转换仅供查看，未改动原文件。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T18:51:31.046Z",
+      "batch": "media-0215"
+    }
+  },
+  {
+    "name": "1855482818526343271-02.jpg",
+    "sha256": "724ea9579e87f5bf68171d6c09e07b738a6b4332f8e02dbc24f9713ec97bf79f",
+    "prior": {
+      "sha256": "724ea9579e87f5bf68171d6c09e07b738a6b4332f8e02dbc24f9713ec97bf79f",
+      "example_post_id": "1431964514631577600",
+      "image_name": "1431964514631577600-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/oauth-oidc.md"
+      ],
+      "note": "OAuth左右列完整清单已读，按actor/流程阶段/发行及消费合同分解，传body并非总漏洞。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T06:10:46.195Z",
+      "batch": "media-0103"
+    }
+  },
+  {
+    "name": "1856605871943626977-02.png",
+    "sha256": "36ec2398d4a6114090bd325b7dbaecfdcaced1284788810b85e584d8286adf95",
+    "prior": {
+      "sha256": "36ec2398d4a6114090bd325b7dbaecfdcaced1284788810b85e584d8286adf95",
+      "example_post_id": "1506573279741427712",
+      "image_name": "1506573279741427712-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "Telegramlogo无技术链",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T12:11:24.501Z",
+      "batch": "media-0119"
+    }
+  },
+  {
+    "name": "1856701314115531256-02.png",
+    "sha256": "b1a7570de6299fc15aa48adb5ab630e3793161d6d63afa462446bba9ea4c6ffc",
+    "prior": {
+      "sha256": "b1a7570de6299fc15aa48adb5ab630e3793161d6d63afa462446bba9ea4c6ffc",
+      "example_post_id": "1496129012837621762",
+      "image_name": "1496129012837621762-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "Acronislogo无SSRF机制",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T11:28:53.011Z",
+      "batch": "media-0117"
+    }
+  }
+]

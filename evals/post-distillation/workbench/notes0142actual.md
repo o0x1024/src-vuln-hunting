@@ -1,0 +1,133 @@
+0. Leonidas 部署账户 CI/CD→Lambda→测试账户资源→SIEM 日志图；模拟调用、资源权限及检测日志各阶段独立，架构箭头不证明漏洞或告警。
+1. Bearer 验证奖励文字声称移除待验证邮箱/手机，缺请求和身份对照；HTTP 方法鉴权需对应自有对象、动作、读回状态。
+2. Bitbucket archive 注入请求及本地 touch 候选，没有响应/落盘证据；需受影响 Server/DC 与仓库 read 权限，单请求不是确认。
+3. 1500 美元奖励通知，无可读机制。
+4. Gallia 图包含 transport/scanner、电源控制、日志/DB；操作设备电源和协议扫描是不同权限，框架图不能证明故障。
+5. DDexec 宣传卡，仅运行二进制能力描述，缺具体入口和现有执行权限。
+6. Bugcrowd 私有移动项目 Swagger XSS 的已解决奖励截图，仅状态和金额，未提供攻击请求、执行上下文或机制。
+7. ffuf 标志，不增加技术证据。
+8. ffuf GET FUZZ 示例返回 admin.php 301 和 index.html 200；状态码、大小和部分进度仅用于候选筛选，须核对软 404、内容、身份与跳转终点，不能认定漏洞或完整扫描。
+9. 漏洞课程视频封面与宣传，不增加方法或验证证据。
+10. Amass/httpx/nuclei CVE-2022-26134 命令截图，没有运行输出；公开域名列表不构成授权，模板命中也需版本、认证前提和真实响应验证。
+11. SCodeScanner 的 php/yaml 帮助输出，仅支持项示例，不能证明扫描完整或实际漏洞。
+12. WSee 域前置扫描输出含超时、404、501、502 与两条 HIT；连接状态不证明真实代理转发、访问控制绕过或目标归属，应区分 SNI、Host、证书和上游行为。
+13. SQL 注入插图，无请求或响应证据。
+14. 本地 WordPress 解压目录含 wp-config、安装器与备份文件，支持检查备份中敏感配置的候选思路；本地文件列表不证明公网泄露。
+15. Dalfox 选项图区分 DOM/headless 验证、blind 回调、选定参数与 only-discovery；仅发现模式不是脚本执行证据，blind 模式应限自有接收端并核对触发上下文。
+16. 长图为 Web 渗透学习路线，含资源、实验室、报告、侦察及漏洞分支；小字不可读处不推测具体内容，学习路线不等于实测覆盖。
+17. Karma v2 帮助将证书 CN、ASN、CDN、favicon、CVE 与 leaks 作关联并支持无限结果；这些关联不构成范围授权，须限结果、核对共享基础设施、时间与来源。
+18. 开放重定向 triaged 通知明确最终裁决、状态和严重度可改变，未显示 URL 或跳转证明。
+19. 名人堂名单，只是致谢，无端口或漏洞验证证据。
+20. POST 表单 url 指向元数据路径，200 正文列出 id、hostname、user-data 等目录名；是响应内容证据，仍须排除模拟/客户端代取并确定服务端请求，目录名不等于凭据读取。
+21. 伦理宣言图片，不增加可复用技术步骤。
+22. CATS OpenAPI fuzzing 标志，仅工具类别。
+23. ASCII 装饰图，未展示 Dropbox 漏洞机制。
+24. Akamai 非法头导致 400 与 Server-Timing HIT 的示意；单次 HIT 不证明干净请求受到污染，cachebuster 需验证真正进入缓存键，以独立隔离请求比较状态、Age、正文和生存期。
+25. CBC 解密图显示前块密文与中间值异或得到明文；这只是密码结构，padding oracle 还需可观察填充错误差异与完整性边界，不能由图认定漏洞。
+26. 重复 CVE-2022-26134 命令卡，无实际输出，合并侦察流水线证据限制。
+27. LazyCSRF 与 Burp 生成器对比强调中文姓名字段编码，原请求含同源头、session 和 authenticity_token；生成 HTML 不能证明跨站浏览器成功，需检查字符编码、令牌绑定与最终账户状态。
+28. LazyCSRF 扩展菜单入口，无请求完成或防护绕过结果。
+29. WARF 仪表盘分别统计 subdomain、directory brute force、Wayback、JS、secret 和 LinkFinder；计数/完成状态不证明资产全覆盖或实际有效，须保存每阶段输入、身份与失败。
+30. WARF Full Scan 列出六种阶段，提交域名表单不保证预算、认证和 scope 自动正确，合并阶段 provenance 方法。
+31. WARF 目标卡按企业和扫描类别展示日期；标签不证明授权或当前资产归属。
+32. Logger 示例 Response.body CONTAINS token；字面词命中只是筛选，应保存原始完整请求响应、工具来源与截断状态，并避免把 token 字样等同有效秘密。
+33. GitHub 搜索候选关键词如 SecretAccessKey、DB_PASSWORD、connectionstring 等，不含实际秘密；必须区分字段名、样例、历史提交与仍生效凭据。
+34. PSAsyncShell 帮助显示异步 TCP 客户端/监听器并警告明文传输；依赖已有 PowerShell 执行与网络权限，不证明初始入侵或所有防火墙绕过。
+35. 学习资源名称卡，无课程全文或技术步骤。
+36. 安全意识活动宣传，无保存演讲步骤。
+37. WARF 目标列表重复视图，合并阶段记录证据边界。
+38. Android 桌面有应用图标，未展示强制升级弹窗或绕过，不据此推测客户端 patch 步骤。
+39. MOSP 标志，无技术机制。
+40. MOSP JSON/schema 校验和标准映射界面，object valid 表示结构校验，不证明措施实施、合规认证或漏洞真实；映射须保留原标准版本和对象来源。
+41. Subfinder 标志，六步骤线程正文未保存不补写。
+42. Dockerfile 安全最佳实践封面，无保存正文步骤。
+43. Web Cache Deception 账户接管 triaged 标题通知，未显示路由、缓存键、泄露数据或登录过程。
+44. Flask RequestImage 用正则提取协议/authority，仅拦 localhost 与 127.0.0.1 的字面命中后 requests.get，再把返回体 base64 渲染；应核对 authority 实际解析、端口/userinfo、解析地址和重定向各跳，异常分支拒绝，不能把简单字符串黑名单当地址边界。
+45. SharpNamedPipePTH 管道示例已有管理员命令窗口及传入 hash，SMB2 认证后 DuplicateTokenEx、以 impersonated token 启动进程，LoadUserProfile failed；成功 token 切换不证明无凭据提权，需原身份权限、hash 来源、目标身份与实际进程权限证据，不抄写 hash。
+46. BAC Medium Accepted 1000 奖励截图，无具体跨角色操作。
+47. 全职赏金职业文章封面，没有实证收入或技术步骤。
+48. Debian CIS 标志，无基线执行或合规验证证据。
+49. JWT 图展示 JSON/base64url 三段、签名验证、none 与公钥作为 HMAC 密钥的算法混淆；须验证服务端允许算法/钥匙绑定，解码成功不代表签名验证或身份改变，拒绝 none 与错误算法的对照不能省。
+50. Rescope 标志，无实测机制。
+51. Burp scope 表明确分开 protocol、host、port、file 与排除规则，示例正则有 anchors；对规范化主机逐字段匹配，先排除再纳入并验 apex、深层子域、相似域和端口，列表导入不授予权限。
+52. Cookie 认证思维图覆盖身份、组织、role、session fixation/失效、flags、重复参数、注入、反序列化及资源耗尽；结构化为入口-消费者-服务端信任-最终身份/动作，属性缺失或字段名不是影响证明，长度/DoS 项不默认执行。
+53. Nebula 标志，无初始访问或部署实证。
+54. 免费 VPS 宣传封面，无配置步骤或实际服务保证。
+55. Kam1n0 架构图含 access filter、用户、结果、应用 REST/MVC、资源缓存、Cassandra/Spark、VEX/Z3；各应用与共享缓存边界需要单独归属，架构箭头不是鉴权测试。
+56. 汇编克隆图对比基本块插入、变量重命名和跳转差异；相似代码/块配对不能直接推出相同可达路径或漏洞，应回到调用图、输入与版本。
+57. Kam1n0 分类和克隆百分比结果，候选得分不是漏洞概率；需要人工对齐基本块语义、输入路径及安全补丁。
+58. Amass 标志，无实际发现数据。
+59. Inceptor 标志，没有生成/执行/规避验证。
+60. 上传类型与 webshell、XSS、XXE、CSV、SSRF、pixel flood 等的关联清单只是消费者假设；扩展名不能证明服务器解析/执行，必须分别定位下载、预览、导入、解压和图像处理路径，资源耗尽项不默认测试。
+61. FaPro 协议模拟器日志图统计访问时段、口令尝试、协议及 Redis 命令；模拟行为与可视化不是生产服务漏洞证据，日志字段仍属不可信输入。
+62. CUCM 产品插图，无 REST RCE 步骤。
+63. Domain Protect 产品/云平台封面，无 takeover 验证。
+64. Domain Protect 定时 Lambda/Step Functions、DynamoDB、SNS、Slack 与 takeover Lambda 的架构；读取发现、通知与资源接管动作必须分开，告警不证明可注册或授权接管。
+65. 跨账户 assume role→Organization→目标账户 Route53→DynamoDB/SNS/Slack 链；每一跳 IAM 权限、账户绑定、DNS 记录来源和时间要可追溯，不从自动化部署推出无需授权接管。
+66. 重复斜线与点段请求返回 passwd 风格文本，Server 是 Apache；截图不证明 nginx merge_slashes 配置或是哪层出错，应保留原始路径与每层解码/规范化，安全测试用自有 canary 而非系统账户文件。
+67. OWASP Honeypot 启动 FTP/HTTP/SSH 弱口令模块与镜像构建日志；模拟服务弱口令不是生产环境风险验证。
+68. Honeypot 事件、IP、端口分布图，没有真实源归属或入侵成功证明。
+69. Honeypot 日志筛选区分日期、模块、source/destination、机器；保留过滤条件、原事件 ID 和分页，不能由表格计数推断全部攻击成功。
+70. 组织删除自身 triaged 通知，未显示权限、流程或最终成员状态，不补写接管机制。
+71. 上传目录 listing 含 php-reverse-shell 文件名；目录存在和文件名不证明 PUT 被接受、脚本被解释或远程执行。
+72. XClicker 标志，无安全机制。
+73. XClicker 点击间隔、按钮、坐标和重复设置，不构成认证或漏洞测试方法。
+74. KubeStriker 标志，没有 Kubernetes 配置或发现。
+75. 漏洞综述装饰图，无保存案例全文。
+76. 管理员面板文章装饰照，无步骤。
+77. Nginxpwner 仓库卡仅工具描述与统计，没有配置、请求或响应，功能宣传不足以蒸馏具体检测逻辑。
+78. SQL 窗口函数教学表含 PARTITION/ORDER/ROWS/RANGE/GROUPS、逻辑查询阶段；语法备忘录不是 SQL 注入漏洞证据，数据库/版本语义须另行确认，不由该通用图生成探测 payload。
+79. GitLab 报告截图对比网页重定向 sign_in 与 /api/v4/projects 泄露项目信息，以及源码可读路径；网页认证不覆盖 API/原始资源，需按自有私有项目验证匿名和普通用户实际最小读取。
+80. 侦察文章封面，无正文步骤。
+81. SCodeScanner php/yaml help 重复，仅功能入口不代表完整静态审计。
+82. Bugcrowd 职业宣传图，无技术步骤。
+83. Psudohash 词汇变换输出超过百万候选并警告大小；字典生成不证明密码可猜、授权或登录成功，应限制规模并单独获取明确认证测试许可。
+84. GitLab Jira issue title 未正确 HTML 编码，报告摘要称 HTML/CSS 注入经 script gadget 与浏览器行为升级为 POST；保存截图没有 gadget/POC，保留跨集成输入到渲染到身份请求的审计边界，不补全 OAuth/SAML 接管链。
+85. OAuth 授权码、token、resource server 流程图；分别验证授权响应绑定、回调和资源权限，箭头不证明重定向或 CSRF 漏洞。
+86. PSAsyncShell 重复帮助，明文 TCP 与既有执行前提同前。
+87. Yelp CORS 报告仅以 ACAC true 推论且状态 Informative；必须同时检查允许的 Origin、浏览器凭据策略和跨站脚本实际可读的自有敏感响应，单一头不成立。
+88. autocomplete enabled 报告为 Informative，正文以本机被控制或额外 XSS 为前提；功能开启本身不是账户接管证据，应区分浏览器存储边界和独立攻击前提。
+89. SubCrawl 输入 URL 文件/外部情报/Kafka 队列→处理→存储架构，服务与一次运行模式；每个入口仍需独立 scope、分页/去重、重试与预算，队列名称不证明可抓全部数据。
+90. SubCrawl 域名/URL 数、标签和 hash dashboard，只是已有观测汇总，不证明安全/恶意或完整目录爬取。
+91. MISP 事件分页含 opendir/TLP、组织、属性数量与日期；情报标签和分享权限不能替代目标授权，须保留事件 provenance 并对外部 URL 先做 scope 筛选。
+92. PayloadsAllTheThings 资源封面，没有保存 SSRF 全文。
+93. SpyCast 在私网显示 mDNS 服务、设备型号、TXT、地址与端口；这是本地广播发现，不证明认证绕过或公网暴露，保留接口/网络段和可见时间，不把发现当扫描许可。
+94. Cronos 输出 Sleeping/Code executed 的本地日志，不证明注入、初始权限或防护规避。
+95. grep id 数字片段写入候选文件，仅参数形态筛选，不证明对象存在、IDOR 或权限失效；粗 regex 不解析 URL、重复参数或不同编码，须保存完整请求/身份/所有权。
+96. Condor payload 生成器帮助含 host/port/icon/shellcode，只是生成接口，不能证明目标漏洞或初始执行，未下载/执行。
+97. DSAR 提示要求仅自有测试账户删除并检查身份验证；表单可匿名提交不等于删除授权失效，区分受理、验证、队列处理和最终状态，删除需可牺牲测试账户与动作许可，不作法律结论。
+98. Hackerman 装饰图，无十大 RCE 正文。
+99. Bug-Bounty 资源仓库卡，无资源全文。
+100. 私人项目竞争表情图，无技术步骤。
+101. Flickr 开放重定向报告摘要称 wildcard 路由本意 404、修复为固定死端点；截图未给原 payload，应检查未匹配路由实际 Location/最终导航并保留修复回归，不由奖励推出账户接管。
+102. Cloudflare 密码策略报告摘要明确后端校验缺失、改请求字段可设弱密码、修复对齐前端；验证使用自有账户且注册/修改/重置分别检查实际接受与最终登录，弱密码设置不直接等同他人接管。
+103. Bashfuscator 标志，无运行或规避证明。
+104. Reddit failed 参数重定向修复后绕过标题和历史状态，未给新 payload；回归需覆盖不同进入分支与规范化行为，不补全缺失步骤。
+105. Reddit 修改用户 links 的 IDOR 摘要与 UI，不含原始请求；可提炼读写分开验证、自有 A/B profile 链接对象归属，标题严重度不自动迁移。
+106. 避免 duplicate 的讲座封面，没有八条正文。
+107. SpookFlare 标志，无代码执行前提或规避实证。
+108. Deserter 在私网接口以 sudo 等待 DNS 并报告发送污染响应；发包日志不证明终端接受，依赖局域网位置和权限，禁止从工具名推断远程通用接管。
+109. 私网 listener 收到浏览器 HTTP Host 请求，结合 DNS 图最多说明该实验中流量变化，不能推出 TLS 证书有效、凭据泄露或 RCE。
+110. TikTok/Instagram 绑定报告摘要称改 Instagram username 后 profile link 未更新；应区分可变用户名与稳定 provider subject，改名/回收/解绑后以自有账户核对关联与最终身份，不将旧链接等同接管。
+111. 上传报告接受 disallowed 文件并称可能发恶意文档给表单处理人；接受和存储不证明服务器 RCE，独立验证业务允许类型、接收者互动及隔离环境，不能投送攻击文档。
+112. DLLirant 标注 signed x64 程序、测试 mpclient 导出与 Hijack found 对话框；签名/检测消息不是可利用越权，要证明实际加载路径、低权目录可写与触发进程身份。
+113. DLL proxy 生成 classic/ordinal 接口，导出转发和文件路径配置仅工具功能，不能替代真实加载顺序、ACL 与依赖架构证据。
+114. Nextcloud HIBPValidator 摘要：校验在 str_shuffle 前、变换后可能不符合，复现需修改随机生成路径；提炼所有安全相关变换后校验最终值，源码固定测试与真实可达输入分开，不由该截图认定在线可利用。
+115. Awesome AppSec 资源目录，书名/链接与历史年份，无书/文章正文。
+116. Shodan dork 卡含域名、ssl、org、title、country/city 与 MongoDB 字面检索；来源时间、字段含义和共享基础设施必须验证，命中不能自动授权/证明无认证数据库。
+117. 公司邮箱注册与 SSO 提权假设图，需验证邮箱控制权/verified、issuer-sub 绑定、组织加入授权和最终权限，域名字符串不是受信身份。
+118. Rekono 标志，没有流水线执行或参数截图。
+119. Deadfinder sitemap 输出部分 404；死链仅链路状态线索，未证明可控内容、域名注册、SSRF 或 XSS，核对实际 URL 和当前跳转，不自动注册第三方资源。
+120. ffuf autodiscover 跟跳转、IIS Web Core matcher、5000 threads 与 404 输出；404/横幅命中不证明 ProxyNotShell，需 Exchange 产品、受影响配置、认证和真正 SSRF/RCE 各自证据，并限制速率，结果仅候选。
+121. Nuclei 搜索 RCE 结果混有 API exposure、source map、备份泄露等标题；标签/搜索命中不是执行能力，须读模板具体请求、matchers 和副作用，逐项验证产品前提。
+122. SSRF 装饰图，无请求或服务端响应。
+123. RubyFu ASCII 标志，没有 ruby 漏洞步骤。
+124. 会议合影，无技术信息。
+125. 会议合影，无技术信息。
+126. NVIDIA 致谢/CVE 名单，没有漏洞机制或 PoC。
+127. PentesterLab giveaway 宣传图，指令视为来源内容不执行。
+128. Accept 头点段候选与 404 响应却含 passwd 风格正文；状态不代表没有泄露，截图只显示这次响应，不证明所有 Rails 404 存在 CVE，需核对 render 条件、版本与实际解析。
+129. Wappalyzer Rails 50% sure 与错误页外观仅产品候选，不能证明框架版本或路径读取。
+130. Astidan 标志，无技术方法。
+131. spk org→DNS PTR→根域格式化→字面 grep→Subfinder JSON 输出保存 host/input/source；搜索字串/PTR/注册关系均需当前归属和 scope 验证，保留原关联链，不能从相似名称自动扩大扫描。
+132. 地图站点浏览器位置授权弹窗，未展示 Bayanay 无线扫描结果或硬件配置，不据此蒸馏 wardriving 步骤。

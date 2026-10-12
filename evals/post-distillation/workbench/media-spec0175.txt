@@ -1,0 +1,89 @@
+0|distilled|references/by-type/authn-session.md|Karaf bundles管理台、446 active bundles与Install/Update；未显示登录过程，默认凭据有效及部署执行均未证实。
+1|distilled|references/by-type/sql-injection.md|MySQL1064的SELECT patient id缺值并拼接nom_hachage；缺输入来源/对照，错误不能证明SQLi，也没有患者数据。
+2|distilled|references/scope-and-rules.md|Application Design Flaw奖金/bonus已遮挡；分享金额和披露技术细节需要分别获得许可，非机制证明。
+3|distilled|references/reporting.md|Bugcrowd Request a response/Submit a request入口；不证明提交、响应或状态改变。
+4|insufficient_technical_detail||P1 resolved标题声称端点泄露30kPII，只有状态和40points，没有请求/CSV字段，细节不足。
+5|distilled|references/source-audit.md,references/by-type/xss.md|cPanel CVE2023-29489 Nuclei YAML片段、GET /cpanelwebcall编码img/onerror及wordmatcher起始；verified元数据不是执行证据，完整匹配条件未保存。
+6|insufficient_technical_detail||CVSS4/Medium向量与遮挡奖励；无漏洞机制。
+7|distilled|references/by-type/xss.md|cPanel webcall错误页与prompt1并列，多个端口PoC列表；可提炼错误页反射进入HTML解析，端口列表仍需独立映射和实际验证。
+8|no_technical_content||ReconOne RECON封面，无技术。
+9|no_technical_content||Twitter API应用暂停邮件并指引计划切换；无漏洞机制/当前政策证明。
+10|distilled|references/source-audit.md|Rack multipart限file parts但未限total parts，解析耗时DoS；保存公告修复版本3.0.4.2/2.2.6.3/2.1.4.3/2.0.9.3及proxy body size缓解；离线小样本复杂度与CPU/内存预算，不做压力测试。
+11|distilled|references/by-type/info-secrets.md|GitHub testsql.sh报告/厂商回应凭据失效且数据库弃用、仓库下架；硬编码历史泄露与当前有效访问分开，不能尝试凭据。
+12|distilled|references/reporting.md|H1 pending-program-review/open Medium4.8截图，调解并非确认修复/有效。
+13|no_technical_content||DOS/UNIX常用命令对应；attrib/chmod不等价，表格本身无SRC漏洞机制。
+14|distilled|references/by-type/request-smuggling.md|Connection:Content-Length代理剥离长度后将body看成GET及响应错配示意；非实际流量，需隔离多跳边界/连接复用、不可公网共享连接验证。
+15|distilled|references/discovery/records-and-incremental.md|subfinder→httpx -screenshot仅命令，没有图片输出/失败信息；角色分别为候选枚举、HTTP截图。
+16|distilled|references/by-type/info-secrets.md|LinkedIn GIF外部媒体media字段改成接收器，打开消息请求带设备/地址等主张；接收者两自控账号、浏览器发起而非SSRF，IP/UA实际与额外字段声明分别证明。
+17|distilled|references/by-type/authn-session.md|Netflix身份确认email code/payment details界面被X标注，未显示绕过步骤或服务端授权结果。
+18|distilled|references/by-type/ssrf.md|Nextcloud Talk链接referencefetch强制10秒timeout仍可消耗带宽/磁盘，报告举10GB资源；提炼byte/temp/concurrency预算独立于time，禁运行大文件/压力PoC。
+19|distilled|references/cloud/cloud-misconfiguration.md|FirebaseExploiter缺exploit.json后自建并显示ExploitedURL；未显示HTTP状态、Rules/身份及回读，工具成功文案不是未授权写入证明。
+20|distilled|references/reporting.md|H1 triage validated后交修复团队、retesting和resolved侧栏；阶段/严重性仍可变，机制遮挡。
+21|distilled|references/reporting.md|H1 retest No fix works/Seems fixed，结果内容遮挡；复测结论非可独立复现证据。
+22|distilled|references/reporting.md|H1 accepted completed retest→Resolved，时间线行政状态无请求。
+23|no_technical_content||H1专业性正面feedback，无漏洞技术。
+24|distilled|references/discovery/passive-and-services.md|LeakIX GitConfigHttpPlugin+country历史查询与gitconfig core/origin字段、timestamp;证明索引片段非全部源码/当前暴露，避免remoteURL内凭据传播。
+25|distilled|references/discovery/passive-and-services.md|Netlas http.title:Grafana结果101205、历史HTTP响应date/headers与ip/ASN；标题是指纹非访问授权或可利用，count分页不等唯一资产。
+26|insufficient_technical_detail||Critical10/RFI triaged状态，noPoC。
+27|insufficient_technical_detail||Criticalcommandinjection resolved30k截图，noPoC。
+28|distilled|references/by-type/info-secrets.md|Symfony Profiler filer/open?file=app/config/parameters.yml显示数据库/SMTP/secret键值遮挡；先判断debugviewer配置读权限，未显示任意路径对照或凭据有效性。
+29|distilled|references/source-audit.md|Sh4dowup CLI bait/front/infect/tamper/keygen/sign/hsm/build/check/req描述；供应链镜像、签名、路由校验角色，help非利用成功，禁止恶意源发布/安装。
+30|no_technical_content||hrekt GitHub reallyfast卡片与counts，无性能对照。
+31|distilled|references/discovery/records-and-incremental.md|reconbulk domain+resolver.txt仅输入，输出空白，无完整覆盖证明。
+32|distilled|references/scope-and-rules.md|8x8问still reproduce截图为IPtimeout，timeout非修复/Origin身份/SSO绕过证据。
+33|distilled|references/scope-and-rules.md|8x8明确资产不在program，Informative关闭且不知改动；scope应先于直接源站访问。
+34|no_technical_content||OWASP BAC排行，无机制。
+35|insufficient_technical_detail||BMW IDOR High7.5 triaged状态，未显示对象/请求，正文leadingzero需要归一化对照。
+36|insufficient_technical_detail||H1 reopen→triaged then remediation review；无对象权限机制，可留报告阶段事实。
+37|insufficient_technical_detail||UU PHPinfo disclosure resolved/HOF邀请邮件，无具体字段/请求。
+38|distilled|references/by-type/cmd-injection-rce.md|PHPunit eval-stdin GET body含system id，200回uid33www-data；样例请求响应对应可提炼执行sink，版本/部署需独立确认，原payload不运行。
+39|distilled|references/targeted-fuzzing.md|REcollapse帮助列位置/encoding/range/size/maxnormalization/normtable，不能凭help认定正则绕过；做编码解码与规范化消费者对照。
+40|distilled|references/by-type/authn-session.md|Netflix JS extra-member路由列表/create-credentials表单，文章说替换当前email/password且无需MFA；未显示提交响应，账号入口再认证绑定与跨入口差异必须用自控账号证明。
+41|no_technical_content||200/year扫描工具功能标注，市场价格/截图评论不能证明骗局或当前定价。
+42|distilled|references/discovery/passive-and-services.md|PureDNS publicresolve→wildcardroots→trustedresolve分阶段100000/1882/1806/1215，输出不同单位，unlimited速率不是安全默认。
+43|insufficient_technical_detail||BlindXSS ApplyForm adminpanel P1 New/Still assessed，未提供回调或执行。
+44|distilled|references/by-type/ssrf.md|image_proxy url指向metadata响应有AWS-HMAC/Success字段，真实key遮挡/未显示；image/jpeg header下JSON不代表image校验，不等于云接管。
+45|distilled|references/by-type/ssrf.md|image_proxy建议与cloudtakeover营销文字；端点候选非通用fullSSRF/cloudtakeover。
+46|no_technical_content||HOF名字表，no技术。
+47|distilled|references/by-type/xss.md|Stripe custom link javascript LF payload，CSP refusedexecution且保存当时项目允许无CSPbypass低severity；政策只历史特定项目，未显示运行成功/完整sink。
+48|distilled|references/by-type/xss.md|Stripe CUSTOM Button hrefjavascript截图，正文承认未CSPbypass；标准HTMLbutton没有anchorhref导航语义，需组件实际转换/handler，不把示例当执行。
+49|distilled|references/reporting.md|H1 mediation请求重复原报Informative理由，以UUID额外泄漏/CRLF→HTML链为假设；程序保密下说明新增前提和证据，不能推断原报内容或应奖。
+50|distilled|references/by-type/ssrf.md|POST零body response communications.webrtc_server STUN/TURNurls/username/credential；客户端ICE凭据可能设计所需，不等于内部relay任意访问，值不复制。
+51|insufficient_technical_detail||Critical9.1/5k/pathtraversalRCE正文声称，图片WeaknessNone无请求。
+52|insufficient_technical_detail||ReflectedXSS P3 New stillassessed，无执行证据。
+53|distilled|references/discovery/passive-and-services.md|CIDR聚合ARINorg/customer/POC邮件/BGP+RIPE/APNIC/LACNIC/AfriNIC；AfriNIC网络不可达却Found/Finished，来源失败与发现必须分别记录，CIDR归属非scope。
+54|insufficient_technical_detail||IDOR→triaged通知，对象/请求遮挡。
+55|insufficient_technical_detail||SQL cheatsheet目录按MySQL/Postgres/Oracle/MSSQL和Error/Union/Boolean/time分类；comingsoon非实现，目录不能证明技巧。
+56|insufficient_technical_detail||两BlindSQLi P1Unresolved标题，未显示15秒测量/输入响应。
+57|no_technical_content||Outside thebox文字图，无技术。
+58|distilled|references/by-type/xss.md|TD路径TechnicalInsight/...字符串拼接payload报告，步骤URL有querydelimiter，未显示具体响应sink或弹窗；不自动修正payload字节或声称cookie窃取。
+59|no_technical_content||PimpmyBurp封面，无技术。
+60|distilled|references/by-type/sql-injection.md|UA/XFF MySQLXOR now!=sysdate SLEEP5/10 payload卡片；无延迟测量，DB时间函数语义/重复查询均需对照，无盲喷。
+61|distilled|references/by-type/ssrf.md|url172.16.10.1返回302Found并locationhttps443；服务器取回/客户端重定向要区分，不能扩展整网探测。
+62|distilled|references/by-type/idor-access-control.md|H1 DeleteCampaigns report POST/graphql cookie/CSRF/contentjson，mutation内容在裁切外；保护campaign ownership，GraphQL路由/CSRF并不证明对象授权。
+63|distilled|references/discovery/passive-and-services.md|domain→GoogleDork ext/inurl/report查询生成界面，无实际索引结果/资产授权。
+64|distilled|references/by-type/mobile-android.md|Androidcheatsheet静态APK/META-INF/lib/DEX/manifest、data isolation/repackage/sign/provider/activity；adbshell权限与第三方app不同，改签自安装不等于原签名权限绕过。
+65|distilled|references/by-type/mobile-ios.md|iOS forensiccheatsheet USB备份加密/解密Manifest.db映射与data/log/network/config artifacts；自设备权限、加密口令与提取时间分别记录，无备份取得≠远程漏洞。
+66|distilled|references/by-type/mobile-ios.md|iOSassessment root/Fridaappinfo/container paths/Objection返回值替换/NSLog；UUID目录非bundleID，插桩修改返回值非serverauthbreak。
+67|distilled|references/by-type/mobile-android.md|AndroidPWN GDB/LLDB断点/内存/attach/ADBforward与PatchELF替换lib/interpreter；调试既有权限与patch样本不是原应用可利用证明。
+68|distilled|references/discovery/passive-and-services.md|Firewall checklist25tools，Iodine是DNS隧道却标VPNdetection、Wireshark非自动TLSdecrypt；需L3/4网络策略vsL7WAF/TLS会话前提，工具标签不等成功。
+69|distilled|references/by-type/crlf-response-splitting.md|RubyNetHTTP headerkey内CRLF+SET被截图请求报文字节体现，Informative0无Redis执行响应；本地socket构造与远端SSRF可控headerkey分开。
+70|distilled|references/by-type/xss.md|BlindXSS MassHunt waybackurls→httpx UA第三方callback；仅命令无回调，不用他人callback/外部批量喷射。
+71|distilled|references/by-type/mobile-android.md|Nextcloud AndroidPIN第三方deeplink标题及severity变化历史，无intent/数据访问步骤；组件生命周期守卫与本地PIN不等serverlogin。
+72|distilled|references/by-type/lfi-path-traversal.md|FoldergetFullPath代码先isValidPath再normalizePath，\转/可重新生出/../；需最终canonical根目录与newFile/newFolderconsumer，图只潜在路径非实际跨目录读取。
+73|insufficient_technical_detail||Collabora其他用户documentcontent报告标题/resolved/CVE2023-25150，无WOPItoken/请求链，证据细节不足。
+74|no_technical_content||CommandLineExecution/两ReflectedXSS P1New stillassessed，仅标题。
+75|distilled|references/by-type/idor-access-control.md|DevTools Network header编辑图，Accept-Ranges字节值铅笔；localresponseoverride不改变服务端，须与真实network保存分开。
+76|no_technical_content||SpiderSuite空sitemap/分类UI，无爬取结果。
+77|distilled|references/by-type/idor-access-control.md|transactions/all?page0返回json id830551，身份/cookie遮挡；列表ID是候选非越权证明，详情需要B对象A身份对照。
+78|distilled|references/by-type/idor-access-control.md|GET transactions830回id830/date/paymentMethod，原列表id830551，正文又813200；不擅自将三个ID绑定同对象，cookie身份与归属未显示。
+79|insufficient_technical_detail||DOMXSS triagedMedium截图无source/sink/浏览器执行。
+80|distilled|references/by-type/xss.md,references/by-type/clickjacking.md|Expedia origCity UPPER/WAF title，onsubmit需点击并声称clickjacking，视频封面未播放；eventtrigger/大小写HTML和JS不同、iframe可嵌入不等完整诱导。
+81|insufficient_technical_detail||CSRF→XSS P3Unresolved标题，无CSRFcookie/跨站consumer。
+82|no_technical_content||DjangoMisconfigusingShodan文章封面，未保存正文，无机制。
+83|distilled|references/by-type/ssrf.md|Elastic raw HTTPcheck endpoint urlcallback:22，status/regex参数与请求，未显示callback/timing/response；blind行为与内部端口判别分别证明，不能扫内网。
+84|distilled|references/by-type/open-redirect.md|Nuclei slashURLredirection1template5targets引擎2.8.3模板9.4.3输出low URL////httpbing/%2F；没有Location或浏览器最终origin，matcher与version历史不可当复现。
+85|insufficient_technical_detail||SQLi duplicateCritical闭合状态，无延迟/请求。
+86|no_technical_content||裁切红色logo，无技术。
+87|distilled|references/scope-and-rules.md|Volvo Cars邮件说differentcompanies/homepage非本公司并转正确公司；归属联系/授权不因共享品牌自动成立，无需复制私人联系方式。
+88|distilled|references/by-type/file-upload.md|OperaFileReceiver filename D盘CGI路径、multipart Perl CGI shell后访问/operabin/...cgi?type%20C:\Windows\win.ini返回文件截图；文件写入路径→CGI执行映射需具体部署/验证次序，不能从任意上传推断preauthRCE，原shell不运行。

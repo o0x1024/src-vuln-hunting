@@ -1,0 +1,200 @@
+1|excluded||完整保存正文/有意义替代文字已实际读完；File sizes may be manipulated into negative numbers when uploading；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+2|excluded||完整保存正文/有意义替代文字已实际读完；Rate Limit Bypass $150；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+3|corrected|references/discovery/web-and-api.md,references/by-type/idor-access-control.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 正文 Salesforce对象枚举与权限 web；0226 正文 Salesforce对象枚举与权限 access；0226 正文 Salesforce对象枚举与权限 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+4|excluded||完整保存正文/有意义替代文字已实际读完；Script that installs/configures a Dovecot, Postfix, Spam Assassin, OpenDKIM Debian web server；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+5|corrected|references/discovery/web-and-api.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 图片 001 web；0226 图片 001 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+6|excluded||完整保存正文/有意义替代文字已实际读完；The 5 Critical Vulnerabilities Exploit code :- [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+7|excluded||完整保存正文/有意义替代文字已实际读完；The most important HTTP security headers；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+8|corrected|references/by-type/ssrf.md,references/source-audit.md|完整保存正文/有意义替代文字已实际读完；0226 正文 回环地址集合 ssrf；0226 正文 回环地址集合 source；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+9|excluded||完整保存正文/有意义替代文字已实际读完；EasyScripts Installer: finding misconfigured software on servers 🤔；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+10|corrected|references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/by-type/sql-injection.md,references/source-audit.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 正文 自动流水线边界 passive；0226 正文 自动流水线边界 web；0226 正文 自动流水线边界 sql；0226 正文 自动流水线边界 source；0226 正文 自动流水线边界 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+11|excluded||完整保存正文/有意义替代文字已实际读完；Exploiting IDOR Vulnerability in PostgREST；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+12|excluded||完整保存正文/有意义替代文字已实际读完；Host Header Poisoning Vulnerability: A Critical Web Security Flaw；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+13|corrected|references/by-type/info-secrets.md,references/impact-and-acceptance.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 正文 索引敏感资料 secret；0226 正文 索引敏感资料 impact；0226 正文 索引敏感资料 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+14|excluded||完整保存正文/有意义替代文字已实际读完；Bug Bounty Program for Gluon on Ergo；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+15|excluded||完整保存正文/有意义替代文字已实际读完；🚨Free Bug Bounty Complete Course!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+16|excluded||完整保存正文/有意义替代文字已实际读完；A Comprehensive Guide for Beginners for #bugbounty Hunting👇；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+17|corrected|references/by-type/info-secrets.md,references/discovery/web-and-api.md|完整保存正文/有意义替代文字已实际读完；0226 图片 005 secret；0226 图片 005 web；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+18|corrected|references/discovery/web-and-api.md,references/by-type/idor-access-control.md,references/by-type/xss.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 百分号路径与反射线索 web；0226 正文 百分号路径与反射线索 access；0226 正文 百分号路径与反射线索 xss；0226 正文 百分号路径与反射线索 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+19|excluded||完整保存正文/有意义替代文字已实际读完；A lot of you guys needed me to share my learnings, resources & experiences. I have tried my best to include possibly every good and bad that I faced in my 12 month j；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+20|excluded||完整保存正文/有意义替代文字已实际读完；How I Can Still See Your Image on Facebook After You Deleted It ｜ Meta ｜ BugBounty ｜ 2024；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+21|excluded||完整保存正文/有意义替代文字已实际读完；Nice read on Exploring Third-Party Services for Open Signups: Security Risks and Best Practices by @intigriti；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+22|excluded||完整保存正文/有意义替代文字已实际读完；Admin panel Bypassed Just by reading “support team quotes”；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+23|corrected|references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/targeted-fuzzing.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 图片 009 passive；0226 图片 009 web；0226 图片 009 fuzz；0226 图片 009 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+24|excluded||完整保存正文/有意义替代文字已实际读完；Host Header Injection；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+25|corrected|references/by-type/authn-session.md,references/by-type/business-logic.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 客户端MFA响应修改 auth；0226 正文 客户端MFA响应修改 logic；0226 正文 客户端MFA响应修改 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+26|corrected|references/by-type/desktop-client.md,references/by-type/document-rendering.md,references/by-type/xss.md|完整保存正文/有意义替代文字已实际读完；0226 图片 010 desktop；0226 图片 010 doc；0226 图片 010 xss；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+27|excluded||完整保存正文/有意义替代文字已实际读完；[外链] Desktop client fails to open browser on 3rd party external actions from PDF documents；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+28|excluded||完整保存正文/有意义替代文字已实际读完；Cross-Account Profile Picture Deletion via CSRF Token Bypass paid me 500$.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+29|excluded||完整保存正文/有意义替代文字已实际读完；9.6 Lab: Partial construction race conditions；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+30|corrected|references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/by-type/business-logic.md|完整保存正文/有意义替代文字已实际读完；0226 图片 012 auth；0226 图片 012 access；0226 图片 012 logic；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+31|corrected|references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/by-type/business-logic.md|完整保存正文/有意义替代文字已实际读完；0226 图片 013 auth；0226 图片 013 access；0226 图片 013 logic；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+32|corrected|references/by-type/authn-session.md,references/experiment-design.md,references/impact-and-acceptance.md|完整保存正文/有意义替代文字已实际读完；0226 图片 014 auth；0226 图片 014 experiment；0226 图片 014 impact；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+33|corrected|references/by-type/info-secrets.md,references/discovery/web-and-api.md|完整保存正文/有意义替代文字已实际读完；0226 重复图片 1 secret；0226 重复图片 1 web；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+34|corrected|references/discovery/web-and-api.md,references/source-audit.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 正文 OpenSSH检查器输入 web；0226 正文 OpenSSH检查器输入 source；0226 正文 OpenSSH检查器输入 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+35|excluded||完整保存正文/有意义替代文字已实际读完；Complex Attack Types: Sample Scenarios 40；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+36|excluded||完整保存正文/有意义替代文字已实际读完；Business Logic error leads to bypass 2FA requirement；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+37|corrected|references/discovery/records-and-incremental.md,references/discovery/web-and-api.md,references/scope-and-rules.md,references/experiment-design.md,references/impact-and-acceptance.md|完整保存正文/有意义替代文字已实际读完；0226 正文 侦察编排API records；0226 正文 侦察编排API web；0226 正文 侦察编排API scope；0226 图片 016 web；0226 图片 016 experiment；0226 图片 016 impact；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+38|corrected|references/by-type/authn-session.md,references/experiment-design.md,references/impact-and-acceptance.md|完整保存正文/有意义替代文字已实际读完；0226 图片 017 auth；0226 图片 017 experiment；0226 图片 017 impact；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+39|corrected|references/by-type/authn-session.md,references/by-type/business-logic.md,references/business-modeling.md|完整保存正文/有意义替代文字已实际读完；0226 图片 018 auth；0226 图片 018 logic；0226 图片 018 business；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+40|corrected|references/by-type/authn-session.md,references/by-type/business-logic.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 图片 019 auth；0226 图片 019 logic；0226 图片 019 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+41|corrected|references/by-type/authn-session.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 图片 020 auth；0226 图片 020 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+42|corrected|references/by-type/authn-session.md,references/by-type/business-logic.md|完整保存正文/有意义替代文字已实际读完；0226 图片 021 auth；0226 图片 021 logic；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+43|excluded||完整保存正文/有意义替代文字已实际读完；Reports submitted by a non 2fa setupped user account can be transferred to a 2fa require submission program；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+44|excluded||完整保存正文/有意义替代文字已实际读完；No Way Out: Enforced and Inescapable Organizational Membership；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+45|corrected|references/by-type/authn-session.md,references/by-type/business-logic.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 图片 022 auth；0226 图片 022 logic；0226 图片 022 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+46|corrected|references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/by-type/xxe.md,references/source-audit.md|完整保存正文/有意义替代文字已实际读完；0226 正文 sitemap结构解析 passive；0226 正文 sitemap结构解析 web；0226 正文 sitemap结构解析 xxe；0226 正文 sitemap结构解析 source；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+47|excluded||完整保存正文/有意义替代文字已实际读完；No Way Out: Enforced and Inescapable Organizational Membership；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+48|excluded||完整保存正文/有意义替代文字已实际读完；0 Click account takeover via timed requests to forgot-password (single-packet attack)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+49|excluded||完整保存正文/有意义替代文字已实际读完；Just published a new write-up on how i uncovered a bug with exploiting the logic of application in BBP 🐞🔍；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+50|excluded||完整保存正文/有意义替代文字已实际读完；Cracking the Code: A Walkthrough of the W1seGuy Room on TryHackMe；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+51|excluded||完整保存正文/有意义替代文字已实际读完；Reconnaissance Basic；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+52|excluded||完整保存正文/有意义替代文字已实际读完；㊙Added Some Fresh Targets；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+53|excluded||完整保存正文/有意义替代文字已实际读完；NoSQL injection leaks visitor token and livechat messages；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+54|corrected|references/by-type/nosql-injection.md,references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/source-audit.md|完整保存正文/有意义替代文字已实际读完；0226 图片 025 nosql；0226 图片 025 auth；0226 图片 025 access；0226 图片 025 source；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+55|corrected|references/discovery/passive-and-services.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 图片 026 passive；0226 图片 026 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+56|excluded||完整保存正文/有意义替代文字已实际读完；Credential stuffing in bug bounties；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+57|excluded||完整保存正文/有意义替代文字已实际读完；Can bug bounty be a full time career?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+58|excluded||完整保存正文/有意义替代文字已实际读完；Double bounty $$$ on same program；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+59|corrected|references/by-type/xss.md,references/source-audit.md,references/by-type/document-rendering.md|完整保存正文/有意义替代文字已实际读完；0226 正文 XML页面与Angular消费 xss；0226 正文 XML页面与Angular消费 source；0226 正文 XML页面与Angular消费 doc；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+60|excluded||完整保存正文/有意义替代文字已实际读完；Firmware Analysis: Hands-on Guide；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+61|corrected|references/by-type/info-secrets.md,references/by-type/authn-session.md,references/impact-and-acceptance.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 客户端Mandrillkey secret；0226 正文 客户端Mandrillkey auth；0226 正文 客户端Mandrillkey impact；0226 图片 030 secret；0226 图片 030 auth；0226 图片 030 experiment；0226 图片 031 secret；0226 图片 031 auth；0226 图片 031 experiment；0226 图片 032 secret；0226 图片 032 auth；0226 图片 032 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+62|excluded||完整保存正文/有意义替代文字已实际读完；The Hidden Pitfalls of Bug Bounties on Indian Government Sites: My First Experience；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+63|excluded||完整保存正文/有意义替代文字已实际读完；Happy to share I finally got my first bounty of €500. After months of frustrations, duplicates and N/As, I got a valid SQL injection in admin login page. Big thanks ；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+64|excluded||完整保存正文/有意义替代文字已实际读完；DΞX Points Fest；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+65|excluded||完整保存正文/有意义替代文字已实际读完；VULNERABILITY RESEARCH；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+66|excluded||完整保存正文/有意义替代文字已实际读完；Windows privilege escalation: Abusing npm’s design patterns to escalate your permissions；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+67|corrected|references/by-type/idor-access-control.md,references/discovery/web-and-api.md,references/source-audit.md,references/by-type/api-property-pollution.md|完整保存正文/有意义替代文字已实际读完；0226 已审图片 0 access；0226 已审图片 0 web；0226 已审图片 0 source；0226 已审图片 1 access；0226 已审图片 1 web；0226 已审图片 1 apip；0226 已审图片 2 access；0226 已审图片 2 web；0226 已审图片 2 source；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+68|excluded||完整保存正文/有意义替代文字已实际读完；Explore about Credential stuffing in bug bounties 👇；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+69|excluded||完整保存正文/有意义替代文字已实际读完；File Upload se kuch hatke : File Inclusion aur Path Traversal Vulnerabilites；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+70|excluded||完整保存正文/有意义替代文字已实际读完；🚨CVE-2024-4879 - Jelly Template Injection Vulnerability in ServiceNow；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+71|excluded||完整保存正文/有意义替代文字已实际读完；10.6 Lab: Blind SSRF with Shellshock Exploitation；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+72|excluded||完整保存正文/有意义替代文字已实际读完；Master Bug Bounty Hunting with Top Recon Tools；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+73|excluded||完整保存正文/有意义替代文字已实际读完；I must confess @ibrahimxss_ tool is the new Swiss Army knife 🔪 in #BugBounty!!! Go and get yours now!!!!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+74|corrected|references/by-type/authn-session.md,references/impact-and-acceptance.md,references/reporting.md|完整保存正文/有意义替代文字已实际读完；0226 图片 036 auth；0226 图片 036 impact；0226 图片 036 report；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+75|excluded||完整保存正文/有意义替代文字已实际读完；Git Gone Wrong: Application Compromise via Exposed .git Directory；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+76|excluded||完整保存正文/有意义替代文字已实际读完；Setting up a private Burp Collaborator Server；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+77|excluded||完整保存正文/有意义替代文字已实际读完；RECON IS IMPORTANT !!! In Depth Recon Methodology Bug Bounty Part 01；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+78|corrected|references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 正文 Scilla阶段分类 passive；0226 正文 Scilla阶段分类 web；0226 正文 Scilla阶段分类 scope；0226 图片 037 passive；0226 图片 037 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+79|excluded||完整保存正文/有意义替代文字已实际读完；Nice read on On-site request forgery 👇；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+80|corrected|references/by-type/sql-injection.md,references/experiment-design.md,references/by-type/request-smuggling.md|完整保存正文/有意义替代文字已实际读完；0226 图片 038 sql；0226 图片 038 experiment；0226 图片 038 hrs；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+81|corrected|references/by-type/cmd-injection-rce.md,references/source-audit.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 会话名到表达式 cmd；0226 正文 会话名到表达式 source；0226 正文 会话名到表达式 experiment；0226 图片 039 cmd；0226 图片 039 source；0226 图片 039 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+82|corrected|references/discovery/web-and-api.md,references/by-type/info-secrets.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 图片 040 web；0226 图片 040 secret；0226 图片 040 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+83|excluded||完整保存正文/有意义替代文字已实际读完；CVE-2024-3416: MTU of 4096 or greater without fragmentation may cause NGINX worker processes to leak previously freed memory；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+84|excluded||完整保存正文/有意义替代文字已实际读完；How I Make Two SQL Injections Exploitable under the Magic Restricts in WordPress；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+85|corrected|references/targeted-fuzzing.md,references/discovery/web-and-api.md,references/scope-and-rules.md,references/by-type/info-secrets.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 递归目录fuzz fuzz；0226 正文 递归目录fuzz web；0226 正文 递归目录fuzz scope；0226 图片 041 fuzz；0226 图片 041 secret；0226 图片 041 experiment；0226 图片 042 fuzz；0226 图片 042 secret；0226 图片 042 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+86|corrected|references/by-type/authn-session.md,references/by-type/mobile-android.md,references/by-type/business-logic.md|完整保存正文/有意义替代文字已实际读完；0226 图片 043 auth；0226 图片 043 android；0226 图片 043 logic；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+87|excluded||完整保存正文/有意义替代文字已实际读完；Account Takeover via Authentication Bypass in TikTok Account Recovery；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+88|corrected|references/source-audit.md,references/by-type/cmd-injection-rce.md,references/scope-and-rules.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 CI不可信输入路径 source；0226 正文 CI不可信输入路径 cmd；0226 正文 CI不可信输入路径 scope；0226 图片 044 source；0226 图片 044 cmd；0226 图片 044 scope；0226 图片 045 source；0226 图片 045 cmd；0226 图片 045 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+89|excluded||完整保存正文/有意义替代文字已实际读完；Airplane TryHackMe Room Walkthrough ｜ MatSec Youtube；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+90|excluded||完整保存正文/有意义替代文字已实际读完；Today Morning Received Hall of Fame From RMIT University @RMIT Australia ✨❤️ On @Bugcrowd；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+91|corrected|references/discovery/web-and-api.md,references/experiment-design.md,references/impact-and-acceptance.md|完整保存正文/有意义替代文字已实际读完；0226 图片 047 web；0226 图片 047 experiment；0226 图片 047 impact；0226 图片 048 web；0226 图片 048 experiment；0226 图片 048 impact；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+92|excluded||完整保存正文/有意义替代文字已实际读完；Bug Bounty: The road to my first $1000 by @swehtpantz；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+93|excluded||完整保存正文/有意义替代文字已实际读完；10.7 Lab: SSRF with whitelist-based input filter；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+94|excluded||完整保存正文/有意义替代文字已实际读完；Securing Crypto Company: Addressing Web 2.0 Vulnerabilities；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+95|corrected|references/by-type/lfi-path-traversal.md,references/by-type/waf-bypass.md,references/experiment-design.md,references/by-type/document-rendering.md|完整保存正文/有意义替代文字已实际读完；0226 正文 Base64只在解码链成立 lfi；0226 正文 Base64只在解码链成立 waf；0226 正文 Base64只在解码链成立 experiment；0226 图片 050 lfi；0226 图片 050 doc；0226 图片 050 waf；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+96|excluded||完整保存正文/有意义替代文字已实际读完；SQL Injection Payload List📝👇；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+97|corrected|references/by-type/ssti.md,references/by-type/info-secrets.md,references/source-audit.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 图片 051 ssti；0226 图片 051 secret；0226 图片 051 source；0226 图片 051 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+98|excluded||完整保存正文/有意义替代文字已实际读完；Linux Exploitation: Stack Smashing；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+99|corrected|references/by-type/sql-injection.md,references/experiment-design.md,references/by-type/request-smuggling.md|完整保存正文/有意义替代文字已实际读完；0226 图片 052 sql；0226 图片 052 experiment；0226 图片 052 hrs；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+100|corrected|references/by-type/sql-injection.md,references/experiment-design.md,references/by-type/request-smuggling.md|完整保存正文/有意义替代文字已实际读完；0226 图片 053 sql；0226 图片 053 experiment；0226 图片 053 hrs；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+101|excluded||完整保存正文/有意义替代文字已实际读完；Complex Attack Types: Sample Scenarios 41；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+102|excluded||完整保存正文/有意义替代文字已实际读完；moderate: Apache HTTP Server proxy encoding problem (CVE-2024-38473)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+103|corrected|references/discovery/web-and-api.md,references/source-audit.md,references/by-type/lfi-path-traversal.md|完整保存正文/有意义替代文字已实际读完；0226 图片 054 web；0226 图片 054 source；0226 图片 054 lfi；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+104|corrected|references/by-type/ssrf.md,references/by-type/info-secrets.md,references/discovery/web-and-api.md|完整保存正文/有意义替代文字已实际读完；0226 图片 055 ssrf；0226 图片 055 secret；0226 图片 055 web；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+105|corrected|references/discovery/web-and-api.md,references/source-audit.md,references/by-type/cmd-injection-rce.md,references/by-type/ssrf.md|完整保存正文/有意义替代文字已实际读完；0226 图片 056 web；0226 图片 056 source；0226 图片 056 cmd；0226 图片 056 ssrf；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+106|corrected|references/discovery/web-and-api.md,references/source-audit.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 图片 057 web；0226 图片 057 source；0226 图片 057 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+107|corrected|references/discovery/web-and-api.md,references/by-type/idor-access-control.md,references/source-audit.md|完整保存正文/有意义替代文字已实际读完；0226 图片 058 web；0226 图片 058 access；0226 图片 058 source；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+108|corrected|references/discovery/passive-and-services.md,references/scope-and-rules.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 图片 059 passive；0226 图片 059 scope；0226 图片 059 experiment；0226 图片 060 passive；0226 图片 060 scope；0226 图片 060 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+109|excluded||完整保存正文/有意义替代文字已实际读完；important: Apache HTTP Server weakness with encoded question marks in backreferences (CVE-2024-38474)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+110|excluded||完整保存正文/有意义替代文字已实际读完；Email Update Restricted Bypass；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+111|excluded||完整保存正文/有意义替代文字已实际读完；#BugBytes；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+112|excluded||完整保存正文/有意义替代文字已实际读完；How to Easily Earn a $200 Bounty；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+113|excluded||完整保存正文/有意义替代文字已实际读完；Detection Engineering: A Comprehensive Overview；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+114|excluded||完整保存正文/有意义替代文字已实际读完；Vulnerable Parameter Scanner 🤑by @s0md3v；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+115|corrected|references/by-type/xss.md,references/by-type/waf-bypass.md,references/source-audit.md|完整保存正文/有意义替代文字已实际读完；0226 正文 popover拼接字符串 xss；0226 正文 popover拼接字符串 waf；0226 正文 popover拼接字符串 source；0226 图片 061 xss；0226 图片 061 waf；0226 图片 061 source；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+116|corrected|references/by-type/ssrf.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 图片 062 ssrf；0226 图片 062 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+117|excluded||完整保存正文/有意义替代文字已实际读完；Hunting for Firebase Enums in Android Application；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+118|corrected|references/discovery/web-and-api.md,references/by-type/idor-access-control.md,references/by-type/authn-session.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 路径后缀与策略一致 web；0226 正文 路径后缀与策略一致 access；0226 正文 路径后缀与策略一致 auth；0226 正文 路径后缀与策略一致 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+119|corrected|references/by-type/waf-bypass.md,references/by-type/sql-injection.md,references/experiment-design.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 正文 代理出口与WAF因果 waf；0226 正文 代理出口与WAF因果 sql；0226 正文 代理出口与WAF因果 experiment；0226 正文 代理出口与WAF因果 scope；0226 图片 064 waf；0226 图片 064 sql；0226 图片 064 experiment；0226 图片 065 waf；0226 图片 065 sql；0226 图片 065 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+120|corrected|references/by-type/sql-injection.md,references/experiment-design.md,references/by-type/request-smuggling.md|完整保存正文/有意义替代文字已实际读完；0226 重复图片 2 sql；0226 重复图片 2 experiment；0226 重复图片 2 hrs；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+121|excluded||完整保存正文/有意义替代文字已实际读完；My First Critical Vulnerability；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+122|corrected|references/discovery/passive-and-services.md,references/source-audit.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 正文 反向DNS与hosts格式 passive；0226 正文 反向DNS与hosts格式 source；0226 正文 反向DNS与hosts格式 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+123|corrected|references/by-type/xss.md,references/by-type/csrf.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 POST反射可达性 xss；0226 正文 POST反射可达性 csrf；0226 正文 POST反射可达性 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+124|merged|references/discovery/records-and-incremental.md,references/experiment-design.md,references/reporting.md|完整保存正文/有意义替代文字已实际读完；0226 正文 修复回归证据 records；0226 正文 修复回归证据 experiment；0226 正文 修复回归证据 report；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+125|excluded||完整保存正文/有意义替代文字已实际读完；The easiest admin panel bypass；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+126|excluded||完整保存正文/有意义替代文字已实际读完；⚡ Can reshare read&share only folder with more permissions；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+127|excluded||完整保存正文/有意义替代文字已实际读完；⚡ Event create can create attachments that link to other websites；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+128|excluded||完整保存正文/有意义替代文字已实际读完；⚡ Missing permission check when removing a photo from an album；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+129|excluded||完整保存正文/有意义替代文字已实际读完；⚡ Ability to by-pass second factor；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+130|merged|references/discovery/records-and-incremental.md,references/experiment-design.md,references/reporting.md|完整保存正文/有意义替代文字已实际读完；0226 正文 修复回归证据 records；0226 正文 修复回归证据 experiment；0226 正文 修复回归证据 report；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+131|excluded||完整保存正文/有意义替代文字已实际读完；This was my first bounty on @Hacker0x01 😂😇 in 2022. If you want to know how I find these vulnerabilities, follow me 😎.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+132|corrected|references/hunting-strategy.md,references/business-modeling.md,references/experiment-design.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 图片 073 strategy；0226 图片 073 business；0226 图片 073 experiment；0226 图片 073 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+133|excluded||完整保存正文/有意义替代文字已实际读完；⚡ ID4ME does not validate signature or expiration；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+134|excluded||完整保存正文/有意义替代文字已实际读完；ID4ME does not validate signature or expiration；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+135|excluded||完整保存正文/有意义替代文字已实际读完；What is XML external entity (XXE) injection；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+136|excluded||完整保存正文/有意义替代文字已实际读完；👁 Nmap Cheat Sheet 2024: All the Commands & Flags.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+137|excluded||完整保存正文/有意义替代文字已实际读完；A Security Tool for Bug Bounty, Pentest and Red Teaming；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+138|excluded||完整保存正文/有意义替代文字已实际读完；Automate Subdomain Monitoring；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+139|excluded||完整保存正文/有意义替代文字已实际读完；After a break, @BsidesJaipur went great 🔥；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+140|excluded||完整保存正文/有意义替代文字已实际读完；Vulnerable WordPress June 2024 (Turkish delight)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+141|excluded||完整保存正文/有意义替代文字已实际读完；improper access control；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+142|excluded||完整保存正文/有意义替代文字已实际读完；Escaping the Citrix Sandbox — Understanding Citrix Breakout；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+143|excluded||完整保存正文/有意义替代文字已实际读完；Video Spin Blaster Pro Plus v2.45 Full Activated – Discount 100% OFF [外链] #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity #100DaysOfCode #Malware #Cod；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+144|excluded||完整保存正文/有意义替代文字已实际读完；Reflected XSS via Base64-encoded on My college website.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+145|corrected|references/by-type/xss.md,references/by-type/waf-bypass.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 popover事件编码 xss；0226 正文 popover事件编码 waf；0226 正文 popover事件编码 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+146|merged|references/by-type/lfi-path-traversal.md,references/by-type/waf-bypass.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 Base64只在解码链成立 lfi；0226 正文 Base64只在解码链成立 waf；0226 正文 Base64只在解码链成立 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+147|excluded||完整保存正文/有意义替代文字已实际读完；Bug Bounty Hunting — Complete Guide (Part-35)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+148|corrected|references/by-type/lfi-path-traversal.md,references/discovery/web-and-api.md,references/source-audit.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 双层编码点段 lfi；0226 正文 双层编码点段 web；0226 正文 双层编码点段 source；0226 图片 079 lfi；0226 图片 079 web；0226 图片 079 source；0226 图片 079 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+149|corrected|references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/scope-and-rules.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 组织侦察工具行为 passive；0226 正文 组织侦察工具行为 web；0226 正文 组织侦察工具行为 scope；0226 图片 080 passive；0226 图片 080 scope；0226 图片 080 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+150|excluded||完整保存正文/有意义替代文字已实际读完；Bug Bounty Hunting — Complete Guide (Part-36)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+151|corrected|references/by-type/authn-session.md,references/by-type/business-logic.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 重置表单账户枚举 auth；0226 正文 重置表单账户枚举 logic；0226 正文 重置表单账户枚举 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+152|excluded||完整保存正文/有意义替代文字已实际读完；My First Bounty: A story of a Blind SQL Injection；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+153|corrected|references/by-type/lfi-path-traversal.md,references/source-audit.md,references/by-type/desktop-client.md|完整保存正文/有意义替代文字已实际读完；0226 图片 081 lfi；0226 图片 081 source；0226 图片 081 desktop；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+154|excluded||完整保存正文/有意义替代文字已实际读完；Hiii everyone, going to start my cpts + web3 hacking journey soon.. Will update you of everything going on rn soon, also get ready for some good tweets!!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+155|excluded||完整保存正文/有意义替代文字已实际读完；Echidna；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+156|merged|references/by-type/xss.md,references/by-type/waf-bypass.md,references/source-audit.md|完整保存正文/有意义替代文字已实际读完；0226 正文 popover拼接字符串 xss；0226 正文 popover拼接字符串 waf；0226 正文 popover拼接字符串 source；0226 重复图片 3 xss；0226 重复图片 3 waf；0226 重复图片 3 source；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+157|corrected|references/by-type/authn-session.md,references/by-type/ai-application.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 正文 验证码自动解题与认证 auth；0226 正文 验证码自动解题与认证 ai；0226 正文 验证码自动解题与认证 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+158|excluded||完整保存正文/有意义替代文字已实际读完；🐵 MonkeHacks #22；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+159|corrected|references/by-type/ssrf.md|完整保存正文/有意义替代文字已实际读完；0226 已审图片 4 ssrf；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+160|excluded||完整保存正文/有意义替代文字已实际读完；Understanding White Hat Hacking: The Guardians of Cybersecurity；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+161|corrected|references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/scope-and-rules.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 dork工具结果清洗 passive；0226 正文 dork工具结果清洗 web；0226 正文 dork工具结果清洗 scope；0226 图片 083 passive；0226 图片 083 web；0226 图片 083 experiment；0226 图片 084 passive；0226 图片 084 web；0226 图片 084 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+162|corrected|references/discovery/records-and-incremental.md,references/experiment-design.md,references/reporting.md|完整保存正文/有意义替代文字已实际读完；0226 正文 修复回归证据 records；0226 正文 修复回归证据 experiment；0226 正文 修复回归证据 report；0226 图片 085 records；0226 图片 085 report；0226 图片 085 experiment；0226 图片 086 records；0226 图片 086 report；0226 图片 086 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+163|corrected|references/by-type/lfi-path-traversal.md,references/by-type/info-secrets.md,references/impact-and-acceptance.md|完整保存正文/有意义替代文字已实际读完；0226 正文 文件清单的证据层级 lfi；0226 正文 文件清单的证据层级 secret；0226 正文 文件清单的证据层级 impact；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+164|excluded||完整保存正文/有意义替代文字已实际读完；Exploiting CVE-2024–22274: A Deep Dive into VMware vCenter Server Vulnerabilities and Defense…；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+165|merged|references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 正文 dork工具结果清洗 passive；0226 正文 dork工具结果清洗 web；0226 正文 dork工具结果清洗 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+166|corrected|references/by-type/xss.md,references/targeted-fuzzing.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 事件表选择输入 xss；0226 正文 事件表选择输入 fuzz；0226 正文 事件表选择输入 experiment；0226 图片 088 xss；0226 图片 088 fuzz；0226 图片 088 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+167|excluded||完整保存正文/有意义替代文字已实际读完；Complex Attack Types: Sample Scenarios 44；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+168|corrected|references/by-type/xss.md,references/source-audit.md|完整保存正文/有意义替代文字已实际读完；0226 正文 多层实体处理 xss；0226 正文 多层实体处理 source；0226 已审图片 5 xss；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+169|corrected|references/discovery/web-and-api.md,references/experiment-design.md,references/impact-and-acceptance.md|完整保存正文/有意义替代文字已实际读完；0226 重复图片 4 web；0226 重复图片 4 experiment；0226 重复图片 4 impact；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+170|excluded||完整保存正文/有意义替代文字已实际读完；banger；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+171|excluded||完整保存正文/有意义替代文字已实际读完；Intro to Debugging Java Web Servers Without Source Code For Security Researchers；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+172|corrected|references/by-type/jwt.md,references/by-type/authn-session.md,references/by-type/oauth-oidc.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 图片 090 jwt；0226 图片 090 auth；0226 图片 090 oauth；0226 图片 090 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+173|excluded||完整保存正文/有意义替代文字已实际读完；API Recon and Testing for Bug Bounty；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+174|corrected|references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 正文 AEM词表时间与范围 passive；0226 正文 AEM词表时间与范围 web；0226 正文 AEM词表时间与范围 scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+175|corrected|references/by-type/authn-session.md,references/by-type/waf-bypass.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 客户端速率与服务端限流 auth；0226 正文 客户端速率与服务端限流 waf；0226 正文 客户端速率与服务端限流 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+176|excluded||完整保存正文/有意义替代文字已实际读完；⚡ Multiple XSS and open HTTP redirection；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+177|excluded||完整保存正文/有意义替代文字已实际读完；Multiple XSS and open HTTP redirection；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+178|excluded||完整保存正文/有意义替代文字已实际读完；Bug Bounty Hunting — Complete Guide (Part-43)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+179|corrected|references/by-type/ssti.md,references/by-type/cmd-injection-rce.md,references/source-audit.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 Confluence OGNL证据 ssti；0226 正文 Confluence OGNL证据 cmd；0226 正文 Confluence OGNL证据 source；0226 图片 092 ssti；0226 图片 092 cmd；0226 图片 092 source；0226 图片 092 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+180|excluded||完整保存正文/有意义替代文字已实际读完；Temenos Transact Vulnerable to Reflected XSS (CVE-2022–38322)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+181|excluded||完整保存正文/有意义替代文字已实际读完；Practical Bug Bounty — TCM Academy ｜ Module 6；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+182|corrected|references/by-type/info-secrets.md,references/discovery/web-and-api.md,references/impact-and-acceptance.md,references/by-type/websocket.md|完整保存正文/有意义替代文字已实际读完；0226 正文 部署参数配置 secret；0226 正文 部署参数配置 web；0226 正文 部署参数配置 impact；0226 图片 093 secret；0226 图片 093 web；0226 图片 093 ws；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+183|excluded||完整保存正文/有意义替代文字已实际读完；Bypassing Account Suspension Using Anonymous Posting ｜ Facebook Bug Bounty；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+184|excluded||完整保存正文/有意义替代文字已实际读完；Default Credentials Leads to $1200 Bounty Reward (Quest NetVault CVE-2017–17417)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+185|excluded||完整保存正文/有意义替代文字已实际读完；⚡ XSS in IBM InfoCenter；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+186|excluded||完整保存正文/有意义替代文字已实际读完；$1200 Bug Bounty Default Credentials to critical CVE. Very Lucky!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+187|excluded||完整保存正文/有意义替代文字已实际读完；XSS in IBM InfoCenter；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+188|merged|references/discovery/web-and-api.md,references/by-type/idor-access-control.md,references/by-type/authn-session.md,references/experiment-design.md|完整保存正文/有意义替代文字已实际读完；0226 正文 路径后缀与策略一致 web；0226 正文 路径后缀与策略一致 access；0226 正文 路径后缀与策略一致 auth；0226 正文 路径后缀与策略一致 experiment；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+189|excluded||完整保存正文/有意义替代文字已实际读完；How Easily I Found My First P2 on Bugcrowd；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+190|excluded||完整保存正文/有意义替代文字已实际读完；Write-up??? Bypass MFA and BAC with sensi data. Yes, I'm back 🪓🪓 3 paid bounties 💶 in 2 weekends. I'm waiting for the other 2 faults that have been questioned. PV pr；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+191|excluded||完整保存正文/有意义替代文字已实际读完；Exploiting Server-Side Parameter Pollution in a REST URL；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+192|corrected|references/discovery/client-and-cloud.md,references/discovery/web-and-api.md,references/source-audit.md,references/by-type/idor-access-control.md|完整保存正文/有意义替代文字已实际读完；0226 正文 Reactchunk发现与副作用 client；0226 正文 Reactchunk发现与副作用 web；0226 正文 Reactchunk发现与副作用 source；0226 正文 Reactchunk发现与副作用 access；0226 图片 096 client；0226 图片 096 web；0226 图片 096 source；0226 图片 097 client；0226 图片 097 web；0226 图片 097 access；0226 图片 097 source；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+193|merged|references/discovery/client-and-cloud.md,references/discovery/web-and-api.md,references/source-audit.md,references/by-type/idor-access-control.md|完整保存正文/有意义替代文字已实际读完；0226 正文 Reactchunk发现与副作用 client；0226 正文 Reactchunk发现与副作用 web；0226 正文 Reactchunk发现与副作用 source；0226 正文 Reactchunk发现与副作用 access；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+194|excluded||完整保存正文/有意义替代文字已实际读完；#redteam #bugbounty #bugbountytips；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+195|corrected|references/scope-and-rules.md,references/reporting.md,references/impact-and-acceptance.md,references/by-type/sql-injection.md,references/by-type/waf-bypass.md,references/experiment-design.md,references/by-type/info-secrets.md|完整保存正文/有意义替代文字已实际读完；0226 图片 099 scope；0226 图片 099 report；0226 图片 099 impact；0226 图片 100 sql；0226 图片 100 waf；0226 图片 100 experiment；0226 图片 101 sql；0226 图片 101 secret；0226 图片 101 impact；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+196|corrected|references/by-type/sql-injection.md,references/by-type/waf-bypass.md,references/experiment-design.md,references/scope-and-rules.md|完整保存正文/有意义替代文字已实际读完；0226 正文 SQLmap选项并非绕过payload sql；0226 正文 SQLmap选项并非绕过payload waf；0226 正文 SQLmap选项并非绕过payload experiment；0226 正文 SQLmap选项并非绕过payload scope；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+197|excluded||完整保存正文/有意义替代文字已实际读完；Top 50+ XSS Bug Bounty Writeups ｜ Cross-Site Scripting(XSS) Attacks Reports；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+198|excluded||完整保存正文/有意义替代文字已实际读完；Critical Logic Flaw Allows Overwrite of Any User Account；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+199|merged|references/by-type/xss.md,references/by-type/waf-bypass.md,references/source-audit.md|完整保存正文/有意义替代文字已实际读完；0226 正文 popover拼接字符串 xss；0226 正文 popover拼接字符串 waf；0226 正文 popover拼接字符串 source；0226 重复图片 5 xss；0226 重复图片 5 waf；0226 重复图片 5 source；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。
+200|merged|references/discovery/client-and-cloud.md,references/discovery/web-and-api.md,references/source-audit.md,references/by-type/idor-access-control.md|完整保存正文/有意义替代文字已实际读完；0226 正文 Reactchunk发现与副作用 client；0226 正文 Reactchunk发现与副作用 web；0226 正文 Reactchunk发现与副作用 source；0226 正文 Reactchunk发现与副作用 access；原图单独审阅，缺失图片与外链全文依用户按覆盖，不补造。

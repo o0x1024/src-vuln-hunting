@@ -1,0 +1,387 @@
+[
+  [
+    "D",
+    "container,cloud,desktop,files,source,scope,experiment",
+    "Docker 图分生命周期、镜像、Compose、网络、清理、卷、注册表与日志。命令名称/拼写及历史描述不保证按所述执行，例如 create 与镜像历史是不同操作；inspect/list 与 run/exec/copy/push/prune 的权限和副作用须分开。区分容器、引擎与宿主状态，不运行、上传或清理资源。"
+  ],
+  [
+    "D",
+    "csrf,auth,logic,web,source,experiment",
+    "清单把删除/变更账户、角色、通知与头像等状态动作和令牌/方法/编码/Referer 候选列在一起。操作存在不等于跨站可构造，空值/缺失/另一主体令牌需失败关闭且绑定实际会话与动作；修改内容长度或删 Referer 不单独证明绕过，不改变账户或发请求。"
+  ],
+  [
+    "N",
+    "",
+    "赏金资格与付款信息请求邮件，没有具体漏洞机制；不联系付款或提供个人信息。"
+  ],
+  [
+    "I",
+    "",
+    "PDF 文件索引只显示部分书名，未保存书籍正文或具体技术步骤，不把标题当已读全文。"
+  ],
+  [
+    "D",
+    "strategy,records,desktop,source,scope,experiment",
+    "SOC 表按日志关联、监控、检测、响应案件、威胁情报、扫描及终端/网络观察分列。日志、告警、证据和执行动作属于不同阶段，工具安装或宣传完整视图不证明覆盖、响应效果或合规；记录数据来源、主体与失败，不部署、扫描或发送信息。"
+  ],
+  [
+    "D",
+    "logic,business,auth,access,web,source,scope,experiment",
+    "扫码支付示意图把商家订单、二维码、消费者钱包、PSP 及双方通知关联。核查订单归属、商家/金额、签发期限、用户确认、结算状态与通知真实性，一处 UI 成功不证明商家已获可信支付结果；图不是实际协议抓包，也不代表各品牌当前实现，不扫码或交易。"
+  ],
+  [
+    "I",
+    "",
+    "人物和不完整字幕，未保存具体被低估技能的说明。"
+  ],
+  [
+    "I",
+    "",
+    "水位摄像头画面与叠加读数，没有 URL、协议、鉴权或预期公开性证据，不能据画面认定未授权控制或真实设施归属，不访问摄像头。"
+  ],
+  [
+    "D",
+    "passive,iot,records,source,scope,experiment",
+    "资产索引图按 IP 筛选显示当时设备数、时间与位置统计，没有具体摄像头的访问结果。地理估计、索引记录和当前归属/权限分别核查，零网站与若干设备不证明全部接口可读或设施可控制；不复制目标地址、查询或连接设备。"
+  ],
+  [
+    "D",
+    "scope,passive,records,source,experiment",
+    "第三方项目 JSON 管道输出 in_scope endpoint/type，保留类型但缺项目名、排除条款和更新时间。字符串可能是域名、应用或其他资产，不能统一当 URL 或用第三方列表授予权限；核原始现行规则，不下载或扫描。"
+  ],
+  [
+    "D",
+    "client,passive,records,source,scope,experiment",
+    "WatchJs 列表展示网址、相对时间、auto、JS URL 数及字符串数，没有差分或原始脚本。数量不证明新增功能、当前端点可达或漏洞，保留捕获范围、时间、身份、原始来源及失败；监控界面存在不等于已为用户建立监控，不执行采集或安排任务。"
+  ],
+  [
+    "D",
+    "client,passive,records,source,experiment",
+    "搜索结果按目标显示多次捕获时间与 URL/字符串统计，也有无记录。数量变化可能来自抓取、缓存、解析与页面变体而非真实代码变化；分别记录来源、字节版本与解析条件，缺记录不证明目标无 JS，不打开目标。"
+  ],
+  [
+    "D",
+    "client,web,access,records,source,experiment",
+    "展开的 JS 条目同时含路由、状态动作名、UI 文案、正则及普通值，页面下方裁剪。列表不是全量 API，状态动作名不证明后端功能启用或权限可绕过；关联源文件位置、真实调用和主体，再核对应消费端，不运行脚本或调用路径。"
+  ],
+  [
+    "D",
+    "passive,files,secret,web,source,scope,experiment",
+    "dork 页面把 PHP、API 路径、配置后缀、关键词和错误文本拼成查询。OR 分支与 site 限定应分别核实际语法和命中来源，错误或配置名可能是文档/样例；索引片段不证明当前泄漏或有效秘密，不检索或下载。"
+  ],
+  [
+    "D",
+    "ssrf,cors,host,redirect,web,source,experiment",
+    "URL 候选 UI 区分绝对 URL、Host 与 CORS，显示编码开关及 220 计数，但图片只显示前若干行并横向裁剪。不同输入模型涉及解析器、路由或浏览器 Origin，不能互换；用户名分隔、反斜线、fragment 与多层解码需实际消费结果，不声称读完全部候选或执行。"
+  ],
+  [
+    "I",
+    "",
+    "管理员评论筛选界面与一个数字，没有输入、浏览器回执、主体或会话操作证据。后台页面截图不能证明盲 XSS、管理员接管或编码绕过，不读取他人评论。"
+  ],
+  [
+    "D",
+    "sql,auth,access,secret,cmd,source,experiment",
+    "SQL 图把信息收集、注入、数据读取、口令哈希、口令恢复、管理员、脚本执行与 root 连成示意链。每步都有独立的权限、实现和配置前提，读取数据库不自动取得管理员或宿主 root；缺少实际样本与请求，不能作为成功链，不破解、植入代码或执行。"
+  ],
+  [
+    "D",
+    "strategy,records,report,scope,experiment",
+    "红蓝角色图分利用/社工/测试与防护/响应/取证。演练需明确对象、动作、观察证据和预期控制，把可复现触发、告警、处置及复测结果分开；角色标签不自动授予权限，不联系他人、运行社工或响应动作。"
+  ],
+  [
+    "I",
+    "",
+    "访谈人物和不完整字幕，没有具体报告查询过程或可提炼机制。"
+  ],
+  [
+    "N",
+    "",
+    "移动安全仓库宣传卡，没有代码、工具设置或实验。"
+  ],
+  [
+    "N",
+    "",
+    "图片仅列举历史漏洞赏金平台名称，不含测试方法、当前可用性或规则证据；未打开或推荐其中平台。"
+  ],
+  [
+    "N",
+    "",
+    "比赛资格邮件与奖金宣传不含技术机制；截图底部截断，未报名、联系或核实奖金。"
+  ],
+  [
+    "D",
+    "passive,web,client,fuzz,records,source,scope,experiment",
+    "侦察工具图按代理、爬虫、历史 URL、指纹、子域、目录、端口、API、秘密发现与漏洞工具分类。目录只能形成候选能力，历史索引不同于实时爬取；邮件联络、扫描和利用不因列在侦察表中成为被动或已授权。记录来源、版本、输入输出与预算，未安装、运行或查询。"
+  ],
+  [
+    "D",
+    "desktop,files,source,scope,experiment",
+    "Linux 50 命令图混合读取搜索和写入删除、权限、挂载、用户、服务与防火墙操作。cat 一处拼作 ca，示例需按实际语法核实；读取也可能暴露秘密，归档解包会写文件，sudo 不表示获得授权。仅按功能和副作用提炼，未执行命令或改变环境。"
+  ],
+  [
+    "D",
+    "iot,desktop,files,source,scope,experiment",
+    "硬件图包含电压、UART、SPI、I2C、JTAG、SWD、调试与闪存示例。按具体芯片资料确认电压、公共地、引脚一和实际连接定义，表中标签或布局不能通用套用；串口读取与 halt/reset、dump、erase/write 的控制影响分别授权。焊接温度仅图示未核实，不作为安全操作建议；未接线、焊接或访问设备。"
+  ],
+  [
+    "D",
+    "files,lfi,access,desktop,source,experiment",
+    "权限图首列 000 至 111 实际是三位二进制而非表头所写八进制；位权读4写2执行1，rwxr-xr-x 对应三组 111/101/101 即八进制755。文件执行与目录遍历不同，ACL、挂载、父目录和符号链接仍影响实际访问，未修改权限或验证目标文件。"
+  ],
+  [
+    "D",
+    "strategy,desktop,records,source,scope,experiment",
+    "Kali 工具分类涵盖信息收集、分析、Web、无线、密码、利用、取证、压力测试、嗅探与硬件等。部分标签较小，仅提炼可见分类；工具目录不证明安装状态、漏洞或执行权限，压力测试、凭证恢复及嗅探分别存在不同影响，未运行工具。"
+  ],
+  [
+    "D",
+    "strategy,desktop,passive,secret,source,scope,experiment",
+    "红队工具图把侦察、权限分析、C2、钓鱼、OSINT、外传和凭证工具并列。能力名称不证明当前权限或成功结果，路径发现、凭证读取与实际控制各有证据和边界；未安装、收集凭证、外传或发送消息。"
+  ],
+  [
+    "D",
+    "passive,records,source,scope,experiment",
+    "文档第一页以金融欺诈为主题介绍 SpiderFoot、Maltego 与安装命令。实体关系与公开来源只能提供线索，不能证明欺诈或资金流；正文能力宣传未以真实调查验证，外部仓库与全文未读取，未安装或收集个人信息。"
+  ],
+  [
+    "D",
+    "passive,records,source,scope,experiment",
+    "第二页包含 Maltego-trx、Creepy 地理 OSINT 与 AMASS 的历史安装片段。SDK 仓库不同于完整图形程序，依赖与构建路径需按实际版本确认；公开位置不构成跟踪个人的授权，DNS 候选不证明欺诈，未下载、安装或查询。"
+  ],
+  [
+    "D",
+    "desktop,files,records,source,scope,experiment",
+    "文档第三页介绍 Autopsy 取证与 Java/ant 构建片段。文件搜索恢复要保留采集来源、完整性与副本，工具描述不证明具体设备、欺诈或恢复成功；历史构建命令未验证，未克隆、安装或访问设备。"
+  ],
+  [
+    "I",
+    "",
+    "访谈单帧只有人物和 WITH 字幕，缺少完整论述，无法提炼技术机制。"
+  ],
+  [
+    "D",
+    "source,redirect,report,impact,experiment",
+    "HackerOne 邮件显示基于 go.mod 传递依赖的 Open Redirect（CVE-2023-26494）报告被 triaged、创建内部工单且严重性可变。遮挡项目与包路径，不能重建依赖或复现；区分组件版本、可达调用与重定向消费者，triaged 不等于完成修复或最终定级。"
+  ],
+  [
+    "D",
+    "cmd,ssrf,report,experiment,scope",
+    "图中历史 Nuclei v2.9.15 使用自定义 query-rce 模板，URL 中含命令替换构造，另有 Interactsh HTTP 回连，其标签显示 www-data。只能记录截图所示关联：模板源码、原始请求、回连构造和目标归属未全展示，HTTP 回连本身不能排除 SSRF 或测试端请求；须关联唯一标识、命令输出及对照，未运行模板或回连。"
+  ],
+  [
+    "N",
+    "",
+    "JavaScript 与漏洞装饰封面，没有请求、代码或测试机制。"
+  ],
+  [
+    "D",
+    "auth,oauth,access,secret,business,source,scope,experiment",
+    "截图展示邮箱验证信转为支持工单，再利用声称存在的邮件伪造把攻击者加入 CC 的链条；代码被裁切，上游伪造校验未展示。工单 ID 接近不是权限依据，From 与 CC 不代表发送者或成员已验证；把邮件真实性、工单 ACL、敏感信件处理和账号绑定作为独立信任边界，未发送邮件、猜测 ID 或创建账号。"
+  ],
+  [
+    "D",
+    "report,impact,scope,experiment",
+    "Zendesk 回复要求提供 Slack 访问细节及 ticket-trick PoC，并请求保密沟通。回复证明厂商仍要求链条证据，不证明全部实例已受影响或已修复；报告应说明前提与逐环证据，保密要求仅按截图历史语境记录，未联系任何人。"
+  ],
+  [
+    "D",
+    "auth,oauth,access,secret,business,report,impact,experiment",
+    "截图显示 CC 工单视图内一封 Apple ID 验证信，随后文字声称通过 Login with Apple 进入 Slack。验证信暴露、邮箱控制验证、OAuth 身份映射、工作区成员资格分别验证；单张图不能证明数百实例或实际 Slack 权限。未复制验证码、创建账号或登录第三方。"
+  ],
+  [
+    "I",
+    "",
+    "访谈单帧人物与 HOW TO 字幕不足以恢复完整建议或技术方法。"
+  ],
+  [
+    "D",
+    "ssti,ai,business,source,report,experiment",
+    "计算 API 截图将 JSON formula=100*10 返回 message=1000，并含 Express 指纹。预期算术功能也能产生此结果，不能仅凭乘法判定 SSTI、任意代码执行或 AI 注入；需明确功能约定、解析器和可达对象/副作用，以正常输入对照，未发送请求。"
+  ],
+  [
+    "N",
+    "",
+    "志愿者招募海报含联系方式与报名链接，无技术机制；两个相同正文帖均保留来源，未报名或联系。"
+  ],
+  [
+    "D",
+    "cloud,secret,records,source,scope,experiment",
+    "AWS Account Security Onboarding 图包含账户模板、IAM/SSO/MFA、SCP、CloudTrail/SecurityHub/Config/GuardDuty、日志告警、预算、DNS 防护、WAF、扫描与访问分析。中央聚合、日志存在和响应措施分别验证，S3 阻止公共访问不等于所有对象策略安全；部分叶节点较小，仅按可见内容提炼，历史产品设置不是当前配置证明，未改云资源。"
+  ],
+  [
+    "D",
+    "strategy,desktop,passive,records,source,scope,experiment",
+    "Hacking & Pentesting Tools 大图按信息收集、Web、数据库、密码、无线、逆向、利用、嗅探、后利用、取证与报告分类。小字不补写，工具树只作能力候选，取证读取、在线尝试、隧道、凭证与后门不同副作用需单独界定，未运行或安装。"
+  ],
+  [
+    "D",
+    "auth,secret,desktop,source,scope,experiment",
+    "密码工具图区分在线登录尝试、离线哈希恢复和浏览器密码/cookie/历史提取。工具宣传的最快等比较未核实；哈希算法和盐、成本、协议与锁定约束分别确认，浏览器 cookie 可能是有效会话凭证，目录不构成读取用户凭证的授权，未执行或收集。"
+  ],
+  [
+    "I",
+    "",
+    "图片只有访问 Microsoft ServiceNow 并暴露全部员工数据的标题，缺少请求、身份、ACL、样本或数量证据，不能验证 ALL 或具体机制。"
+  ],
+  [
+    "D",
+    "xss,client,source,report,experiment",
+    "截图地址栏可见搜索参数含 output 元素与 onclick，页面展示相同字符串的 alert。支持该样本曾出现脚本弹窗，但触发动作、实际输出上下文和修复状态未展示；name=result 本身不证明 DOM clobbering 或零点击，应追踪属性边界、事件触发和同源权限，未复现。"
+  ],
+  [
+    "D",
+    "passive,records,strategy,scope,experiment",
+    "term.rohsec 图展示公开报告索引、查询、项目 scope/Burp 配置接口和 stored xss 搜索结果标题与链接。索引不是报告全文或当前授权规则，更新时间、查询词、分页和来源需保留；未运行 curl、导入配置或读取外链全文。"
+  ],
+  [
+    "D",
+    "strategy,desktop,records,source,scope,experiment",
+    "红蓝工具树按收集、C2、凭证、规避、执行、外传、影响、横向、持久化等与防守监控、响应、恢复、取证、情报、管理分类。叶节点较小，不据目录断言具体能力，关联测试对象、日志、检测和恢复证据，破坏/凭证/持久化操作不能自动沿用侦察权限，未执行。"
+  ],
+  [
+    "D",
+    "fuzz,auth,records,source,scope,experiment",
+    "字典图列出通用集合、关键词变形生成器与密码列表。名称和宣传不是覆盖保证；以字段语义、编码、长度、大小写、去重与预算选候选，在线认证受锁定和频率限制，不能将泄露密码列表视为收集或尝试真实凭证的授权，未下载或爆破。"
+  ],
+  [
+    "D",
+    "passive,records,auth,source,scope,experiment",
+    "人物 OSINT 流程图把姓名、账号、搜索、公开记录、电话地址、亲属和密码重置串联。相同姓名/用户名只形成待验证关联，公开记录不能证明身份或授权关联全部个人资料；密码重置会产生外部影响，应与被动阅读分开，未识别人、查询个人数据或触发重置。"
+  ],
+  [
+    "D",
+    "passive,source,records,scope,experiment",
+    "grep.app 历史搜索界面提供大小写、正则和整词选项，并宣称索引半百万仓库。索引数量与发布时间不表示当前完整覆盖；命中需保留仓库、提交、行上下文和消费路径，不直接认定秘密有效或源代码漏洞，未查询外部仓库。"
+  ],
+  [
+    "D",
+    "access,secret,business,report,impact,experiment",
+    "ServiceNow 截图显示某表查询结果内邮件、姓名与记录链接字段，但请求认证等大片遮挡、细字有限可读，不能还原身份、ACL、查询全部参数或确认所有员工/聊天/附件。区分表记录返回与跨身份非预期读取，记录分页、字段最小样本和影响范围，未复制个人信息或访问系统。"
+  ],
+  [
+    "N",
+    "",
+    "awesome-bug-bounty 仓库宣传卡，仅目录描述和历史计数，外链全文按用户约定计覆盖，未读取或安装。"
+  ],
+  [
+    "D",
+    "auth,csrf,click,access,client,business,report,experiment,scope",
+    "2FA 图列出响应/状态改写、代码泄露、跨账号绑定、直接访问、Referer、重置/禁用、CSRF/点击劫持、备份码、旧会话、次数及重用。客户端 Success 或200改写不证明服务端授权，需访问受保护功能；验证码绑定主体、会话、操作、期限与一次性分别核对。固定100–200次和一天建议不是通用测试预算或风险判断，旧会话是否失效取决于约定，未爆破、重置或诱导用户。"
+  ],
+  [
+    "N",
+    "",
+    "Caido Plugins 宣传封面，未给具体插件、代码或测试行为，未安装。"
+  ],
+  [
+    "D",
+    "report,impact,scope,experiment",
+    "MSRC 邮件显示某历史案例获赏金资格并明确奖金审查不确认修复或公开许可。金额不直接反映漏洞机制或可复現性，保留受理、定级、支付、修复与披露状态区别；遮挡身份不复原，未联系或公开报告。"
+  ],
+  [
+    "D",
+    "xss,report,impact,scope,experiment",
+    "项目邮件称两项 XSS 奖金与未来缺少实际影响场景时的评级调整。只是该项目当时的反馈，不能推广为全部 XSS 必须接管账号或通用奖金标准；报告用已授权的最小证明解释前提、受影响主体、功能和根因，未主动升级利用或联系厂商。"
+  ],
+  [
+    "D",
+    "web,graphql,auth,access,business,fuzz,client,source,records,scope,experiment",
+    "API 侦察图按版本、实现、REST/SOAP/GraphQL、WADL/WSDL/公开文档、方法、鉴权、对象、动作及请求响应映射构建清单。接口文档或 introspection 不代表全部可达操作，cookie/header 不可固定归为非标准/标准而忽略语义；导入集合、自动脚本和 fuzz 会实际发请求，需身份与动作边界，未导入或执行。"
+  ],
+  [
+    "D",
+    "desktop,auth,secret,source,scope,experiment",
+    "AD 图仅列 Rubeus、CrackMapExec、Mimikatz、Evil-WinRM、Impacket、BloodHound 名称。可分候选权限路径分析、认证/协议交互与凭证工具，名称不证明域环境、权限路径可利用或凭证访问合法，未运行、查询域或读取凭证。"
+  ],
+  [
+    "N",
+    "",
+    "OSINT 集合仓库宣传卡，不含具体调查数据或方法，未打开外链。"
+  ],
+  [
+    "D",
+    "xss,client,source,records,scope,experiment",
+    "XSS 目录混合参数分析、自动扫描、blind 接收、浏览器利用框架及宣称转 RCE 的工具。候选反射、浏览器执行、回连和服务端执行分别举证，最先进等宣传未核实；回连接收和外部脚本产生第三方数据流，未安装、执行或收集浏览器数据。"
+  ],
+  [
+    "I",
+    "",
+    "富文本讨论 UI 截图显示输入框和评论，缺少注入值、输出 DOM、事件执行或身份对照，不能据富文本功能认定存储 XSS。"
+  ],
+  [
+    "D",
+    "report,records,client,secret,scope,experiment",
+    "Caido Screen Drawing Plugin 页面说明 F12 切换绘图并选择工具、颜色、尺寸。标注可表达证据位置，但不是原始请求或重现证据；保留未改原件与截图时间，分享前检查秘密和身份，未安装插件或操作代理。"
+  ],
+  [
+    "I",
+    "",
+    "图片只有 CVE-2020-7961 Liferay Portal unauthenticated RCE 报告标题与遮挡网址，没有版本、配置、请求或执行结果，未重建漏洞方法。"
+  ],
+  [
+    "N",
+    "",
+    "WordPress 装饰海报，无可读技术方法或具体漏洞证据。"
+  ],
+  [
+    "D",
+    "web,logic,secret,source,report,experiment,scope",
+    "脚本截图递增长度的十进制数值，打印 Trying integer overflow 与拼接 URL，未显示脚本源码、参数名和 HTTP 响应。程序标签不是溢出证明；需实际字段类型、范围、解析与数据库转换位置、正常边界对照和响应，未执行脚本或查询接口。"
+  ],
+  [
+    "D",
+    "web,logic,sql,secret,source,report,experiment",
+    "后续图在19位数时打印成功并称发现 SQLAlchemy 查询片段；敏感表列遮挡且底部裁切。可能形成异常处理/调试泄露线索，不能仅日志认定整数位宽、WAF 绕过或任意 SQL 注入；错误信息、查询结构与真实数据访问分级记录，未复制表列或枚举。"
+  ],
+  [
+    "D",
+    "report,impact,waf,logic,secret,scope,experiment",
+    "HackerOne 回复将整数溢出、错误处理、Cloudflare evasion、UUID 与表列泄露报告按 Low 支付，说明生产已缓解且将更新 bounty 环境配置。需区分测试环境和生产配置、受理与可重现根因；UUID/结构泄露不自动证明个人数据或当前绕过，未联系或访问系统。"
+  ],
+  [
+    "D",
+    "passive,web,waf,secret,records,scope,experiment",
+    "源站候选图第一页给出内容/标题指纹、错误栈与 DNS 历史。共享模板、代理和历史地址不能证明现有源站或所有权；保留来源时间与比对证据，故意触发错误不同于读取历史索引，未查询或发送探测。"
+  ],
+  [
+    "D",
+    "passive,web,waf,ssrf,auth,records,scope,experiment",
+    "第二页给出出站回连、邮件发送与其他子域线索。出口 NAT、邮件中继或其他服务 IP 不等于入站源站，相关子域不授权整个 IP 段；回连、重置邮件和直接源站访问分别界定权限、方法及副作用，未触发邮件、回连或扫描。"
+  ],
+  [
+    "D",
+    "web,auth,access,redirect,records,report,experiment",
+    "HTTP 状态图按1xx–5xx分类，混有444、499、509、598/599等实现或历史扩展。需保留原始响应、代理层、正文、业务状态与重定向，不以200断言授权成功或以404/500认定漏洞；图谱不是当前标准注册表，未请求目标。"
+  ],
+  [
+    "D",
+    "ai,auth,client,records,report,scope,experiment",
+    "Deep Live Cam 桌面图展示人像输入、目标选择、预览与开关，不能凭单帧确定身份、实时帧率或认证绕过。评估身份系统需区分媒体生成、注入渠道、活体与凭证验证，未生成换脸、识别人或上传视频。"
+  ],
+  [
+    "D",
+    "ai,desktop,client,records,report,scope,experiment",
+    "第二图同时展示媒体播放、换脸预览和 GPU/内存性能窗口，某一时刻资源占用不能证明稳定实时性能或所有设备兼容。保存输入/输出/版本/时间和测试条件，身份认证影响要独立验证，未运行程序或制作合成媒体。"
+  ],
+  [
+    "D",
+    "auth,secret,source,scope,experiment",
+    "CrackStation 页面说明预计算哈希查找表及不加盐哈希限制。命中需匹配算法和编码/正规化，候选字符串仍不证明当前账号密码；盐与工作因子改变预计算适用性，图中算法列表和表规模只是历史宣传，未提交哈希、下载字典或尝试账号。"
+  ],
+  [
+    "D",
+    "web,auth,access,apip,sql,cors,business,records,report,experiment",
+    "API 十类风险图是历史分类而非当前标准依据。对象授权、功能授权、返回字段和批量赋值分开验证；BOLA 不只禁止合法用户而是非预期跨对象权限，mass assignment 取决于服务器可写字段而非任意客户端参数，日志不足不直接证明攻击成功，未访问 API。"
+  ],
+  [
+    "D",
+    "auth,oauth,jwt,secret,access,source,experiment",
+    "REST 鉴权图比较 Basic、Token、OAuth 与 API key，需纠正简化：Basic 的编码不是加密，传输保护独立；token 不必加密，签名/受众/期限/撤销与对象授权分开；OAuth 主要是授权，认证需明确身份协议，API key 不因内部或小项目自动安全，未使用任何凭证。"
+  ],
+  [
+    "D",
+    "xss,ssti,client,report,impact,experiment",
+    "移动浏览器截图仅可见 alert(9)、部分页面与遮挡 URL。弹窗支持某脚本曾执行，不能单凭9区分客户端模板求值、反射/存储 XSS 或服务端模板执行；缺少载荷、引擎、输入输出与身份前提，不能定级或证明账号接管，未复现。"
+  ]
+]

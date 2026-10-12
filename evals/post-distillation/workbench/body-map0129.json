@@ -1,0 +1,497 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；历史 URL 管道的候选过滤与浏览器执行分层；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "2": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；CDN 地址过滤要记录被排除的服务面；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "3": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；下载接口读取与文件解释执行分别证明；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "6": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；源码未反射时追导航后的 DOM 消费者；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "11": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；代码搜索与检测规则自身命中不能证明秘密有效；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "15": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；PHP echo 正则只能定位待追踪输出；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "16": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Cognito 用户令牌与 AWS 资源权限的交接边界；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "17": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；弱口令案例的身份与影响不能由标签推断；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；text/plain 表单的最终字节与服务端接受条件；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "22": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；路径变体返回成功要核最终受限处理器；对象标识编码与版本切换仍需统一授权；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "24": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；移动资源和文档中的 API key 要按服务限制评估；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "26": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；移动资源和文档中的 API key 要按服务限制评估；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "27": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；离线参数文本匹配与数据库执行是两种证据；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "28": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；协作回调邮箱需绑定发送者与具体业务动作；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "29": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；备份读取到高权限会话必须逐层绑定身份；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "30": {
+    "dis": "merged",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；备份读取到高权限会话必须逐层绑定身份；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "32": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；端点数量不能直接当作发现概率；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "38": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；用户编辑功能按字段权限和对象权限交叉检查；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "42": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；内存转储完成与秘密解析完成分别记录；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "45": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；历史 URL 管道的候选过滤与浏览器执行分层；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/by-type/ldap-xpath.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；LDAP 过滤表达式必须与 SQL 片段分开解析；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "47": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；浏览器 Python 运行时不等于服务端命令执行；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "50": {
+    "dis": "corrected",
+    "targets": "references/by-type/crlf-response-splitting.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；重定向响应中的 Cookie 需核实际浏览器处理；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "52": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；API 同一功能的 XML JSON GET 表达按消费者核验；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "60": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md,references/source-audit.md,references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；主机提权清单从环境事实到具体条件；计划任务与服务配置的可写性需对应执行主体；网络主机清单要绑定命名空间与观测渠道；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "61": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；URL 的 fragment 与服务器收到的路径分开；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "65": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Polyglot 的注释引号与事件语法按有限上下文验证；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "70": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md,references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Recon 流程图按每阶段输入输出建立覆盖记录；关联数据到主动测试之间保留归属和范围判断；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "71": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；固件快照模糊测试要保存可重复的崩溃条件；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "72": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；浏览器 Python 运行时不等于服务端命令执行；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "78": {
+    "dis": "merged",
+    "targets": "references/by-type/ldap-xpath.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；LDAP 过滤表达式必须与 SQL 片段分开解析；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "80": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；修复声明与同条件复测分别记证据；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "82": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；泄漏句柄的对象权限与工具动作分别判断；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "87": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；路径变体返回成功要核最终受限处理器；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "88": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Newman 报告泄露请求结构但未必泄露有效权限；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "89": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Mochawesome 测试源码与交易完成分开；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "91": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；弹窗截图只支持对应上下文中的有限执行观察；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "93": {
+    "dis": "corrected",
+    "targets": "references/by-type/ldap-xpath.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；LDAP 通道架构不等于 LDAP 注入或链路已运行；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "100": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Burp 请求头替换先核匹配谓词与真实流量；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "104": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；AWS 策略文档与主体有效权限分别核验；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "108": {
+    "dis": "merged",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；AWS 策略文档与主体有效权限分别核验；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "110": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；工具集合更新与多节点环境要固定具体版本；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "112": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；索引发现到 SQL 实验要保留原始请求身份；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "117": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；工具集合更新与多节点环境要固定具体版本；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "119": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；代码搜索与检测规则自身命中不能证明秘密有效；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "120": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；修复声明与同条件复测分别记证据；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "121": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；自制 302 响应按报文完整性和跟随主体核验；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "125": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；币种切换要核金额单位与最终履约；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "126": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；安全邮件平台注册资格与发送权限分开；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "130": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；代码搜索与检测规则自身命中不能证明秘密有效；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "133": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；工作流输出清理与域名置换保留原候选；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "134": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；工作流输出清理与域名置换保留原候选；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "135": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；历史搜索运算符按查询语义和索引边界记录；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "136": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；产品搜索特征与具体 CVE 可利用性分开；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "137": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；容器工具帮助可运行与产物生成成功分别记录；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "139": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；返回外部页面内容仍需确认实际请求消费者；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；重定向参数中的模板代码文本不等于执行；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "143": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；重置邮箱数组要核令牌所属账户与接收规则；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "144": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Prometheus 指标标签不能代替完整 API 定义；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "145": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；掩码邮箱与电话片段只能约束候选集合；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "147": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；掩码邮箱与电话片段只能约束候选集合；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "151": {
+    "dis": "new_knowledge",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；异步导出在创建读取下载各阶段保持对象权限；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "153": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；邮件头中的服务器地址不能直接认作 Web 源站；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "155": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；生成器参数与建立会话的执行结果分开；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "156": {
+    "dis": "merged",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；生成器参数与建立会话的执行结果分开；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "159": {
+    "dis": "merged",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；AWS 策略文档与主体有效权限分别核验；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "160": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；奖励政策搜索结果不授予当前测试许可；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "183": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；请求补充复现材料不等于所有报告已确认；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "185": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；索引快照差异要核时间与数据覆盖变化；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "187": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；代码搜索与检测规则自身命中不能证明秘密有效；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "189": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；弹窗截图只支持对应上下文中的有限执行观察；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "191": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；GraphQL 用户响应要核解析器身份与字段权限；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "197": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；工具集合更新与多节点环境要固定具体版本；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "198": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；关联数据到主动测试之间保留归属和范围判断；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "199": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；WP-Cron 正常任务触发与资源耗尽分开；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "200": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；重定向循环脚本需保留原跳与解析后的目标；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "203": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；配置文件覆盖到代码执行取决于实际生命周期消费者；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "204": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；SSRF 输入位置覆盖要追实际网络请求构造；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "209": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；静态 URL 提取记录匹配范围与实际字符串来源；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "210": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；修改本地响应需证明后续服务端操作改变；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "212": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；安全头缺失按具体浏览器消费者评估；扫描运行状态与各项结果完成分别记录；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "213": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Actuator env 暴露需核脱敏和访问主体；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "214": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；移动资源和文档中的 API key 要按服务限制评估；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "216": {
+    "dis": "merged",
+    "targets": "references/by-type/ldap-xpath.md,references/by-type/sql-injection.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；LDAP 过滤表达式必须与 SQL 片段分开解析；SQL 字符列表按方言绑定类型和差分证据；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "217": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；多跳 HTTP 头处理不能简化成单个地址头绕过；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "219": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；多跳 HTTP 头处理不能简化成单个地址头绕过；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "224": {
+    "dis": "corrected",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；接管严重性由可认领资源和业务消费者确定；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "225": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；解析器数量不能代替当前解析质量证据；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "226": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；重写请求头的最终路由仍需统一权限判断；Referer 变化与权限结果用单变量对照；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "228": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；产品搜索特征与具体 CVE 可利用性分开；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "230": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；远程响应控制台按任务对象和文件产物核权限；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "231": {
+    "dis": "merged",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；远程响应控制台按任务对象和文件产物核权限；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "233": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；多跳 HTTP 头处理不能简化成单个地址头绕过；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "234": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；重复键数组与查询参数需核各层有效对象标识；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "236": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；多跳 HTTP 头处理不能简化成单个地址头绕过；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "240": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；弹窗截图只支持对应上下文中的有限执行观察；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "241": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；弹窗截图只支持对应上下文中的有限执行观察；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "242": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；操作录像需和最小 HTTP 证据共同绑定；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  },
+  "244": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；修复声明与同条件复测分别记证据；可用新图片实际看原始像素，缺失图片/外链全文依用户按覆盖。"
+  }
+}

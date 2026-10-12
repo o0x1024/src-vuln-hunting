@@ -1,0 +1,48 @@
+0|distilled|xss,impact|XSS zine漫画提示弹窗之外影响；实际读者/身份与业务能力需另证，漫画不提供当前实例。
+1|insufficient_technical_detail|xss,source|目录列why、types、consequences、remediation等，没有章节全文。
+2|distilled|xss,source|输入/服务端/DB/页面图可定位消费者；不是所有DOMXSS均经DB，回显还需实际执行语境。
+3|insufficient_technical_detail|cmd,source|后端后门文章封面无执行链。
+4|distilled|records|SANS Burp v1第一页导航/编码/发送快捷键与Collaborator协议可见；快捷操作不等于捕获/回连归因，第二页按缺失全文免审。
+5|distilled|xss,records,report|Gmail通知计数和XSSHunter标签只证明收到通知视图，非独立漏洞数或特权读者，模糊内容未猜。
+6|no_technical_content|strategy|DigitalOcean 48美元/月卡片为历史价格推广，没有漏洞事实。
+7|distilled|cmd,source|Fuel表达式与apache uid/gid48输出可见；目标版本、原始handler、认证状态缺失，apache身份不等于root。
+8|insufficient_technical_detail|access,files|IDOR sheet PII High Open标题遮挡关键请求/对象/身份，不能补私密数据证据。
+9|distilled|ssrf,records|Taborator三条DNS/HTTP回连含时间/脱敏IP；回连需独立标记归因，不证明云元数据或全部PII。
+10|distilled|records,source|FoxyProxy匿名使用统计已勾、Google同步未勾、更新提示开启；三者独立，未观察实际外传字段或当前版本。
+11|insufficient_technical_detail|fuzz,source|cent仓库卡片与统计没有实际模板/YAML及matcher。
+12|distilled|records,ssrf|interactsh0.0.3四窗取址、自curl与DNS A/AAAA/HTTP结果属于自测；重定向顺序/固定16列依赖真实shell输出，未运行。
+13|distilled|report|NCSC PGP开头邮件确认收到/通知负责方/未来告知修复；未验证完整签名，不代表修复已完或有期限。
+14|distilled|access,source|WordPress setup-config step1展示DB名/用户/密码/localhost/前缀输入；默认值是表单信息，不证明新建DB或管理权限。
+15|insufficient_technical_detail|logic,source|OWASP Business Logic 2008封面无技术章节。
+16|no_technical_content|source|Infomedics衣服礼物无漏洞证据。
+17|no_technical_content|source|DENT图标无绕过机制。
+18|insufficient_technical_detail|strategy,source|Shopify H13访谈封面无完整问答。
+19|distilled|fuzz,records|Fuzzy while/xargs30/interlace20及200管线与jq筛选图；词表单复数名称不同，父并发不等于全局总量，200/403过滤不证明完整发现。
+20|no_technical_content|source|Think Different 9.99美元衣服和关键词装饰没有XSS绕过机制。
+21|distilled|cmd,source|vCenter getClusterCapabilityData POST回JSON false标志是API输出，不是命令执行，未访问私网目标。
+22|distilled|cmd,source|Nmap VULNERABLE/exploitable文字与6.5.7.0横幅不补实际执行边；root@kali为本地提示符，检测实现未显示。
+23|insufficient_technical_detail|redirect,source|Bing着陆页与浏览器标签未显示原始Location及完整跳转。
+24|insufficient_technical_detail|cloud,secret|High奖励证书及脱敏金额没有S3规则/对象内容。
+25|insufficient_technical_detail|records,source|HunterSuite菜单模块存在不说明已运行或完成。
+26|distilled|passive,files,secret|wud输出上传年份2017至2021/媒体包zip/PDF候选；底部裁切，公共文件名不证明泄密或当前内容。
+27|no_technical_content|source|锁墙电脑为装饰图无LFI证据。
+28|insufficient_technical_detail|access,source|私有webapp报告Resolved/Closed/Medium5.3不显示原始权限/动作和真实对象。
+29|distilled|report|FireflyIII有效报告与补丁commit、should fix、发布5.5.12前请求验证可见；提交≠回归确认≠发布≠部署。
+30|distilled|access,fuzz|403Fuzzer候选返回同404/1256长度；没有受保护内容，不能从尝试列表认定绕过。
+31|distilled|access,files|MEC export events XML下载657KB提示仅证下载选择框，未显示实际私密事件/权限或全部格式。
+32|distilled|xss,records|XSSHunter collected pages16与example.com/robots.txt实际ExampleDomain HTML；16不是漏洞数，路径名不能替代正文类别。
+33|distilled|xss,records|远程script与javascript URI是不同执行语境；底部裁切，不补全全部payload，未加载远程脚本。
+34|distilled|secret,records|相关API key、遮蔽master password及additional JS chainload设置不同；秘密值未抄录，配置未证生效，未旋转或更新设置。
+35|distilled|xss,records|XSSHunter触发页example.com/127.0.0.1/时间只能描述事件，不能补原始输入链或高权限读者。
+36|insufficient_technical_detail|source|BinaryNinja图中字过小/结构片段无可辨识UEFI漏洞链，未猜测。
+37|distilled|records,access|Postman Tests随机ID与pm.sendRequest额外HTTP回调可见，213404 undefined与105200仅样本；公共演示数据不证明IDOR或穷尽。
+38|no_technical_content|source|Hunting reads标志无技术细节。
+39|insufficient_technical_detail|sql,source|扫描器三项High Certain与遮蔽目标未显示DNS原始记录/SQL输入/数据dump。
+40|insufficient_technical_detail|sql,source|不同图hash但同扫描器布局不构成独立技术复现。
+41|no_technical_content|source|Jupyter/Colab标志无计算许可或漏洞事实。
+42|no_technical_content|source|OTP电影角色笑话无认证机制。
+43|distilled|fuzz,records,source|Nuclei cheatsheet可见methods/raw unsafe/DSL序号/clusterbomb/max999；大小写和实际版本需核，组合及跟随成本独立，手工Origin非浏览器证据。
+44|no_technical_content|source|Metarget/K8s标志没有基础设施配置事实。
+45|insufficient_technical_detail|passive,source|GgDorker封面没有搜索样本、CAPTCHA处理或完整索引证据。
+46|insufficient_technical_detail|expert,source|FAQ闭合问题列表/导出JSON按钮没有答案细节，也不证明搜索全覆盖。
+47|distilled|expert,source|展开FAQ的XSS/SQLi/IDOR/SSRF/RCE定义需机制化纠正：引用≠越权、解释器身份≠全机、取址≠任意内网读改；未推广全部FAQ正确。

@@ -1,0 +1,626 @@
+[
+  [
+    0,
+    "D",
+    "ssti",
+    "FreeMarker 载荷通过 article.class.protectionDomain.classLoader 加载 ObjectWrapper/Execute 并显示类似 passwd 的输出；版本、配置、对象暴露和实际请求链缺失，不证明所有 sandbox 可绕过，不执行命令。"
+  ],
+  [
+    1,
+    "D",
+    "report",
+    "运营方称复现路径和视频有用、无需既有活跃会话的 2FA 问题，视频过快仍难跟随；邮件不包含真正认证消费者，需清晰版本/步骤/身份前提。"
+  ],
+  [
+    2,
+    "D",
+    "report",
+    "另封 2FA 邮件称已做修复、将部署和验证；待部署/待验证不同于已验证修复。"
+  ],
+  [
+    3,
+    "D",
+    "waf",
+    "Cloudflare 报告摘要有编码 IMG/SRC 与 A/href 字符串、Triaged 后 Informative/No Rating，未显示原始拦截对照、浏览器执行或现行规则版本。"
+  ],
+  [
+    4,
+    "D",
+    "access,auth",
+    "HackerOne 永久 banned 账号理论不能访问功能，截图描述新测试账号邀请被封账号到报告及重置密码，正常邮件受阻但报告邀请仍存在；HTTP 交换及完整最终访问缺失，封禁状态需在协作者/恢复入口持续校验。"
+  ],
+  [
+    5,
+    "D",
+    "xss",
+    "wp-embed 自动发现的 postMessage origin 检查缺陷摘要，报告限定 Safari、Chrome/Firefox 不成立且须攻击者帖子被嵌入；只见 receiveEmbedMessage/e.data/secret 前几行，没有最终 sink/完整消息及版本，不外推所有浏览器。"
+  ],
+  [
+    6,
+    "N",
+    null,
+    "Intigriti 平台宣传海报，未保存 2FA 方法或通用测试步骤。"
+  ],
+  [
+    7,
+    "I",
+    null,
+    "UN 邮件称转交管理员、问题解决后可能加入 HOF，其他文字模糊；没有技术机制或已修复证明。"
+  ],
+  [
+    8,
+    "D",
+    "android",
+    "MetaMask Android 历史官方摘要：deeplink 到应用内浏览器后立即下载攻击者文件、缺确认提示；未见具体路径选择或覆盖内容，任意下载不自动证明任意目录覆盖、代码执行或钱包资产影响。"
+  ],
+  [
+    9,
+    "N",
+    null,
+    "Paramalyzer 仓库卡片，只介绍工具，没有解析/敏感字段/反射实际输出。"
+  ],
+  [
+    10,
+    "D",
+    "lfi",
+    "httpx 1.2.9 outdated 编码路径至 package.json 两个 200，没有控制路径或原始正文。"
+  ],
+  [
+    11,
+    "D",
+    "lfi",
+    "浏览器编码 assets/built 路径返回 Ghost theme 的 package.json（主题自身 version 1.3.2、engine ghost>=2.0.0 等）；主题版本不是服务器产品版本，公开元数据不证明秘密或任意文件，缺正常路径对照。"
+  ],
+  [
+    12,
+    "N",
+    null,
+    "电脑/面具文章配图，未保存栈溢出技术正文。"
+  ],
+  [
+    13,
+    "I",
+    null,
+    "Twitter Broken Link Hijacking/ATO 被接受通知，金额遮挡，未展示断链控制、消费者或账号权限链。"
+  ],
+  [
+    14,
+    "I",
+    null,
+    "POST based XSS 报告 Resolved 通知，没有原始请求、DOM 或执行 origin。"
+  ],
+  [
+    15,
+    "I",
+    null,
+    "Improper Access Control 私有 P4 Unresolved 0 美元摘要，没有权限差异证据。"
+  ],
+  [
+    16,
+    "D",
+    "sql",
+    "Burp /administrator/ 请求在 X-Forwarded-For 中含 SQL/sleep 变体，两侧 302/Location / 和约 2.5/5.4 秒耗时；缺 false 控制、SQL 调用链和信任代理配置，延迟不证明所有头直接进数据库。"
+  ],
+  [
+    17,
+    "D",
+    "passive",
+    "Telegram 截图含 BGP/ASN 查询工具介绍和 Shodan org/status/product/port/component/waf/html/title/alpn/favicon/net/CN/asn/hostname/ip/all 字段示意，未显示实际命中/归属；渠道宣传不是授权，本任务不加入或发消息。"
+  ],
+  [
+    18,
+    "D",
+    "scope",
+    "Bugcrowd 回信明确 host 列为 OOS 或不在范围，并 N/A；顶部关闭协调披露/可申请无保证说明奖励、披露和测试范围独立，不因业务影响扩大第三方授权。"
+  ],
+  [
+    19,
+    "D",
+    "sql",
+    "两个目标同 sleep(20) 的 Burp 200 与约 20 秒，左含 fatal error、右几乎空白；没有 false/空白控制或 SQL 调用链。"
+  ],
+  [
+    20,
+    "D",
+    "sql",
+    "Ghauri 读取 req.txt/email 的 138 次检测和七数据库摘要、部分名称遮挡，不能代替原始交换、当前有效性或全权限证明，不执行枚举命令。"
+  ],
+  [
+    21,
+    "D",
+    "report",
+    "修复前后图一个显示登录错误、另一个白页，标题称 sanitized/removed content；缺原始响应和低成本正反例复测，不能仅 UI 变化证明 SQL 根因完全修复。"
+  ],
+  [
+    22,
+    "N",
+    null,
+    "HardHat C2 首页/manager/engineer/interact 功能界面，无漏洞根因或可复核执行证据；不部署监听器。"
+  ],
+  [
+    23,
+    "N",
+    null,
+    "HardHat C2 文件浏览器的样例 test/mock/fake 文件、统一时间和大小，不能当真实文件权限或执行结果。"
+  ],
+  [
+    24,
+    "N",
+    null,
+    "C2 get_luid 界面和命令菜单/样例连接行，只有功能展示，无身份提升前后或漏洞根因；不运行或部署。"
+  ],
+  [
+    25,
+    "N",
+    null,
+    "DOM XSS/Failures 文章封面，没有保存具体 source/sink 或失败正文。"
+  ],
+  [
+    26,
+    "D",
+    "cmd,desktop",
+    "GitLab CLI 图列出受控默认分支名含管道字符、受害者 clone 后 glab mr create --web，URL 被 cmd.exe /c start 处理，管道逃出 URL 至命令；版本、真实执行日志及编码修复缺失，不运行 shell。"
+  ],
+  [
+    27,
+    "N",
+    null,
+    "Gato 工具图标，没有 self-hosted runner 授权或实际执行证据。"
+  ],
+  [
+    28,
+    "D",
+    "source",
+    "SHEIN 历史 npm 内部依赖被错误从公共 registry 安装，报告描述 preinstall callback 含主机/IP/当前路径；回调内容及完整身份归因缺失，不能推全网控制，截图明确无进一步动作。不发布包或回连。"
+  ],
+  [
+    29,
+    "N",
+    null,
+    "ARM64 mprotect/NX 文章封面，没有 gadget、映射权限、调用前提或运行正文。"
+  ],
+  [
+    30,
+    "I",
+    null,
+    "验证码/No Rate Limit 视频封面仅显示联系页复选框与标题，没有服务端 token、请求预算或最终操作证明。"
+  ],
+  [
+    31,
+    "I",
+    null,
+    "Alibaba High/Critical PII 报告列表，字段和资产遮挡，没有具体私密响应。"
+  ],
+  [
+    32,
+    "I",
+    null,
+    "ADMIN/All Permissions 菜单截图，没有未认证身份、受保护数据或实际动作。"
+  ],
+  [
+    33,
+    "N",
+    null,
+    "Zero Click Malware 视频封面，技术正文未保存。"
+  ],
+  [
+    34,
+    "D",
+    "report",
+    "SQL 报告运营方称已验证、送修复团队且等级/状态可变，当前 Triaged Open Critical 9.3；不能据此称已修复或固定等级。"
+  ],
+  [
+    35,
+    "D",
+    "sql,source",
+    "PHP 代码 new_note 用 prepare/bind 写 note；share_notes 参数化读取后把数据库里的 value 拼进第二条 query，形成第二次消费边界。view 仅在未同时设置 note 时调用；未见实际查询输出，存储后仍需参数化，不执行代码。"
+  ],
+  [
+    36,
+    "D",
+    "secret",
+    "JS 配置片段含 Algolia appId/apiKey/indexName，部分遮挡；前端搜索配置不自动秘密，缺 ACL、受限索引、写操作或实际权限验证，不复用值。"
+  ],
+  [
+    37,
+    "D",
+    "report",
+    "Authentication Bypass 邮件称已确认、将开始修复，具体途径遮挡且正文续篇未保存；确认/待修复不等于已部署验证，不补造链。"
+  ],
+  [
+    38,
+    "N",
+    null,
+    "Web Socket Vulnerability 视频封面，无握手/Origin/消息授权正文。"
+  ],
+  [
+    39,
+    "I",
+    null,
+    "CVE-2023-2982 仓库卡片与 <=7.6.4 标题，没有实现、令牌交换、请求/保护资源证明。"
+  ],
+  [
+    40,
+    "D",
+    "cmd",
+    "Burp Collaborator 的 DNS/HTTP 回连列表，部分来源/时间遮挡，没有上传请求、执行函数或关联无害命令输出；回连不能单独证明 blind RCE，可能浏览器/扫描器/其他后台获取。"
+  ],
+  [
+    41,
+    "N",
+    null,
+    "xnLinkFinder 仓库卡片，功能描述没有真实端点、词表、secret 或覆盖结果。"
+  ],
+  [
+    42,
+    "N",
+    null,
+    "HOF 用户头像列表，无漏洞机制或私密信息证据。"
+  ],
+  [
+    43,
+    "D",
+    "xss",
+    "ActionView sanitize 历史 SVG/use→data:image/svg+xml;base64 内嵌 image onerror，须全局 allowed_tags 或 helper tags 显式允许 svg/use；配置与二次 SVG 消费是前提，未见完整执行版本，不能套用默认所有 Rails。"
+  ],
+  [
+    44,
+    "I",
+    null,
+    "报告提交/接受及项目 suspended 的时间线，不证明因果、漏洞修复或技术机制。"
+  ],
+  [
+    45,
+    "D",
+    "xss",
+    "8x8 oem 参数反射至多个 body 位置，其中 img 属性进入 onpointermove，步骤要求鼠标移动；没有原始完整响应/CSP/执行记录，非零交互，不证明 HttpOnly Cookie 可读或接管。"
+  ],
+  [
+    46,
+    "I",
+    null,
+    "High 7.6 Duplicate Closed/Disclosure pending 元数据，不能补齐正文邮箱验证 token 绑定或权限链。"
+  ],
+  [
+    47,
+    "D",
+    "lfi",
+    "Rocket.Chat 官方摘要称用户数据下载中的目录穿越对已认证用户导致 RCE，并称两年前已修复；具体任意写路径、解释器与执行记录缺失，保留认证前提和历史时点，不推为当前匿名 RCE。"
+  ],
+  [
+    48,
+    "D",
+    "records",
+    "TLS Pass Through 正则配置和“no noise”说明；通过流量不解密会减少可见证据，与 UI 过滤不同，五域列表/正则无终止锚点是否广泛匹配需实际版本与授权对照，不修改用户代理。"
+  ],
+  [
+    49,
+    "N",
+    null,
+    "PentestGPT 宣传封面，无实际模型产物、权限动作或评估结果。"
+  ],
+  [
+    50,
+    "N",
+    null,
+    "Linux 游戏学习封面，未保存具体练习内容。"
+  ],
+  [
+    51,
+    "D",
+    "logic",
+    "HackerOne 官方摘要：先创建大量 Draft 再同时提交可批量报告，历史修复限制最多 500 drafts；草稿配额和提交时原子限额是不同环节，无真实并发交换，不批量提交。"
+  ],
+  [
+    52,
+    "D",
+    "secret",
+    "GET /common/config.php.new 200、text/html 返回未解释的 PHP 配置源码，host/database password/encryption_key 等值遮挡；实际权限、有效性和数据影响未知，不复制或使用凭证。"
+  ],
+  [
+    53,
+    "D",
+    "source",
+    "正文说搜索 JS，但图实际是 PHP echo/$_GET/POST/REQUEST、eval/assert/preg_replace e、system 等 source/sink grep 与 SQLMap/文件包含/debug 清单；关键词不等于 taint、版本支持或真正可执行，双引号美元变量可能被 shell 展开，禁止运行凭证读取示例。"
+  ],
+  [
+    54,
+    "I",
+    null,
+    "Citrix CVE-2023-24488 Pre-auth XSS 的 P3 Triaged/仍评估标题，缺版本和原始技术交换。"
+  ],
+  [
+    55,
+    "I",
+    null,
+    "NASA 信息报告 P3 Unresolved 0 美元标题，没有 FTP 登录、文件内容或权限证明。"
+  ],
+  [
+    56,
+    "D",
+    "auth",
+    "登录限流报告描述 1500+ 请求仍未阻断，图片只有文字和未保存附件，最终 Duplicate；缺速率/账户/IP/成功或阻断的原始日志，不复制暴力测试做法。"
+  ],
+  [
+    57,
+    "I",
+    null,
+    "Adobe Critical Triaged Open 等级元数据，无漏洞消费者或权限结果。"
+  ],
+  [
+    58,
+    "N",
+    null,
+    "ARM64 shellcode Part5 封面，无具体代码或运行内容。"
+  ],
+  [
+    59,
+    "N",
+    null,
+    "另一 SHA/尺寸的 ARM64 NX Part4 封面，正文方法未保存。"
+  ],
+  [
+    60,
+    "D",
+    "source",
+    "CVE-2017-15277 页面描述 ImageMagick 7.0.6-1/GraphicsMagick 1.3.26 ReadGIFImage 无全局/局部 palette 时未初始化，可把同进程数据经 palette 泄露；提交数877/178不是当前受影响数，未见实际泄露内容或当前版本。"
+  ],
+  [
+    61,
+    "D",
+    "access",
+    "HackerOne 内部资产描述在 scope 页不显示但 CSV Export 包含的报告，内部路径/凭证是可能影响，不是已见秘密；截图无实际 CSV 内容/请求，导出应保持字段级授权。"
+  ],
+  [
+    62,
+    "N",
+    null,
+    "TBHM 仓库卡片，无方法全文或实际运行覆盖。"
+  ],
+  [
+    63,
+    "D",
+    "fuzz",
+    "Dalfox --remote-portswigger 输出候选 payload 列表，来源抓取不等于目标测试或现代浏览器全部执行，事件/标签各有上下文与触发条件。"
+  ],
+  [
+    64,
+    "D",
+    "sql",
+    "SQLMap 显示 username GET error-based 从 stored session 恢复、两数据库与41表摘要，部分遮挡；缓存结果不是当前漏洞或实际 admin 登录，不转储或复用。"
+  ],
+  [
+    65,
+    "D",
+    "csrf",
+    "TikTok Webcast 历史摘要称 Origin 有值时校验、无 Origin 接受；缺真实浏览器 Cookie/SameSite/Referer/token/最终状态请求，不把 Repeater 手动删头当可跨站成功，评级曾变化。"
+  ],
+  [
+    66,
+    "D",
+    "records",
+    "Burp Piper 菜单 Process 1 response→JSluice，所选 akam-sw.js 为200/script，另一个 .js 是404/HTML；发送响应与请求、后缀与真正 MIME 不同。"
+  ],
+  [
+    67,
+    "D",
+    "records",
+    "JSluice 输出相对 JSON URL、空 method/query/body params、stringLiteral 且有重复，finished 仅表示脚本结束；空方法不推为 GET、相对路径需绑定基准 origin，不证明全部接口或漏洞。"
+  ],
+  [
+    68,
+    "I",
+    null,
+    "SAP Knowledge Warehouse 7.30/7.31/7.40/7.50 的历史 XSS 摘要及143总报告/18近期/+80%，没有具体输入/渲染代码和当前状态，数量不是产品受影响比例。"
+  ],
+  [
+    69,
+    "D",
+    "lfi",
+    "Airflow Spark Provider 4.0.0 验证、before4.0.1 历史描述，SparkJDBCHook 连接恶意 MySQL server，schema/JDBC URL 参数不足过滤使 Airflow 本地文件读取；未见完整驱动属性和实际文件内容，不把组件版本混成 Airflow core 或任意现行配置。"
+  ],
+  [
+    70,
+    "D",
+    "container",
+    "Kubelet 健康端口未认证暴露 /debug/pprof 的历史摘要，可泄露内存地址/配置或有限 DoS，明确默认配置不暴露；版本阈值/健康端口不同权限与正式 API 需分清，不读取内存或做压力测试。"
+  ],
+  [
+    71,
+    "D",
+    "passive",
+    "Google dork 图按 filetype/intext/inurl/intitle/cache/info/phonebook/map/link 和产品/敏感词分类，旧语法、拼写、引号和搜索支持未核验，产品标识/关键字不证明漏洞、秘密或所有权，不查真实人员或获取数据。"
+  ],
+  [
+    72,
+    "N",
+    null,
+    "Red Bull 礼品箱照片，无漏洞机制，标签/订单信息不复制。"
+  ],
+  [
+    73,
+    "I",
+    null,
+    "Nextcloud 暴力防护允许更多请求标题/安全通告外链和 Resolved Medium 6.3，技术正文加载未保存；底部 related WebDAV 为另一报告，不混成当前根因。"
+  ],
+  [
+    74,
+    "I",
+    null,
+    "同正文第二 ID 的时间线/同样等级，具体限流算法和请求对照未显示，不补造机制。"
+  ],
+  [
+    75,
+    "N",
+    null,
+    "SQL 注入视频封面，教学正文未保存。"
+  ],
+  [
+    76,
+    "N",
+    null,
+    "采访背景的个人资料/报告活动页面，未保存 JS 侦察方法，无新机制。"
+  ],
+  [
+    77,
+    "N",
+    null,
+    "NASA HOF/项目卡片，未展示内部文件、读取身份或访问控制响应。"
+  ],
+  [
+    78,
+    "D",
+    "xss",
+    "Cisco ASA/FTD CVE-2020-3580 历史摘要：不可信输入进 web services、用户须点击链接，只影响特定 AnyConnect/WebVPN 配置；1805/25/+108% 提交数量和表中星号不等于当前全版本漏洞，未见原始执行。"
+  ],
+  [
+    79,
+    "D",
+    "report",
+    "运营回信仍 Triaged Open、将与内部团队解决，High8.6→Critical10 时间线；等级变化和待修复不能补齐技术影响或最终修复。"
+  ],
+  [
+    80,
+    "D",
+    "passive",
+    "WHOIS Admin Organization Meta 与检索10000域示意，部分域名可能相似/伪造/历史记录；组织字段不证明并购、完整品牌归属或授权范围，联系方式不复写。"
+  ],
+  [
+    81,
+    "N",
+    null,
+    "Rapyd HOF/总项目数量，未保存漏洞方法。"
+  ],
+  [
+    82,
+    "D",
+    "passive",
+    "DNS Analyzer 示意测试邮箱注册使 webapp→resolver→Collaborator MX 查询，再显示分析；只是查询来源关联，未给 DNS 事务随机性、缓存投毒或实际 Kaminsky 成功，不注册真实账号或注入 DNS。"
+  ],
+  [
+    83,
+    "D",
+    "passive",
+    "httpx favicon/CDN 输出→anew→末列数字提取→Shodan count 查询，100线程/sleep 仅候选流程；输入URL类型、输出字段、判断符及哈希算法需版本/格式验证，count是索引统计不是当前归属或漏洞。"
+  ],
+  [
+    84,
+    "D",
+    "records",
+    "四 VPS 工作区图含 ScopeHunter 历史9目标/其他平台notfound、混合范围列表、amass/httpx/nuclei 管线及 curl/awk 提取重定向脚本；notfound不是无项目，混合资产不能全喂域名工具，原始URL/Location/范围/失败需逐阶段绑定，不执行。"
+  ],
+  [
+    85,
+    "D",
+    "xss",
+    "XSS.Report 仪表盘一条遮挡页面 URI 和时间，只是回调摘要，不独立证明 200 员工或权限。"
+  ],
+  [
+    86,
+    "D",
+    "xss",
+    "Sent Mail 中大量脱敏用户 JSON 的字段类别 username/email/id/resource_uri 等；没有原始 API 请求、执行身份、对象授权或完整数量，不能推所有员工或当前账号权限，不复制 PII。"
+  ],
+  [
+    87,
+    "D",
+    "xss",
+    "XSS.Report URI/Cookies/Referer/Origin 及 UA 摘要，敏感值遮挡；执行/网络来源需关联输入标记，Cookie 字段出现不证明 HttpOnly 可读或有可复用会话。"
+  ],
+  [
+    88,
+    "D",
+    "xss",
+    "回调记录 Session Storage/Local Storage/DOM 大面积遮挡，时间和设备信息仅摘要，token类型、消费者、权限未知，未证完整 takeover。"
+  ],
+  [
+    89,
+    "D",
+    "access",
+    "ColdFusion CFIDE/wizards/common/utils.cfc wizardHash/inPassword=foo/_cfclient/returnFormat=wddx 浏览器响应有遮挡哈希形态；没有身份、原始请求、版本或受保护操作，公开 hash utility 与认证绕过要区分，不复用或调用。"
+  ],
+  [
+    90,
+    "D",
+    "secret",
+    "JSluice Custom Secrets 课件用 JSON key/value/object 模式识别 genericSecret/firebaseConfig，示例字段、severity info/context null；例值明确 EXAMPLE，不证明服务器密钥、配置权限或真实可用，不使用。"
+  ],
+  [
+    91,
+    "D",
+    "secret",
+    "另一帖较小图片相同 Custom Secrets 课件、不同 SHA，保留独立文件来源；pattern 匹配不能替代字段类型与权限消费者。"
+  ],
+  [
+    92,
+    "D",
+    "scope",
+    "奖励邮件允许公布金额、其他 weakness 信息须项目运营者明确许可；1000 美元/公开 client id/secret 标题不授权全面技术披露，不能推广到所有项目。"
+  ],
+  [
+    93,
+    "D",
+    "access",
+    "Rapid7 历史文章开头称 ColdFusion 限制 Administrator 外部访问的功能存在绕过，日期与披露说明；未保存具体原始路径/规范化/补丁版本正文，不补抓外链或推当前可利用。"
+  ],
+  [
+    94,
+    "I",
+    null,
+    "CSRF Account Takeover P2 Triaged/仍评估标题，缺真实浏览器请求与受保护状态，不能证明移动版普遍失防护。"
+  ],
+  [
+    95,
+    "N",
+    null,
+    "crt.sh 工具仓库卡片称并行4 CT 来源，无实际结果、分页覆盖、范围归属或代码。"
+  ],
+  [
+    96,
+    "D",
+    "host",
+    "Python requests 示例通过 Host 变更后比较 200 正文或 301/302 响应头的 marker；选项声明相邻字符串缺逗号，访问字段需核对，正则域名点未转义；任意响应头命中不等于 Location 命中，异常被整体吞掉会漏报，关闭 TLS 校验不能形成可信传输证据。未展示运行结果，反射不证明重置邮件、缓存键或下游消费者。"
+  ],
+  [
+    97,
+    "D",
+    "records",
+    "证书域名扩展管道以冒号分割 URL 并硬拼 443，显式端口、IPv6、路径易丢失；openssl 未带 SNI，10 秒超时且错误静默，SAN 后缀点未转义且缺标签边界，主动丢弃通配符；从 alive.txt 读又向同文件追加存在重复迭代风险，应先快照输入、分离输出并保留错误/时间/来源/访问预算。证书关联不证明资产归属或测试授权，未展示结果，不执行连接。"
+  ],
+  [
+    98,
+    "N",
+    null,
+    "终端 ASCII 狗图与联系/链接文字，无独立安全机制；不访问外链或联系。"
+  ],
+  [
+    99,
+    "N",
+    null,
+    "Linux Mint 桌面截图无独立安全机制；正文把 sudo rm -fr ./* 当移除语言包是错误且会按当前目录 glob 递归删除，正文另作命令语义纠正，不执行。"
+  ],
+  [
+    100,
+    "D",
+    "records",
+    "GAP 完成界面分别统计参数50、链接1201、词6703；query/body/multipart、响应链接、路径前缀、数字/复数/IMG alt 等选项影响发现集合；JSON/cookies/XML 等未选，来源标签与仅范围内选项未选，COMPLETED 100% 只代表该次配置任务，不代表应用全部端点或授权覆盖。发现词/链接不是已请求可达或受保护业务状态，缺实际请求证据。"
+  ],
+  [
+    101,
+    "N",
+    null,
+    "衣服 HTML 文字与 Burp Pro 替代品文章封面，无工具实测、安全机制或正文；不安装、不补抓外链。"
+  ],
+  [
+    102,
+    "I",
+    null,
+    "Indeed 四条 Open Redirect 列表，P4，分别 New/Triaged 且仍评估，路径遮挡无实际重定向请求、目的地控制或消费者。列表数不是四个已修复/可利用根因。"
+  ],
+  [
+    103,
+    "D",
+    "access,report",
+    "Unikrn 已公开报告平台总结 cashier/transaction-history 的 session handshake 可访问另一客户数据，email/phone 暴露标题，Resolved/High/$3000；运营者确认有跨客户数据但原报告难复现，研究者协助定位。未保存具体对象字段、握手请求、会话绑定或实际数据；只能提炼握手阶段对象/会话边界与复現协作，不补造枚举接口/批量获取。"
+  ]
+]

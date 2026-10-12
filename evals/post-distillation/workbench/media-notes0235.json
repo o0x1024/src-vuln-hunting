@@ -1,0 +1,532 @@
+[
+  [
+    "I",
+    "",
+    "论坛列表只有 SSRF、枚举、Keycloak XSS、Cloudflare 和报告等题名，未展示正文步骤或证据；不把题名视为外链全文已读，不注册账号。"
+  ],
+  [
+    "D",
+    "report,impact,scope,experiment",
+    "M365 奖励邮件明确区分奖励资格、修复确认和公开披露许可，评奖不意味着已修复或可公开。提炼需分别记录验证结果、修复通知与具体披露授权；历史邮件不作为所有项目当前政策，金额和案例号不证明技术机制，不访问链接或联系平台。"
+  ],
+  [
+    "N",
+    "",
+    "付款提供方选择通知，没有漏洞机制；不登录门户、接受条款或设置支付。"
+  ],
+  [
+    "N",
+    "",
+    "付款通知续页与联系信息，没有技术内容，不发邮件或变更支付资料。"
+  ],
+  [
+    "D",
+    "cloud,container,secret,source,records,scope",
+    "云工具长列表按 AWS 测试、凭据管理、IAM、配置/IaC 审计、资产、DFIR、日志、运行时与 SSRF/IMDS 防护等用途组织。可读工具描述仅是历史能力线索；安全分析、自动模拟、部署 WAF 和清理是不同权限/副作用，列表不证明资源合规、秘密有效或当前版本。保留身份/租户/资源/规则版本与实际控制证据，未安装扫描或部署。"
+  ],
+  [
+    "N",
+    "",
+    "银行及聊天中的奖励金额记录，没有漏洞机制，不访问账户或转账。"
+  ],
+  [
+    "N",
+    "",
+    "Access Granted 攻击者插画，没有 guest login 身份绑定或接管步骤。"
+  ],
+  [
+    "I",
+    "",
+    "商务回复认可多个报告并承诺奖励，未展示四个业务逻辑根因、请求或状态变化，不依据认可或奖金确认漏洞链。"
+  ],
+  [
+    "D",
+    "web,passive,records,fuzz,scope,experiment",
+    "httpx 思维导图区分 URL/host/raw request 输入、状态/标题/技术/TLS 等探测、matcher/filter、编码及完整响应/跳转链保存、rate/thread/delay/timeout、proxy/resolver/scheme。过滤信号不能当权限或漏洞，HTTP/HTTPS fallback、全部 IP、CSP/TLS 域扩展及重定向要核授权边界；保留原字节、上下文和失败记录，历史默认值/选项不保证当前版本，未执行。"
+  ],
+  [
+    "I",
+    "",
+    "奖励卡仅显示 CWE-284、CVSS、日期与金额，未给角色/对象/动作和服务端结果，不证明具体访问控制机制。"
+  ],
+  [
+    "I",
+    "",
+    "另一 CWE-284 奖励卡只有 Low 3.0 和金额，缺主体/对象/操作与实际权限证据。"
+  ],
+  [
+    "D",
+    "access,auth,apip,graphql,ssrf,logic,cloud,web,scope,experiment",
+    "API 图区分对象、身份、属性、资源消耗、功能、敏感业务流程、SSRF、配置、版本库存及第三方消费。BOLA 不仅是读取，BFLA 也不限修改；认证字段、JWT 或 ID 名只是线索。资源限制应覆盖时间/内存/操作/页数/费用，旧 API 和第三方数据均需实际消费与信任边界；回调不证明敏感 SSRF。以自有角色/对象和受控负例验证，不无界遍历、压测或支付。"
+  ],
+  [
+    "D",
+    "sql,fuzz,records,experiment",
+    "sqlmap 截图报告 GET selectId 的 MySQL MAKE_SET 布尔盲注并称共 771 请求，版本为 Unknown。保存输出是工具结论，不是原始真假响应或 CVE 构建确认；比较正常、真、假表达式及长度/正文/状态，排除缓存和动态页面，并固定实际 SQL 消费端/版本/权限。请求数不等覆盖，不执行或 dump。"
+  ],
+  [
+    "D",
+    "fuzz,records,source,experiment",
+    "脚本注释声称按 size 去重，实际提取 Words；出现 declare 注释但可见处没有 declare -A，空值/非数字与数组语义依 Bash。仅遇到新 Words 才 read 下一行，使多行 ffuf 输出配对可能错位，重复词数也可能隐藏不同内容/权限。按结构化请求与完整响应建关联，词数用于分组而非排除，保留原始结果，未运行。"
+  ],
+  [
+    "D",
+    "xxe,source,experiment,scope",
+    "XML 片段定义普通内部实体并反复引用长字符串，这是实体展开资源放大候选，未展示外部文件/网络实体、嵌套指数链或解析结果。区分 XXE 与实体展开 DoS，核 DTD/实体配置及严格预算的自有解析器负例，不发送资源耗尽输入。"
+  ],
+  [
+    "D",
+    "xxe,ssrf,web,source,experiment",
+    "POST /client XML 的 DOCTYPE 指向 https://127.0.0.1:445 的外部 DTD，响应只可见 200 和 IIS/ASP.NET 头，未展示取回或服务端解析结果。此为外部 DTD 消费/连接候选，不因 200 证明 XXE 或 SMB 数据获取；核解析器配置、协议处理、DNS/连接与唯一标记，Cookie 与地址遮挡不转录使用，未请求。"
+  ],
+  [
+    "I",
+    "",
+    "练习平台名称与 URL 清单没有具体靶场机制、权限或任务内容；免费声明属历史图片，不注册、下载或访问外链。"
+  ],
+  [
+    "D",
+    "web,auth,access,files,xss,source,strategy,scope",
+    "漏洞大思维导图可辨认认证/会话、服务配置、客户端/服务器注入、XSS、CSRF、BAC、重定向、文件/存储/移动等分支。按入口、消费者、角色/状态、影响和证明条件组织假设，分支归类不等于全部漏洞或完成覆盖；小字及裁切内容不补写，不能由默认标题认定实际风险或执行。"
+  ],
+  [
+    "D",
+    "client,source,web,fuzz,records,scope,experiment",
+    "JS 一行资料从 assetfinder/gau 获取候选，egrep -v 用方括号包住扩展字符串，实际是字符类而非扩展名列表，会大量误排；curl URL 未安全引用、sed 插入 URL 有转义/分隔风险，var 名提取并非秘密或真实 URL 参数。只将静态变量/历史 URL 当调用候选，保留格式、原文、失败与 scope，未执行请求或 XSS。"
+  ],
+  [
+    "I",
+    "",
+    "课程文件夹 1–13 的题名不包含课程正文或漏洞步骤，不声称已读取课程或下载视频。"
+  ],
+  [
+    "I",
+    "",
+    "课程目录续页 12–18 只有题名，不包含 SSRF/CAPTCHA/报告等正文或实验结果。"
+  ],
+  [
+    "D",
+    "android,ios,auth,source,scope,experiment",
+    "NSA 图标明 Oct2020rev1.1，列设备锁定、更新、应用来源、无线/位置、附件、可信配件、物理控制与定期重启等。安全建议须映射设备能力、威胁和实际配置，6 位 PIN/擦除/5分钟等为该图条件，不普遍保证安全；飞行模式未必关 Bluetooth，重启不修补持久漏洞，本次不改变设备设置或声称当前官方政策。"
+  ],
+  [
+    "D",
+    "android,ios,scope,experiment,source",
+    "移动控制矩阵把威胁与更新、官方应用、无线、加密通信、链接、重启、物理/位置等控制对应，图例区分 Sometimes 与 Almost always。提炼应把控制当条件性缓解，覆盖近距离、网络、应用、供应链与地理定位等不同边界；表格符号不是经实测成功率，单个措施不证明零点击/供应链攻击被完全阻断。"
+  ],
+  [
+    "D",
+    "business,access,auth,web,strategy,scope,experiment",
+    "金融 API 漫画四步：正常用户功能/身份与流程、较少使用入口/集成、值得验证的端点、权限层级与实际影响。以角色、对象、动作和状态建立不变量再选单变量受控比较，IDOR/BOLA 与未授权交易不同证据；按业务价值优先不意味着排除其他根因或授权真实付款，未点击目标功能或发送交易。"
+  ],
+  [
+    "D",
+    "web,records,fuzz,scope,experiment",
+    "SpideyX v1.0.0 历史截图为 depth1/concurrency30 的 active crawler 输出公开站 URL，混有 fragment 及把第三方脚本地址拼到站内路径的异常候选。爬取 URL 不证明可达、归属或漏洞，应保留原链接/规范化/身份/失败并限制深度并发，latest 是截图当时标记，不运行扫描。"
+  ],
+  [
+    "D",
+    "web,records,fuzz,scope,experiment",
+    "重复正文第二帖的另一张不同字节 SpideyX 图也展示 v1.0.0/depth1/c30 与公开 URL、fragment/可疑拼接脚本路径。独立保存该图来源，候选应核链接解析、可达性、归属和预算；不由相同正文丢弃各自附件，不宣称实际扫描或当前版本。"
+  ],
+  [
+    "D",
+    "report,impact,scope",
+    "WAMP 奖励/triage 截图未展示 topic 或订阅消息，却明确提示奖金外的弱点细节需项目方 express permission 才披露。保留历史披露要求与验证/奖金状态的区别，不从 generic access-control 标签确认 WebSocket 越权；不公开私密细节、联系项目或把此邮件作所有现行项目规定。"
+  ],
+  [
+    "I",
+    "",
+    "课程目录 01–09 文件数和题名未展示视频内容、虚拟机或技术步骤，不下载课程。"
+  ],
+  [
+    "I",
+    "",
+    "课程目录续页 12–20 文件数和题名未展示技术内容，编号缺页不能补造成完整课程。"
+  ],
+  [
+    "D",
+    "web,graphql,ws,xxe,access,auth,business,source,experiment",
+    "API Protocols 图混合 REST 架构、GraphQL 查询、SOAP/WebSocket/gRPC/MQTT/AMQP/SSE 与 EDA/EDI 架构/交换方式。按请求、消息、订阅、回调和对象解析记录身份与权限，而非仅 HTTP 路径；GraphQL 字段/RPC method/topic/事件消费者各需授权，SSE 单向与 WS 双向不同，XML 不自动 XXE，图不证明某目标实现或漏洞。"
+  ],
+  [
+    "D",
+    "passive,source,scope,experiment",
+    "图片把相似域名现象与一起历史设备事件联系，因果仅为作者推测，未展示供应链/注册或事件证据。可提炼通用域名混淆边界：拼写差一字、视觉相似或品牌字符串不证明合法归属；核域名规范化、可信发布渠道与资产关联，不能由 typo-squatting 推导物理事件原因。本次不查询、注册域名或联系人员。"
+  ],
+  [
+    "I",
+    "",
+    "RCE via GroovyConsole 报告卡只有 Accepted/10.0/奖金与遮挡标题，没有控制台权限、脚本消费或执行回执。"
+  ],
+  [
+    "N",
+    "",
+    "赞赏回复与询问发现方法，不包含技术步骤。"
+  ],
+  [
+    "D",
+    "auth,desktop,secret,access,source,experiment,scope",
+    "Mimikatz pth 截图显示用既有域用户 NTLM 材料创建 cmd、LSA Process RW 等工具日志，并对比同一 UNC 路径一方有目录/0字节文件、一方 File Not Found。需要先有相应本地权限/材料、协议允许与资源 ACL；本地 Administrator 与远端域身份不同，目录差异不是读取内容或域管理员接管证明。未转录/使用哈希、执行或访问共享。"
+  ],
+  [
+    "D",
+    "strategy,web,source,experiment,scope",
+    "Web 漏洞名称列表混合协议/输入/防护、根因与影响，如 JWT、HTTP method、status bypass、CVE/RCE。作为检查索引须映射实际输入、消费者、角色/状态和正反例证据；状态变化不等授权成功，组件名不等漏洞，不把清单条目数当覆盖或全部 OWASP。"
+  ],
+  [
+    "D",
+    "web,waf,fuzz,access,records,experiment,scope",
+    "Bypass-Four03 example.com/admin 输出原始 404，多种编码/路径变体 500 或 404，未出现成功访问。路径双解码、分号、空白、斜线等只是解析差异候选；500 的统一长度也可能通用错误，响应差异不证明绕过 403 或管理员权限。按原字节、解析链、身份与实际资源核对，未运行脚本或请求。"
+  ],
+  [
+    "D",
+    "android,ios,auth,access,secret,source,experiment",
+    "移动 OWASP 旧分类图包含平台、存储、通信、认证/授权、密码、质量、篡改、逆向及额外功能。图中 TouchID 即不安全认证、匿名 API 一概漏洞等概括不成立；生物识别只满足特定本地/密钥条件，公开 API 可匿名，逆向/隐藏端点不是独立漏洞。核实际身份、敏感数据、服务器 ACL、用途和版本，不当现行全部标准。"
+  ],
+  [
+    "D",
+    "access,secret,web,logic,source,experiment,records",
+    "私有 WordPress profile 描述 source、feed/atom、公开→私有切换及 Yoast get_head URL 读取的变体，并明确 SSRF 尝试失败。隐私不变量应覆盖 HTML/source、订阅格式、metadata API 与缓存/状态变迁，不能把只修 UI 当所有消费端修复；需要自有私密标记/角色与时间对照，缺完整回执不称所有 WordPress/Yoast 当前受影响，不把 metadata 读取叫 SSRF。"
+  ],
+  [
+    "N",
+    "",
+    "访谈人物静帧只有 IN YOUR 字幕，不含耗时数据或漏洞步骤，未观看未保存视频。"
+  ],
+  [
+    "D",
+    "secret,source,records,scope,experiment",
+    "秘密工具图区分提交前/推送钩子、文件和历史正则/熵、公共搜索/实时事件、提交信息漏洞候选。高熵或 commit message 不证明秘密当前有效、漏洞可达，hook 也不保证历史无泄露；记录来源提交、字段用途、归属/可见权限并脱敏，未安装 hook、搜索远端或试用凭据。"
+  ],
+  [
+    "D",
+    "secret,source,cloud,records,scope,experiment",
+    "秘密工具续图覆盖组织/代码配置、实时泄露、检测预防、硬编码秘密、EBS、PII/密钥与浏览器扩展；13/17 浮层遮挡处不补文字。代码/卷/浏览器数据是不同来源与权限，候选匹配不证明可用凭据，公开 EBS 也不授权挂载读取。保留具体来源/字段用途/时间，未安装、获取卷或使用秘密。"
+  ],
+  [
+    "D",
+    "saml,auth,cloud,access,source,experiment",
+    "AWS SAML 图分 API AssumeRoleWithSAML 和 Console/ADFS 登录：IdP 认证→断言→STS 临时凭据或控制台重定向。验证断言签名、受信 IdP、Audience/Recipient/时效/Role 映射与最终 AWS principal/权限；IdP 登录成功不代表任意角色，临时凭据也须用途/有效期，不转录使用凭据或登录云账户。"
+  ],
+  [
+    "N",
+    "",
+    "Question.com 宣传封面无存储字段、浏览器 sink 或 XSS 执行证据。"
+  ],
+  [
+    "N",
+    "",
+    "时钟与弯箭头图库插画，没有日期限制业务流程或绕过证据。"
+  ],
+  [
+    "D",
+    "report,impact,scope,experiment",
+    "Zomato 奖励邮件明确 triage 时付初款、Resolved 后其余，并要求额外弱点细节披露许可。奖励/分期支付不等于修复或完整 Blind XSS 复现，图片缺输入/后台 trigger/执行结果。保留历史事件的状态区分，不公开私密信息或联系项目，现行规则不从旧邮件推断。"
+  ],
+  [
+    "I",
+    "",
+    "课程文件夹与数量只表示题名，不显示漏洞内容或完整章节，未下载视频。"
+  ],
+  [
+    "D",
+    "iot,desktop,source,scope,experiment",
+    "七种硬件图把 GPIO 小电脑、USB HID、RFID/NFC/IR、以太网、Wi-Fi 接入/抓包与 Bluetooth 监测分开。Raspberry Pi 图例外形混用，能力概括不能证明所有卡可克隆、附近 Bluetooth 可解密或任意设备可注入；核硬件/频率/协议/认证/物理访问及授权范围，未购买、连接、广播、克隆或执行。"
+  ],
+  [
+    "D",
+    "source,secret,cmd,files,experiment",
+    "浏览器 package.json 片段只有遮挡包名、0.1.0、private:true 与 Node engines。private 标志限制包发布语义而非注册表命名空间拥有或网页访问 ACL；公开元数据不直接证明依赖混淆、RCE/LFI。需真实安装源优先级、依赖/脚本调用及执行结果，未发布包、安装或读取文件。"
+  ],
+  [
+    "I",
+    "",
+    "Disclosure Confige File/P3/Triaged 状态卡没有 assets/config.js 内容、权限或秘密字段，不证明配置暴露。"
+  ],
+  [
+    "D",
+    "fuzz,web,source,records,scope,experiment",
+    "扫描清单列模板、框架、JS 已知漏洞、侦察/URL/secret 候选、公开利用检索、注入和 SSTI 工具。区分信息来源、检测、利用及执行副作用，工具名/旧组件/高等级输出均不是当前消费端漏洞证明，模板版本、请求上下文、匹配证据与正常负例须保留，未下载安装、扫描或利用。"
+  ],
+  [
+    "D",
+    "ssrf,sql,xss,cmd,web,records,scope,experiment",
+    "DNS/HTTP/OAST 清单分回调监测、请求回显、DNS 管理日志、canary 与 webhook。唯一标记/时间/协议/来源关联是证据，DNS 单回调不证明 RCE 或敏感 SSRF，image canary 可能被代理预取；查询 API key/真实请求保留脱敏，外部接收端或自定义 action 可能泄露/执行，未注册、发请求或部署。"
+  ],
+  [
+    "D",
+    "ssrf,files,auth,web,source,experiment",
+    "Directus 图的 JSON url 指向 127.0.1.3:8055，返回文件元数据 HTML/admin、uploaded_by，带会话 Cookie；首行路径未可见。说明候选服务端导入与 loopback 别名，但不能称无认证或全 SSRF。只拒绝字面 localhost/127.0.0.1 不覆盖实际解析地址，核解析/重定向/所有候选 IP 与导入权限，200/元数据还需与受控源内容对照，不使用保存 token。"
+  ],
+  [
+    "D",
+    "ssrf,files,auth,web,source,experiment",
+    "第二图明确 POST /files/import 用 127.127.127.127:8055、带会话 Cookie，返回 HTML 文件 metadata。需按实际网络栈和解析结果处理整个 loopback 范围，地址落在 127/8 不自动证明所有平台行为/任意内网权限；导入主体、allowed URL、跳转和内容验证独立保留。无独特内容/访问日志不能推完整敏感影响，未执行或读取凭据。"
+  ],
+  [
+    "D",
+    "sql,fuzz,auth,web,records,scope,experiment",
+    "sqlmap 速查包含 URL/参数/标记、POST/Cookie/UA/Referer、crawl/proxy/CSRF/forms 以及 banner/dbs/tables/columns/dump、OS shell/Tor。图中抓取深度与语法混写，Cookie 身份不应当授权；参数检测、枚举数据与 OS 操作不同范围/副作用。固定原始请求与真假基线，UA 或 Tor 不证明 SQLi/WAF 绕过，未执行或转录凭据。"
+  ],
+  [
+    "D",
+    "passive,client,web,scope,records",
+    "浏览器扩展按钮将域名传给 Wayback、OTX、URLScan 和 VirusTotal 等来源；列表未显示查询或结果。第三方发现/归档与当前授权资产不同，提交目标可能被公开保存，需核数据来源/时间/隐私/权限和输出归属，不自动认为点击按钮是纯本地分析。本次未安装或调用。"
+  ],
+  [
+    "D",
+    "secret,client,source,web,records,scope",
+    "扩展代码把 VirusTotal apikey/domain 插入查询 URL，chrome.tabs.create 打开并 console.log 整个 URL。查询秘密可能进入日志、浏览历史/第三方服务器，硬编码与未编码 domain 需按 API 版本/输入用途验证；把秘密值遮挡保留代码结构，不复制/使用 key、安装扩展或发送查询。"
+  ],
+  [
+    "I",
+    "",
+    "小型录屏静帧只有浏览器/录制界面与难辨认列表，没有完整 API 请求、结果字段或扩展行为证据，不把静帧当视频已看完。"
+  ],
+  [
+    "D",
+    "web,waf,access,fuzz,records,experiment,scope",
+    "另一原图 Bypass-Four03 同样是 example.com 原 404 与变体统一 500/404，无授权成功。保留编码、原字节、前后端解析及状态/长度与原始响应，区分异常、软 404 和真正访问受限动作；并发工具/路径清单不是 bypass 证明，未执行。"
+  ],
+  [
+    "D",
+    "web,waf,access,fuzz,records,experiment,scope",
+    "同正文第二帖的另一不同字节 Bypass-Four03 图展示 404/500，不能由重复工具输出增加独立漏洞数或认为原本是403。独立绑定附件和来源；逐项核 consumer、角色、资源与正常负例，不发请求。"
+  ],
+  [
+    "D",
+    "auth,host,cache,oauth,fuzz,source,experiment,scope",
+    "认证检查表列 XFF/Host、remember/recovery、直接资源/OAuth/旧token/改响应、多邮箱、cache deception、PHP数组、计数重置、批量口令与宏。全为候选：客户端改响应不改变服务器 MFA，XFF 不是可信 peer，array 需实际类型消费，每个逻辑动作而非每HTTP请求应计预算。按自有角色/令牌用途/状态做负例，禁止把旧token存在或状态200当ATO，不尝试口令、外带或真实重置。"
+  ],
+  [
+    "N",
+    "",
+    "动画 START 按钮静帧，没有 test:test 身份、请求或漏洞证据。"
+  ],
+  [
+    "I",
+    "",
+    "Bash One-Liners 封面和 ASCII 图没有可提炼命令正文，外链余文按用户规则免补齐。"
+  ],
+  [
+    "D",
+    "xss,web,client,fuzz,source,experiment",
+    "Arjun→awk 按 ?/&/＝ 拆参数后 kxss 在公开练习地址输出 artist/cat Unfiltered [$]。特殊字符反射不证明浏览器执行，必须核 HTML/JS/属性 sink、编码、CSP 和主体；拆分丢失其他参数、重复键、方法/值/片段，需保留完整原请求。练习输出不是生产证明，未执行。"
+  ],
+  [
+    "D",
+    "fuzz,android,ios,cloud,source,records,scope",
+    "Vulnerability Scanners 图把开放/商业/云/移动/AI 与渗透工具并列，包含抓包、口令、框架等非扫描器，分类交叉。按静态、网络探测、主动输入、配置、依赖/行为来选择证据，商业或 AI 标签不提高确认强度；工具历史能力/许可证/当前维护未验证，未安装、扫描或上传样本。"
+  ],
+  [
+    "N",
+    "",
+    "Udemy 优惠/课程卡只有课程题名、历史评价价格，无安全机制，未购买或加入购物车。"
+  ],
+  [
+    "D",
+    "files,xss,ssrf,xxe,lfi,cmd,doc,source,experiment,scope",
+    "上传类型→影响表列脚本、SVG/GIF、CSV/XML/AVI/HTML、图片、ZIP/PDF/PPTX。扩展名不能直接推出 RCE/XSS/SSRF/XXE/像素DoS；需实际 handler、嵌入/渲染上下文、外部引用、解压/包含、公式打开和大小预算。用自有无害标记比较消费者与策略，不上传 webshell、资源炸弹或打开真实恶意文档。"
+  ],
+  [
+    "D",
+    "passive,web,records,scope",
+    "终端服务图列 profile、报告搜索、dork、ascii/fortune 等公开查询，展示的是历史研究者统计非目标漏洞。可提炼输入/输出类型与第三方来源归属，返回排名/状态不证明授权或资产范围，curl 无UI不免范围/隐私要求；未访问或执行。"
+  ],
+  [
+    "D",
+    "passive,web,source,records,experiment,scope",
+    "dork.py 演示 site:*.vulnweb.com filetype:php 的输出混有 Google search/maps、自有练习路径与重复 URL。解析整页所有链接会把搜索导航混为资产，须核实际 host、归属、规范化/去重且保留原始来源；搜索结果不证明当前可达、隐藏或 SQLi/XSS，未运行搜索。"
+  ],
+  [
+    "I",
+    "",
+    "XSSFuzz/CSP 视频封面拼接几个 alert 对话框，没有 CSP 响应、脚本来源、输入上下文或请求关联；弹窗文案 CSP Bypassed 不足证明特定策略绕过。"
+  ],
+  [
+    "D",
+    "auth,csrf,access,business,experiment,scope",
+    "2FA 表列空码、其他子域共享登录、缺限速、双自有账户关闭2FA的CSRF。均需证明已验证状态、同一账户/用途/资源策略和真正服务端动作；跨子域可能不同权限，缺限速不授权穷举，关闭 MFA 需再认证/CSRF主体绑定。用受控负例核空/无效/旧码与会话，不发请求、爆破或改真实设置。"
+  ],
+  [
+    "N",
+    "",
+    "课程优惠与播放封面未显示教材正文或技术证据，不购买/报名。"
+  ],
+  [
+    "D",
+    "auth,access,client,web,source,experiment",
+    "注册表列空白/点/大小写/Unicode/NUL/换行、JS/移动端点、改状态和确认前改邮箱。需区分字节编码、唯一性、展示与身份锚点；改客户端401到200不证明服务器授权。邮箱挑战应绑定准确账户、地址、用途、时间与单次状态，改地址应重新验证，公开注册不等漏洞；未注册或发邮件。"
+  ],
+  [
+    "I",
+    "",
+    "方法论与工具笔记目录仅有作者、主题和外链，未显示其正文或模板内容，不下载或加入Telegram。"
+  ],
+  [
+    "D",
+    "iot,web,auth,access,source,scope,experiment",
+    "ViaSat 生命周期示意串联网关、DMZ/VPN、管理界面和终端更新，未包含具体配置/日志或实际事件因果证据。可提炼防御边界：网关认证、网络隔离、管理面权限、签名更新和最小设备范围各需独立验证；示意图不授权访问卫星、利用 VPN 或上传破坏性软件，不将历史作者说明当当前事件核实。"
+  ],
+  [
+    "D",
+    "lfi,secret,web,records,scope,experiment",
+    "2022 监测帖的 JSON 日志记录 Fortinet 历史 CVE-2018-13379 请求特征、扫描时间、来源与计数，未展示目标响应或凭据成功读取。探测日志不证明入侵或某卫星事件归因；保留传感器/时间/原请求/版本与结果并脱敏，凭据读取另需明确证据，不复刻扫描或访问会话文件。"
+  ],
+  [
+    "N",
+    "",
+    "卫星与数字背景插画没有协议、配置或技术证据。"
+  ],
+  [
+    "D",
+    "report,impact,scope,experiment",
+    "奖励邮件明确工程师确认、票据仍 Open 因修复需时间，并要求弱点细节披露许可。技术验证、支付、修复和公开授权须独立记录；没有 scope 明细不能由奖励推导所有未列资产可测。本次不联系或披露私密信息。"
+  ],
+  [
+    "D",
+    "passive,source,records,scope,experiment",
+    "OSINT 图分资料可靠性/分析/技术/沟通、公开/社交/人员/地理/图像/信号来源、surface/deep/dark 与浏览器工具。未索引不等私密，匿名网络不等违法，VPN/VM不保证匿名隔离，人员接触与信号采集不是公开检索默认授权；保留来源时间与关联不确定性，未建假身份、联系、拦截或查个人信息。"
+  ],
+  [
+    "I",
+    "",
+    "文件名 XSS 报告列表只显示标题/时间/提交对象，没有具体上传名、渲染上下文或浏览器执行，不能据数量确认十个独立根因。"
+  ],
+  [
+    "D",
+    "web,android,ios,desktop,cloud,container,source,fuzz,scope",
+    "渗透工具表区分 Web、移动、API、代码、桌面、网络、云和容器，混合分析、调试、代理、扫描与利用。工具应按实际资产版本/输入/消费者/权限选择，不由品牌或 root/jailbreak 认定风险；静态 string/版本命中与运行时边界分别验证，不能把表格当当前推荐或授权安装/扫描。"
+  ],
+  [
+    "D",
+    "web,xss,click,cors,source,experiment",
+    "安全头图分 CSP/CORP、HSTS、Referrer/Permissions、nosniff、XFO/COOP/COEP，但策略用途有简化：CORP 不等通用CORS许可，COOP/COEP不能直接代替防iframe，nosniff不消除所有注入。应按浏览器上下文、头值、加载/嵌入行为和实际权限核生效，缺一个头不自动是漏洞，HSTS还有首访/域范围条件。未改配置或请求目标。"
+  ],
+  [
+    "I",
+    "",
+    "Smile 扩展空表单与 Bulk URL Opener/Check URLs 导航不展示实际检查、归档或输出，不以UI证明网络行为或运行结果。"
+  ],
+  [
+    "D",
+    "logic,business,web,source,experiment,scope",
+    "示例 items laptop4/mobile-2 以4×40－2×70＝20示范负数量抵扣，但前文单价描述不一致且无服务器订单。应要求每项合法非负整数、服务端价格/货币/折扣/总额、库存和支付状态一致，净件数或客户端总额不能替代验证；购物车接受也不证明结算/发货。仅隔离自有样本，不购买、支付或改单。"
+  ],
+  [
+    "D",
+    "passive,secret,web,records,scope,experiment",
+    "OTX Associated URLs/API limit50 page1 提示历史 URL、收据/token/参数候选。公开索引不代表当前可读、全部资产或允许使用秘密，分页/来源时间/host/访问身份及内容结构要保留，单页不是覆盖；敏感字段以最小脱敏样本区分公开文档/失效URL，未查询或读取他人收据。"
+  ],
+  [
+    "N",
+    "",
+    "匿名人物与二进制背景插画无旧功能入口或漏洞证据。"
+  ],
+  [
+    "D",
+    "passive,web,source,records,scope,experiment",
+    "指纹工具图列 WhatWeb 的 UA/Cookie/aggression/threads 与 BuiltWith/Wappalyzer、代理行为资料。fingerprint 只给技术候选，banner/logo可共享或伪装，版本/部署/可达消费者仍需证据；UA/Cookie改变请求身份与响应，aggression有主动请求成本，历史选项不保证当前，无安装或扫描。"
+  ],
+  [
+    "D",
+    "scope,passive,web,client,records,experiment",
+    "term.rohsec in-scope 输出与 domains=1 仍混合 wildcard域、app标识/SDK/数字和重复项。第三方字符串过滤不等权威 scope，需保存原资产类型/范围/排除/时间与项目政策再映射域名，通配或相关品牌不授权全部端口/资产；历史图不作现行授权，未调用服务或扫描。"
+  ],
+  [
+    "I",
+    "",
+    "WAF community bypasses 仓库宣传卡只有 star/贡献者等，无具体 payload、产品版本或比较结果，不下载或执行。"
+  ],
+  [
+    "I",
+    "",
+    "奖励支付页面仅金额，没有 swagger-ui 版本、输入、渲染 sink 或 XSS 证据。"
+  ],
+  [
+    "D",
+    "web,records,fuzz,scope,experiment",
+    "Katana v0.0.1 历史输出列表包含公开购物/支持/语言路径、JS 和参数，入口发现不证明当前可达/漏洞/完整覆盖。按原来源、规范化、身份、请求方法和时间保留不同变体，跨子域与自动表单/JS 消费须核 scope 与预算，未运行爬虫或打开购物功能。"
+  ],
+  [
+    "D",
+    "auth,web,fuzz,business,source,experiment,scope",
+    "CAPTCHA 图列复用、空值、格式/方法、XFF、关联参数、OCR/自动化与付费人工。核心是服务端挑战绑定主体/用途/过期/单次消费，并在动作前校验；字串变化不证明放行，XFF非可信IP，能人工解题不等实现漏洞。保存正常/失败/重复挑战和业务结果，不能以缺挑战一概高影响，未爆破、购买服务或自动提交。"
+  ],
+  [
+    "D",
+    "sql,source,access,experiment",
+    "PHP mysqli 示例用 prepare 占位符、bind_param整数、execute与bind_result，分离 SQL 结构与数据。类型化参数不替代对象授权，SELECT* 的结果列与绑定顺序须明确并检查准备/执行错误；动态表名/排序不能用值占位自动保护，图未证明所有查询已修复，未执行。"
+  ],
+  [
+    "D",
+    "sql,auth,source,experiment",
+    "登录 SQLi 示意把 admin 后注释符输入直接放进拼接 WHERE 再画管理员页面；无真实DBMS/请求结果。注释语法依方言，单引号/错误或页面标签不足确认；参数化与正确认证/口令验证独立，唯一受控真假条件和身份结果才支持绕过，不执行示意payload。"
+  ],
+  [
+    "D",
+    "sql,source,access,experiment",
+    "Java JDBC 示例 customerName 经 PreparedStatement 和 setString 绑定，再 executeQuery，说明参数化应作用在实际 DB 消费端。注释里的 input validation 未实现但不等参数化无效；业务格式/长度和账户权限仍独立，返回 balance 需明确主体/对象授权，不执行查询或读真实数据。"
+  ],
+  [
+    "N",
+    "",
+    "访谈静帧只有 HOW CAN 字幕，没有关系建议正文或技术内容，未观看外链视频。"
+  ],
+  [
+    "D",
+    "auth,csrf,click,oauth,source,experiment,scope",
+    "19项2FA图混合码生命周期、旧会话、备用码、重置/邮箱、空/缺失/可预测码、Referer、直达API、客户端改success/状态、跨会话/账户、记住我与CSRF。客户端改200/true不能改变服务器验证，Referer不可靠，跨会话码是否允许需按用途账户策略；用自有角色/明确MFA状态测试服务器动作，不穷举、诱导或使用他人OTP。"
+  ],
+  [
+    "D",
+    "auth,secret,web,source,scope,experiment",
+    "Evilginx 截图实际版本2.0.0、2018时间，与正文3.0题名不同；工具日志声称抓用户名/口令/token并重定向，未展示最终身份成功。会话转发/盗用与MFA算法不同，需端点绑定、来源/用途、设备/会话撤销证据；不推所有MFA可绕过，不转录秘密、搭建钓鱼、发链接或登录。"
+  ],
+  [
+    "D",
+    "sql,xss,source,web,fuzz,experiment,scope",
+    "TOP100预览只有 SQLi/XSS 起点及CSRF标题，不能称100项全文已读。输入拼接/反射/错误/CSP缺失是候选而非确认，SQL参数化和实际HTML/JS sink编码需分别验证，脚本执行还要主体/触发/CSP；按自有无害标记和真假基线控制预算，未测试或下载手册。"
+  ],
+  [
+    "I",
+    "",
+    "RCE automation 论坛可见开头只声称某 F5 BIG-IP 认证绕过/CVE-2023-46747/9.8及插画，没有自动化步骤、配置或执行证据，截图外全文按规则免补齐。"
+  ],
+  [
+    "D",
+    "xss,web,client,source,experiment",
+    "XSS 论坛可见底部提示除参数还应关注 extension/path，主图为无效代码装饰。路径和后缀可能进入错误页/模板等消费者，但须实际反射上下文、解码/CSP/浏览器执行与正常基线；不能把修改扩展或图上XSS文字当成功，未读取截图外步骤或请求。"
+  ],
+  [
+    "I",
+    "",
+    "bbFuzzing 仓库宣传卡只有项目与 star 等，未显示字典条目、生成过程或覆盖/质量；正文90%ChatGPT生成不证明有效或安全。"
+  ],
+  [
+    "D",
+    "cloud,passive,web,client,secret,records,scope,experiment",
+    "S3 Recon 图分 dork、浏览器代理/图片链接、在线索引、工具/模板、JS URL 正则与指纹。bucket 名/URL/标题仅候选，cdn/custom domain/pathstyle或region形式可能漏，图片公开可读是正常反例；列目录、GetObject、写权限和敏感内容分别核主体/策略/归属，不批量下载或写对象。管道参数无安全引用/误匹配要保留失败与原文，未查询。"
+  ],
+  [
+    "D",
+    "passive,web,records,scope,experiment",
+    "subfinder v2.6.0 与 httpx v1.3.3 标 outdated，四个域候选后显示 GET 200/301/302 与标题。候选发现、DNS、HTTP和归属各自证据，不由品牌标题或可达200证明漏洞/全部scope；跳转目标与wildcard/历史时间应核对，末尾-method语法依据版本确认，未执行。"
+  ],
+  [
+    "D",
+    "fuzz,passive,web,records,scope,experiment",
+    "Wfuzz3.1.0 图有https方案，正文FUZZ[.]target却无方案且状态重复301，图状态含404；5001请求仅4显示，www/WWW同DNS大小写实体不重复计资产。输出过滤、错误忽略和字典大小会遮盖缺口，需DNS/Host/SNI/重定向及原始失败结果，43.6req/s非授权预算，未扫描。"
+  ],
+  [
+    "I",
+    "",
+    "OWASP大图小字密集、下半部横线遮挡，仅能辨认旧类别，无法可靠读完整节点/步骤；不以PDF链接或图名补造全文和覆盖。"
+  ],
+  [
+    "D",
+    "xss,client,web,source,experiment",
+    "PortSwigger lab 说明 jQuery $ 找到 anchor 并把 location.search 数据写入 href，标Solved但未展示实际payload/点击执行。href为URL消费者，不是仅HTML属性转义即可保护；需允许scheme/目标、参数解码及用户导航与CSP条件，用自有无害标记跟踪source→URL sink，cookie弹窗不证明认证cookie或生产接管，未执行实验。"
+  ]
+]

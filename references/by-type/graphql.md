@@ -440,3 +440,668 @@ Copilot 报告截图描述从 JS 发现未公开 GraphQL 查询与 DestroyLlmCon
 实际保存图：1720177877360967736-02.jpg。本轮原始像素已阅；图片仅支持上述可见内容。
 
 来源：[保存帖1](https://x.com/i/status/1720177877360967736)。
+
+
+## 保存图片 1736782068468568295-02.jpg 的 graphql 复用边界
+
+完整清单两版本introspection/path/tools/IDOR方向；mostlyRESTwrapper不是普遍实现，不证明当前实际resolver/漏洞
+
+图片证据：1736782068468568295-02.jpg。相同 SHA-256 的既有完整像素审阅与本次来源对应；按当前请求身份、真实消费者及服务端最终结果进行最小对照，不把清单、200/302 或可预测格式当作已确认漏洞。
+
+来源：[保存帖1](https://x.com/i/status/1736782068468568295)。
+
+
+## 保存图片 1742878725254099277-02.jpg 的 graphql 验证边界
+
+HackerOne GraphQL 摘要区分 createPentestOpportunity 预期允许与 reviewPentestOpportunity/reviewCompletePentestOpportunity 仅 reviewer 才应可做，后两者能把 submitted→in_review/reviewed。schema/introspection 暴露不是漏洞；自有沙箱将 client/reviewer、对象所有权和合法前置状态作矩阵比较服务端 mutation 拒绝与持久化状态。不能由 UI 缺按钮推定禁用 create，通知或奖金额不替代审核权限证据，不真实提交机会或通知团队。
+
+图片证据：1742878725254099277-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1742878725254099277)。
+
+
+## 保存图片0204 1745898622687019158-02.jpg 的 graphql 验证边界
+
+GitHub 摘要描述 GHES 仓库转移 REST API 与 updateTeamsRepository GraphQL mutation 的竞态，使已有管理员在转移后保留权限；历史截图列出受影响和修复版本。核心不变量是转移提交后旧主体权限与新所有者策略一致，两个协议不能各用过期授权快照。授权隔离测试环境中比较顺序转移与一次有界重叠，记录对象版本和操作顺序，最终以旧身份对自有仓库只读权限检查确认持续权限；两个成功响应或请求重叠本身不证明竞态。版本只作历史线索，不能当当前产品结论。
+
+图片证据：1745898622687019158-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1745898622687019158)。
+
+
+## 保存图片0204 1747197202542559683-02.jpg 的 graphql 验证边界
+
+HackerOne 图片有完整摘要及 GraphQL report(id: PRIVATE_REPORT_ID){title}：私有报告由 Manage Collaborators 发出的待处理邮箱邀请可让匿名用户读标题，且强调仅匿名情形。用自有私有测试报告无敏感标题，比较无邀请、待处理、已撤销/接受状态以及退出登录、非受邀、受邀身份，查询字段仅 title；确认邀请状态不得把元数据变为匿名可读。可见标题只证明元数据泄漏，不是完整报告内容或可枚举全部对象，不探测他人 ID。
+
+图片证据：1747197202542559683-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1747197202542559683)。
+
+
+## 保存图片0204 1748329839843737770-02.jpg 的 graphql 验证边界
+
+Enjin 摘要指 GraphQL 使用 session token 时缺恰当 CSRF 保护，HTML form 可驱使浏览器请求撤销 API token；截图没 form 内容或实际抓包。在自有隔离账户/可恢复假 token 比较正常同源请求与受控跨站 form，核对 Content-Type/解析、浏览器实际携带 Cookie、SameSite、Origin/Referer和XSRF绑定，最终只读确认撤销状态；Bearer需手工附加且浏览器不会自动带的情况作反例。CORS报错不证明请求未执行，Critical评级不能推导任意接管。
+
+图片证据：1748329839843737770-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1748329839843737770)。
+
+
+## 保存图片0205 1750488835937718677-02.jpg 的 graphql 验证边界
+
+Enjin 摘要明确区分部分查询/变更存在非预期跨租户访问，以及其他查询本就允许跨租户访问。应逐操作确认主体、租户、对象和动作的授权规则，以两个自有租户及允许公开共享的基线比较实际响应与对象状态；截图没有具体字段或请求，不补造查询，也不能仅凭评级推断整库读取。
+
+图片证据：1750488835937718677-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1750488835937718677)。
+
+
+## 正文0207 多种入口和数据库方言不能混用：graphql
+
+正文7个SQL例覆盖PHP/aspx/graphql和6秒sleep，传输技术不确定数据库语言。定位URL/表单/JSON变量到实际SQL拼接或参数化消费者、引号/括号上下文和driver多语句规则；own合成查询真假对照及惰性延迟短预算/网络抖动负例。不能用单次超时、页面后缀或工具label确认，禁止六秒重放、取库或用户数据。
+
+来源：[保存帖1](https://x.com/i/status/1758061505315287363)。
+
+
+## 保存图片0207 1755622909647765508-02.jpg 的 graphql 验证边界
+
+GraphQL BillingInvoice ID进入BillingDocumentDownload和BillDetails，官方摘要说明staff访问其他店信息，列出email/地址/账单/卡后四位等但复现步骤裁掉。检查两个resolver分别绑定当前shop/staff和对象租户；用两家自有模拟店账单对照允许/拒绝且只显示合成字段，不能由奖金补造完整query或批量读取。
+
+图片证据：1755622909647765508-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1755622909647765508)。
+
+
+## 保存图片0207 1756072127407497267-02.jpg 的 graphql 验证边界
+
+GraphQL BillingInvoice ID进入BillingDocumentDownload和BillDetails，官方摘要说明staff访问其他店信息，列出email/地址/账单/卡后四位等但复现步骤裁掉。检查两个resolver分别绑定当前shop/staff和对象租户；用两家自有模拟店账单对照允许/拒绝且只显示合成字段，不能由奖金补造完整query或批量读取。
+
+图片证据：1756072127407497267-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1756072127407497267)。
+
+
+## 保存图片0207 1758061505315287363-02.jpg 的 graphql 验证边界
+
+GraphQL findAllUser String userId变量含OR和PG_SLEEP(6)，响应大部涂抹、耗时7.696秒。String合法传输不代表SQL拼接；resolver→SQL参数绑定、授权scope和真假基线/抖动分别核验。own合成查询及惰性延迟模型，单耗时不能确认Postgres、用户泄露或SQLi，不运行六秒延迟或全用户query。
+
+图片证据：1758061505315287363-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1758061505315287363)。
+
+
+## 正文0209 三个AI案例的证据分层：graphql
+
+正文将Bard图片IDOR、CloudGraphQL DoS和prompt外发Workspace并列，需各自输入consumer/主体权限/资源成本/下游render证据，不能以总奖金互相证明。自有两主体假图片、有限AST计数和惰性Markdown/邮件nonce模型逐案比较对象拒绝、工作预算、禁止远程加载负例，截图已见步骤/DOM而未见完整后台结果。不得读他人图、邮箱或实施压力。
+
+来源：[保存帖1](https://x.com/i/status/1765165423396573432)。
+
+
+## 保存图片0209 1763582353887420725-03.jpg 的 graphql 验证边界
+
+截图循环10到1000000 directives，时间约0.9到109秒，作者称已另得Google团队许可；完整query与资源指标未保存，单序列延迟也有噪声。将directive解析/验证工作量与resolver成本/字节限制分开，自有小惰性AST计数模型设置budget比较正常/重复directive/明确拒绝，不生成百万数据或发送压力。历史作者许可不授权本任务DoS，响应耗时不独立证明全服务不可用。
+
+图片证据：1763582353887420725-03.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1763582353887420725)。
+
+
+## 保存图片0209 1763716107121164393-02.jpg 的 graphql 验证边界
+
+X官方摘要FavoriteTweet GraphQL可对非Circle成员私有帖点赞，界面仍不能查看但account archive导出含私有内容；请求被遮挡、导出内容未展示。写关联与后续导出必须重验对象可见性，动作成功不等立即内容读权限。自有Circle/非成员惰性like与export fixture对比公开帖正常、私有引用拒绝/导出过滤及成员撤销负例，最小nonce验证。不可从知道tweetID推全部内容，不点赞/申请真实导出。
+
+图片证据：1763716107121164393-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1763716107121164393)。
+
+
+## 保存图片0209 1764954199345840346-02.jpg 的 graphql 验证边界
+
+Watson官方链：第三方mini-program同电商集成，GraphQL introspection列schema→Register建普通账号→CreateAdminUser升级→潜在banner/促销price/picture修改。Introspection不等授权漏洞，核心是敏感mutation逐动作/字段/tenant权限；自有惰性resolver角色矩阵比较普通注册、低角色拒绝创建admin及同tenant/admin合法，最终role确认且下游价格另验证。不要创建真实账号、改商品或把schema读取判Critical。
+
+图片证据：1764954199345840346-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1764954199345840346)。
+
+
+## 保存图片0210 1765694169786302612-02.jpg 的 graphql 验证边界
+
+Semrush保存摘要描述Content Outline Builder GraphQL请求修改user ID可见额外用户信息；未示具体查询/字段。以自有双主体/tenant对象矩阵比较合法/异主体变量与嵌套resolver授权、字段敏感用途，introspection不是越权证据；Critical/无发现被恶意利用分别是评级/历史调查，不扩大成全部PII或实际入侵。
+
+图片证据：1765694169786302612-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1765694169786302612)。
+
+
+## 保存图片0210 1767211858648346769-02.jpg 的 graphql 验证边界
+
+Twitterwebpack原图为minified片段，包含queryId/operationName ArticleEntitiesSlice/Delete/DraftCreate/Publish与feature switches。prettify不反编译全部源码/证明接口可达或授权，操作名和开关不是secret；绑定bundlehash/版本与调用点、受控查询/变更角色矩阵，文本重排不改变字节来源、不安装扩展或执行mutations。
+
+图片证据：1767211858648346769-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1767211858648346769)。
+
+
+## 保存图证0212-46-1772624803934933200-02.jpg-graphql
+
+已核对保存图片 `1772624803934933200-02.jpg`。HackerOne摘要CustomerAPI创建sandbox bounty指定recipient_id，再BountiesHistoryQuery泄privateemail；需要reportmanager token，底部request截断，未见GraphQL最终字段。操作授权与收件人PII字段授权是不同消费者，惰性sandbox假recipient/仅允许public字段/相关owner比较，不创建token/奖励或真实账户，金额文本非实际支付。
+
+图片证据：1772624803934933200-02.jpg。仅采用实际可见内容，裁切、遮挡及未保存的后续步骤不补造。
+
+来源：[保存帖1](https://x.com/i/status/1772624803934933200)。
+
+
+## 正文0217：导入更新的角色字段权限（graphql）
+
+UserImport 的 willUpdate 与 role:admin 必须受字段允许列表、对象所有者、租户和操作者能力约束。保存响应只见成功消息，不能证明低权限主体或最终角色生效。离线两个虚拟主体/不同租户/合法非法字段和创建更新矩阵对照最终记录及操作权限，不使用图中邮箱或真实导入。
+
+来源：[保存帖1](https://x.com/i/status/1787982332252553472)。
+
+
+## 正文0217：成员列表查询检查当前归属（graphql）
+
+保存图证厂商摘要明确退出组织人员可获得当前成员数据；缺少完整返回。API查询时检查当前成员/租户和字段权限，缓存也跟随成员版本，operationName/schema可见不是授权。离线在职/退出、跨租户和字段矩阵对照虚拟输出，姓名/邮箱/角色/ID分别按实际数据边界确认。
+
+来源：[保存帖1](https://x.com/i/status/1788660422276530673)、[保存帖2](https://x.com/i/status/1788849133492580457)。
+
+
+## 正文0217：隐藏隐私状态同步到 API（graphql）
+
+保存厂商图描述已认证主体对隐藏点赞对象的API读取，缺少原始返回；隐藏UI与resolver隐私ACL必须一致。离线公开/隐藏、本人/他人及虚拟订阅身份矩阵比较输出，缓存不可忽略隐私变更；不将旧产品条件泛化到当前规则或读取真实点赞。
+
+来源：[保存帖1](https://x.com/i/status/1789068096847642861)、[保存帖2](https://x.com/i/status/1789211411219894391)。
+
+
+## 保存图证0217-36-graphql：1787982332252553472-02.jpg
+
+已实际核对完整保存图片 `1787982332252553472-02.jpg`。GraphQL UserImport 的 willUpdate:true 和 records.role:admin，响应包含 User was successfully updated；主体和对象被遮挡。需核对导入解析器、字段允许列表、操作者权限、租户与更新后的有效权限，区分合法管理员导入与低权限提升。离线虚拟主体/角色矩阵对照，不把成功消息等同于已成为管理员或使用画面邮箱。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1787982332252553472)。
+
+
+## 保存图证0217-36-graphql：1788089664240316517-02.jpg
+
+已实际核对完整保存图片 `1788089664240316517-02.jpg`。GraphQL UserImport 的 willUpdate:true 和 records.role:admin，响应包含 User was successfully updated；主体和对象被遮挡。需核对导入解析器、字段允许列表、操作者权限、租户与更新后的有效权限，区分合法管理员导入与低权限提升。离线虚拟主体/角色矩阵对照，不把成功消息等同于已成为管理员或使用画面邮箱。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1788089664240316517)。
+
+
+## 保存图证0217-52-graphql：1788660422276530673-02.jpg
+
+已实际核对完整保存图片 `1788660422276530673-02.jpg`。厂商摘要称离开组织的人员仍能通过 FetchMemberships 获取团队姓名、邮箱、角色/ID；缺少完整请求与返回。提炼 GraphQL resolver 在查询时检查当前成员身份、租户和字段权限，operationName 不提供授权。离线在职/退出、正确/异租户及敏感字段对照，返回 schema 或 ID 可见不等于敏感数据授权成功。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1788660422276530673)。
+
+
+## 保存图证0217-68-graphql：1789068096847642861-02.jpg
+
+已实际核对完整保存图片 `1789068096847642861-02.jpg`。保存厂商摘要描述已认证普通用户通过 Likes 操作和目标 userId 读取 Premium 隐藏点赞，UI 隐藏与 API 输出权限不一致；未显示完整返回或当前行为。离线公开/隐藏对象、本人/他人及不同主体对照 resolver 的隐私状态和字段 ACL，产品订阅条件只是旧案例前提，不访问真实账号或把 GraphQL 可查询等同于已泄露。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1789068096847642861)。
+
+
+## 保存正文0219：分享报告的脱敏需要覆盖所有输出消费者（graphql）
+
+保存图摘要描述GraphQL ShareReportViaEmail对JIRA引用脱敏不足。分别核报告分享资格、接收者身份、字段级授权和UI/API/导出/邮件的表示一致性；离线虚拟报告和敏感哨兵对照。隐藏UI字段不说明其他出口已去除，mutation名字与输入不证明未授权输出，未发信或重放报告ID。
+
+来源：[保存帖1](https://x.com/i/status/1794005630409474246)。
+
+
+## 保存图证0219-55-graphql：1794005630409474246-02.jpg
+
+已实际核对完整保存图片 `1794005630409474246-02.jpg`。报告摘要称ShareReportViaEmail对JIRA引用等敏感信息脱敏不足，图有POST/graphql及operationName、reportId/message/emails输入，响应和下方流程未显示。分别核分享资格、接收者权限、字段级脱敏、邮件/GraphQL不同表示，用离线虚拟报告与惰性敏感哨兵对照。前端隐藏不等于所有出口已脱敏，mutation存在不是未授权泄露，不发送邮件或重放reportId。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1794005630409474246)。
+
+
+## 保存正文0220-117-149-graphql：别名限流与GraphQL CSRF各有实际执行边界
+
+GraphQL Cop正文称支持CSRF与alias限流检查，图只是宣传。别名数、HTTP请求数和实际resolver执行数应分别计量，按虚拟主体/业务操作预算对照重复字段及正确拒绝；CSRF要求跨站浏览器可发送实际Content-Type与认证cookie并触发状态变化。自动化或CI覆盖声称不等于10+已确认漏洞，不运行工具或把速率日志当授权证明。
+
+来源：[保存帖1](https://x.com/i/status/1796574351892132252)、[保存帖2](https://x.com/i/status/1797046651175203186)。
+
+
+## 保存正文0220-125-159-graphql：指纹和schema映射是候选而非访问授权
+
+graphw00f以良性/畸形查询推测引擎，InQL介绍映射及自动检查，保存正文无实际目标结果。引擎错误和schema可见性只提供来源线索；固定版本、字段/类型和错误指纹，以本地惰性多引擎/隐藏错误反例对照，保持主体与resolver对象权限独立。不得把工具支持或schema可列举当越权/注入确认。
+
+来源：[保存帖1](https://x.com/i/status/1796677360810623423)、[保存帖2](https://x.com/i/status/1797166488631312480)。
+
+
+## 保存图证0220-42-graphql：1796189710529761676-02.jpg
+
+已实际核对完整保存图片 `1796189710529761676-02.jpg`。GraphiQL 的 testimonialsCount(query:"a'") 返回 data:null，Int序列化错误内含 SQL syntax error at or near 的文本。可提炼 resolver 将下游错误/非整数值暴露给类型层的线索；SQL词语和引号错误不单独证明可控SQL查询、读写数据或注入成功。用本地惰性输入、参数化查询与受控异常返回对照，保留GraphQL字段、变量类型、原始错误和解析阶段，隐藏底层细节不能替代参数化。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1796189710529761676)。
+
+
+## 保存正文0221-10-graphql：属性重复成本与生产停机分开证明
+
+EXNESS保存图称单query重复属性增延迟，但明确实际仅小载荷，2–3请求停机来自本地相似环境推断。按字段/resolver/HTTP请求数和主体资源预算分别计量，以本地惰性resolver对照合并字段、复杂度、超时/终止；保存真实延迟和基线，不能以Resolved/Low/题名替代生产停机证明，不执行压力测试。
+
+来源：[保存帖1](https://x.com/i/status/1798007034266431659)。
+
+
+## 保存正文0221-47-66-graphql：Spot Check写作对象按角色和字段授权
+
+保存正文/图称team/staff能编辑作者write-up，GraphQL EditSpotCheckReport输入含对象ID和正文等字段，UI无入口。服务端须绑定作者/项目/工作人员角色及允许改的字段，以两个虚拟作者及团队角色对照最终内容和拒绝结果；UI隐藏、历史修复题名或已解决标签不证明所有角色可编辑。请求截图截断且无响应，不发送真实修改。
+
+来源：[保存帖1](https://x.com/i/status/1798671373633773935)、[保存帖2](https://x.com/i/status/1798996074360869189)。
+
+
+## 保存正文0221-167-graphql：Spot Check元数据须按角色与字段可见性判断
+
+保存报告说明参与者UI可见一部分项目/预算描述，程序视角SpotCheckSingleQuery可能额外暴露人数/选择criteria等私有字段。对象ID可传不等于用户有程序角色；用虚拟两个角色与对象归属对照最小字段许可/拒绝，保留图中请求截断与无原响应，Medium/Resolved不能补完整字段泄露结果。
+
+来源：[保存帖1](https://x.com/i/status/1800573989921939818)。
+
+
+## 保存图证0221-2-graphql：1798007034266431659-02.jpg
+
+已实际核对完整保存图片 `1798007034266431659-02.jpg`。EXNESS报告摘要称未认证GraphQL可重复属性、耗时随重复数增加；作者称2–3请求可令服务504，但明确实际仅发很小载荷，强影响由localhost相似环境推断。保存Resolved/Low元数据与实际小延迟/推断停机区别，不能写成生产停机已验证。以本地惰性resolver计数、请求/字段/成本预算与终止阈值对照，记录耗时基线和资源关系，不发送压力请求。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1798007034266431659)。
+
+
+## 保存图证0221-15-graphql：1798671373633773935-02.jpg
+
+已实际核对完整保存图片 `1798671373633773935-02.jpg`。Spot Check已解决报告指出team/staff可能修改用户write-up，UI无编辑入口，截获EditSpotCheckReport GraphQL输入含spot_check_report_id及summary/scope/methodology/findings等。界面隐藏不等于后端授权，按虚拟作者/团队成员/staff与对象归属、字段权限对照允许拒绝与最终内容；图中请求下部截断且无服务端响应，不补为全部角色已成功改写，过去报告引用不代替当前证据。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1798671373633773935)。
+
+
+## 保存图证0221-48-graphql：1800020622996828608-02.jpg
+
+已实际核对完整保存图片 `1800020622996828608-02.jpg`。JS Recon清单涵盖硬编码/隐藏URL/API/注释/错误/调用/混淆、localStorage/Cookie flags与scope、GraphQL introspection/授权/复杂度、MongoDB配置/NoSQL、JSON类型/解析、eval/innerHTML/document.write/定时器/Function及第三方库/CSP/CORS/HTTPS/log。图右缘有裁剪，缺字不补。禁用introspection、加密存储和出现危险函数都不独立决定安全；优先记录真实源到sink、执行上下文、服务端对象权限和公开常量反例，定时器函数回调与字符串求值区分，以惰性解析对照，不执行脚本。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1800020622996828608)、[保存帖2](https://x.com/i/status/1810146101619740822)、[保存帖3](https://x.com/i/status/1837677848955703449)。
+
+
+## 保存图证0221-48-graphql：1810146101619740822-02.jpg
+
+已实际核对完整保存图片 `1810146101619740822-02.jpg`。JS Recon清单涵盖硬编码/隐藏URL/API/注释/错误/调用/混淆、localStorage/Cookie flags与scope、GraphQL introspection/授权/复杂度、MongoDB配置/NoSQL、JSON类型/解析、eval/innerHTML/document.write/定时器/Function及第三方库/CSP/CORS/HTTPS/log。图右缘有裁剪，缺字不补。禁用introspection、加密存储和出现危险函数都不独立决定安全；优先记录真实源到sink、执行上下文、服务端对象权限和公开常量反例，定时器函数回调与字符串求值区分，以惰性解析对照，不执行脚本。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1800020622996828608)、[保存帖2](https://x.com/i/status/1810146101619740822)、[保存帖3](https://x.com/i/status/1837677848955703449)。
+
+
+## 保存图证0221-48-graphql：1800172790617874740-02.jpg
+
+已实际核对完整保存图片 `1800172790617874740-02.jpg`。JS Recon清单涵盖硬编码/隐藏URL/API/注释/错误/调用/混淆、localStorage/Cookie flags与scope、GraphQL introspection/授权/复杂度、MongoDB配置/NoSQL、JSON类型/解析、eval/innerHTML/document.write/定时器/Function及第三方库/CSP/CORS/HTTPS/log。图右缘有裁剪，缺字不补。禁用introspection、加密存储和出现危险函数都不独立决定安全；优先记录真实源到sink、执行上下文、服务端对象权限和公开常量反例，定时器函数回调与字符串求值区分，以惰性解析对照，不执行脚本。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1800172790617874740)。
+
+
+## 保存图证0221-49-graphql：1837677848955703449-02.jpg
+
+已实际核对完整保存图片 `1837677848955703449-02.jpg`。该独立图完整核对同一JS Recon清单：静态数据/API/注释/混淆、存储/Cookie、GraphQL/MongoDB/JSON、动态求值/DOM sink和策略字段，右缘裁剪不补字。为每命中关联原JS版本、调用可达性、类型与主体权限；函数出现、schema可见或存储加密不单独证明漏洞/安全，字符串与函数回调分别建模，用本地惰性样本/正确拒绝对照，不使用token或运行载荷。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1800020622996828608)、[保存帖2](https://x.com/i/status/1810146101619740822)、[保存帖3](https://x.com/i/status/1837677848955703449)。
+
+
+## 保存图证0221-69-graphql：1800573989921939818-02.jpg
+
+已实际核对完整保存图片 `1800573989921939818-02.jpg`。SpotCheckSingleQuery报告摘要区分参与者原本可见项目/预算描述与程序视角的私有人数/选择criteria/total budget，图示按organization/spotcheck ID打开设置，GraphQL请求下部截断。按虚拟参与者/项目角色、对象归属和字段级许可核对允许拒绝及最小响应，不能把已许可预算字段全部称泄露；Resolved/Medium不替代缺失原始响应，不访问真实ID。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1800573989921939818)。
+
+
+## 保存图证0222-37-graphql：1801715062077300807-02.jpg
+
+已实际核对完整保存图片 `1801715062077300807-02.jpg`。右侧裁剪JSrecon清单覆盖静态keys/host/端点/comments/errors/混淆，runtimeCookie/localStorageflags、GraphQLdepth/ACL、MongoDB/JSON、eval/innerHTML/documentwrite/timers/Function/CSP/CORS。静态关键词不证明runtime状态/有效secret、introspection非ACL、functioncallback不等同字符串timer，逐source-sink角色/解析类型核对，不按清单自报全覆盖。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1801715062077300807)。
+
+
+## 保存图证0222-107-graphql：1803337131273887752-02.jpg
+
+已实际核对完整保存图片 `1803337131273887752-02.jpg`。#2166697summary namedbasedbatching每请求75+reports、100request~6400/40s超过称500limit；下面仅cookie/csrfplaceholder及header，未见mutation/response。按实际resolver/业务动作计预算与身份/窗口，不只数HTTP请求；数量描述不替代最终记录去重/成本证明，离线虚拟计数对照，不发批量报告或DoS。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1803337131273887752)。
+
+
+## 保存图证0222-109-graphql：1803397536994173284-02.jpg
+
+已实际核对完整保存图片 `1803397536994173284-02.jpg`。#2431495保存AutoSavePentestOpportunityinput可控package_name而政策称应由internalreviewstaff决定，示例premium名称与mutation裁剪未结果。字段级ACL按角色/操作/状态与真正套餐权益验证，未知字段拒绝/仅展示label为反例，静态成功字段名不等实际赋权，不提交Pentest表。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1803397536994173284)。
+
+
+## 保存图证0222-110-graphql：1803397698613330092-02.jpg
+
+已实际核对完整保存图片 `1803397698613330092-02.jpg`。#2483666官方summary历史Wayback公开UUID后private/inactiveembeddedformGraphQL可读intro/structuredscope/efficiency，UUID不替代字段/状态授权；publicform与privateprogram字段权限不同，曾公开不表示永远公开。保留时间/撤销状态/角色字段矩阵/来源，Low3.7/$2500/fix是保存报告状态未当前复测，不拉私密数据。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1803397698613330092)。
+
+
+## 保存正文0223-59-graphql：BurpNotes分类不丢原始请求身份
+
+Bambda以Notes标注GraphQL取决于payload/实现，原路径POST/graphql并非所有query/mutation/GET/批处理。保留原始完整消息ID、operationName/operationType/角色/时间，备注分类为展示元数据而非权限或执行结果，过滤遗漏不能计全覆盖。
+
+来源：[保存帖1](https://x.com/i/status/1804156880375419226)。
+
+
+## 保存图证0223-18-graphql：1803910890640806382-02.jpg
+
+已实际核对完整保存图片 `1803910890640806382-02.jpg`。报告 #2381253 截图称未授权者可加载 advanced_vetting 页面，但 GraphQL 正确限制了保密字段；另指出 terms_acceptance_data.csv 下载入口可能区分私有与沙箱项目。截断处未展示下载响应。分别比较页面外壳、GraphQL 字段和直接导出路由的服务端 ACL，使用自有不同角色与项目类型控制样例，检查实际 CSV 内容、存在性差异及对象归属；可加载页面本身不是保密数据泄露，标题和已解决状态不补足缺失响应。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1803910890640806382)。
+
+
+## 保存图证0223-20-graphql：1804156880375419226-02.png
+
+已实际核对完整保存图片 `1804156880375419226-02.png`。Burp Bambda 代码用请求中包含 query 字符串识别请求，再在 body 上寻找 query 与空格加左括号的索引，substring 后覆盖 Notes。字符串出现在其他字段、格式变化、无括号或索引为 -1 均可能误判或异常，持久查询、批量操作和变量也未覆盖。应按 JSON/GraphQL 结构解析并保留原始请求、操作名与已有备注，缺失字段安全返回，先在本地样例校验分类；这里没有权限绕过证据。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1804156880375419226)。
+
+
+## 保存图证0223-21-graphql：1804156880375419226-03.png
+
+已实际核对完整保存图片 `1804156880375419226-03.png`。HTTP history 可见多条 POST /graphql 返回 200，Notes 被写为 query 或 mutation 名称且部分内容遮挡。列表展示了分类效果，不展示 GraphQL data/errors、字段授权或操作执行成功。保留请求身份、角色、原始响应和操作类型，避免将 HTTP 200 当作 GraphQL 成功或授权；被遮挡操作不补全。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1804156880375419226)。
+
+
+## 0225 GraphQL四类消费者 graphql
+
+正文列数据过曝/注入/授权/DoS，没有查询示例。把schema可见、字段可选与对象/字段resolver权限分开，注入需要真正下游解释器，复杂度需要解析及执行成本证据；只构造虚拟角色对象及有界离线AST对照，不以200或introspection开放判漏洞。
+
+来源：[保存帖1](https://x.com/i/status/1810349834668589182)。
+
+
+## 0225 原图089 graphql
+
+GraphQLschema/query/只取指定字段和历史发布时间示意，没有漏洞查询。精确选字段不替代resolver对象权限或复杂度预算，schema可见不自动数据曝露；记录schema/构建版本、principal与虚拟fieldauthorization，不将效率宣传等同安全。
+
+图像证据文件名：1810349834668589182-02.jpg。
+
+来源：[保存帖1](https://x.com/i/status/1810349834668589182)。
+
+
+## 0225 原图090 graphql
+
+GraphQLexcessivequery/permissiveschema/introspection/fieldACL/complexqueries与SQLNoSQLcommand分类图。introspection只给结构，复杂度不自动暴露；resolver具体下游parser/对象字段权限与返回筛选必要，身份认证和授权不能混称，不执行注入。
+
+图像证据文件名：1810349834668589182-03.jpg。
+
+来源：[保存帖1](https://x.com/i/status/1810349834668589182)。
+
+
+## 0225 原图091 graphql
+
+GraphQLauthorizationrole图与fielddup/batch/resourceintensive/deeprecursion。GraphQL相同字段可能合并，alias/batch实际resolver成本、解析预算与权限逐项记录；role-based不足对象租户边界，离线有界AST/虚拟AB资源，不构造DoS。
+
+图像证据文件名：1810349834668589182-04.jpg。
+
+来源：[保存帖1](https://x.com/i/status/1810349834668589182)。
+
+
+## 0225 复用图007 graphql
+
+JS Recon清单涵盖硬编码/隐藏URL/API/注释/错误/调用/混淆、localStorage/Cookie flags与scope、GraphQL introspection/授权/复杂度、MongoDB配置/NoSQL、JSON类型/解析、eval/innerHTML/document.write/定时器/Function及第三方库/CSP/CORS/HTTPS/log。图右缘有裁剪，缺字不补。禁用introspection、加密存储和出现危险函数都不独立决定安全；优先记录真实源到sink、执行上下文、服务端对象权限和公开常量反例，定时器函数回调与字符串求值区分，以惰性解析对照，不执行脚本。
+
+当前图像证据文件名：1810580130680438806-02.jpg。原有完整像素审阅及原始时间保留，当前字节校验一致。
+
+来源：[保存帖1](https://x.com/i/status/1810580130680438806)。
+
+
+## 0227 正文 默认组继承与变更 graphql
+
+Program Admin 经组 mutation 自赋管理组可能继承高权限，组织管理员后续修改组权限会进一步改变能力。审查创建/加入/角色赋予/重新加入以及最终敏感操作的服务端校验；摘要没有具体 mutation，不伪造成功请求。
+
+来源：[保存帖1](https://x.com/i/status/1815733946883489833)。
+
+
+## 0227 图片 1815733946883489833-02.jpg graphql
+
+现有图片 1815733946883489833-02.jpg 的完整可见内容已按原图审阅。
+
+报告摘要描述低权限 Program Admin 经 GraphQL mutation 自行加入默认管理组，继承 Report Manager 乃至管理员权限；默认组后来被提升权限时可再次加入并继承新能力。应对组创建、成员修改、角色赋予及权限变更后的重新加入作服务端组织与角色检查，用自有双角色验证最终敏感动作。图中只有摘要，无具体 mutation 或成功响应，不能伪造复现证据；创建组、加入组与继承能力是不同边界。
+
+来源：[保存帖1](https://x.com/i/status/1815733946883489833)。
+
+
+## 0227 重复图片 1815564603658731737-02.jpg graphql
+
+现有图片 1815564603658731737-02.jpg 与此前已审阅原图逐字节哈希一致，本轮复核全部审阅记录，保留原审阅时间，不重新计数。
+
+JS Recon清单涵盖硬编码/隐藏URL/API/注释/错误/调用/混淆、localStorage/Cookie flags与scope、GraphQL introspection/授权/复杂度、MongoDB配置/NoSQL、JSON类型/解析、eval/innerHTML/document.write/定时器/Function及第三方库/CSP/CORS/HTTPS/log。图右缘有裁剪，缺字不补。禁用introspection、加密存储和出现危险函数都不独立决定安全；优先记录真实源到sink、执行上下文、服务端对象权限和公开常量反例，定时器函数回调与字符串求值区分，以惰性解析对照，不执行脚本。
+
+来源：[保存帖1](https://x.com/i/status/1815564603658731737)。
+
+
+## 0228 正文 Projects 可见性不能继承为 internal issue 权限 graphql
+
+历史 GHES CVE-2024-5817 涉及具有 Projects 看板访问权的主体读取 internal 仓库 issue 标题/正文。分别核看板、仓库、issue 字段权限，用自有组织两角色和同一对象对照；截图明确的 internal 范围不能扩为所有 private 仓库，历史修复版本不作为 GitHub 云或当前部署的断言，未获取原始查询或外链全文。
+
+来源：[保存帖1](https://x.com/i/status/1818753694684660029)、[保存帖2](https://x.com/i/status/1818756338790367319)。
+
+
+## 0228 图证 84 graphql 1818753694684660029-02.jpg
+
+已核对原始图片 `1818753694684660029-02.jpg`。GHES 历史 CVE-2024-5817 描述具有相应 Projects 看板访问权时可读取 internal 仓库 issue 的标题和正文。应分别检查看板、仓库、issue 字段授权，用自有组织的两种角色和同一对象验证；不能外推为所有 private 仓库或 GitHub 云当前行为。版本修复列表只作历史证据，截图未给原始查询。
+
+来源：[保存帖1](https://x.com/i/status/1818753694684660029)。
+
+
+## 0229 正文 GraphQL 查询依赖与 mutation 副作用分开 graphql
+
+GraphQLer声称依赖感知，候选应按对象创建、引用ID和角色权限排列正常请求与受限对照，不能从schema可见性推导授权。query也需检查实际消费者，mutation可能写状态；记录依赖、回滚和预算，工具题名不证明自动安全或覆盖，未运行fuzzer。
+
+来源：[保存帖1](https://x.com/i/status/1820875912407347640)。
+
+
+## 0230 图证 16 graphql 1823293148593819863-03.jpg
+
+已核对原始图片 `1823293148593819863-03.jpg`。GraphQL signin请求中email字符串破坏JSON，响应ActionDispatch Parameters ParseError及devise params_auth_hash、params.dig和Actionpack/Rack/Warden调用栈，提示better_errorsconsole。解析错误/stacktrace不证明认证通过或GraphQL注入；核debug来源/权限、最小敏感字段和console能力另证，未执行交互console或复制秘密。
+
+来源：[保存帖1](https://x.com/i/status/1823293148593819863)。
+
+
+## 0233 正文 Cookie指纹与调试页面 graphql
+
+Set-Cookie的某名字只为被动指纹，不能凭名字推框架/调试控制台权限。保存图另外展示Rails坏参数堆栈、BetterErrors提示/某上下文eval、UnsafeRedirectError，分别核具体消费者、访问控制和实例环境，错误重定向是拒绝而非成功外跳，命令样貌不证明匿名或宿主root；未访问console/复用token。
+
+来源：[保存帖1](https://x.com/i/status/1832093353846169956)。
+
+
+## 0233 正文 别名动作与部分错误 graphql
+
+GraphQL别名/多个mutation能在一次HTTP内调用多个实际动作，按请求次数计预算可能漏动作数，但该图没证明限流缺口。另图forgotPassword报错而register返回新user/JWT，GraphQL部分错误并不保证回滚其他动作，注册也可正常功能。核每动作主体、状态、预算和最终权限，不使用token/发重置或注册。
+
+来源：[保存帖1](https://x.com/i/status/1833129580976033966)。
+
+
+## 保存图证0233-30-graphql：1832093353846169956-04.jpg
+
+已核对保存图片 `1832093353846169956-04.jpg`。POST/graphql坏JSON/参数触发ActionDispatch::Http::Parameters::ParseError，响应源片段DeviseAutologin params.dig variables/input/scope与Rails7.0.8.4/Warden1.2.9堆栈，提示/_better_errors交互console。堆栈/库版本与可调用console权限分开，提示路径不证明匿名可执行；当前请求身份/头遮挡，未用login或console。
+
+来源：[保存帖1](https://x.com/i/status/1832093353846169956)。
+
+
+## 保存图证0233-61-graphql：1833129580976033966-02.png
+
+已核对保存图片 `1833129580976033966-02.png`。createSession mutation用first/second别名与input/input1/input2变量；图下裁掉更多字段/实际响应。别名数量可绕过按HTTP次数计限而仍受动作预算，但未证明该实例限流；核每mutation主体/对象/速率和最终结果，错误密码与成功token独立，未尝试登录或复制密码。
+
+来源：[保存帖1](https://x.com/i/status/1833129580976033966)。
+
+
+## 保存图证0233-62-graphql：1833129580976033966-03.jpg
+
+已核对保存图片 `1833129580976033966-03.jpg`。一请求forgotPassword(email)与register(test)两mutation，响应有forgotPasswordnull/400usernotexist错误但register返回userid/JWT部分遮盖。GraphQL允许部分数据/部分错误，不一定事务回滚，注册新用户可为正常功能不是ATO/越权；核动作级限流/授权/状态边界，错误HTTP/字段不保证其他动作未生效，未注册/发重置邮件/用JWT。
+
+来源：[保存帖1](https://x.com/i/status/1833129580976033966)。
+
+
+## 保存正文0234：viewer 与草稿通知的权限要在投递时检查（graphql）
+
+保存报告与图摘要指向 program viewer 被加入草稿订阅后收到评论/标题/时间。项目角色、报告状态、创建者与每个字段的可见权限必须同时成立，通知投递、GraphQL resolver 与撤权后的残留订阅均是消费端；不能将项目访问资格当所有未提交草稿可见。历史摘要保留来源，不以奖金或 Resolved 声称当前复现。
+
+来源：[保存帖1](https://x.com/i/status/1836072826429899131)、[保存帖2](https://x.com/i/status/1836076129779593506)。
+
+
+## 保存图证0234-85-graphql：1836072826429899131-02.jpg
+
+已核对保存图片 `1836072826429899131-02.jpg`。HackerOne 摘要显示把用户加入 program viewer 后订阅该项目 draft reports，草稿评论通知暴露评论、标题、创建时间，部分经 GraphQL 可见。通知订阅与字段解析须在投递和读取时按报告状态/所属关系检查权限；项目查看者不自动拥有私有草稿内容。截图是历史摘要而非完整请求或当前漏洞，需角色矩阵、草稿基线及脱敏通知验证。
+
+来源：[保存帖1](https://x.com/i/status/1836072826429899131)。
+
+
+## 保存图证0234-88-graphql：1836133376312643647-02.jpg
+
+已核对保存图片 `1836133376312643647-02.jpg`。GHES 历史摘要描述现有管理员在 REST 仓库 detach 与 updateTeamsRepository GraphQL 改权限并发时保留已脱离仓库的管理员权限。核心是状态变迁与权限更新的原子不变量，非任意匿名提权。截图写 prior 3.13、修复 3.9.13/3.10.10/3.11.8/3.12.1、CVE-2024-2440；仅保存原始版本线索，不宣称当前状态或所有部署。
+
+来源：[保存帖1](https://x.com/i/status/1836133376312643647)。
+
+
+## 保存图证0235-11-graphql：1836689358004376053-02.jpg
+
+已核对保存图片 `1836689358004376053-02.jpg`。API 图区分对象、身份、属性、资源消耗、功能、敏感业务流程、SSRF、配置、版本库存及第三方消费。BOLA 不仅是读取，BFLA 也不限修改；认证字段、JWT 或 ID 名只是线索。资源限制应覆盖时间/内存/操作/页数/费用，旧 API 和第三方数据均需实际消费与信任边界；回调不证明敏感 SSRF。以自有角色/对象和受控负例验证，不无界遍历、压测或支付。
+
+来源：[保存帖1](https://x.com/i/status/1836689358004376053)。
+
+
+## 保存图证0235-29-graphql：1836956015981457697-02.jpg
+
+已核对保存图片 `1836956015981457697-02.jpg`。API Protocols 图混合 REST 架构、GraphQL 查询、SOAP/WebSocket/gRPC/MQTT/AMQP/SSE 与 EDA/EDI 架构/交换方式。按请求、消息、订阅、回调和对象解析记录身份与权限，而非仅 HTTP 路径；GraphQL 字段/RPC method/topic/事件消费者各需授权，SSE 单向与 WS 双向不同，XML 不自动 XXE，图不证明某目标实现或漏洞。
+
+来源：[保存帖1](https://x.com/i/status/1836956015981457697)。
+
+
+## 保存图证0236-67-graphql：1840341166295810412-02.jpg
+
+已核对保存图片 `1840341166295810412-02.jpg`。GraphQL工具图分introspection、错误推schema、代理展示、批量查询/变异等。schema可见不等resolver权限失效，关闭introspection也不保证字段安全；按字段/对象/身份与每个逻辑动作成本比较，未运行工具/批量请求。
+
+来源：[保存帖1](https://x.com/i/status/1840341166295810412)。
+
+
+## 保存图证0236-68-graphql：1840344404042870805-02.jpg
+
+已核对保存图片 `1840344404042870805-02.jpg`。GraphQL图从发现/schema到替代推断、CSRF/方法格式、字段越权/alias/DoS/注入。__typename/错误只是指纹，GET变异必须实际执行才谈CSRF，alias是多个操作须独立ACL/限速，schema字段存在不证明可读敏感值；小字不补写，不压测或更改。
+
+来源：[保存帖1](https://x.com/i/status/1840344404042870805)。
+
+
+## 保存正文0237：GraphQL 按请求方法核对一致策略（graphql）
+
+保存正文称 POST 被禁而 GET 返回 schema。相邻图片只显示被拒查询与 schema 响应开头，GET 的具体查询未呈现；在相同身份、入口、查询及网关条件下分别核查方法路由与 introspection 策略。schema 可见性与业务对象访问是不同边界，不将部分响应称为完整 schema 或数据泄露。
+
+来源：[保存帖1](https://x.com/i/status/1841160258259202323)。
+
+
+## 保存图证0237-13-graphql：1841160258259202323-02.jpg
+
+当前附件 `1841160258259202323-02.jpg`。已实际审阅保存的原始图片。截图中 POST GraphQL 请求的 schema 查询返回 data 为 null 和禁止 introspection 的错误消息；未显示 HTTP 响应状态码，不能将错误名称当作 HTTP 500。该结果只证明这条请求被拒绝，身份、网关和其他入口的策略仍需同条件核对。
+
+来源：[保存帖1](https://x.com/i/status/1841160258259202323)。
+
+
+## 保存图证0237-14-graphql：1841160258259202323-03.jpg
+
+当前附件 `1841160258259202323-03.jpg`。已实际审阅保存的原始图片。GET 请求的响应开头显示 __schema、Query 与类型列表，但请求查询参数及完整响应未呈现。结合相邻 POST 截图，可提出按方法或入口执行策略不一致的核查线索，不能声称已读取完整 schema。schema 可见性与业务对象授权应分别验证，固定身份、网关、方法和查询后比较。
+
+来源：[保存帖1](https://x.com/i/status/1841160258259202323)。
+
+
+## 保存图片0240：附件058（graphql）
+
+API 侦察图按版本、实现、REST/SOAP/GraphQL、WADL/WSDL/公开文档、方法、鉴权、对象、动作及请求响应映射构建清单。接口文档或 introspection 不代表全部可达操作，cookie/header 不可固定归为非标准/标准而忽略语义；导入集合、自动脚本和 fuzz 会实际发请求，需身份与动作边界，未导入或执行。
+
+图片证据：`1849755854628913566-02.jpg`；仅保存图实际可见内容，未读取外链全文。
+
+来源：[保存帖1](https://x.com/i/status/1849755854628913566)。
+
+
+## 保存正文0242：GraphQL 发现候选与主动请求（graphql）
+
+工具题名声称通过子域、脚本分析与bruteforce发现GraphQL。静态/历史候选与实际endpoint探测不同；路径名不证明schema、身份或查询权限，保留来源版本、方法与scope预算，速度宣传未验证，未安装或请求。
+
+来源：[保存帖1](https://x.com/i/status/1852395406627614796)。
+
+
+## 保存图片0244-19：1857029471431238131-04.jpg（graphql）
+
+已审阅该内容原图，当前保存附件 1857029471431238131-04.jpg。OWASP目录末段有逻辑时序/次数/工作流/误用/上传、DOM/JS/HTML/CSS/资源/CORS/Flash/clickjacking/WebSocket/postMessage/storage/XSSI及GraphQL、报告附录；历史Flash项不代表现代默认能力，目录不证测试完成。按消费者和业务终态分组，API/schema可见性仍需权限证据，恶意文件/跨站动作另授权。
+
+来源：[保存帖1](https://x.com/i/status/1857029471431238131)。
+
+
+## 保存图片0244-23：1857101278221869156-02.jpg（graphql）
+
+已审阅该内容原图，当前保存附件 1857101278221869156-02.jpg。GraphQL工具图列InQL/GraphQLmap/shapeshifter/beautifier/clairvoyance；格式化、schema推断、请求交互/主动测试不同。禁introspection后可推断schema不自动是注入或访问绕过，须证resolver身份/对象/字段/动作授权与请求预算，未运行。
+
+来源：[保存帖1](https://x.com/i/status/1857101278221869156)。
+
+
+## 保存正文0246：删除mutation权限（graphql）
+
+仅视频题名建议不能补完整手法；GraphQL解析/对象字段/嵌套mutation/批次每个动作需主体对象ACL和独立终态。API成功/error混合不证明已删，采用自有可恢复对象，未mutation/访问视频。
+
+来源：[保存帖1](https://x.com/i/status/1863913694620488093)。
+
+
+## 保存正文0247：GraphQL schema 可见与数据授权分别核对（graphql）
+
+正文标题称 introspection 泄露 schema。schema 可能是正常公开合同，应区分设计元数据、私有描述与真实字段 resolver 的身份和对象权限；禁 introspection 不等于后端授权有效，公开 schema 不自动是漏洞。未执行查询，外链视频按覆盖。
+
+来源：[保存帖1](https://x.com/i/status/1867881286276386963)。
+
+
+## 保存正文0248：撤出项目后的有限元数据权限单独核对（graphql）
+
+报告图区分Reporter/Participant/Staff/撤权状态，/:handle/hacker_demand与GraphQL仍返回有限policy类数据，作者不了解端点文档。需确认不可变主体、成员与报告参与权限、撤权时点、缓存及后端字段ACL；旧合法会话与匿名/非成员分别对照，不将有限数据升级为全部报告读取。两帖来源保留，未访问私有项目。
+
+来源：[保存帖1](https://x.com/i/status/1871481122997272587)、[保存帖2](https://x.com/i/status/1871483907570295081)。
+
+
+## 保存图证0248-10-graphql：1868524412410143228-02.jpg
+
+已实际核对保存图片 `1868524412410143228-02.jpg` 的原始像素。API fuzz 图列工具、词表、Swagger 转请求/路由、GUID/API-key guesser，概括 SOAP HTTP/XML、REST、GraphQL 单入口及 race/%00。按真实合同记录方法、输入位置、编码、认证和对象归属；GraphQL 入口不代表单 resolver 权限，%00 不自动泄露内存，猜测 ID/key 不证明可行或获准。截图右边横向裁切，仓库/清单全文按覆盖；未下载或扫描。
+
+来源：[保存帖1](https://x.com/i/status/1868524412410143228)。
+
+
+## 保存图证0248-184-graphql：1871481122997272587-02.jpg
+
+已实际核对保存图片 `1871481122997272587-02.jpg` 的原始像素。HackerOne报告2632876Low3.1称离开私有项目的Reporter/Participant/Staff仍可经 /:handle/hacker_demand 与GraphQL看到有限policy、联系邮箱、highlights、状态、更新时间、top hackers/VPN等；作者明确该端点目的未找到文档。角色、报告参与权与项目成员权、撤权时点和会话缓存应分开，有限元数据不等于全部报告/项目权限或匿名读取。截图无实际GraphQL返回，不访问私有项目或邀请人员。
+
+来源：[保存帖1](https://x.com/i/status/1871481122997272587)。

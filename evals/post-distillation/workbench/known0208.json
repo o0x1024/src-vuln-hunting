@@ -1,0 +1,107 @@
+[
+  {
+    "name": "1758975815835127933-02.png",
+    "sha256": "35aa2694e0be9665e0068519a366072367892f18feb7bb87cd58875ba8403287",
+    "prior": {
+      "sha256": "35aa2694e0be9665e0068519a366072367892f18feb7bb87cd58875ba8403287",
+      "example_post_id": "1756610924578807968",
+      "image_name": "1756610924578807968-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/ssti.md",
+        "references/source-audit.md",
+        "references/experiment-design.md"
+      ],
+      "note": "SSTI列表含多种{7*7}/{{7*7}}/${7*7}/脚本模板表达式并称49即漏洞；49也可能静态文本或客户端计算。定位服务端模板消费与引擎语法、两种不同无害算术及转义/纯文本负例，区分CSTI与SSTI，不能从单值确认代码执行，不执行代码型表达式。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T12:58:03.067Z",
+      "batch": "media-0201"
+    }
+  },
+  {
+    "name": "1759057650250137624-02.jpg",
+    "sha256": "4175f021683d0928a65bf9a0b1312f9e401cb292c57fbf9ab1ddb9992ba495be",
+    "prior": {
+      "sha256": "4175f021683d0928a65bf9a0b1312f9e401cb292c57fbf9ab1ddb9992ba495be",
+      "example_post_id": "1755849867149103106",
+      "image_name": "1755849867149103106-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/xxe.md",
+        "references/by-type/saml-sso.md",
+        "references/discovery/records-and-incremental.md"
+      ],
+      "note": "Burp中POST/dana-na/auth/saml-sso.cgi和base64 SAMLRequest，响应200、过期cookie、writeCSS HTML；未显示任何带外回调或文件正文。将外层表单解码、SAML XML解析及外部实体解析分层验证；自有禁用DTD/参数实体fixture与无害nonce负例，200/页面/分类不能确认XXE、SSRF或认证绕过。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T12:56:49.405Z",
+      "batch": "media-0201"
+    }
+  },
+  {
+    "name": "1759222611551162723-02.jpg",
+    "sha256": "c18242d14663468ce4c9a9847d11b651a2d3f889167a7cb4de90e2132d17ce1c",
+    "prior": {
+      "sha256": "c18242d14663468ce4c9a9847d11b651a2d3f889167a7cb4de90e2132d17ce1c",
+      "example_post_id": "1754450924184248440",
+      "image_name": "1754450924184248440-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/authn-session.md",
+        "references/by-type/business-logic.md",
+        "references/experiment-design.md"
+      ],
+      "note": "重置清单含注销/重置session失效、token唯一/过期/单次、主体ID绑定、修改时间字段、安全问题限次、空白密码、显示旧密码和旧链接替代。每项绑定真实服务端状态和策略，使用自有模拟时钟/两主体惰性token及mock session对照，随机性/唯一性与不可预测分别检验；第二链接是否撤销第一需明确策略，token绑定subject/用途/期限，不能用清单自动判ATO或进行真实改密/发信。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T12:34:10.440Z",
+      "batch": "media-0200"
+    }
+  },
+  {
+    "name": "1760290875878392033-02.jpg",
+    "sha256": "88ce1f633bada365d1edcec87828cccc78cecd5296138cd28b6de5cad45bbc16",
+    "prior": {
+      "sha256": "88ce1f633bada365d1edcec87828cccc78cecd5296138cd28b6de5cad45bbc16",
+      "example_post_id": "1523607795605463040",
+      "image_name": "1523607795605463040-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "原始像素实际查看并核二进制哈希；个人资料图，无机制。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T13:32:54.334Z",
+      "batch": "media-0123"
+    }
+  },
+  {
+    "name": "1760703495186051304-02.jpg",
+    "sha256": "0b2dfb176e963344db7b7708149ece4fa3eda051823f8fe486fc6d9262fdb31c",
+    "prior": {
+      "sha256": "0b2dfb176e963344db7b7708149ece4fa3eda051823f8fe486fc6d9262fdb31c",
+      "example_post_id": "1720107265770803673",
+      "image_name": "1720107265770803673-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/sql-injection.md",
+        "references/reporting.md"
+      ],
+      "note": "SQLMap图称GET id booleanWHERE/HAVING与OracleDBMS_PIPE.RECEIVE_MESSAGE时间型，355requests，并列UNION初猜/不可NULL警告与schema枚举。没有原始请求响应，工具识别/DB名不独立证明admin面板越权；从固定自有样例提取真假条件/交错低延迟对照，核方言/context/噪声，停止在无敏感验证，勿复制枚举行为或扩大授权。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T08:03:47.068Z",
+      "batch": "media-0189"
+    }
+  },
+  {
+    "name": "1761307475008172335-02.jpg",
+    "sha256": "fc03de9e094df141e75dbbe3a728e1f90fcfb1a5c5f7332b279b969752cb4062",
+    "prior": {
+      "sha256": "fc03de9e094df141e75dbbe3a728e1f90fcfb1a5c5f7332b279b969752cb4062",
+      "example_post_id": "1698182956563804477",
+      "image_name": "1698182956563804477-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "Tiny-XSS-Payloads 仓库卡，简介跨上下文短payload、stars/forks；未显示实际payload或长度/编码限制，外链全文已豁免。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T05:33:37.876Z",
+      "batch": "media-0183"
+    }
+  }
+]

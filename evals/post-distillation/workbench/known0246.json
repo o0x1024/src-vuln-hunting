@@ -1,0 +1,64 @@
+[
+  {
+    "name": "1862219172975190515-02.jpg",
+    "sha256": "d546fd9f10cc3b3f71efebc72ee9da64382069bccf1cbf189d9072d88efaf64a",
+    "prior": {
+      "sha256": "d546fd9f10cc3b3f71efebc72ee9da64382069bccf1cbf189d9072d88efaf64a",
+      "example_post_id": "1850585277179564506",
+      "image_name": "1850585277179564506-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "站点/靶场/工具名称集合无独立测试机制，历史可用性和许可未核实，未访问或运行。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-12T03:32:01.777Z",
+      "batch": "media-0235"
+    }
+  },
+  {
+    "name": "1862768749276721518-02.jpg",
+    "sha256": "c29b4a3df9dd541daf3c67dbcf72d5c5099574732ee0b465589bb57dcde3c2bc",
+    "prior": {
+      "sha256": "c29b4a3df9dd541daf3c67dbcf72d5c5099574732ee0b465589bb57dcde3c2bc",
+      "example_post_id": "1544677186736619520",
+      "image_name": "1544677186736619520-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/web-and-api.md"
+      ],
+      "note": "API JSON/XML/REST/internal/public 思维图；术语不能代替当前协议及权限契约。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T15:15:30.760Z",
+      "batch": "media-0128"
+    }
+  },
+  {
+    "name": "1863183717725765737-02.jpg",
+    "sha256": "c841ebae4b8dd1180f33108f5faf450f96c7cc649d15e6b639eed0900168ab95",
+    "prior": {
+      "sha256": "c841ebae4b8dd1180f33108f5faf450f96c7cc649d15e6b639eed0900168ab95",
+      "example_post_id": "1800077332075450673",
+      "image_name": "1800077332075450673-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "文件后缀.jpg实际为静态SVG（仅svg/path，viewBox36x36，无script/href/text）；原字节hash已核对，并实际查看按全图144x144生成的无损PNG预览，显示伊朗狮子旗图标，无Burp压缩包/内存技术步骤。格式转换仅供查看，未改动原文件。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T18:51:31.046Z",
+      "batch": "media-0215"
+    }
+  },
+  {
+    "name": "1863993611316085033-02.jpg",
+    "sha256": "7380ce9c489e6f0dc76de8ac9acdd9ad4f483de234305772e3f673f7cdc60fcd",
+    "prior": {
+      "sha256": "7380ce9c489e6f0dc76de8ac9acdd9ad4f483de234305772e3f673f7cdc60fcd",
+      "example_post_id": "1838640154983956924",
+      "image_name": "1838640154983956924-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "IDOR封面只有名称，没有对象/主体/请求证据。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-12T01:11:04.293Z",
+      "batch": "media-0230"
+    }
+  }
+]

@@ -1,0 +1,81 @@
+0|distilled|references/by-type/info-secrets.md|已看原图全部可见范围：phpMyAdmin 表名与操作界面，部分遮挡；绑定正文 recon/GitHub 线索，界面不证明任意 SQL、写权或整库控制。
+1|distilled|references/experiment-design.md|alias 含 sudo VPN、容器端口/生命周期及字典路径；保存配置意图与执行、网络权限的边界，没有运行产物，不执行。
+2|distilled|references/scope-and-rules.md|历史社工活动类型表与外部表单奖励限制同时可见；活动、资格、当前许可独立判断，不视为当前授权。
+3|distilled|references/by-type/ldap-xpath.md|域/DC、LDAP bind 与模块启动、需要凭据提示；启动/绑定与模块结束结果不同，不能补为全域权限。
+4|distilled|references/discovery/passive-and-services.md|crt.sh CN/Matching Identities 混有跨域别名，去重/去邮箱与 txt 产物；名称候选不证明 DNS、归属与范围。
+5|no_technical_content||Zircolite 标志，未见实现、输入/输出或技术步骤。
+6|insufficient_technical_detail||Jira CVE 文件读取题名/P5状态，未见具体请求、响应或消费者。
+7|distilled|references/impact-and-acceptance.md|历史 NVD 条目可见版本边界、WEB-INF/web.xml 与 CVSS5.3/Low confidentiality；这是历史分类证据，不能替代平台具体影响。
+8|distilled|references/by-type/ldap-xpath.md|KrbRelay help 的 LDAP/SMB/HTTP 操作与连接参数；能力说明不等于实际中继成功或有效权限，不运行。
+9|distilled|references/targeted-fuzzing.md|文本 URL 列表被追加 FUZZ；整体行替换需检查路径、查询与末尾分隔符，未见实际请求结果。
+10|insufficient_technical_detail||blind stored XSS 管理后台题名与P2/奖励，没有载荷、回连主体或实际执行。
+11|distilled|references/by-type/ldap-xpath.md|ADReaper help 对象类别/身份/DC参数与退出状态；无返回对象，枚举类别不能认定域权限。
+12|distilled|references/discovery/passive-and-services.md|Nmap 风格端口服务输出但为 Shodan 索引语境；时间和来源与当前探测分开，不认为全端口实时覆盖。
+13|insufficient_technical_detail||奖励与部分分析设置界面，只见题名与金额，没有完整输入、响应或影响。
+14|insufficient_technical_detail||反射 XSS 报告/奖励列表，遮挡较多，无输入上下文和执行证据。
+15|distilled|references/by-type/oauth-oidc.md|社交认证 POST 的邮箱/provider/signature/主体字段；没有响应，解码或可改请求不能证明身份可信或 ATO。
+16|no_technical_content||账号被停用邮件，不含漏洞机制或复现。
+17|no_technical_content||Burp 品牌标志，无扩展实现或复现步骤。
+18|insufficient_technical_detail||认证绕过报告题名与奖励，部分界面；没有登录响应与实际权限消费者。
+19|no_technical_content||Synack 收入与数量统计，未含技术机制。
+20|no_technical_content||Synack 收入/漏洞数量汇总，不能推断具体漏洞机制。
+21|insufficient_technical_detail||SQL/CVE 已解决通知，缺少请求和数据库解析证据。
+22|distilled|references/by-type/desktop-client.md|旧 macOS 下载伪装、执行和持久化四步示意，缺少实际哈希/进程证据；按时间线假设提炼，不运行。
+23|insufficient_technical_detail||BugBountyCheatsheet 仓库分类表只有指向外部材料的名称；未保存 payload 或具体条目全文，按用户计覆盖。
+24|insufficient_technical_detail||默认凭据 admin 报告 P1/triaged 题名，没有认证请求或权限对照。
+25|distilled|references/source-audit.md|Burp 速查表第一页全部可见：导航、编辑编码、Collaborator 协议等；转换与消费者验证不同，历史快捷键需按版本核。
+26|distilled|references/source-audit.md,references/discovery/records-and-incremental.md|第二页全部可见：参数发现/扫描/角色/JWT/SAML等扩展类别，REST定义、提交/scan及task查询；help/定义/任务状态不等于结果。
+27|insufficient_technical_detail||MaliciousPDF Generator 封面，未见生成实现、样本解析或检出对照。
+28|insufficient_technical_detail||RXSS triaged/Medium状态，未见请求、响应或执行。
+29|distilled|references/by-type/info-secrets.md|HawkScan 的路径字符串披露标签、状态与长度；stdout 需响应原文支持，不认定文件读取或 RCE。
+30|no_technical_content||历史云主机价格列表；非漏洞证据，不作为当前价格或购买建议。
+31|distilled|references/by-type/xss.md|自定义元素的 outline transition、tabindex 和 transitionend 片段；需真实过渡/DOM/CSP及事件，未见执行画面。
+32|insufficient_technical_detail||Auth bypass/HTML injection/RXSS题名和P1/P3/New列表，无具体消费者证据。
+33|distilled|references/by-type/waf-bypass.md|SVG混合大小写/伪属性/Unicode JS标识符与注释的图解；分HTML和JS解析，片段不证明当前任意WAF绕过。
+34|distilled|references/by-type/open-redirect.md|可信站点重定向到目的地的概念图；导航信任与ATO凭据/token消费者不同，无实际接管。
+35|distilled|references/by-type/desktop-client.md|eCapture 用户态库/eBPF/内核网络结构图；明文观测点与TLS破解不同，没有实际抓取或全部进程覆盖证明。
+36|distilled|references/by-type/request-smuggling.md|Turbo Intruder表、普通GET与301 Location回连地址，未见消息framing/错配；状态、时间与OOB地址不是HRS证明。
+37|distilled|references/by-type/authn-session.md|新版认证失败与旧版200/admin_token对照，部分输入被遮挡；支持历史token返回观察，消费者权限/同输入未完全证明。
+38|distilled|references/source-audit.md|Burp/ZAP功能类别映射：历史、范围、拦截、重发、fuzz、爬取、扫描、扩展；逻辑对应不代表版本能力完全一致。
+39|no_technical_content||Sub3 标志，无实现或结果。
+40|distilled|references/hunting-strategy.md|技术/版本到POC和利用的流程简图；补充受影响构建、配置、权限与无害复现 gate，不执行未知POC。
+41|no_technical_content||SpockSLAF 标志，无技术实现。
+42|distilled|references/targeted-fuzzing.md|ffuf扩展组合示例与signup.csv命中说明；候选位置/软404/内容独立核验，没有敏感文件内容。
+43|no_technical_content||Incident Escalation梗图，无机制；正文的RXSS定义单独提炼。
+44|distilled|references/discovery/records-and-incremental.md|skeleton 目标上次查看天数输出；提醒时间不同于已完成测试或当前授权。
+45|no_technical_content||Apple Hall of Fame名单，无机制或复现。
+46|distilled|references/discovery/passive-and-services.md|CIDR/httpx证书模板与cut固定列、括号/逗号处理；字段格式、SNI、范围与SAN归属独立核验。
+47|distilled|references/by-type/info-secrets.md|git-dumper help 的URL/DIR/jobs/retry/timeout/proxy/header；无暴露或恢复结果，不运行下载或凭据使用。
+48|distilled|references/by-type/file-upload.md|malwarescanner help显示路径/更新；目录范围、规则更新和逐文件扫描结果分开，无检出率证据。
+49|insufficient_technical_detail||Log4j CVE/多域/100奖励邮件，无请求、目标适用构建或执行证据。
+50|distilled|references/discovery/web-and-api.md|代理海报完整可见：出口IP、反向代理多个内部服务、缓存与日志；不能推导匿名或不能加密等绝对能力。
+51|no_technical_content||OIN DAO bounty项目宣传，无范围规则或机制。
+52|no_technical_content||Spring4Shell Scan品牌标志，无实现、输入结果或准确率证据。
+53|distilled|references/by-type/business-logic.md|完整文字步骤：重复选项参数、数组处理、多个投票并刷新/另一浏览器保持；需单/多选允许规则、主体与持久记录对照。
+54|distilled|references/targeted-fuzzing.md|两查询参数轮流替换，另一保持原值，输出是生成URL；未见发送、计时或SQL消费者结果。
+55|insufficient_technical_detail||项目/消息IDOR报告列表，遮挡明显，Medium/Critical标题无对象权限对照。
+56|distilled|references/by-type/file-upload.md|插件fopen URL/getaddrinfo失败、文件路径警告/notice与active installs标签；候选I/O与实际回连/读取字节/执行分开。
+57|insufficient_technical_detail||只有严重度Medium到High调整，未见CRLF头、Cookie或XSS/ATO链证据。
+58|insufficient_technical_detail||recon.cloud仓库预览称API查询AWS/Azure/GCP足迹，文字截断；未见API参数、结果、实际范围。
+59|distilled|references/source-audit.md|IDA函数类别颜色、列表与start汇编/调用；符号和高亮只是候选，需可控参数、路径和内存约束。
+60|no_technical_content||SSL证书recon视频装饰封面，无具体步骤。
+61|distilled|references/by-type/sql-injection.md|SQLMap查询输出长度/数据库名称片段，未见入口和对照；保留历史枚举观察，不推导所有表或当前SQL注入。
+62|insufficient_technical_detail||提权/组织接管题名、P1 New/仍在评估，没有邀请接受后角色或Owner动作证据。
+63|distilled|references/scope-and-rules.md|类似O365登录页与政策文档打开确认，无真实来源/凭据提交/代码执行；只提炼UI和下载边界，不触发。
+64|no_technical_content||发表报告相关梗图，无复现步骤。
+65|distilled|references/by-type/xss.md|历史URL/查询去重/多参数替换后stdout Vulnerable与Not标签，没有DOM/浏览器执行证据。
+66|distilled|references/scope-and-rules.md|相似Facebook窗口标phishing/real，无实际顶层origin和提交交换；视觉地址栏不是可信来源证据。
+67|insufficient_technical_detail||秘密泄漏报告状态、Critical9.1/3000奖励，未见秘密消费者或权限证据。
+68|distilled|references/by-type/desktop-client.md|云节点内存时间线的矿工引用、SSM进程/命令事件，部分小字/截断；标签和相邻时间不证明完整因果，保留取证源限制。
+69|distilled|references/experiment-design.md|两类precision/recall/F1，accuracy0.89/样本1923；无标签/分割/泄漏控制，模型评分不同于XSS执行与目标覆盖。
+70|distilled|references/by-type/waf-bypass.md|Cloudflare等待挑战页面/Ray ID，只证明历史挑战展示；没有绕过步骤或限流/功能成功证据。
+71|insufficient_technical_detail||RCE报告邮件题名和时间、部分描述；单邮件不证明命令执行，另两张交换分开核验。
+72|distilled|references/by-type/cmd-injection-rce.md|POST中动态求值输入及另参数选择命令，302响应体含进程身份输出；已有Cookie、部分遮挡，无无认证/全服务器权限证明，不复制秘密。
+73|distilled|references/by-type/cmd-injection-rce.md|同类POST替换命令后302体为目录清单；输入/输出变化支持历史执行观察，目录项不推导所有数据，不运行片段。
+74|insufficient_technical_detail||DNS视频封面仅列bruteforce/historical/resolvers/OOB/vhost/takeover/rebinding等类别，没有完整步骤。
+75|insufficient_technical_detail||SecurityExplained/Mindmaps链接目录与分类，未保存各图内容，外链依用户计覆盖。
+76|insufficient_technical_detail||Security Talks题名/类别表，底部截断，未保存视频具体机制；缺失外链全文按用户计覆盖。
+77|insufficient_technical_detail||Security Blogs题名/类别列表，底部截断；题名不能补成各篇技术步骤，外链按用户计覆盖。
+78|insufficient_technical_detail||Security Talk Slides目录及Bheem Bash wrapper文字/链接，未保存幻灯或脚本实现。
+79|no_technical_content||iOS Security Suite图标与宣传文字，无反篡改实现或检测结果。
+80|distilled|references/source-audit.md|CTF源码：正常值html.escape，except分支直接拼参数名到HTML；核异常可达性及另一输入消费者，未见远端执行。

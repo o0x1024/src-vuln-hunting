@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc8725.html",
+    "reference": "turn430view0",
+    "lines": "179–194",
+    "purpose": "JWT algorithm and key binding, none contextual protection"
+  },
+  {
+    "url": "https://fetch.spec.whatwg.org/#cors-protocol-and-credentials",
+    "reference": "turn430view1",
+    "lines": "1876–1885",
+    "purpose": "ACAO and ACAC credential combinations"
+  },
+  {
+    "url": "https://www.microsoft.com/en-us/security/blog/2022/09/30/analyzing-attacks-using-the-exchange-vulnerabilities-cve-2022-41040-and-cve-2022-41082/",
+    "reference": "turn428view2",
+    "lines": "35–36",
+    "purpose": "Authenticated Exchange SSRF and PowerShell RCE prerequisites"
+  },
+  {
+    "url": "https://groups.google.com/g/rubyonrails-security/c/pFRKI96Sm8Q",
+    "reference": "turn429view1",
+    "lines": "54–101",
+    "purpose": "render file without format conditions, historical fixed releases"
+  },
+  {
+    "url": "https://html.spec.whatwg.org/multipage/scripting.html#the-noscript-element",
+    "reference": "turn428search0",
+    "purpose": "noscript parse context and scripting mode; not waived archive full text"
+  }
+]

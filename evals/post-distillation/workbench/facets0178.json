@@ -1,0 +1,407 @@
+[
+  [
+    "reporting.md",
+    "自身账号删除的确认策略与越权影响要区分",
+    "登录后删除自身账户而未再次输入密码，只能作为敏感动作确认策略线索。比较程序要求、会话新鲜度、误删恢复和实际不可逆数据范围；共享已登录设备是明确前提，不自动高于账号接管。用自有可恢复夹具，记录允许与拒绝结果，不能据此声称跨用户删除或扩大等级。\n\n来源：[保存帖1](https://x.com/i/status/1660924636635299841)。\n\n保存图片 `1660924636635299841-02.png`：登录用户删除自身账号，作者以共享已登录设备夸大比ATO严重；缺少二次确认不等于越权，需程序政策和不可逆恢复证据。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/smart-contract.md",
+    "Signer 的循环末项与已有模块边界须分别审查",
+    "SwapSigner 最后 owner 无效与 HatsSignerGate 在已有超过五个模块的 Safe 上异常，是两个历史边界线索。分别定位循环覆盖、末项验证、模块遍历/连接状态、部署前后不变量，比较零项、一项、末项和临界数量；标题和已修复声明没有源码或交易证明，不能推现存合约都变砖或资金被盗，不发链上交易。\n\n来源：[保存帖1](https://x.com/i/status/1660935178070499329)、[保存帖2](https://x.com/i/status/1661659224383049728)。"
+  ],
+  [
+    "reporting.md",
+    "多端点与多秘密按根因和权限消费者组织报告",
+    "多个子域/端点复现同一根因，应保留独立资产与权限证据并按项目规则归并；多个 secret 则分别确认服务、权属、有效时点和权限消费者。发现数量、不同报告 ID 或等级截图不证明独立根因，不靠分报提高优先级。使用脱敏最小证据说明共同根因与独立影响，避免复制或试用实际 token。\n\n来源：[保存帖1](https://x.com/i/status/1660973720897302530)、[保存帖2](https://x.com/i/status/1662075621558697985)。\n\n保存图片 `1662075621558697985-02.png`：单击重置token/JSsecrets/Stripe live secret三个独立title和ID仅triage标签，根因与权限消费者拆分，不奖励驱动分报。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "reporting.md",
+    "报告可读性与最小 HTTP 复现须同时保存",
+    "代码块、清楚截图和尊重的措辞帮助复核；删无关头和 cookie 前应保存脱敏原请求。逐项比较删减前后身份、路由、CSRF、缓存键、内容协商和受保护结果，确保最小请求仍复现同一机制。所谓 junk 可能是必要前提，图片不能替代可核对的请求与响应，也不应在报告中暴露会话秘密。\n\n来源：[保存帖1](https://x.com/i/status/1660978936850022400)、[保存帖2](https://x.com/i/status/1660980021174083586)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "公开报告目录作为检索索引而非机制全文",
+    "Google 公开报告表的题目、作者、计划和更新时间可以记录检索线索与历史披露时点。完整机制仍需实际保存的报告内容及版本/前置条件，目录中 Auth Bypass、SSRF 或 IDOR 标签不提供完整复现。按原题索引、保留来源和未保存全文边界，避免把目录数量当已验证漏洞数量。\n\n来源：[保存帖1](https://x.com/i/status/1661012777736228868)。\n\n保存图片 `1661012777736228868-02.jpg`：Google公开报告目录有标题作者计划更新时间，只是索引不是报告全文。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/xss.md",
+    "多组件链逐环证明来源、消费者和浏览器边界",
+    "正文给出 postMessage、JSONP、WAF、DOM XSS 与 permissive CORS 到一点击 CSRF 的链名。分别列消息 origin/source 校验、JSONP callback 消费、WAF 与 DOM sink、跨域响应及会话动作，每环需要可控输入、输出与独立反例。链名未提供完整代码/响应，CORS 放行不自动 XSS 或 CSRF，缺一环不能宣称完整攻击链成立。\n\n来源：[保存帖1](https://x.com/i/status/1661024326366416896)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "资产映射与历史计划标签不能扩展测试许可",
+    "orgs-data 的计划到 GitHub 组织映射、披露目录 safe-harbor/bounty 徽章和 Mobile VRP 首方 Android 公告可作候选来源。记录历史采集日期、明确产品/组织、当前规则、动作限制和奖励类别；统计分母与标签分别保存。范围外 XSS 的拒绝截图提醒授权独立于技术有效性，仓库关联、应用上架和旧公告不能授权所有相关资产。\n\n来源：[保存帖1](https://x.com/i/status/1661054420996747265)、[保存帖2](https://x.com/i/status/1661110321485070336)、[保存帖3](https://x.com/i/status/1661131101740384256)、[保存帖4](https://x.com/i/status/1661208397952466949)。\n\n保存图片 `1661208397952466949-02.jpg`：截图XSS被OOS，应核对当时bountybrief，技术有效性不扩展授权。本段仅使用实际查看的保存原图，不补未保存内容。\n\n复用图片 `1661110321485070336-02.jpg`：五步community目录及CVD/VDP徽章仅用于候选发现，正式规则与动作许可独立。复用先前已实际核验相同 SHA 的图片记录，不新增视觉 ledger。"
+  ],
+  [
+    "by-type/xss.md",
+    "HTML 链接注入与脚本执行使用不同结论",
+    "输入被输出为可点击的外域锚点说明 HTML 内容控制线索。对照安全文本与转义，追踪反射/保存、输出 context、点击与最终 origin；未有 JavaScript sink 和执行证据不能称 XSS。正文提到 403 也只说明特定请求状态，不证明所有权限边界或 WAF 被绕过。\n\n来源：[保存帖1](https://x.com/i/status/1661113271057784849)。"
+  ],
+  [
+    "by-type/open-redirect.md",
+    "外域锚点点击不等同服务器开放重定向",
+    "HTML 中外域链接依赖用户点击，需与服务器 Location、自动客户端导航和协议相对 URL 分开记录。用自控同源/外域目的地比较真实响应和最终导航，确认重定向功能的信任约束。仅插入链接不能证明原端点提供 HTTP 3xx 外跳，也不证明 OAuth token 随之泄露。\n\n来源：[保存帖1](https://x.com/i/status/1661113271057784849)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "归档邮箱与历史凭据按最小字段证据判断",
+    "Wayback URL 经 grep 匹配 gmail 只是字符串筛选，不能证明私人邮箱或当前泄露；归档路径出现用户名/密码与后续管理员访问也需分别绑定来源、时点、身份和权限。用自有数据对照公开设计、过期样例与受限字段，不抓全量档案或复用他人凭据；域外归档线索不授权对域外服务主动访问。\n\n来源：[保存帖1](https://x.com/i/status/1661242228747149312)、[保存帖2](https://x.com/i/status/1661258227592617985)、[保存帖3](https://x.com/i/status/1661604384621596672)。\n\n保存图片 `1661242228747149312-02.jpg`：waybackurls历史URL grep gmail只匹配字串，不证明私邮/当前泄露。本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1661258227592617985-02.jpg`：归档路径找账号端点再在范围内登录故事；被动域外线索不授权主动访问或复用他人凭据，凭据有效性与管理员权限分证。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "控制台默认身份与管理权限分别核验",
+    "默认凭据和 MDM 全权限管理面板的正文/标题提供认证检查方向。绑定具体服务、部署配置、允许的测试身份、会话新鲜度及保护 API，用自有允许/拒绝对象比较读、写、编辑、删除能力。登录页、P1 状态或既有会话菜单不证明接受默认凭据或匿名管理，不复用正文口令或实际删除设备。\n\n来源：[保存帖1](https://x.com/i/status/1661251720041619460)、[保存帖2](https://x.com/i/status/1662323854906376197)。"
+  ],
+  [
+    "by-type/lfi-path-traversal.md",
+    "Rails Accept 模板解析路径与最终文件边界分开",
+    "保存帖以 Rails render file 和 Accept 头路径片段描述历史 CVE-2019-5418。定位具体版本、模板 resolver、输入解析、文件根与 canonical 约束，离线普通夹具比较正常格式与拒绝路径。头中遍历语法不自行读取文件，框架名不证明当前受影响，历史已知问题也不能推任意文件或代码执行，不发送敏感文件探针。\n\n来源：[保存帖1](https://x.com/i/status/1661260294352674816)。"
+  ],
+  [
+    "source-audit.md",
+    "SSH 指纹错误日志不能引用已释放缓冲区",
+    "curl 摘要指出 fingerprint_b64 在 free 之后作为失败日志参数使用。审查 lib/vssh/libssh2.c 的分配、释放、错误分支和后续格式化引用，在对应提交的自有小夹具中比较失败/成功生命周期。截图代码下半裁切，UAF 报告不等于已证明可利用 RCE，需独立确认构建、可达性和实际内存访问。\n\n来源：[保存帖1](https://x.com/i/status/1661288780567814144)。\n\n保存图片 `1661288780567814144-02.jpg`：curl lib/vssh/libssh2.c fingerprint_b64释放后failure logging引用UAF，截图底部代码截断；版本提交/生命周期/分支错误路径，非已证明RCE。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/lfi-path-traversal.md",
+    "编码路径穿越的响应需绑定同一资源和身份",
+    "保存请求在多级路径及 uploads 下使用百分号编码点段，响应可见 Linux 账户行。记录原 wire、每层解码、canonical 根、身份和最小响应类别，以自有普通文件与拒绝越界夹具比较。目标隐藏且版本未知，不能从路径形式指定 CVE、全部文件可读或 RCE，复核时不重复读取真实系统文件。\n\n来源：[保存帖1](https://x.com/i/status/1661334986979708930)。\n\n保存图片 `1661334986979708930-03.jpg`：GET重复路径与百分号编码点穿越uploads随机目录到etc/passwd，响应Linux账户行，目标隐藏无版本/身份，不直接定CVE/RCE。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "URN 展开必须约束字段类型和目标对象权限",
+    "Voyager decoration 示例把 emailAddress URN 放在自有 profile 文本字段，再查询展开并在 included 返回邮件资源。服务端应限制可展开字段、URN 类型、目标归属和展开身份；用自有 A/B 私有对象及普通文本比较最小字段。序列 ID 仅是枚举条件，单次邮件结果不证明整个数据库已读，也不授权真实用户枚举。\n\n来源：[保存帖1](https://x.com/i/status/1661379021362413568)。\n\n保存图片 `1661379021362413568-02.png`：Voyager decoration字段任意扩展，自有profile文本URN引用emailaddress、顺序ID跨对象解析，全文库声明未由单样本证实。本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1661379021362413568-03.jpg`：已登录profile写URN，GET decoration带csrf/session，included回另一emailaddress字段；仅受控对象对比不可枚举整库。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/xss.md",
+    "盲渲染标记要连接到具体存储字段和消费者",
+    "独立 ID 可关联延迟 blind trigger；Android 设备名也可能由同步/管理后台渲染。记录写入身份、原字节、持久字段、读取消费者、触发时点和实际 origin，用自控普通标记与安全编码反例验证。设备名可改、异步回调或延迟通知不自行证明管理员 JavaScript 执行，不对真实后台投递外部脚本或回调。\n\n来源：[保存帖1](https://x.com/i/status/1661385962994249729)、[保存帖2](https://x.com/i/status/1661816078979457024)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "角色字段由服务端资格规则赋值",
+    "GitHub 认证入口增加 admin/org_admin 与个人资料 User 改 Admin，是角色绑定审查候选。比较服务端允许字段、组织/租户资格、回调会话与最终受保护操作，用自有普通账号和拒绝角色输入作对照。客户端字段受理、管理菜单和 P1 报告标题不证明服务器实际提权，不能改变真实组织成员权限。\n\n来源：[保存帖1](https://x.com/i/status/1661422641855750145)、[保存帖2](https://x.com/i/status/1662467511407788035)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "邮件图片和托管租户域作为关联线索",
+    "订阅邮件中的 S3 图片主机及 force.com/secure.force.com 租户名，可用于记录客户端资源与业务关联。分别确认谁生成 URL、由浏览器还是服务端获取、租户所属、时间和当前范围；远程资源出现不证明所有权、SSRF 或可接管。仅分析已保存内容，不以域名命名模式批量扩展主动测试。\n\n来源：[保存帖1](https://x.com/i/status/1661434386003402752)、[保存帖2](https://x.com/i/status/1661677025319370753)。"
+  ],
+  [
+    "source-audit.md",
+    "查询字典仓库的文件名不能代替查询内容审查",
+    "保存目录包含 admin、token、SQL、carding 等混合名称，只能确认当时仓库的条目元数据。若将来使用自有离线清单，需要保留具体版本/hash、实际查询语法、目标过滤和数据最小化；名称不能证明有效查询、真实漏洞或使用许可。本次未拉取外链字典，也不按列表搜索他人秘密。\n\n来源：[保存帖1](https://x.com/i/status/1661437004297695232)。\n\n保存图片 `1661437004297695232-02.png`：dork仓库文件列表混杂carding/token/sql/admin名称，仅元数据非实际查询或授权。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "域名管线保留合法字符与每阶段输入单位",
+    "从子域提取标签做词表，应保留原 FQDN、来源和去重映射；域名中连字符合法，不能为清理空白一并删除。assetfinder/subfinder 输入域名、scheme 转换、追加文件与 httpx 结果分别保存；append 可能混入旧数据，仅选 200 会遗漏认证/错误入口。并发线程数量不是授权或覆盖证明，不直接执行原批量管线。\n\n来源：[保存帖1](https://x.com/i/status/1661439307402608641)、[保存帖2](https://x.com/i/status/1661451678913269765)、[保存帖3](https://x.com/i/status/1662211115995267073)。"
+  ],
+  [
+    "by-type/ai-application.md",
+    "AI 辅助侦察需保护输入并独立核对输出",
+    "ReconAIzer 的 GPT 工具介绍只是能力声明。仅在批准的数据边界内用脱敏最小 HTTP 证据，记录模型/输入/来源，再独立核对生成资产、参数和漏洞猜测；生成清单不能证明权属或漏洞。外发 cookie、密钥和完整用户数据有额外边界，本次不安装插件或上传流量。\n\n来源：[保存帖1](https://x.com/i/status/1661441320702070784)。"
+  ],
+  [
+    "by-type/ssrf.md",
+    "客户端请求日志不能代替服务端取址证明",
+    "CDX/gf/qsreplace 管线将 URL 参数换成回环域后用 curl 提取标题/状态；另一脚本用 -L/-I 和 grep 回调字符串。识别扫描客户端发出的 HEAD/GET、客户端跳转、响应反射与目标服务主动取址这四类来源，给自控请求绑定独立标记及后台消费者证据。字符串命中、最终 URL 或 curl 自己访问回调不证明 SSRF，不运行批量请求或回环探测。\n\n来源：[保存帖1](https://x.com/i/status/1661443584493760512)、[保存帖2](https://x.com/i/status/1662901916609703939)。\n\n保存图片 `1661443584493760512-02.jpg`：CDX原始URL→gf ssrf→qsreplace localtest.me→parallel50 curl -i -k title/status/header/finalURL，扫描端请求不能证明服务端SSRF；localtest.me回环不应用外部未经授权探测。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/file-upload.md",
+    "魔术字节伪装与上传后解释执行要逐段验证",
+    "保存卡片把图片头签名与 PHP 命令解释代码组合为文件。头签名不保证有效图片，更不保证上传文件被 PHP handler 或 inclusion 消费；需依次核对内容解析、存储路径、访问 handler、include 语义与执行身份。以无害自有夹具比较转码/拒绝/静态返回，不能把上传成功当 RCE，不生成或执行 webshell。\n\n来源：[保存帖1](https://x.com/i/status/1661444328294871040)。\n\n保存图片 `1661444328294871040-02.jpg`：图片魔术字节接PHP system query伪装文件；头签名不等于有效图像或PHP解释，上传存储/inclusion/执行handler链需分证，勿生成运行webshell。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/ssrf.md",
+    "邮箱输入引发的网络活动先按协议区分",
+    "邮箱域、回环地址和回调字串可能被邮件投递、DNS、验证服务或 HTTP 消费。分别记录解析类型、协议、调用进程、目的地约束与受控唯一标记；DNS 查询、SMTP 投递或用户浏览器请求不能证明 HTTP SSRF。正文并无完整消费者链，不向他人邮箱发信、滥用真实 SMTP 或访问内部地址。\n\n来源：[保存帖1](https://x.com/i/status/1661447663391506437)。"
+  ],
+  [
+    "by-type/crlf-response-splitting.md",
+    "邮件字段换行需验证解码后真正的头边界",
+    "正文同时提出邮箱参数和 HTTP/SMTP 头注入。保留原字节、百分号解码和引用语义，确认具体库是否把换行当数据或新头，再以本地自有消息验证一个字段与拒绝反例。带换行字串不自动拆分协议头，HTTP 响应与 SMTP 消息机制不能混用，不发送垃圾邮件或注入真实消息。\n\n来源：[保存帖1](https://x.com/i/status/1661447663391506437)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "内容协商与 JSON 错误反馈按实际响应分类",
+    "Accept JSON/JavaScript 偏好可改变表示，JSON 参数故意不合 schema 可能反馈允许字段。保存正常/异常的身份、状态、实际 Content-Type、字段类别和最小响应，对照预期公开错误。给出请求头或参数名不证明泄密；合法 schema 提示、版本 banner、环境 secret 和受限数据分别判断，不能由反馈直接推读取权限。\n\n来源：[保存帖1](https://x.com/i/status/1661449666339430400)、[保存帖2](https://x.com/i/status/1662273162791493632)。\n\n保存图片 `1661449666339430400-02.jpg`：Accept json javascript wildcard;q=0.01仅内容协商输入，没响应不能宣称泄密。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/oauth-oidc.md",
+    "共享 Okta 应用标识仍需校验各信任边界",
+    "两个域名使用同一 Okta app ID 只能提示相关登录配置。分别绑定 issuer、client、注册 redirect URI、租户、cookie origin、state/nonce 与最终应用会话，比较自控正常/拒绝回调。应用 ID 一致不证明 SSO 绕过，也不能自动把另一域或组织纳入 scope，未有真实流转响应不推账号接管。\n\n来源：[保存帖1](https://x.com/i/status/1661518077710807043)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "递归路径探索和规范化变体需要明确终止条件",
+    "目录递归建议与 pathbuster 的 normalization 描述可作候选策略。以已知范围和具体资源为起点，限定深度、请求总量、队列去重、超时和变更方法，保持身份与 canonical 资源可比较。递归得到更多 200/路径不证明权限提升；路径工具介绍无源码/结果，报告状态图也不证明递归必然发现漏洞，不执行无限扫描。\n\n来源：[保存帖1](https://x.com/i/status/1661702109895733248)、[保存帖2](https://x.com/i/status/1662819587501572100)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "动态载荷来源与响应基线先于自动化结论",
+    "Supp-truder 描述远程载荷、regex、基线、tamper、头与 POST 处理。保留载荷来源/version/hash、具体请求动作及原始基线，识别远程更新和副作用后，用自有小样本比较单变量。正则命中/工具输出不是漏洞结论，POST 或 tamper 不保证只读，仓库卡片不能代替实际脚本审查，不安装或自动取用远程载荷。\n\n来源：[保存帖1](https://x.com/i/status/1661722016456515585)。"
+  ],
+  [
+    "by-type/cmd-injection-rce.md",
+    "Git 的命令选项消费也是参数注入边界",
+    "release-sdk 的 LSRemoteExec 摘要指出用户输入可被当作 Git upload-pack 等选项，截图有局部 Go 调用示例。审查仓库地址与分支到 argv 的流向、选项终止/allowlist 及 Git 子程序行为；参数化调用仅防 shell 拼接，不能自动阻止 Git 本身消费攻击者选项。对应提交的本地普通标记夹具才可证可达性，本次不运行命令载荷。\n\n来源：[保存帖1](https://x.com/i/status/1661734226432237569)。\n\n保存图片 `1661734226432237569-02.jpg`：release-sdk LSRemoteExec输入Git选项upload-pack造成命令调用风险；截图部分GoPoC，参数化不阻止Git自身选项消费，要repository输入与option边界，未执行。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "cloud/container-k8s-security.md",
+    "IAM 到 Kubernetes 身份映射须绑定签名内容",
+    "aws-iam-authenticator 通过签名 STS GetCallerIdentity 映射 K8s username/groups。保存摘要提出未签 cluster ID 重放、提取 AccessKeyID 可改，以及允许其它 action；第三项作者明确缺 host/额外参数控制而影响低。审查校验字段与签名覆盖一致性、目标动作 allowlist、集群绑定及映射权限，用自有合法/拒绝 token 夹具，不把历史 all versions 声明推到现部署或使用真实 AWS 密钥。\n\n来源：[保存帖1](https://x.com/i/status/1661734336146841605)。\n\n保存图片 `1661734336146841605-02.jpg`：IAMauthenticator authenticate签名STS GetCallerIdentity映射K8s身份；未签clusterID重放、提取AccessKeyID可改影响映射、action非GetCallerIdentity作者称低影响因不能控host/addparams；历史allversions声明非现状。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "reporting.md",
+    "技术证据、重复归并和最终等级分别记录",
+    "有效报告被定 Low、先 Triaged 后 Duplicate，以及题目 HIGH 与系统 Medium 不同，都显示技术有效性、归并、严重性和奖励是不同状态。保存当时原因、根因、前置条件、影响证明与后续裁定，以新增独立证据回应。截图不能替代请求/响应；作者对 P1/P3/P4 的判断不形成通用规则，不据状态变更推原漏洞失效。\n\n来源：[保存帖1](https://x.com/i/status/1661766489953947648)、[保存帖2](https://x.com/i/status/1661787821013708800)、[保存帖3](https://x.com/i/status/1662006251423772672)、[保存帖4](https://x.com/i/status/1663000492874645505)。\n\n保存图片 `1661787821013708800-02.jpg`：OTPresponse manipulation先triaged后duplicate，状态和严重性可变与机制有效/最终accept分开。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "侦察配置升级保留用户覆盖和新默认差异",
+    "reconFTW 配置更新建议备份旧配置再比对新配置。记录旧版本/用户覆盖、新 schema/default 与行为变更，按键合并并离线验证自有配置；直接替换可能丢参数，直接保留旧文件也可能漏新增安全限制。配置保存不证明所有外部工具和运行行为均正确，本次不安装、升级或启动扫描。\n\n来源：[保存帖1](https://x.com/i/status/1661769345754865664)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "一次性登录链接需在服务端原子消费",
+    "Magic link reused 的标题可指导检查账号、token 摘要、用途、有效期、已消费状态与会话发放。用自有令牌比较首次受理、顺序重放、最小受控竞争与拒绝过期 token，确保消费与发放原子绑定。链接仍可打开或赏金邮件不证明旧 token 再次建立会话，不能以客户端响应代替服务器认证，不复用真实他人链接。\n\n来源：[保存帖1](https://x.com/i/status/1661773170200956929)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "OTP 客户端响应变化不能代替验证因素",
+    "拦截 OTP 响应改变注册界面，只能说明客户端信任候选。用自有 challenge 绑定账号、目的、有效期、尝试预算、验证状态与最终保护 API，比较错误 OTP、改 UI 与真实服务端已验证状态。截图是 triage/duplicate 沟通，未给令牌/身份响应，不能认定实际绕过或完整账号接管。\n\n来源：[保存帖1](https://x.com/i/status/1661787821013708800)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "增量主机与漏洞通知统计采用不同单位",
+    "保存发现仪表板与邮件分别展示新主机数量和新 XSS 通知。按源、采集时点、去重后的主机/URL、扫描请求和证据 ID 建立关联，保留失败与未验证状态。1598 hosts 或邮件 found 计数不代表1598个漏洞，也不证明所有主机当前存活/归属；本次仅提炼已保存截图，不启动通知或扫描任务。\n\n来源：[保存帖1](https://x.com/i/status/1661790671630467083)。\n\n保存图片 `1661790671630467083-02.jpg`：1598hosts发现曲线非1598漏洞，时间增量主机身份归一化。本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1661790671630467083-04.png`：邮件subdomain/XSSfound计数不同单位，不能由notification推定漏洞或liveasset。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/xss.md",
+    "自动化 XSS 结果必须回到真实上下文",
+    "扫描器生成的反射 URL、autofocus/focus handler 说明只是候选；需保留单次请求、原始反射、DOM 解析、事件触发、origin 与 CSP，再以安全编码和无事件对照。报告中的 should execute、工具名称或大规模自动化标题没有实际执行证明；字符反射、DOM sink 及保护能力分别核对，不把通知或 logo 视作复现成功。\n\n来源：[保存帖1](https://x.com/i/status/1661790671630467083)、[保存帖2](https://x.com/i/status/1663409589444833283)、[保存帖3](https://x.com/i/status/1663557574451671043)。\n\n保存图片 `1661790671630467083-03.jpg`：scanner reflected stpReq编码打断属性插入autofocus focus handler confirm，URL右端截断；报告说should execute无实际DOM/执行证据。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "cloud/cloud-misconfiguration.md",
+    "备份中 AWS 字段与云权限使用分层证据",
+    "正文声称 backup_1 中 AWS key 能上传/下载。分别绑定备份来源、字段类别、密钥用途/权限范围、项目与允许操作，先以脱敏结构和自有测试 key 确认语义；S3 对象操作不等于 AWS 账户接管。无真实最小对象证据时不推全部权限，不下载整包、使用发现的他人密钥或进行真实对象写入。\n\n来源：[保存帖1](https://x.com/i/status/1661793488743067650)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "Argo CD 错误差异只能证明受限应用存在性线索",
+    "保存 CVE-2022-41354 摘要说明已认证但无权限用户，由 not found 与 unauthorized 判别应用名；为了 RBAC 的 project/namespace 信息先 fetch 应用。匿名用户不走该资源 fetch，补丁将缺失和没权统一错误。用自有存在/不存在及允许/拒绝应用比较错误，不能从应用名可见推内容读取/修改权限或匿名 Kubernetes API 可达。\n\n来源：[保存帖1](https://x.com/i/status/1661839905012457472)。\n\n保存图片 `1661839905012457472-02.jpg`：ArgoCDCVE2022-41354已认证没权API错误notfound vs unauthorized可判应用名，RBAC前按projectnamespace需fetch，匿名不fetch，补丁uniformunauthorized，历史版本声明不当前。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "历史源站 IP 需绑定当前 Host 与 SNI",
+    "DNS 历史可发现候选源站地址，但必须核对时间、归属、当前 Host/SNI、服务实例和范围。仅开放地址或看到站点不证明绕过 Cloudflare/WAF；比较同一受保护业务请求在允许入口与候选入口的身份、拦截及最终动作。P4 赏金标题不是通用等级，不按历史地址盲扫。\n\n来源：[保存帖1](https://x.com/i/status/1661918927763697665)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "管理员审批状态必须由登录消费者复核",
+    "审批前开发者账户登录的标题指向待批准、拒绝、已批准状态到会话发放的边界。用自有身份比较注册、审批、登录及保护 API，确认服务器是否在最终消费者复核资格。P4/Resolved 图没有审批参数或响应，不补造绕过动作，不能把单纯创建用户记录当获得开发者权限。\n\n来源：[保存帖1](https://x.com/i/status/1661960685008429056)。"
+  ],
+  [
+    "by-type/csrf.md",
+    "双重提交值相等还需确认浏览器可构造请求",
+    "正文称 token 和 cookie 都设为1，保存图仅有 X-Csrf-Token:1、JSON、自定义头及 200/success。分别证明 cookie 设置来源、会话绑定/签名、Origin、SameSite、跨站预检和最终地址状态。代理可改任意头不代表受害浏览器可发送同一请求，200 不证明状态改变；自有本地夹具比较正确/错误绑定，不修改真实用户地址。\n\n来源：[保存帖1](https://x.com/i/status/1661973672658104321)。\n\n保存图片 `1661973672658104321-02.jpg`：X-Csrf-Token1 application/json XRequestedWith请求200success，Origin/cookie/前后地址遮盖；重放≠浏览器跨站成功，customheader预检cookie写入finalstate需证。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/ssti.md",
+    "客户端模板求值与服务器模板求值分别定位",
+    "CSTI 介绍指用户输入被前端动态模板消费。用自有文本标记定位浏览器框架、解析入口、求值和输出 sink，与字面输出/安全编码对照；同时保留 CSP 与事件条件。CSTI 封面和模板字符串不证明服务器求值，客户端计算也不自动 XSS 或 RCE，缺引擎/响应时不能指定通用载荷。\n\n来源：[保存帖1](https://x.com/i/status/1662022828462596103)。"
+  ],
+  [
+    "source-audit.md",
+    "选择安装工具仍需确认依赖和实际动作",
+    "PDTM 的指定工具列表与私有 bin 位置可整理工具管理方式。记录需要的具体功能、版本/hash、依赖来源和配置，用离线清单审查输出/副作用；选装比数量更能说明用途，但不构成运行授权。安装命令图片未证明已安装、测试结果或安全性，本次不执行安装。\n\n来源：[保存帖1](https://x.com/i/status/1662055191841996801)。\n\n保存图片 `1662055191841996801-02.jpg`：pdtm-i指定工具列表与私有bin路径，选装减少工具但不授权运行，版本哈希依赖/配置审查。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/cors.md",
+    "JSONP 回调与跨域读取使用不同浏览器规则",
+    "Param Miner 找到 callback 参数后，需确认响应是否真以脚本方式消费、callback 控制、实际数据、凭据和 Content-Type/CSP；脚本加载与 CORS fetch 响应读取不同。所有 API 都有 callback 的声称不能由一项参数命中推广，API key 名称也不证明秘密泄露。用自有对象与禁止 callback/跨域请求对照，不调用实际敏感接口。\n\n来源：[保存帖1](https://x.com/i/status/1662063531435458560)。"
+  ],
+  [
+    "by-type/oauth-oidc.md",
+    "SSO 清单落到协议、身份与会话不变量",
+    "20项图涵盖认证发放/校验、token 修改/过期/吊销、CSRF、角色授权、会话固定、单点登出、SAML、协议互通、错误、IdP/SP、MFA、传输、身份映射、超时、头和扫描。按实际 OAuth/OIDC/SAML 流程选择条件，为每项定义合法/拒绝对照与保护结果；单点登出按部署策略核对，并非任意 token 应同时失效。清单不是20个漏洞或已测试证据，不运行泛化扫描。\n\n来源：[保存帖1](https://x.com/i/status/1662072472622223361)。\n\n保存图片 `1662072472622223361-02.png`：20项SSOchecklist auth/token校验到期吊销CSRF授权会话singlelogoutSAML协议错误IdPSPMFAtransportidentitymappingtimeoutheadersscannerpentest，要协议-specificexpectedproof不是20漏洞。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "cloud/container-k8s-security.md",
+    "构建目录权限与容器内 root 的影响分别界定",
+    "Cloudflare Pages v2 摘要称可替换两项构建可执行文件取得构建容器 root；目录却仅描述 user-readable，必须另证写权限或可替换父路径。审查实际 owner/mode、执行时身份与容器隔离，比较拒绝修改与自有普通构建产物。摘要明确 key 仅访问用户自己的 Pages，不能推宿主机 root/跨租户；权限收紧声明不是本次复测结果。\n\n来源：[保存帖1](https://x.com/i/status/1662096608002027520)。\n\n保存图片 `1662096608002027520-02.jpg`：Pagesv2目录描述user-readable但称能replace2exec build提升root，要writable或ancestor权限证实；keys只用户自身Pages容器，不证明跨租户或hostroot，tighten perms。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "source-audit.md",
+    "前端格式化与匹配替换作为受控观察工具",
+    "断点、格式化和 Burp match/replace 可帮助定位 JavaScript 输入与运行栈。保留原响应/version/hash、替换规则、浏览器路径和原/改对照，避免页面改动造成新行为误判。客户端 hook 或 UI 改值不能证明服务端接受越权，不用替换后的响应冒充原始漏洞证据；正文未保存完整文章，不补其实现。\n\n来源：[保存帖1](https://x.com/i/status/1662111378067578880)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "通过代理导入 URL 与浏览器行为分别记账",
+    "保存管线以10并发 curl 经本地8080代理导入历史 URL，并丢弃 stdout；代理仍可能保留请求/响应。绑定原 URL、范围、时间、请求身份、响应与失败，限定样本和预算，记录 -k 的 TLS 验证差异。curl 的 HTTP 流量不执行浏览器 JS，也不能证明浏览器打开千条不崩溃，不实际批量导入请求。\n\n来源：[保存帖1](https://x.com/i/status/1662114114901254147)。\n\n保存图片 `1662114114901254147-02.png`：parallelj10curl proxy127.0.0.1:8080 -sk输出devnull，Burp历史GET200/404；curl导入非浏览器JS，丢stdout仍代理持久化，scope/time/requestIDbudgetTLS必须记录。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/xss.md",
+    "历史错误页 XSS 需确认具体版本和输出分支",
+    "正文声称 cPanel CVE-2023-29489 能利用403页。确定历史组件版本、可控字段、错误分支、编码及真实浏览器执行，以安全文本/拒绝输出对照。403 是状态而非漏洞特征，不能推所有403或当前所有部署；标题和存续天数不补实际 payload/响应，本次不发送载荷。\n\n来源：[保存帖1](https://x.com/i/status/1662117863753170945)。"
+  ],
+  [
+    "by-type/ssrf.md",
+    "file URL 处理与边缘规则命中是两层边界",
+    "PDF status_url 示例以 file scheme 读取本地资源：一图敏感路径得到 Akamai403，另三图显示调度、网络表及配置内容。分别确认后端 URL consumer 支持的 scheme、canonical 路径、运行身份与边缘拦截，使用自有无害文件及明确拒绝对照。单个403不证明全面阻止，几项响应也不证明全部文件、HTTP内网或云元数据可读，不重复读取真实系统资源。\n\n来源：[保存帖1](https://x.com/i/status/1662120186093371393)、[保存帖2](https://x.com/i/status/1662120588922740737)。\n\n保存图片 `1662120186093371393-02.png`：PDFstatus_url=file etc/passwd收到Akamai403只有被拒，没有取文件证明。本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1662120588922740737-02.png`：同PDFstatus_url file proc sched_debug返回调度信息，响应截头；受控非敏感资源scheme证和请求链不能推所有路径读取/RCE。本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1662120588922740737-03.png`：file proc net arp回网络表并露sessioncookie，应脱敏仅最小样本；不能从file本地读推云metadata访问。本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1662120588922740737-04.png`：file etc login.defs回配置，未证明权限绕过任意文件全部读取，前后WAF与backendscheme两层分开。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/xss.md",
+    "XSS 标签以持久化和真实浏览器 sink 划分",
+    "保存图片列 reflected、stored、DOM-based 三类。分别记录数据是否来自响应/持久存储、是否经客户端解析、实际 sink、事件和执行 origin，以字面输出/安全编码对照；这些维度可能交叠。看到标签、返回输入或脚本样字符串不说明执行成立，封面不补课程内容。\n\n来源：[保存帖1](https://x.com/i/status/1662132441241337859)。\n\n保存图片 `1662132441241337859-03.jpg`：reflected stored DOM三个标签按入参持久化和浏览器sink定位，不互斥或见字符串即XSS。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "source-audit.md",
+    "同步 DNS 超时的全局跳转缓冲区需并发隔离",
+    "curl CVE-2023-28320 摘要要求同步 resolver 构建，用 alarm/siglongjmp 超时，全局缓冲区无 mutex 时多线程可能崩溃。绑定构建选项、平台、resolver、信号和上下文生命周期，离线极小并发夹具对比互斥/独立状态。影响摘要称 likely DoS、其它 possible，不能转成已证明 RCE 或异步 resolver 均受影响，不诱发目标崩溃。\n\n来源：[保存帖1](https://x.com/i/status/1662172087362961418)。\n\n保存图片 `1662172087362961418-02.jpg`：curl同步resolver编译选项alarm siglongjmp全局buffer没mutex多线程crash likelyDoS其他仅possible，不覆盖异步resolver/证RCE。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/ssti.md",
+    "模板标记命中保留单次 URL 和求值对照",
+    "qsreplace 放入9*9再并行 curl/grep ssti81，仅给出合并输出标记。需保留各 URL、参数、原始响应与身份，并比较原文、另一简单表达式、字面81及缓存/正常生成结果，再确认服务器引擎消费者。grep 丢失归属，浏览器/普通内容也可能产生81；没有这些证据不能确认 SSTI，50并发不是验证方法，本次不执行管线。\n\n来源：[保存帖1](https://x.com/i/status/1662194943530508290)。\n\n保存图片 `1662194943530508290-02.jpg`：parallel50curl-g grep ssti81输出只有标记，无URL身份/原始对照；9*9渲染线索非server/template proof。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "API 对象授权需绑定文档操作与最终资源",
+    "API 文档能帮助列 endpoint、对象 ID、动作和角色，但文档列出参数不授访问其它对象。用自有 A/B 与允许/拒绝身份比较单对象、列表、读写消费者和最终状态；技术集合/triage 截图不证明全部 API 都存在 IDOR。把跨对象问题与 CSRF 会话携带条件分开，避免泛化每个入口或真实用户枚举。\n\n来源：[保存帖1](https://x.com/i/status/1662253636691345409)。"
+  ],
+  [
+    "by-type/csrf.md",
+    "状态方法与资源加载路径按真实浏览器请求核验",
+    "POST改GET、avatar/img加载动作URL和 SameSite=Lax 都需要实际方法、cookies、Origin/Fetch metadata 和最终状态。Lax 并非只限制 POST：跨站顶层导航与子资源携带条件不同，同源页面植入 img 又是另一场景。确认 target 是浏览器加载还是服务器代理，以自有可恢复状态和拒绝方法对照；正常200、img HTML或删token重放不证明跨站动作成功，也不能由客户端img请求推SSRF。\n\n来源：[保存帖1](https://x.com/i/status/1662253636691345409)、[保存帖2](https://x.com/i/status/1662482794147135488)、[保存帖3](https://x.com/i/status/1662692677870125059)、[保存帖4](https://x.com/i/status/1662902308324229121)、[保存帖5](https://x.com/i/status/1663152454245175297)。\n\n保存图片 `1663152454245175297-02.jpg`：change_photo filename相对change_password URL被放imgsrc，profile响应回img；展示为客户端sameorigin GET action chain候选，未显示密码最终变更不是serverSSRF，需受控账号会话和GETstatechangeguard。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "scope-and-rules.md",
+    "限流验证不能以更换来源默认扩大授权",
+    "Tor 绕过标题只有验证方向，没有已保存机制全文。实际评估应先明确允许的账号、来源、动作和极小次数预算，区分 limiter key、窗口、延迟拒绝及最终持久结果。代理更换并不授权规避项目限制，也不证明限流完全无效；本次不安装代理或测试真实登录。\n\n来源：[保存帖1](https://x.com/i/status/1662511035843231745)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "AEM 候选路径先核产品和各路由权限",
+    "content/dam 文档查询与 Sling/AEM 管理、CRX、JCR、配置、query、replication 和 content selector 路径属于候选线索。保留索引时点、产品识别、具体 selector/depth、编码及匿名/允许身份，用自有公开/受限资源比较最小字段。路径名或历史命中不证明当前AEM/版本/owner，管理页面出现不等于全部树可读，不抓全树或所有配置。\n\n来源：[保存帖1](https://x.com/i/status/1662546682435846144)、[保存帖2](https://x.com/i/status/1663258920658534400)。\n\n复用图片 `1662546682435846144-03.jpg`：content/dam与txt搜索结果只支持历史AEM候选，不证明当前产品版本或scope。复用先前已实际核验相同 SHA 的图片记录，不新增视觉 ledger。\n\n复用图片 `1663258920658534400-02.jpg`：AEM/Sling长路径含管理/配置/JCR/query等，需绑定selector/depth与具体资源ACL，不抓全树。复用先前已实际核验相同 SHA 的图片记录，不新增视觉 ledger。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "被动 DNS 保留观测时间和记录类型",
+    "保存界面列 record type、query/answer、first/last seen、次数及 TTL。将这些作为来源观察，而不是当前解析、服务状态或资产权属；对同记录和时点保留去重映射，必要时仅在已授权范围独立确认。答案遮挡时不补真实地址，查询次数不代表漏洞数量，本次不发新查询或探测历史 IP。\n\n来源：[保存帖1](https://x.com/i/status/1662676974794407939)。\n\n保存图片 `1662676974794407939-02.jpg`：passiveDNS recordtype queryanswer first/lastseen #times TTL，答案遮盖；观测次数≠owner/vuln、lastseen非当前解析。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "备份文件候选与下载体积不能代替内容证明",
+    "域名/旧文件名构造 tar/zip/bkp 是候选策略，原帖的逗号字符不能静默当成域名点号。两张保存图显示 CDN tar.bz2 下载684.26M且文件/目标隐藏，不能从体积判敏感数据。记录来源、响应类型与最小自有字段，对照 soft404/公开文件；不下载完整备份或据生成词表遍历真实文件。\n\n来源：[保存帖1](https://x.com/i/status/1662805448150646784)、[保存帖2](https://x.com/i/status/1663218134583500805)、[保存帖3](https://x.com/i/status/1663390525410660353)。\n\n保存图片 `1662805448150646784-02.png`：wget CDN tar.bz2下载684.26M 717496584byte截图，隐藏host档名内容，体积非敏感内容证明，不再下载。本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1663390525410660353-02.jpg`：另一归档帖同下载截图略不同文件hash，684.26M717496584bytes，隐藏内容不重取。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/sql-injection.md",
+    "SQLi 正则数量与真实数据库求值分开",
+    "SQLiDetector 的14载荷/152正则是工具规则数量，不是14个或152个已验证 SQLi。先绑定请求位置、数据库/驱动、原始基线、错误差异和自有极小条件对照，排除公开错误文字/缓存/业务失败。扫描命中需完整单次请求证据，不能按数量推全覆盖或数据库读写权限，不执行批量载荷。\n\n来源：[保存帖1](https://x.com/i/status/1662816575194558464)。\n\n复用图片 `1662816575194558464-02.jpg`：14payloads/152regex是SQLiDetector规则数量，不是SQLi验证结果。复用先前已实际核验相同 SHA 的图片记录，不新增视觉 ledger。"
+  ],
+  [
+    "source-audit.md",
+    "模板收集完成需记录失败、去重和实际版本",
+    "AllForOne 保存终端显示118仓库进度完成、99160文件复制，同时三项 clone 失败。保留各仓库/version/hash、下载失败、去重后的文件与模板动作审查；copied 数量不等于 unique、有效或安全模板。仓库URL清单不是模板全文，远程载荷可含写入/回调，不能把收集进度当已审或授权执行，本次未克隆/运行。\n\n来源：[保存帖1](https://x.com/i/status/1662828573428686848)。\n\n保存图片 `1662828573428686848-02.png`：AllForOne进度118repos99160templatefiles但3clonefailed；copied计数非uniquevalid/safe。本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1662828573428686848-03.png`：多仓库URL列表非模板全文、commit/hash；收集不可当已审运行。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "归档 URL 验活脚本原字符与真实失败须保留",
+    "正文的引号/选项和输出写法存在歧义，不能静默修补再称原脚本验证成功。分清URL来源、采集时点、HTTP方法、最终URL、响应/失败、输出文件映射，以离线自有少量夹具审查。历史命中、curl状态或跳转不证明当前scope和可利用端点，不批量请求或自动跟随域外目的地。\n\n来源：[保存帖1](https://x.com/i/status/1662936785503272960)。"
+  ],
+  [
+    "by-type/open-redirect.md",
+    "历史查询参数筛选只是重定向候选",
+    "保存管线从 subfinder、httprobe、waybackurls 到去重/query筛选，再指定外链 Nuclei 模板。分别保留域名/URL单位、来源时点、失败和模板版本，最终以自控允许/拒绝目的地比较原始 Location、各跳及浏览器origin。参数存在不证明外跳，外链模板未保存不补其匹配逻辑，不执行自动重定向测试。\n\n来源：[保存帖1](https://x.com/i/status/1662985239793135619)。\n\n保存图片 `1662985239793135619-02.jpg`：subfinder→httprobe→Wayback→sortuniq query筛选→NucleiURLredirectiontemplate外部未存；stageidentity/source/status与Location终跳客户端serverredirect不同，未执行。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/xss.md",
+    "邮箱或图片回调应辨明 HTML 与 JavaScript 消费",
+    "引号邮箱/标签和脚本被过滤后换图片源，可帮助列解析与输出检查点。确认邮箱 schema、存储字段、HTML sink、浏览器/代理图片获取及事件/CSP，以无害标记与转义反例比较。图片请求不证明JavaScript执行，亦不能单独证明服务端SSRF；“70%有效”无样本依据，不当普遍成功率，不发真实邮件/盲回调。\n\n来源：[保存帖1](https://x.com/i/status/1662999169194430464)、[保存帖2](https://x.com/i/status/1663187884063735809)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "TLS 与 nginx 搜索不能确认 Django 调试模式",
+    "保存图只有 Shodan 的 TLS域名/nginx 产品筛选，正文却称找 Django debug。该条件不包含 Django/DEBUG 证据；需绑定历史索引、实际应用、错误页类型及最小调试字段，用正常错误与关闭debug的自有夹具比较。证书域名和代理banner不能证明DEBUG暴露、当前owner或秘密内容，本次不查询真实目标。\n\n来源：[保存帖1](https://x.com/i/status/1663048819339132928)。\n\n保存图片 `1663048819339132928-02.jpg`：Shodan ssl target product nginx查索引，标题找DjangoDebug但查询无debug特征；TLSnginx不能证明Django/DEBUG。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "impact-and-acceptance.md",
+    "PII 的字段、权限与用户动作分别定影响",
+    "Indeed 参数及 JS route 的正文称需交互、通常P3，但赏金图隐藏参数与对象。确认实际字段敏感性、主体/对象权限、用户动作、人数和最小受限样本，与公开设计/自读作对照。交互不自动固定P3，奖励金额也不证明任意用户PII可读，无响应时不能补范围。\n\n来源：[保存帖1](https://x.com/i/status/1663067326500184065)。"
+  ],
+  [
+    "by-type/smart-contract.md",
+    "eMode 价格源分支需要明确零地址与回退语义",
+    "Morpho _getAssetPrice/isInEMode 描述涉及 priceSource 为零地址的分支。定位对应合约版本和canonical oracle，比较eMode开关、零/非零来源、回退及价格不变量；在自有本地夹具记录边界，不由标题指定真实价格或损失。已修复历史声明和封面没有代码/交易，不能推当前链受影响，不发链上交易。\n\n来源：[保存帖1](https://x.com/i/status/1663109520690925568)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "方法覆盖应在各层按最终动作统一校验",
+    "POST中 _method 选择PUT/DELETE可能被框架转换，需分别记录原方法、覆盖字段解析、代理路由、认证/CSRF/授权校验顺序与最终消费者。用自有可恢复普通动作比较合法方法、拒绝覆盖及未知方法。字段存在或服务器受理不证明删除/修改成功，不能由代理看到POST推所有业务检查仍按POST进行，本次不发送写入操作。\n\n来源：[保存帖1](https://x.com/i/status/1663111939642253313)。"
+  ],
+  [
+    "by-type/csrf.md",
+    "相对图片路径不能赋予目标动作免验证",
+    "保存示意将 change_photo 的 filename 写成相对 change_password 路径并回到 img src。此时可能由访问页面的浏览器发起同源GET，应检查URL解析、受害会话、消费者是否以GET改变密码以及动作确认/CSRF边界。回显HTML并未显示密码状态变化，不能称服务器取址或任意ATO，用自有可恢复状态和禁止动作GET作反例，不改真实密码。\n\n来源：[保存帖1](https://x.com/i/status/1663152454245175297)。"
+  ],
+  [
+    "by-type/iot-security.md",
+    "路由器恶意链示意保留初始执行前提",
+    "GobRAT 图从 SSH 执行开始，后续loader下载、daemon/start脚本、ELF创建/执行再连C2。按防守证据划分SSH身份/命令、文件hash、权限/持久化和网络时序，以合法维护流程作对照。图未解释初始SSH访问如何获得，不能由后续链推某路由器漏洞，本次不下载loader/ELF或连接C2。\n\n来源：[保存帖1](https://x.com/i/status/1663197099968847873)。\n\n保存图片 `1663197099968847873-02.jpg`：GobRAT图SSH已有执行→C2loader→daemon/startscriptELF下载创建执行→C2连接，未解释初始SSH破口；可提取防守阶段证据不运行恶意链。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/csrf.md",
+    "CSRF token 数组必须保持严格 schema",
+    "正文提出 csrf token[]/空数组，需保留原参数、解析后类型及验证函数。比较正确标量、错误标量、空值、数组和明确拒绝输出，确认是否 fail closed、会话绑定与真实动作；解析接受不自动通过校验。缺少框架代码/响应时不推某PHP版本或全部token绕过，不实际改变他人状态。\n\n来源：[保存帖1](https://x.com/i/status/1663321822639833090)。"
+  ],
+  [
+    "discovery/client-and-cloud.md",
+    "页面端点提取应保留异步与浏览器访问限制",
+    "保存console脚本从script src fetch正则匹配及outerHTML收集，再Set去重/3秒后document.write。静态字串只是候选，需记录原响应、source位置、执行路径、URL解析和范围；CORS、延时竞态、inline/module可能遗漏。不能按固定延时保证抓全，原样document.write会破坏页面或解释HTML，应以文本保存结果，本次不运行外站脚本。\n\n来源：[保存帖1](https://x.com/i/status/1663404259180675072)。\n\n保存图片 `1663404259180675072-02.jpg`：console脚本document scriptsrc fetch+regex与outerHTML matchAll→Set延时3sdocument.write输出；CORS/异步race inline/modules遗漏，document.write破坏页面不可将提取值原样HTML，静态文本显示。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/xss.md",
+    "Merge Request 分支名渲染依赖具体 rebase 条件",
+    "GitLab 报告要求semi-linear或fast-forward merge、需要rebase、访问者不能push source branch、目标分支名含HTML。逐项绑定历史版本、分支数据、错误/提示消费者、编码和执行origin，用自有合法名称/安全转义对照。四项条件不能省略，2019 的 latest Docker示意不是当前受影响版本，不启动容器或在真实仓库写恶意分支名。\n\n来源：[保存帖1](https://x.com/i/status/1663448032765960192)。\n\n保存图片 `1663448032765960192-02.jpg`：GitLab MR storedXSS分支名，semilinear或fastforward且需rebase且viewer不能pushsource四条件，无效图片onerror sink候选；latest2019非当前version，不launchDocker。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/ssrf.md",
+    "FogBugz 导入 URL 与后台登录请求按时序关联",
+    "保存GitLab导入示例把用户输入URL指向同容器loopback listener，截图有POST api.asp及登录字段。以自有回调和最小无害字段证明导入后端发起请求、目的地解析/重定向约束及发送凭据，区分浏览器导航。Duplicate状态不抹除机制，但一个本地回调不证明任意内网/数据读取，本次不启动listener、重放请求或复制登录字段。\n\n来源：[保存帖1](https://x.com/i/status/1663448135299940353)。\n\n保存图片 `1663448135299940353-02.jpg`：GitLabFogBugzimport用户URL localhost12345容器内netcat显示POST api.asp带cmd/logonemailpwd，import后台请求证而非clientredirect；duplicate不否机制、脱敏凭据不运行。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/subdomain-takeover.md",
+    "可认领服务名与 CSP 指令能力分别证明",
+    "保存Fastly报告称自动生成freetls域可由另一账号控制，且GitLab的connect-src包含该域。分别确认历史DNS/服务绑定、被认领域、CSP实际指令和客户端consumer，用自有服务配置与拒绝绑定对照。connect-src仅约束连接，不能直接授权script执行；执行代码还需独立XSS/脚本sink条件，不开户或认领真实域。\n\n来源：[保存帖1](https://x.com/i/status/1663448237640908800)。\n\n保存图片 `1663448237640908800-02.jpg`：Fastly自动freetls主机名可由别账户认领已在GitLabCSPconnectsrc白名单；connectsrc不授权script执行，额外XSS/代码sink前提和实际claim独立证，不开户。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/saml-sso.md",
+    "RelayState 保存后的下一次登录重定向需独立校验",
+    "GitLab摘要称SAML登录POST的RelayState外跳被保存在cookie，后续signin又导航。审查协议回调/返回URL规范化、会话与浏览器状态绑定、可保存/可消费时点，以自控允许/拒绝目的地比较每跳。token偷窃断言没有完整保存的第三方交换链，开放重定向、持久导航与各OAuth token consumer分别证明，不推所有第三方ATO。\n\n来源：[保存帖1](https://x.com/i/status/1663485784618311680)。\n\n保存图片 `1663485784618311680-02.jpg`：GitLabSAMLRelayStateURL不充分校验redirect且cookie保存，后续signin再次转，作者token偷窃断言而截图未完整oauth链；persistentnextredirect独立state/callback/tokenconsumer，不推所有第三方ATO。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/xss.md",
+    "回调中的 cookie 样字符串不补齐完整执行链",
+    "保存Collaborator记录有DNS/HTTP、favicon请求与Referrer中编码的cookie样字段。绑定唯一标记、请求类型/来源、时间与脱敏最小类别，再找真实写入字段、浏览器sink、执行origin和受害身份。回调能证某网络活动，却不单独证明谁执行了JS、哪些cookie可读或账号接管，避免传播真实token/个人ID。\n\n来源：[保存帖1](https://x.com/i/status/1663492615277355008)。\n\n保存图片 `1663492615277355008-02.png`：CollabDNSHTTP favicon GET Referrer含大量URL编码cookie样串，HTTP来源可脱敏关联，非JS源sink或被害身份完整证明，勿复制token/userIDs。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/csrf.md",
+    "异常 Content-Type 差异先验证浏览器与后端解析",
+    "正文用 text/plain 后附 application/json 声称跨站绕过。保留精确header字节，确认浏览器是否允许构造而无需预检、后端真正采用的媒体类型、cookie/Origin与动作guard，再以自有正常/拒绝样本比较最终状态。多个类型字串不能当合法JSON声明，也不能保证所有浏览器/框架解析相同，缺请求链时不判通用CSRF。\n\n来源：[保存帖1](https://x.com/i/status/1663531454515609602)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "JSON 包装对象不应信任其名称赋予权限",
+    "保存图声称root array能登录管理员，实际示例是嵌套root对象。审查schema、解包规则、凭据验证、角色映射及最终会话保护能力，用自有平坦/合法对象和拒绝嵌套输入对照。root字段名不提供管理员身份，JSON对象也不是数组，缺服务器响应不能称认证绕过，不尝试真实账户。\n\n来源：[保存帖1](https://x.com/i/status/1663532460825620483)。\n\n保存图片 `1663532460825620483-02.jpg`：root对象包emailpassword帖称root array实为JSONobject不是array，输入binding解包/角色信任/credentialcheck需看server，未响应不证admin。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/oauth-oidc.md",
+    "Expo return URI 状态污染需绑定合法登录交易",
+    "两图显示正常移动登录经Expo/Facebook回到应用scheme，以及攻击示意先污染ru/returnUrl再让后续token去外域。审查大小写/URL规范化、allowlist、租户/应用、cookie/state、回调与发起交易绑定，以自有正常/拒绝URI逐跳比较。图是流程示意而非当前真实抓包；Facebook许可与最终token消费者不能省略，不推广所有使用Expo的站点或交换真实token。\n\n来源：[保存帖1](https://x.com/i/status/1663553348119801857)。\n\n保存图片 `1663553348119801857-02.jpg`：Expo exploit图混合大小写returnUrl保存ru外域，后续FBtoken到auth.expo.io再发attacker fragment/query，污染会话callback状态绑定示意未真实抓包。本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1663553348119801857-03.png`：正常mobileExpoFB回调图ru codeacademy scheme expoauthsession channelcode token，两图可对比合法returnURI/租户/app/session绑定；URL图不证全部站受影响。本段仅使用实际查看的保存原图，不补未保存内容。"
+  ]
+]

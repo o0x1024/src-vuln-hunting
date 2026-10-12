@@ -1,0 +1,115 @@
+0|no_technical_content|sql|SQL意大利语视频封面未展示查询、响应或消费者。
+1|distilled|scope,secret|Slack用户邮件可见性卡片；角色、成员/guest与隐私规则须核对，不等当前默认值或访问授权。
+2|distilled|records,passive|SubCrawl终端8hosts34URLs、CLAMAV Winware2matches；签名输出数不是已确证恶意样本或漏洞数。
+3|no_technical_content|scope|RCE out of scope梗图没有技术过程或授权规则。
+4|distilled|records|SysFlow Collector/Exporter/Object storage/Search Analytics架构分层；图不证明真实采集/导出/查询回执。
+5|no_technical_content|ssrf|DNS rebinding 2000奖励封面无DNS解析或实际请求链。
+6|distilled|access,takeover,ssrf|通讯可读SNS入口、DELETE消息权限、删桶后构建脚本引用；JDBCXXE/hashcollisionDoS只有标题，4.4m未验证。
+7|no_technical_content|passive|Terra星球图无账号、来源查询或数据流。
+8|no_technical_content|report|Houzz致谢名单无具体漏洞证据。
+9|no_technical_content|takeover|Wapiti仓库封面不证明新增模块执行/接管。
+10|distilled|web,records|fromOpenapi3转换命令输出json扩展名但可见YAML，须检查真实语法及v3/v2语义丢失，不安装执行。
+11|distilled|web,records|Parser显示POST路径行282至319，导入表格不证明调用或项目授权。
+12|distilled|source|Win64线程模块/ntdll/TOTALCMD与地址图仅堆栈显示；PC、真实模块映射和既有权限独立，未证防护绕过。
+13|distilled|ssrf,source|AWS SNS InvalidAction错误回显PEM公有证书；不是私钥或代码执行回执，不能替代webhook验签链。
+14|insufficient_technical_detail|xss,experiment|Google Hangouts绑定GET带cookies画面与Alibaba订单反馈自述不匹配，缺存储/阅读/执行，不复制cookies。
+15|no_technical_content|records|VECTR标志无实际测试/证据流程。
+16|distilled|files,xss|RDF XML含XHTML namespace/script静态字节，需MIME、origin与XML/浏览器读者，不证明执行。
+17|distilled|source,csrf|奖励图标WordPress核心<4.8.5，正文称插件；组件/版本混用需纠正，金额不证明插件CSRF。
+18|distilled|records,passive|Webdiscover树显示DNS/subfinder/gospider/nmap/nuclei产物文件名，需阶段输入/内容/哈希而非凭文件名计洞。
+19|distilled|deser,source|ParseViewContext代码TypeNameHandling=1/DeserializeObject<AlertingActionContext>，需外部ViewContextJsonString及binder/兼容类型；1为Objects。
+20|no_technical_content|secret|server-status P3 Unresolved标题缺实际页面字段与访问条件。
+21|no_technical_content|report|PayPal300收款凭证无技术过程。
+22|distilled|auth,client|动态JS包含OTP/客户端检查的可读段，需挑战与服务端最终授权独立核对，不只比较UI。
+23|insufficient_technical_detail|cmd|本地HTML链接示例和计算器提问无calc启动或初始代码执行证据。
+24|distilled|report|Google6000邮件述同根因其他端点重复与1000酌情奖励，分别记根因/变体/奖励原因。
+25|no_technical_content|scope|TikTok致谢排行不构成当前项目范围或授权。
+26|no_technical_content|auth|KeeWeb演示vault界面不是生产秘密或认证绕过。
+27|distilled|access,business|发票1/2数据库到exportInvoices示意是直接对象引用，未画保存队列/worker；二三阶需多消费阶段证据。
+28|distilled|ssrf,records|Lorsrf stdin参数/客户端与Flask9991监听，仅可用性画面；没有回调或请求源证明。
+29|distilled|waf,sql|localhost403是被阻基线，未展示MySQL1.e成功解析或差分，不能确认WAF bypass。
+30|distilled|report|更早报告重复通知强调时间和根因，未包含技术复现。
+31|no_technical_content|access|notForbidden封面没有权限差分。
+32|no_technical_content|redirect|P4 Triaged重定向标题没有Location/最终浏览器origin。
+33|distilled|logic,xss|Repeater Referer输入在href/GoBack出现，仅回显消费，不等持久内容改变或身份权限。
+34|distilled|logic,xss|Content Modified页面/200与Referer导航字段，缺实际修改前后持久状态，不能据状态码认定越权。
+35|no_technical_content|records|pr0xyP4rs3封面无导入请求回执。
+36|no_technical_content|records|安装视频封面无配置或运行数据。
+37|distilled|web|SHADOW图从Swagger API路径/模型/embedding发现端点，文档表示不等当前可达/私有权限。
+38|no_technical_content|strategy|职业演讲封面无可读技术幻灯。
+39|distilled|secret,records|aws_key内容搜索44候选和错误信息，没有可见有效密钥；不可用计数代替验证。
+40|distilled|secret,records|Whoops4549及500/404、Apache版本/响应头字段仅错误匹配，来源/响应/字段语义需核对。
+41|distilled|report|N/A→Triaged→Pending Low→High7.5是报告状态轨迹，无具体漏洞链。
+42|no_technical_content|auth|DonPAPI标志不证明凭据采集/解析。
+43|no_technical_content|strategy|Rookies Discord活动广告无保存正文。
+44|distilled|records,source|本地multipart curl/存储/cat文件示例依赖发送者既有权限；收到内容不等最初入侵或远程凭据外传。
+45|distilled|source|VT1/67、ESET Adware、AUTOIT和EXE名是样本标签/检测，精确哈希/来源/时间另记，不判所有Burp版本安全或恶意。
+46|no_technical_content|report|TeamHumanity公告没有技术证据。
+47|distilled|scope|VDP搜索dork卡片仅发现候选页面，不是官方现行规则或自动授权。
+48|distilled|scope|security.txt/奖励等字符串须查询语法/官方来源/版本核对，含空格的site示例不保证正确命中。
+49|insufficient_technical_detail|source|Ripper whoami/rootflag只给靶场终态，缺初始入口/权限路径。
+50|distilled|auth,experiment|认证图覆盖登录/注册/重置/2FA分支，用于主体/状态/动作对照，不执行猜码/喷洒或推广通用绕过。
+51|no_technical_content|impact|Critical18kATO/HighPII报告标题未给角色、字段或人数统计依据。
+52|no_technical_content|records|HTTP1.0/1.1二进制梗图未展示真实收发解码；正文信道概念另提炼。
+53|distilled|xss,secret|Firefox Lucee5.2.9.31 missinginclude路径错误页与domain弹窗，历史特定消费观察不证通用RCE或cookie泄露。
+54|distilled|secret|Symfony4.4.7 welcome与usr/src路径不是profiler数据/私钥或RCE。
+55|distilled|redirect,ssrf|可信名称置于攻击host子域/URL路径示意，须解析完整host/点边界而非字符串包含。
+56|no_technical_content|cmd|GC2标志没有既有implant/Google权限或执行回执。
+57|no_technical_content|sql|SQL form课程封面没有实验内容。
+58|no_technical_content|sql|SQL filter课程封面没有消费者或SQL结果。
+59|no_technical_content|sql|SQL boolean课程封面未提供真假对照。
+60|no_technical_content|sql|SQL beginners封面未提供语法或回执。
+61|no_technical_content|android|Docker Android标志无设备/应用安全链。
+62|distilled|cmd,records|YouTube3秒QR视频0views画面仅编码载体存在，未证明receiver解码/进程执行/初始RCE。
+63|distilled|records|nano daily subfinder/anew循环、sleep86400与无条件notify；delta与完成通知/失败需分开，不创建调度。
+64|distilled|records,report|PeTeReport2products2reports5findings3high及CWE饼图是分类汇总，不等5独立确认缺陷。
+65|no_technical_content|smart|市场/流动性与巨额赏金推测段无协议缺陷或代码，不作当前价格建议。
+66|distilled|auth,experiment|另一哈希认证mindmap同类分支已查看，合并动作/主体/持久能力矩阵，非新验证。
+67|no_technical_content|container|Docker Toolkit GUI封面无实现权限。
+68|insufficient_technical_detail|ssrf|public-facing应用连内网泛化图没有具体URL消费者/请求源/结果。
+69|distilled|secret,auth|API registry README类别/定义，约550工具是模板规模非确认有效令牌数。
+70|distilled|secret,auth|Museum ACCESS_TOKEN格式/请求response regex占位示例，匹配不证真实令牌权限/租户，不调用API。
+71|no_technical_content|source|Cobalt Strike工具动漫封面无技术。
+72|no_technical_content|strategy|葡语课程广告无已保存课程正文。
+73|distilled|xxe|DTD内部/外部实体SYSTEM与file/http/https/gopher候选示意，parser支持/功能开关/权限与实际读出需单独证明。
+74|insufficient_technical_detail|xss,auth|signin accesscode/register及背景转义HTML没有XSS弹窗或ATO能力证明。
+75|no_technical_content|source|Vimana标志无框架数据流。
+76|distilled|lfi,cmd|Apache2.4.49 CGI POST及历史文件响应需版本/Alias/CGI配置和OS权限；文件输出非root或全版本RCE。
+77|distilled|report|Pending敏感信息披露状态无字段，报告阶段不是验证成功。
+78|distilled|report|RedBull Activity多项Closed清单需独立ID/结单原因，不表示独立根因或全部修复。
+79|no_technical_content|source|DLL标志无实际加载过程。
+80|distilled|report,experiment|DoS500邮件、P4严重性/P3奖励与延迟分开，金额和道歉不证稳定技术影响。
+81|no_technical_content|ssrf,cloud|Google VRP奖励图无GCP metadata请求、返回令牌或云权限证明。
+82|no_technical_content|auth|ADLab标志无域权限链。
+83|distilled|doc,ssrf|PDF渲染URL含metadata参数且返回AWS样式compute.internal主机名，只有取回候选，不是Flask cookie/GCP凭据证明。
+84|insufficient_technical_detail|source|Clover uid1001 euid0终态缺触发入口、进程身份与提权链。
+85|distilled|xss,experiment|Neuralegion实验firstname页rXSS Execution POC弹窗，限定实验reader/标记，不是生产存储或ATO。
+86|distilled|scope,records|bbscope stdin/urls/subs配置过滤示意须官方规则快照、排除项与端口路径核对，不自动授权。
+87|distilled|auth,report|注册已限制/另重定向下版修复的邮件仅流程阶段，缺注册能力复现，不混合两个问题。
+88|no_technical_content|access|IDOR课程封面没有技术正文。
+89|distilled|files,source|localhost elFinder2.0.4 cmd=tree/target目录JSON含hash/read/write/name；应用操作不是OS shell或实际文件内容/RCE。
+90|no_technical_content|source|Source Audit与Pentest比较封面无具体代码。
+91|distilled|source,auth|LSASS768 clone handle1478/dump complete日志仅既有权限下内存采集，缺解析/凭据和初始权限来源，不复制敏感内容。
+92|distilled|records,fuzz|httpx/ffuf stdin横幅FUZZ replayproxy、followfalse/40线程，字段解析/跟跳转范围/预算需核对；无实际proxy history。
+93|distilled|auth,report|Triaged High访问控制标题缺登录响应和保护动作回执，不能证服务端认证绕过。
+94|insufficient_technical_detail|auth|TIWAP提示admin/admin为实验环境，不证明生产默认密码或未授权能力，不尝试登录。
+95|distilled|xss|AMP JSON title/docUrl字符串含alert但在数据块，HTML解析结束标签/后续DOM消费者仍需审查，不证当前执行。
+96|insufficient_technical_detail|source|Aragog rootflag画面未保存初始入口。
+97|distilled|source,records|Mekotio link→ZIP→BAT→PS→ZIP→AHK/script/DLL→C2流图需每步权限/来源/因果，未验证AV规避或实际感染。
+98|distilled|records,auth|LDAP新增CN/RID、office/whenChanged/uSN/description日志是poll观察，时间/复制序列不等变更主体或原始入侵；不抄秘密。
+99|no_technical_content|source|ANDRAX标志没有技术。
+100|no_technical_content|source|GitLab模块PR封面与451添加行数不含具体入口代码/受影响配置/执行回执。
+101|distilled|waf,xss|Cloudflare SVG显示Blocked，alt明确default rules，保留失败基线，不能推广全规则成功绕过。
+102|insufficient_technical_detail|passive|bettercap2.31安装已最新输出只是历史包状态，没有网络目标或协议结果。
+103|insufficient_technical_detail|source|Nagini rootflag只有实验终态，缺初始漏洞。
+104|no_technical_content|source|Hawk封面/星数无技术链。
+105|no_technical_content|passive|PyRDP标志无实际RDP/MITM会话权限。
+106|distilled|secret,source|关键词卡片含云存储/口令/API字段与端点，定位候选而非实际秘密或有效性。
+107|distilled|report,csrf|0.017BTC奖励和fixing邮件缺token绑定、浏览器请求及删账号持久回执，不执行删除/支付。
+108|no_technical_content|source|Hawk更新标志无方法变化。
+109|no_technical_content|source|TorRootkit封面无代码，不构建运行。
+110|distilled|scope,passive|Wifite2.5.8帮助含deauth/kill/infinite/WEP/WPA/WPS/PMKID选项；帮助非密钥取得，主动无线动作另需授权。
+111|no_technical_content|host|UnicodeDomain仓库封面没有具体字符转换/实际域名结果，正文候选另提炼。
+112|insufficient_technical_detail|source|Fawkes实验rootflag未保存初始漏洞路径。
+113|distilled|web,records|CDX/gau历史PHP路径卡片保留时间/字段/当前归属，URL扩展不证明现可达或敏感泄露。
+114|distilled|references/by-type/request-smuggling.md|Smuggler1.1明确ERROR No URL与usage，工具帮助不能证明前后端消息边界差异或成功走私。

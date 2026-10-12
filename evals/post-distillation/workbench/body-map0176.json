@@ -1,0 +1,507 @@
+{
+  "5": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/by-type/info-secrets.md",
+    "note": "历史 IP 到实际站点服务的范围与路由映射；已知泄露路径和参数标记需检查真实响应内容"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "短时阅读应用与异常流程假设的验证单位"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "失效域名的 IP 候选仍需 Host 与默认站点对照"
+  },
+  "9": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "程序发现偏好不能推断竞争和授权"
+  },
+  "12": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md,references/by-type/info-secrets.md",
+    "note": "历史 IP 到实际站点服务的范围与路由映射；已知泄露路径和参数标记需检查真实响应内容"
+  },
+  "14": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "搜索勾选和指纹工具输出是资产假设"
+  },
+  "16": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "披露目录和 Burp scope 不构成测试许可"
+  },
+  "17": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "业务更新和移动 UA 的新路径需独立落到资产记录"
+  },
+  "18": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "披露目录和 Burp scope 不构成测试许可"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/by-type/websocket.md",
+    "note": "WebSocket 的 OTP 线索须绑定消息方向和会话"
+  },
+  "20": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "批量模板来源先审查行为与匹配条件"
+  },
+  "21": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "爬虫 GET 与 POST 发现需要分别记录输入来源"
+  },
+  "23": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "已知泄露路径和参数标记需检查真实响应内容"
+  },
+  "24": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md,references/by-type/info-secrets.md",
+    "note": "历史 IP 到实际站点服务的范围与路由映射；已知泄露路径和参数标记需检查真实响应内容"
+  },
+  "25": {
+    "dis": "corrected",
+    "targets": "references/by-type/crlf-response-splitting.md",
+    "note": "换行变体必须到达实际 HTTP 序列化边界"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "恢复缓存和数据库标签不代替 SQL 条件对照"
+  },
+  "29": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "工具阶段计数与报告总数需说明分母"
+  },
+  "31": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "接管流水线要补服务生命周期与独立范围检查"
+  },
+  "32": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "重复报告的新增影响需有独立事实链"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/by-type/websocket.md,references/by-type/xss.md,references/by-type/cors.md,references/by-type/csrf.md",
+    "note": "JSON 消息调用需要双向绑定来源与命令能力；JSONP 编码和消息链不能跳过脚本消费者；携带凭据的 fetch 需证明跨源响应是否可读；读取 token 与更新 profile 的状态改变分开证明"
+  },
+  "37": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "跨子域 cookie 链依赖域属性和接管能力"
+  },
+  "43": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "短时阅读应用与异常流程假设的验证单位"
+  },
+  "45": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "语法混淆要按 HTML、XML 与 JavaScript 消费者区分"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/by-type/oauth-oidc.md",
+    "note": "OAuth 登录 CSRF 检查的是发起会话到回调的绑定"
+  },
+  "47": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "语法混淆要按 HTML、XML 与 JavaScript 消费者区分"
+  },
+  "48": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "管线参数反射只能支持 source 线索"
+  },
+  "49": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "重复报告的新增影响需有独立事实链"
+  },
+  "52": {
+    "dis": "merged",
+    "targets": "references/by-type/subdomain-takeover.md,references/by-type/authn-session.md",
+    "note": "跨子域 cookie 链依赖域属性和接管能力；跨域收到 cookie 与服务器接受会话是两级证据"
+  },
+  "54": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "工具阶段计数与报告总数需说明分母"
+  },
+  "55": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "MySQL XML 函数报错与 XPath 注入类别分开"
+  },
+  "57": {
+    "dis": "merged",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "接管流水线要补服务生命周期与独立范围检查"
+  },
+  "58": {
+    "dis": "corrected",
+    "targets": "references/by-type/nosql-injection.md",
+    "note": "自定义 emoji 查询的未认证延时线索"
+  },
+  "59": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "搜索结果 Markdown 渲染受 CSP 与解析器配置约束"
+  },
+  "60": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "权限检查晚于成员查找会产生存在性 oracle"
+  },
+  "61": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "消息处理热循环应追踪成本与取消路径"
+  },
+  "62": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "消息迁移须同时校验原对象与目标房间"
+  },
+  "64": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/waf-bypass.md",
+    "note": "事件拼接变体仍依赖浏览器事件与原 sink；允许与拦截表格不能证明所有 WAF 可绕"
+  },
+  "65": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "业务更新和移动 UA 的新路径需独立落到资产记录"
+  },
+  "67": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "管线参数反射只能支持 source 线索"
+  },
+  "68": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "下载告警受浏览器版本和设置前提影响"
+  },
+  "69": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "披露目录和 Burp scope 不构成测试许可"
+  },
+  "70": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "HTTP 重置邮件需追踪令牌第一跳"
+  },
+  "71": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "工具阶段计数与报告总数需说明分母"
+  },
+  "72": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "漏洞收购宣传与披露授权没有等价关系"
+  },
+  "73": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "已知泄露路径和参数标记需检查真实响应内容"
+  },
+  "74": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md,references/by-type/waf-bypass.md",
+    "note": "事件拼接变体仍依赖浏览器事件与原 sink；允许与拦截表格不能证明所有 WAF 可绕"
+  },
+  "76": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "代理配置和 URL 规范化需保留原输入"
+  },
+  "77": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/csrf.md",
+    "note": "Cookie 解析差异须绑定浏览器与服务端版本；Cookie 混淆影响 CSRF 要有令牌消费者对照"
+  },
+  "80": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "重定向生成器需保留浏览器最终 origin"
+  },
+  "81": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "NTLM 元数据和协议入口不等于中继或认证成功"
+  },
+  "83": {
+    "dis": "merged",
+    "targets": "references/by-type/subdomain-takeover.md,references/discovery/records-and-incremental.md",
+    "note": "接管流水线要补服务生命周期与独立范围检查；云告警架构需保持扫描、存储和处置分工"
+  },
+  "85": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "语法混淆要按 HTML、XML 与 JavaScript 消费者区分"
+  },
+  "90": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "图片检查的 fetch 与内网端口判别分开"
+  },
+  "91": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "语法混淆要按 HTML、XML 与 JavaScript 消费者区分"
+  },
+  "93": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Django 调试屏的字段展示与有效访问分开"
+  },
+  "94": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Django 调试屏的字段展示与有效访问分开"
+  },
+  "96": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "从静态文件与模型生成的域名要分别标记来源"
+  },
+  "97": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "管理注册路径变体需证明最终账户权限"
+  },
+  "99": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "搜索勾选和指纹工具输出是资产假设"
+  },
+  "100": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md,references/by-type/ai-application.md",
+    "note": "从静态文件与模型生成的域名要分别标记来源；模型流量分析需要最小输入和独立可证伪结果"
+  },
+  "101": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "默认口令标签需要实际部署与保护动作证据"
+  },
+  "103": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "改角色 cookie 或本地响应仍需服务端权限对照"
+  },
+  "104": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "上传默认目录和历史文件管理器参数不能直接等同任意写"
+  },
+  "106": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "匿名 LDAP 要区分 RootDSE 与受限目录数据"
+  },
+  "109": {
+    "dis": "merged",
+    "targets": "references/by-type/ai-application.md",
+    "note": "模型流量分析需要最小输入和独立可证伪结果"
+  },
+  "110": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "关联对象的修改权与展示效果独立验证"
+  },
+  "111": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md,references/business-modeling.md",
+    "note": "关联对象的修改权与展示效果独立验证；业务访问资格和关系对象状态分别建模"
+  },
+  "112": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "关联对象的修改权与展示效果独立验证"
+  },
+  "114": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "参数爬取失败保留 shell 输入单位与空结果"
+  },
+  "115": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "邮件模板 HTML 注入与浏览器脚本执行分开"
+  },
+  "116": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/by-type/desktop-client.md",
+    "note": "桌面二进制里的应用凭据需识别消费者；客户端凭据来源按实际平台与版本追踪"
+  },
+  "117": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/by-type/info-secrets.md",
+    "note": "导出接口要检查对象和角色而非文件名猜测；CSV 导出内容以最小字段样本和归属定影响"
+  },
+  "118": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "代理配置和 URL 规范化需保留原输入"
+  },
+  "120": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "域名 available 标签不证明注册资格或接管"
+  },
+  "122": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "复查报告与沟通记录以技术事实为主"
+  },
+  "124": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "代码索引候选必须绑定文件用途与最小暴露字段"
+  },
+  "125": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md,references/by-type/authn-session.md",
+    "note": "并购资产关系不能自动扩展原项目范围；注册审批守卫应跨登录与重置流程保持一致"
+  },
+  "127": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "复查报告与沟通记录以技术事实为主"
+  },
+  "133": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "语法混淆要按 HTML、XML 与 JavaScript 消费者区分"
+  },
+  "134": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "Header SQL 命中要把条件、时序和工具归因拆开"
+  },
+  "135": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "敏感 GET 与缺 Origin 需按浏览器发送规则验证"
+  },
+  "136": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "语法混淆要按 HTML、XML 与 JavaScript 消费者区分"
+  },
+  "137": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "鉴权字符串前缀须与路由解析语义对齐"
+  },
+  "138": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "Header SQL 命中要把条件、时序和工具归因拆开"
+  },
+  "139": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "注册审批守卫应跨登录与重置流程保持一致"
+  },
+  "140": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "Elasticsearch 服务线索不等同无认证数据权限"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "口令尝试输出不能替代最小账号授权验证"
+  },
+  "143": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "代码索引候选必须绑定文件用途与最小暴露字段"
+  },
+  "144": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "代码索引候选必须绑定文件用途与最小暴露字段"
+  },
+  "146": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "推荐 bundle 引入的 XSS 前提按具体应用记录"
+  },
+  "147": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "搜索勾选和指纹工具输出是资产假设"
+  },
+  "149": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md,references/business-modeling.md",
+    "note": "关联对象的修改权与展示效果独立验证；业务访问资格和关系对象状态分别建模"
+  },
+  "151": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "代码索引候选必须绑定文件用途与最小暴露字段"
+  },
+  "152": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "部署遗留 Git 元数据与历史配置暴露分级"
+  },
+  "153": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "改角色 cookie 或本地响应仍需服务端权限对照"
+  },
+  "154": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "图片检查的 fetch 与内网端口判别分开"
+  },
+  "155": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "目录权限关系图不等于凭据改写已成功"
+  },
+  "157": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "部署遗留 Git 元数据与历史配置暴露分级"
+  },
+  "158": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "合法删除请求与跨站删除能力分开"
+  },
+  "159": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "退出导航的脚本方案要逐层核验历史前提"
+  },
+  "160": {
+    "dis": "corrected",
+    "targets": "references/by-type/xxe.md",
+    "note": "SpellCheck XML 入口仍需实体解析与响应证据"
+  }
+}

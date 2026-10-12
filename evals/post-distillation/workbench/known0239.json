@@ -1,0 +1,47 @@
+[
+  {
+    "name": "1845857489738158369-04.png",
+    "sha256": "6e33bd80fae410a6e4b0fa3f9afb94dd1b530e8bc8cee45b63051138111a6683",
+    "prior": {
+      "sha256": "6e33bd80fae410a6e4b0fa3f9afb94dd1b530e8bc8cee45b63051138111a6683",
+      "example_post_id": "1843515172440477810",
+      "image_name": "1843515172440477810-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "付款通知仅显示金额与付款方，没有资产监控或漏洞技术过程。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-12T01:58:08.621Z",
+      "batch": "media-0231"
+    }
+  },
+  {
+    "name": "1846831659918021060-02.jpg",
+    "sha256": "f42df8872752eb55ad078eabb482d389ed5db0a96acc6165b8e75c75f6bb952d",
+    "prior": {
+      "sha256": "f42df8872752eb55ad078eabb482d389ed5db0a96acc6165b8e75c75f6bb952d",
+      "example_post_id": "1596801162006581250",
+      "image_name": "1596801162006581250-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "Awesome-web-security repository promotional card only.",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T19:03:31.015Z",
+      "batch": "media-0145"
+    }
+  },
+  {
+    "name": "1846870530424553961-02.jpg",
+    "sha256": "7380ce9c489e6f0dc76de8ac9acdd9ad4f483de234305772e3f673f7cdc60fcd",
+    "prior": {
+      "sha256": "7380ce9c489e6f0dc76de8ac9acdd9ad4f483de234305772e3f673f7cdc60fcd",
+      "example_post_id": "1838640154983956924",
+      "image_name": "1838640154983956924-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "IDOR封面只有名称，没有对象/主体/请求证据。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-12T01:11:04.293Z",
+      "batch": "media-0230"
+    }
+  }
+]

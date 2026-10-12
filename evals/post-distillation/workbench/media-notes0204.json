@@ -1,0 +1,518 @@
+[
+  [
+    0,
+    "D",
+    "passive,records,scope",
+    "截图显示 dnsx 将主机名解析为 IP 后送给 naabu，并排除若干端口；输出有重复 IP:port 且出现 ^C。保留原主机名到 IP 的对应关系及工具版本、解析时间、端口预算和中断状态；共享 IP 不自动属于授权范围，排除端口不代表完整扫描。最小对照为已授权自有域名及明确排除域名，确认仅记录可归属且允许测试的资产。"
+  ],
+  [
+    1,
+    "N",
+    null,
+    "CISA KEV 封面，没有可见漏洞请求或机制。"
+  ],
+  [
+    2,
+    "D",
+    "passive,client",
+    "截图是浏览器 PyScript Google Dorker CLI，输入域名生成 site、文件扩展名及查询参数等搜索表达式；没有实际搜索结果。区分客户端 Python 运行与服务端 CLI，核对生成表达式、范围及缓存时间；表达式产生不是资产发现或漏洞确认。最小对照为已授权域名和排除域名，搜索命中须另行确认当前归属与内容。"
+  ],
+  [
+    3,
+    "N",
+    null,
+    "报告状态和 Medium Code Injection 奖励 1900 截图，没有注入入口或执行链。"
+  ],
+  [
+    4,
+    "N",
+    null,
+    "严重性 Low 到 Medium 的调整、评论及奖励 550，没有可见请求和机制。"
+  ],
+  [
+    5,
+    "N",
+    null,
+    "Top XSS 报告列表、投票与奖励，未显示具体漏洞机制。"
+  ],
+  [
+    6,
+    "D",
+    "auth,secret",
+    "报告截图明确指出恢复密钥 hint 接口以 email 查询可得到用户自填提示，并认为应经邮箱链接才可访问；截图没有密钥本身或账户接管证据。用两个自有账户设置互不相同的无敏感标记，比较匿名、本人及另一身份请求的提示可见性，核对最终返回字段和恢复流程预期。确认的是提示信息边界；不得将 hint 泄漏直接等同恢复密钥泄漏、钓鱼成功或接管。"
+  ],
+  [
+    7,
+    "N",
+    null,
+    "课程网盘文件夹目录，只有课程主题。"
+  ],
+  [
+    8,
+    "D",
+    "auth,access",
+    "遮挡的注册请求仅能读到 email、password、firstName、lastName，响应为 HTTP/2 200 并回显部分个人资料。与正文声称非公开邀请注册可登录结合，比较合法邀请注册和自有未邀请身份的注册、最终会话与受保护资源权限；200 或字段回显不能证明绕过审批、租户加入或完整认证。遮挡的路径、令牌和后续资源不补造。"
+  ],
+  [
+    9,
+    "I",
+    null,
+    "极窄且大量遮挡的代码截图仅能辨认 register 和部分 unauthorized 字样，缺少路由、条件与完整上下文，不能推导认证分支。"
+  ],
+  [
+    10,
+    "N",
+    null,
+    "空终端提示符，没有流水线运行、跳转结果或漏洞证据。"
+  ],
+  [
+    11,
+    "N",
+    null,
+    "HTML Injection 报告标题、编号和 Medium 标签，具体目标及请求被遮挡，无法导出机制。"
+  ],
+  [
+    12,
+    "N",
+    null,
+    "客服延迟处理邮件，没有技术机制。"
+  ],
+  [
+    13,
+    "D",
+    "web,fuzz,records",
+    "sj automate 读取 Swagger Petstore v2 schema 后列出认证机制和 POST、PUT、GET 等方法的 200、404、415 结果，危险关键词请求被跳过。schema 中定义认证与实际强制认证不同；以授权测试环境的只读 operation 比较匿名与自有低权限会话、正确方法及 Content-Type，记录解析出的 servers/basePath、跳过原因和响应正文。200/404/415 或工具 accessible 标签不能单独确认越权；按关键词跳过也不能保证剩余请求无状态影响。"
+  ],
+  [
+    14,
+    "N",
+    null,
+    "Top SSRF 报告标题、投票和奖励列表，没有具体请求链。"
+  ],
+  [
+    15,
+    "D",
+    "xss",
+    "TikTok 报告摘要明确将 incentive 端点 x 参数的未经适当 HTML 转义反射与浏览器上下文脚本执行联系起来。保存页仅有摘要，缺少原始 payload 和运行上下文；最小比较为无害唯一标记与按实际 HTML/属性/脚本位置选取的受控解析标记，确认最终 DOM 和在目标 origin 的执行并核对 CSP。纯文本反射或实体转义不是 XSS；Medium 和报告状态不能替代实际执行证据。"
+  ],
+  [
+    16,
+    "D",
+    "jwt",
+    "截图解释 JWT 为 JWS 和/或 JWE 表示、base64url 的字符替换、claims 分类及 iss/sub 字段，未显示攻击。区分解码、验证签名或认证加密、claims 业务约束；不要固定所有 JWT 为三个部分，也不要把可解码当作可伪造。最小对照为自有有效令牌与仅改变一个受保护 claim 的副本，确认服务端拒绝并核对 issuer、subject 与用途绑定，遵从实际库及令牌格式而非标题猜算法。"
+  ],
+  [
+    17,
+    "D",
+    "ssrf,scope,experiment",
+    "报告在已登录的 saves URL 保存功能中输入 loopback URL，通过端口改变观察响应差异，并自行比较自有网络开闭端口；最终为 Informative、0 分。差异可能来自 URL 解析、协议、TLS、连接拒绝或超时，不能仅凭差异标记内部端口开放。限获授权测试环境，用两个已知且允许访问的自有受控服务比较响应/回调与稳定时序，排除客户端访问和缓存；产品设计的资源加载、私有地址规则和 blind SSRF 排除条款都需单独核对。"
+  ],
+  [
+    18,
+    "D",
+    "access,logic,graphql",
+    "GitHub 摘要描述 GHES 仓库转移 REST API 与 updateTeamsRepository GraphQL mutation 的竞态，使已有管理员在转移后保留权限；历史截图列出受影响和修复版本。核心不变量是转移提交后旧主体权限与新所有者策略一致，两个协议不能各用过期授权快照。授权隔离测试环境中比较顺序转移与一次有界重叠，记录对象版本和操作顺序，最终以旧身份对自有仓库只读权限检查确认持续权限；两个成功响应或请求重叠本身不证明竞态。版本只作历史线索，不能当当前产品结论。"
+  ],
+  [
+    19,
+    "D",
+    "auth,logic",
+    "GHES Management Console 邀请令牌低熵摘要说明需要知道存在待处理邀请，弱随机组合可能使别人抢先接受；只有摘要，没有位数或生成算法。经代码/设计审计核对 CSPRNG、实际熵、有效期、主体绑定和单次消费，使用两个自有邀请的少量样本与失效/错误 token 对照，确认错误 token 拒绝和消费后不可复用；短字符串不自动低熵，不做穷举，不将版本摘要套用所有部署。"
+  ],
+  [
+    20,
+    "D",
+    "passive,records,fuzz",
+    "Subdominator v1.0.5 OSINT 模式收集子域后传给 subprober，截图使用并发 20000 并输出状态、title、server、application type、word count，且 RapidDNS 阻挡请求。记录来源缺口、去重与资产归属，历史统计不是完整覆盖。默认保守有界预算，低并发对照同一授权小集合并核对误差；403/404、banner 和字数不能确认漏洞，空来源也不能证明没有资产。"
+  ],
+  [
+    21,
+    "N",
+    null,
+    "报告声誉 -5 Not applicable、+7 Triaged 列表，没有范围条款或漏洞机制。"
+  ],
+  [
+    22,
+    "D",
+    "records,ssrf,host",
+    "ngocok v1.0.0 帮助页列 HTTP/TCP endpoint、ngrok token、保存 incoming requests 的文件，以及 unstrip X-Forwarded-{For,Host,Proto}。回调需绑定唯一 nonce、触发时间和消费方，区分 DNS、HTTP、TCP 与客户端访问，代理转发头来自何方不可由工具选项证明。最小对照为授权环境受控请求与未触发 nonce，确认日志中的真实协议、来源和原始/代理头；收到请求不直接证明 SSRF 内网读、RCE 或 Host 信任缺陷，令牌不得写入记录。"
+  ],
+  [
+    23,
+    "D",
+    "auth,access",
+    "实际请求是 POST、Cookie: sessionId=null，JSON 包含对象 id 和 source: transactions；响应可见 SUCCESS、progress:100 和被遮挡的 link。Cookie 中 null 是文本，并非 JSON null；截图遮挡状态行、URL和真实主体，未证明返回对象属于别人或公开可读。比较同一自有只读对象在有效会话、缺失 Cookie、空文本、字面 null 和随机失效值下的服务端身份及返回字段，并以合法公开对象作反例；不能据 SUCCESS 或常见安全头推断认证绕过实现。"
+  ],
+  [
+    24,
+    "D",
+    "fuzz,scope,records",
+    "WebCopilot 帮助列 target、输出目录、threads 默认100、blind server、exclude domains 与仅子域枚举 -s；示例并发333。工具默认不提供范围证明或安全请求分类。确认排除规则覆盖规范化主机与重定向每跳，使用低预算自有候选对照，记录仅枚举还是探测、请求影响、回调 nonce 和跳过项；帮助页不能证明已发现任何 XSS，BXSS 回调域名需要独立受控许可。"
+  ],
+  [
+    25,
+    "D",
+    "takeover,cloud",
+    "S3 浏览器截图显示 NoSuchBucket，bucket 名及请求主机被遮挡。这只是历史未存在资源信号，不证明名称可创建、DNS 指向范围资产或可接管。结合经授权的 DNS/应用资源引用、provider endpoint/区域与名称约束核对；存在桶或 AccessDenied 作反例。未明确允许时只保留悬空候选，不抢占第三方名称。"
+  ],
+  [
+    26,
+    "D",
+    "takeover,cloud",
+    "AWS 控制台显示两个经遮挡的 staging 和 new-staging 桶；与前图 NoSuchBucket 和正文接管声称结合，缺少可核对的完整同名、账户/区域和应用实际引用。确认闭环须有同一规范化名称、原资源引用、允许创建的授权及最终无害标记被原应用读取；仅控制台存在两个桶不证明接管目标或拥有目标数据。"
+  ],
+  [
+    27,
+    "D",
+    "xss,oauth",
+    "Office replyUrl 在 data-origin 属性反射：截图依次比较 userinfo、path/query、fragment，fragment 保留并能注入属性；inline onload 被 CSP 阻断，未证明脚本执行。分别记录服务端 URL 解析结果、浏览器解析后的 origin 与 HTML 属性转义；合法 origin 加不影响 origin 的 fragment 也需正确属性编码。最小对照为合法 replyUrl 与自有无害引号标记，确认解析后属性结构及 CSP 的实际拒绝，不能把 substring/样式推测写成已证实校验实现。"
+  ],
+  [
+    28,
+    "D",
+    "xss,oauth,client",
+    "Office 图片给出脚本通过 getElementById(\"sharedauthscript\").dataset.origin 获取 postMessage 第二参数，注入可创建同 id 的 script 与受控 data-origin，再加载 CSP 允许的 sharedauthclient 脚本。信任边界是可编辑 DOM 元数据变成 token 消息目的 origin；截图还包含 target origin 与 recipient mismatch 错误，错误本身不是成功泄漏。最小对照为合法 origin 和自有受控 frame，核对选中元素、脚本是否加载、真实 targetOrigin 与接收事件，不需解除 CSP，也不能由 DOM 字符串直接断言令牌可读。"
+  ],
+  [
+    29,
+    "D",
+    "oauth,client,xss",
+    "Office 通信截图展示 SharedAuth_Init、ScriptInitialized、TryGetToken、GetTokenResponse/accessToken 协议及 appId/target；声称可嵌入页面并利用前图 data-origin 注入发送到自有主机，附件 POC 未保存不补造。分别验证 frame-ancestors/X-Frame-Options、发送方/接收方 origin 与 source 绑定、消息状态/nonce、token audience/scopes 和自有账户会话。只用无敏感消息或自有最小权限令牌做对照，令牌不落日志、不尝试他人资源；收到任意消息与枚举 appId 不证明全部应用令牌可获取，script-src 限制与允许被嵌入是不同检查。"
+  ],
+  [
+    30,
+    "N",
+    null,
+    "SSRF 指南的文章和工具目录，没有全文、请求或具体校验链。"
+  ],
+  [
+    31,
+    "N",
+    null,
+    "500K Bug Bounties 装饰封面。"
+  ],
+  [
+    32,
+    "N",
+    null,
+    "防火墙与锁装饰图，没有技术证据。"
+  ],
+  [
+    33,
+    "N",
+    null,
+    "forgotpassword Blind SQLi 报告标题和 P1 New/assessed 状态，没有查询、payload 或可复核时序。"
+  ],
+  [
+    34,
+    "D",
+    "secret,client",
+    "NipeJS 本地 secret.js 示例用 regex 命中 Base64、MD5 hash 和 Google API key。base64 可解码、32位hex 或符合键格式都只是分类候选，不等于秘密、有效凭据或可用权限。保留原文件/版本/hash及上下文，以自有假数据对照实际匹配与误报，核对键是否设计为客户端公开、限制和最小权限；不复制实际键值入参考、不调用他人服务验证，不把 Base64 数据自动解释为 JWT 或密码。"
+  ],
+  [
+    35,
+    "N",
+    null,
+    "戴眼罩研究者与 Alert 装饰图，没有实际浏览器上下文。"
+  ],
+  [
+    36,
+    "N",
+    null,
+    "Nuclei 模板集合仓库目录和 README 外链，没有模板正文、匹配器或具体请求。"
+  ],
+  [
+    37,
+    "D",
+    "passive,scope,records,takeover,cloud",
+    "stage1 wildcard 范围图串联被动枚举、主动爆破、排列、接管/cloud_enum、Shodan/Censys、httpx 和截图。通配域名不自动授权共享 IP、云租户或 provider 名称创建；先按规则规范化资产归属并将被动候选与主动测试分开。最小对照是含排除域名和共享 IP 的自有小集合，确认每步保留来源、范围及时间；工具命中不是接管或云权限证明。"
+  ],
+  [
+    38,
+    "D",
+    "web,secret,xss,cors,client,records,fuzz",
+    "stage2 图列 robots/sitemap/.well-known、目录/注释/历史URL、JS与键、WAF、XSS、CORS、admin等候选。按功能与权限建立入口→实际消费点，正确 route 与随机不存在 route 对照排除统一软404；JS正则键、反射、扫描输出需分别用内容上下文、浏览器执行、实际跨域读取与自有低权限身份验证。历史 URL 和工具列表不证明当前暴露；泄漏候选不用于登录，链接接管不抢占。"
+  ],
+  [
+    39,
+    "D",
+    "scope,passive,fuzz,host,xss,sql,cmd,lfi,redirect",
+    "network/input 图建议端口、UDP、服务脚本及多类参数/请求头注入，底部 SOAP 等内容被裁切。明确被动服务记录与获准主动请求、保守预算和范围；Referer 不自动通向 RCE、User-Agent 不自动通向 SQL/XSS。逐次改变一个已知输入，核对原始请求和实际 sink；Host/XFH 需最终生成地址证据，XSS 需 DOM 执行，SQL/命令/文件读取须对应服务端受控证据，路径斜杠跳转需最终导航，纯错误/反射作反例；不执行脚本、爆破或全参数扫描。"
+  ],
+  [
+    40,
+    "D",
+    "fuzz,auth,logic,experiment",
+    "图建议异常路径/参数/方括号/Cookie/方法触发错误，又列 email 大小写、空格、plus/dot 重复注册、覆写、长密码、未验证后重置、重复请求及畸形 JSON；底部与右侧裁切不补造。用自有两账户和非敏感小样本，分别核对数据库主体、邮箱验证、最终会话及实际 post-state，规范化应保持唯一主体且不能覆写他人；400/500/长密码输入或解析失败不是 DoS/接管证据。方法变异先排除状态操作，不在生产构造超长/资源压力，JSON 合法性与多值优先级需按实际解析器验证。"
+  ],
+  [
+    41,
+    "D",
+    "access,graphql,secret,auth",
+    "HackerOne 图片有完整摘要及 GraphQL report(id: PRIVATE_REPORT_ID){title}：私有报告由 Manage Collaborators 发出的待处理邮箱邀请可让匿名用户读标题，且强调仅匿名情形。用自有私有测试报告无敏感标题，比较无邀请、待处理、已撤销/接受状态以及退出登录、非受邀、受邀身份，查询字段仅 title；确认邀请状态不得把元数据变为匿名可读。可见标题只证明元数据泄漏，不是完整报告内容或可枚举全部对象，不探测他人 ID。"
+  ],
+  [
+    42,
+    "D",
+    "access,auth,records",
+    "图片是 localhost Burp HTTP history 多个 GET route 与单次 workflows/triggers 的 200 HTML 响应，未显示 Autorize 比较矩阵、低权限或匿名重放。用两自有会话只重放获准无状态请求，明确替换 Cookie/Authorization、清理共享缓存并核对对象/字段权限；主身份200与长度相似不能证明越权，GET也可能有状态影响需先分类。Cookie 值不转写；保留工具判定和原始响应的区别。"
+  ],
+  [
+    43,
+    "D",
+    "takeover,cloud",
+    "图标题 Load Balancer Takeover，步骤实际指 Azure Traffic Manager 的 trafficmanager.net profile、同名资源及 endpoint。Traffic Manager DNS 路由不自动等于 HTTP 302 或普通负载均衡；需区分 CNAME、profile存在性、名称可重用、endpoint服务和最终内容引用。以自有已存在 profile 和隔离允许重建 profile 为对照，仅在明确授权下确认原域名解析到受控无害 endpoint；指向 provider、NXDOMAIN 或名称可见并非可接管，不默认创建资源。"
+  ],
+  [
+    44,
+    "D",
+    "ssrf,web",
+    "inDrive 报告截图给出 GET /api/file-storage 的 url 参数改成 collaborator HTTP URL，文字要求观察回调及响应内容；原始 GET 可见但响应与日志未在截图显示。使用自有唯一 nonce URL 和静态标记，与不触发/不可达自有对照比较后台回调及 API 返回标记，排除浏览器、预取和代理；确认资源由服务端请求后再核对允许的地址/协议规则。外网取回不等于内网访问、metadata读取或 High 影响。"
+  ],
+  [
+    45,
+    "D",
+    "cloud,source,cmd",
+    "CI/CD 文章像素描述在 self-hosted runner 上安装另一个 GitHub Actions runner agent 作为持续外连通道，并承认初始不知道主机、egress或EDR。提炼为不可信 job 不得持久化/注册新 agent 的边界：受控隔离 runner 比较前后文件、进程、服务注册和 job teardown 是否清理，优先配置审计及无害生命周期标记；不安装 agent、不建 C2、不模拟持久化，摘要也未给初始代码执行入口。"
+  ],
+  [
+    46,
+    "D",
+    "cloud,source,access",
+    "文章像素描述 fork pull request 触发 repository 的 linter workflow 并由 self-hosted runner 执行，配图有 PR 和运行列表；完整 workflow 未显示。代码审计核对实际 trigger、head/base ref、checkout、可信上下文、批准条件及 runner group/labels，比较可信提交与自有隔离 fork 无害标记是否被选中执行；PR存在/工作流列表不证明任意生产命令或 secrets可取，不将不同 PR trigger 自动混同。"
+  ],
+  [
+    47,
+    "D",
+    "cloud,secret,source",
+    "文章像素说在 scheduled build 运行时读取 runner 工作目录 .git/config，Base64 输出 run log；截图展示解码后的 remote 和 http extraheader AUTHORIZATION。机制是长期共享 runner 上跨 job 的凭据残留和日志出界，Base64不是脱敏。仅在隔离自有 job 用假凭据标记对照可信 job 运行前/中/后及临时runner，确认文件权限、工作目录隔离、cleanup和日志masking；不转写/解码真实凭据，不使用令牌，不把可读extraheader直接写成任意合并权限。"
+  ],
+  [
+    48,
+    "D",
+    "secret,cloud,report,impact",
+    "runner 文章像素展示脚本含 vCenter 用户、VI server 与被遮挡密码，并明确未建立 SOCKS 或登录，只验证 web 接口可达；“能够登录”仍是假设。凭据暴露、网络可达、有效登录及管理权限是不同证据级别，报告记录已看到的文件来源与保密摘要并停止于足够证据，不放大为已接管 vCenter；隔离自有假凭据脚本对照权限/残留即可，不读取或使用真实凭据。"
+  ],
+  [
+    49,
+    "N",
+    null,
+    "电商首页截图，标签出现 endpoints.txt，但没有 JS 提取过程、URL 清单或漏洞结果。"
+  ],
+  [
+    50,
+    "N",
+    null,
+    "NASA 感谢信，没有具体漏洞内容。"
+  ],
+  [
+    51,
+    "N",
+    null,
+    "Secure Code Explain 文章主题目录，没有易受攻击或修复代码正文。"
+  ],
+  [
+    52,
+    "D",
+    "xss,client",
+    "截图地址栏处于编辑/搜索状态显示混合引号、注释、function 等片段，后方有 samark alert；看不到已导航 URL、页面 origin、输入反射位置或执行代码。只把它作为语法上下文线索：比较同一自有页面正常字符串与受控无害标记，记录最终已提交地址、原始响应、DOM脚本语法和 CSP；一个 alert 不证明该地址栏输入造成目标站执行，也不证明通用绕过或受害者可触达。"
+  ],
+  [
+    53,
+    "N",
+    null,
+    "GitLab mirror 用户赋值报告标题封面，没有接口、前后状态或权限链。"
+  ],
+  [
+    54,
+    "N",
+    null,
+    "访问已删评论文章标题封面，全文未保存。"
+  ],
+  [
+    55,
+    "D",
+    "auth,host,source",
+    "Nextcloud IP-based password verification 限制摘要与 getRemoteAddress 片段显示 REMOTE_ADDR、trusted_proxies，并仅在 remote 是可信代理时遍历 forwarded_for_headers，默认 HTTP_X_FORWARDED_FOR；后半段裁切。不能因此声称任何部署均信任任意 XFF。审计完整函数及部署代理链，隔离自有环境以直连/可信代理路径和一个伪造源头对照，检查归一化地址与计数键稳定性；不遍历 IP、不撞密码，计数是否重置需实际证据，版本/CVE仅历史线索。"
+  ],
+  [
+    56,
+    "D",
+    "auth,access,logic",
+    "Nextcloud 摘要称 UI 删除 workflow 要求密码确认，而直接 delete endpoint 可跳过，配图只显示创建流程起点。服务端每次敏感操作应校验近期重认证上下文、主体及对象，不能由 UI 弹窗替代。用隔离自有可恢复 workflow 比较未确认/刚确认/过期确认的同一操作，核对实际对象状态；若禁止写操作则代码审计或只保留候选。已有合法近期确认窗口是反例，不能把任何无弹窗 API 都判绕过。"
+  ],
+  [
+    57,
+    "D",
+    "secret,fuzz",
+    "Nextcloud Calendar 摘要称已登录编辑 appointment 时将 id 改为不存在值出现500并泄露完整路径与内部 SQL query；截图未显示完整响应。最小对照为隔离自有合法对象与单个保证不存在的 id，核对服务端错误正文而非只看500；已有编辑操作须先确认可恢复。stack trace/SQL文本泄漏与 SQL 注入是不同结论，不能把错误查询当作可控查询执行。"
+  ],
+  [
+    58,
+    "N",
+    null,
+    "业务逻辑报告标题、投票和奖励列表，未保存各报告正文。"
+  ],
+  [
+    59,
+    "N",
+    null,
+    "Bugcrowd XSS 报告 triaged 通知，目标遮挡，无实际请求或机制。"
+  ],
+  [
+    60,
+    "D",
+    "access,logic,business,scope",
+    "Oberlo 截图正文说明只有 Dashboard 权限的 userB 能调用 /payments/subscribe 取消同账户订阅，缺少后端访问控制，并明确披露时 Oberlo 已从范围移除。建立 owner/limited-user 与订阅状态矩阵，以隔离自有测试账户和可恢复/不计费操作验证最终状态，禁止用真实付费账户实际取消；仅能看 dashboard 不能推出可管理订阅。历史认可不授权当前测试，端点可访问/200不能替代订阅实际变化。"
+  ],
+  [
+    61,
+    "D",
+    "fuzz,passive,records,web",
+    "CWFF 输出合并 JS、Wayback、CommonCrawl、OTX、sitemap/robots、GitHub和connected websites，过滤26177到3629 endpoints及42 parameters；threads1000，部分文件只标 possible。记录每个词的来源/时间/归属及过滤规则，关联网站并非同一授权，历史URL并非活跃路由。用含重复、排除域名、软404和已知自有路由的小集合对照过滤覆盖率和误报，再选择少量已授权无状态入口；高并发不证明准确或安全，统计量不是已验证漏洞。"
+  ],
+  [
+    62,
+    "I",
+    null,
+    "wafer.py Starting fuzzer 与自动化 Chrome 页面上的短标记；没有 payload、原始请求、WAF 阻断/允许对照或真实 sink，不能证明 AWS WAF 绕过。"
+  ],
+  [
+    63,
+    "D",
+    "access,logic,business",
+    "Shopify 图片摘要区分 Transfer domain to another Shopify store 可委派权限与 transfer to another provider 的 owner-only 业务规则，并描述无该权限员工仍可向外部provider转移。把域名转店与转出分别建模并在各 API enforce权限/近期重认证；用自有隔离店铺 roles 与只读资格/可恢复模拟状态对照，实际注册域名不转出。缺按钮与显示转移页都不是最终越权，历史文档截图不等于当前规则。"
+  ],
+  [
+    64,
+    "D",
+    "xss",
+    "LINE 图片摘要指产品搜索参数加入 JavaScript 导致 reflected XSS，无 payload 或 DOM 展示；时间线 Medium 后调 Low。提炼入口→响应上下文→浏览器执行边界：自有受控搜索用唯一普通标记与按实际编码上下文的无害标记比较，确认已提交URL、原始响应、DOM 与 CSP；反射与报告评级不替代执行或受害者可达性，不能套用通用 payload。"
+  ],
+  [
+    65,
+    "N",
+    null,
+    "用户到负载均衡器再到多服务的示意图，没有 Azure profile、DNS 或可接管证据。"
+  ],
+  [
+    66,
+    "N",
+    null,
+    "HackinSec 工具空输入首页与 invalid domain 提示，仅菜单含参数和endpoint提取器，无算法、生成结果或请求链。"
+  ],
+  [
+    67,
+    "D",
+    "xss,impact",
+    "Nextcloud Deck 评论 HTML 注入摘要称 localhost 27.0.0.8 一次脚本执行，标题 Self XSS、0分，输入位置为 card comments；底部步骤/payload裁切。分别核对输入保存、重新渲染、作者与另一个自有被分享身份的浏览器上下文及权限，普通评论/实体编码作对照。只作者手动输入后一次执行仍可能仅 self-XSS，不能补造跨用户存储执行、CVE版本范围或可接管影响。"
+  ],
+  [
+    68,
+    "N",
+    null,
+    "讲述者视频截图与 WHY DO PEOPLE APPROACH 字幕，未提供技术链。"
+  ],
+  [
+    69,
+    "N",
+    null,
+    "Global Site Selector authentication bypass 报告标题/CVE/评级及时间线，漏洞正文折叠，不能推导 token 或签名机制。"
+  ],
+  [
+    70,
+    "N",
+    null,
+    "nextcloud/guests URL handling 和 app allowlist bypass 标题、Weakness Hex Encoding 与时间线，没有请求、编码层次和路由正文。"
+  ],
+  [
+    71,
+    "N",
+    null,
+    "non-admin reset app allowlist 标题/CVE和时间线，没有重置接口或实际状态链。"
+  ],
+  [
+    72,
+    "N",
+    null,
+    "SAML RelayState open redirect 标题/CVE/时间线，没有 SAML消息、RelayState取值或最终 Location。"
+  ],
+  [
+    73,
+    "D",
+    "scope,records,auth",
+    "bbscope 截图邮箱和密码参数被遮挡，Login OK 后获取565 programs并输出 web、带OAuth参数路径及 Android/iOS资产；正文说明仅 email/password 流程尚无2FA。自动登录兼容性不等于2FA绕过，输出列表不含完整规则、禁测项或每个测试许可。只用明确获准自有凭据，安全输入不落命令日志，拉取失败/2FA需求不得回退成放宽范围；按程序和更新时间保存资产种类、精确路径及规则，身份令牌/临时URL不散播，列表条数不是范围完整性证明。"
+  ],
+  [
+    74,
+    "N",
+    null,
+    "Information Disclosure High 和 reflected XSS Medium 报告标题，具体对象遮挡，无机制。"
+  ],
+  [
+    75,
+    "D",
+    "passive,records,scope",
+    "crt.sh 工具界面按目标域名列 Fetched Subdomains 与 Wildcard Subdomains。证书SAN、大小写规范化、多行和 wildcard 必须分开处理；签发记录不等于实时DNS、当前所有权或可测试范围。以自有证书含重复大小写、通配和排除域名小样本对照去重/边界，保留证书来源与时间、分页/截断状态，再获准核对当前归属；界面滚动列表非全量证明，通配项不能直接作具体主机。"
+  ],
+  [
+    76,
+    "N",
+    null,
+    "Google Bug Hunters dangling/orphaned CNAME 文章标题与影响概述，未显示实际 CNAME/provider/确认链。"
+  ],
+  [
+    77,
+    "I",
+    null,
+    "另一张 wafer.py 自动浏览器短标记截图仍无原始请求、WAF前后对照、payload或实际执行上下文，不能证明 bypass。"
+  ],
+  [
+    78,
+    "N",
+    null,
+    "视频人物和 IF SOMEONE WATCHES US 字幕，无技术内容。"
+  ],
+  [
+    79,
+    "D",
+    "auth,logic",
+    "Enjin 摘要明确历史服务器未检查邮箱验证即可建立登录会话；另一摘要称改响应可用未获邮箱所有人同意的地址注册登录，但没有具体响应。用两个自有邮箱的未验证与已验证账户比较会话签发及受保护权限，客户端伪造成功页面不应改变服务端 verified 状态；确认实际主体和邮箱归属绑定。不能将预注册登录自动称既有账户接管、覆盖已存在身份或说明篡改哪一个字段。"
+  ],
+  [
+    80,
+    "D",
+    "csrf,graphql,auth",
+    "Enjin 摘要指 GraphQL 使用 session token 时缺恰当 CSRF 保护，HTML form 可驱使浏览器请求撤销 API token；截图没 form 内容或实际抓包。在自有隔离账户/可恢复假 token 比较正常同源请求与受控跨站 form，核对 Content-Type/解析、浏览器实际携带 Cookie、SameSite、Origin/Referer和XSRF绑定，最终只读确认撤销状态；Bearer需手工附加且浏览器不会自动带的情况作反例。CORS报错不证明请求未执行，Critical评级不能推导任意接管。"
+  ],
+  [
+    81,
+    "D",
+    "access,secret,logic",
+    "HackerOne 摘要步骤为接受私有邀请、收藏、提交期限到达后已无政策页权限，但 Opportunities/My programs 仍可见域名数量、已付赏金等有限统计。授权必须随 membership/到期在详情与收藏列表同时撤销；用自有私有测试项目比较收藏/未收藏与到期前后、刷新/新会话，确认统计来自服务端而非已缓存页面。有限元数据可见不等于完整规则、报告可读或仍可提交，不实际加入退出第三方私有项目。"
+  ],
+  [
+    82,
+    "N",
+    null,
+    "Censys 搜索首页与历史覆盖统计，没有查询或命中记录。"
+  ],
+  [
+    83,
+    "I",
+    null,
+    "签名请求hash逆向文章封面背景有截断混淆 JS，签名输入、完整控制流、算法和运行结果均不可见；不能据此推导签名绕过或去混淆过程。"
+  ],
+  [
+    84,
+    "N",
+    null,
+    "方法论仓库分享封面和 stars/forks，正文未显示。"
+  ],
+  [
+    85,
+    "D",
+    "passive,web,scope,records",
+    "方法论截图用 ASN CIDR→amass，提示大网段有 false positives/dead hosts、需核对解析；基础 crawler 深度2，再从 CommonCrawl 索引链接提取历史域名，Wayback部分仅标题。ASN/活跃DNS不证明范围归属，递归抓取也需每跳范围/去状态动作和预算。对自有含外域链接、软404、重复/协议/用户信息的少量样本比较提取器结果与真正URL解析，记录索引批次/时间/分页缺口；grep/cut式提取可能丢失结构，不把历史域名当当前资产，不执行截图流水线。"
+  ]
+]

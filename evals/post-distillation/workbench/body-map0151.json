@@ -1,0 +1,377 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Octopii 的输入支持：扫描结果与 PII 暴露证据分开；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "3": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；重置邮件 Host 投毒：链接来源与代码消费者绑定；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "5": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；S3 命令表混合读写：先确定身份与具体权限；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "6": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；CGI 与 Bash 函数环境：入口、解释器和权限分别确认；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；X-Cache 与 unkeyed input：共享存储和独立读取两段证明；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；内容类型与 SameSite：浏览器可发送请求和状态变化为准；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "9": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；script 文本终止与字符串转义：两套解析器分开观察；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "10": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Recon 总表：公开线索、主动交互与许可范围分层；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；用户编号与邮件列表：存在性、对象归属和限量对照；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "13": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；httpx→Katana→模板：追加文件中的运行边界；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；SQL 思维图：观察通道、查询上下文与权限能力分开；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "20": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；RedirectUrl 完整替换失败：保留负例并定位规范化规则；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "22": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；词表仓库截图：按 API、路径、文件和 header 消费者选子集；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "23": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；OTP 响应 Valid 与 InValid：前端放行与后端验证分开；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "24": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；公开仓库与连接串正则：命中、归属和秘密消费者三级核验；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Nextcloud 通知的文件名、会话名与状态：富文本资源和代码执行分层；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "29": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；WODAT 标签与数据库认证：成功会话不代表管理角色；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "30": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；历史 checkout URL 与 view-source：遮罩不代替服务端数据裁剪；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "31": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；历史 checkout URL 与 view-source：遮罩不代替服务端数据裁剪；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "32": {
+    "dis": "merged",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Nextcloud 通知的文件名、会话名与状态：富文本资源和代码执行分层；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "33": {
+    "dis": "merged",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Nextcloud 通知的文件名、会话名与状态：富文本资源和代码执行分层；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Concrete CMS 远程文件导入：扩展检查与响应可读性分开；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "37": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；旧子域与参数反射：优先级线索不代替 XSS 证明；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "38": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；DNS Rebind 摘要：检查时地址和连接时地址绑定；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "39": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；额外 header 触发导航：攻击者可控条件与 canonical URL；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "43": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；词表仓库截图：按 API、路径、文件和 header 消费者选子集；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "44": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；停用账号后资料仍公开：登录状态与数据生命周期策略；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "45": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；circle×folder 推荐查询：组合规模、取消与资源预算；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "47": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；混合编码载荷表：规范化等价性要在实际消费者确认；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "48": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；curl HTTP proxy 清理：释放所有权与协议错误路径；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "49": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；curl PUT 后 POST：方法状态和数据缓冲生命周期一起重置；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "50": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；名称黑名单与 file URL：字符串过滤不等于网络或文件边界；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "52": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；规模 SQLi 管线：候选筛选、输入引用和验证预算；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "53": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；数值 site 搜索词：文本索引不能替代 IP 解析或授权；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "54": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；SharePoint 挂载异常日志：连接秘密与日志读取权限；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "56": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；旧子域与参数反射：优先级线索不代替 XSS 证明；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "59": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；httpx 超时 10 与 30 的行数：未响应候选要保留；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "61": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；名称黑名单与 file URL：字符串过滤不等于网络或文件边界；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "64": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；浏览器 JS 中 SSH 配置：公开字段、真实秘密与使用权限分层；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "67": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；奖励邮件中的 MobileToken：导航与 token 消费者不省略；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "68": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；WordPress users 公开作者：字段敏感度不能继承 Critical 标签；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "70": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；公开仓库与连接串正则：命中、归属和秘密消费者三级核验；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "71": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；NLP trainFiles 再次出现的请求图：路径输入不代替读取证据；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "78": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；rate-limit 帖的 202 列表：入队接受与副作用完成区分；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "79": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；用户编号与邮件列表：存在性、对象归属和限量对照；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "81": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；浏览器 JS 中 SSH 配置：公开字段、真实秘密与使用权限分层；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "82": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Recon 工具职能表：按输出对象组织流程；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "84": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Amass 数据源清单：互补来源与限额、失败记账；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "85": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Shodan dork 的 RDP 字节：协议特征不代表密码；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "95": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；单任务积分并发：实际记账、日上限和兑换价值；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "99": {
+    "dis": "corrected",
+    "targets": "references/cloud/container-k8s-security.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；KubeEye 架构的 OPA 与节点日志：规则发现和有效权限分开；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "101": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；公开仓库与连接串正则：命中、归属和秘密消费者三级核验；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "102": {
+    "dis": "corrected",
+    "targets": "references/by-type/cors.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；返回 session 的 Origin 反射示例：浏览器读取和真实身份均需证据；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "103": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；EvilTree 关键词命中：可访问文件、内容确认与跳过项；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "108": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；图片文件名进入 HTML：后缀与展示字段的上下文不同；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "109": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Django locale 当正则：输入可达性和复杂度要一起证实；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "111": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；curl verbose 的 CSP 提取：先解析响应头再抽域名；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "114": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；campaign balance 与 history：认证会话仍需每个广告账号授权；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "117": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Electron showWindow 改成 exec：本地可写前置条件不能省略；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "126": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；公开 JS、币种地址与 API key：不把公开性本身判为秘密泄露；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "128": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；邮箱形状注入矩阵：接受语法与下游消费者分开；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "130": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；RapidDNS 域名、IP 与范围入口：总记录数不代表目标完整；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "131": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；三种被动枚举到 anew：原始来源与已完成基线分开保存；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "134": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；公开仓库与连接串正则：命中、归属和秘密消费者三级核验；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "135": {
+    "dis": "corrected",
+    "targets": "references/by-type/cors.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；CORS 加方法覆盖头：读取策略与真实动作仍是两道边界；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "137": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Dovetale 创作者申请：审核者渲染与旧对象加载前提；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "139": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；pending review CSV 导出：登录身份不等于组织资产权限；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "140": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Recon 工具职能表：按输出对象组织流程；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；视频发送文本的 stored XSS 摘要：消费者和会话影响分层；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "145": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；etc/passwd 报告模板：URL 和哈希主张不足以证明读取；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "147": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；script 文本终止与字符串转义：两套解析器分开观察；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "152": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；ShareFinder 调用已有代理：执行前提、共享 ACL 与编码；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "153": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Base64 身份图示：token 完整性和对象授权分别核验；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "155": {
+    "dis": "merged",
+    "targets": "references/by-type/csrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；内容类型与 SameSite：浏览器可发送请求和状态变化为准；缺失图片及外链全文依用户按覆盖，不补造。"
+  },
+  "159": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；campaign balance 与 history：认证会话仍需每个广告账号授权；缺失图片及外链全文依用户按覆盖，不补造。"
+  }
+}

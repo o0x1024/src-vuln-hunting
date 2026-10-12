@@ -1,0 +1,160 @@
+1|corrected|references/by-type/xss.md|保存图证0187-1-xss：条件与证明边界；搜索和邮箱输入的上下文探针：从弹窗到真实执行位置（0187）
+2|corrected|references/by-type/xss.md|保存图证0187-2-xss：条件与证明边界；搜索和邮箱输入的上下文探针：从弹窗到真实执行位置（0187）
+3|excluded||完整保存正文/有意义替代文字已实际读完；Just won @CaesarsPalace $1,000 Guarantee Texas Holdem tournament 🏆♠️；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+4|excluded||完整保存正文/有意义替代文字已实际读完；Fake it till you make it 🥴；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+5|corrected|references/discovery/web-and-api.md|API、路径和功能入口的分层发现（0187）
+6|corrected|references/by-type/info-secrets.md|files.md5 与 SQL 备份曝光的逐层确认（0187）
+7|corrected|references/reporting.md|保存图证0187-7-report：条件与证明边界
+8|corrected|references/by-type/ssrf.md|URL 型参数与令牌路由只构成入口候选（0187）
+9|excluded||完整保存正文/有意义替代文字已实际读完；XSS in KiwiTCMS (CVE-2023–36809)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+10|excluded||完整保存正文/有意义替代文字已实际读完；I discover new thing in Private Program invite Preferences；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+11|corrected|references/discovery/passive-and-services.md|公开域名线索、模型猜测和归属确认（0187）
+12|merged|references/discovery/web-and-api.md|API、路径和功能入口的分层发现（0187）
+13|excluded||完整保存正文/有意义替代文字已实际读完；PII disclosure through IDOR.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+14|excluded||完整保存正文/有意义替代文字已实际读完；I published a write-up talking in it about the special characters manipulating；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+15|excluded||完整保存正文/有意义替代文字已实际读完；Some websites to check broken links to find broken link hijacking vulnerabilities；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+16|excluded||完整保存正文/有意义替代文字已实际读完；If you want to learn more about Binary Exploitation checkout these resources.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+17|corrected|references/by-type/authn-session.md|退出后恢复自己的 Cookie：会话注销检查（0187）
+18|corrected|references/discovery/records-and-incremental.md|保留历史目录结果以便版本条件重查（0187）
+19|corrected|references/by-type/info-secrets.md|历史归档与压缩包扩展名筛选的证据边界（0187）
+20|excluded||完整保存正文/有意义替代文字已实际读完；Bypasses and Cheatsheets；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+21|merged|references/discovery/web-and-api.md|API、路径和功能入口的分层发现（0187）
+22|corrected|references/by-type/xss.md|保存图证0187-22-xss：条件与证明边界；搜索和邮箱输入的上下文探针：从弹窗到真实执行位置（0187）
+23|corrected|references/by-type/oauth-oidc.md|客户端 ID 与 secret 的用途及暴露等级（0187）
+24|merged|references/by-type/ssrf.md|URL 型参数与令牌路由只构成入口候选（0187）
+25|merged|references/discovery/passive-and-services.md|公开域名线索、模型猜测和归属确认（0187）
+26|corrected|references/discovery/passive-and-services.md|保存图证0187-26-passive：条件与证明边界；公开域名线索、模型猜测和归属确认（0187）
+27|corrected|references/by-type/sql-injection.md|保存图证0187-27-sql：条件与证明边界
+28|excluded||完整保存正文/有意义替代文字已实际读完；𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗜𝗻𝗷𝗲𝗰𝘁𝗶𝗼𝗻.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+29|excluded||完整保存正文/有意义替代文字已实际读完；🎩 Yay, I was awarded a $$$ bounty on @Hacker0x01!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+30|merged|references/by-type/xss.md|搜索和邮箱输入的上下文探针：从弹窗到真实执行位置（0187）
+31|corrected|references/business-modeling.md|保存图证0187-31-business：条件与证明边界；按用户流程建立功能和状态检查表（0187）
+32|corrected|references/scope-and-rules.md|保存图证0187-32-scope：条件与证明边界
+33|excluded||完整保存正文/有意义替代文字已实际读完；A nice writeup of Journey Going through a black box assessment on a hardened target；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+34|excluded||完整保存正文/有意义替代文字已实际读完；⚡ Path traversal allows tricking the Talk Android app into writing files into it's root directory；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+35|excluded||完整保存正文/有意义替代文字已实际读完；The Wisdom of the Crowd: Community Driven Security；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+36|corrected|references/hunting-strategy.md|按阶段选择工具并保留真实产物（0187）
+37|corrected|references/scope-and-rules.md|保存图证0187-37-scope：条件与证明边界
+38|excluded||完整保存正文/有意义替代文字已实际读完；Best feature in bug bounty platforms；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+39|corrected|references/by-type/xxe.md|切换媒体类型与 SVG 上传的实际 XML 解析条件（0187）
+40|corrected|references/by-type/authn-session.md|保存图证0187-40-auth：条件与证明边界；Shop Pay 与普通 Shop 身份绑定的最小链条（0187）
+41|merged|references/business-modeling.md|按用户流程建立功能和状态检查表（0187）
+42|corrected|references/by-type/xss.md,references/by-type/waf-bypass.md|保存图证0187-42-xss：条件与证明边界；按原始字节和解析上下文验证 WAF 差异（0187）
+43|excluded||完整保存正文/有意义替代文字已实际读完；i like new feature retesting .；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+44|merged|references/by-type/xxe.md|切换媒体类型与 SVG 上传的实际 XML 解析条件（0187）
+45|corrected|references/by-type/xss.md|保存图证0187-45-xss：条件与证明边界；搜索结果 HTML 注入与脚本执行分开证明（0187）
+46|corrected|references/reporting.md|保存图证0187-46-report：条件与证明边界；奖励、受理、Resolved 与实际修复分开记录（0187）
+47|excluded||完整保存正文/有意义替代文字已实际读完；Offensive Security Resources for Newbies (Part - 2)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+48|excluded||完整保存正文/有意义替代文字已实际读完；🛠️ Vulnerable WordPress；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+49|excluded||完整保存正文/有意义替代文字已实际读完；Just got word that @Jhaddix is using my tool [[外链] in his recon process! 🙌 Feeling incredibly grateful and proud to see my work making a difference in such esteemed ；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+50|excluded||完整保存正文/有意义替代文字已实际读完；Yeah i got 20k bounty for my previous reports #bugbounty #msrc #bugbountytips；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+51|excluded||完整保存正文/有意义替代文字已实际读完；Bug Report Explain -；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+52|excluded||完整保存正文/有意义替代文字已实际读完；Happy Birthday brother! You have contributed a lot in my bug bounty career, just by your #bugbountytips! Your tips helped a lot! Thanks a ton for your work! ❤️；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+53|corrected|references/by-type/info-secrets.md,references/source-audit.md|保存图证0187-53-secret：条件与证明边界；公开代码里的硬编码 ID 与真正敏感信息（0187）
+54|corrected|references/scope-and-rules.md|保存图证0187-54-scope：条件与证明边界
+55|excluded||完整保存正文/有意义替代文字已实际读完；Exploiting request smuggling to steal credentials #BugBounty #bugbountytips；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+56|excluded||完整保存正文/有意义替代文字已实际读完；I am in the TOP 12 in the world with xss vulnerability this month in the most famous platform in @Hacker0x01 I hope to reach the TOP 5 next to these wonderful hacker；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+57|corrected|references/by-type/file-upload.md|上传后缀、处理器映射和空字节的版本条件（0187）
+58|corrected|references/by-type/xss.md,references/by-type/authn-session.md|保存图证0187-58-xss：条件与证明边界；保存图证0187-58-auth：条件与证明边界；Cookie 派生查询数据进入 DOM 的数据流追踪（0187）
+59|excluded||完整保存正文/有意义替代文字已实际读完；Found a crit in my first attempt with this yesterday. Don’t sleep on this blog.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+60|corrected|references/by-type/lfi-path-traversal.md|保存图证0187-60-lfi：条件与证明边界；Node 实验权限模型中的相对链接与路径边界（0187）
+61|corrected|references/discovery/web-and-api.md|Protobuf 转 JSON 后仍需保留真实传输语义（0187）
+62|corrected|references/by-type/xss.md|延迟 Blind XSS 的归因和输入预算（0187）
+63|corrected|references/by-type/idor-access-control.md|工作任务、邀请和提醒 ID 的状态授权对照（0187）
+64|excluded||完整保存正文/有意义替代文字已实际读完；Privilege Escalation ｜ Normal User To Admin Power & Account Takeover 👾；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+65|excluded||完整保存正文/有意义替代文字已实际读完；#bugbountytips #bugbounty #cybersecurity #Pentesting #Hacking #bugcrowd #Hackerone #IDOR #XSS #SQLI；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+66|excluded||完整保存正文/有意义替代文字已实际读完；🚨 Binary Exploitation - Ret2LibC🚨；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+67|corrected|references/source-audit.md|保存图证0187-67-source：条件与证明边界；Cargo 解压权限与本地构建缓存风险（0187）
+68|corrected|references/source-audit.md|多仓库变体搜索要从可到达数据流出发（0187）
+69|corrected|references/targeted-fuzzing.md|保存图证0187-69-fuzz：条件与证明边界；URI 与 Rack 的历史 ReDoS：隔离性能对照（0187）
+70|corrected|references/by-type/deserialization-rce.md|保存图证0187-70-deser：条件与证明边界；JSON.load 与 gadget 链的实际可到达条件（0187）
+71|corrected|references/targeted-fuzzing.md|保存图证0187-71-fuzz：条件与证明边界；URI 与 Rack 的历史 ReDoS：隔离性能对照（0187）
+72|excluded||完整保存正文/有意义替代文字已实际读完；A short about @defcon 31 @RedTeamVillage_；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+73|corrected|references/by-type/sql-injection.md|延时注入要验证数据库语法与时间因果（0187）
+74|excluded||完整保存正文/有意义替代文字已实际读完；Level up as a Bug Bounty Hunter with these top resources :；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+75|corrected|references/by-type/crlf-response-splitting.md,references/by-type/xss.md,references/by-type/open-redirect.md|保存图证0187-75-crlf：条件与证明边界；保存图证0187-75-xss：条件与证明边界；保存图证0187-75-redirect：条件与证明边界；同一页面的 CRLF、XSS 和跳转分别验证（0187）
+76|corrected|references/cloud/container-k8s-security.md|etcd 2379 与历史 v2 API 暴露的最小检查（0187）
+77|corrected|references/source-audit.md|保存图证0187-77-source：条件与证明边界；公开代码里的硬编码 ID 与真正敏感信息（0187）
+78|excluded||完整保存正文/有意义替代文字已实际读完；💻 Noir 💻；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+79|merged|references/by-type/info-secrets.md|历史归档与压缩包扩展名筛选的证据边界（0187）
+80|corrected|references/by-type/lfi-path-traversal.md|WebLogic 部署配置暴露与任意文件读取的区分（0187）
+81|corrected|references/by-type/deserialization-rce.md|保存图证0187-81-deser：条件与证明边界；JSON.load 与 gadget 链的实际可到达条件（0187）
+82|merged|references/by-type/xss.md|搜索和邮箱输入的上下文探针：从弹窗到真实执行位置（0187）
+83|corrected|references/by-type/subdomain-takeover.md|保存图证0187-83-takeover：条件与证明边界；S3 与 Webflow 接管的绑定能力证据（0187）
+84|corrected|references/by-type/deserialization-rce.md|保存图证0187-84-deser：条件与证明边界；JSON.load 与 gadget 链的实际可到达条件（0187）
+85|corrected|references/by-type/lfi-path-traversal.md|保存图证0187-85-lfi：条件与证明边界；LFI 工具命中要读响应与阴性基线（0187）
+86|corrected|references/reporting.md|保存图证0187-86-report：条件与证明边界；奖励、受理、Resolved 与实际修复分开记录（0187）
+87|corrected|references/by-type/open-redirect.md|OpenRedireX 的多跳跳转与 URL 解析差异（0187）
+88|corrected|references/hunting-strategy.md|修复后的相邻入口与重复根因判断（0187）
+89|corrected|references/by-type/xss.md|外部 iframe 与 DOM 数据源的正确分类（0187）
+90|corrected|references/by-type/jwt.md|JWT 签名、算法与 kid 的独立信任边界（0187）
+91|merged|references/by-type/xss.md|外部 iframe 与 DOM 数据源的正确分类（0187）
+92|corrected|references/by-type/info-secrets.md|正则匹配 ID 与秘密字段的误报控制（0187）
+93|merged|references/by-type/info-secrets.md|正则匹配 ID 与秘密字段的误报控制（0187）
+94|corrected|references/discovery/passive-and-services.md|匿名 FTP 的读取和写入权限逐项确认（0187）
+95|merged|references/by-type/info-secrets.md|历史归档与压缩包扩展名筛选的证据边界（0187）
+96|corrected|references/by-type/business-logic.md|负价格与购物车服务端总额一致性（0187）
+97|corrected|references/source-audit.md|保存图证0187-97-source：条件与证明边界；Node Module._load 策略绕过与权限模型区分（0187）
+98|corrected|references/by-type/iot-security.md|保存图证0187-98-iot：条件与证明边界；游戏元数据校验与解析缺陷的版本定位（0187）
+99|corrected|references/by-type/iot-security.md|保存图证0187-99-iot：条件与证明边界；游戏元数据校验与解析缺陷的版本定位（0187）
+100|merged|references/discovery/web-and-api.md|API、路径和功能入口的分层发现（0187）
+101|corrected|references/by-type/authn-session.md|保存图证0187-101-auth：条件与证明边界；2FA 生命周期检查的状态矩阵（0187）
+102|excluded||完整保存正文/有意义替代文字已实际读完；Here are some resources where you can learn about API Security:；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+103|corrected|references/discovery/passive-and-services.md|保存图证0187-103-passive：条件与证明边界；公开域名线索、模型猜测和归属确认（0187）
+104|merged|references/by-type/lfi-path-traversal.md|WebLogic 部署配置暴露与任意文件读取的区分（0187）
+105|merged|references/by-type/info-secrets.md|正则匹配 ID 与秘密字段的误报控制（0187）
+106|corrected|references/by-type/ssrf.md|执行 JavaScript 的服务端浏览器与本地 WebSocket（0187）
+107|corrected|references/by-type/xss.md|保存图证0187-107-xss：条件与证明边界；CSP self 与同源 WordPress JSONP 的具体条件（0187）
+108|excluded||完整保存正文/有意义替代文字已实际读完；30Day Hunting Challange；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+109|excluded||完整保存正文/有意义替代文字已实际读完；CSRF；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+110|excluded||完整保存正文/有意义替代文字已实际读完；Offensive Security Resources for Newbies (Part - 3)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+111|corrected|references/by-type/idor-access-control.md|保存图证0187-111-access：条件与证明边界；工作任务、邀请和提醒 ID 的状态授权对照（0187）
+112|excluded||完整保存正文/有意义替代文字已实际读完；Check out the new Updated and Improved "Bug Bounty Blueprint: A Beginner's Guide." 🎯 Let me know your thoughts! 🙌 #BugBounty #bugbountytips；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+113|corrected|references/by-type/authn-session.md,references/by-type/xss.md|保存图证0187-113-auth：条件与证明边界；保存图证0187-113-xss：条件与证明边界；搜索和邮箱输入的上下文探针：从弹窗到真实执行位置（0187）；退出后恢复自己的 Cookie：会话注销检查（0187）
+114|corrected|references/by-type/graphql.md|保存图证0187-114-graphql：条件与证明边界；Graphinder 默认发现行为与明确请求预算（0187）
+115|excluded||完整保存正文/有意义替代文字已实际读完；A 0-day found in a project that has over 8k stars on GitHub.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+116|excluded||完整保存正文/有意义替代文字已实际读完；Hi folks!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+117|merged|references/hunting-strategy.md|按阶段选择工具并保留真实产物（0187）
+118|corrected|references/scope-and-rules.md|保存图证0187-118-scope：条件与证明边界；范围导出与平台范围表的时点核对（0187）
+119|merged|references/hunting-strategy.md|按阶段选择工具并保留真实产物（0187）
+120|excluded||完整保存正文/有意义替代文字已实际读完；Tool that’s discover new subdomains；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+121|corrected|references/discovery/records-and-incremental.md,references/source-audit.md,references/discovery/passive-and-services.md|保存图证0187-121-records：条件与证明边界；保存图证0187-121-source：条件与证明边界；保存图证0187-121-passive：条件与证明边界；资产关系图的生命周期和不完整性（0187）；Lua 资产收集插件的命令拼接审计（0187）
+122|corrected|references/discovery/web-and-api.md|URL 汇总、参数替换与 headless DOM 提取（0187）
+123|excluded||完整保存正文/有意义替代文字已实际读完；Portswigger lab that’s explain privilege escalation via JWT token；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+124|corrected|references/by-type/idor-access-control.md|保存图证0187-124-access：条件与证明边界；工作任务、邀请和提醒 ID 的状态授权对照（0187）
+125|corrected|references/by-type/idor-access-control.md|保存图证0187-125-access：条件与证明边界；工作任务、邀请和提醒 ID 的状态授权对照（0187）
+126|excluded||完整保存正文/有意义替代文字已实际读完；30Day Hunting Challange；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+127|merged|references/by-type/xss.md|延迟 Blind XSS 的归因和输入预算（0187）
+128|corrected|references/by-type/authn-session.md|邮箱复用和权限降低后的身份索引失效（0187）
+129|corrected|references/discovery/passive-and-services.md|保存图证0187-129-passive：条件与证明边界；公开域名线索、模型猜测和归属确认（0187）
+130|corrected|references/cloud/cloud-misconfiguration.md|异常 PUT 响应中的 bucket 名称只是服务线索（0187）
+131|corrected|references/discovery/web-and-api.md|保存图证0187-131-web：条件与证明边界；URL 汇总、参数替换与 headless DOM 提取（0187）
+132|excluded||完整保存正文/有意义替代文字已实际读完；Hey any indian who does bug bounty and pays the income tax? I have some questions regarding that. It would be better if someone can answer；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+133|excluded||完整保存正文/有意义替代文字已实际读完；I searched users personal data with help of google dorking !；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+134|excluded||完整保存正文/有意义替代文字已实际读完；Discovering Remote Code Execution with Burp Suite Extension；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+135|corrected|references/discovery/passive-and-services.md|保存图证0187-135-passive：条件与证明边界；公开域名线索、模型猜测和归属确认（0187）
+136|corrected|references/discovery/web-and-api.md,references/source-audit.md,references/experiment-design.md|保存图证0187-136-web：条件与证明边界；保存图证0187-136-source：条件与证明边界；保存图证0187-136-experiment：条件与证明边界；URL 汇总、参数替换与 headless DOM 提取（0187）；AI 生成检测模板的正反例和行为检查（0187）
+137|excluded||完整保存正文/有意义替代文字已实际读完；"Don't compare your day 1 to someone's day 100."；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+138|merged|references/by-type/waf-bypass.md|按原始字节和解析上下文验证 WAF 差异（0187）
+139|excluded||完整保存正文/有意义替代文字已实际读完；"Hello everyone, I just received my inaugural audit bounty from @code4rena"；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+140|merged|references/experiment-design.md|AI 生成检测模板的正反例和行为检查（0187）
+141|merged|references/by-type/authn-session.md|邮箱复用和权限降低后的身份索引失效（0187）
+142|excluded||完整保存正文/有意义替代文字已实际读完；3- تجربتي معاه من اكتر من شهر بصراحه قوي جدا وتقدر تدخله مصادر يذاكر منها ويديك الاجابه اللي انت محتاجها；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+143|merged|references/scope-and-rules.md|范围导出与平台范围表的时点核对（0187）
+144|merged|references/hunting-strategy.md|修复后的相邻入口与重复根因判断（0187）
+145|excluded||完整保存正文/有意义替代文字已实际读完；100 Days of Hacking! Day 96 #Special ⬇；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+146|excluded||完整保存正文/有意义替代文字已实际读完；I have shared a write-up on my commonly used bookmarks for penetration testing and bug bounty hunting. Have a look it might be useful for you too.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+147|corrected|references/impact-and-acceptance.md|SSRF 升级影响必须补齐独立链条（0187）
+148|corrected|references/by-type/csrf.md|保存图证0187-148-csrf：条件与证明边界；删除确认页面与跨站操作能力分开核对（0187）
+149|excluded||完整保存正文/有意义替代文字已实际读完；𝗦𝗦𝗥𝗙 𝗘𝘅𝗽𝗹𝗮𝗶𝗻𝗲𝗱；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+150|excluded||完整保存正文/有意义替代文字已实际读完；Just uploaded a new video；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+151|excluded||完整保存正文/有意义替代文字已实际读完；An IDOR lead joins any group makes me $2,500；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+152|excluded||完整保存正文/有意义替代文字已实际读完；For those eager to start Bug Bounty Hunting, this video covers topics like creating a workspace, engaging with clients using enumeration and probing techniques, and ；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+153|merged|references/scope-and-rules.md|范围导出与平台范围表的时点核对（0187）
+154|corrected|references/by-type/authn-session.md|保存图证0187-154-auth：条件与证明边界；ResetPassword.json 返回令牌的能力验证（0187）
+155|merged|references/by-type/authn-session.md|ResetPassword.json 返回令牌的能力验证（0187）
+156|merged|references/by-type/deserialization-rce.md|JSON.load 与 gadget 链的实际可到达条件（0187）
+157|excluded||完整保存正文/有意义替代文字已实际读完；Excellent explanation of subdomain takeover vulnerability；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+158|corrected|references/by-type/subdomain-takeover.md|保存图证0187-158-takeover：条件与证明边界；S3 与 Webflow 接管的绑定能力证据（0187）
+159|merged|references/discovery/web-and-api.md|API、路径和功能入口的分层发现（0187）
+160|excluded||完整保存正文/有意义替代文字已实际读完；Decoding the Enigma: A Journey into Minesweeper’s Reverse Engineering；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。

@@ -1,0 +1,482 @@
+{
+  "5": {
+    "dis": "corrected",
+    "targets": "references/by-type/jwt.md",
+    "note": "正文提炼0200：JWT 的存储、算法与验证消费者"
+  },
+  "9": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md,references/discovery/passive-and-services.md",
+    "note": "保存图证0200-9-scope：1731759484375015458-02.jpg；保存图证0200-9-passive：1731759484375015458-02.jpg；保存图证0200-9-scope：1731759484375015458-03.png；保存图证0200-9-passive：1731759484375015458-03.png"
+  },
+  "10": {
+    "dis": "merged",
+    "targets": "references/by-type/jwt.md",
+    "note": "正文提炼0200：JWT 的存储、算法与验证消费者"
+  },
+  "16": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md,references/business-modeling.md,references/by-type/authn-session.md",
+    "note": "既有图证0200-16-logic：1731926279832613312-02.jpg；既有图证0200-16-business：1731926279832613312-02.jpg；既有图证0200-16-auth：1731926279832613312-02.jpg"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/by-type/idor-access-control.md,references/targeted-fuzzing.md",
+    "note": "既有图证0200-19-web：1731966745626480972-02.jpg；既有图证0200-19-access：1731966745626480972-02.jpg；既有图证0200-19-fuzz：1731966745626480972-02.jpg"
+  },
+  "23": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/api-property-pollution.md",
+    "note": "既有图证0200-23-auth：1732068935661686951-02.jpg；既有图证0200-23-apip：1732068935661686951-02.jpg"
+  },
+  "25": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "既有图证0200-25-xss：1732094193315741719-02.jpg"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md,references/by-type/business-logic.md",
+    "note": "保存图证0200-26-source：1732113432688873761-02.jpg；保存图证0200-26-logic：1732113432688873761-02.jpg"
+  },
+  "27": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/scope-and-rules.md",
+    "note": "保存图证0200-27-passive：1732118285976535110-02.png；保存图证0200-27-scope：1732118285976535110-02.png"
+  },
+  "28": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/by-type/business-logic.md",
+    "note": "保存图证0200-28-auth：1732119699402453077-02.jpg；保存图证0200-28-access：1732119699402453077-02.jpg；保存图证0200-28-auth：1732119699402453077-03.png；保存图证0200-28-logic：1732119699402453077-03.png"
+  },
+  "30": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "保存图证0200-30-xss：1732278980513030584-02.jpg"
+  },
+  "33": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "既有图证0200-33-xss：1732334202753065399-02.jpg"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/waf-bypass.md",
+    "note": "保存图证0200-35-xss：1732361746504175732-02.jpg；保存图证0200-35-waf：1732361746504175732-02.jpg"
+  },
+  "37": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "正文提炼0200：API key 重生成的身份与最终状态"
+  },
+  "38": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/source-audit.md",
+    "note": "保存图证0200-38-auth：1732384908079948235-02.jpg；保存图证0200-38-source：1732384908079948235-02.jpg"
+  },
+  "39": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssti.md,references/by-type/xss.md",
+    "note": "正文提炼0200：折扣表达式与客户端模板的执行位置；保存图证0200-39-ssti：1732401190451683569-02.jpg；保存图证0200-39-xss：1732401190451683569-02.jpg"
+  },
+  "40": {
+    "dis": "merged",
+    "targets": "references/by-type/ssti.md",
+    "note": "正文提炼0200：折扣表达式与客户端模板的执行位置"
+  },
+  "41": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "正文提炼0200：归档参数到反射候选的各阶段"
+  },
+  "42": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/by-type/business-logic.md",
+    "note": "保存图证0200-42-access：1732460215617155546-02.jpg；保存图证0200-42-logic：1732460215617155546-02.jpg"
+  },
+  "43": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md,references/by-type/business-logic.md",
+    "note": "保存图证0200-43-csrf：1732460419888148877-02.jpg；保存图证0200-43-logic：1732460419888148877-02.jpg"
+  },
+  "44": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md,references/by-type/business-logic.md",
+    "note": "保存图证0200-44-csrf：1732460595944059191-02.jpg；保存图证0200-44-logic：1732460595944059191-02.jpg"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/hunting-strategy.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/by-type/authn-session.md,references/by-type/idor-access-control.md",
+    "note": "保存图证0200-46-passive：1732508980537151981-02.png；保存图证0200-46-strategy：1732508980537151981-02.png；保存图证0200-46-web：1732508980537151981-03.png；保存图证0200-46-records：1732508980537151981-03.png；保存图证0200-46-web：1732508980537151981-04.png；保存图证0200-46-auth：1732508980537151981-04.png；保存图证0200-46-auth：1732508980537151981-05.png；保存图证0200-46-access：1732508980537151981-05.png"
+  },
+  "48": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/source-audit.md",
+    "note": "保存图证0200-48-xss：1732603338896576765-02.jpg；保存图证0200-48-source：1732603338896576765-02.jpg"
+  },
+  "50": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "正文提炼0200：XML 中 XHTML namespace 与上传展示链；既有图证0200-50-files：1732679718380708225-02.png"
+  },
+  "51": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "保存图证0200-51-ssrf：1732724132041658583-02.jpg"
+  },
+  "52": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "正文提炼0200：logout 接口的会话对象归属"
+  },
+  "53": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md,references/by-type/subdomain-takeover.md",
+    "note": "保存图证0200-53-cloud：1732792239422894449-02.jpg；保存图证0200-53-takeover：1732792239422894449-02.jpg"
+  },
+  "55": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md,references/targeted-fuzzing.md",
+    "note": "保存图证0200-55-ssrf：1732799629639729176-02.jpg；保存图证0200-55-fuzz：1732799629639729176-02.jpg"
+  },
+  "57": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md,references/discovery/records-and-incremental.md",
+    "note": "保存图证0200-57-scope：1732844982803775597-02.jpg；保存图证0200-57-records：1732844982803775597-02.jpg"
+  },
+  "58": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "正文提炼0200：地址族与 DNS 后校验"
+  },
+  "59": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/scope-and-rules.md,references/discovery/records-and-incremental.md",
+    "note": "保存图证0200-59-passive：1732860997965136282-04.png；保存图证0200-59-scope：1732860997965136282-04.png；保存图证0200-59-passive：1732860997965136282-05.png；保存图证0200-59-records：1732860997965136282-05.png"
+  },
+  "60": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md,references/source-audit.md",
+    "note": "保存图证0200-60-cmd：1732917400247427198-02.jpg；保存图证0200-60-source：1732917400247427198-02.jpg"
+  },
+  "63": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md,references/by-type/waf-bypass.md",
+    "note": "保存图证0200-63-ssrf：1732965724740567044-02.jpg；保存图证0200-63-waf：1732965724740567044-02.jpg"
+  },
+  "65": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "正文提炼0200：地址族与 DNS 后校验；保存图证0200-65-ssrf：1733041221369843873-02.jpg"
+  },
+  "66": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "正文提炼0200：以 HTTP 元数据排序保留范围与真假边界"
+  },
+  "68": {
+    "dis": "corrected",
+    "targets": "references/business-modeling.md,references/by-type/idor-access-control.md",
+    "note": "保存图证0200-68-business：1733066239327813878-02.jpg；保存图证0200-68-access：1733066239327813878-02.jpg"
+  },
+  "70": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md,references/by-type/waf-bypass.md",
+    "note": "保存图证0200-70-ssrf：1733086521350369667-02.jpg；保存图证0200-70-waf：1733086521350369667-02.jpg"
+  },
+  "73": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md,references/targeted-fuzzing.md",
+    "note": "保存图证0200-73-records：1733154589099356391-02.jpg；保存图证0200-73-fuzz：1733154589099356391-02.jpg"
+  },
+  "75": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "保存图证0200-75-records：1733213781357158405-02.jpg；保存图证0200-75-scope：1733213781357158405-02.jpg"
+  },
+  "76": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "正文提炼0200：嵌套 view-source/file 协议的不同消费者"
+  },
+  "79": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md,references/by-type/file-upload.md,references/by-type/cmd-injection-rce.md",
+    "note": "保存图证0200-79-lfi：1733328114426548240-02.jpg；保存图证0200-79-files：1733328114426548240-02.jpg；保存图证0200-79-cmd：1733328114426548240-02.jpg"
+  },
+  "81": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/scope-and-rules.md",
+    "note": "保存图证0200-81-passive：1733397246010708004-02.jpg；保存图证0200-81-scope：1733397246010708004-02.jpg"
+  },
+  "82": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md,references/targeted-fuzzing.md",
+    "note": "保存图证0200-82-cmd：1733403610367881673-02.png；保存图证0200-82-fuzz：1733403610367881673-02.png"
+  },
+  "83": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md,references/by-type/idor-access-control.md,references/by-type/host-header.md",
+    "note": "正文提炼0200：路径规范化与受保护内容辨识；保存图证0200-83-waf：1733446076336685161-02.jpg；保存图证0200-83-access：1733446076336685161-02.jpg；保存图证0200-83-host：1733446076336685161-02.jpg"
+  },
+  "84": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/source-audit.md,references/by-type/xss.md",
+    "note": "保存图证0200-84-auth：1733448909316374920-02.png；保存图证0200-84-source：1733448909316374920-02.png；保存图证0200-84-xss：1733448909316374920-02.png"
+  },
+  "86": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/targeted-fuzzing.md,references/by-type/api-property-pollution.md,references/by-type/idor-access-control.md,references/source-audit.md",
+    "note": "保存图证0200-86-web：1733507040285540504-02.jpg；保存图证0200-86-fuzz：1733507040285540504-02.jpg；保存图证0200-86-apip：1733507040285540504-03.jpg；保存图证0200-86-access：1733507040285540504-03.jpg；保存图证0200-86-apip：1733507040285540504-04.jpg；保存图证0200-86-source：1733507040285540504-04.jpg"
+  },
+  "88": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md,references/by-type/cmd-injection-rce.md,references/source-audit.md",
+    "note": "既有图证0200-88-lfi：1733524405282914756-02.jpg；既有图证0200-88-cmd：1733524405282914756-02.jpg；既有图证0200-88-source：1733524405282914756-02.jpg"
+  },
+  "90": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "既有图证0200-90-sql：1733584803969015883-02.jpg"
+  },
+  "92": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/discovery/web-and-api.md,references/reporting.md",
+    "note": "正文提炼0200：ARGO 路径脚本与实际泄露字段；保存图证0200-92-secret：1733648585189695544-02.jpg；保存图证0200-92-web：1733648585189695544-02.jpg；保存图证0200-92-secret：1733648585189695544-03.jpg；保存图证0200-92-report：1733648585189695544-03.jpg"
+  },
+  "93": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/targeted-fuzzing.md",
+    "note": "保存图证0200-93-sql：1733690501407076464-02.jpg；保存图证0200-93-fuzz：1733690501407076464-02.jpg"
+  },
+  "94": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "既有图证0200-94-passive：1733717841504030854-02.jpg"
+  },
+  "101": {
+    "dis": "corrected",
+    "targets": "references/impact-and-acceptance.md,references/reporting.md",
+    "note": "保存图证0200-101-impact：1733809469405167880-02.jpg；保存图证0200-101-report：1733809469405167880-02.jpg"
+  },
+  "103": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md,references/by-type/idor-access-control.md,references/by-type/info-secrets.md",
+    "note": "正文提炼0200：Intent 与远端 API 授权分层；保存图证0200-103-android：1733918720831947029-02.jpg；保存图证0200-103-access：1733918720831947029-02.jpg；保存图证0200-103-secret：1733918720831947029-02.jpg"
+  },
+  "104": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md",
+    "note": "保存图证0200-104-sql：1733919163088064973-02.jpg；保存图证0200-104-passive：1733919163088064973-02.jpg；保存图证0200-104-records：1733919163088064973-02.jpg"
+  },
+  "108": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "正文提炼0200：源站 IP 候选的授权与服务归属"
+  },
+  "109": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "正文提炼0200：throw 与 onerror 的 JavaScript 上下文；保存图证0200-109-xss：1733930500593688706-02.jpg"
+  },
+  "110": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "正文提炼0200：JavaScript 分析结果到运行消费者"
+  },
+  "111": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "既有图证0200-111-csrf：1733933883102793945-02.jpg；既有图证0200-111-csrf：1734097618886857183-02.jpg"
+  },
+  "114": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "既有图证0200-114-redirect：1734088829081092516-02.jpg"
+  },
+  "115": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md,references/by-type/document-rendering.md,references/source-audit.md",
+    "note": "保存图证0200-115-ssrf：1734131215551418495-02.jpg；保存图证0200-115-doc：1734131215551418495-02.jpg；保存图证0200-115-source：1734131215551418495-02.jpg"
+  },
+  "116": {
+    "dis": "corrected",
+    "targets": "references/by-type/cache-deception.md,references/by-type/idor-access-control.md",
+    "note": "保存图证0200-116-cache：1734131349941006574-02.jpg；保存图证0200-116-access：1734131349941006574-02.jpg"
+  },
+  "117": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/source-audit.md",
+    "note": "保存图证0200-117-auth：1734131482921427379-02.jpg；保存图证0200-117-source：1734131482921427379-02.jpg"
+  },
+  "119": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md,references/by-type/authn-session.md",
+    "note": "保存图证0200-119-source：1734131749305864304-02.jpg；保存图证0200-119-auth：1734131749305864304-02.jpg"
+  },
+  "120": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md,references/by-type/document-rendering.md,references/source-audit.md",
+    "note": "保存图证0200-120-ssrf：1734131758105600100-03.jpg；保存图证0200-120-doc：1734131758105600100-03.jpg；保存图证0200-120-source：1734131758105600100-03.jpg"
+  },
+  "121": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md,references/discovery/passive-and-services.md",
+    "note": "保存图证0200-121-redirect：1734157340910489683-02.jpg；保存图证0200-121-passive：1734157340910489683-02.jpg"
+  },
+  "123": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md,references/targeted-fuzzing.md",
+    "note": "保存图证0200-123-redirect：1734188784315441173-02.png；保存图证0200-123-fuzz：1734188784315441173-02.png"
+  },
+  "126": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md,references/by-type/document-rendering.md",
+    "note": "保存图证0200-126-files：1734249181101904327-02.jpg；保存图证0200-126-doc：1734249181101904327-02.jpg"
+  },
+  "128": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md,references/source-audit.md",
+    "note": "保存图证0200-128-files：1734309578878210400-02.jpg；保存图证0200-128-source：1734309578878210400-02.jpg"
+  },
+  "129": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md,references/by-type/lfi-path-traversal.md,references/source-audit.md",
+    "note": "保存图证0200-129-files：1734415276291276944-02.jpg；保存图证0200-129-lfi：1734415276291276944-02.jpg；保存图证0200-129-source：1734415276291276944-02.jpg"
+  },
+  "131": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md,references/discovery/passive-and-services.md",
+    "note": "正文提炼0200：子域发现与归档脚本的输入输出契约；保存图证0200-131-passive：1734442963751645316-02.jpg；保存图证0200-131-records：1734442963751645316-02.jpg"
+  },
+  "132": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/by-type/authn-session.md",
+    "note": "保存图证0200-132-sql：1734444223166816352-02.jpg；保存图证0200-132-auth：1734444223166816352-02.jpg"
+  },
+  "134": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md,references/by-type/waf-bypass.md",
+    "note": "正文提炼0200：重复斜线遍历与文件读取的确认；保存图证0200-134-lfi：1734445863827615771-02.jpg；保存图证0200-134-waf：1734445863827615771-02.jpg"
+  },
+  "136": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "正文提炼0200：额外等号与参数值的规范化"
+  },
+  "137": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/scope-and-rules.md",
+    "note": "保存图证0200-137-auth：1734498770682077615-02.jpg；保存图证0200-137-scope：1734498770682077615-02.jpg"
+  },
+  "138": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/business-logic.md",
+    "note": "保存图证0200-138-auth：1734498908905357760-02.jpg；保存图证0200-138-logic：1734498908905357760-02.jpg"
+  },
+  "139": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "正文提炼0200：Accept 协商与字段权限"
+  },
+  "140": {
+    "dis": "corrected",
+    "targets": "references/by-type/host-header.md,references/scope-and-rules.md",
+    "note": "既有图证0200-140-host：1734611569328492644-02.png；既有图证0200-140-scope：1734611569328492644-02.png"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "正文提炼0200：个人资料别名与密码重置身份冲突"
+  },
+  "142": {
+    "dis": "corrected",
+    "targets": "references/business-modeling.md",
+    "note": "正文提炼0200：分数商品数量的计价与履约"
+  },
+  "143": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md,references/business-modeling.md",
+    "note": "保存图证0200-143-logic：1734777664840548526-02.jpg；保存图证0200-143-business：1734777664840548526-02.jpg"
+  },
+  "146": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md,references/business-modeling.md",
+    "note": "保存图证0200-146-logic：1734853161616359456-02.jpg；保存图证0200-146-business：1734853161616359456-02.jpg"
+  },
+  "149": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md,references/by-type/open-redirect.md",
+    "note": "正文提炼0200：gf 模式匹配不替代参数语义；保存图证0200-149-redirect：1734898462830010627-02.jpg；保存图证0200-149-fuzz：1734898462830010627-02.jpg"
+  },
+  "152": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md,references/experiment-design.md",
+    "note": "保存图证0200-152-source：1734951536776909107-02.jpg；保存图证0200-152-experiment：1734951536776909107-02.jpg"
+  },
+  "153": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md,references/business-modeling.md",
+    "note": "保存图证0200-153-logic：1734962736872759478-02.jpg；保存图证0200-153-business：1734962736872759478-02.jpg"
+  },
+  "155": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/cache-deception.md",
+    "note": "保存图证0200-155-auth：1734973959131496949-02.jpg；保存图证0200-155-cache：1734973959131496949-02.jpg"
+  },
+  "156": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md,references/business-modeling.md",
+    "note": "保存图证0200-156-logic：1734992938059362692-02.jpg；保存图证0200-156-business：1734992938059362692-02.jpg"
+  },
+  "157": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md,references/source-audit.md",
+    "note": "正文提炼0200：glob 与 IFS 只在 shell 消费链生效；保存图证0200-157-cmd：1735034355905613905-02.jpg；保存图证0200-157-source：1735034355905613905-02.jpg"
+  },
+  "159": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md,references/targeted-fuzzing.md",
+    "note": "正文提炼0200：模板筛选集合与实际加载差异；保存图证0200-159-fuzz：1735140052404175037-02.jpg；保存图证0200-159-records：1735140052404175037-02.jpg"
+  },
+  "161": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md",
+    "note": "保存图证0200-161-xss：1735195801935114577-02.jpg；保存图证0200-161-passive：1735195801935114577-02.jpg；保存图证0200-161-records：1735195801935114577-02.jpg"
+  },
+  "163": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md,references/by-type/open-redirect.md",
+    "note": "正文提炼0200：Unicode 视觉近似与解析器等价分开；既有图证0200-163-redirect：1735215548580114644-02.jpg"
+  },
+  "164": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md,references/discovery/records-and-incremental.md",
+    "note": "保存图证0200-164-scope：1735215829145256425-02.jpg；保存图证0200-164-records：1735215829145256425-02.jpg"
+  },
+  "165": {
+    "dis": "corrected",
+    "targets": "references/by-type/jwt.md,references/by-type/authn-session.md,references/source-audit.md,references/by-type/idor-access-control.md,references/experiment-design.md,references/scope-and-rules.md",
+    "note": "正文提炼0200：刷新签发接口也是 JWT 验证消费者；既有图证0200-165-jwt：1735260850624114838-02.jpg；既有图证0200-165-auth：1735260850624114838-02.jpg；既有图证0200-165-source：1735260850624114838-02.jpg；既有图证0200-165-access：1735260850624114838-02.jpg；既有图证0200-165-experiment：1735260850624114838-02.jpg；既有图证0200-165-scope：1735260850624114838-02.jpg"
+  },
+  "166": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/by-type/idor-access-control.md,references/source-audit.md",
+    "note": "保存图证0200-166-web：1735328956512170365-02.jpg；保存图证0200-166-access：1735328956512170365-02.jpg；保存图证0200-166-source：1735328956512170365-02.jpg"
+  },
+  "167": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/experiment-design.md",
+    "note": "正文提炼0200：隔离浏览器核对重置 token 泄露；保存图证0200-167-auth：1735336344661184830-02.jpg；保存图证0200-167-experiment：1735336344661184830-02.jpg"
+  },
+  "168": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/idor-access-control.md",
+    "note": "保存图证0200-168-auth：1735389341034410251-02.jpg；保存图证0200-168-access：1735389341034410251-02.jpg"
+  },
+  "169": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "正文提炼0200：Stored XSS 到敏感信息影响的缺口"
+  }
+}

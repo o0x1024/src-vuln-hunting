@@ -1,0 +1,103 @@
+0|insufficient_technical_detail||GitHub项目卡仅邮件部署组件和统计，无实现或漏洞证据。
+1|distilled|references/discovery/web-and-api.md,references/experiment-design.md|Confluence CVE-2023-22518终端工具标VULNERABLE、200、restore服务端路径，但未显示请求/正文及恢复状态；工具标签、路径泄露和实际未授权恢复能力应分开验证。
+2|no_technical_content||邮件为报告致谢、修复与250付款说明，无漏洞机制；未进行支付或联系。
+3|insufficient_technical_detail||课程文件夹目录含SQLi/XSS/CORS等标题，未含教学内容或案例。
+4|insufficient_technical_detail||同课程目录另一原始图片，仅主题列表。
+5|distilled|references/by-type/info-secrets.md,references/discovery/web-and-api.md|WordPress配置备份词表含php-backup/orig/swp/inc/old/txt/bak/dist/save/~及_wpeprivate/config.json；按部署/编辑器遗留生成有限候选，以实际配置内容和访问主体验证，sample或200不能证明秘密泄露。
+6|insufficient_technical_detail||报告列表RXSS name/type和Medium标记，未展示输入、输出或执行。
+7|no_technical_content||年度收益文章封面和作者日期，无方法。
+8|insufficient_technical_detail||第三方开放注册文章封面，仅风险主题。
+9|distilled|references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/targeted-fuzzing.md,references/scope-and-rules.md|25工具图列子域/DNS/端口/HTTP/截图/历史URL/爬虫/目录/指纹/秘密/置换/模板检测；分阶段输出证据和授权边界，历史URL不等于存活资产，扫描/爬虫/模板有主动行为，工具清单不能证明漏洞。
+10|distilled|references/by-type/desktop-client.md,references/by-type/document-rendering.md,references/by-type/xss.md|Rocket.Chat报告摘要称Electron6.3.4及之前上传含特制链接文件后交互导致持久XSS；标题外部浏览器失败与摘要不同，应分PDF链接解析、外部打开策略、内嵌renderer权限和点击前提，图无payload或执行轨迹，不推RCE。
+11|insufficient_technical_detail||500奖励邮件仅跨账户头像删除CSRF token bypass标题和5.7，缺请求与token校验。
+12|distilled|references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/by-type/business-logic.md|H1图明确2FA账号A向要求2FA项目提交并邀未2FA账号B，B接受能读报告；报告Duplicate。策略应在提交、邀请、接受和每次读敏感报告一致强制，邀请成功与实际报告读取分别留证。
+13|distilled|references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/by-type/business-logic.md|同类H1协作者图含设置项目2FA、提交、未2FA账号接受邀请及Duplicate2188713；对象能力是报告读，项目政策跨入口一致而非绕过登录TOTP。
+14|distilled|references/by-type/authn-session.md,references/experiment-design.md,references/impact-and-acceptance.md|TOTP图摘要称接受超过1分钟旧码、建议30秒，Informative且团队称仍需凭据及无法1分钟暴破；窗口/时钟漂移、一次性重放、失败限速分开量化，旧码窗口本身不证明2FA完全绕过。
+15|insufficient_technical_detail||OpenSSH6387检查器项目封面描述支持IP/URL/CIDR，无实现/平台/检测结果。
+16|distilled|references/discovery/web-and-api.md,references/experiment-design.md,references/impact-and-acceptance.md|OrgASM表有severity/CVE/CWE/CVSS和重复ContactForm7上传结果877条，截图未含请求证据；发现去重应按资产/入口/机制/版本，检测标签和数量不等于已确认漏洞，外部API与子进程各自权限。
+17|distilled|references/by-type/authn-session.md,references/experiment-design.md,references/impact-and-acceptance.md|LeakedCookies图步骤先正常登录完成2FA，再导出会话复制其他浏览器；这是已认证bearer会话重放，未展示cookie泄漏源或未认证会话升级，Informative。应审会话阶段/撤销/敏感操作再认证，不称登录第二因子被绕过。
+18|distilled|references/by-type/authn-session.md,references/by-type/business-logic.md,references/business-modeling.md|Reset2FA图称凭据登录后发重置邮件，用户1天不取消则禁用2FA，Duplicate；恢复等待期、正向确认与取消、攻击者先需何种凭据及完成后会话能力组成完整状态机，未证明无需密码ATO。
+19|distilled|references/by-type/authn-session.md,references/by-type/business-logic.md,references/experiment-design.md|恢复手机图自述任意号码未验SMS即可设置、OTP发往他人，且承认停在这步；Informative/Critical标签不能替代实际恢复认证完成。号码所有权、发码目标绑定和最终恢复权限需独立证据，不复现发送短信。
+20|distilled|references/by-type/authn-session.md,references/experiment-design.md|OTP可复用图描述生成3个30秒码后90秒用第1个，Duplicate；此序列是旧码接受窗口，未展示同一个已成功消费码再次成功，应区分首次迟用与成功重放、服务器时间和窗口。
+21|distilled|references/by-type/authn-session.md,references/by-type/business-logic.md|停用账户→重设密码→登录无2FA图步骤，Duplicate/None；审账户停用/恢复/改密与MFA标志跨转换保留及恢复渠道身份前提，图没有原始会话证据，不默认零交互ATO。
+22|distilled|references/by-type/authn-session.md,references/by-type/business-logic.md,references/experiment-design.md|Mars摘要称忘记密码单包精确时序可获得任意账户重置token，仅需邮箱，ResolvedHigh；保存图无请求并发拓扑/token生成代码，应审token生成/交付/关联账户及原子性，以自有账户隔离验证、避免实际他人恢复。
+23|no_technical_content||NOWAYOUT装饰封面，无方法。
+24|no_technical_content||新项目通知截图遮盖目标，无授权条款或方法。
+25|distilled|references/by-type/nosql-injection.md,references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/source-audit.md|Rocket.Chat图明确loginByToken预认证token未校验，可$regex枚举visitor token并与loadHistory第二NoSQLi组合泄露聊天；代码getVisitorByToken(token,{projection:{_id:1}})示查询入口，截断后续。输入应限定字符串/拒绝操作符，登录token枚举oracle与历史权限分别验证，未读取真实消息。
+26|distilled|references/discovery/passive-and-services.md,references/scope-and-rules.md|项目发现dork图含security-program/report-a-bug/reward/whitehat/vulnerability-disclosure及crypto关键词；检索只产项目候选，官方当前规则/范围/奖励条件才授权，搜索命中不自动允许测试。
+27|no_technical_content||猫打字动图帧，无机制。
+28|no_technical_content||100奖金Low2.2卡片，无漏洞细节。
+29|no_technical_content||400奖金Medium5.3卡片，无漏洞细节。
+30|distilled|references/by-type/info-secrets.md,references/by-type/authn-session.md,references/experiment-design.md|Mandrill senders/list命令以key发POST但响应全遮盖；只能认定API消费入口展示，不能据图声称PII读取/CRUD/ATO，审客户端暴露key类型和实际最小权限；未使用任何key。
+31|distilled|references/by-type/info-secrets.md,references/by-type/authn-session.md,references/experiment-design.md|Mandrill subaccounts/list含遮盖key、响应全黑；账户枚举能力需真实返回结构与scope，截图命令不证明成功。
+32|distilled|references/by-type/info-secrets.md,references/by-type/authn-session.md,references/experiment-design.md|Mandrill users/info含遮盖key、响应遮盖；provider用户信息与业务账户控制不同权限边界，无原始成功证据不扩大影响。
+33|no_technical_content||250CAD补偿/保密协议/银行付款邮件，无漏洞机制，未联系或支付。
+34|no_technical_content||报告初验有效、待第三方修复邮件，无输入和处理机制。
+35|no_technical_content||500欧奖励及付款选项邮件，无技术证据。
+36|distilled|references/by-type/authn-session.md,references/impact-and-acceptance.md,references/reporting.md|Informative2594946旧会话token处理邮件明确攻击者须先取得旧token、缺具体可利用风险；审token来源/阶段/撤销后仍有实际权限，状态处理最佳实践与可利用漏洞分别说明。
+37|distilled|references/discovery/passive-and-services.md,references/scope-and-rules.md|Scilla子域枚举终端列FOUND名称，未含DNS答案/HTTP活性；输出是候选，DNS解析/授权归属/主动扫描各证据分开，不能以found当漏洞或全部授权。
+38|distilled|references/by-type/sql-injection.md,references/experiment-design.md,references/by-type/request-smuggling.md|SQL头部词表遍历Accept/Cookie/Origin/代理IP等统一sleep30表达式；只有头值进入SQL才有SQLi，Content-Length/Transfer相关为协议边界不是随意字符串，须控单变量和本地基线、延迟排网络重试，不执行30秒批量探测。
+39|distilled|references/by-type/cmd-injection-rce.md,references/source-audit.md,references/experiment-design.md|Burp图GET _session_name单引号拼接print与反引号id，Apache200正文两行uid apache2/gid www-run；候选链是会话名进入PHP类表达式→shell反引号消费，重复输出不能单定执行次数，cookie已存在并非无认证证明，需输入到动态执行代码链和低影响独立证据。
+40|distilled|references/discovery/web-and-api.md,references/by-type/info-secrets.md,references/experiment-design.md|NGINX3416图说明HTTP3QUIC模块启用且网络无碎片MTU≥4096时未公开QUIC包可能泄露已释放worker内存；无packet/代码。模块、协议、路径MTU/碎片前提同时成立才能候选，不能把任何NGINX或HTTP200当内存泄露，不实测敏感内存。
+41|distilled|references/targeted-fuzzing.md,references/by-type/info-secrets.md,references/experiment-design.md|Wfuzz图-R3 --sc301,200递归.idea/CVS/admin/vendor/index.bak/php/zip等候选，处理68236请求与最初9748不同；有限深度仍放大请求，目录判断需内容/Location和soft404/通配基线，状态200不证明源码/配置泄露。
+42|distilled|references/targeted-fuzzing.md,references/by-type/info-secrets.md,references/experiment-design.md|同递归Wfuzz另原图，目录入队层2/3、长度差及请求累计支持递归候选流程，不是68236确认漏洞；约束预算与同源范围。
+43|distilled|references/by-type/authn-session.md,references/by-type/mobile-android.md,references/by-type/business-logic.md|TikTok2443228摘要指Android恢复端点参数处理不当允许账户变更、作者称仅用户名，厂商已修复且无已利用证据；未显示参数/请求，保留恢复主体与新绑定属性同一验证事务的检查，不编造实际参数或无需其他前提。
+44|distilled|references/source-audit.md,references/by-type/cmd-injection-rce.md,references/scope-and-rules.md|GitHubPR package.json改依赖为install脚本echo/id，说明不可信PR checkout后npm install会执行包生命周期；图本身仅diff，审事件类型/checkout ref/runner权限/secret暴露，不运行脚本。
+45|distilled|references/source-audit.md,references/by-type/cmd-injection-rce.md,references/experiment-design.md|Actions图Run npm install输出pwn与uid runner/gid docker即生命周期执行，即使后续Lint失败、audit0也不撤销前面执行；需区分PR普通受限runner与有secrets/write token特权作业，图未证窃密。
+46|no_technical_content||Bugcrowd名人堂页面，无机制。
+47|distilled|references/discovery/web-and-api.md,references/experiment-design.md,references/impact-and-acceptance.md|Afrog私网终端869模板完成、INFO面板与CRITICAL多个WebLogicCVE标签；无原始匹配证据，模板标签/版本指纹/漏洞执行需分开，多个模板可能同根因，私网示例不授权测试。
+48|distilled|references/discovery/web-and-api.md,references/experiment-design.md,references/impact-and-acceptance.md|同Afrog另一原图，869/869和37秒仅扫描完成，不证明每条CVE；需关联请求响应/命中条件及同资产根因去重。
+49|no_technical_content||钱和二进制装饰封面，无技术。
+50|distilled|references/by-type/lfi-path-traversal.md,references/by-type/document-rendering.md,references/by-type/waf-bypass.md|GET f=Base64(/etc/passwd)图200/Content-Disposition filename=/etc/passwd且正文账户格式，Content-Type application/pdf却非PDF；编码后只有服务端实际解码并文件消费才有效，原文etc/passwd相对路径与编码绝对路径不等价，缺403对照，类型头不证渲染/SQLi/XSS通用绕过。
+51|distilled|references/by-type/ssti.md,references/by-type/info-secrets.md,references/source-audit.md,references/experiment-design.md|ServiceNow扫描图login.do jvar_page_title携Jelly namespace/evaluate Java File/BufferedReader读glide.db.properties并addErrorMessage，unsigned模板和18targets标critical；是模板→Java→文件读候选链，日志仅命中URL未含返回内容，不能证明DB凭据或数据库已利用，不执行或收集秘密。
+52|distilled|references/by-type/sql-injection.md,references/experiment-design.md,references/by-type/request-smuggling.md|与前SQL头部图同机制：统一sleep30头列表，无请求结果；协议必需合法与SQL消费者应分开，延迟对照和日志来源是证明，别以任意头名推SQLi。
+53|distilled|references/by-type/sql-injection.md,references/experiment-design.md,references/by-type/request-smuggling.md|另一SQL头图保留代理IP/Host/UserAgent/ContentLength等候选；数据库使用上下文/单变量/时延混杂，未展示执行。
+54|distilled|references/discovery/web-and-api.md,references/source-audit.md,references/by-type/lfi-path-traversal.md|Apache38474图mod_rewrite捕获替换编码问号可在配置许可却URL不可达目录执行脚本或CGI源码泄露；保存时称≤2.4.59修2.4.60和UnsafeAllow3F例外，不当作当前版本建议。审rewrite解码/问号切分/handler与目录授权，具体配置仍缺。
+55|distilled|references/by-type/ssrf.md,references/by-type/info-secrets.md,references/discovery/web-and-api.md|Apache38472 Windows UNC图称可能向恶意服务NTLM认证泄露，修复引UNCList；平台/UNC路径消费/出站协议及身份材料分开，UNC并非普通HTTP URL，未见真实凭据/连接，不诱导认证。版本仅保存时信息。
+56|distilled|references/discovery/web-and-api.md,references/source-audit.md,references/by-type/cmd-injection-rce.md,references/by-type/ssrf.md|Apache38476图后端不可信响应头经internal redirect到本地handler产生信息泄露/SSRF/script，legacyAddType需迁SetHandler；分析输入控制、响应头到handler权限跃迁，普通3xx非同internalredirect，无实际脚本证据。
+57|distilled|references/discovery/web-and-api.md,references/source-audit.md,references/experiment-design.md|Apache38477图mod_proxy null-pointer dereference恶意请求崩溃，只有摘要无触发报文；模块/配置及受影响版本条件、worker生命周期/服务影响分开，用源码和隔离测试、不线上DoS。
+58|distilled|references/discovery/web-and-api.md,references/by-type/idor-access-control.md,references/source-audit.md|Apache38473图不正确URL编码送后端、非ProxyPass/ProxyPassMatch或RewriteRuleP的代理路径如SetHandler/.htaccess及另一CVE诱导；认证前后后端规范化与请求路由可能失配，单版本不证绕过，保存时版本勿作当前结论。
+59|distilled|references/discovery/passive-and-services.md,references/scope-and-rules.md,references/experiment-design.md|Shodan列表org/status/product/port/component/WAF/html/title/alpn/favicon/net/asn/hostname/ip/SetCookie；org的URL和ssl.cert.subject.cn前http://疑格式误植，保留为字段组合思路而非可直接执行语法。索引时效、共享CDN/ASN归属、Cookie名称指纹非秘密/授权分别验证。
+60|distilled|references/discovery/passive-and-services.md,references/scope-and-rules.md,references/experiment-design.md|Shodan第二图Cookie产品名/gitlab_session、Elastic/Drupal/Magento/Kibana头、ACAO/WWWAuthenticate关键词；字段存在仅指纹，不等于认证/CORS风险，需值、对象和浏览器消费证据。
+61|distilled|references/by-type/xss.md,references/by-type/waf-bypass.md,references/source-audit.md|图javascript拼接ale+rt+()、decodeURI字符串返回popover按钮/customtag onbeforetoggle；decodeURI不会插DOM，javascript URL是否生效还受空白/不可见字符和URL解析限制，需要结果string到HTMLconsumer、popover支持与用户点击/CSP证据，未展示浏览器执行或CF对照。
+62|distilled|references/by-type/ssrf.md,references/experiment-design.md|WordPress XMLRPC pingback.ping图POST XML、200 faultCode0和多条Collaborator DNS，只有DNS记录不证HTTP获取/内网读；请求与nonce关联、DNS解析器来源及实际网络消费分开，fault0非响应正文敏感读取，未触达目标。
+63|insufficient_technical_detail||登录path extension报告标题、Medium，无请求/限流计数。
+64|distilled|references/by-type/waf-bypass.md,references/by-type/sql-injection.md,references/experiment-design.md|sqlmap原链connect timeout重试和wafw00f read timeout/apparently down，不能认定WAF拦截原因；风险level5/risk3/time10高成本也非绕过证据，先排网络/TLS/代理路由。
+65|distilled|references/by-type/waf-bypass.md,references/by-type/sql-injection.md,references/experiment-design.md|proxychains strict127.0.0.1:9050到443OK，sqlmap称GETgender MySQLerrorGTID_SUBSET并1999请求、1905次404与hostname遮盖；代理改变出口/可达性并非证明SQL文本绕过，需等价请求同会话/出口/时间对照与实际错误，不继续DB枚举。
+66|no_technical_content||侦察书籍封面，无正文。
+67|insufficient_technical_detail||Nextcloud回归漏洞标题/CVE37884/状态时间线，缺具体授权机制。
+68|insufficient_technical_detail||Nextcloud只读再分享提权标题/CVE37882，缺权限位/请求/对象证据。
+69|insufficient_technical_detail||Nextcloud事件附件外链标题/CVE37316/OpenRedirect状态，无URL消费/跳转请求。
+70|insufficient_technical_detail||Nextcloud移除相册照片标题/CVE37314/Low时间线，无请求或所有权证据。
+71|insufficient_technical_detail||Nextcloud二因子绕过标题/CVE37313/Medium，无认证链细节。
+72|insufficient_technical_detail||250奖励邮件只写访问控制提权标题，无对象/请求。
+73|distilled|references/hunting-strategy.md,references/business-modeling.md,references/experiment-design.md,references/scope-and-rules.md|侦察流程图从域/子域/应用/IP/证书经端口OSINT低垂果实主动工具到人工理解功能/后端、预期输入的负向/额外/缺少/顺序输入及根据输出改变后续输入；按功能记录自定义用例与执行证据，枚举/扫描/通知不自授权，泄漏token只记录来源不用。
+74|insufficient_technical_detail||ID4ME签名/过期未校验标题/CVE37886和时间线，无token验证代码。
+75|insufficient_technical_detail||Nmap主题链接目录列host discovery/timing/firewall/password等，无实际命令或案例。
+76|insufficient_technical_detail||Afrog项目社交卡，仅工具主题/统计。
+77|no_technical_content||验证并待项目评审致谢截图，状态severity可能变化，无机制。
+78|insufficient_technical_detail||大学登录页面，只显示输入表单，未见Base64参数或XSS执行。
+79|distilled|references/by-type/lfi-path-traversal.md,references/discovery/web-and-api.md,references/source-audit.md,references/experiment-design.md|HTTP2 GET多段.%252e遍历图PHPSESSID空、响应text/csv但正文passwd结构；编码层%252e→%2e→点和各层规范化消费须按真实请求分析，路径中正常点+解码点形成..，不以扩展/类型头判断内容。截图响应顶部裁去状态，不编造200/无认证或RCE。
+80|distilled|references/discovery/passive-and-services.md,references/scope-and-rules.md,references/experiment-design.md|DOMAINIM图从dnsdumpster/crtsh抓子域，识别wildcard跳过爆破、解析IPv4/vhost后每IP6端口扫描；被动采集到主动端口边界明确，wildcard需对照随机名，IP共享和vhost映射需授权，不执行工具。
+81|distilled|references/by-type/lfi-path-traversal.md,references/source-audit.md,references/by-type/desktop-client.md|NodeWindows权限模型图is_tree_granted假设双反斜杠起始都可略4字符，Buffer形式UNC含A及C:Users使允许C星匹配后调用scandir，不出现ACCESSDENIED；政策路径与OS实际解析不同，不等于OS提权或任意文件内容读。保存时v20/v22/CVE37372条件，需规范化后同一路径检查。
+82|insufficient_technical_detail||AI验证码绕过项目卡，仅名称统计，不证实际验证码通过。
+83|distilled|references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/experiment-design.md|dork脚本输出同混Googlesearch/maps链接和实际testphp PHPURL、重复项；采集需解包装/验证主机/去重/保留检索来源，PHP扩展只是入口候选非SQLi/XSS，未实际运行。
+84|distilled|references/discovery/passive-and-services.md,references/discovery/web-and-api.md,references/experiment-design.md|同dork另一原图，search/maps残留说明全URL匹配不是全部目标资产，路径清单非漏洞证据。
+85|distilled|references/discovery/records-and-incremental.md,references/reporting.md,references/experiment-design.md|Bugcrowd邮件FIXBYPASS resolved仍可复现重入triaged；保存原报告/修复版本/当前复现差异和同入口状态，状态通知不能代替机制与可复现证据。
+86|distilled|references/discovery/records-and-incremental.md,references/reporting.md,references/experiment-design.md|H1邮件ExactReplicaResolved报告triaged仍内部讨论；回归验证需版本/配置/原始失败与修复后差异，同题接受不确保奖励或当前暴露。
+87|no_technical_content||只跑nuclei电影梗，无技术证据。
+88|distilled|references/by-type/xss.md,references/targeted-fuzzing.md,references/experiment-design.md|BurpXSSCheatsheet表browser兼容/EventDescription/Tag/payload，含animation/media/focus/hash/message/SVG等；依sink/标签/事件触发/浏览器版本选择有限变体，图仅候选且部分payload右侧截断，图标非目标执行证明。
+89|no_technical_content||CTF睡觉新技术梗，无方法。
+90|distilled|references/by-type/jwt.md,references/by-type/authn-session.md,references/by-type/oauth-oidc.md,references/scope-and-rules.md|JWT图25项结构/篡改/exp/签名/算法/重放/泄露/撤销/密钥轮换/claim权限/iss/aud/存储及工具；解码不等验签、普通bearer重用非漏洞、claim前提与撤销状态分开，弱密钥仅授权离线样本有限检查，实际token不上传第三方解码站。
+91|insufficient_technical_detail||ExpressionEngine摘要多XSS和标题重定向/Stored标记，未展示入口、HTML上下文或跳转URL。
+92|distilled|references/by-type/ssti.md,references/by-type/cmd-injection-rce.md,references/source-audit.md,references/experiment-design.md|ConfluenceWebworkOGNL26084终端unameLinux/whoamiroot/ls列数据目录和配置文件名，未含HTTP请求；工具命令输出应关联输入到OGNL动态表达式链，进程root是当前环境非所有部署、不读取配置秘密或运行工具。
+93|distilled|references/by-type/info-secrets.md,references/discovery/web-and-api.md,references/by-type/websocket.md|parameters.yml截图composer生成配置含数据库root/localhost3306、SMTP25 encryptionnull、WS0.0.0.0:8080、sessionnativefile、secret遮盖；配置实值与HTTP未授权可读是不同证据，监听0.0.0.0非公网证明，null需实际传输环境，不收集密码。
+94|insufficient_technical_detail||IBMInfoCenterDOMXSS摘要已修复/CWE/时间线，缺source/sink/执行。
+95|insufficient_technical_detail||Intigriti奖励截图部分标题BAC/MFA遮盖，无具体边界。
+96|distilled|references/discovery/client-and-cloud.md,references/discovery/web-and-api.md,references/source-audit.md|React加载前Sources图只少数chunk/main与webpack源目录；以构建runtime manifest/源码map建立未加载chunk候选及版本，单静态树不能保证所有业务功能覆盖，主动import可能执行模块副作用。
+97|distilled|references/discovery/client-and-cloud.md,references/discovery/web-and-api.md,references/by-type/idor-access-control.md,references/source-audit.md|加载后图大量chunk与admin常量/PrivateRoute.jsx显露，证明前端源码可见范围扩大非后端权限绕过；前端路由和服务端对象授权独立，保留文件/构建映射，不批量运行未知模块。
+98|no_technical_content||MapperPlus标志，无脚本实现。
+99|distilled|references/scope-and-rules.md,references/reporting.md,references/impact-and-acceptance.md|SQLi接受邮件同时说部分位置outofscope、赏金是酌情感谢；奖励或accepted不追认未来授权，报告实际资产范围/证据/例外和可披露条件分别保存，未联系或收款。
+100|distilled|references/by-type/sql-injection.md,references/by-type/waf-bypass.md,references/experiment-design.md|CloudShellSQLmap图一列UNIONALLSELECT/CONCAT候选，MySQL5.7.27/NGINX，database名来自resumed且反射值过滤；恢复缓存不证本轮新执行，banner/库名不证全库读或WAF原因，需要新nonce请求响应对照，不枚举数据库。
+101|distilled|references/by-type/sql-injection.md,references/by-type/info-secrets.md,references/impact-and-acceptance.md|SQLmap图显示某库41表和部分名称，表目录不等于表内容/全部数据库读；实际权限/已知缓存/数据敏感度需分开，未导出任何记录。
+102|insufficient_technical_detail||WAFSQLmap项目卡只有名称和统计，无技术。

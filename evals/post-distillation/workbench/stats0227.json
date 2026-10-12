@@ -1,0 +1,21 @@
+{
+  "facets": 572,
+  "topics": 43,
+  "urls": 656,
+  "groups": 103,
+  "bound": 81,
+  "duplicate_facets": 6,
+  "current": 125,
+  "unique": 117,
+  "known": 13,
+  "media": 107,
+  "media_counts": {
+    "distilled": 69,
+    "no_technical_content": 14,
+    "insufficient_technical_detail": 24
+  },
+  "body_counts": {
+    "corrected": 80,
+    "merged": 23
+  }
+}

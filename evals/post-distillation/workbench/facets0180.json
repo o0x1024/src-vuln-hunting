@@ -1,0 +1,372 @@
+[
+  [
+    "by-type/ssrf.md",
+    "图片型 SSRF 验证区分获取能力与产品指纹",
+    "正文给出 base 参数候选和仅能读取特定图片的 SSRF 假设。先绑定接口、调用身份、服务端消费者及允许的返回类型，用自有受控图片比较合法与拒绝目的地。内部路径返回某图案只能作产品线索，缓存、浏览器请求和相似静态文件均是反例；不能以 Confluence 图片路径认定任意内网可读或敏感影响。未保存具体请求与回调，不访问真实内部服务。\n\n来源：[保存帖1](https://x.com/i/status/1666677181970276353)、[保存帖2](https://x.com/i/status/1666886813389328384)。"
+  ],
+  [
+    "by-type/open-redirect.md",
+    "QR 扫描后的导航仍须用户确认边界",
+    "保存 Brave 摘要描述 QR 扫描器打开链接时缺少用户知情确认，关联历史 Android/浏览器版本。将 QR 解码结果、提示、每跳导航及最终 authority 分别记录，以自有站内/外域目的地对照；QR 本身是输入载体，不自动等同服务器开放重定向。保存附件裁切且未解码，报告的 High/Resolved 状态不能扩展为当前全部 QR 扫描器行为。\n\n来源：[保存帖1](https://x.com/i/status/1666679392527958016)。\n\n保存图片 `1666679392527958016-02.jpg`：BraveQR扫描器摘要未经用户知情确认导航恶意链接，Brave1.50.114 Chromium112 Android11；QR附件截断未解码，High/Resolved历史无完整导航链或通用QR漏洞本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "TLS pass through 排除项记录解密覆盖缺口",
+    "保存帖建议对第三方域名设置 Burp TLS Pass Through，但把 HTTP scheme、空格和域名模式混列。先按实际版本核对字段接受 hostname 还是正则，逐项确认匹配范围与流量归属，保留原样规则及未解密集合。排除只改变代理解密覆盖，不保证忽略所有第三方或不会漏掉目标接口；认证与证据读取得以受影响，不能称全流量已检查。\n\n来源：[保存帖1](https://x.com/i/status/1666690930508955649)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "env.js 中字段公开与有效 secret 分开评估",
+    "保存图含 window.env 的 API/WebSocket/auth URL、clientId/clientSecret、scope 和 responseType。先记录最少字段类型及来源响应，区分公开客户端配置、设计为保密的凭据与其实际权限；字段名 clientSecret 不独立证明仍有效或可完成 token 交换。目标/值部分遮盖，不复制未遮盖部分，不试用第三方凭据，未保存的外链模板不补造。\n\n来源：[保存帖1](https://x.com/i/status/1666692614710611969)。\n\n保存图片 `1666692614710611969-03.jpg`：env.js window.env 含API/WebSocket/auth URLs及clientId/clientSecret字段、scopeopenidprofileemail和id_token/token；目标遮盖、secret部分未遮不可复写，不证明有效或客户端public配置全为秘密本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/file-upload.md",
+    "SVG 上传的存储与脚本消费者分别证明",
+    "保存正文只给 stored XSS via SVG file upload 的题名，图片是礼品卡回执。复核须绑定上传接受、保存位置、响应 Content-Type/Content-Disposition、嵌入或直接打开方式、origin/CSP 及获准第二用户可达性。接受 SVG 或可下载不独立证明脚本执行与持久传播，奖励没有补齐请求链；只用授权无敏感样本，不上传可获取数据的脚本。\n\n来源：[保存帖1](https://x.com/i/status/1666700911144751105)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "配置文件扩展大小写差异检查真实响应体",
+    "保存帖对 wp-config.php 的 403 与大写扩展的 200 做比较，多端口 one-liner 的 subfinder 输入在正文和图片中还存在 scheme 差异。沿路由、文件系统及脚本 handler 核对大小写处理，保存响应体/类型和正常无文件对照。200 可能是统一页面，不证明 PHP 源码返回；路径候选和 60 线程也不代表全部资产许可/完整覆盖，未运行该批量命令。\n\n来源：[保存帖1](https://x.com/i/status/1666717458676301824)、[保存帖2](https://x.com/i/status/1667043405015429121)、[保存帖3](https://x.com/i/status/1667607600500809729)。\n\n保存图片 `1667043405015429121-02.jpg`：WP-config.PHP subfinder裸domain图与正文http://差异，httpx多port200filterthread60status，不证sourcebody/全部资产本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "business-modeling.md",
+    "API 业务敏感性与重复动作成本按流程建模",
+    "正文强调相同 API 流程在不同公司意义不同，并列购买、优惠券校验、图片上传等重复动作。记录参与角色、对象、状态转换和业务损失，区分单次非法动作、额度/资源成本与正常批量使用。缺失例子与续篇不补猜；在获准合成环境定义小预算及停止条件，不能以可能 DoS 的口号开展生产压力测试或保证影响等级。\n\n来源：[保存帖1](https://x.com/i/status/1666785946522595328)、[保存帖2](https://x.com/i/status/1670052801911595009)。"
+  ],
+  [
+    "reporting.md",
+    "接管报告等级改变需回到权利与影响证据",
+    "保存通知显示 Medium 5.3 改为 None 0.0，却没有完整解释或 DNS/认领过程。保留状态时间线，将技术成立、资产范围、实际控制能力、影响和最终等级分别记录；无评级不独立否定机制，题名也不证明成立。补充获准最小证据与项目规则，不能从不满的评价推断所有同类报告应获相同等级。\n\n来源：[保存帖1](https://x.com/i/status/1666839644732882946)。\n\n保存图片 `1666839644732882946-02.jpg`：接管报告Medium5.3→None0.0通知，等级状态改变不解释技术根因需实际权限/规则/影响证据，noDNSclaim本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/host-header.md",
+    "域名与直接 IP 访问核对虚拟主机上下文",
+    "正文称同一路径在域名无结果而直接 IP 访问出现内容。分别记录连接地址、Host、TLS SNI、scheme/端口和响应，确认是否同一应用与当前授权资产；本地 hosts 修改改变解析，不能独立发现权属或绕过所有 CDN。默认虚拟主机、不同后端和历史索引都是反例，未保存文章全文不补成通用 origin bypass。\n\n来源：[保存帖1](https://x.com/i/status/1666855584426078215)、[保存帖2](https://x.com/i/status/1668956547488317441)。"
+  ],
+  [
+    "source-audit.md",
+    "GeoServer 模板题名绑定产品版本和匹配动作",
+    "保存 GeoServer SQL 注入 CVE 题名与 Nuclei 搜索/模板命令可作为历史检查线索。搜索 title 命中不证明产品版本和漏洞；记录实际模板正文、版本、请求动作及匹配条件后才评价候选。外部代码未保存按用户豁免，不补写 OGC Filter 实现或运行利用，本帖没有实际 SQL 语义证据。\n\n来源：[保存帖1](https://x.com/i/status/1666868327673634826)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "组织到 ASN 前缀转换保留查询类型与时间",
+    "BGP 目录步骤和 ASNmap 的 ASN/ORG/DNS/IP 到 CIDR 转换提供路由候选。记录输入类型、查询时间、返回范围和 JSON/CSV/text 导出关系，核对名称解析与地址归属变化。组织搜索结果可含共享/客户网络，CIDR 列表不授权整段扫描，输出格式和工具介绍不证明当前全部资产可达。\n\n来源：[保存帖1](https://x.com/i/status/1667027718565933058)、[保存帖2](https://x.com/i/status/1669724504522731522)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "403 与重定向入口仍按单资产限定发现",
+    "正文建议继续枚举 403 或立即跳到另一主机的入口。先保留原始 host、身份、路径、重定向规则和正常/拒绝基线，按项目允许的字典与预算选小范围候选；根路径拒绝不证明所有路由同样拒绝。发现 .git 元文件又与完整对象、源码内容及后续权限不同，不能由一个入口推定所有子域均需扫描或可下载全站源码。\n\n来源：[保存帖1](https://x.com/i/status/1667096696353067008)、[保存帖2](https://x.com/i/status/1667306328027725824)。"
+  ],
+  [
+    "by-type/xss.md",
+    "编码载荷与 OOB 请求需绑定相同渲染链",
+    "保存 POST fullname 示例把 Base64 字符串交给事件处理器的 eval/atob，正文称简单输入 302 而 OOB 输入 200。编码不改变不可信内容应被转义的边界；记录实际解码、HTML/JS sink、origin/CSP 和浏览器结果。200/302 与回调都不独立证明 XSS，跨站构造、cookie 和最终写入又是 CSRF 的额外前提；不能用全参数 Match & Replace 丢失单变量归因或执行外部脚本。\n\n来源：[保存帖1](https://x.com/i/status/1667101670327693312)。\n\n保存图片 `1667101670327693312-02.jpg`：示例POSTfullname含img event eval(atob(this.id))，短Base64只是alert样例；编码未改变sink信任，没实际response/browser本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1667101670327693312-03.jpg`：同fullname更长编码OOB内容到eval，外部脚本回调与单一字段归因分别，勿执行或全面matchreplace改变所有params本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "JS exposures 管道先审语法与真实权限",
+    "保存 one-liner 的 grep 额外引号造成 shell 语法风险，.js 模式未转义，httpx Content-Type 展示与 awk 字段依赖格式。保持原始候选及错误，不把自动修正后的运行算作已证实；仅筛选 application/javascript 还会漏其他合法类型。模板输出和 secrets.txt 文件名不证明秘密或有效 grant，Coveo 标题也没有实际权限链；需绑定真实 JS 响应、最少字段和权限证据，未执行扫描。\n\n来源：[保存帖1](https://x.com/i/status/1667183602415575047)、[保存帖2](https://x.com/i/status/1668678971087802369)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "请求头自动补全保留字段语义与版本",
+    "Burp 扩展截图展示 Content-* 词表补全。补全帮助编辑，但词表包含不同用途字段，不能因此认定服务器支持或请求合法；记录实际输入、发出的字节、工具版本及响应。自动候选不改变原有认证/内容解析规则，不是漏洞命中或全头覆盖。\n\n来源：[保存帖1](https://x.com/i/status/1667212064241364992)。\n\n保存图片 `1667212064241364992-02.jpg`：Burp header autocomplete Content-*候选下拉，候选包含响应CSP不自动合法请求语义，命中词表非服务器支持/漏洞本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/xss.md",
+    "Credential Management 调用不等于凭据已泄露",
+    "保存正文只有 navigator.credentials.get 的赋值示例。记录调用返回的 Promise、浏览器允许条件、credential 类型、用户交互/会话与可读取字段，再检查是否存在真实 XSS sink 和获准账号的可观察结果。API 名称和一行脚本不能证明密码返回、账号接管或所有浏览器行为，不对真实已保存凭据调用此方法。\n\n来源：[保存帖1](https://x.com/i/status/1667214440629166082)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "搜索 IP 与生成 dork 保留索引证据边界",
+    "IP 限制检索和 DorkSearch 页面提供候选查询，既有已读图片 `1667218161123610625-02.png` 记录历史搜索条件及词数截断。保留实际生效语法、原始查询、时间与结果来源，AI 生成查询也须核对；界面、IP 字串和索引关联不证明当前 owner/权限。沿用先前相同哈希图片记录，未使用搜索页面或发送私有资产。\n\n来源：[保存帖1](https://x.com/i/status/1667218161123610625)、[保存帖2](https://x.com/i/status/1667227194702299137)。\n\n保存图片 `1667227194702299137-02.png`：DorkSearch search/prebuilt/builder/tips及AI input页面无query/results，保留语法和source时间/权限不因生成保证准确本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/xss.md",
+    "cPanel 错误页状态与脚本执行独立判断",
+    "保存历史 cPanel CVE-2023-29489 资料指向 webcall 错误输出中的编码输入，另一图可见 400 错误页与 prompt。绑定每个来源的产品版本、请求字节、输出上下文和 origin，比较安全文本及转义；400 不排除错误页中的执行，200 也不自动证明执行。产品未升级的声明和弹窗不能独立证明 cookie 窃取或接管，裁切信息不补全为当前所有部署漏洞。\n\n来源：[保存帖1](https://x.com/i/status/1667222988742115330)、[保存帖2](https://x.com/i/status/1669445831638802433)。\n\n保存图片 `1667222988742115330-02.jpg`：cPanel历史CVE202329489报告cpanelwebcall编码img事件示例声称弹窗，无实际browser截图/version值；autoupdate disabled声明不证current cookie theft本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1669445831638802433-02.jpg`：cPanel400InvalidwebcallID含img与prompt1；origin/URL裁切version未示，browserdialog和errorstatus可共存，不从400排除XSS或称tokensteal本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "支持票据创建不信任邮件 From 字段身份",
+    "保存正文提出邮件 From 冒用可能让支持系统把票据归到另一用户。以自有邮箱和获准夹具区分显示 From、信封地址、验证结果、投递与账号绑定，检查谁能查看/执行后续敏感动作。既有图片 `1667223982310055936-02.jpg` 只展示 composer，没有发送/票据证据；复用先前相同哈希记录，不发送邮件或联系支持团队。\n\n来源：[保存帖1](https://x.com/i/status/1667223982310055936)。"
+  ],
+  [
+    "by-type/lfi-path-traversal.md",
+    "代理与 Tomcat 路径规范化用同一资源对照",
+    "保存正文描述 nginx 与 Tomcat 对分号段处理不同，以及 Windows/Tomcat 的重复斜线差异。记录代理与后端逐层解码/规范化、原始路由权限和最终文件 handler，用本地合成受保护文件比较正常拒绝与单一变体。表示变化或 200 不能独立证明 web.xml 真正返回，操作系统/版本前提不能泛化；不读取实际敏感配置。\n\n来源：[保存帖1](https://x.com/i/status/1667225382461018112)、[保存帖2](https://x.com/i/status/1669403395873181696)。"
+  ],
+  [
+    "by-type/csrf.md",
+    "清单和表单生成器保持浏览器请求约束",
+    "保存清单含 token 移除、跨账号/同长度替换、方法与媒体类型、Referer、XSS/CORS 和旧 Flash 分支。先以获准自有流程记录浏览器 cookie、Origin/preflight、token 会话绑定与最终状态，单项变更后对照拒绝。生成 HTML 表单不支持任意 HTTP header/method 的断言，方法 override 要有真实服务端消费者；XSS/CORS 是额外前提，旧 Flash 不当作现时通用技巧。\n\n来源：[保存帖1](https://x.com/i/status/1667229869615513601)、[保存帖2](https://x.com/i/status/1667452844289454081)。\n\n保存图片 `1667229869615513601-02.jpg`：CSRF12项token remove/value/name/samelength/crossuser method/type Referer XSS/CORS oldFlash，cookiepreflight实际最终状态需要独立对照本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "reporting.md",
+    "预接管争议按账号生命周期区分根因",
+    "正文只有 OAuth/pre-account takeover 与 duplicate 的争议，缺少完整链。记录注册前后账号 ID、邮箱验证、身份绑定、合法用户后续登录及攻击者保留权限，区分账号创建前植入与已有账号的授权错误。相同影响题名不自动同一根因，duplicate 标签也不补齐生命周期；未保存续篇不替任一方判定具体利用。\n\n来源：[保存帖1](https://x.com/i/status/1667237274185252870)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "隐藏参数反射与实际消费者分开",
+    "ffuf 的 PARAM/XSS 匹配和 Arjun 的词表只提供参数候选。保存原始 endpoint、正常基线、参数出现位置/类型及单变量差异，再定位真实业务或渲染消费者。字符串反射可能来自通用页面，不证明 XSS，无反射也不证明参数未使用；所谓更快缺少可比预算与误差证据，未运行工具。\n\n来源：[保存帖1](https://x.com/i/status/1667254545603350543)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "范围更新截图只证明历史具体条目",
+    "保存 Shopify 图标明 admin URL Added in Scope/Eligible true。记录截图日期、准确资产条目和尚未展示的动作限制/披露条款；范围更新应以当前具体项目规则核对。历史文字与品牌名不能授权全部关联域，也不保证某种漏洞有奖金。\n\n来源：[保存帖1](https://x.com/i/status/1667257820994064407)。\n\n保存图片 `1667257820994064407-02.jpg`：ShopifyadminURLAddedinscopeEligibletrue历史文字，无现时资产/actions/disclosure许可本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/xss.md",
+    "DOM sink 日志继续追源和转义",
+    "人工 JS 阅读与 Untrusted Types 日志可帮助定位 document.write/innerHTML/eval。保存输入来源、调用栈、实际传入值、解析上下文及转义/Trusted Types 策略，用授权合成标记比较正常与不可信输入。sink 出现或工具的 Certain 标签不证明可控源与执行，日志可漏动态路径；奖励题名不证明所有手工结果，未安装或注入扩展。\n\n来源：[保存帖1](https://x.com/i/status/1667369853533995011)、[保存帖2](https://x.com/i/status/1667391104499716096)。\n\n保存图片 `1667391104499716096-02.png`：UntrustedTypes logDocumentwrite/innerHTML/eval和示例stackcollapsedinputd0mxss变体；sink日志不证控源escaping/execution，TT监控可观察不保证coverage本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/lfi-path-traversal.md",
+    "LFI dork 参数名只作为消费者候选",
+    "保存 dork 含重复 page 及 API_HOME_DIR/cmd 等名称。保留原始语法与索引来源，逐项确认实际 URL、当前参数和文件读取消费者；名字不代表用途，SQL/命令/普通筛选都有可能。缺少响应与授权条件时不认定 LFI，也不修正查询后开展无范围搜索。\n\n来源：[保存帖1](https://x.com/i/status/1667393791752568832)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "Wayback 到模板管道保留阶段候选与遗漏",
+    "保存命令中的 waybckurls 拼写与各阶段输入要核对，Google ext:php 检索条件也不会自动传入管道。将历史 URL、去重规则、HTTP 状态/错误、身份及模板版本分开保存，防止规范化抹掉参数差异。fuzzing-templates 题名不证明 XSS/SQLi/SSRF/redirect 全部成立，重复/未解决状态不提供真实消费者证据。\n\n来源：[保存帖1](https://x.com/i/status/1667512034999644160)、[保存帖2](https://x.com/i/status/1668130833537069057)。\n\n保存图片 `1668130833537069057-02.png`：Waybckurls原拼写/uro/httpx/nuclei候选管道；Googleextphp条件不自动传入其他stage，URL历史去重不保留consumer/no actualresults本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/iot-security.md",
+    "eMMC 拆卸前检查板上测试点前提",
+    "保存硬件提示建议先检查芯片附近测试点，避免直接拆卸损坏设备。以自有硬件记录型号、引脚映射、电压、协议和断电状态，先确认是否真正连到目标总线，再进行可恢复读取验证。测试点可见不证明可以无认证读芯片，板上其他器件与总线争用可能影响结果，未开展物理操作。\n\n来源：[保存帖1](https://x.com/i/status/1667533332161200129)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "下载接口参数变更核对对象与查询边界",
+    "保存图片称从公开 git 源码发现 download.php 的另一参数，原参数下载为空，并展示部分用户表。追踪真实参数消费者、身份、对象集合和授权规则，以自有小样本对比允许/拒绝及最少字段。图片中的 100k 与 email sender 接管是未完整举证的后续断言，不从局部表格推断全库或完整接管，不复制 PII/下载数据。\n\n来源：[保存帖1](https://x.com/i/status/1667539614687715328)。\n\n保存图片 `1667539614687715328-02.png`：download.php value为空，源码.git后用q参数，图示用户表局部且100k+与emailsenderATO断言无完整请求；绑定download对象/查询守卫最小字段，不保留PII或重现全库本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "source-audit.md",
+    "JS 路径提取保留来源和运行时可达性",
+    "JSend/JSpector/LinkFinder 提供静态路径候选，图片展示重复条目、localhost 地址及 Information/Certain 标签。为每项绑定 JS 响应哈希、版本、页面、提取上下文和角色，再验证当前 consumer 与真实权限；localhost/lab 字串和条件代码并非生产可达路由。URL 数量、issue 标记及“所有 URL”介绍不能证明完整覆盖，未加载外部代码。\n\n来源：[保存帖1](https://x.com/i/status/1667545397227851776)、[保存帖2](https://x.com/i/status/1668840325169954816)、[保存帖3](https://x.com/i/status/1668996831441833992)。\n\n保存图片 `1667545397227851776-02.jpg`：JSendBurpCommunity2023.5.3从单JS显示多路径重复，不证路由实际/权限/所有URL覆盖，保留sourcehash和endpoint映射本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1668840325169954816-02.jpg`：JSpector200singleJS1189546bytesURLfound59informationcertain extensionIssue duplicatedresults incl localhost/laburl; labelconfidence不是vuln，source/runtime/auth/versionreachability独立本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/sql-injection.md",
+    "耗时截图与 header 扫描标签不是成对 SQL 证明",
+    "保存 POST JSON 的 customer.email 示例响应耗时约 13.6 秒，HTTP 404 又含业务 status 401；header 扫描图的多次候选有约 5/35 秒变化。定位真实同步 SQL 消费者和方言，以获准低预算无延时/真假条件对照排除网络、排队、缓存和异步日志。单次接近 sleep 值或工具 Vulnerable 标签不能独立归因，HTTP 与业务状态分开记录，不发送实际慢查询。\n\n来源：[保存帖1](https://x.com/i/status/1667583861637906434)、[保存帖2](https://x.com/i/status/1669166206014865408)。\n\n保存图片 `1667583861637906434-02.jpg`：POSTJSONcustomer.email带XORSLEEP12，HTTP404 JSONstatus401customersnotfoundresponse13.571s；单请求耗时非SQLproof网络/load需低预算真假无延时baseline，不执行延时本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1669166206014865408-02.jpg`：HBSQLI XFF候选200多个5秒/35秒30sleep阈值Vulnerable与Not标签，encoded逗号parse/asynclog/networkbudget，无成对真假和DB独立迹象不能确定SQLi本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "漏洞资源搜索类别与全文证据分开",
+    "保存页面含 XSS/SSRF/SQLi/RCE/IDOR 类别、q 查询及 JSON export。记录查询、来源 URL、保存时间与结果元数据，区分资源索引、实际全文与独立机制。UI 和类别没有展示完整复现，也不证明导出无遗漏；外链全文按用户口径覆盖，未检索或补写文章内容。\n\n来源：[保存帖1](https://x.com/i/status/1667605834032123904)。\n\n保存图片 `1667605834032123904-02.jpg`：BugBountyHunting搜索类别XSS/SSRF/SQLi/RCE/IDOR/INJECTION qkeywordJSONexportUI无results，source/version全文独立本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "参数变数组的错误信息按可见字段计影响",
+    "正文提出向参数传数组可能暴露路径。先记录合法类型与错误分支，以本地/授权合成输入检查 schema 验证和输出的字段；类型拒绝、堆栈或路径名分别计证据。异常不自动证明敏感数据或执行权限，路径暴露还需结合是否本应对该身份隐藏；没有实际响应时只保留候选，不声称通用 FPD。\n\n来源：[保存帖1](https://x.com/i/status/1667725841910865920)。"
+  ],
+  [
+    "by-type/subdomain-takeover.md",
+    "Wix 委托候选需要服务归属验证",
+    "保存 Omise 报告称域指向 Wix 且未认领，图片只显示摘要和状态，正文评级与图中 No Rating 不一致。分别记录 DNS/服务映射、当前权属、提供商绑定条件和获准控制证据；委托或错误页不独立证明任意账号可接管。奖励和相似报告不能代替该域的实际认领链，本提炼不注册或认领第三方域。\n\n来源：[保存帖1](https://x.com/i/status/1667796762868826113)。\n\n保存图片 `1667796762868826113-02.jpg`：Omise报告域委托Wix未claim，正文Medium但截图NoRatingResolved50；未保存实际认领/所有权验证，DNScandidate服务providerclaimpermission独立本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "重置链接外发日志与账户控制分段举证",
+    "保存受控请求日志含 reset-password 路径和邮箱参数，正文称 Host→重置链接→XSS→接管链。分别验证可信 host 来源、链接生成目的地、token 与账号/交易绑定、最终消费者和受保护结果。日志能证明网络请求，但不能单独证明谁拿到有效 token、实际改密码或脚本执行；不复制 token/邮箱值，也不补未保存外链步骤。\n\n来源：[保存帖1](https://x.com/i/status/1667855102424625153)。\n\n保存图片 `1667855102424625153-02.png`：受控requestlogs reset-password路径token与email参数样串，不复写真实值；网络请求记录不证明token消费/账户接管或JS执行，host信任生成目的地与最终消费者独立本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "空响应和双版本路径是 API 候选线索",
+    "Swagger 路径清单与 /api/v1/report-v2 的命名可引导寻找文档或历史并行接口。保存实际文档内容、身份要求、版本和端点状态，核对不同入口是否执行相同保护规则。空根响应不证明服务无功能，重复版本字样也不能证明紧急安全补丁；文档存在不代表每条操作公开可用，未请求这些候选。\n\n来源：[保存帖1](https://x.com/i/status/1667935473321537537)、[保存帖2](https://x.com/i/status/1668835034751442944)。"
+  ],
+  [
+    "discovery/web-and-api.md",
+    "默认欢迎页与旁路 JS 线索分别记录",
+    "保存 IIS 默认页本身没有 URL、产品版本或可操作功能。正文称从搜索/归档与另一个 JS 中找到 API 路径；应把同一 host 的页面、JS 响应、版本及接口映射绑定，再检查各路径的实际权限。默认页面不证明无接口、默认密码或漏洞，API key→PII 状态题名也不能补齐具体 grant。\n\n来源：[保存帖1](https://x.com/i/status/1667952738699714561)。\n\n保存图片 `1667952738699714561-02.jpg`：IIS默认欢迎页无URL/版本/JSbody，普通静态落地页不保证无接口，绑定samehostsource但不推defaultcreds/漏洞本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "默认密码候选必须绑定实际身份能力",
+    "正文提出 test:test 或 JBoss admin-console 的默认值。先核对产品/版本、当前项目许可与自有验证账号，记录拒绝/正常结果及实际管理员动作；页面题名、登录成功提示或默认词表不能独立证明后端管理权限。避免广泛猜测或尝试第三方账号，本帖没有完整认证与受保护动作证据。\n\n来源：[保存帖1](https://x.com/i/status/1668034198890852353)、[保存帖2](https://x.com/i/status/1670032541300957184)。"
+  ],
+  [
+    "hunting-strategy.md",
+    "重复报告反馈转为具体研究问题",
+    "Chrome 状态列表有 Duplicate、Closed、Triaged 和 Fixed，正文把它解释为内部工具覆盖多数问题。列表不提供各根因与来源，不能由此认定所有错误已被自动发现。选择新工具前标出当前消费者、未覆盖前提、可增加的对照和可否证结果，评价工具是否带来新的可复核证据，而非按报告状态数量推断发现能力。\n\n来源：[保存帖1](https://x.com/i/status/1668133286328283136)。\n\n保存图片 `1668133286328283136-02.png`：Chrome多数Duplicate少ClosedTriagedFixed列表不证明Google内部工具发现所有，也不否自有工具；验证问题/新证据/rootcause选择本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "改密码错误提示后核对真实事务状态",
+    "保存页面在前端长度/匹配检查通过后提示 Change password error。记录错误发生前后的自有账号密码、token 消费、session 和持久状态，检查是否原子回滚；UI 错误不证明操作完全未执行。成功接管的外链没有完整保存，不从该提示补成漏洞链，也不替换或使用第三方重置链接。\n\n来源：[保存帖1](https://x.com/i/status/1668177365065953281)。\n\n保存图片 `1668177365065953281-02.jpg`：changepassworderror popup minlen/matchUI通过，不证明server rollback或tokenchange；错误后验证自有oldnewcredentials/session finalstate，外链机制未存本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "匿名文件访问按目录权限和最小数据判断",
+    "正文称匿名 FTP 或目录索引暴露文件/地址证明。检查该身份本应可访问的目录、读取权限和公开设计，只保存证明敏感类型所需的最少字段。FTP 登录成功、index of 题名和 P1/金额不独立证明全部文件可读或全部同级；未下载实际个人文件，暴露地址材料时不复制其内容。\n\n来源：[保存帖1](https://x.com/i/status/1668247043368681473)、[保存帖2](https://x.com/i/status/1668269092036378631)。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "通配检索品牌关联不替代资产归属",
+    "保存 site 通配 dork 可能匹配含品牌字样的外部域或历史子域。记录原始查询、索引结果、时间及关联理由，再核对当前 DNS/服务与项目范围。名称相似、后缀变化和搜索命中不授权测试，也不证明 XSS；不把候选数量当已验证资产数。\n\n来源：[保存帖1](https://x.com/i/status/1668247779943018496)。"
+  ],
+  [
+    "hunting-strategy.md",
+    "研究投入用阶段性判断条件而非不断加时",
+    "正文中翻倍时间、日常坚持和休息建议要与实际信息增量结合。保存文章节选支持先用可控测试站检查概念是否现实、复用已有工具降低验证成本，再决定继续或放弃；失败案例并不保证下一题必有成果。为每阶段定义需要的前提、最小证据、反例、时间预算与停止条件，单纯把 100 小时加倍不是发现概率或覆盖证明。未保存后续文章内容不补造。\n\n来源：[保存帖1](https://x.com/i/status/1668270776334655490)、[保存帖2](https://x.com/i/status/1668277063655239680)、[保存帖3](https://x.com/i/status/1669408634369916934)、[保存帖4](https://x.com/i/status/1669713942233468933)。\n\n保存图片 `1669713942233468933-02.png`：研究文章保存可见节选：最难在放弃/继续决策，先能快速判断现实性的测试站，第一概念快速证不现实第二6week失败第三复用race工具1day适配1–2weektest，先设判断条件避免6weekblind投入，不保证必有成果本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/mobile-android.md",
+    "导出 Activity 到 WebView 和本地 token 分环验证",
+    "正文给出 exported activity、WebView 与 SharedPreferences 的接管链名。分别核对组件暴露/调用权限、intent 输入、WebView origin/桥接能力、本地存储可读条件及 token 的真实授权消费者。SharedPreferences 文件存在不代表其他普通应用可直接读取，奖励邮件没有 manifest/代码/请求证据，不补成所有 Android app 的接管方法。\n\n来源：[保存帖1](https://x.com/i/status/1668339185990909952)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "邮箱规范化必须与查重和会话绑定一致",
+    "保存注册对照中小写邮箱返回 422 已存在，改域名大小写后 201 并返回规范化邮箱、session 与 user 字段。以自有账号对比前后不可变 user ID、数据归属、邮箱验证及后续受保护能力，区分进入已有账号与新建重复账号。201 和相同显示邮箱不独立证明接管；身份规范化应贯穿查重、创建和会话签发，不抄录图中的个人数据或 cookie。\n\n来源：[保存帖1](https://x.com/i/status/1668436845363879937)、[保存帖2](https://x.com/i/status/1668438026148511745)。\n\n保存图片 `1668436845363879937-02.jpg`：POSTsignupJSON邮箱lowercase返回422Useralreadyexists；记录normalbaseline反例，未credential证明，图个人邮箱password勿复写本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1668438026148511745-02.jpg`：same signup.uppercaseCOM返回201 SetCookie/userID字段邮箱lowercase isEmailConfirmedtrue；未原账号ID对比/dashboard完整链，可新重复号或现有混淆，身份规范化/signup查重/session绑定分层，不抄cookie/邮箱本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "dnsx 到 httpx 输出核对输入词表语义",
+    "保存命令把 programs.txt 与逗号分隔候选交给 dnsx，图片有多个 grafana 名称的 200。按实际工具版本核对 -d 接受值/文件、-w 是否接受逗号列表，并保存原始 DNS、wildcard 判断、HTTP 响应及错误。grafana 字样不是产品指纹，200 不证明无认证数据；状态码筛选会漏保护与错误线索，不开展列表批量扫描。\n\n来源：[保存帖1](https://x.com/i/status/1668477513000009729)。\n\n保存图片 `1668477513000009729-02.jpg`：dnsx -d programs.txt -w jira,grafana,jenkins→httpxscmc200 manygrafana200；输入list/file/逗号wordlist具体version语义核对，名称不是技术指纹，200非unauthdata本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "public 前缀变体检查同一对象的保护规则",
+    "正文建议把受登录保护的路径前加 public。先在本地/授权对象核对路由匹配、规范路径、对象身份与匿名/登录角色，对比最终数据或动作。路径名称不应自行赋予公开权限；不同页面、登录跳转或成功状态不能独立证明访问同一受保护内容，未保存响应时仅保留候选。\n\n来源：[保存帖1](https://x.com/i/status/1668564619202293761)。"
+  ],
+  [
+    "experiment-design.md",
+    "404 重试变 200 先确认可比请求与状态",
+    "保存两个截图的路径、header 和响应字段被遮盖，时间相近但不能核实字节与身份完全一致。记录每次原始请求、状态、缓存/路由节点、会话和最终内容，以少量获准重复比较排除负载、异步状态和边缘差异。404 不证明永久不存在，200 也不证明权限绕过；无限重试不是验证方法。\n\n来源：[保存帖1](https://x.com/i/status/1668599080879095809)。\n\n保存图片 `1668599080879095809-02.jpg`：相近时间404GETrequestpath/header/body遮盖，大梗图不证相同字节身份；保留对照时间route/cache/load，不据404说明不存在本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1668599080879095809-03.jpg`：后一GET200 response26byte内容遮盖，单反复状态差异不证明protectedresult/配置漏洞，不重复无限测试本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "模板下载 token 不进入命令与日志证据",
+    "保存 newclei 命令含部分遮盖的 GitHub token。凭据放命令参数可能进入进程、历史或日志，证据保留字段类型与来源，不复写实际值；工具能下载不意味着该 token 可用于其他操作。管道去重也不验证来源可信，本提炼未使用 token、下载仓库或执行 bot。\n\n来源：[保存帖1](https://x.com/i/status/1668631205754064902)。\n\n保存图片 `1668631205754064902-02.png`：newclei-token ghp命令部分值遮盖，管道anewlinks只候选去重，硬编码token参数可能history/process/logs漏，勿复制/使用token或执行下载bot本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "source-audit.md",
+    "下载模板清单与实际加载覆盖分别保存",
+    "图片中的编码文件名涵盖文件审计、malware、网络、HTTP 与 GraphQL，不是模板正文。另一图有 file binary matcher 和 AND 条件，必须按真实规则与合成正反样本判断，Critical 标签不等于现时漏洞等级。保存运行记录显示 deprecated、syntax error 和 loaded/clustering 计数，缺少全文及报错部分不能称全部模板有效；DNS DMARC 命中也不证明邮件冒用成功，未运行这些模板。\n\n来源：[保存帖1](https://x.com/i/status/1668631205754064902)。\n\n保存图片 `1668631205754064902-03.jpg`：newclei下载列表含URL编码%2F分类filemalware/androidauditnetworkhttptakeovergraphql，文件名非正文/验证；rawdecodedpaths安全/version/动作分开不执行下载本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1668631205754064902-04.png`：malware-cryptxxx filebinarymatcher all extensions多hex条件AND图无匹配文件/output；Criticalmetadata是模板tag不是线上严重度，规则版本/误报对照独立本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1668631205754064902-05.png`：Nuclei2.9.4 outdated历史 latest9.5.2显异常元信息，153deprecated4syntaxerror358loaded23clusters1target DMARC mediumhit；不推真实邮件spoof或全部模板成功coverage，保留errors/actionsOAST本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/cache-deception.md",
+    "unkeyed 输入到缓存污染还需干净读取对照",
+    "正文只描述操纵未纳入 key 的输入使响应缓存。确定实际缓存键、可控输入消费者、共享对象和 TTL，以获准隔离 key 对比正常响应、单一变化和随后不带该输入的第二身份读取。响应变化不独立证明缓存或跨用户污染，隔离 query 是否入 key 也要证实；不污染公共缓存。\n\n来源：[保存帖1](https://x.com/i/status/1668640760105779200)。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "ParamSpider 与 Nuclei 组合保留错误和独立验证",
+    "保存 NucleiFuzzer 图有 134 个 URL、18 个模板、扩展排除、旧协议警告及 30 次不响应后跳过入口。记录采集来源、去重/端口关系、配置/版本和失败集合，数量不等于独立对象或全部业务入口。redirect、XSS、SQL warning、LFI 的标签分别需要实际消费者、权限与正反对照，不采用默认等级作为最终影响，也不把测试站结果推广到全部目标。\n\n来源：[保存帖1](https://x.com/i/status/1668651065993232387)、[保存帖2](https://x.com/i/status/1668672646496780289)、[保存帖3](https://x.com/i/status/1669127267543310337)。\n\n保存图片 `1668651065993232387-02.jpg`：NucleiFuzzer ParamSpider134uniqueURLs18templates2.9.3旧版warning24deprecated openredirect/XSS标签在测试站，URLscheme/portduplicate、排除extensions覆盖遗漏，hitnotconsumerproof/currentalltargets本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1668672646496780289-02.png`：NucleiFuzzer完成console18templates134targets30unresponsive skipped1endpoint，SQLwarningCritical/LFIHigh/XSSMedium标签不独立确定servervuln/影响，默认portduplicates保留/错误集合本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1668672646496780289-03.png`：Paramspider exclude扩展134URLs输出/Nuclei18templates启动，retry0不是所有入口coverage，可重复式source/config/hash/results分开本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "source-audit.md",
+    "Security Lab 查询改进题名只作审计索引",
+    "保存资料列 Python Unicode 校验、Next.js XSS 源/sink、C++ 长度/除零、Go JWT、Paramiko SSH、GitHub Actions 与解包/TarSlip 等查询方向。为每个方向保留准确题名和 issue 来源，区分检测规则改进、历史目标漏洞与实际查询实现。未保存 query/测试/数据流全文，不能从奖金与等级补写具体函数、匹配范围或利用链；全文缺失按用户口径计覆盖，后续应用仍需真实 consumer 和正反样例。\n\n来源：[保存帖1](https://x.com/i/status/1668657462830936079)、[保存帖2](https://x.com/i/status/1668657558435901446)、[保存帖3](https://x.com/i/status/1668687634921578496)、[保存帖4](https://x.com/i/status/1668687851536392194)、[保存帖5](https://x.com/i/status/1668687945581076483)、[保存帖6](https://x.com/i/status/1668688040070377480)、[保存帖7](https://x.com/i/status/1668688132630257688)、[保存帖8](https://x.com/i/status/1668688225567645717)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "历史 signup token 不应自动赋予当前注册权限",
+    "正文称只有 sign-in 界面，却从 Wayback 找到 signup/referral token 可创建账号。区分隐藏 UI、仍允许注册的服务端设计与真正的邀请限制，核对 token 时效、账号/组织绑定、一次消费和最终权限。历史 URL 出现代码不独立证明有效或绕过，本提炼不复用真实 token 或创建账号。\n\n来源：[保存帖1](https://x.com/i/status/1668658071315570688)。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "代码追问仍保留 root array 题名的类型错误",
+    "本帖正文只提视频深入研究，既有已读图片 `1668945427687788547-02.jpg` 实际示例是 nested JSON root object。准确区分数组与对象，检查 schema、解包、凭据验证和角色/session 绑定，以自有合法/拒绝输入对照。讽刺封面与 root 字段名不证明认证绕过，复用相同哈希的先前图片记录，不补未保存视频代码。\n\n来源：[保存帖1](https://x.com/i/status/1668945427687788547)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "搜索邮箱字串保留公开设计反例",
+    "保存 dork 中的 Gmail 字串可以定位索引候选。记录匹配原文、来源、时间及字段用途，区分公开联系方式、样例与本应隔离的用户数据；索引中出现邮箱不独立证明泄露或当前敏感访问。正文没有字段响应/权限证据，不复制全量个人数据，也不保证某 dork 有固定影响。\n\n来源：[保存帖1](https://x.com/i/status/1668964737617469443)。"
+  ],
+  [
+    "scope-and-rules.md",
+    "鸣谢旁的 Unique 与 Total 计数不代表已修复覆盖",
+    "保存图注明 Unique 含 Triaged/Unresolved/Informational，Total 还包含 Duplicate。按可见定义保存计数、时间和状态集合，不能解释为 16 个独立已修复漏洞。资产与部分规则裁切，HoF 和绿色范围标签都不授权全部目标；生产扰动、pivot 和敏感数据条款需按完整项目规则核对，不补猜未显示的期限。\n\n来源：[保存帖1](https://x.com/i/status/1668979324714713088)。\n\n保存图片 `1668979324714713088-02.jpg`：HoF旁Unique16含TriagedUnresolvedInformational与Total含Duplicate，scope标签资产被裁切不授权全部，左条款禁止生产扰动/pivot敏感应停止但句子裁切不补90天细节本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "discovery/passive-and-services.md",
+    "第三方托管页面与新功能归属分别核实",
+    "正文建议从 sites.google.com 中找公司页面。保留原始 URL、索引/页面时间、发布主体与可见内容，核对是否当前公司公开设计或旧样例。域名含组织字符串不证明内部功能或测试范围，页面发现不能授权访问第三方托管平台中的其他组织资源；未保存例子全文不补造新功能细节。\n\n来源：[保存帖1](https://x.com/i/status/1668984133056614400)。"
+  ],
+  [
+    "by-type/xss.md",
+    "名称字段跨子域显示检查每个真实 sink",
+    "正文提示表单 name 可能在另一子域显示。记录字段的保存/传递链、每个输出 origin、上下文、权限与获准用户可达性，对比安全文本及正确转义。跨子域文本出现不自动脚本执行或同一权限；等级提升通知没有补齐具体源/sink，不从一个字段扩展为所有子域漏洞。\n\n来源：[保存帖1](https://x.com/i/status/1669000678750945282)。"
+  ],
+  [
+    "reporting.md",
+    "工程优先级与确认修复和奖金各自保留状态",
+    "保存 Google 邮件分别更新 type、priority、severity、In Progress/Accepted，说明后续产品修复与 VRP 评审另待通知。保留各时间与所需证据，triaged 或 P1 不等于已修复、已付款或固定技术影响。工程 S1/P1 也不能直接替换另一平台等级，未保存的请求机制仍保持缺口。\n\n来源：[保存帖1](https://x.com/i/status/1669000678750945282)。\n\n保存图片 `1669000678750945282-02.jpg`：GooglepriorityP2P1 severityS4S1 InProgressAccepted邮件将后续fix和VRPpanelreward分别，不同工程分类≠当前修复或bounty保证本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1669000678750945282-04.jpg`：triagedcurrentlylooking可能coupledays/upweek短信不证完成，保留triage/priority/severity/fix/reward各时间线本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/authn-session.md",
+    "Openfire setup 例外与规范化后受保护路由分层核验",
+    "保存本地历史 Openfire 图片显示 setup 前缀下编码路径到 log/plugin-admin/user-create，随后管理员属性页面，关联 4.7.4。将原始路径、每层解码/规范化、setup 例外判定、session/token 与最终管理员动作逐段绑定；鉴权必须针对最终实际路由。200 和 NullPointerException 不能独立证明全部成功，异常也不保证事务回滚。图没有所有正常拒绝/账号前后对照，不泛化当前版本；不复写 session/密码或执行创建管理员步骤。\n\n来源：[保存帖1](https://x.com/i/status/1669007271953825792)。\n\n保存图片 `1669007271953825792-03.jpg`：Openfire labprivateIP9090 setup/setup-s encoded%u002e traversal GETlog.jsp200titleopenfire.log noCookie请求，新SetCookiesession不证admin；route normalization/setup exemption consumer mismatch historical本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1669007271953825792-04.jpg`：encodedsetup pathplugin-admin.jsp200 includesNullPointer stackcookies，再user-create.jspGETtokenscookiescreateuser query screenshotnofullresult，exception不阻授权链不复写session/token/credential本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1669007271953825792-05.jpg`：Openfire4.7.4页面Loggedinasadmin2 IsAdminYes在lab，与前路由链bindtime/identity baseline不同steps需保留未示，不推广currentallversions/做admin创建本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/xss.md",
+    "订单地址页弹窗保留未知输入与持久性",
+    "保存图片展示 billing address 页面和 XSS 文本弹窗，origin 被遮盖。记录可能输入字段、真实写入/响应、输出上下文、会话和第二获准用户是否可达，再判反射/存储/DOM 属性。弹窗不证明所有地址字段或持久跨用户链，图没有 source payload 时不能补造，不抄个人地址信息。\n\n来源：[保存帖1](https://x.com/i/status/1669065668082147341)。\n\n保存图片 `1669065668082147341-02.jpg`：BillingAddressform多字段与XSS弹窗origin遮盖，不知sourcepayload/sink/保存/otheruser，不因alert推stored/全字段本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "by-type/xss.md",
+    "CSP 信任 CDN 需要匹配真实脚本消费者",
+    "正文提出第三方 CDN 上传内容可能落入 CSP 允许范围。记录实际策略指令、资源类型、上传控制、返回 MIME/处置及脚本加载 sink，以自有无敏感样本对照允许/拒绝。某域出现在 connect-src/img-src 不独立授权 script，能上传或下载也不必能执行；奖励题名未提供完整策略与浏览器结果，不认定所有 CDN 都可绕过。\n\n来源：[保存帖1](https://x.com/i/status/1669119476875288577)。"
+  ],
+  [
+    "by-type/idor-access-control.md",
+    "配图的对象权限机制不冒充正文漏洞类型",
+    "一帖正文标 SSRF，而保存图描述从源码找到 user_id 后修改其他账号 email/name；另一帖写 password reset，图却是 IDOR 1234→1235 的示意。分别绑定正文与图中的机制和未知细节，使用自有 A/B 对象检查读取/更新权限与最终账号控制。隐藏参数可成为候选，添 ID 不自动赋予权力；图中的等级/接管断言或示意不能补齐实际请求，不归为已证实 SSRF/重置链。\n\n来源：[保存帖1](https://x.com/i/status/1669254865443332096)、[保存帖2](https://x.com/i/status/1669955598140547073)。\n\n保存图片 `1669254865443332096-02.jpg`：正文SSRF1500/7words但图IDOR user_id源码隐藏参数加请求更改emailname到另一acctATOclaim，privateResolvedCritical，source mismatch需独立facet，无实际HTTP/finalcontrolproof本段仅使用实际查看的保存原图，不补未保存内容。\n\n保存图片 `1669955598140547073-02.jpg`：正文passwordreset标题但图IDORID1234→1235示意和video人，说明直接对象引用仍需server每对象auth，crop没resettoken/实际请求response本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "targeted-fuzzing.md",
+    "目录扫描排除规则不能当没有敏感入口",
+    "保存 dirsearch 命令排除多种状态和扩展。记录工具版本、实际选项含义、原始响应/失败及筛选前后集合，核对移除扩展是否改变候选生成。403/302/500 可能含认证或处理线索，过滤掉不等于不存在；one-liner 帮助作者不证明对所有项目有效，未运行或扩大字典预算。\n\n来源：[保存帖1](https://x.com/i/status/1669333467975360512)。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "进程资源截图与任务完成证据分开",
+    "保存 htop 照片显示大量进程及 CPU/内存，部分细字不可完整读取。记录各任务的输入范围、并发预算、真实输出、退出码与失败集合，再判断是否完成或产生可复核结果。高负载、终端数量和视觉效果不代表吞吐、授权或漏洞发现，不从照片重建未看清命令。\n\n来源：[保存帖1](https://x.com/i/status/1669379159443791874)。\n\n保存图片 `1669379159443791874-02.jpg`：htop多进程CPU和内存列表照可见大量dirsearch命令但微字不可完整读，资源使用≠完成/吞吐/授权，exit/output/并发预算独立本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "experiment-design.md",
+    "子域词表比较保持共同基线与资源预算",
+    "正文比较自建/n0kovo 的 50k/200k 词表命中数，缺少测试时间、范围和 wildcard/去重定义。统一输入、预算、解析器与结果判定，保留原始/独立名称、失败及新增消费者，才能评价相对收益。某一次 80 对 76 或两次 91 不证明所有目标优劣，更多词不自动更多已验证资产。\n\n来源：[保存帖1](https://x.com/i/status/1669413072702668801)。"
+  ],
+  [
+    "source-audit.md",
+    "JS 下载与生成词表绑定响应版本",
+    "正文工具功能分成 Wayback/gauplus/subjs 候选、可选下载与从内容生成词表。每阶段保存来源 URL、时间、状态、正文哈希及生成规则，区分历史文件、当前文件和命名猜测。成功提取不是实际接口可达或权限证明，下载选项不意味着已经读完所有 JS，未执行未保存外部工具。\n\n来源：[保存帖1](https://x.com/i/status/1669564934752186370)。"
+  ],
+  [
+    "by-type/info-secrets.md",
+    "代码托管检索先确定内容来源与公开意图",
+    "正文的 repl.it 查询语法有不完整 intext 条件。保持原始查询与语法限制，核对真实托管主体、项目版本、公开设计及敏感字段，内部域字串可只是样例。索引命中不独立证明公司内部代码、有效 secret 或新功能，可见代码也不授权运行/使用其中凭据；未检索或抓取全文。\n\n来源：[保存帖1](https://x.com/i/status/1669613278958436352)。"
+  ],
+  [
+    "by-type/xss.md",
+    "重定向参数 JS 改写需要同一导航 sink 对照",
+    "保存正文给出 next 从外域导航到 javascript 改写的两部分，图片有 cookie 样文本弹窗。核对实际允许 scheme、URL 规范化、浏览器导航/DOM sink、CSP 与 WAF 规则版本，用授权无敏感标记比较普通与改写形式。属性拼接改变字符串特征不改变脚本信任边界；外跳与执行分别举证，图片裁切的请求/host 不补猜，也不复写 cookie 或宣称通用 Akamai bypass。\n\n来源：[保存帖1](https://x.com/i/status/1669686219620466688)、[保存帖2](https://x.com/i/status/1669686560780853249)。\n\n保存图片 `1669686219620466688-02.png`：nextJavascript改写弹窗中cookie样文本，不复写values，图原始next/host被裁切；编码/property拼接语义浏览器scheme/sink+CSP，Akamairulescurrentunknown nofullreset/ATO本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "cloud/cloud-misconfiguration.md",
+    "按组织名猜存储桶不证明文档本应私有",
+    "正文列 storage.googleapis.com 下组织名候选。核对当前 bucket/对象归属、匿名读取权限和公开设计，按获准最少字段判断文档敏感性；名称相似、listing 或 URL 存在都不授权整桶下载。未保存对象内容时不声称内部文档泄露，不抓取或访问真实候选。\n\n来源：[保存帖1](https://x.com/i/status/1669822910167650304)。"
+  ],
+  [
+    "by-type/cmd-injection-rce.md",
+    "Chamilo 命令注入题名追到服务端执行消费者",
+    "保存 Nuclei 图显示历史 CVE-2023-34960、additional_webservices.php、单模板和多个目标标签，其中含 loopback/私有/示例地址。核对实际请求字段、服务器对文件名/参数的引用方式、shell 与权限、真实输出及正常拒绝对照；搜索产品标签和 High 命中不独立证明执行。正文读系统文件的表达式不作为验证默认动作，未运行模板、payload 或扫描外部目标。\n\n来源：[保存帖1](https://x.com/i/status/1669991289918504961)。\n\n保存图片 `1669991289918504961-02.jpg`：Chamilo Nuclei2.9.6 1template100target additional_webservices.php命中high含loopback/private/labexample，templateversion历史不是当前，缺真实commandoutput/请求ctx输入到shellhandler；不执行catpasswd/payload本段仅使用实际查看的保存原图，不补未保存内容。"
+  ],
+  [
+    "discovery/records-and-incremental.md",
+    "爬取到 Dalfox 的 one-liner 保留原样语法错误",
+    "保存命令有 -c/-d 粘连、黑名单拼写/分隔错误、awk 引号语法及 -o 换行等问题。先在本地合成文本核对 argv、输出格式和 URL/状态字段，保留错误而不把自动修正后的扫描算已证据。只筛 code-200、含等号 URL 与替换参数会丢身份/差异及其他消费者，Dalfox 命中还需实际 sink/浏览器对照；未执行命令。\n\n来源：[保存帖1](https://x.com/i/status/1670027561559113728)。"
+  ],
+  [
+    "by-type/sql-injection.md",
+    "PHP URL 错误匹配不形成二元 SQL 漏洞判断",
+    "保存图片的 one-liner 用 grep/sed 改写 PHP URL 后追加编码字符，curl 匹配固定 SQL 错误并打印 Vulnerable/Not Vulnerable。改写可能丢参数和消费者语义，错误文本也可来自静态页面；其他方言、盲注与 HTTP 失败可造成假阴性。保留原始请求、正常基线、真实 SQL 消费者与独立正反对照，未命中不能称安全，未执行该命令或提取数据。\n\n来源：[保存帖1](https://x.com/i/status/1668871896916717569)。\n\n保存图片 `1668871896916717569-02.jpg`：SQLone-liner grep.php/sedstrip尾/appendencodedquotes/backtick,curlgrepfixederrorbinary=>notvulnerable false negative staticerrorfalsepos；URLparamcontextlost/onlyoneDB/noHTTPerr no actualscan本段仅使用实际查看的保存原图，不补未保存内容。"
+  ]
+]

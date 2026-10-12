@@ -1,0 +1,560 @@
+[
+  {
+    "i": 0,
+    "d": "N",
+    "a": "",
+    "n": "Python AWAE仓库封面，无代码或消费端证据。"
+  },
+  {
+    "i": 1,
+    "d": "N",
+    "a": "",
+    "n": "blackboxprotobuf仓库封面只介绍无proto定义操作工具，没有实际消息解码或授权结果。"
+  },
+  {
+    "i": 2,
+    "d": "N",
+    "a": "",
+    "n": "NASA感谢信肯定VDP报告与贡献，无SSRF/接管/XSS技术细节或当前授权范围。"
+  },
+  {
+    "i": 3,
+    "d": "N",
+    "a": "",
+    "n": "Meta会议人物合影背景，无技术步骤。"
+  },
+  {
+    "i": 4,
+    "d": "N",
+    "a": "",
+    "n": "Meta会议胸牌，无技术机制。"
+  },
+  {
+    "i": 5,
+    "d": "N",
+    "a": "",
+    "n": "Meta周边包/贴纸/合影，无技术证据。"
+  },
+  {
+    "i": 6,
+    "d": "N",
+    "a": "",
+    "n": "Meta会议合影，无漏洞步骤。"
+  },
+  {
+    "i": 7,
+    "d": "D",
+    "a": "xss,client,source,access,experiment",
+    "n": "GitLab报告图称AbstractReferenceFilter可注入HTML，创建wiki _sidear标题与附件_sidebar.md（两拼写不一致），嵌入小字片段难完整辨读，完整附件未保存。核Markdown→Banzai各阶段、引用重写和最终HTML净化，保留项目身份、版本与正常引用；离线惰性wiki样本比较正确编码/净化与重写后的DOM，HTML插入不自动证明跨用户脚本执行。截图Resolved/High不作当前产品保证，不创建项目或执行内容。"
+  },
+  {
+    "i": 8,
+    "d": "D",
+    "a": "ai,records,source,report,experiment",
+    "n": "Hai报告标题为ASCII/TrainingDataPoisoning，但图实际展示U+E004D等Unicode tag码点，指令要求翻译后遵从内容；摘要声称解码回复，没有训练集持久修改证据，侧栏Informative/LLM01PromptInjection。保存原字节/代码点/解码视图和模型最终输出，以离线惰性文本比较数据与指令；编码内容存在不证明执行、训练数据污染或授权动作，不执行内嵌指令。"
+  },
+  {
+    "i": 9,
+    "d": "D",
+    "a": "logic,business,report,impact,experiment",
+    "n": "评论称账号被监测并逐个标为欠费、不能继续免费服务所以关闭报告；没有原购买/退款/履约证据。区分预防授权、事后检测/撤销和实际已经交付的状态，以离线支付/服务状态机核订单费用与服务资格不变量、时序和补偿。监测既不能自动否定漏洞也不能证明免费获取成功，关闭状态不代替技术事实，不创建账号或购买服务。"
+  },
+  {
+    "i": 10,
+    "d": "I",
+    "a": "",
+    "n": "两条SelfXSS+CSRF/filename题名、P3/Unresolved/积分，无文件输入、渲染上下文或跨站状态变化。"
+  },
+  {
+    "i": 11,
+    "d": "D",
+    "a": "csrf,auth,logic,experiment",
+    "n": "ExpressionEngine摘要说明缺CSRF保护可能使用户退订评论通知，图没有原始GET或状态回执。核实际方法、订阅对象、当前principal、浏览器凭据发送与CSRF/Origin校验，离线虚拟订阅状态比较正常与跨站请求。GET名或无token不足确认，历史修复状态不保证当前部署，不退订真实用户。"
+  },
+  {
+    "i": 12,
+    "d": "I",
+    "a": "",
+    "n": "URL tag论坛XSS报告摘要只称绕过滤与浏览器执行，未给URL解析、标签输入或执行输出，历史Medium/Resolved不补为技术链。"
+  },
+  {
+    "i": 13,
+    "d": "I",
+    "a": "",
+    "n": "AuthenticatedRCEviaPageTitle摘要说API中的title可能执行PHP，但没有API/字段字节/代码消费者/执行回执；不能补造匿名RCE。"
+  },
+  {
+    "i": 14,
+    "d": "I",
+    "a": "",
+    "n": "Translate::save代码注入摘要仅说输入净化不足，没有源代码/写入模板/解释器链或请求响应。"
+  },
+  {
+    "i": 15,
+    "d": "D",
+    "a": "files,cmd,access,source,impact,experiment",
+    "n": "ExpressionEngine摘要明确低权限已认证用户绕extension check上传PHP→命令执行；图无实际文件/响应。分别核上传动作权限、文件名规范化和扩展验证、存储位置、PHP handler/执行权限及访问身份，离线惰性文件元数据与虚拟存储模型比较拒绝/文本下载/解释执行边界。低权限前提不能删，上传成功不自动RCE，不上传或执行文件。"
+  },
+  {
+    "i": 16,
+    "d": "D",
+    "a": "files,secret,access,source,experiment",
+    "n": "Import/Convert摘要明确管理员处理的用户文件放可预测位置，在不安全配置下可无认证访问；无路径/响应。分开生成权限与下载ACL，核webroot、持久时间、最小字段和真实配置；离线虚拟公开/受限导出文件对照。可预测不代表可读，密码字段不证明明文/有效，未读PII或使用凭据。"
+  },
+  {
+    "i": 17,
+    "d": "D",
+    "a": "csrf,access,auth,logic,experiment",
+    "n": "论坛GET CSRF摘要称可开/关主题、缺CSRF保护，原始请求未示。核主题对象、角色、HTTP方法、浏览器凭据、token/Origin及最终状态，离线虚拟主题比较允许/拒绝动作。CSRF与是否可操作该对象的ACL分开，标题Arbitrary不补为任意主题权限，未关主题。"
+  },
+  {
+    "i": 18,
+    "d": "D",
+    "a": "secret,passive,source,records,scope,experiment",
+    "n": "GitHub清单列配置/历史/私钥/数据库文件与api_key/client_id/OTP/password_hash等关键词、工具链接，无搜索结果。记录仓库归属/提交/字段用途，以离线公开模板/公钥/标识/虚拟秘密对照；名字含secret不证明有效，client_id/密码摘要不是直接可用秘密，重复prod.secret条目非独立覆盖，未查或试凭据。"
+  },
+  {
+    "i": 19,
+    "d": "I",
+    "a": "",
+    "n": "浏览器页面仅Takeover by及遮盖域名作者，未有DNS/provider/认领收据或执行影响，不能独立确认接管。"
+  },
+  {
+    "i": 20,
+    "d": "N",
+    "a": "",
+    "n": "JSrecon宣传标题插图，无代码或来源。"
+  },
+  {
+    "i": 21,
+    "d": "N",
+    "a": "",
+    "n": "ContentDiscovery目录文件链接标题封面，没有实际枚举结果。"
+  },
+  {
+    "i": 22,
+    "d": "D",
+    "a": "secret,files,source,auth,experiment,impact",
+    "n": "浏览器 /.vscode/sftp.json 图有host/protocol ftp/port21/username/remotePath/uploadOnSave，password行是注释且多值遮盖，JSON.parse报期待双引号。实际字节仍可曝光配置但不应强称有效JSON或SFTP协议；核访问身份、字段用途和消费者，离线模板与虚拟私有配置对照。注释密码不保证失效，也不能确认有效，不恢复遮盖或尝试登录。"
+  },
+  {
+    "i": 23,
+    "d": "D",
+    "a": "passive,secret,scope,records,experiment",
+    "n": "图为index of+sftp.json、site:target.com搜索指引，与正文site:http://target.com形式不同，无命中。保留查询语法和索引时间，离线公开文档/样例与配置哨兵对照；搜索命中不证明文件秘密或High，域筛选不能代替当前授权，未搜索或访问凭据。"
+  },
+  {
+    "i": 24,
+    "d": "D",
+    "a": "lfi,access,source,experiment",
+    "n": "Node实验权限模型历史摘要说明path.resolve校验后Buffer.from转换，能改Buffer.prototype.utf8Write的应用可改变最终表示；前提是已能执行JS/改内部方法，20/21历史发布线与实验特性。核校验路径与最终传入fs字节的一致性及不可变可信primordials，用离线虚拟转换/文件树对照。题名不证明远程匿名读文件，历史所有用户标签不忽略修复构建，不patch运行时或读敏感文件。"
+  },
+  {
+    "i": 25,
+    "d": "D",
+    "a": "access,lfi,source,experiment",
+    "n": "Node权限摘要称allow-fs-read/write里*后文字被忽略，例*.pub意外允许更多路径，历史实验模型20/21。分别核配置语法、解析后的允许集合、read/write与规范化对象，离线虚拟公钥/私有哨兵和精确路径对照。用户以为的glob与实现前缀语义可能不同，不保证当前版本行为，不访问私钥/修改文件。"
+  },
+  {
+    "i": 26,
+    "d": "D",
+    "a": "secret,files,source,auth,experiment",
+    "n": "sftp.json截图仍实际protocol ftp/21，注释password造成严格JSON.parse错误，多值遮盖。保留原字节而非解析失败后丢弃，核访问身份、字段用途、同步消费者和权限，离线公开样例/私有配置对照。文件名不决定协议，语法错误不自动避免信息泄露，也不证明凭据有效，不登录。"
+  },
+  {
+    "i": 27,
+    "d": "D",
+    "a": "secret,client,files,source,impact",
+    "n": "VSCode SFTP说明图讲FTP/SSH同步增改删、配置可能含服务器与凭据，非实际访问回执。把编辑器功能、部署误公开配置和凭据消费者分开，离线虚拟同步配置比较公开模板/受限秘密；扩展存在不是远程权限或泄露，不使用凭据/同步文件。"
+  },
+  {
+    "i": 28,
+    "d": "D",
+    "a": "passive,secret,scope,records,experiment",
+    "n": "图片index of/sftp.json/site限定搜索，没有结果。绑定原文/索引时间和资产归属，离线公开文档/配置哨兵比较，文件名与搜索命中不是有效秘密或授权，不执行搜索。"
+  },
+  {
+    "i": 29,
+    "d": "D",
+    "a": "passive,secret,scope,records,experiment",
+    "n": "另一编辑器样式图展示相同sftp搜索，但当前摘要不同需保留文件来源。用离线索引核查询语法/站点范围、文档和陈旧结果反例；没有文件内容或服务接受证据，不把多图当多处漏洞。"
+  },
+  {
+    "i": 30,
+    "d": "D",
+    "a": "cloud,takeover,web,scope,experiment",
+    "n": "BAS3界面输入域与遮盖ScanAuthKey，输出us-east-2和S3bucketURL，无实际权限/存在性响应。域名推region/bucket候选需保留DNS、endpoint类型、region和实际消费者，离线虚拟映射对照候选/不存在/正确拒绝；扫描器APIkey不等于AWS凭据或授权，URL不证明读写/接管，不提交扫描/认领桶。"
+  },
+  {
+    "i": 31,
+    "d": "D",
+    "a": "redirect,secret,auth,web,source,experiment",
+    "n": "Undici历史摘要区分fetch与request/dispatch/stream/pipeline跨origin重定向清头行为，称修复v5.28.4/v6.11.1并在下部提ProxyAuthorization/x-auth-token。核具体API/构建、每跳scheme-host-port及敏感头处理，离线虚拟惰性头在同/跨origin对照。Authorization/Cookie已清不能推所有头已清，origin不同与代理身份需分别判断；保存公告不作最新保证，不发送真实凭据。"
+  },
+  {
+    "i": 32,
+    "d": "D",
+    "a": "web,passive,fuzz,secret,records,source,scope,experiment",
+    "n": "Coffin 方法1是命令串而非成功结果：subfinder 写 subdomain.txt，下游却读 subdomains.txt，须防止误用旧输入；端口列表省略443；dirsearch 的443位于HTTP状态筛选中，不能当端口。高并发、递归深度和隐藏错误不作为默认授权预算；保留每阶段输入、工具版本、范围、失败与输出记录。grep 的 .js$ 正则及查询后缀可能误筛；未引用的URL、追加 secret.txt、凭据关键词都需结构化解析与来源归属。字符串命中不等于有效凭据或可利用漏洞；仅以非敏感虚拟文件验证流水线，不执行图中扫描。"
+  },
+  {
+    "i": 33,
+    "d": "D",
+    "a": "web,fuzz,secret,xss,cors,takeover,lfi,redirect,records,scope,experiment",
+    "n": "Coffin 方法2显示 httpx/katana/JS、模板、扩展名、bxss、subzy、corsy 等串联，没有实际响应。katana 深度、被动来源、静态格式排除与 .js$ 过滤会丢失候选；模板路径/版本、并发、错误与范围要记录。远程脚本回连片段不作为执行指令，反射须与真实浏览器执行区分。自定义 Origin、Cookie 或 GoogleBot UA 的CORS输出须以两个受控来源、浏览器读响应及凭据状态对照；候选接管、LFI、跳转须各自确认资源归属与语义，工具名称和模板命中不补为成功链。"
+  },
+  {
+    "i": 34,
+    "d": "D",
+    "a": "web,client,records,source,scope,experiment",
+    "n": "LazyEgg 帮助显示 js_scan 的 --wordlist/-w 及可选端口扫描默认值/范围。正文 --w 与完整长选项不同，但部分解析器允许缩写，不能直接断言失效；按固定版本的帮助/解析器以离线惰性参数对照，保留传参和错误。帮助界面不证明实际扫描、下载、覆盖率或漏洞。"
+  },
+  {
+    "i": 35,
+    "d": "D",
+    "a": "web,client,records,scope,experiment",
+    "n": "EggShop 页面和 LazyEgg 输出列出本地127.0.0.1:8080的 app/home/login JS 与 React、ReactDOM、axios CDN 地址。保存URL列表和阶段输出可核对来源；静态发现不能保证运行时模块、Worker、懒加载或全部JS覆盖。第三方CDN不自动属于资产范围；下载提示不补为未显示响应或利用结果，以本地惰性模块列表对照遗漏。"
+  },
+  {
+    "i": 36,
+    "d": "D",
+    "a": "secret,web,client,records,source,scope,experiment",
+    "n": "LazyEgg 输出含 app 的 internal/admin/data 路径、空 home 结果、login 中带 ${apiKey} 的模板URL以及示例凭据/用户名。未展开模板不是已调用API，静态路线和用户名不证明权限或有效秘密，示例值不使用。原始bash占位拼接有参数边界风险，采用惰性URL参数解析；为每个命中保留文件、位置、版本与范围，虚拟两个权限主体核对访问控制，图中没有实际鉴权响应。"
+  },
+  {
+    "i": 37,
+    "d": "N",
+    "a": "",
+    "n": "代码与鸡蛋主题插画，无可验证技术步骤或结果。"
+  },
+  {
+    "i": 38,
+    "d": "D",
+    "a": "oauth,auth,access,logic,source,experiment,impact",
+    "n": "Nextcloud user_oidc 的摘要指向已安装插件前提：ID4Me关闭仅隐藏登录按钮，/apps/user_oidc/id4me 控制器仍可达并可能注册。把界面可见性与后端配置、允许的身份提供方、注册权限分开验证；只在虚拟开关/控制器/回调对照中检查 issuer、签名、audience、subject 与组织绑定。图中提及伪身份服务但未给完整代码/响应，不能补为所有部署、全部角色或Talk影响；不注册或调用真实服务。"
+  },
+  {
+    "i": 39,
+    "d": "D",
+    "a": "lfi,secret,auth,source,experiment,impact,scope",
+    "n": "保存图显示 Check Point clients/MyCRL 的POST遍历请求与200响应，目标为管理用户SSH私钥路径，响应有OpenSSH私钥边界而中段遮挡。不复述或使用密钥；200和文件边界支持图示文件读取线索，不证明密钥有效、登录、RCE或所有版本。请求未显示Cookie仍不足以证明完整网络/身份前提。正文 shadow 目标与截图私钥目标分别保留；以非敏感虚拟文件核对规范化路径、最终文件路径、根目录与权限，真实请求不执行。"
+  },
+  {
+    "i": 40,
+    "d": "D",
+    "a": "lfi,secret,source,experiment,impact,scope",
+    "n": "clients/MyCRL 遍历请求与200响应中显示RSA私钥边界，中段红色遮挡。保留请求、文件类别与遮挡边界，不记录或使用密钥；响应文件格式支持图示读取线索，不证明有效登录、RCE或全部部署。以非敏感虚拟文件检查最终规范化路径与允许根目录，网络和身份前提未完整显示。"
+  },
+  {
+    "i": 41,
+    "d": "D",
+    "a": "auth,logic,business,source,report,impact,experiment",
+    "n": "HackerOne 旧项目handle报告摘要明确为 Informative：旧handle可认领，但页面有不隶属于原项目的醒目声明，平台声称另有反冒充控制，认领本身不足以证明冒充。右栏Medium数值与无赏金不替代结论；以虚拟不变项目ID、旧别名、声明展示及外部链接路由对照，区分混淆风险与身份/权限转移，图中无成功冒充证据。"
+  },
+  {
+    "i": 42,
+    "d": "D",
+    "a": "graphql,sql,source,experiment,report",
+    "n": "GraphiQL 的 testimonialsCount(query:\"a'\") 返回 data:null，Int序列化错误内含 SQL syntax error at or near 的文本。可提炼 resolver 将下游错误/非整数值暴露给类型层的线索；SQL词语和引号错误不单独证明可控SQL查询、读写数据或注入成功。用本地惰性输入、参数化查询与受控异常返回对照，保留GraphQL字段、变量类型、原始错误和解析阶段，隐藏底层细节不能替代参数化。"
+  },
+  {
+    "i": 43,
+    "d": "I",
+    "a": "",
+    "n": "仅展示私有 Yamilicious 仓库模板文件名与提交列表，没有YAML正文、匹配条件、请求或命中证据；不能从名称补造检测逻辑。"
+  },
+  {
+    "i": 44,
+    "d": "D",
+    "a": "android,oauth,auth,source,experiment,impact",
+    "n": "Basecamp 已解决报告摘要：同设备安装恶意app且用户已登录时，不安全Intent处理可能取得OAuth2 token并接管账号。这是明确前提和厂商摘要，未展示Intent extras、导出组件或token流；右栏反序列化标签不自动证明反序列化机制。以虚拟token、显式目标组件、调用方身份、URI与回调绑定对照，不安装app、不取用真实token，不能泛化为远程无交互ATO。"
+  },
+  {
+    "i": 45,
+    "d": "D",
+    "a": "lfi,web,passive,records,source,scope,experiment",
+    "n": "waymore -mode U --no-subs→uro→sed 's/=.*/=/'→gf lfi→nuclei -tags lfi 仅是流水线。sed从首个等号抹掉所有后续参数和状态，不只是清空每个值；结构化保留参数顺序、重复键、编码、必要会话与来源，单字段惰性替换对照。存档URL与关键词是候选，不能证明当前可达、范围归属或LFI；固定模板版本、失败与非命中记录，图中无实际响应。"
+  },
+  {
+    "i": 46,
+    "d": "D",
+    "a": "passive,web,records,source,scope,experiment",
+    "n": "Sitedorks 帮助区分查询URL回显 -echoq 与结果URL回显 -echor，后者有引擎/操作符限制；-site 开关、inurl与site语义不同，逗号类别、自定义文件、排除域和 -ubb 更新模式要保存参数/版本。查询含空格及shell控制字符需作为惰性单个参数处理，不按图执行；搜索引擎索引、类别数量或项目清单不代表当前授权资产或漏洞，保留查询来源与时间并离线核对URL边界。"
+  },
+  {
+    "i": 47,
+    "d": "D",
+    "a": "lfi,secret,source,report,experiment,impact,scope",
+    "n": "Check Point截图含clients/MyCRL遍历 /etc/shadow 的请求、200响应和遮挡的账户散列；报告当时 New(Open)、Critical标签不是确认处置结论。文件格式支持图示读取线索，但不验证散列、口令、登录或RCE，不复制或使用秘密。将真实原始路径、响应内容类型/格式与状态分开记录，以虚拟非敏感文件及正确根目录/身份对照，不执行curl或补造完整网络前提。"
+  },
+  {
+    "i": 48,
+    "d": "N",
+    "a": "",
+    "n": "邮件仅表示认可与补送礼品卡，没有技术机制、请求、响应或漏洞证据。"
+  },
+  {
+    "i": 49,
+    "d": "D",
+    "a": "logic,auth,oauth,records,source,experiment,impact",
+    "n": "Python示例以 ThreadPoolExecutor 两线程发送两个 updateEmail POST，载荷分别修改 newEmail，头部身份/Cookie为占位；Basic jwt_token 表述不能视为有效JWT授权格式。并发submit未保证服务端真正重叠，打印状态/正文未展示账号最终所有者。以虚拟账号状态机、同步屏障、验证token的邮箱/用户/操作绑定及事务版本对照，检查请求时序和最终状态，不能由示例宣布竞态ATO，不执行真实账号修改。"
+  },
+  {
+    "i": 50,
+    "d": "N",
+    "a": "",
+    "n": "蒙面人物与笔记本的图库配图，无技术内容。"
+  },
+  {
+    "i": 51,
+    "d": "D",
+    "a": "web,source,records,scope,experiment,report",
+    "n": "nuclei日志显示引擎v3.0.1被当时标为outdated、模板v9.8.7、仅加载1个未签名模板以及175872目标。保存历史版本、模板来源/摘要和输入去重后的授权范围；加载数量不等于扫描完成、成功命中或175872漏洞，未签名警告需离线审查模板规则与输出。图中无目标响应或最终统计，不运行扫描。"
+  },
+  {
+    "i": 52,
+    "d": "D",
+    "a": "web,client,secret,records,source,experiment",
+    "n": "LazyEgg本地日志含许多猜测JS路径404，--w wordlist.txt 调用返回4个200候选。这张图显示该版本接受缩写调用，不能只凭帮助的 --wordlist 宣称 --w 必定无效。200仍需内容类型、JS字节和错误页对照；候选列表不证明秘密、权限或完整覆盖，保留非命中和版本，以本地惰性样本核对。"
+  },
+  {
+    "i": 53,
+    "d": "D",
+    "a": "secret,web,client,source,records,experiment",
+    "n": "LazyEgg本地login.js提取出示例apiKey、用户名和password字面值，图中未显示登录或调用结果。正则命中示例值不等于真实有效凭据，保留原JS来源/位置、占位性质与权限边界，以惰性虚拟secret检测对照；不使用图中值，404候选和200页面需分别记录。"
+  },
+  {
+    "i": 54,
+    "d": "I",
+    "a": "",
+    "n": "仅显示GET /clients/MyCRL请求，响应窗为空；没有遍历载荷、响应或读取文件结果，不能补为漏洞确认。"
+  },
+  {
+    "i": 55,
+    "d": "D",
+    "a": "web,passive,lfi,source,records,scope,experiment,report",
+    "n": "Shodan查询依据 Server:Check Point SVN 与 X-UA-Compatible，页面31939结果是历史索引规模；nuclei v3.2.8日志只加载1个未签名模板、3个目标，显示high候选行而无原始响应。服务指纹不证明具体脆弱版本，扫描3个不能覆盖31939；保存索引时间、授权资产、模板摘要及响应判据，离线核对已保存样本与反例，不运行搜索/扫描或认定全部资产可利用。"
+  },
+  {
+    "i": 56,
+    "d": "D",
+    "a": "access,lfi,auth,source,experiment",
+    "n": "图示 Healthbot 的 /v4/myTenant/integration/data-connections/ID 路径并标注此处有授权；只有路径与文字，未显示二次路径变化、请求或响应。提炼检查边界：前端/代理校验的租户/连接对象必须与下游解析后资源一致，不能从路径图直接宣布二次遍历。以两个虚拟租户对象、编码/规范化路径和允许拒绝对照确认最终资源绑定，不请求图中服务。"
+  },
+  {
+    "i": 57,
+    "d": "I",
+    "a": "",
+    "n": "仅CVE-2024-24919任意文件读取报告标题、P1与New标签，无请求响应及技术细节。"
+  },
+  {
+    "i": 58,
+    "d": "N",
+    "a": "",
+    "n": "蝙蝠侠在沙滩使用笔记本插画，无技术内容。"
+  },
+  {
+    "i": 59,
+    "d": "I",
+    "a": "",
+    "n": "通知只称敏感信息披露报告Resolved，无披露内容、可达性或技术链；不能补为正文所称MySQL有效凭据。"
+  },
+  {
+    "i": 60,
+    "d": "D",
+    "a": "web,lfi,source,records,scope,experiment,report",
+    "n": "nuclei v3.2.8记录输入去重1条、加载999目标、httpx找到620 URL、仅1个未签名模板，以及多条high候选。分母、可达URL与命中行须分别记录，620不代表999完成或确认漏洞；缺少原始响应和模板规则，固定版本/摘要、保留错误、授权范围与反例，不能由候选标签补为秘密读取或RCE。"
+  },
+  {
+    "i": 61,
+    "d": "D",
+    "a": "waf,web,source,experiment,records",
+    "n": "nowafpls幻灯片称按XML注释、JSON键值或URL编码参数填充请求，依据内容类型与光标位置插入。这是工具方法而非绕过结果；填充可能改变语法、签名、参数语义及网关/应用解析边界。以短小惰性样本、本地两个解析器和明确体积预算对照实际处理字节，保留Content-Type与最终参数；不生成巨量请求或假定所有WAF忽略超限内容。"
+  },
+  {
+    "i": 62,
+    "d": "D",
+    "a": "waf,web,auth,source,scope,experiment,records",
+    "n": "IP Rotate幻灯片展示多区域API网关和不同源IP的200日志，建议10–20线程；图中200只说明该示例路径回应，不能证明WAF绕过、ACL或漏洞。IP限流与账号/会话/业务配额分别建模，以本地虚拟IP/身份状态对照；并发建议不作为当前服务授权预算，不创建网关或实际轮换访问。"
+  },
+  {
+    "i": 63,
+    "d": "D",
+    "a": "web,client,passive,secret,source,records,scope,experiment",
+    "n": "waybackurls→grep '\\.js$'→问号截断→xargs bash→LazyEgg 域名/IP日志，再grep点号。图中输出混合域名、HTTP链接与形似IPv4的15.4.4.18，后者可能来自规范片段而非网络资产。JS后缀过滤先于查询截断会漏带查询的JS；截断可能破坏版本/签名。结构化保留原URL和来源、按类型解析输出、避免把原始URL拼进bash，历史引用/第三方域不自动是当前授权资产；图中无实际漏洞结果。"
+  },
+  {
+    "i": 64,
+    "d": "D",
+    "a": "web,client,passive,secret,source,records,scope,experiment",
+    "n": "该独立保存字节的LazyEgg命令图显示与另一图相同的wayback JS后缀筛选、问号截断、bash拼接及混合域名/URL/形似IP输出。分别核对本文件而非仅按外观复用：保留原URL、参数、来源与输出类型，避免把文档版本号当IP、第三方引用当资产；安全参数边界及历史范围需离线惰性对照，图中无漏洞响应。"
+  },
+  {
+    "i": 65,
+    "d": "D",
+    "a": "auth,host,oauth,cache,logic,source,records,experiment",
+    "n": "Authentication清单覆盖限流/X-Forwarded-For与轮换IP、忘记密码Host/悬挂标记、remember-me/重置、2FA直达内容/社交登录/重置/旧token、双邮箱请求、缓存欺骗、PHP数组与多候选密码、成功登录重置失败计数、自动重新登录。它是候选清单而非已验证通用绕过。以虚拟账号状态机、单值类型、最终受保护资源、重置token用户/邮箱/用途绑定、固定可信代理与Origin/Host来源对照；本地更改响应不改变服务端2FA完成状态，社交登录应评估等价认证等级。分别记录每次尝试、账号/会话/IP预算及缓存键/内容，不执行枚举或真实账号操作。"
+  },
+  {
+    "i": 66,
+    "d": "D",
+    "a": "report,scope,impact,source",
+    "n": "移动报告表单要求summary、显式scope目标与VRT分类，提示基线评级不保证最终评级。可提炼报告契约：绑定实际授权资产、已保存证据与可重现行为，再解释前提/影响，分类与建议等级不能替代证明；截图没有已提交漏洞或技术内容，不提交报告。"
+  },
+  {
+    "i": 67,
+    "d": "I",
+    "a": "",
+    "n": "报告列表只有Check Point CVE、默认凭据与Blind XXE标题及Critical标签，无技术正文、请求响应或确认结论。"
+  },
+  {
+    "i": 68,
+    "d": "D",
+    "a": "auth,access,files,secret,source,records,scope,experiment",
+    "n": "SnafflePy输出发现三个训练域主机，进入GO LOUD，列举SMB共享；ADMIN$/C$/D$明示STATUS_ACCESS_DENIED，CertEnroll列出crt/crl/asp，IPC$列管道名称。发现共享与文件名不等于能读取文件或秘密，公开证书/CRL及lsass管道名不等于私钥/内存。保留LDAP发现来源、实际登录主体、枚举/读取权限差别与拒绝结果，以虚拟SMB ACL、非敏感文件对照，不运行枚举、登录或读取。"
+  },
+  {
+    "i": 69,
+    "d": "N",
+    "a": "",
+    "n": "仅5 Tips for API Hackers on Picking Your First Target文章封面；没有五条建议全文或技术结果，外链全文按用户口径计覆盖。"
+  },
+  {
+    "i": 70,
+    "d": "D",
+    "a": "auth,oauth,fuzz,source,records,experiment",
+    "n": "示例JSON认证请求把username、password、grant_type分别标为FUZZ，未显示响应。三个字段有不同类型和权限语义；以虚拟认证器单变量惰性类型对照、记录实际序列化字节与最终授权状态，避免笛卡尔组合掩盖因果或真实口令枚举。HTTP/2与Content-Length示例不替代实际请求长度，状态变化不自动证明授权绕过。"
+  },
+  {
+    "i": 71,
+    "d": "N",
+    "a": "",
+    "n": "放大镜与文档插画，没有rootkit源码或技术步骤。"
+  },
+  {
+    "i": 72,
+    "d": "D",
+    "a": "desktop,source,records,scope,experiment",
+    "n": "Talos LilacSquid链图描述RDP远程登录后可走MeshAgent/MeshCentral或落地站点、InkLoader启动PurpleInk、服务持久化、配置文件和C2通信。这是厂商分析链图而非本地已观测行为；工具/服务名单独不足以归因。保留已保存日志的进程父子、服务创建、文件来源和网络时序，用惰性离线事件对照，区分前置登录与后续行为，不启动工具、落地载荷或连接C2。"
+  },
+  {
+    "i": 73,
+    "d": "D",
+    "a": "desktop,files,source,experiment,records",
+    "n": "CVE-2023-38831检测片段遍历TEMP下Rar*目录，查找.cmd/.ps1/.bat，再TrimEnd/去尾点并构造扩展名对应的同目录文件对，Test-Path匹配后报警。它是特定路径与名称启发式，图中函数尾部截断、没有实际检测输出；未递归、其他临时目录/扩展名会漏报，正常同名文件可误报。原文建议先打开可疑压缩包不沿用；仅用惰性虚拟文件名清单离线对照路径/名称规则与反例，不打开或执行包内文件，不把文件对自动归为已利用。"
+  },
+  {
+    "i": 74,
+    "d": "N",
+    "a": "",
+    "n": "FAKE NEWS示意配图，无技术内容。"
+  },
+  {
+    "i": 75,
+    "d": "D",
+    "a": "access,auth,source,records,report,experiment,impact",
+    "n": "WakaTime报告图标题称订单/个人信息IDOR，但可见步骤只到GET /api/v1/users/current请求；下方包含会话/Cookie而未显示越权对象变更及响应。不抄写、解码或使用会话。current端点须检查服务端当前主体绑定；真正IDOR需要两个受控虚拟主体与不同归属对象的允许拒绝/字段响应对照。N/A、No Rating和无赏金不能当确认等级，图中不足以证明跨用户订单读取。"
+  },
+  {
+    "i": 76,
+    "d": "I",
+    "a": "",
+    "n": "目录ls只有2whois.py、fscan.py、get_ips.py、naabu.sh等文件名，没有脚本正文、扫描输出或漏洞证据。"
+  },
+  {
+    "i": 77,
+    "d": "D",
+    "a": "auth,source,experiment",
+    "n": "Encryption vs Cryptography对比图把密码学简化为加解密，并称加密主要涉及数字签名，需纠正：加密是密码学中的机密性机制，签名/MAC验证完整性和来源，哈希/编码不可混作加密或签名。按虚拟威胁与密钥/算法/验证边界选择机制，密钥保密或有密文不自动提供认证；图表是概念素材而非目标的密码学缺陷。"
+  },
+  {
+    "i": 78,
+    "d": "N",
+    "a": "",
+    "n": "Guts & Greed文章封面，没有正文观点或具体技术证据；外链全文按用户口径计覆盖。"
+  },
+  {
+    "i": 79,
+    "d": "D",
+    "a": "cmd,source,records,experiment,impact",
+    "n": "HugeGraph /gremlin JSON请求里Groovy execute结果被拼入反射字段名，500 NoSuchFieldException 的message带Linux uname输出。错误状态不能否定副作用；截图支持命令结果经异常文本回传的图示线索，但不是所有版本或完整身份前提的证明，正文1.3.0修复说法保留历史来源而不保证当前状态。以本地惰性求值桩、禁止外部进程和固定标记异常对照，检查沙箱/反射边界及最终响应，不执行命令或请求服务。"
+  },
+  {
+    "i": 80,
+    "d": "D",
+    "a": "cloud,secret,auth,source,records,experiment",
+    "n": "cloud-config.yml显示 ssh_authorized_keys 的ssh-rsa公钥条目，部分内容遮挡，下方有 rancher network interfaces结构。公钥不是私钥，不记录或使用图中键值；公开配置文件可能暴露身份注释、网络拓扑或部署线索，但图未显示下载请求、权限或有效秘密。以虚拟配置schema、敏感字段分类、获取主体与响应缓存对照，证据只限显示字段。"
+  },
+  {
+    "i": 81,
+    "d": "I",
+    "a": "",
+    "n": "仅请求走私报告Triaged(Open)、High和赏金元数据，没有原始HTTP字节、前后端解析或第二请求响应；不能由评级验证正文的空格头字段方法。"
+  },
+  {
+    "i": 82,
+    "d": "D",
+    "a": "iot,cmd,source,records,scope,experiment",
+    "n": "Black Lotus Labs 2023年Chalubo感染链图从已失陷SOHO进入两个脚本、内存loader usb2rci.elf、mips.elf以及文件服务器/C2，显示检索与执行箭头。这是历史报告示意链，预先compromised不能补成初始访问漏洞；只保留离线日志中进程、下载/文件摘要、架构、时序与网络来源关联，工具/域名/IP匹配不独立归因，不联系图示节点、不运行脚本/ELF。"
+  },
+  {
+    "i": 83,
+    "d": "N",
+    "a": "",
+    "n": "Shodan dork与IoT设备主题宣传插画，没有查询语法、设备版本或漏洞结果。"
+  },
+  {
+    "i": 84,
+    "d": "D",
+    "a": "secret,cloud,auth,files,source,records,experiment,impact",
+    "n": "环境配置图含AWS、数据库、邮件、Redis、secret_base、支付卡和地图API等字段，多数值模糊/遮挡，并有注释TODO；不抄写、解码或使用任何值。字段名/production标签和图示内容支持敏感配置候选，不证明外部可达、有效密钥或当前权限；评论中的旧密码、公开ID/公钥与秘密分别分类，正确schema按服务版本核对。以虚拟env解析与字段清单、读取身份、响应缓存/发布路径对照，APP_DEBUG=false不保证配置无法泄露，图中无实际获取请求。"
+  },
+  {
+    "i": 85,
+    "d": "D",
+    "a": "desktop,source,records,scope,experiment",
+    "n": "Linux CLI工具图按Networking/Security/Logging/System/Storage分类，但类别和命令名不等于漏洞检测方案。从证据问题选择最少观察量：本地日志/进程/监听/文件元数据可形成时间关联，不能把端口、进程、rootkit工具名字当利用确认。区分只读观察与网络发包、系统改写、磁盘写入/分区命令；图中不含参数/输出，不执行列出的操作。保留原始日志与时间/权限上下文，用惰性样本对照解释。"
+  },
+  {
+    "i": 86,
+    "d": "N",
+    "a": "",
+    "n": "security与compliance关系梗图，无具体技术机制或结果。"
+  },
+  {
+    "i": 87,
+    "d": "N",
+    "a": "",
+    "n": "人物视频封面，无可见内存/沙箱源码或操作细节；外链全文按用户口径计覆盖。"
+  },
+  {
+    "i": 88,
+    "d": "N",
+    "a": "",
+    "n": "gitscraper仓库宣传卡只有工具简介、stars/forks数量，无字典正文、获取来源细节或扫描结果。"
+  },
+  {
+    "i": 89,
+    "d": "N",
+    "a": "",
+    "n": "Bug Bounty社区梗图，无技术内容。"
+  },
+  {
+    "i": 90,
+    "d": "D",
+    "a": "source,experiment,records,fuzz",
+    "n": "Data Validation清单列反射/存储/DOM XSS、Flash/HTML、SQL/LDAP/ORM/XML/XXE/SSI/XPath/XQuery/IMAP/SMTP/代码/表达式/命令注入、溢出/格式串、延迟触发、HTTP splitting/smuggling/verb、跳转、LFI/RFI、客户端与服务端校验、NoSQL、参数污染、自动绑定/批量赋值、空/无效会话。类别名不代表覆盖或通用payload；先明确实际消费者、类型、解码次数、执行权限与服务端契约，用本地单变量惰性样本和正确拒绝/允许对照，记录解析阶段和最终状态。客户端校验不替代服务端，NULL会话需区分匿名允许资源与受保护资源；不运行清单攻击。"
+  },
+  {
+    "i": 91,
+    "d": "N",
+    "a": "",
+    "n": "提交/接受活动记录，无漏洞题目、请求响应或技术细节。"
+  },
+  {
+    "i": 92,
+    "d": "N",
+    "a": "",
+    "n": "SQL injection主题人物与屏幕插画，屏幕文字非可读技术步骤，无请求响应或真实结果。"
+  }
+]

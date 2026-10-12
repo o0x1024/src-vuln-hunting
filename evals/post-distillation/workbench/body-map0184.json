@@ -1,0 +1,572 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "订阅后端授权按每次连接和具体权益核对"
+  },
+  "2": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "COM 和 RPC 提权截图保留原有令牌能力"
+  },
+  "3": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "发现任务的完成标志只说明所选输入和阶段"
+  },
+  "6": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/by-type/authn-session.md,references/by-type/info-secrets.md",
+    "note": "品牌题名、证书和 CSP 的资产关联分别留证；默认凭据介绍必须与真实登录和身份结果分开；Git 当前文件删除不撤销旧提交中的秘密"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/impact-and-acceptance.md",
+    "note": "当前密码和重置令牌的频控要落到关键消费者；已有账号控制和源站定位按实际前提解释影响"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "SendGrid 前缀和客户端 key 的权限消费者另证"
+  },
+  "9": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "数字节点和 id 正则仅筛候选对象引用"
+  },
+  "10": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "并发 gate 的完成不证明成员配额被突破"
+  },
+  "11": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "发现任务的完成标志只说明所选输入和阶段"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "Popover 的 hidden 与 meta 路径依赖属性和目标选择"
+  },
+  "13": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "robots 的 Disallow 是发现线索而非访问守卫"
+  },
+  "14": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "CFIDE hash 响应与管理员访问控制分别比较"
+  },
+  "17": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "RDoc 生成 HTML 的文本转义和链接协议分别检查"
+  },
+  "19": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md,references/scope-and-rules.md",
+    "note": "RDoc 生成 HTML 的文本转义和链接协议分别检查；生成器预处理代码的历史验收政策保留适用对象"
+  },
+  "20": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md,references/source-audit.md",
+    "note": "RDoc 生成 HTML 的文本转义和链接协议分别检查；生成器拼接和反序列化崩溃要追到完整数据流"
+  },
+  "21": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "重复范围更新正文仍逐图保留动作类型与奖励标记"
+  },
+  "22": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "数字节点和 id 正则仅筛候选对象引用"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/by-type/request-smuggling.md,references/by-type/open-redirect.md",
+    "note": "Werkzeug 客户端错位链需要浏览器同连接后续请求；Unicode 和绝对 URI 跳转比较最终解析的主机"
+  },
+  "28": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "重定向正文和 200 变体仍按同对象守卫比较"
+  },
+  "30": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "受理、待补影响、接受未修复和历史披露分别记录"
+  },
+  "31": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "IP 编码工具仍需验证校验器和连接器是否一致"
+  },
+  "32": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "品牌题名、证书和 CSP 的资产关联分别留证"
+  },
+  "34": {
+    "dis": "merged",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "Unicode 和绝对 URI 跳转比较最终解析的主机"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "邮箱规范化冲突以真实身份和业务状态为准"
+  },
+  "36": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "邮箱规范化冲突以真实身份和业务状态为准"
+  },
+  "37": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "重复范围更新正文仍逐图保留动作类型与奖励标记"
+  },
+  "39": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "生成器拼接和反序列化崩溃要追到完整数据流"
+  },
+  "40": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "旧项目与接口优先级由覆盖和反馈决定"
+  },
+  "42": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md,references/by-type/authn-session.md",
+    "note": "生物识别代际变化的解锁状态应按保险库绑定；多账号客户端切换不能继承另一账号的重认证结果"
+  },
+  "43": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "发现任务的完成标志只说明所选输入和阶段"
+  },
+  "44": {
+    "dis": "corrected",
+    "targets": "references/by-type/websocket.md,references/discovery/records-and-incremental.md",
+    "note": "WebSocket REPL 先重建合法握手再比较消息权限；工具改写流量时保留改写前后和连接来源"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "JSON 错误字段与部署测试资源追到实际 HTML 输出"
+  },
+  "48": {
+    "dis": "merged",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "Unicode 和绝对 URI 跳转比较最终解析的主机"
+  },
+  "49": {
+    "dis": "merged",
+    "targets": "references/reporting.md,references/scope-and-rules.md",
+    "note": "受理、待补影响、接受未修复和历史披露分别记录；私有项目页面的公开讨论限制仅保留为历史许可证据"
+  },
+  "50": {
+    "dis": "merged",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "已有账号控制和源站定位按实际前提解释影响"
+  },
+  "51": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "旧项目与接口优先级由覆盖和反馈决定"
+  },
+  "52": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "长度门槛、POST 搜索和请求头输入都需要查询判据"
+  },
+  "53": {
+    "dis": "corrected",
+    "targets": "references/by-type/cors.md",
+    "note": "CORS 读权限与同源脚本执行不是同一边界"
+  },
+  "55": {
+    "dis": "merged",
+    "targets": "references/reporting.md,references/by-type/xss.md",
+    "note": "受理、待补影响、接受未修复和历史披露分别记录；JSON 错误字段与部署测试资源追到实际 HTML 输出"
+  },
+  "56": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "子域来源的合并去重应保留时间与阶段范围"
+  },
+  "57": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "Referer 跳转链、方法转换和令牌变体都须真实浏览器对照"
+  },
+  "58": {
+    "dis": "merged",
+    "targets": "references/by-type/mobile-android.md,references/by-type/authn-session.md",
+    "note": "生物识别代际变化的解锁状态应按保险库绑定；多账号客户端切换不能继承另一账号的重认证结果"
+  },
+  "59": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "子域来源的合并去重应保留时间与阶段范围"
+  },
+  "60": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "房间对象操作与聊天命令应由同一服务端策略授权"
+  },
+  "62": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "发现任务的完成标志只说明所选输入和阶段；版本匹配模板输出只确认版本候选"
+  },
+  "64": {
+    "dis": "corrected",
+    "targets": "references/by-type/prototype-pollution.md",
+    "note": "DOM 跳转候选不自动推出原型污染 XSS"
+  },
+  "65": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "品牌题名、证书和 CSP 的资产关联分别留证"
+  },
+  "67": {
+    "dis": "corrected",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "PII 名称和 GET 邮箱标题按实际暴露范围定性"
+  },
+  "70": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "显式设置私钥后的生成接口先核对状态契约"
+  },
+  "71": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "X509 公钥断言崩溃需证明外部输入能到达该进程"
+  },
+  "72": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md,references/by-type/idor-access-control.md",
+    "note": "进程权限守卫需覆盖调试模块和继承方法入口；内部执行政策与广告账户绑定各自检查授权主体"
+  },
+  "73": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "Node 文件政策分别核对路径规范化和 API 遗漏"
+  },
+  "74": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md,references/source-audit.md",
+    "note": "Node 文件政策分别核对路径规范化和 API 遗漏；Blob 读取和文件观察的授权检查不能只复用表面名称"
+  },
+  "75": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md,references/source-audit.md",
+    "note": "Node 文件政策分别核对路径规范化和 API 遗漏；Blob 读取和文件观察的授权检查不能只复用表面名称"
+  },
+  "76": {
+    "dis": "merged",
+    "targets": "references/source-audit.md,references/by-type/idor-access-control.md",
+    "note": "进程权限守卫需覆盖调试模块和继承方法入口；内部执行政策与广告账户绑定各自检查授权主体"
+  },
+  "77": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "内部执行政策与广告账户绑定各自检查授权主体"
+  },
+  "78": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "旧项目与接口优先级由覆盖和反馈决定"
+  },
+  "80": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md,references/reporting.md",
+    "note": "收件后的披露时机和奖励喜讯分别遵循当次许可；自动受理邮件的 if valid 不能写成已确认漏洞"
+  },
+  "81": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "当前密码和重置令牌的频控要落到关键消费者"
+  },
+  "83": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "重复范围更新正文仍逐图保留动作类型与奖励标记"
+  },
+  "85": {
+    "dis": "corrected",
+    "targets": "references/by-type/graphql.md",
+    "note": "schema 模拟和 resolver 请求能力分别建立证据"
+  },
+  "86": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "重定向正文和 200 变体仍按同对象守卫比较"
+  },
+  "87": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "受理、待补影响、接受未修复和历史披露分别记录"
+  },
+  "88": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "受理、待补影响、接受未修复和历史披露分别记录"
+  },
+  "91": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "异步 XSS 入口与回连保留身份和等待窗口"
+  },
+  "92": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "品牌题名、证书和 CSP 的资产关联分别留证"
+  },
+  "93": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "旧项目与接口优先级由覆盖和反馈决定"
+  },
+  "95": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "编码与截断清单按具体解码器版本和文件消费者筛选；本地与远程文件包含候选各自确认读取和解释权限"
+  },
+  "96": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md,references/targeted-fuzzing.md,references/by-type/lfi-path-traversal.md",
+    "note": "数字节点和 id 正则仅筛候选对象引用；混合输入探针按语法、解释层和实际消费端拆解；清单中的跨租户检查只比较明确授权的对象；本地与远程文件包含候选各自确认读取和解释权限"
+  },
+  "97": {
+    "dis": "merged",
+    "targets": "references/by-type/csrf.md",
+    "note": "Referer 跳转链、方法转换和令牌变体都须真实浏览器对照"
+  },
+  "98": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "混合输入探针按语法、解释层和实际消费端拆解"
+  },
+  "99": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "重定向正文和 200 变体仍按同对象守卫比较"
+  },
+  "100": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Git 当前文件删除不撤销旧提交中的秘密"
+  },
+  "101": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "混合输入探针按语法、解释层和实际消费端拆解"
+  },
+  "102": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "邮箱引号与格式接受不能替代 SQL 条件对照"
+  },
+  "104": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "混合输入探针按语法、解释层和实际消费端拆解"
+  },
+  "105": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "旧项目与接口优先级由覆盖和反馈决定"
+  },
+  "106": {
+    "dis": "corrected",
+    "targets": "references/by-type/document-rendering.md",
+    "note": "HTML smuggling 的编码内容与网络请求错位分别理解"
+  },
+  "107": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "子域来源的合并去重应保留时间与阶段范围"
+  },
+  "109": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "数字节点和 id 正则仅筛候选对象引用"
+  },
+  "110": {
+    "dis": "corrected",
+    "targets": "references/by-type/cache-deception.md,references/by-type/csrf.md",
+    "note": "缓存欺骗到令牌泄露需证明另一身份取得缓存响应；泄露某个 CSRF 令牌并不保证全应用状态可改变"
+  },
+  "114": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "历史 PHP 参数和 ASN 管道保留原始语法与候选性质"
+  },
+  "115": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md",
+    "note": "品牌题名、证书和 CSP 的资产关联分别留证；历史 PHP 参数和 ASN 管道保留原始语法与候选性质"
+  },
+  "116": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "Android 包搜索结果需绑定实际 APK 和代码证据"
+  },
+  "117": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md,references/discovery/web-and-api.md",
+    "note": "旧项目与接口优先级由覆盖和反馈决定；PHP 文件和参数发现后的 XSS 仍需源到 sink 证据"
+  },
+  "118": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "旧项目与接口优先级由覆盖和反馈决定"
+  },
+  "119": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "异步 XSS 入口与回连保留身份和等待窗口"
+  },
+  "120": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "长度门槛、POST 搜索和请求头输入都需要查询判据"
+  },
+  "121": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "SendGrid 前缀和客户端 key 的权限消费者另证"
+  },
+  "122": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "品牌题名、证书和 CSP 的资产关联分别留证"
+  },
+  "123": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "package.json 信息到依赖解析执行不能跳过证明"
+  },
+  "126": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "工具改写流量时保留改写前后和连接来源"
+  },
+  "127": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "SendGrid 前缀和客户端 key 的权限消费者另证"
+  },
+  "129": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "Base64 的不拦截与浏览器执行须分别验证"
+  },
+  "131": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "Heroku 欢迎页不能单独证明子域资源可被认领"
+  },
+  "132": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "品牌题名、证书和 CSP 的资产关联分别留证"
+  },
+  "133": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "品牌题名、证书和 CSP 的资产关联分别留证"
+  },
+  "134": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md,references/by-type/graphql.md",
+    "note": "GraphQL source 参数的服务端取址边界逐层核对；schema 模拟和 resolver 请求能力分别建立证据"
+  },
+  "135": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "stat 与 fopen 之间的路径身份不能靠先检查保证"
+  },
+  "137": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "发现任务的完成标志只说明所选输入和阶段；子域来源的合并去重应保留时间与阶段范围"
+  },
+  "138": {
+    "dis": "merged",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "PII 名称和 GET 邮箱标题按实际暴露范围定性"
+  },
+  "139": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "混合输入探针按语法、解释层和实际消费端拆解"
+  },
+  "141": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "长度门槛、POST 搜索和请求头输入都需要查询判据"
+  },
+  "144": {
+    "dis": "merged",
+    "targets": "references/by-type/csrf.md",
+    "note": "Referer 跳转链、方法转换和令牌变体都须真实浏览器对照"
+  },
+  "145": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "受理、待补影响、接受未修复和历史披露分别记录"
+  },
+  "150": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "主题深链到执行的链需保留安装和用户交互门槛"
+  },
+  "151": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "收件后的披露时机和奖励喜讯分别遵循当次许可"
+  },
+  "152": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "数字节点和 id 正则仅筛候选对象引用"
+  },
+  "153": {
+    "dis": "corrected",
+    "targets": "references/by-type/xxe.md",
+    "note": "请求正文改 XML 需先确认解析器和权限等价"
+  },
+  "154": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "邮件 HTML 插入与脚本执行及可信界面误导分别证明"
+  },
+  "156": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "长度门槛、POST 搜索和请求头输入都需要查询判据"
+  },
+  "157": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/by-type/waf-bypass.md",
+    "note": "历史源站关联保留证书、Host 和 SNI 的各自证据；源站直连主张需要同应用的防护路径对照"
+  },
+  "158": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "发现任务的完成标志只说明所选输入和阶段"
+  },
+  "160": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "旧项目与接口优先级由覆盖和反馈决定"
+  }
+}

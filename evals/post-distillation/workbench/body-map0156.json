@@ -1,0 +1,437 @@
+{
+  "6": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "编码对象标识与通配选择器分别验证授权"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "管理后台默认配置的证据与部署边界"
+  },
+  "9": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "登录 CSRF 与自操作脚本链需要会话切换证据"
+  },
+  "10": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "编码对象标识与通配选择器分别验证授权"
+  },
+  "14": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "HTTP 与原始套接字示意应保存可观测阶段"
+  },
+  "17": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "扫描版本与失败记录决定候选是否可复核"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "公开作者信息与私密用户字段的区别"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "秘密遮罩不能只绑定已执行任务"
+  },
+  "20": {
+    "dis": "corrected",
+    "targets": "references/by-type/crlf-response-splitting.md",
+    "note": "预约字段到邮件协议的多层数据流"
+  },
+  "21": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "协议失败后的资源所有权与重试生命周期"
+  },
+  "22": {
+    "dis": "corrected",
+    "targets": "references/by-type/jwt.md",
+    "note": "过期分支也必须保留签名和授权校验"
+  },
+  "23": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "证书警告与停止发送凭据是不同结果"
+  },
+  "24": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "动态广播接收器的实际发送者边界"
+  },
+  "25": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "修复状态需要原案例和同根因入口回归"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "源码测试凭据与生产消费者必须分开确认"
+  },
+  "29": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "闭合标签组合依赖实际解析上下文"
+  },
+  "30": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "历史 URL 到 JS 扫描字典的格式契约"
+  },
+  "31": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "提供商分类不能代替资产与扫描范围判断"
+  },
+  "32": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "闭合标签组合依赖实际解析上下文"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "同名桶与遗留 DNS 的接管前提"
+  },
+  "38": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "个人简介中的脚本字面显示不能证明执行"
+  },
+  "39": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "多跳链接与 Unicode 主机名各自规范化"
+  },
+  "44": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "原始 Location 与解码后的记录不得混写"
+  },
+  "45": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "整数地址的解析结果与 HTTP 可达性分开验证"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "登录功能排除条款须绑定具体动作和版本"
+  },
+  "47": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "历史 URL 到 JS 扫描字典的格式契约"
+  },
+  "50": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md,references/by-type/lfi-path-traversal.md,references/by-type/idor-access-control.md,references/by-type/xxe.md,references/discovery/web-and-api.md,references/by-type/ssti.md,references/by-type/csrf.md,references/discovery/client-and-cloud.md,references/discovery/records-and-incremental.md",
+    "note": "404 与占位文本过滤必须有保留样本；本地文件前缀检查与规范路径可能不同；组织注册标识的类型与租户绑定必须一致；JSON 转 XML 仅改变解析入口；API 描述与恢复入口不等于文件读到执行链；Twig 算术与可调用函数不是同一能力；管理 UI 与文本 API 需要一致的授权和路由语义；方法替换与 token 七候选都要核对浏览器状态；APK 静态端点候选需要实际服务端 sink；路由别名按根因与消费者归并"
+  },
+  "54": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "历史 URL 到 JS 扫描字典的格式契约"
+  },
+  "57": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "扫描版本与失败记录决定候选是否可复核"
+  },
+  "58": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "URL 参数闭合脚本与 DOM 执行应按具体 sink 对照"
+  },
+  "59": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "标签管理容器 ID 用于关联代码而非证明秘密"
+  },
+  "60": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "URL 参数闭合脚本与 DOM 执行应按具体 sink 对照"
+  },
+  "62": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "嵌入外部文档不自动执行于父页面"
+  },
+  "65": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "初始化端点与数据库备份是独立暴露面"
+  },
+  "66": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "重复对象键与全局替换会制造不同鉴权值"
+  },
+  "67": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "URL 参数闭合脚本与 DOM 执行应按具体 sink 对照"
+  },
+  "68": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "减站点和多引擎结果需要可复核集合"
+  },
+  "69": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "CSP 评估器只产生策略候选"
+  },
+  "70": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "源码测试凭据与生产消费者必须分开确认"
+  },
+  "71": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "源码测试凭据与生产消费者必须分开确认"
+  },
+  "72": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "长密码的输入边界与成本要测量而非猜测"
+  },
+  "73": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "预览衍生内容也要执行分享与水印策略"
+  },
+  "74": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "退出会话必须撤销信令与已建立媒体授权"
+  },
+  "75": {
+    "dis": "merged",
+    "targets": "references/by-type/csrf.md",
+    "note": "方法替换与 token 七候选都要核对浏览器状态"
+  },
+  "77": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "提供商分类不能代替资产与扫描范围判断"
+  },
+  "80": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "历史下载地址、目录与代码托管内容都先限量核对"
+  },
+  "82": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "扫描版本与失败记录决定候选是否可复核"
+  },
+  "83": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "数字零与字符串 token 的类型边界"
+  },
+  "84": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "嵌入外部文档不自动执行于父页面"
+  },
+  "85": {
+    "dis": "merged",
+    "targets": "references/by-type/csrf.md",
+    "note": "方法替换与 token 七候选都要核对浏览器状态"
+  },
+  "86": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md,references/by-type/api-property-pollution.md,references/by-type/host-header.md",
+    "note": "完整保存正文及当前图片哈希已核对；同哈希先前实际审阅五条reset候选（重复email、数字token、跨账号token、Host邮件、时间/ID/email）；沿既有提炼，不执行旋转IP猜测或真实恢复。"
+  },
+  "87": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "重复对象键与全局替换会制造不同鉴权值"
+  },
+  "90": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "扩展名分隔符必须记录真实文件名字节"
+  },
+  "91": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "历史下载地址、目录与代码托管内容都先限量核对"
+  },
+  "92": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "品牌域搜索与通配政策不能混为一谈"
+  },
+  "93": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "SVG 主动文档导航与服务器重定向不同"
+  },
+  "94": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md,references/by-type/authn-session.md,references/discovery/web-and-api.md,references/targeted-fuzzing.md,references/by-type/ssrf.md",
+    "note": "历史下载地址、目录与代码托管内容都先限量核对；国际化邮箱的恢复标识与收件者必须一致；响应协商与错误内容只说明对应输入的结果；依赖参数的递归搜索要有限且可解释；PingBack 端点存在与真实出站是不同证据"
+  },
+  "95": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md,references/by-type/idor-access-control.md,references/discovery/web-and-api.md,references/by-type/sql-injection.md,references/source-audit.md",
+    "note": "404 与占位文本过滤必须有保留样本；重复对象键与全局替换会制造不同鉴权值；响应协商与错误内容只说明对应输入的结果；SQL 注释与大小写是语法候选而非绕过结论；序列化 DOM 与模板标签调用不能凭外形判断"
+  },
+  "99": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "盲回调需绑定具体输入实例而非通知数量"
+  },
+  "103": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "历史下载地址、目录与代码托管内容都先限量核对"
+  },
+  "105": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "地址栏显示与连接 origin 应分别记录"
+  },
+  "107": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "修复状态需要原案例和同根因入口回归"
+  },
+  "111": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "正文仅AmassTrack数据库持续跟踪题名和未保存文章；候选跟踪与实际资产/时间基线沿既有记录方法，未补造实现。"
+  },
+  "112": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "导出对象权限和导出字段权限必须独立验证"
+  },
+  "116": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "编码对象标识与通配选择器分别验证授权"
+  },
+  "118": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "保存正文为方法图标题；同哈希已实际读过完整Frogy资产/端口/OSINT/自动手工验证分阶段图，沿既有策略提炼，缺失外链按覆盖。"
+  },
+  "119": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "序列化 DOM 与模板标签调用不能凭外形判断"
+  },
+  "120": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "404 与占位文本过滤必须有保留样本"
+  },
+  "121": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "盲回调需绑定具体输入实例而非通知数量"
+  },
+  "122": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "减站点和多引擎结果需要可复核集合"
+  },
+  "130": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "管理后台默认配置的证据与部署边界"
+  },
+  "131": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "扫描版本与失败记录决定候选是否可复核"
+  },
+  "133": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "部署介质加密与任务凭据可读性是不同边界"
+  },
+  "134": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "URL 参数修改器需要明确输入输出与状态边界"
+  },
+  "135": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "初始化端点与数据库备份是独立暴露面"
+  },
+  "138": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "多响应和证书线索需要身份与时间基线"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Slack 字段名、服务域与秘密资源段分别判断"
+  },
+  "145": {
+    "dis": "corrected",
+    "targets": "references/by-type/document-rendering.md",
+    "note": "CSV 单元格解释与客户端执行需要不同证据"
+  },
+  "148": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "隔离演练的会话归属和服务器同步要有边界"
+  },
+  "150": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "语言词典生成要保留文本而非执行 shell 片段"
+  },
+  "151": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "搜索历史的保存与再渲染是独立边界"
+  },
+  "153": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "多响应和证书线索需要身份与时间基线"
+  },
+  "154": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "IP 列表折叠只能表示同一个授权集合"
+  },
+  "155": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "示例 DAG 的触发权限与 shell 插值链"
+  },
+  "156": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "清洗器允许标签组合与不完整修复要分别回归"
+  },
+  "157": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "清洗器允许标签组合与不完整修复要分别回归"
+  },
+  "158": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "保存正文及图片哈希匹配已实际审阅history/unfurl提取参数键与追加输出图；沿既有历史来源/去重与当前body字段区分。"
+  }
+}

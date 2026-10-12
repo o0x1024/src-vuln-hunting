@@ -1,0 +1,116 @@
+0|distilled|records,scope|Mac枚举完整函数：多个阶段并发/目录/临时删除/过滤；仅静态审查，不执行。
+1|no_technical_content||ETL抽象数据文件装饰图，无解析器内容。
+2|distilled|source|IDA cmp/jbe/INT3及地址可见，分支可达/异常处理尚无动态回执。
+3|no_technical_content||USDT奖励截图无漏洞机制。
+4|insufficient_technical_detail|auth,sql|Hackbar jar1.0旧发布页/更新标签，无实际SQL登录差分。
+5|distilled|passive,records|Kunyu帮助列WHOIS/hash/fingerprint/搜索模式，帮助不是结果/归属。
+6|distilled|sql,experiment|14行SQL位提取日志未存raw真假对照，只支持工具展示阶段。
+7|distilled|sql,experiment|7线程/位字符SQLite示例需字符位宽/稳定顺序，不等任意Unicode可提取。
+8|no_technical_content||Koppeling DLL logo无加载方法。
+9|distilled|records,source|gitpull混杂fatal非repo/非目录/本地变更abort/成功，各repo独立状态。
+10|insufficient_technical_detail|auth,sql|实验登录表单与错误，没有成功SQL求值/会话。
+11|no_technical_content||大学奖状无漏洞机制。
+12|no_technical_content||ENS repo封面，正文输入读者另记，无实现画面。
+13|no_technical_content||API讲座封面无应用实例。
+14|no_technical_content||PSM锁装饰图无算法/实现。
+15|distilled|report|H1 Duplicate Closed Critical标签，仅阶段，不补私有duplicate内容。
+16|no_technical_content||工具URL清单已看完，未提供具体运行/代码方法。
+17|distilled|waf,xss|实际Cloudflare Blocked，不能由成功配文补成bypass。
+18|distilled|logic,report|DoS500 P4/P3奖励图，没有对象状态/持久故障证明。
+19|insufficient_technical_detail|ssrf,records|NAT工具ZIP/PDF文件元数据和宣传，未保存demo内容。
+20|distilled|auth,source|NTLM Type1/2/3与SSPI流程，握手/模拟token/初始权限分开。
+21|distilled|access,web|有id用户路由403与省id集合200，不证同对象越权。
+22|distilled|strategy,experiment|手写基础/专注/方法计划，不按固定工时当通用要求。
+23|distilled|strategy,experiment|手写自动化/CTF/周计划与反馈，自有实验目标适配预算。
+24|no_technical_content||iOS App Library无漏洞机制。
+25|distilled|records,cmd|公开YouTube QR视频1/3秒需已有接收/解码程序，不证初始执行。
+26|no_technical_content||AllAbout repo星数/封面无目录正文。
+27|distilled|source,passive|Shodan84632混合9.1/8.1版本，不等全体CVE3064受影响。
+28|distilled|waf,passive|IP页Angular/IIS并50%sure，origin身份尚未证。
+29|distilled|waf,passive|域名TLS/CDN/Akamai图与IP图需时间Host/SNI/应用一致性。
+30|distilled|experiment,records|Boofuzz RUNNING连接reset/监控segfault14，case与PID/栈关联缺口保留。
+31|distilled|sql,fuzz|100%参数类别卡片只是候选表，纠正成功率与实际SQL oracle。
+32|distilled|auth,access|密码POST ID/旧密码注释和200 code0，主体/挑战/最终会话未见。
+33|insufficient_technical_detail|xss,report|StoredXSS600奖励没有完整输入/读者/执行回执。
+34|no_technical_content||Abaddon logo无代码/运行内容。
+35|distilled|passive,expert|完整OSI攻击示意，多层消费者和真实权限独立，标签不能当唯一层归属。
+36|distilled|container,records|ADhoneypot VM下载/KVM/VNC/驱动准备，未见运行/暴露/诱捕结果。
+37|insufficient_technical_detail|xss,redirect|acceptedDOMredirectXSS550标题无actualsink或浏览器动作。
+38|no_technical_content||Sony logo无隐藏参数。
+39|distilled|references/by-type/cors.md,csrf,auth|本地xhr页面sessionid popup，无真实响应头/凭据/写入，保留fileorigin限制。
+40|distilled|secret,scope|phpinfo开发DB字段及掩码，字段存在不等有效secret，云托管不授权厂商。
+41|distilled|secret,scope|Nginx/CodeIgniter开发phpinfo/MongoURI部分敏感可见，不抄值/使用，reader权限另证。
+42|no_technical_content||x8封面无隐藏参数回执。
+43|distilled|secret,web|Fuelprofiler0queries/1412config、S3/Salesforce掩码字段，不证可用权限。
+44|distilled|scope,passive|WHOIS扩展仅all org-owned assets政策满足时，图条件已保留。
+45|distilled|records,cloud|Exchange连接和6h/12interval/1000配置无事件结果，时间/分页完整性独立。
+46|no_technical_content||Beaver logo无IRP结果。
+47|distilled|web,records|ffufconfig791与常见230175/health58响应，状态/长度不是内容权限。
+48|distilled|secret|门户JSON掩码consumerkey/secret及不同authURLs，不试键/推断全权。
+49|distilled|lfi,source|完整Linux目录图只分类，实际路径映射/服务身份/读权限另证。
+50|no_technical_content||Stripe表情图无支付证据，正文不当建议单独纠正。
+51|distilled|report|P1 Triaged Still assessed遮挡title，只报告阶段。
+52|distilled|web,secret|ChopChop Git exposed High/plugin/gitconfig样例，需要真实内容/身份，不能直接repo dump。
+53|distilled|access,prop|ManageOrgAccounts admin标题/奖励需actor/授权grant与持久role，图无完整请求。
+54|distilled|files,experiment|localhostFuxploider12请求5MIME/正则phpinfo报告，rawconsumer与执行尚缺。
+55|no_technical_content||Laravel logo无43617方法。
+56|distilled|xss|完整CSPflyer分解fetch fallback/RO/nonce与实际consumer，简化描述依CSP3纠正。
+57|distilled|secret,cloud|Azure JS掩码tenant/clientIDs/keys/角色/defaultprod字段，公开标识和秘密不同。
+58|insufficient_technical_detail|xss,redirect|accepted550 XSS标题无actualsink/trigger/identity。
+59|distilled|xss,records|XSSHunter30/70通知标题不证独立管理员/源DOM，需提交关联。
+60|no_technical_content||SUDO封面无sudoers或版本。
+61|no_technical_content||cookielab标签/SeverityNONEOTHER仅资源条目。
+62|insufficient_technical_detail|source|Fhex ELFeditor3914KB/offset11d无样本hash/修改/故障证据。
+63|no_technical_content||Harvard致谢RCE标签无机制。
+64|distilled|passive,secret|Gotanda菜单WHOIS/hash/providers，入口非结果，secretURL不交第三方。
+65|distilled|report,sql,auth|P1 triaged still assessed登录标题无实际SQL/会话差分。
+66|distilled|source,access,references/by-type/race-conditions.md|完整newsletter上部RCE/races/Palo/Mongo旧结构，底部ResourceSpace裁切不补全，现代结构另校。
+67|distilled|auth,web,scope|OktaNeedHelp/ITticket入口，无signup私有docs/password读取证据。
+68|no_technical_content||Cloudmare repo封面无源站响应。
+69|distilled|secret|cariddi两条ASIA掩码JS匹配仅候选，组成/到期/权限未知。
+70|no_technical_content||BBQSQL repo封面无oracle提取方法。
+71|no_technical_content||Google书封面卡，无教程内容。
+72|no_technical_content||另一hash书卡无教程内容。
+73|insufficient_technical_detail|experiment|HyenaeMENU只有选项，无流量/包/失败回执。
+74|distilled|ios,client|完整iOSmindmap逐枝读，本地存储/WebView/URL scheme/认证/clientpatch与服务端cap分离。
+75|distilled|smart,business|完整合约五阶段审计/函数候选，不证明漏洞，版本/角色/价值不变量独立。
+76|distilled|source,records|ghorg69repos/master/githubHTTPS/Success需每repo权/commit/pagination，未克隆。
+77|no_technical_content||July2020 Mobilekit目录/简述无保存教程步骤，不执行旧资源。
+78|no_technical_content||PPScan repo封面无污染/gadget实现。
+79|distilled|xss|另hash完整CSPflyer实际读，合并139/184有效指令及RO纠正。
+80|distilled|report,scope|Kraken500低危奖励邮件，根因/主动授权与5000线程无关，不联系。
+81|distilled|report,scope|P4250奖励/支付表单图只阶段，不填写或联系。
+82|distilled|xss|NASA HTMLheading呈现与原始输入/sink/权限分开，不等JS。
+83|distilled|xss|NASA域名弹窗历史specific场景，无全域ATO链，不重放。
+84|distilled|container,records|Kubeapplier30/30Applied0errors/commit/黑名单配置不等健康rollout或当前权。
+85|distilled|secret,scope|目录listing/reconfiles/项目名只名称，不等secret读取/目标授权。
+86|distilled|passive,takeover|.cd NSdig记录只解析阶段，无控制/可认领/上游消费证据。
+87|distilled|scope,report|招聘email可能明年合作，不授当前测试权或证明现SQL漏洞。
+88|insufficient_technical_detail|xss,business|HTMLInviteCollab报告subject，没有邮件MIME/客户端实际HTML回执。
+89|distilled|fuzz,records|PyIntruder$test$/1–100/10线程/编码/同200len1256，参数marker非线上语义/影响。
+90|insufficient_technical_detail|container,experiment|KubernetesGoat homepage只实验case标签，无单个case运行或生产受影响。
+91|no_technical_content||dpfilterrepo封面无去重或S3写入结果。
+92|no_technical_content||Googlebookcover无方法。
+93|no_technical_content||bookcard无方法。
+94|no_technical_content||httpx教程cover无请求步骤。
+95|insufficient_technical_detail|waf,source|CASE1/2/3附件元数据，不代表附件内容，未存全文豁免。
+96|distilled|waf,source|nginx CLlimit/chunkinit置content_length_n0源码/文字片段，真实commit和reader仍需。
+97|distilled|waf,source,references/by-type/request-smuggling.md|CL+TE阻止/TEonly用户字段响应，GUESS源码/图裁切限制保留，不证所有WAF/走私。
+98|distilled|waf,source|chunkhex OR0x20/CRLF状态片段，未见完整路径/实例，不执行旧Python。
+99|distilled|records,source|MSTIC进程树PID/time/cmd，父子名不证恶意或原始授权，稳定身份/采集源重要。
+100|insufficient_technical_detail|references/by-type/ldap-xpath.md,report|phpLDAPadmin triaged enabled邮件未存匿名目录结果。
+101|distilled|source,sql|PDOprepare前concatuserid无占位符，真实caller类型/可控输入与执行另证。
+102|distilled|source,auth,records|LSASS模块表含nosferatu.dll及路径，加载不等凭据获取/身份模拟/初始入口。
+103|distilled|passive,records|多resolver/jq answers0.name完整卡片，需全RR类型/TTL/返回码，第一answer不等目标A。
+104|distilled|lfi,source|nuclei2.3.4单CVE41277模板match，只检测阶段/版本限制，不扫描目标。
+105|distilled|lfi,source|浏览器GeoJSON fileURL显示passwd样式行，只该历史读观察，不等OSroot/RCE，不抄目标IP。
+106|no_technical_content||pwnSpoof logo未存伪造日志内容，正文真实性方法另记。
+107|distilled|lfi,records|遮挡/裁切多GeoJSONURL输出列表，不代表每项raw读取或授权，不能推全体利用。
+108|distilled|records,source|beacon/admin既有session+RegistryRecon菜单，未见注册表数据/初始权限链。
+109|distilled|web,auth,scope|完整WPScan卡片headers/xmlrpc/cron/version/plugins/users/password模式，UA不自动bypass，不安装/扫描/爆破。
+110|distilled|records,scope|SillyRAT绑定0.0.0.0及Active连接列表，listener/session不证行为/授权，不启动。
+111|distilled|fuzz,passive,records|完整tok/anew/ffuf展示切字段词表卡，结构/范围/实际DNS身份需保留。
+112|distilled|auth,report|accepted reset anyuser标题/932.50reward，缺tokenreader/挑战主体/最终会话链。
+113|distilled|auth,report|另一hash相同accepted奖励标题，无新增技术链，不重复算漏洞数。
+114|distilled|waf,sql|4ZERO3 help新增SQLi/状态码色，选项不是SQL真值或稳定过滤绕过回执。
+115|no_technical_content||STACS logo无secret匹配或源码。

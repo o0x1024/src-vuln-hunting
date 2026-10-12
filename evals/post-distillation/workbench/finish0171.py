@@ -1,0 +1,41 @@
+"""Exact-once receipt after full verifier observed final exit0 session44143/6154c4."""
+import ast,json,re
+from datetime import datetime,timezone
+from recover import T,A,W
+s=json.loads((A/'status.json').read_text());v=json.loads((A/'verification.json').read_text())
+assert s['body_reviewed_groups']==26083 and s['body_reviewed_posts']==27105 and s['remaining_body_groups']==25396
+assert s['media_visually_reviewed_unique_contents']==8946 and s['body_followup_groups']==0 and not s['all_posts_content_distilled']
+assert v['raw_source_documents_hash_verified']==52716 and v['semantic_review_groups']==26083 and v['semantic_review_posts']==27105
+assert v['local_markdown_links_checked']==5666 and v['broken_local_markdown_links']==0 and not v['all_posts_complete']
+assert v['reviewed_media_hashes_reverified']==8923
+fs=next(ast.literal_eval(n.value) for n in ast.parse((W/'native0171.py').read_text()).body if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='facets' for t in n.targets))
+assert fs==json.loads((W/'facets0171.json').read_text()) and len(fs)==76 and len({f for f,_,_ in fs})==27
+c=(T/'references/research/community-distillation.md').read_text()
+for f,title,body in fs:
+ txt=(T/'references'/f).read_text()
+ assert txt.count('## '+title)==1 and txt.count(body)==1 and c.count('| '+title+' |')==1,(f,title)
+b=json.loads((W/'batch-0171.json').read_text());ids={pid for r in b for pid in r['post_ids']}
+urls=[pid for _,_,body in fs for pid in re.findall(r'https://x\.com/i/status/(\d+)',body)]
+assert len(urls)==84 and all(pid in ids for pid in urls) and len(b)==160 and len(ids)==162
+actual=json.loads((W/'media-actual-0171.json').read_text());media=[json.loads(l) for l in (A/'media-reviews.jsonl').read_text().splitlines() if l.strip()]
+assert len(actual)==87
+for r in actual:
+ matches=[m for m in media if m['sha256']==r['sha256']]
+ assert len(matches)==1 and matches[0]['batch']=='media-0165' and matches[0]['reviewed_at']==r['viewed_at']
+reviews=[json.loads(l) for l in (A/'reviews.jsonl').read_text().splitlines() if l.strip()]
+for r in b:
+ matches=[m for m in reviews if m['body_sha256']==r['body_sha256']]
+ assert len(matches)==1 and matches[0]['batch']=='batch-0171' and set(matches[0]['post_ids'])==set(r['post_ids'])
+assert 'batch0171_final_checks' not in v
+now=datetime.now(timezone.utc).isoformat()
+pct=round(100*s['body_reviewed_posts']/s['total_posts'],2)
+assert pct==51.42
+v['batch0171_final_checks']=dict(checked_at=now,quick_validate='valid',git_diff_check='passed',runtime_source_dependency_scan='no_matches',native_facets_exactly_saved=76,source_URLs_bound_to_batch=84,full_verifier_exit=0,full_verifier_session=44143,full_verifier_final_chunk='6154c4',full_source_hashes=52716,rendered_links=5666,broken_links=0,post_coverage_percent=pct,user_waiver_missing_and_external='count_as_covered',primary_normative_read=json.loads((W/'normative0171.json').read_text()),no_waived_archive_fulltexts_fetched=True)
+for k in ['static_skill_validation_verified_at','git_diff_whitespace_verified_at','runtime_source_dependency_verified_at','skill_quick_validation_at','git_diff_whitespace_check_at','runtime_source_dependency_check_at']:v[k]=now
+(A/'verification.json').write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
+
+
+
+prefix = "CURRENT COMPLETED0171/media0165. ACTIVE unbudgeted goal 完成所有posts内容的提炼; allfalse. NEVER rerun successful native/media/record/finish0171. Next0172/media0166.\nVerified26,083groups27,105posts51.42%; remaining25,396groups25,611posts total51,479groups52,716posts. Media8,946=5,161D2,340N1,445I; availableexternal8923 inline3/9 priorunavailable20 links5666 broken0. Canonicalc3ba1c34b72295375ce4a5287ee3cc1b3a449702292fd40f2424f41fd78b6520.\nUser waiver missingimages/externalfulltexts covered nofetch/recovery/noinventreading; ALLsavedbodies/currentavailableimagesrequired. Standalone no source runtime dependency. RTK shell/no subagents/memorywrites/livecredentials/sourceexecution/install; preserve unrelatedchanges.\n0171 preparec7301f inventory78003f160groups162posts36632chars first1643706741916573697 last1646174208215449600.88paths88unique1known87new177missingwaived. ALLcompletebody actual1–60fed227;61–1105a832f;111–160b995c0/recheckc868ce. Known1metadatae9f0ed subdomainlogosI. All87neworiginal returnedSHA/time actual-0171.json87 notes0171.json87 actualmanualnotes;48D23N16I.76facets27topics84URLs80mapped73corrected7merged80excluded. Base64post137 safelydecoded563450 only futuretweetsencoding ad. No externalfulltextfetch normative0171=[].\nDraft1bec7e literalnewline correctedb927e1 beforebuild (failed361174 noappend). Build7ead05/precheckbc210b. Native1f7183/mediac3cdc8/bodye014ae ONCE. Quick53939dvalid/git34e033exit0/runtime8de606exit1empty. Full71553fsession44143 thenFINAL6154c4OBSERVEDexit0 52716sources26083groups27105posts8946media8923hashes5666links0brokenallfalse. Percent65f53a51.42.\nPrincipal0171 facets0171.json76 exactnative/media binding: cookieAPIclaim/repairmailstatus; ResMedGETCSRFsubscription; SSRFmaprole; Minipooldelegatesorder; Alterx12candidate; RCE/SSRFdorksnotconsumer; premiumrole; javaTagpunctuation/locationDOM;24toolsactually22missing17; nexturlbackslashUnicodeellipsisNOrepair; GraphQLNOTNoSQLdb; JSPcontextpathentitynormalize; Katanaheadlessrate110p8; TLSpassthroughcoveragegapmalformedregex; config.php~MoodlecodeDBredacted; debugHuntermodifiedresponse; dotsegments403200notprotected; AEMdamfingerprint;127IPheadersproxytrust; adminregisterdefaultrole; cloudVPSbudget/exitnotcrashcleanup; ElasticRecorderURLincomment*/notquotes; AEMhistoricalaccountlist; clientresponse2FANOTserver; SQLparamnames; HPPHTTPstate; OTPbrainmapbindings/limits/webmobile/sessionpolicy; OOSrewardNOTauth/SQLXORtimecondition; SelfXSSCSRFtokeninput20/17withCredentialsNOTSOP/alertDoneNOPOSTvalidation; NodeMacOSbuildvsLinuxsummary; llhttpCRLFTEparser; WebCryptoEntropySourcefail/strength; CGIheaders/Cookieattributeshistoricalfixversions; VSCodeAISourceoutbound/noresult; metadataPHP/doubleextnotexecution; regexengine/fullfield; reportlogID/device; NetlasWHOISincompleteNOownership; deep.git200nobody; sharedDashboardlogoutZeroTrust/localaccess; JSphpTentativeNOactual; logofilenamecontrolnottraversal; multivpsglobaltaskreceipts; Pearsonmailnotretest; fzfwordlistscwd/unquoted/cancel; DOMcanarynotexecute; logsmetadata/sessionNOpriorpayload/includechain;403headersmethodsideeffect; resetemailparser/token/deliveryselfNOsend; trialbillingstategraceNOrealcard; SSHtiming/Unicode–dosNOrepair; Nmapnormalvsgnmap/openfiltered/fullportsnotreused/UDPmissing-sU; MetaMaskshortcalldataUIvsABIoldsolc; AIalertnofullpayloadnotallAI; TalentMAPguest/selfobjectmatrixNOallPII; journalstrategy; JSONWAITFORnotDBproof; traversalread/write/execute; headless50inputnotcomplete; DeepSourceCIsecretCLIartifactsnotreporights; LinkedIn2018deleteownershipNOrealdelete; CTvsactiveenvorwordfalsepositive; ChromegpulauncherbrokenquotesNOexecution; phpinfoactualfields; backupsoft404; BraveAndroidQRtruncatedUXSS/EdgeCVENOTBraveassignment; WordPressmissing.phpregisternotadmin; analystusernameLow500/33wordsnotrole/evidence; cloudterminalpolicysearchNOauth/historicalfree; chmodURLnotlocalfile; Nagiosnotuniversaldefaults/P3; GraphQLschema/consumer/quoteNOTXSS; ownCloudexportedContentProviderSQLlocalpermissionUID/URIquerynotremote. Notes0171.json all87 image-specific evidence; all48D bound exactfilename/post/target. iOSpasscodetitleI, NS/status/title/cards/covers reviewed withoutinventing.\nNEXT0172/media0166 prepare160max40000ONCE thenactualALLcompletebodies/neworiginalimages<=6/callmanualnotes/returnedSHA/time. Build/precheckbeforeappend; native/media/bodyONCE; quick/git/runtime/fullsameprocessOBSERVEDexit0; finishONCE/HANDOFFprependhistory. Helpersdata0171/actual0171/notes0171/draft0171/reviewImageBatch0171/bodyReader0171/draftHelper0171/imageHelpers/counts0171/normative0171/checks0171 live;loadclonesalwaysstore. Templatesbuild/precheck/native/finish0171. pct=round(100*posts/total,2), NEVERreplace100percentagebasewhenoldURLs84/100. No livehandles. Memory424–425 actual3edf31 provenance01a11e72-23a9-7091-85bd-fb3171d2e135.\n\n"
+h=W/'HANDOFF.md';h.write_text(prefix+h.read_text())
+print(json.dumps(dict(groups=26083,posts=27105,media=8946,facets=76,percent=pct,all_complete=False,goal='active',receipt=now)))

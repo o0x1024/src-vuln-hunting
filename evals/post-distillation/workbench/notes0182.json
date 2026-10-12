@@ -1,0 +1,758 @@
+[
+  [
+    0,
+    "N",
+    null,
+    "文章封面，未保存侦察方法正文。"
+  ],
+  [
+    1,
+    "D",
+    "source",
+    "ISAPI 扩展与过滤器导出函数列表，只有静态入口名，未见实际注册、HTTP 调用轨迹或 CVE 根因。"
+  ],
+  [
+    2,
+    "D",
+    "source",
+    "DllMain 的进程/线程附加和分离参数分支；未展示加载调试轨迹，不将入口描述推广为所有加载器的执行顺序。"
+  ],
+  [
+    3,
+    "D",
+    "scope",
+    "Yuga Labs 历史范围图新增 *.10ktf.com 与 *.wenewmoments.com，eligible_for_bounty 为 true；不是现行授权清单。"
+  ],
+  [
+    4,
+    "D",
+    "redirect",
+    "48 个混合参数候选中有跳转、状态、文件、图片和域名字段，没有实际消费者或通用命中证明。"
+  ],
+  [
+    5,
+    "D",
+    "redirect",
+    "U+3002 全角句点与多斜杠 redirect_to 的 2020 年报告标为 New/Low/Private，无完整 Location 或导航结果。"
+  ],
+  [
+    6,
+    "D",
+    "ssrf",
+    "IPv4 十六进制、八进制、整数、短分段和混合表示使用公共地址示例，没有后台连接或私网访问证明。"
+  ],
+  [
+    7,
+    "D",
+    "passive",
+    "第三方搜索方向涵盖 npm、Trello、S3 等，品牌词匹配不能证明所有权、授权范围、秘密或索引完整性。"
+  ],
+  [
+    8,
+    "D",
+    "lfi",
+    "pathbuster 的 URLs、payloads、wordlist 输入展示，没有实际文件读取与预算/错误结果。"
+  ],
+  [
+    9,
+    "I",
+    null,
+    "运营方称可能有效、仍需调查的 Twitter 回信，没有技术请求或最终根因。"
+  ],
+  [
+    10,
+    "N",
+    null,
+    "榜单/名称列表，没有独立漏洞机制。"
+  ],
+  [
+    11,
+    "I",
+    null,
+    "Twitter 报告 Triaged Open、Medium 5.3 的状态/等级信息，没有技术复现。"
+  ],
+  [
+    12,
+    "D",
+    "passive",
+    "Shodan org/favicon 与内存转储标题查询；命令的选项分隔和 IP/port 输出连接有格式缺陷，索引元数据不证明转储或秘密读取。"
+  ],
+  [
+    13,
+    "N",
+    null,
+    "背包礼品照片，没有漏洞机制。"
+  ],
+  [
+    14,
+    "D",
+    "strategy",
+    "学习路线覆盖计算机、网络、HTTP/DNS、认证、系统、语言和练习资源，没有能力排名或全部漏洞覆盖证明。"
+  ],
+  [
+    15,
+    "D",
+    "passive",
+    "Dork 生成器界面显示漏洞/文件分类与域输入，没有实际搜索结果；去活化域名写法不能直接当作有效语法。"
+  ],
+  [
+    16,
+    "I",
+    null,
+    "Google 一次点击 ATO 的 P2 Unresolved/金额标题，未保存完整 Cookie、脚本和身份链。"
+  ],
+  [
+    17,
+    "D",
+    "scope",
+    "历史范围 *.ntcusa.com 新增、JOBALINE.INFO 移除，两个 eligible_for_bounty 均 false，不能当作现行许可。"
+  ],
+  [
+    18,
+    "D",
+    "scope",
+    "历史范围 JOBALIGN.COM 新增、HOURLYJOBSONLINE.COM 移除，eligible_for_bounty 均 false。"
+  ],
+  [
+    19,
+    "D",
+    "scope",
+    "历史范围 *.scpcnet.com.br 新增、*.acordocerto.com.br 移除，eligible_for_bounty 均 false。"
+  ],
+  [
+    20,
+    "D",
+    "scope",
+    "历史范围 *.seuladobom.com.br 新增、分组 Appriss 通配项 OTHER 移除，eligible_for_bounty 均 false；保留原分组，不拆出额外范围。"
+  ],
+  [
+    21,
+    "D",
+    "xss",
+    "script 内 var ref 的双引号字符串注入位置，没有实际完整响应、转义和运行结果。"
+  ],
+  [
+    22,
+    "D",
+    "xss",
+    "空串/百分号/alert 运算组合依赖完整表达式语法和前后字符，未保存 WAF 对照或执行轨迹。"
+  ],
+  [
+    23,
+    "N",
+    null,
+    "视频问题封面，未保存常见漏洞排序/解释正文。"
+  ],
+  [
+    24,
+    "D",
+    "passive",
+    "Google human.aspx 索引约 2890 结果，历史索引数量不证明当前 MOVEit 版本、可达性或漏洞。"
+  ],
+  [
+    25,
+    "D",
+    "passive",
+    "chaos 到 cdncheck 输出有 7 CDN、1 cloud、1 WAF 标签，分类不是当前源站或所有权证明。"
+  ],
+  [
+    26,
+    "I",
+    null,
+    "报告 Pending program review 的状态，缺联系表单实际渲染消费者与执行证据。"
+  ],
+  [
+    27,
+    "I",
+    null,
+    "报告 Triaged、High 8.2 元数据，无脚本执行、身份或权限结果。"
+  ],
+  [
+    28,
+    "D",
+    "records",
+    "Meta CT 邮件订阅界面，未展示证书实际部署、授权范围或运行通知，本任务没有订阅。"
+  ],
+  [
+    29,
+    "D",
+    "scope",
+    "范围外报告运营方称复现并例外奖励 200 欧元；事后个例不构成事前测试许可或所有项目规则。"
+  ],
+  [
+    30,
+    "D",
+    "source",
+    "Node DiffieHellman 显式设置私钥后 generateKeys/readBack 仍为同值；需版本、调用契约和消费者，非整个算法失效证明。"
+  ],
+  [
+    31,
+    "D",
+    "passive",
+    "另一同文帖中的 Dork 生成器分类界面，缺搜索结果与私密数据，保留对应原帖。"
+  ],
+  [
+    32,
+    "D",
+    "fuzz",
+    "BCheck v1 beta 原始脚本字符串 contains 规则报 medium/certain，反射匹配不等于浏览器执行。"
+  ],
+  [
+    33,
+    "D",
+    "fuzz",
+    "Nuclei 2.9.7 的低分辨率终端示例，不是 BCheck 语法解析或真实 XSS 消费者证据。"
+  ],
+  [
+    34,
+    "D",
+    "sql",
+    "sleep 15/10/2/1 报告的耗时序列未给 false/空白控制、抖动或实际数据库执行，不能泛化到全部数据库/OS。"
+  ],
+  [
+    35,
+    "D",
+    "report",
+    "Apple 邮件要求一个问题并附跟进编号，程序沟通不是技术执行证明。"
+  ],
+  [
+    36,
+    "D",
+    "report",
+    "Apple 询问当时 iOS 16/设备上复现，邮件没有测试结果。"
+  ],
+  [
+    37,
+    "D",
+    "report",
+    "Apple 要求 15.6/16 等版本复現才能调查，interpose/dylib 标题裁切，没有实际执行桥接证据。"
+  ],
+  [
+    38,
+    "D",
+    "report",
+    "Apple 修复进展邮件仍处调查阶段并要求保密，不证明最终修复或普遍披露许可。"
+  ],
+  [
+    39,
+    "D",
+    "xss",
+    "product 参数中事件输入产生浏览器弹窗，origin 遮挡；另一 phpinfo 标签页不是同一漏洞，不能从一例推成十例。"
+  ],
+  [
+    40,
+    "D",
+    "fuzz",
+    "Nuclei 2.8.9/outdated、模板 9.5.0 与大批输入目标输出，没有每个目标实际执行、失败分母或当前权限范围。"
+  ],
+  [
+    41,
+    "D",
+    "records",
+    "VulnVision running 列表与起始时间行，没有独立 run ID、回执、结束状态或原始结果。"
+  ],
+  [
+    42,
+    "D",
+    "secret",
+    "eSmartPFS XML ErrorLog 目录列出文件与时间，没有日志正文、访问身份或秘密。"
+  ],
+  [
+    43,
+    "N",
+    null,
+    "人物照片/部分电话号码，无独立漏洞机制，个人信息不复写。"
+  ],
+  [
+    44,
+    "D",
+    "ssti",
+    "3*3→9 与 5*3→15 的浏览器显示，未确定客户端框架、服务端模板或其他计算消费者。"
+  ],
+  [
+    45,
+    "D",
+    "strategy",
+    "理解技术、明确策略及适应方法的四条建议，5000 积分/100 等元数据不等于方法成功或覆盖。"
+  ],
+  [
+    46,
+    "I",
+    null,
+    "P1 Unresolved 管理员设置/PII 标题，没有枚举响应、密码验证或实际权限变化。"
+  ],
+  [
+    47,
+    "D",
+    "secret",
+    "GitHub 文件名/路径/日期/语言/配置与历史查询关键字，没有实际秘密或授权能力。"
+  ],
+  [
+    48,
+    "D",
+    "secret",
+    "语言/代码词匹配例，没有凭证有效性证明。"
+  ],
+  [
+    49,
+    "D",
+    "secret",
+    "公开客户端标识、secret 名称等查询需语义区分，没有实际字段或权限结果。"
+  ],
+  [
+    50,
+    "D",
+    "passive",
+    "GitHub user/org/in/name/email 等查询属于不同匹配上下文，同名或同邮箱片段不能自动认定人员归属。"
+  ],
+  [
+    51,
+    "I",
+    null,
+    "Nagios Basic 登录框内用户名已填、密码隐藏，没有提交响应或受保护资源。"
+  ],
+  [
+    52,
+    "D",
+    "xss",
+    "Citrix logout 多重换行输入与浏览器弹窗，页面也显示类似头的文本，但无原始 Header/Body 边界、版本或权限证明。"
+  ],
+  [
+    53,
+    "D",
+    "access",
+    "KYC 页面与大面积遮挡照片及奖励邮件，没有具体资源 URL、身份或跨对象响应，PII 不复制。"
+  ],
+  [
+    54,
+    "D",
+    "fuzz",
+    "Nuclei 2.9.7、模板 9.5.3、弃用/重复警告、7 候选/6 URL/数个命中；不是全部目标执行完毕或当前漏洞覆盖。"
+  ],
+  [
+    55,
+    "D",
+    "xss",
+    "另一 Citrix logout 事件输入弹窗，未展示原始拆分、CSP/版本、Cookie 或权限链。"
+  ],
+  [
+    56,
+    "D",
+    "xss",
+    "隐藏 tab 参数进入关闭 script 的例子与浏览器弹窗，origin 遮挡，没有 Arjun 发现日志或完整 DOM trace。"
+  ],
+  [
+    57,
+    "D",
+    "source",
+    "jsluice/tree-sitter 提取 location/open/fetch 及方法/查询参数，动态拼接保留 EXPR，占位符不是可直接请求 URL。"
+  ],
+  [
+    58,
+    "D",
+    "secret",
+    "自定义 AST 规则在 key 含 api 和值以 AUTH_ 开头时 return nil，与声称匹配 apiKey/AUTH_ 示例相反；需合成正反例验证。"
+  ],
+  [
+    59,
+    "D",
+    "report",
+    "重复报告邮件说内部已知问题，不证明已经修复或重新测试许可。"
+  ],
+  [
+    60,
+    "D",
+    "xss",
+    "自建 login.php/admin.php/index.html 与表单代码，无跨身份输入/渲染/令牌消费链；正文截断不补造。"
+  ],
+  [
+    61,
+    "I",
+    null,
+    "多地址 Citrix P3 New 标题，未显示真实版本、请求或执行证据。"
+  ],
+  [
+    62,
+    "I",
+    null,
+    "重复手机号/认证相关 High 报告标题，没有新旧服务器状态与认证守卫对照。"
+  ],
+  [
+    63,
+    "N",
+    null,
+    "ReconNinja 标识图，没有实际运行或漏洞机制。"
+  ],
+  [
+    64,
+    "I",
+    null,
+    "P1 New time-blind 标题，没有已接受或数据库结果。"
+  ],
+  [
+    65,
+    "D",
+    "sql",
+    "POST 标为表单 Content-Type 而正文呈 JSON，email 时间条件、PHPSESSID 与 200 Fatal error/约 10 秒响应；缺 false 基线和免认证证明。"
+  ],
+  [
+    66,
+    "D",
+    "sql",
+    "同 email 约 20 秒响应，没有交错 false/control 与抖动归因。"
+  ],
+  [
+    67,
+    "D",
+    "sql",
+    "Ghauri 138 次请求、MySQL 检测和 7 个数据库名称摘要，完整原始交换缺失，不证明全数据或 OS 权限。"
+  ],
+  [
+    68,
+    "D",
+    "xss",
+    "第一个正文 ID 的 Citrix logout 弹窗，域遮挡且完整响应缺失。"
+  ],
+  [
+    69,
+    "D",
+    "xss",
+    "第二个重复正文 ID 的另一 SHA 图片显示同类弹窗，不增加独立漏洞数。"
+  ],
+  [
+    70,
+    "D",
+    "xss",
+    "商户离线交易/GraphQL returnUrl 保存后跨站进入带 nonce 的合法 script 字符串；nonce 不净化字符串，未见完整 ATO。"
+  ],
+  [
+    71,
+    "D",
+    "xss",
+    "导航取消异步操作示例，window.stop 同样取消 fetch；非法 scheme 的效果只对当前情境，不保证各浏览器完整最终链。"
+  ],
+  [
+    72,
+    "D",
+    "fuzz",
+    "RapidHand 多组旧 XSS URL 候选和多标签页功能，没有运行输出；开发模式功能不是权限绕过。"
+  ],
+  [
+    73,
+    "D",
+    "access",
+    "GET /jobseekers/me 带 Bearer 返回本人的 200/PII，不等于 POST /users 或 /user 的跨对象批量泄露，凭证和 PII 不复制。"
+  ],
+  [
+    74,
+    "I",
+    null,
+    "两个 Critical IDOR/Bulk/Full ATO 标题，缺对象身份与权限差异。"
+  ],
+  [
+    75,
+    "D",
+    "ssti",
+    "Angular 相关 payload 与 TakSec 弹窗，origin 遮挡且版本/编译位置未知，不能套用固定 P2/P3。"
+  ],
+  [
+    76,
+    "D",
+    "xss",
+    "另一 Citrix 弹窗图片，不同字节/格式不能当成新漏洞。"
+  ],
+  [
+    77,
+    "D",
+    "fuzz",
+    "另一 Nuclei 7 候选/6 URL/数个命中与弃用提示，缺实际完整执行分母。"
+  ],
+  [
+    78,
+    "D",
+    "impact",
+    "邮件中 0-day 问题按 Informative 关闭的历史反馈，不是现行统一政策或技术影响证明。"
+  ],
+  [
+    79,
+    "D",
+    "report",
+    "同端点/参数被判重复，原报告 High 7.1 后 medium 的状态/评级记录；没有新根因或修复证据。"
+  ],
+  [
+    80,
+    "D",
+    "fuzz",
+    "Cisco BCheck v1 beta 请求与 200/Current privilege level 字符串 contains 规则，实际等级、身份与保护动作缺失。"
+  ],
+  [
+    81,
+    "D",
+    "records",
+    "Osmedeus 4.5.0 约 15 小时仍 running、资产/DNS/漏洞计数，多个 307/hash 可能公共跳转，不能称完成。"
+  ],
+  [
+    82,
+    "D",
+    "ssrf",
+    "非云 SSRF 图的 URL 参数到私网管理面板与返回内容是示意，缺实际后台网络调用、认证及响应 trace。"
+  ],
+  [
+    83,
+    "N",
+    null,
+    "Cache Poisoning 视频封面，没有已保存具体机制正文。"
+  ],
+  [
+    84,
+    "D",
+    "passive",
+    "RDP 开放端口/域名主机名的信息暴露报告标为 P2 Resolved；截图不含握手、认证、提权或横向访问，索引命中需分别核对时点、归属、可达性和具体权限影响。"
+  ],
+  [
+    85,
+    "D",
+    "records",
+    "Trickest 工作流展示按域名层级生成环境名、dSieve 清洗、alterx 排列和 puredns 解析；图中没有新增资产结果，候选词、DNS 命中和授权资产须分开记录。"
+  ],
+  [
+    86,
+    "N",
+    null,
+    "重复报告文章封面仅显示三个原则的标题，未保存具体原则正文。"
+  ],
+  [
+    87,
+    "D",
+    "access",
+    "示例把 /me 改为 /user、GET 改 POST 并用 JSON ids 数组；没有真实跨用户请求响应，不能将端点与方法变化当作批量泄露证明。"
+  ],
+  [
+    88,
+    "D",
+    "impact",
+    "邮件称问题可重现但按 informational 处理，底部裁切；未展示源码内容与具体权限收益，不推断被裁切文字或统一评级规则。"
+  ],
+  [
+    89,
+    "D",
+    "records",
+    "VulnVision 页面显示 34 次完成、0 次运行及技术统计；没有任务回执、目标归属和数据源，界面不能证明所有能力、API 免费或漏洞覆盖。"
+  ],
+  [
+    90,
+    "D",
+    "records",
+    "另一张 VulnVision 图同样为 34 次扫描、34 完成、0 运行与技术分布，展示界面菜单而非底层任务、结果或费用核验。"
+  ],
+  [
+    91,
+    "D",
+    "report",
+    "敏感 env-config.js 报告标题及 P3、Not applicable、0 美元；缺少配置内容与当时的访问响应，不据此证明所有环境配置文件敏感或统一关闭原因。"
+  ],
+  [
+    92,
+    "D",
+    "report",
+    "浏览器访问 env-config.js 超时 ERR_CONNECTION_TIMED_OUT；不可达证明当前取证失败，不能反推此前内容、安全修复或已有报告必定无效。"
+  ],
+  [
+    93,
+    "D",
+    "lfi",
+    "Nginx location /img 与 alias /var/images/ 的尾斜杠不匹配示意，/img/ 配置为对照；须检查真实前缀匹配、规范化及替换后磁盘路径，示意不等于所有 alias 都可穿越。"
+  ],
+  [
+    94,
+    "D",
+    "lfi",
+    "本地 localhost/attachments../logs/identity.log 返回 SQLite 无 User 表的日志与数据库查询、栈信息；仅证明这个本地例子的文件越界/日志读取，不证明生产密码库、证书或云凭据读取和利用。"
+  ],
+  [
+    95,
+    "D",
+    "xss",
+    "XSS.Report 邮件通知标题及截断标识，未见回调详情、来源页面、执行身份或关联请求，第三方支持工单需以具体执行来源核对而非通知图推断权限。"
+  ],
+  [
+    96,
+    "D",
+    "sql,xss",
+    "引号与 RandomString 进入 MySQL 报错的 URL/页面示例，未显示 SQL 查询或布尔对照；错误回显可作为输入路径线索。"
+  ],
+  [
+    97,
+    "D",
+    "sql,xss",
+    "h1 HTML 字符串在 MySQL 报错中按文本显示，不能仅因反射认定浏览器将其作为标签或执行。"
+  ],
+  [
+    98,
+    "D",
+    "sql,xss",
+    "script 输入在 URL 存在但报错/DOM 不见脚本，提示过滤或不同错误输出；无执行证明，不把 URL 中出现脚本当成 XSS。"
+  ],
+  [
+    99,
+    "D",
+    "sql,xss",
+    "非标准 00 元素及 foo 属性组合使报错输出中 h1 进入 DOM、页面出现大标题；证明这一图的 HTML 解析变化，未显示事件脚本执行或实际 SQL 数据读取。"
+  ],
+  [
+    100,
+    "I",
+    null,
+    "IDOR 报告 High 7.5、Triaged Open、Private 元数据，未展示对象、账号、授权差异或跨对象读取。"
+  ],
+  [
+    101,
+    "I",
+    null,
+    "Pending program review 到 Triaged 的状态时间线，不能补齐 IDOR 技术复现或最终奖励。"
+  ],
+  [
+    102,
+    "D",
+    "ai,lfi",
+    "内部 CWE 分类接口 /predict/report_weakness_id 截图称 request.version 和 request.trained_at 直接拼接模型路径，随后 AutoTokenizer.from_pretrained 载入；本地 Docker 复现命令正文裁切。Resolved Medium 6.4 不补齐实际规范化代码、读取文件内容或 RCE 链。"
+  ],
+  [
+    103,
+    "D",
+    "logic,graphql",
+    "inDriver Job 招聘/简历创建编辑需管理员审核，最后 POST /api/graphql 调用 UpdateVacancyStatus；报告描述跳过审批并发布内容，操作参数与执行响应裁切，实际可发布状态需要普通用户/管理员权限和外部可见性对照。"
+  ],
+  [
+    104,
+    "D",
+    "secret,auth",
+    "Newegg 资料编辑更改邮箱本要求密码；页面源码搜索 password 可见 encrypted password 的报告描述，未保存完整值或实际变更邮箱请求。须区分密文、哈希、可重放凭证和仅当前用户数据，不直接宣称任意账号接管。"
+  ],
+  [
+    105,
+    "D",
+    "access,graphql",
+    "HackerOne SaveCollaboratorsMutation 邀请后 pending 未接受状态，编辑添加协作者入口捕获的请求能出现目标邮箱；报告描述私人邮箱在接受前披露，HTTP 请求裁切，须对照邀请状态、调用身份和实际响应字段，不批量邀请真实用户。"
+  ],
+  [
+    106,
+    "D",
+    "xss",
+    "cryptography.io 错误路径被显示到可信域页面，可插入“网站迁移”文本的报告描述，Resolved No Rating；仅文本/内容欺骗，未显示 HTML 或脚本执行，不能将文字反射当作 XSS。"
+  ],
+  [
+    107,
+    "D",
+    "source,takeover",
+    "stripe/veneur 仓库文档指向不再受其控制的 veneur.org，报告称原侧栏已移除，179 forks 部分仍含旧链接；假设控制域后替换安装源/镜像形成供应链风险，截图未证明域可注册或用户执行、私网权限。不购域、不改站、不投放代码。"
+  ],
+  [
+    108,
+    "D",
+    "xss,waf",
+    "Citrix OAuth logout post_logout_redirect_uri 中换行与 body onload 组合出现浏览器 alert；未见原始响应头、Akamai 拦截对照、产品版本或修复状态，不能称所有 WAF 可绕过。"
+  ],
+  [
+    109,
+    "D",
+    "auth",
+    "VulnVision 弱密码报告模板及含 Basic Authorization 的请求截图，未见响应或保护页面；现存 Cookie/凭证不得复用，工具结论需要错误凭证与保护操作对照，而非登录框或请求存在。"
+  ],
+  [
+    110,
+    "D",
+    "desktop,auth",
+    "Rockstar 官方摘要列出已有受害者 Steam/Epic 账号访问、已关联 Social Club、拥有对应游戏三前提；启动器 Switch Account 可进入关联资料，修复增加近期登录的 auth token 否则重输凭据。非无需前置条件的全账号接管，截图无协议完整交换。"
+  ],
+  [
+    111,
+    "I",
+    null,
+    "Stored XSS High 7.5 Resolved Closed、5000 美元、12 小时元数据，没有漏洞输入、渲染者或影响链。"
+  ],
+  [
+    112,
+    "D",
+    "sql,xss",
+    "另一篇同例截图：MySQL 错误回显 RandomString，说明线索不等于稳定 SQL 控制或 XSS。"
+  ],
+  [
+    113,
+    "D",
+    "sql,xss",
+    "同例低分辨率另一 SHA 的 h1 DOM/大标题结果，只支持 HTML 解析差异，不新增独立漏洞或脚本执行证据。"
+  ],
+  [
+    114,
+    "D",
+    "sql,xss",
+    "同报错示例 script 在地址栏存在但未进入 DOM，未显示脚本执行；过滤行为需结合原始响应。"
+  ],
+  [
+    115,
+    "D",
+    "sql,xss",
+    "同报错 h1 输入按文字输出，与非标准元素包装造成 DOM 标题的对照有用，但截图不是 SQL 权限或脚本执行证明。"
+  ],
+  [
+    116,
+    "D",
+    "fuzz",
+    "Paraforge 图把 localhost 表单登录请求拆成 api/v1/user/login 路径段与 username/password 参数名；仅词表提取示意，路由段不是完整可请求端点，凭证值不应进入字典，不证明漏洞。"
+  ],
+  [
+    117,
+    "I",
+    null,
+    "PDF Upload XSS 已调查和奖励的通知，没有 PDF 内容、渲染器、源或执行上下文，不下载或打开外链测试 PDF。"
+  ],
+  [
+    118,
+    "D",
+    "host",
+    "POST /passwords 双 Host（第二为 @ 前缀域）返回 HTML 重定向链接中红acted合法域加逗号与 @ 域、/sessions/new；未显示 Location 响应头、重置邮件、令牌泄露或消费，需区分 Host 拼接和密码重置污染。"
+  ],
+  [
+    119,
+    "D",
+    "host",
+    "重复正文另一图片格式与 SHA 显示相同双 Host 到 HTML 重定向链接；保留对应来源，不当作新增邮件投毒/接管实证。"
+  ],
+  [
+    120,
+    "D",
+    "passive",
+    "CrimeFlare v2 将 pastebin.com 的 Cloudflare 地址与另一个所谓 Real IP、反向主机名/组织/地理信息并列；无来源、时点、Host/SNI 或同应用内容对照，不能认定当前源站或绕过防护。"
+  ],
+  [
+    121,
+    "I",
+    null,
+    "Mura CMS CVE-2022-47003 Authentication Bypass P1 Unresolved 0 美元标题，无版本、请求或保护资源证明。"
+  ],
+  [
+    122,
+    "D",
+    "lfi",
+    "httpx 1.3.1 outdated 批量 fgt_lang 路径到 sslvpn_websession 筛选 200；没有响应正文、控制路径、实际 FortiOS 版本或会话内容，200 不是任意文件读取证明。"
+  ],
+  [
+    123,
+    "D",
+    "lfi",
+    "第二 ID 不同格式图片同一批 200 状态输出；不是新漏洞或新目标授权，不读取会话秘密、批量扫描或复用。"
+  ],
+  [
+    124,
+    "I",
+    null,
+    "Users PII P3 Unresolved/points 列表，字段内容和请求缺失，不能证明历史邮箱属于当前私密用户资料。"
+  ],
+  [
+    125,
+    "D",
+    "passive",
+    "Hunter.how favicon_hash 十六进制摘要查询和 Past year 10736 服务/1.9K IP 统计、历史 HTTP 信息；与 Shodan/FOFA 的整数 favicon 查询不可混用。索引结果不是当前产品版本、未修复漏洞或全部资产证明。"
+  ]
+]

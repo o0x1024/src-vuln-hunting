@@ -1,0 +1,245 @@
+[
+  {
+    "name": "1814013738896523292-02.jpg",
+    "sha256": "85a74233c009eaf1c1f73022836705a53a2c9fdb5a235d5b68650cfb8e21cdac",
+    "prior": {
+      "sha256": "85a74233c009eaf1c1f73022836705a53a2c9fdb5a235d5b68650cfb8e21cdac",
+      "example_post_id": "1813036066133454915",
+      "image_name": "1813036066133454915-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/passive-and-services.md",
+        "references/discovery/web-and-api.md",
+        "references/experiment-design.md"
+      ],
+      "note": "dork脚本输出同混Googlesearch/maps链接和实际testphp PHPURL、重复项；采集需解包装/验证主机/去重/保留检索来源，PHP扩展只是入口候选非SQLi/XSS，未实际运行。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T20:41:46.437Z",
+      "batch": "media-0220"
+    }
+  },
+  {
+    "name": "1814321463299592696-02.png",
+    "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+    "prior": {
+      "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+      "example_post_id": "1311048137340006400",
+      "image_name": "1311048137340006400-03.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整DoDseal装饰，无IDOR请求或改密终态",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:07:25.820172+00:00",
+      "batch": "media-0047"
+    }
+  },
+  {
+    "name": "1814338470694858913-02.png",
+    "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+    "prior": {
+      "sha256": "7de64977b26238dd228a0053b7943a478153706423ff7de4018c11be757e2e7b",
+      "example_post_id": "1311048137340006400",
+      "image_name": "1311048137340006400-03.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整DoDseal装饰，无IDOR请求或改密终态",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:07:25.820172+00:00",
+      "batch": "media-0047"
+    }
+  },
+  {
+    "name": "1814353248146301334-02.jpg",
+    "sha256": "86a6f8c4b6c46c84824391f8d291a84747b282f2c58c9ad43ec868cf2bd70a2b",
+    "prior": {
+      "sha256": "86a6f8c4b6c46c84824391f8d291a84747b282f2c58c9ad43ec868cf2bd70a2b",
+      "example_post_id": "1807055686070915113",
+      "image_name": "1807055686070915113-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/web-and-api.md",
+        "references/by-type/file-upload.md",
+        "references/by-type/idor-access-control.md",
+        "references/by-type/info-secrets.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md"
+      ],
+      "note": "端点清单集中AEM/Sling/CRX/Felix控制台、JCR版本存储、用户profile、内容深度选择器、query statement、docview/sysview、feed/debug及复制配置。路径存在和JSON/XML后缀不等于泄露，深度/选择器也可能扩大响应成本。按实际产品版本、角色、资源消费者和最小允许/拒绝虚拟内容检查，保留精确URL与软404反例，排除公开内容；未有响应，不遍历全内容或查询真实JCR/配置。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T20:01:33.095Z",
+      "batch": "media-0218"
+    }
+  },
+  {
+    "name": "1814441139014869449-02.png",
+    "sha256": "6d7c57b8284ae69cd1bebe405150dbd4112c25bd8a9e496d4140f9c31b704838",
+    "prior": {
+      "sha256": "6d7c57b8284ae69cd1bebe405150dbd4112c25bd8a9e496d4140f9c31b704838",
+      "example_post_id": "1585468941480124416",
+      "image_name": "1585468941480124416-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "TikToklogo无监控机制。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T18:12:10.996Z",
+      "batch": "media-0140"
+    }
+  },
+  {
+    "name": "1814834310760862109-02.jpg",
+    "sha256": "1a91dcd8936fbfa74a4ad6498fe48c84663f763cebee689b8d4dad04e1adc0eb",
+    "prior": {
+      "sha256": "1a91dcd8936fbfa74a4ad6498fe48c84663f763cebee689b8d4dad04e1adc0eb",
+      "example_post_id": "1802297466341212358",
+      "image_name": "1802297466341212358-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/targeted-fuzzing.md",
+        "references/by-type/xss.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md"
+      ],
+      "note": "Arjun+KXSS终端对listproducts显示artist/cat Unfiltered[$]，仅美元字符反射不证明JS/HTMLsink或执行。保留参数/编码/请求前后状态，awk扁平化丢重复/依赖和POST类型，原值被清空也可能不同功能；不访问示例目标。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T19:17:17.555Z",
+      "batch": "media-0216"
+    }
+  },
+  {
+    "name": "1815564603658731737-02.jpg",
+    "sha256": "57c78626814e27c0303b93a4314c9fda4ceb2f1522e0f9da601774ee28c1d211",
+    "prior": {
+      "sha256": "57c78626814e27c0303b93a4314c9fda4ceb2f1522e0f9da601774ee28c1d211",
+      "example_post_id": "1800020622996828608",
+      "image_name": "1800020622996828608-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/client-and-cloud.md",
+        "references/source-audit.md",
+        "references/by-type/authn-session.md",
+        "references/by-type/graphql.md",
+        "references/by-type/nosql-injection.md",
+        "references/experiment-design.md"
+      ],
+      "note": "JS Recon清单涵盖硬编码/隐藏URL/API/注释/错误/调用/混淆、localStorage/Cookie flags与scope、GraphQL introspection/授权/复杂度、MongoDB配置/NoSQL、JSON类型/解析、eval/innerHTML/document.write/定时器/Function及第三方库/CSP/CORS/HTTPS/log。图右缘有裁剪，缺字不补。禁用introspection、加密存储和出现危险函数都不独立决定安全；优先记录真实源到sink、执行上下文、服务端对象权限和公开常量反例，定时器函数回调与字符串求值区分，以惰性解析对照，不执行脚本。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T18:47:50.727Z",
+      "batch": "media-0215"
+    }
+  },
+  {
+    "name": "1815786450794803549-02.jpg",
+    "sha256": "1f41c3294566cccae329e6fb1ea9b3b987fc58da38dd6f2e06256f0892c3a1ae",
+    "prior": {
+      "sha256": "1f41c3294566cccae329e6fb1ea9b3b987fc58da38dd6f2e06256f0892c3a1ae",
+      "example_post_id": "1701245058521997696",
+      "image_name": "1701245058521997696-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md"
+      ],
+      "note": "Burp GET /api/打码?username=打码，响应200JSON isSuccessful true/data含username/displayName/emailAddress/phoneNumber、errors[]，图未见Cookie/Authorization但可能额外身份机制。作为重置账号查询的PII泄漏候选，两个自有身份/对象及匿名基线比较所返字段是否预期公开、属于别人且权限未授权；PII返回不等于账号重置能力，target/query打码不补猜，ACAO*不允许凭据跨源读且不能单独构成CORS。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T06:07:55.305Z",
+      "batch": "media-0184"
+    }
+  },
+  {
+    "name": "1816025231187652985-02.jpg",
+    "sha256": "d9aba94fdf83ec0b89c05808df843e6e0a234635feeebe7be09a5b188203966e",
+    "prior": {
+      "sha256": "d9aba94fdf83ec0b89c05808df843e6e0a234635feeebe7be09a5b188203966e",
+      "example_post_id": "1696218532634300799",
+      "image_name": "1696218532634300799-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/hunting-strategy.md"
+      ],
+      "note": "完整25项侦察/检查清单含CNAME/Wayback/ports/Git/CORS/email SMTP Host/iframe/access/BurpHistory/Arjun/CSRF/SSRF/XSS/SSTI/reset token/unicode/rateheaders/dir/HRS/redirect/socialstate/upload/buffer。Arjun通常参数发现非隐藏endpoint；CNAME、iframe可载、clientIP头并非漏洞证明。按目标机制/角色/预算排序，每项需正反证据，DoS/上传链不可无界批量。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T05:08:30.150Z",
+      "batch": "media-0182"
+    }
+  },
+  {
+    "name": "1816073342484631973-02.jpg",
+    "sha256": "86a6f8c4b6c46c84824391f8d291a84747b282f2c58c9ad43ec868cf2bd70a2b",
+    "prior": {
+      "sha256": "86a6f8c4b6c46c84824391f8d291a84747b282f2c58c9ad43ec868cf2bd70a2b",
+      "example_post_id": "1807055686070915113",
+      "image_name": "1807055686070915113-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/web-and-api.md",
+        "references/by-type/file-upload.md",
+        "references/by-type/idor-access-control.md",
+        "references/by-type/info-secrets.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md"
+      ],
+      "note": "端点清单集中AEM/Sling/CRX/Felix控制台、JCR版本存储、用户profile、内容深度选择器、query statement、docview/sysview、feed/debug及复制配置。路径存在和JSON/XML后缀不等于泄露，深度/选择器也可能扩大响应成本。按实际产品版本、角色、资源消费者和最小允许/拒绝虚拟内容检查，保留精确URL与软404反例，排除公开内容；未有响应，不遍历全内容或查询真实JCR/配置。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T20:01:33.095Z",
+      "batch": "media-0218"
+    }
+  },
+  {
+    "name": "1816314932998066303-02.jpg",
+    "sha256": "87af12d025ae3b24cfdb2060310e6fc57f0bee05fe84c6bcc8f4d7418d583571",
+    "prior": {
+      "sha256": "87af12d025ae3b24cfdb2060310e6fc57f0bee05fe84c6bcc8f4d7418d583571",
+      "example_post_id": "1812003364194124124",
+      "image_name": "1812003364194124124-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/web-and-api.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "Afrog私网终端869模板完成、INFO面板与CRITICAL多个WebLogicCVE标签；无原始匹配证据，模板标签/版本指纹/漏洞执行需分开，多个模板可能同根因，私网示例不授权测试。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T20:39:10.990Z",
+      "batch": "media-0220"
+    }
+  },
+  {
+    "name": "1816331437420802183-02.jpg",
+    "sha256": "d9aba94fdf83ec0b89c05808df843e6e0a234635feeebe7be09a5b188203966e",
+    "prior": {
+      "sha256": "d9aba94fdf83ec0b89c05808df843e6e0a234635feeebe7be09a5b188203966e",
+      "example_post_id": "1696218532634300799",
+      "image_name": "1696218532634300799-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/hunting-strategy.md"
+      ],
+      "note": "完整25项侦察/检查清单含CNAME/Wayback/ports/Git/CORS/email SMTP Host/iframe/access/BurpHistory/Arjun/CSRF/SSRF/XSS/SSTI/reset token/unicode/rateheaders/dir/HRS/redirect/socialstate/upload/buffer。Arjun通常参数发现非隐藏endpoint；CNAME、iframe可载、clientIP头并非漏洞证明。按目标机制/角色/预算排序，每项需正反证据，DoS/上传链不可无界批量。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T05:08:30.150Z",
+      "batch": "media-0182"
+    }
+  },
+  {
+    "name": "1816511226920522139-02.png",
+    "sha256": "9814f0b582f4c82c3bccea8d72a092bbeb937e33710a6a0a89621bbe3aad6aed",
+    "prior": {
+      "sha256": "9814f0b582f4c82c3bccea8d72a092bbeb937e33710a6a0a89621bbe3aad6aed",
+      "example_post_id": "1810385795703861557",
+      "image_name": "1810385795703861557-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/info-secrets.md",
+        "references/by-type/authn-session.md",
+        "references/discovery/passive-and-services.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "历史URL列表identifier编码邮箱与password明文字段可见、域名/标识部分遮挡。只记录泄露形状/日志索引边界，绝不复制实际密码或登录验证；历史值/字段名不证明当前有效/ATO，nonce时间重复不说明熵，可用虚拟值说明轮换与URL敏感暴露。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T20:22:48.108Z",
+      "batch": "media-0219"
+    }
+  }
+]

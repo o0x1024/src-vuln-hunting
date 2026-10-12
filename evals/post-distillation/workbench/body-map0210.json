@@ -1,0 +1,392 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/source-audit.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "保存图片0210 1765426507940581776-02.png 的 auth 验证边界；保存图片0210 1765426507940581776-02.png 的 access 验证边界；保存图片0210 1765426507940581776-02.png 的 source 验证边界；保存图片0210 1765426507940581776-02.png 的 web 验证边界；保存图片0210 1765426507940581776-03.png 的 auth 验证边界；保存图片0210 1765426507940581776-03.png 的 access 验证边界；保存图片0210 1765426507940581776-03.png 的 source 验证边界；保存图片0210 1765426507940581776-03.png 的 web 验证边界；保存图片0210 1765426507940581776-03.png 的 experiment 验证边界"
+  },
+  "4": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md,references/by-type/cmd-injection-rce.md,references/by-type/file-upload.md,references/experiment-design.md",
+    "note": "保存图片0210 1765482042253607008-02.jpg 的 source 验证边界；保存图片0210 1765482042253607008-02.jpg 的 cmd 验证边界；保存图片0210 1765482042253607008-02.jpg 的 files 验证边界；保存图片0210 1765482042253607008-02.jpg 的 experiment 验证边界"
+  },
+  "11": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md,references/discovery/records-and-incremental.md,references/targeted-fuzzing.md,references/experiment-design.md",
+    "note": "保存图片0210 1765604791244272011-02.jpg 的 ssrf 验证边界；保存图片0210 1765604791244272011-02.jpg 的 records 验证边界；保存图片0210 1765604791244272011-02.jpg 的 fuzz 验证边界；保存图片0210 1765604791244272011-02.jpg 的 experiment 验证边界"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/cmd-injection-rce.md,references/source-audit.md,references/impact-and-acceptance.md,references/experiment-design.md",
+    "note": "保存图片0210 1765630585110929709-02.png 的 auth 验证边界；保存图片0210 1765630585110929709-02.png 的 cmd 验证边界；保存图片0210 1765630585110929709-02.png 的 source 验证边界；保存图片0210 1765630585110929709-02.png 的 impact 验证边界；保存图片0210 1765630585110929709-02.png 的 experiment 验证边界"
+  },
+  "16": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/by-type/authn-session.md,references/by-type/info-secrets.md,references/scope-and-rules.md",
+    "note": "保存图片0210 1765679740613284310-02.jpg 的 passive 验证边界；保存图片0210 1765679740613284310-02.jpg 的 auth 验证边界；保存图片0210 1765679740613284310-02.jpg 的 secret 验证边界；保存图片0210 1765679740613284310-02.jpg 的 scope 验证边界"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/by-type/graphql.md,references/business-modeling.md,references/by-type/info-secrets.md,references/experiment-design.md",
+    "note": "保存图片0210 1765694169786302612-02.jpg 的 access 验证边界；保存图片0210 1765694169786302612-02.jpg 的 graphql 验证边界；保存图片0210 1765694169786302612-02.jpg 的 business 验证边界；保存图片0210 1765694169786302612-02.jpg 的 secret 验证边界；保存图片0210 1765694169786302612-02.jpg 的 experiment 验证边界"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/source-audit.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "保存正文0210：README 文件名不决定秘密属性（secret）；保存正文0210：README 文件名不决定秘密属性（source）；保存正文0210：README 文件名不决定秘密属性（web）；保存图片0210 1765719388374831376-02.png 的 secret 验证边界；保存图片0210 1765719388374831376-02.png 的 web 验证边界；保存图片0210 1765719388374831376-02.png 的 source 验证边界；保存图片0210 1765719388374831376-02.png 的 experiment 验证边界"
+  },
+  "20": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存正文0210：代理上传筛选只覆盖已捕获的匹配流量（files）；保存正文0210：代理上传筛选只覆盖已捕获的匹配流量（web）；保存正文0210：代理上传筛选只覆盖已捕获的匹配流量（records）；保存正文0210：代理上传筛选只覆盖已捕获的匹配流量（experiment）；保存图片0210 1765738421816119583-02.png 的 files 验证边界；保存图片0210 1765738421816119583-02.png 的 web 验证边界；保存图片0210 1765738421816119583-02.png 的 records 验证边界；保存图片0210 1765738421816119583-02.png 的 experiment 验证边界"
+  },
+  "21": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/business-modeling.md,references/by-type/authn-session.md,references/experiment-design.md",
+    "note": "保存图片0210 1765769589223211428-02.jpg 的 access 验证边界；保存图片0210 1765769589223211428-02.jpg 的 business 验证边界；保存图片0210 1765769589223211428-02.jpg 的 auth 验证边界；保存图片0210 1765769589223211428-02.jpg 的 experiment 验证边界"
+  },
+  "22": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md,references/reporting.md,references/experiment-design.md",
+    "note": "保存正文0210：Blind 服务通知需要独立确认执行主体（xss）；保存正文0210：Blind 服务通知需要独立确认执行主体（records）；保存正文0210：Blind 服务通知需要独立确认执行主体（scope）；保存图片0210 1765777986471760196-02.jpg 的 xss 验证边界；保存图片0210 1765777986471760196-02.jpg 的 records 验证边界；保存图片0210 1765777986471760196-02.jpg 的 report 验证边界；保存图片0210 1765777986471760196-02.jpg 的 experiment 验证边界"
+  },
+  "28": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/targeted-fuzzing.md",
+    "note": "既有图片0210 1765969444009120084-02.jpg 的 passive 来源绑定；既有图片0210 1765969444009120084-02.jpg 的 records 来源绑定；既有图片0210 1765969444009120084-02.jpg 的 fuzz 来源绑定"
+  },
+  "29": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/source-audit.md,references/discovery/client-and-cloud.md,references/experiment-design.md",
+    "note": "保存正文0210：百分号与加号载荷的上下文须先确定（xss）；保存正文0210：百分号与加号载荷的上下文须先确定（source）；保存正文0210：百分号与加号载荷的上下文须先确定（client）；保存正文0210：百分号与加号载荷的上下文须先确定（experiment）"
+  },
+  "32": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/business-modeling.md,references/impact-and-acceptance.md,references/reporting.md",
+    "note": "保存图片0210 1766008206806114457-02.jpg 的 auth 验证边界；保存图片0210 1766008206806114457-02.jpg 的 access 验证边界；保存图片0210 1766008206806114457-02.jpg 的 business 验证边界；保存图片0210 1766008206806114457-02.jpg 的 impact 验证边界；保存图片0210 1766008206806114457-02.jpg 的 report 验证边界"
+  },
+  "33": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/source-audit.md,references/experiment-design.md,references/discovery/records-and-incremental.md",
+    "note": "保存正文0210：UUIDv1 可推测性不等于对象授权失效（access）；保存正文0210：UUIDv1 可推测性不等于对象授权失效（source）；保存正文0210：UUIDv1 可推测性不等于对象授权失效（experiment）；保存正文0210：UUIDv1 可推测性不等于对象授权失效（records）"
+  },
+  "37": {
+    "dis": "merged",
+    "targets": "references/by-type/file-upload.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存正文0210：代理上传筛选只覆盖已捕获的匹配流量（files）；保存正文0210：代理上传筛选只覆盖已捕获的匹配流量（web）；保存正文0210：代理上传筛选只覆盖已捕获的匹配流量（records）；保存正文0210：代理上传筛选只覆盖已捕获的匹配流量（experiment）；保存图片0210 1766068097147142155-02.png 的 files 验证边界；保存图片0210 1766068097147142155-02.png 的 web 验证边界；保存图片0210 1766068097147142155-02.png 的 records 验证边界；保存图片0210 1766068097147142155-02.png 的 experiment 验证边界"
+  },
+  "38": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/source-audit.md,references/discovery/client-and-cloud.md,references/experiment-design.md,references/by-type/authn-session.md,references/discovery/passive-and-services.md,references/by-type/cmd-injection-rce.md,references/impact-and-acceptance.md",
+    "note": "保存图片0210 1766109117524173173-02.png 的 xss 验证边界；保存图片0210 1766109117524173173-02.png 的 source 验证边界；保存图片0210 1766109117524173173-02.png 的 client 验证边界；保存图片0210 1766109117524173173-02.png 的 experiment 验证边界；保存图片0210 1766109117524173173-03.jpg 的 source 验证边界；保存图片0210 1766109117524173173-03.jpg 的 auth 验证边界；保存图片0210 1766109117524173173-03.jpg 的 passive 验证边界；保存图片0210 1766109117524173173-03.jpg 的 experiment 验证边界；保存图片0210 1766109117524173173-04.jpg 的 xss 验证边界；保存图片0210 1766109117524173173-04.jpg 的 cmd 验证边界；保存图片0210 1766109117524173173-04.jpg 的 source 验证边界；保存图片0210 1766109117524173173-04.jpg 的 impact 验证边界；保存图片0210 1766109117524173173-04.jpg 的 experiment 验证边界"
+  },
+  "39": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/authn-session.md,references/by-type/info-secrets.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存图片0210 1766116864982176047-02.jpg 的 xss 验证边界；保存图片0210 1766116864982176047-02.jpg 的 auth 验证边界；保存图片0210 1766116864982176047-02.jpg 的 secret 验证边界；保存图片0210 1766116864982176047-02.jpg 的 records 验证边界；保存图片0210 1766116864982176047-02.jpg 的 experiment 验证边界"
+  },
+  "43": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图片0210 1766164897107235195-02.jpg 的 xss 验证边界；保存图片0210 1766164897107235195-02.jpg 的 client 验证边界；保存图片0210 1766164897107235195-02.jpg 的 source 验证边界；保存图片0210 1766164897107235195-02.jpg 的 experiment 验证边界"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/source-audit.md,references/discovery/client-and-cloud.md,references/experiment-design.md,references/impact-and-acceptance.md",
+    "note": "保存图片0210 1766207451357970467-02.jpg 的 secret 验证边界；保存图片0210 1766207451357970467-02.jpg 的 source 验证边界；保存图片0210 1766207451357970467-02.jpg 的 client 验证边界；保存图片0210 1766207451357970467-02.jpg 的 experiment 验证边界；保存图片0210 1766207451357970467-02.jpg 的 impact 验证边界"
+  },
+  "47": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/impact-and-acceptance.md,references/reporting.md",
+    "note": "保存正文0210：奖金与硬编码密码的有效权限分开记录（secret）；保存正文0210：奖金与硬编码密码的有效权限分开记录（impact）；保存正文0210：奖金与硬编码密码的有效权限分开记录（report）"
+  },
+  "48": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0210：真假 Cookie 测试不能跳过 SQL 语义（sql）；保存正文0210：真假 Cookie 测试不能跳过 SQL 语义（source）；保存正文0210：真假 Cookie 测试不能跳过 SQL 语义（experiment）"
+  },
+  "53": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/targeted-fuzzing.md,references/scope-and-rules.md",
+    "note": "保存图片0210 1766334600249475457-02.jpg 的 passive 验证边界；保存图片0210 1766334600249475457-02.jpg 的 records 验证边界；保存图片0210 1766334600249475457-02.jpg 的 fuzz 验证边界；保存图片0210 1766334600249475457-02.jpg 的 scope 验证边界"
+  },
+  "57": {
+    "dis": "corrected",
+    "targets": "references/cloud/container-k8s-security.md,references/source-audit.md,references/hunting-strategy.md,references/experiment-design.md",
+    "note": "保存图片0210 1766396444528046493-02.jpg 的 container 验证边界；保存图片0210 1766396444528046493-02.jpg 的 source 验证边界；保存图片0210 1766396444528046493-02.jpg 的 strategy 验证边界；保存图片0210 1766396444528046493-02.jpg 的 experiment 验证边界"
+  },
+  "58": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/targeted-fuzzing.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存正文0210：目录枚举的状态与正文差异需要联合判断（web）；保存正文0210：目录枚举的状态与正文差异需要联合判断（fuzz）；保存正文0210：目录枚举的状态与正文差异需要联合判断（records）；保存正文0210：目录枚举的状态与正文差异需要联合判断（experiment）"
+  },
+  "59": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/by-type/subdomain-takeover.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "保存正文0210：新证书与默认云页面是资产线索（passive）；保存正文0210：新证书与默认云页面是资产线索（records）；保存正文0210：新证书与默认云页面是资产线索（takeover）；保存正文0210：新证书与默认云页面是资产线索（scope）；保存图片0210 1766437668466921623-02.png 的 passive 验证边界；保存图片0210 1766437668466921623-02.png 的 records 验证边界；保存图片0210 1766437668466921623-02.png 的 scope 验证边界；保存图片0210 1766437668466921623-03.png 的 takeover 验证边界；保存图片0210 1766437668466921623-03.png 的 passive 验证边界；保存图片0210 1766437668466921623-03.png 的 scope 验证边界；保存图片0210 1766437668466921623-03.png 的 experiment 验证边界"
+  },
+  "62": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图片0210 1766884200874221633-02.jpg 的 sql 验证边界；保存图片0210 1766884200874221633-02.jpg 的 source 验证边界；保存图片0210 1766884200874221633-02.jpg 的 experiment 验证边界；既有图片0210 1766546433929253093-02.jpg 的 sql 来源绑定；既有图片0210 1766546433929253093-02.jpg 的 source 来源绑定；既有图片0210 1766546433929253093-02.jpg 的 experiment 来源绑定"
+  },
+  "64": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/by-type/info-secrets.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "保存图片0210 1766557016502497772-04.jpg 的 passive 验证边界；保存图片0210 1766557016502497772-04.jpg 的 secret 验证边界；保存图片0210 1766557016502497772-04.jpg 的 records 验证边界；保存图片0210 1766557016502497772-04.jpg 的 scope 验证边界"
+  },
+  "68": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/discovery/passive-and-services.md,references/targeted-fuzzing.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "保存图片0210 1766667797344711061-02.jpg 的 xss 验证边界；保存图片0210 1766667797344711061-02.jpg 的 passive 验证边界；保存图片0210 1766667797344711061-02.jpg 的 fuzz 验证边界；保存图片0210 1766667797344711061-02.jpg 的 records 验证边界；保存图片0210 1766667797344711061-02.jpg 的 scope 验证边界"
+  },
+  "78": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/discovery/web-and-api.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图片0210 1766832722075701529-02.jpg 的 secret 验证边界；保存图片0210 1766832722075701529-02.jpg 的 web 验证边界；保存图片0210 1766832722075701529-02.jpg 的 source 验证边界；保存图片0210 1766832722075701529-02.jpg 的 experiment 验证边界"
+  },
+  "84": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/source-audit.md",
+    "note": "保存正文0210：WordPress 插件目录解析须绑定响应格式（passive）；保存正文0210：WordPress 插件目录解析须绑定响应格式（records）；保存正文0210：WordPress 插件目录解析须绑定响应格式（source）"
+  },
+  "86": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/source-audit.md,references/experiment-design.md,references/by-type/host-header.md",
+    "note": "保存正文0210：来源 IP 头与 OTP 限速键需一起核验（auth）；保存正文0210：来源 IP 头与 OTP 限速键需一起核验（source）；保存正文0210：来源 IP 头与 OTP 限速键需一起核验（experiment）；保存正文0210：来源 IP 头与 OTP 限速键需一起核验（host）"
+  },
+  "87": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/business-modeling.md,references/experiment-design.md",
+    "note": "保存图片0210 1767030227769712851-02.jpg 的 auth 验证边界；保存图片0210 1767030227769712851-02.jpg 的 client 验证边界；保存图片0210 1767030227769712851-02.jpg 的 source 验证边界；保存图片0210 1767030227769712851-02.jpg 的 business 验证边界；保存图片0210 1767030227769712851-02.jpg 的 experiment 验证边界"
+  },
+  "90": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md,references/by-type/xss.md,references/discovery/records-and-incremental.md,references/experiment-design.md,references/source-audit.md,references/discovery/client-and-cloud.md",
+    "note": "保存图片0210 1767090849790435512-02.jpg 的 waf 验证边界；保存图片0210 1767090849790435512-02.jpg 的 xss 验证边界；保存图片0210 1767090849790435512-02.jpg 的 records 验证边界；保存图片0210 1767090849790435512-02.jpg 的 experiment 验证边界；保存图片0210 1767090849790435512-03.jpg 的 waf 验证边界；保存图片0210 1767090849790435512-03.jpg 的 xss 验证边界；保存图片0210 1767090849790435512-03.jpg 的 source 验证边界；保存图片0210 1767090849790435512-03.jpg 的 client 验证边界；保存图片0210 1767090849790435512-03.jpg 的 experiment 验证边界"
+  },
+  "92": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md,references/by-type/xss.md,references/source-audit.md,references/discovery/client-and-cloud.md,references/experiment-design.md,references/impact-and-acceptance.md",
+    "note": "保存正文0210：头像魔术字节与扩展检查不保证最终内容安全（files）；保存正文0210：头像魔术字节与扩展检查不保证最终内容安全（xss）；保存正文0210：头像魔术字节与扩展检查不保证最终内容安全（source）；保存正文0210：头像魔术字节与扩展检查不保证最终内容安全（client）；保存图片0210 1767123886745792692-02.jpg 的 files 验证边界；保存图片0210 1767123886745792692-02.jpg 的 xss 验证边界；保存图片0210 1767123886745792692-02.jpg 的 source 验证边界；保存图片0210 1767123886745792692-02.jpg 的 client 验证边界；保存图片0210 1767123886745792692-02.jpg 的 experiment 验证边界；保存图片0210 1767123886745792692-03.png 的 files 验证边界；保存图片0210 1767123886745792692-03.png 的 xss 验证边界；保存图片0210 1767123886745792692-03.png 的 client 验证边界；保存图片0210 1767123886745792692-03.png 的 impact 验证边界；保存图片0210 1767123886745792692-03.png 的 experiment 验证边界"
+  },
+  "96": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md,references/source-audit.md,references/scope-and-rules.md",
+    "note": "保存图片0210 1767158151022014538-02.jpg 的 records 验证边界；保存图片0210 1767158151022014538-02.jpg 的 source 验证边界；保存图片0210 1767158151022014538-02.jpg 的 scope 验证边界"
+  },
+  "98": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/by-type/lfi-path-traversal.md,references/source-audit.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "保存正文0210：Symfony debug 文件入口有部署与文件范围条件（secret）；保存正文0210：Symfony debug 文件入口有部署与文件范围条件（lfi）；保存正文0210：Symfony debug 文件入口有部署与文件范围条件（source）；保存正文0210：Symfony debug 文件入口有部署与文件范围条件（web）；保存图片0210 1767179303811203259-02.png 的 secret 验证边界；保存图片0210 1767179303811203259-02.png 的 lfi 验证边界；保存图片0210 1767179303811203259-02.png 的 source 验证边界；保存图片0210 1767179303811203259-02.png 的 web 验证边界；保存图片0210 1767179303811203259-02.png 的 experiment 验证边界；保存图片0210 1788049274866983259-02.png 的 secret 验证边界；保存图片0210 1788049274866983259-02.png 的 lfi 验证边界；保存图片0210 1788049274866983259-02.png 的 source 验证边界；保存图片0210 1788049274866983259-02.png 的 web 验证边界；保存图片0210 1788049274866983259-02.png 的 experiment 验证边界"
+  },
+  "99": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/by-type/authn-session.md,references/experiment-design.md",
+    "note": "保存图片0210 1767196278637629900-02.jpg 的 xss 验证边界；保存图片0210 1767196278637629900-02.jpg 的 client 验证边界；保存图片0210 1767196278637629900-02.jpg 的 source 验证边界；保存图片0210 1767196278637629900-02.jpg 的 auth 验证边界；保存图片0210 1767196278637629900-02.jpg 的 experiment 验证边界"
+  },
+  "102": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md,references/by-type/graphql.md,references/source-audit.md,references/discovery/records-and-incremental.md",
+    "note": "保存图片0210 1767211858648346769-02.jpg 的 client 验证边界；保存图片0210 1767211858648346769-02.jpg 的 graphql 验证边界；保存图片0210 1767211858648346769-02.jpg 的 source 验证边界；保存图片0210 1767211858648346769-02.jpg 的 records 验证边界"
+  },
+  "103": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md,references/by-type/lfi-path-traversal.md,references/source-audit.md,references/discovery/web-and-api.md",
+    "note": "保存正文0210：Symfony debug 文件入口有部署与文件范围条件（secret）；保存正文0210：Symfony debug 文件入口有部署与文件范围条件（lfi）；保存正文0210：Symfony debug 文件入口有部署与文件范围条件（source）；保存正文0210：Symfony debug 文件入口有部署与文件范围条件（web）"
+  },
+  "105": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md,references/by-type/oauth-oidc.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0210：Moodle redirect_uri 需验证最终导航而非落地截图（redirect）；保存正文0210：Moodle redirect_uri 需验证最终导航而非落地截图（oauth）；保存正文0210：Moodle redirect_uri 需验证最终导航而非落地截图（source）；保存正文0210：Moodle redirect_uri 需验证最终导航而非落地截图（experiment）"
+  },
+  "106": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图片0210 1767242758262083605-02.jpg 的 sql 验证边界；保存图片0210 1767242758262083605-02.jpg 的 source 验证边界；保存图片0210 1767242758262083605-02.jpg 的 experiment 验证边界；保存图片0210 1767242758262083605-03.jpg 的 sql 验证边界；保存图片0210 1767242758262083605-03.jpg 的 source 验证边界；保存图片0210 1767242758262083605-03.jpg 的 experiment 验证边界"
+  },
+  "108": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/by-type/info-secrets.md,references/business-modeling.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图片0210 1767280013278347419-02.jpg 的 access 验证边界；保存图片0210 1767280013278347419-02.jpg 的 secret 验证边界；保存图片0210 1767280013278347419-02.jpg 的 business 验证边界；保存图片0210 1767280013278347419-02.jpg 的 source 验证边界；保存图片0210 1767280013278347419-02.jpg 的 experiment 验证边界"
+  },
+  "111": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/info-secrets.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图片0210 1767385207584227642-02.jpg 的 auth 验证边界；保存图片0210 1767385207584227642-02.jpg 的 secret 验证边界；保存图片0210 1767385207584227642-02.jpg 的 client 验证边界；保存图片0210 1767385207584227642-02.jpg 的 source 验证边界；保存图片0210 1767385207584227642-02.jpg 的 experiment 验证边界"
+  },
+  "112": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/by-type/info-secrets.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图片0210 1767385370520334509-02.jpg 的 access 验证边界；保存图片0210 1767385370520334509-02.jpg 的 secret 验证边界；保存图片0210 1767385370520334509-02.jpg 的 source 验证边界；保存图片0210 1767385370520334509-02.jpg 的 experiment 验证边界"
+  },
+  "113": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/by-type/info-secrets.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图片0210 1767385531506122941-02.jpg 的 auth 验证边界；保存图片0210 1767385531506122941-02.jpg 的 secret 验证边界；保存图片0210 1767385531506122941-02.jpg 的 client 验证边界；保存图片0210 1767385531506122941-02.jpg 的 source 验证边界；保存图片0210 1767385531506122941-02.jpg 的 experiment 验证边界"
+  },
+  "119": {
+    "dis": "corrected",
+    "targets": "references/by-type/deserialization-rce.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/impact-and-acceptance.md,references/experiment-design.md",
+    "note": "保存图片0210 1767400314833863156-02.jpg 的 deser 验证边界；保存图片0210 1767400314833863156-02.jpg 的 client 验证边界；保存图片0210 1767400314833863156-02.jpg 的 source 验证边界；保存图片0210 1767400314833863156-02.jpg 的 impact 验证边界；保存图片0210 1767400314833863156-02.jpg 的 experiment 验证边界"
+  },
+  "120": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/waf-bypass.md,references/source-audit.md,references/discovery/client-and-cloud.md,references/experiment-design.md",
+    "note": "保存正文0210：WAF 名称与三种语法不是通用绕过保证（xss）；保存正文0210：WAF 名称与三种语法不是通用绕过保证（waf）；保存正文0210：WAF 名称与三种语法不是通用绕过保证（source）；保存正文0210：WAF 名称与三种语法不是通用绕过保证（client）；保存正文0210：WAF 名称与三种语法不是通用绕过保证（experiment）"
+  },
+  "129": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/source-audit.md,references/discovery/client-and-cloud.md,references/by-type/authn-session.md,references/experiment-design.md",
+    "note": "保存正文0210：允许 Angular CDN 不等于自动绕过 CSP（xss）；保存正文0210：允许 Angular CDN 不等于自动绕过 CSP（source）；保存正文0210：允许 Angular CDN 不等于自动绕过 CSP（client）；保存正文0210：允许 Angular CDN 不等于自动绕过 CSP（auth）；保存正文0210：允许 Angular CDN 不等于自动绕过 CSP（experiment）"
+  },
+  "130": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/business-modeling.md,references/by-type/info-secrets.md,references/experiment-design.md",
+    "note": "保存图片0210 1767506034329849992-02.jpg 的 access 验证边界；保存图片0210 1767506034329849992-02.jpg 的 business 验证边界；保存图片0210 1767506034329849992-02.jpg 的 secret 验证边界；保存图片0210 1767506034329849992-02.jpg 的 experiment 验证边界"
+  },
+  "136": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md,references/by-type/authn-session.md,references/by-type/info-secrets.md,references/source-audit.md,references/experiment-design.md,references/cloud/cloud-misconfiguration.md,references/impact-and-acceptance.md",
+    "note": "保存图片0210 1767543566228914559-02.png 的 ssrf 验证边界；保存图片0210 1767543566228914559-02.png 的 auth 验证边界；保存图片0210 1767543566228914559-02.png 的 secret 验证边界；保存图片0210 1767543566228914559-02.png 的 source 验证边界；保存图片0210 1767543566228914559-02.png 的 experiment 验证边界；保存图片0210 1767543566228914559-03.png 的 ssrf 验证边界；保存图片0210 1767543566228914559-03.png 的 cloud 验证边界；保存图片0210 1767543566228914559-03.png 的 secret 验证边界；保存图片0210 1767543566228914559-03.png 的 source 验证边界；保存图片0210 1767543566228914559-03.png 的 impact 验证边界；保存图片0210 1767543566228914559-03.png 的 experiment 验证边界"
+  },
+  "138": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/targeted-fuzzing.md,references/scope-and-rules.md",
+    "note": "保存图片0210 1767546751106621474-02.jpg 的 passive 验证边界；保存图片0210 1767546751106621474-02.jpg 的 records 验证边界；保存图片0210 1767546751106621474-02.jpg 的 fuzz 验证边界；保存图片0210 1767546751106621474-02.jpg 的 scope 验证边界"
+  },
+  "140": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md,references/discovery/passive-and-services.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "保存正文0210：人工查 CNAME 要落到 provider 所有权条件（takeover）；保存正文0210：人工查 CNAME 要落到 provider 所有权条件（passive）；保存正文0210：人工查 CNAME 要落到 provider 所有权条件（scope）；保存正文0210：人工查 CNAME 要落到 provider 所有权条件（experiment）；保存图片0210 1767590595189408083-02.jpg 的 takeover 验证边界；保存图片0210 1767590595189408083-02.jpg 的 passive 验证边界；保存图片0210 1767590595189408083-02.jpg 的 scope 验证边界；保存图片0210 1767590595189408083-02.jpg 的 experiment 验证边界"
+  },
+  "142": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md,references/by-type/lfi-path-traversal.md,references/source-audit.md,references/discovery/web-and-api.md,references/experiment-design.md",
+    "note": "保存正文0210：Symfony debug 文件入口有部署与文件范围条件（secret）；保存正文0210：Symfony debug 文件入口有部署与文件范围条件（lfi）；保存正文0210：Symfony debug 文件入口有部署与文件范围条件（source）；保存正文0210：Symfony debug 文件入口有部署与文件范围条件（web）；保存图片0210 1767611425009058004-02.png 的 secret 验证边界；保存图片0210 1767611425009058004-02.png 的 lfi 验证边界；保存图片0210 1767611425009058004-02.png 的 source 验证边界；保存图片0210 1767611425009058004-02.png 的 web 验证边界；保存图片0210 1767611425009058004-02.png 的 experiment 验证边界"
+  },
+  "144": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/source-audit.md,references/experiment-design.md,references/impact-and-acceptance.md",
+    "note": "保存正文0210：延迟多上下文片段不能代替数据库消费证据（sql）；保存正文0210：延迟多上下文片段不能代替数据库消费证据（source）；保存正文0210：延迟多上下文片段不能代替数据库消费证据（experiment）；保存正文0210：延迟多上下文片段不能代替数据库消费证据（impact）"
+  },
+  "145": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/by-type/authn-session.md,references/discovery/web-and-api.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存正文0210：POST 改 GET 需保持同对象、主体及动作语义（access）；保存正文0210：POST 改 GET 需保持同对象、主体及动作语义（auth）；保存正文0210：POST 改 GET 需保持同对象、主体及动作语义（web）；保存正文0210：POST 改 GET 需保持同对象、主体及动作语义（source）；保存正文0210：POST 改 GET 需保持同对象、主体及动作语义（experiment）"
+  },
+  "146": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/source-audit.md,references/discovery/client-and-cloud.md,references/experiment-design.md,references/impact-and-acceptance.md",
+    "note": "保存正文0210：双反射反斜杠跨字段要按完整脚本解析（xss）；保存正文0210：双反射反斜杠跨字段要按完整脚本解析（source）；保存正文0210：双反射反斜杠跨字段要按完整脚本解析（client）；保存正文0210：双反射反斜杠跨字段要按完整脚本解析（experiment）；保存图片0210 1767648853334073368-02.jpg 的 xss 验证边界；保存图片0210 1767648853334073368-02.jpg 的 source 验证边界；保存图片0210 1767648853334073368-02.jpg 的 client 验证边界；保存图片0210 1767648853334073368-02.jpg 的 experiment 验证边界；保存图片0210 1767648853334073368-03.jpg 的 xss 验证边界；保存图片0210 1767648853334073368-03.jpg 的 source 验证边界；保存图片0210 1767648853334073368-03.jpg 的 client 验证边界；保存图片0210 1767648853334073368-03.jpg 的 experiment 验证边界；保存图片0210 1767648853334073368-04.jpg 的 xss 验证边界；保存图片0210 1767648853334073368-04.jpg 的 source 验证边界；保存图片0210 1767648853334073368-04.jpg 的 client 验证边界；保存图片0210 1767648853334073368-04.jpg 的 impact 验证边界"
+  },
+  "150": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/source-audit.md,references/discovery/web-and-api.md,references/discovery/records-and-incremental.md,references/impact-and-acceptance.md,references/experiment-design.md",
+    "note": "保存正文0210：Git 配置可读与完整历史恢复、活跃秘密不是同一结论（secret）；保存正文0210：Git 配置可读与完整历史恢复、活跃秘密不是同一结论（source）；保存正文0210：Git 配置可读与完整历史恢复、活跃秘密不是同一结论（web）；保存正文0210：Git 配置可读与完整历史恢复、活跃秘密不是同一结论（records）；保存正文0210：Git 配置可读与完整历史恢复、活跃秘密不是同一结论（impact）；保存图片0210 1767784071235534983-03.jpg 的 secret 验证边界；保存图片0210 1767784071235534983-03.jpg 的 source 验证边界；保存图片0210 1767784071235534983-03.jpg 的 web 验证边界；保存图片0210 1767784071235534983-03.jpg 的 impact 验证边界；保存图片0210 1767784071235534983-03.jpg 的 experiment 验证边界"
+  },
+  "151": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/discovery/passive-and-services.md,references/targeted-fuzzing.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "保存图片0210 1767794726516801888-02.png 的 xss 验证边界；保存图片0210 1767794726516801888-02.png 的 passive 验证边界；保存图片0210 1767794726516801888-02.png 的 fuzz 验证边界；保存图片0210 1767794726516801888-02.png 的 records 验证边界；保存图片0210 1767794726516801888-02.png 的 scope 验证边界"
+  },
+  "152": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/source-audit.md,references/discovery/client-and-cloud.md,references/experiment-design.md",
+    "note": "保存正文0210：script 结束标签由 HTML 分词而非 JS 引号决定（xss）；保存正文0210：script 结束标签由 HTML 分词而非 JS 引号决定（source）；保存正文0210：script 结束标签由 HTML 分词而非 JS 引号决定（client）；保存正文0210：script 结束标签由 HTML 分词而非 JS 引号决定（experiment）；既有图片0210 1767797128154206552-02.png 的 xss 来源绑定"
+  },
+  "154": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/business-modeling.md,references/scope-and-rules.md",
+    "note": "保存正文0210：隐藏功能探索保留产品与授权范围（passive）；保存正文0210：隐藏功能探索保留产品与授权范围（business）；保存正文0210：隐藏功能探索保留产品与授权范围（scope）"
+  },
+  "159": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md,references/by-type/file-upload.md,references/by-type/info-secrets.md,references/business-modeling.md,references/experiment-design.md",
+    "note": "保存图片0210 1767853310621385161-02.jpg 的 access 验证边界；保存图片0210 1767853310621385161-02.jpg 的 files 验证边界；保存图片0210 1767853310621385161-02.jpg 的 secret 验证边界；保存图片0210 1767853310621385161-02.jpg 的 business 验证边界；保存图片0210 1767853310621385161-02.jpg 的 experiment 验证边界"
+  },
+  "160": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md,references/source-audit.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "保存正文0210：AEM 公开默认账户列表只是配置审计线索（auth）；保存正文0210：AEM 公开默认账户列表只是配置审计线索（source）；保存正文0210：AEM 公开默认账户列表只是配置审计线索（scope）；保存正文0210：AEM 公开默认账户列表只是配置审计线索（experiment）"
+  },
+  "163": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md,references/source-audit.md,references/experiment-design.md,references/by-type/authn-session.md,references/discovery/records-and-incremental.md",
+    "note": "保存图片0210 1767920477245149468-03.jpg 的 sql 验证边界；保存图片0210 1767920477245149468-03.jpg 的 source 验证边界；保存图片0210 1767920477245149468-03.jpg 的 experiment 验证边界；保存图片0210 1767920477245149468-03.jpg 的 auth 验证边界；保存图片0210 1767920477245149468-04.jpg 的 sql 验证边界；保存图片0210 1767920477245149468-04.jpg 的 source 验证边界；保存图片0210 1767920477245149468-04.jpg 的 experiment 验证边界；保存图片0210 1767920477245149468-04.jpg 的 auth 验证边界；保存图片0210 1767920477245149468-05.png 的 sql 验证边界；保存图片0210 1767920477245149468-05.png 的 source 验证边界；保存图片0210 1767920477245149468-05.png 的 records 验证边界；保存图片0210 1767920477245149468-05.png 的 experiment 验证边界；保存图片0210 1767920477245149468-07.jpg 的 sql 验证边界；保存图片0210 1767920477245149468-07.jpg 的 source 验证边界；保存图片0210 1767920477245149468-07.jpg 的 records 验证边界；保存图片0210 1767920477245149468-07.jpg 的 experiment 验证边界"
+  },
+  "166": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md,references/by-type/xss.md,references/discovery/client-and-cloud.md,references/by-type/authn-session.md,references/experiment-design.md,references/by-type/info-secrets.md,references/source-audit.md,references/impact-and-acceptance.md,references/discovery/records-and-incremental.md",
+    "note": "保存图片0210 1767937980826845330-02.png 的 redirect 验证边界；保存图片0210 1767937980826845330-02.png 的 xss 验证边界；保存图片0210 1767937980826845330-02.png 的 client 验证边界；保存图片0210 1767937980826845330-02.png 的 auth 验证边界；保存图片0210 1767937980826845330-02.png 的 experiment 验证边界；保存图片0210 1767937980826845330-03.png 的 xss 验证边界；保存图片0210 1767937980826845330-03.png 的 auth 验证边界；保存图片0210 1767937980826845330-03.png 的 secret 验证边界；保存图片0210 1767937980826845330-03.png 的 source 验证边界；保存图片0210 1767937980826845330-03.png 的 impact 验证边界；保存图片0210 1767937980826845330-03.png 的 experiment 验证边界；保存图片0210 1767937980826845330-04.png 的 auth 验证边界；保存图片0210 1767937980826845330-04.png 的 secret 验证边界；保存图片0210 1767937980826845330-04.png 的 records 验证边界；保存图片0210 1767937980826845330-04.png 的 impact 验证边界"
+  },
+  "167": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md,references/by-type/info-secrets.md,references/discovery/web-and-api.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图片0210 1767943917159260289-02.jpg 的 cloud 验证边界；保存图片0210 1767943917159260289-02.jpg 的 secret 验证边界；保存图片0210 1767943917159260289-02.jpg 的 web 验证边界；保存图片0210 1767943917159260289-02.jpg 的 source 验证边界；保存图片0210 1767943917159260289-02.jpg 的 experiment 验证边界"
+  },
+  "168": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md,references/source-audit.md,references/experiment-design.md,references/discovery/records-and-incremental.md",
+    "note": "保存正文0210：回归测试以旧修复不变量和当前版本为锚点（strategy）；保存正文0210：回归测试以旧修复不变量和当前版本为锚点（source）；保存正文0210：回归测试以旧修复不变量和当前版本为锚点（experiment）；保存正文0210：回归测试以旧修复不变量和当前版本为锚点（records）"
+  },
+  "170": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md,references/by-type/file-upload.md,references/source-audit.md,references/experiment-design.md,references/discovery/web-and-api.md,references/impact-and-acceptance.md",
+    "note": "保存正文0210：filePath 与下载显示名必须分开审计（lfi）；保存正文0210：filePath 与下载显示名必须分开审计（files）；保存正文0210：filePath 与下载显示名必须分开审计（source）；保存正文0210：filePath 与下载显示名必须分开审计（experiment）；保存图片0210 1768012944875597838-02.jpg 的 lfi 验证边界；保存图片0210 1768012944875597838-02.jpg 的 files 验证边界；保存图片0210 1768012944875597838-02.jpg 的 source 验证边界；保存图片0210 1768012944875597838-02.jpg 的 web 验证边界；保存图片0210 1768012944875597838-02.jpg 的 experiment 验证边界；保存图片0210 1768012944875597838-03.png 的 lfi 验证边界；保存图片0210 1768012944875597838-03.png 的 files 验证边界；保存图片0210 1768012944875597838-03.png 的 source 验证边界；保存图片0210 1768012944875597838-03.png 的 impact 验证边界；保存图片0210 1768012944875597838-03.png 的 experiment 验证边界"
+  },
+  "171": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md,references/by-type/idor-access-control.md,references/by-type/file-upload.md,references/discovery/records-and-incremental.md,references/impact-and-acceptance.md",
+    "note": "保存图片0210 1768013957091008683-02.jpg 的 secret 验证边界；保存图片0210 1768013957091008683-02.jpg 的 access 验证边界；保存图片0210 1768013957091008683-02.jpg 的 files 验证边界；保存图片0210 1768013957091008683-02.jpg 的 records 验证边界；保存图片0210 1768013957091008683-02.jpg 的 impact 验证边界"
+  },
+  "173": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/by-type/waf-bypass.md,references/discovery/client-and-cloud.md,references/source-audit.md,references/experiment-design.md,references/discovery/records-and-incremental.md",
+    "note": "保存正文0210：连续两次编码输入不能凭顺序绕 CSP（xss）；保存正文0210：连续两次编码输入不能凭顺序绕 CSP（waf）；保存正文0210：连续两次编码输入不能凭顺序绕 CSP（client）；保存正文0210：连续两次编码输入不能凭顺序绕 CSP（source）；保存正文0210：连续两次编码输入不能凭顺序绕 CSP（experiment）；保存图片0210 1768108397763645728-02.jpg 的 xss 验证边界；保存图片0210 1768108397763645728-02.jpg 的 waf 验证边界；保存图片0210 1768108397763645728-02.jpg 的 client 验证边界；保存图片0210 1768108397763645728-02.jpg 的 records 验证边界；保存图片0210 1768108397763645728-02.jpg 的 experiment 验证边界"
+  },
+  "179": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md,references/targeted-fuzzing.md,references/source-audit.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存正文0210：Auto-Repeater URL 正则只生成待核输入（ssrf）；保存正文0210：Auto-Repeater URL 正则只生成待核输入（fuzz）；保存正文0210：Auto-Repeater URL 正则只生成待核输入（source）；保存正文0210：Auto-Repeater URL 正则只生成待核输入（records）；保存正文0210：Auto-Repeater URL 正则只生成待核输入（experiment）"
+  },
+  "181": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md,references/targeted-fuzzing.md,references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "保存正文0210：Dalfox 管线的输入与删选损失要显式记录（xss）；保存正文0210：Dalfox 管线的输入与删选损失要显式记录（fuzz）；保存正文0210：Dalfox 管线的输入与删选损失要显式记录（passive）；保存正文0210：Dalfox 管线的输入与删选损失要显式记录（records）；保存正文0210：Dalfox 管线的输入与删选损失要显式记录（scope）；保存图片0210 1768142739273928728-02.jpg 的 xss 验证边界；保存图片0210 1768142739273928728-02.jpg 的 passive 验证边界；保存图片0210 1768142739273928728-02.jpg 的 fuzz 验证边界；保存图片0210 1768142739273928728-02.jpg 的 scope 验证边界；保存图片0210 1768142739273928728-02.jpg 的 records 验证边界"
+  },
+  "183": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/by-type/authn-session.md,references/scope-and-rules.md,references/experiment-design.md",
+    "note": "保存图片0210 1768180987081490556-02.jpg 的 passive 验证边界；保存图片0210 1768180987081490556-02.jpg 的 auth 验证边界；保存图片0210 1768180987081490556-02.jpg 的 scope 验证边界；保存图片0210 1768180987081490556-02.jpg 的 experiment 验证边界"
+  },
+  "186": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/targeted-fuzzing.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "保存图片0210 1768203513883202010-02.jpg 的 passive 验证边界；保存图片0210 1768203513883202010-02.jpg 的 fuzz 验证边界；保存图片0210 1768203513883202010-02.jpg 的 records 验证边界；保存图片0210 1768203513883202010-02.jpg 的 scope 验证边界"
+  },
+  "187": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md,references/source-audit.md,references/discovery/records-and-incremental.md,references/experiment-design.md",
+    "note": "保存正文0210：已付费手工报告用于发现同根因候选（strategy）；保存正文0210：已付费手工报告用于发现同根因候选（source）；保存正文0210：已付费手工报告用于发现同根因候选（records）；保存正文0210：已付费手工报告用于发现同根因候选（experiment）"
+  },
+  "193": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md,references/by-type/authn-session.md,references/by-type/idor-access-control.md,references/by-type/ssrf.md,references/by-type/waf-bypass.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图片0210 1768296944848490797-02.jpg 的 web 验证边界；保存图片0210 1768296944848490797-02.jpg 的 auth 验证边界；保存图片0210 1768296944848490797-02.jpg 的 access 验证边界；保存图片0210 1768296944848490797-02.jpg 的 ssrf 验证边界；保存图片0210 1768296944848490797-02.jpg 的 waf 验证边界；保存图片0210 1768296944848490797-02.jpg 的 source 验证边界；保存图片0210 1768296944848490797-02.jpg 的 experiment 验证边界"
+  },
+  "197": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md,references/by-type/xss.md,references/by-type/cors.md,references/source-audit.md,references/experiment-design.md",
+    "note": "保存图片0210 1768353125679661090-02.png 的 client 验证边界；保存图片0210 1768353125679661090-02.png 的 xss 验证边界；保存图片0210 1768353125679661090-02.png 的 cors 验证边界；保存图片0210 1768353125679661090-02.png 的 source 验证边界；保存图片0210 1768353125679661090-02.png 的 experiment 验证边界"
+  },
+  "198": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md,references/by-type/xss.md,references/source-audit.md,references/targeted-fuzzing.md,references/discovery/records-and-incremental.md,references/impact-and-acceptance.md",
+    "note": "保存图片0210 1768379419851407403-02.jpg 的 ssrf 验证边界；保存图片0210 1768379419851407403-02.jpg 的 xss 验证边界；保存图片0210 1768379419851407403-02.jpg 的 source 验证边界；保存图片0210 1768379419851407403-02.jpg 的 fuzz 验证边界；保存图片0210 1768379419851407403-02.jpg 的 records 验证边界；保存图片0210 1768379419851407403-02.jpg 的 impact 验证边界"
+  },
+  "199": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md,references/scope-and-rules.md",
+    "note": "既有图片0210 1768380410529243395-02.jpg 的 passive 来源绑定；既有图片0210 1768380410529243395-02.jpg 的 records 来源绑定；既有图片0210 1768380410529243395-02.jpg 的 scope 来源绑定"
+  }
+}

@@ -1,0 +1,81 @@
+0|no_technical_content|report|RedBull饮料包礼物照片，无漏洞方法。
+1|distilled|source|FindModule枚举clr.dll，显示explorer/mmc/powershell PID；模块加载不证明句柄写权、直接syscall路径或隐蔽性。
+2|distilled|lfi,ssrf|GET basket url为双斜线etc/passwd，403 plain响应正文裁切；无文件字节或认证绕过证明。
+3|no_technical_content|source|八项课程标题目录；正文六项非通用alt已另读，没有教程步骤。
+4|distilled|container,source|Ubuntu18.04.2容器内root终端，用户态版本与容器身份不证明宿主权限。
+5|distilled|container,source|Tomcat6安装文件和root ls conf/web.xml，文件存在不证明服务活跃、有效配置或漏洞。
+6|distilled|container,source|CentOS4.9/glibc2.3.4而kernel4.9.125-linuxkit，发行版/库/运行内核为不同版本层。
+7|distilled|auth,source|impacket wmiexec密码提示和semi-interactive C盘shell，已有认证不证明未认证访问，未复制凭证或运行。
+8|insufficient_technical_detail|auth,report|High8.8 Resolved API key标题，缺读取响应、key主体和实际角色降级后动作。
+9|distilled|records|Burp Delete确认工程144GB；工程大小不证明64次爬取因果、请求数或内存，不删除文件。
+10|insufficient_technical_detail|takeover,report|两个Medium/Low Instagram失效链接报告标题，无平台分配、官方link和控制收据。
+11|insufficient_technical_detail|secret,access|约100用户PII的H1标题，无实际读取、身份或字段。
+12|insufficient_technical_detail|xss,secret|Apple表中419与遮挡记录/Initial Review，缺输入、存储、真实读者和授权，未猜遮挡字段。
+13|no_technical_content|source|BB-SH-B仓库卡片，无具体文章方法。
+14|insufficient_technical_detail|xss,report|50欧奖励邮件与值得修复表述，缺HTML输入消费者和修复复测，不复制支付地址。
+15|insufficient_technical_detail|xss,report|第一张品牌页面弹窗裁切图，缺原始输入和调用栈，不能由弹窗推出独立根因。
+16|insufficient_technical_detail|xss,report|第二张品牌页面弹窗裁切图，缺同次请求和真实消费者，不由四图补五个漏洞。
+17|insufficient_technical_detail|xss,report|第三张品牌页面弹窗裁切图，无源和上下文；已有弹窗不足以证明工具成功率。
+18|insufficient_technical_detail|xss,report|第四张品牌页面弹窗裁切图，仍缺输入与权限，未计独立第五条链。
+19|no_technical_content|strategy|bug hunting梗图，没有技术内容。
+20|no_technical_content|source|Scorecards机器人与10分封面，没有实际配置与收据。
+21|distilled|sql,xxe,source|XML productId插入SQL @@version候选，载体为XML不代表外部实体，缺响应或数据库求值。
+22|distilled|sql,xxe,source|同类XML SQL字符串出现弯引号，原始输入可能XML格式错误；不默默修正并执行，分解析和查询层。
+23|no_technical_content|auth,source|The Bastion Logo，无认证配置。
+24|distilled|records,fuzz|parallel --colsep、10jobs、target字段1/3及同字段输出文件、critical/high/medium过滤；路径丢弃、碰撞与叠加并发影响分母。
+25|no_technical_content|source|Nexfil封面，无具体流程。
+26|no_technical_content|source|赠品获奖名单，无技术内容。
+27|distilled|references/by-type/jwt.md,auth|JWT工具HS256菜单与valid input，格式/解码不是服务器签名有效；token可见但未复制或使用。
+28|insufficient_technical_detail|source,auth|RemotePotato0桌面与空终端，没有实际调用、前置权限或提权输出。
+29|insufficient_technical_detail|xss,report|第一条300美元Medium XSS报告摘要，无username/password真实输出消费者。
+30|insufficient_technical_detail|xss,report|第二条300美元Medium XSS报告摘要，奖励总额不补请求和独立根因。
+31|distilled|source,report|Avast认可图实际写outdated IIS；正文info leak标签不代实际版本、配置或CVE命中。
+32|distilled|secret,records|AEM .json的sling OrderedFolder/damBatch及示例主题元数据，URL遮挡；无完整私有文件、身份、前图或耗时。
+33|no_technical_content|auth|2FA手机装饰图，没有认证状态变化。
+34|distilled|records,fuzz|转义点到换行、sort -u和tee -a的管道截图；单次unique不去累积重复，保留原始label和每次来源。
+35|insufficient_technical_detail|auth,report|300欧balance/payment图，无源码或ATO认证链，未复制支付信息。
+36|insufficient_technical_detail|source,xss|XSS徽章和CVE标签，无实际插件版本、输入或修复收据。
+37|no_technical_content|report|第一张Ivanti衬衫照片，无方法。
+38|no_technical_content|report|第二张Ivanti衬衫照片，无漏洞数量证据。
+39|distilled|secret,source|Laravel env示例localhost、空APP_KEY、默认样式DB字段及遮挡mail；配置不是生产可用凭证，值未复制或使用。
+40|distilled|source|DcRat1.0.5 listener8848 Online0、收发0；监听不证明客户端控制、感染或执行权限。
+41|no_technical_content|source|Salesforce Part2封面，无具体实现。
+42|no_technical_content|auth|电视访谈与factor1玩笑，无认证方法。
+43|no_technical_content|strategy|欧洲安全就业薪酬宣传封面，缺可核对统计或技术方法。
+44|distilled|passive,scope|DNSrr AXFR zonetransfer.me的NS/A/AAAA/PTR/HINFO和TTL，训练zone结果不等于任意DNS漏洞或全部记录覆盖。
+45|insufficient_technical_detail|auth,report|Resolved Info Disclosure 3300美元卡片配stuffing描述，无实际凭证或认证重放证据。
+46|distilled|auth,source|msDS-KeyCredentialLink更新和证书生成日志仅提示下一步可运行Rubeus；尚非TGT认证成功，证书/密码未复制或使用。
+47|distilled|xss,redirect|email HTML双斜线处理后mailto方案，HTML链接与脚本执行分开，实际客户端scheme和点击消费者另证。
+48|distilled|doc,xss|messagehistory TXT响应内JS/PHP样式文本与ContentLength，完整MIME/Content-Disposition/文件名缺失；文本不证执行。
+49|distilled|sql,xss|DB static_pages_content正常字段箭头提示注入，无实际注入；查询读、写行与其他读者渲染权限独立。
+50|distilled|scope,report|Shopify邮件一次例外奖励且未来排除店铺，旧例外不能作为当前范围或弱密码普遍漏洞。
+51|distilled|fuzz,source|Wpscvn WP4.9.8与插件名称、145626 total attacks及Shell exploit链接；缺插件版本和成功命中，不运行批量攻击。
+52|distilled|cmd,secret|YApi mock路径显示passwd样式文本；固定mock与实际读取/执行需动态因果区分，没有命令运行收据。
+53|no_technical_content|source|Synack课程99%证书，无具体方法。
+54|insufficient_technical_detail|sql,report|SQLi Accepted Critical 2500美元与饼图，无输入和数据库消费者。
+55|insufficient_technical_detail|access,auth|很小的200请求与遮挡JSON图，原图实际看过仍不可读具体字段；无双身份对象和ATO链，不猜小字。
+56|no_technical_content|source|THM七日徽章，无实验步骤。
+57|insufficient_technical_detail|report,secret|Microsoft2021 OnlineServices致谢页，无info/DoS技术机制。
+58|distilled|xss,redirect|与47同样内容但另一哈希图片已独立查看；mailto链接方案变化仍不证明JS消费者。
+59|insufficient_technical_detail|source|通用Red Team攻击生命周期图，没有所述硬件工具操作或实际授权/因果收据。
+60|distilled|records,fuzz|与24同样内容的另一哈希原图已看；列分隔、重复文件、路径与severity分母仍独立记录。
+61|distilled|scope,records|bbscope public-only混合域/仓库/包/移动应用结果，原token未复制；输出类型、规则版本、actor读权不代动作授权。
+62|no_technical_content|experiment|Ventoy多个ISO启动菜单，未见实际启动和隔离验证。
+63|distilled|sql,records|sqlmap resumed旧session、已有Cookie、PostgreSQL11.7及Nexpose<=6.6.48标签；缓存/DB版本不代当前产品身份，Cookie未复制。
+64|distilled|sql,records,experiment|212查询3460.94秒、24次HTTP500和遮挡currentDB/storedlogs，非成对时序或全库dump证据。
+65|insufficient_technical_detail|report|PayPal1150美元截图，缺RXSS/CORS/ATO各自机制，未使用支付信息。
+66|no_technical_content|source|Epic Bounties2021年7月16日发布会日程第一图，不是当前时间计划或方法。
+67|no_technical_content|source|旧发布会日程第二图，没有漏洞技术内容。
+68|distilled|source,experiment|Win7/8缓解支持表含SafeUnlink/NX/SMEP等引用，OS支持表不证明当前架构、配置、启用或攻击成功。
+69|distilled|records,scope|NEXT_PAGE获取、getScope、Thread.start和CSV片段及public skip日志；裁切不补线程join/错误处理，翻页终止不保证全部输出完成。
+70|no_technical_content|secret,source|装饰医疗保险图，无PII读取证据。
+71|no_technical_content|source|Whoami Logo与最高隐私宣传，无匿名流量或身份对照。
+72|insufficient_technical_detail|access,report|Critical9.8 Resolved跨租户邀请标题，缺issuer、接受后membership和最终权限响应。
+73|no_technical_content|source,ssrf|Shockwave OSS卡片而帖称BountyTricks SSRF，卡片不补同一算法、版本或执行结果。
+74|no_technical_content|source|Bughound Logo，无静态分析代码路径。
+75|no_technical_content|report|H1礼物袋照片，无方法。
+76|distilled|container,source|Cilium Pods/CNI至kernel eBPF、policy/logging/metrics架构图，不证明真实附着、身份标签或有效规则覆盖。
+77|distilled|access,fuzz|Go403Bypass1.0.2路径13项403/404、header9项全403，未见成功200；候选覆盖和实际越权分别计。
+78|distilled|source,experiment|DNSStager生成编译/ServerStarted日志与help输出，无制品哈希、接收或执行收据，小字不猜，不执行命令。
+79|distilled|fuzz,records|Burp Intruder处理菜单Hash高亮、payload/request0且URL encode勾选；菜单展示不证明选中规则或发起攻击，按实际wire字节核对顺序。
+80|no_technical_content|source,fuzz|byp4xx Go仓库卡片2k stars与正文Python release描述不一致，没有实际模板、UA或成功输出。

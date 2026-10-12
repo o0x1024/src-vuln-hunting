@@ -1,0 +1,186 @@
+[
+  {
+    "name": "1790627550991176136-02.jpg",
+    "sha256": "91e3e47dde3bb28e5b6972dca40cfedd73674497d963629892bd8832db5549de",
+    "prior": {
+      "sha256": "91e3e47dde3bb28e5b6972dca40cfedd73674497d963629892bd8832db5549de",
+      "example_post_id": "1789476666789818487",
+      "image_name": "1789476666789818487-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/sql-injection.md",
+        "references/by-type/authn-session.md",
+        "references/by-type/info-secrets.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md"
+      ],
+      "note": "原始 GET /menu 请求在 Cookie 的 HACKERMAN 值放置 * 标记，另含长 session 值。* 是工具自定义注入位置而非 HTTP 通配机制；请求中的凭据不转录/使用。离线惰性 cookie 值与准确字段位置比较，追踪 cookie 解析、签名/认证和数据库消费者，标记本身不证明注入。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:24:57.552Z",
+      "batch": "media-0211"
+    },
+    "rehash_at": "2026-10-11T17:39:27.492657+00:00"
+  },
+  {
+    "name": "1790627550991176136-03.jpg",
+    "sha256": "b13a5748d5501f773eda5cd2e16ee36f1ed503a59a52c7ec0cf9db45a236aa86",
+    "prior": {
+      "sha256": "b13a5748d5501f773eda5cd2e16ee36f1ed503a59a52c7ec0cf9db45a236aa86",
+      "example_post_id": "1789476666789818487",
+      "image_name": "1789476666789818487-03.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/sql-injection.md",
+        "references/targeted-fuzzing.md",
+        "references/by-type/authn-session.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "sqlmap 日志称 custom HEADER Cookie #1* 可能 MySQL/time-based injectable，同时发生 302 到本地根、询问 URI 注入与 cookie 编码。需区分各注入位置、重定向后会话及规则，工具结果缺少原始时序对照；离线保留原始请求结构、真/假非延迟条件及失败基线，不运行 sleep/枚举。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:24:57.574Z",
+      "batch": "media-0211"
+    },
+    "rehash_at": "2026-10-11T17:39:27.492894+00:00"
+  },
+  {
+    "name": "1790627550991176136-04.jpg",
+    "sha256": "9c9daf0291186a215d4cff493675667080dc9e0d13efe7738367a7f262c564d1",
+    "prior": {
+      "sha256": "9c9daf0291186a215d4cff493675667080dc9e0d13efe7738367a7f262c564d1",
+      "example_post_id": "1789476666789818487",
+      "image_name": "1789476666789818487-04.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/sql-injection.md",
+        "references/targeted-fuzzing.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "完成日志声称 Cookie 时间盲注，URI 不可注入，共 1,139 请求但 1,097 为 404、4 为 500，只有工具分类而无时序原始样本。大量错误与路由变化削弱因果推断，cookie 和 URI 必须独立验证；离线查询绑定、固定负例与重复惰性条件比较，不复制载荷或凭此识别真实 DB/权限。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:24:57.597Z",
+      "batch": "media-0211"
+    },
+    "rehash_at": "2026-10-11T17:39:27.492896+00:00"
+  },
+  {
+    "name": "1790867307473817735-02.png",
+    "sha256": "5e2a39a904958bb8eff1da0d6ce11e5850ac88c19cd8755e8f5b1cd8e25e5054",
+    "prior": {
+      "sha256": "5e2a39a904958bb8eff1da0d6ce11e5850ac88c19cd8755e8f5b1cd8e25e5054",
+      "example_post_id": "1780971462934859791",
+      "image_name": "1780971462934859791-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/cloud/container-k8s-security.md",
+        "references/source-audit.md",
+        "references/by-type/cmd-injection-rce.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "保存终端由本机 docker exec 查看容器根目录，含 .dockerenv 与 login.jar。容器列表中文件属于 root 不证明当前执行身份，也不证明 SSH、数据库访问、容器逃逸或远程未授权执行。离线比较宿主/容器命名空间、调用身份、授权操作及目标文件实际消费者；文件名/权限输出只是局部证据，不运行 exec、读取 jar 或扩展原文侵入链。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T16:29:10.428Z",
+      "batch": "media-0209"
+    },
+    "rehash_at": "2026-10-11T17:39:27.492901+00:00"
+  },
+  {
+    "name": "1791056392956354740-02.jpg",
+    "sha256": "90cadf19d926d78a038f08cc1e12a317bb1f4ea76894c59b4a516d14a0782a9f",
+    "prior": {
+      "sha256": "90cadf19d926d78a038f08cc1e12a317bb1f4ea76894c59b4a516d14a0782a9f",
+      "example_post_id": "1758365147712676100",
+      "image_name": "1758365147712676100-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/lfi-path-traversal.md",
+        "references/source-audit.md",
+        "references/experiment-design.md"
+      ],
+      "note": "CyberTix图普通../../etc/passwd403与双编码200，只有payload文字无正文。应追踪各hop解码和规范化后文件consumer，own固定文件nonce对照fallback200及归根拒绝负例；不把状态差异当文件读取，不运行路径请求或读系统文件。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T13:05:19.154Z",
+      "batch": "media-0201"
+    },
+    "rehash_at": "2026-10-11T17:39:27.492906+00:00"
+  },
+  {
+    "name": "1791351069962056081-02.jpg",
+    "sha256": "14e5040ac57d7e7e1c4ecff5132102853f9e7402c8d4810c2151cbb00744df53",
+    "prior": {
+      "sha256": "14e5040ac57d7e7e1c4ecff5132102853f9e7402c8d4810c2151cbb00744df53",
+      "example_post_id": "1297048141523324930",
+      "image_name": "1297048141523324930-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整JSFScan仓库宣传/统计无代码消费者/测试或完整覆盖证明",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T06:07:52.213725+00:00",
+      "batch": "media-0040"
+    },
+    "rehash_at": "2026-10-11T17:39:27.492911+00:00"
+  },
+  {
+    "name": "1791482304717897771-02.jpg",
+    "sha256": "d2a2879a82834577b84f27472070951580b20f11a987dc238c696b62a9b84470",
+    "prior": {
+      "sha256": "d2a2879a82834577b84f27472070951580b20f11a987dc238c696b62a9b84470",
+      "example_post_id": "1689728814987776000",
+      "image_name": "1689728814987776000-02.jpg",
+      "disposition": "insufficient_technical_detail",
+      "targets": [],
+      "note": "API-Wordlist仓库预览，没有词条或有效端点。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T04:25:15.964Z",
+      "batch": "media-0180"
+    },
+    "rehash_at": "2026-10-11T17:39:27.492918+00:00"
+  },
+  {
+    "name": "1792198030332203300-02.jpg",
+    "sha256": "14e5040ac57d7e7e1c4ecff5132102853f9e7402c8d4810c2151cbb00744df53",
+    "prior": {
+      "sha256": "14e5040ac57d7e7e1c4ecff5132102853f9e7402c8d4810c2151cbb00744df53",
+      "example_post_id": "1297048141523324930",
+      "image_name": "1297048141523324930-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "完整JSFScan仓库宣传/统计无代码消费者/测试或完整覆盖证明",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T06:07:52.213725+00:00",
+      "batch": "media-0040"
+    },
+    "rehash_at": "2026-10-11T17:39:27.492921+00:00"
+  },
+  {
+    "name": "1792297337009680430-02.jpg",
+    "sha256": "ad59c619c67cd8f4ee1c6b0e3cdc9e32678328aa46694ecfea58cb05f1ec2344",
+    "prior": {
+      "sha256": "ad59c619c67cd8f4ee1c6b0e3cdc9e32678328aa46694ecfea58cb05f1ec2344",
+      "example_post_id": "1788468033867993177",
+      "image_name": "1788468033867993177-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/web-and-api.md",
+        "references/by-type/file-upload.md",
+        "references/by-type/lfi-path-traversal.md",
+        "references/by-type/info-secrets.md",
+        "references/source-audit.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "app_dev.php/_profiler/open?file=app/config/parameters.yml 页面显示数据库、SMTP 与 secret 配置键，值遮挡。保存画面支持配置内容展示，但没有匿名基线或任意文件读能力；区分 profiler 展示/IDE 打开与通用 LFI。离线用虚拟配置和拒绝路径对照身份、环境与路径允许列表，不使用秘密、枚举文件或推断配置仍有效。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:22:31.195Z",
+      "batch": "media-0211"
+    },
+    "rehash_at": "2026-10-11T17:39:27.492924+00:00"
+  }
+]

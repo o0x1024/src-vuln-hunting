@@ -1,0 +1,55 @@
+0|insufficient_technical_detail|auth,sql,report|Adminer/Internal Access RCE标题P1 Triaged，仅流程与评估状态，不见默认登录/数据库/命令执行证据。
+1|distilled|auth,source|Jira8.14.0页面Log In及匿名头，JSON viewHtml含用户显示名；请求会话字段未见不补彻底匿名证明，版本与官方修复清单/匿名权限分别核对，未抄session值。
+2|distilled|auth,fuzz|Intruder行200同536长度，选中JSON错误-32000/ErrResetPasswordTooManyRequests；实际业务拒绝与HTTP成功不同，不证明OTP绕过或所有行同正文。
+3|distilled|android,secret,scope|APKLeaks、jq和LinkFinder候选示意并写add targetscope；静态链接/secret标签与当前消费者/秘密有效性/正式范围不同，没有运行或输出实体证明。
+4|distilled|android,secret,scope|不同哈希缩放APKLeaks同类图，沿候选来源/版本/消费者/授权处理，不作为独立扫描成果。
+5|distilled|android,secret,scope|较大APKLeaks流程图仍无实际秘密或访问结果，不能把静态候选自动加scope。
+6|no_technical_content|strategy|Intigriti欧洲排名宣传图，无漏洞机制，也不认当前排名事实。
+7|distilled|cloud,records,source|Azure/AWS实验拓扑含子网、管理端口、遥测代理和前端地址；图不证明实际SG/NSG/隔离/存活，所有可见凭据值省略且未访问。
+8|no_technical_content|strategy|个人档案和粉丝数，无可提炼漏洞机制。
+9|distilled|ssrf,records|Discord机器人同相关标记DNS AAAA和HTTP日志，源IP不同，解析源与访问源/原触发请求分别绑定；不补唯一目标SSRF或云读取，未发消息/部署。
+10|insufficient_technical_detail|xss,report|600美元pending processing奖励邮件，只显示作者的存储XSS标题，不含输入/管理员触发/Cookie外传或到账证明。
+11|distilled|ios,source|Mach-O头/加载命令/类方法/字符串/符号/签名与FAT/ARM/ARM64结构图，hooklbs规则匹配是分类线索，需可信基线/实际解析/动态证据，不能自动认恶意或安全。
+12|no_technical_content|passive,source|2021全面子域枚举指南封面，无具体方法或覆盖证据。
+13|distilled|ssrf,records|Taborator同相关标记1HTTP/2DNS行，IP遮盖，无原始触发请求/metadata内容或PII，事件数不等于漏洞数。
+14|insufficient_technical_detail|auth,report|200美元收款通知与captcha注册描述分离，遮盖付款方/原因不能补验证token或实际防护策略。
+15|no_technical_content|source|purl仓库卡片和星/分叉数，无解析机制或执行证据。
+16|no_technical_content|cloud,source|Nebula Logo，无云权限或执行机制。
+17|no_technical_content|source|价格/试用/支持对话，无安全机制；不把历史价格当当前事实。
+18|no_technical_content|android,source|App stopped封面为装饰，不含RE/SQL/HTML注入或接管链。
+19|distilled|secret,container,source|Compose图mysql5.7/phpmyadmin/WordPress环境字段、端口、卷、网络，大部分值遮盖；变量名不证明有效秘密，容器配置不证明当前主机暴露或下载。
+20|no_technical_content|source|pyWhat标志Identify anything，仅宣传没有准确率/识别机制。
+21|no_technical_content|strategy|Bug Bounty Sunday's直播封面，无侦察过程。
+22|no_technical_content|strategy|另一哈希尺寸直播封面，同宣传不作独立技术结果。
+23|distilled|passive,records|EmailFinder v0.2.2b称37结果但YandexException机器人错误；成功/失败引擎与去重分母分别保留，邮箱字符串不证当前有效/全面，不复制或联系。
+24|insufficient_technical_detail|csrf,report|APNIC2021致谢名单仅承认披露，不含CSRF机制、受害身份或动作。
+25|no_technical_content|csrf,source|JSON POST exploitation封面，未显示Content-Type/CORS/CSRF机制。
+26|no_technical_content|source|pfSense安装欢迎菜单Install/Rescue/Recover，只是配置界面，无安全结果。
+27|insufficient_technical_detail|source|斜视Reverse Shell UI列Bash/Netcat/PHP和copy按钮，仅工具界面，无实际生成/连接/执行或权限证明。
+28|insufficient_technical_detail|access,report|信息披露报告Medium受理与金额遮盖，无users/ID响应或对象授权矩阵。
+29|insufficient_technical_detail|ssrf,report|192.85EUR付款图没有SSRF请求/回连/范围，奖励不补机制或稳定收益。
+30|no_technical_content|redirect,source|Open Redirect课程播放封面无跳转/校验链。
+31|distilled|passive,records,scope|DoD抓取编辑器显示domains.copy/循环/写full2.txt及模糊输出；截图不证明完整抓取、合法资产或授权，未执行代码。
+32|insufficient_technical_detail|source|Defenseless登录/注册/重置UI没有漏洞或试验身份，仅功能入口。
+33|insufficient_technical_detail|source,report|Server Misconfiguration Directory Enum受理153美元邮件，缺Sling/AEM路径和配置，不按产品观点补机制。
+34|distilled|strategy,experiment,report|七阶段方法图含预定范围、侦察、分析、验证、风险、报告、optional复测；阶段是契约/交付提醒，不是完成证明，声称修复需要实际复测。
+35|no_technical_content|auth,source|钥匙/二进制装饰图，无PII IDOR或重置链。
+36|insufficient_technical_detail|secret,auth,csrf|HackerOne Triaged DEBUG=True管理员邮箱标题仅流程，缺原始调试响应字段；不能据评估状态断言所有Django配置。
+37|no_technical_content|fuzz,source|Adding Scanner Rules Tip19/30封面，没有规则表达式/设置或扫描结果。
+38|distilled|passive,records|recon.sh帮助列域名/词表必需、GitHub/Shodan密钥缺失跳过扫描；help和功能列表不是执行完成，跳过/失败须保留分母，未复制key或运行。
+39|distilled|access,waf,records|同路径Referer三值403/403/200但响应时间不同且200正文未示，需身份、时点、缓存/路由及受保护对象真实权限，状态差不补授权绕过。
+40|no_technical_content|expert,source|绿色终端装饰人物图，无可读攻击模型或实际路径验证。
+41|distilled|secret,source|.swap/Vim -r与strings|head建议把system memory泛化；扩展名不证Vim/VM格式、片段不证完整源码，未打开恢复编辑器或执行来源。
+42|distilled|secret,source|另一尺寸同swap建议图仍需格式/制品哈希/恢复范围，不作独立漏洞。
+43|distilled|source,records|Instant Data Scraper显示1页25行等待Next或crawl；Copy ALL含义是当前集合，不保证全部公开历史/私密报告正文，未装扩展或采集网站。
+44|distilled|source,records|TChopper概念图服务显示名存base64片段、CreateService及服务可执行消费者；数据字段→权限→重组完整性→启动执行分别需证据，不补横移成功，未执行。
+45|insufficient_technical_detail|ssrf,report|500金额/26.31费用/473.69净額付款图无SSRF或端口探测机制/结果。
+46|distilled|secret,auth,csrf,records|Intruder HEAD200/OPTIONS200/TRACE405/POST与多其他方法403，选中POST请求无Referer可见；不同handler/CSRF与HTTP方法需区分，未复制Cookie/发起方法请求。
+47|distilled|secret,auth,csrf|同轮POST响应为CSRF验证失败，荷兰文提示更多信息在DEBUG=True；文字不证明debug已开、更不补管理员邮箱泄露，实际模板/定制view须核对。
+48|no_technical_content|strategy|Codec Networks Logo，无漏洞机制。
+49|no_technical_content|strategy,scope|Bug Bounty服务广告和联系方式无正式项目授权/赏金保证，不联系发布者。
+50|no_technical_content|source|Gundog ASCII横幅，无M365权限、检测机制或实际输出。
+51|distilled|android,records|DER→PEM和subject_hash_old、样例CA名、system/cacerts/chmod644/remount/reboot串；host/device命令身份与版本需分开，成功安装不证App信任/解密，未操作设备。
+52|distilled|experiment,report,source|Ugly Duck模糊JSON片段有firing-range/reflected路径与response/logging条件；只证明示意配置，字段全文/真实consumer/positive-negative轨迹缺失，不称5–10分钟已完成live测试。
+53|distilled|fuzz,records|所配图实际Burp Custom Configuration Libraries，含Speed/Issues、Error Handling、Insertion Points；配置制品/生效规则/预算和执行记录需绑定，不能替代每周词表更新证据。
+54|insufficient_technical_detail|lfi,source|Repeater请求/响应大片遮盖仅零散nologin、/bin/false尾片段；无法确定路径参数、读者、返回文件或LFI，不能恢复遮盖信息。

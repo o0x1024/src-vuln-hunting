@@ -1,0 +1,106 @@
+0|no_technical_content||Owt标志，未给无线接口或审计方法。
+1|no_technical_content||Nuclei仓库卡片/star/fork，无template或检测正文。
+2|insufficient_technical_detail|xss|两个reflected/postbased奖条目无输入、DOM或浏览器证据。
+3|distilled|xss|Reflector2.5 POST200 reflected/HTMLscript/Vulnerable，须区分反射匹配与实际浏览器执行。
+4|distilled|passive,source|EDD帮助function/domain/computer/group/process/user/share/search/threads5及help done，未给真实枚举结果。
+5|no_technical_content||Radio5海报，没有方法或triage正文。
+6|distilled|source,secret|URL反斜杠后PCRE不支持escape编译错，缺实现，regex异常不等于命令执行。
+7|distilled|source,secret|另一URL反斜杠产生No ending delimiter，绑定rawinput/regex构造及错误范围，不补权限。
+8|distilled|web|WWWGrep菜单literal/regex、JS/HTML/header、root/any递归、代理/auth/separator，须保存来源和消费者。
+9|insufficient_technical_detail||7500 triagedmedium6.1条目，机制/目标遮掩。
+10|distilled|lfi,access|WindowsADS卡片::$DATA/$INDEX_ALLOCATION候选，需NTFS/handler/规范化及实际内容，未执行。
+11|distilled|lfi,access|同ADS卡片不同尺寸hash，条件同10，无新请求收据。
+12|no_technical_content||Karta装饰标志，没有二进制匹配。
+13|distilled|records,passive|pagodo2.0变更yagooglesearch/dict/HTTP及SOCKS/minmax随机等待/固定all_dorks文件，非执行证明。
+14|no_technical_content||CyfeCSRF封面，没有操作或状态。
+15|no_technical_content||Pollenisator标志，无协作方法。
+16|no_technical_content||1000IDOR宣传及lorem ipsum，无技术链。
+17|no_technical_content||halloffame头像名单，没有漏洞机制。
+18|no_technical_content||数据库搜索标志，无ES/Mongo结果。
+19|insufficient_technical_detail||Autoharness函数名列表无调用签名、harness实现/产物或覆盖。
+20|no_technical_content||webinar拼图谈收入/前景，不包含漏洞机制。
+21|no_technical_content||Googlebug标志，无Dialogflow授权请求。
+22|insufficient_technical_detail|ssrf|攻击者/防火墙/网站/内网架构图，缺实际backend取回/端口。
+23|no_technical_content||Gokart卡通标志，无Go审计规则。
+24|no_technical_content||CloudKit/Shortcuts删除文章封面，无技术链。
+25|no_technical_content||Peirates标志，无K8s动作。
+26|distilled|auth|Facebookrecovery请求should_use_flash_call和response filtermap/code_length，缺challenge兑换/密码改变。
+27|distilled|auth,source|targetedKerberoast图认证身份/票据样式输出，字太小不补字段，缺ACL修改/恢复和真实权限。
+28|no_technical_content||避免泄漏课程学习建议，不含漏洞机制。
+29|distilled|xss,scope|完整0921挑战规则Chrome/Firefox、指定域、非self/MITM、域对话框，历史规则不是现授权。
+30|distilled|android,web|反编译注解GET/POST含动态{url}/参数、app/store路由，不能只grep静态字面量补全部API。
+31|no_technical_content||Ivanti swag衣物，无漏洞内容。
+32|no_technical_content||BoobSnail标志，无XLM产物/触发。
+33|insufficient_technical_detail|access|400邮件title Removed customers add reports data_requests，正文称files，两者动作错配和终态缺失。
+34|distilled|records,scope|11个模板卡ASNnetwork/sub/archivedURL/JScredentials/redirect/port/S3/fuzz等，能力/执行/授权分层。
+35|distilled|business,strategy|已读反思无目标修改请求与理解asset连接，提炼业务对象、消费者及假设，不保证奖金。
+36|distilled|xss,waf|Search/onfocus/jQuery.ajax报图triagedhigh且分类Stored，实际持久化/浏览器执行/CSP未保存。
+37|distilled|logic|支付参数Success/Referer/Callback打开成功示意，需backend签名/账单/结算/交付，未真实支付。
+38|insufficient_technical_detail|xss|DOMXSS accepted852.5图片无source/sink。
+39|distilled|records,passive|OneForAll0.2dev多个API模块因未配key跳过，未完成全采集。
+40|distilled|records,passive|OneForAll0.3dev外部404/500、wildcard检测/port80、2alive/csvoverwrite与最终exit0，覆盖和失败分别记录。
+41|no_technical_content||OneForAll子域宣传标志，无独立结果。
+42|distilled|files|multipart cat.html/textHTML/h1test只是请求，缺保存/重编码/取回ContentType和readerorigin。
+43|no_technical_content||Bugv排行/550points，与漏洞机制无关。
+44|no_technical_content||Bugv870received150pending付款列表，标题遮掩，无技术证据。
+45|distilled|references/by-type/prototype-pollution.md|Plution本地0.0.0.0多个fixture Vulnerable输出，实际source/原型写/gadget/真实站点结果仍缺。
+46|distilled|doc,source|Word与Calculator同屏没有文档激活或父子进程，不能单图确证CVE40444。
+47|no_technical_content||Twilio博客封面，无codeownership技术。
+48|distilled|references/by-type/desktop-client.md|two-tier thickclient/database架构图只部署线索，身份/连接/权限消费者需分别核对。
+49|insufficient_technical_detail||低清Kali/WindowsVM图字无法可靠辨认，缺测试输入/终态。
+50|distilled|source,auth|NTLM_theft模板目录和本机fileURLshortcut，制品生成不证明reader触发/网络认证/hash。
+51|distilled|secret,web|gau去query/regex/fff200输出/gf_secrets循环未显式目录stdin，绑定真实stage输入输出/保留query。
+52|distilled|auth,logic|OTP请求phone/SMSformat标注无response或发送收据，需recipient/challenge用途绑定，不复制敏感头。
+53|distilled|secret|Drupal extension/services/sync swiftmailertransport候选卡，无实际配置内容/权限，模块名不等于secret。
+54|no_technical_content||打印机黑客装饰图，无驱动提权机制。
+55|insufficient_technical_detail||MongoDB BSON ObjectId构造函数标题/文档摘要，无输入/查询/实现，不判断有害。
+56|no_technical_content||入行讲座海报，无技术正文。
+57|no_technical_content||Androidattack surface海报，无方法。
+58|no_technical_content||cloudappsec海报，无方法正文。
+59|no_technical_content||DockerK8sCI/CD海报，无技术流程。
+60|no_technical_content||CodeQLworkshop海报，无查询正文。
+61|no_technical_content||reportwriting海报，无写作正文。
+62|no_technical_content||GraphQL标志，无query/审计证据。
+63|no_technical_content||社工讲座海报，无方法。
+64|no_technical_content||豪车照片，不证实反讽奖金/漏洞数量。
+65|distilled|host,auth|XFFor图代理拼实际IP和用户IP、backend读第二项，需真实代理顺序/信任及最终权益。
+66|no_technical_content||HacktivityCon标志，无CTF技术正文。
+67|distilled|records|race标题图是Twitteruser_timeline按第一tweet时间筛所有URL代码，须逐记录时间/分页/去重，非竞态。
+68|no_technical_content||DEFCON活动海报，无漏洞机制。
+69|distilled|android|jadx app-debug manifest targetSDK25/权限/singleInstance/receiverexportedfalse，未见运行可达/许可。
+70|distilled|android,strategy|历史OWASP Mobile10分类图完整已读，类别不等于实际manifest/业务动作测试覆盖。
+71|distilled|source|既有beacon inlineassembly SeatbeltLastShutdown输出，缺首次入口/EDR结果，未运行assembly。
+72|distilled|source|PS2EXE compile HelloWorld exe18944bytes/config生成，文件存在不等于运行/权限。
+73|insufficient_technical_detail|sql|SQLaccepted3000奖励图，无注入请求/响应。
+74|distilled|lfi,cmd|完整LFI输入include/log poisoning示意及shell/DOS后果，需日志可控bytes/可读路径/解释/权限，未execute。
+75|no_technical_content||CrowdSec标志，无规则/行为效果。
+76|no_technical_content||H1swag商品图，无技术知识。
+77|distilled|secret,passive|CDX originalcollapseurlkey清单重复api-key含test，历史行数不等独立10k有效premiumkey，值未复制。
+78|distilled|impact,report|GC周期/metrics信息披露报告NAclosed，机制敏感字段/政策差异未给，不从状态推名气原因。
+79|insufficient_technical_detail||500奖邮件主体/机制遮掩，只金额和披露提醒。
+80|insufficient_technical_detail||MailRip主菜单组合/proxy/start无实际SMTP验证或inbox结果。
+81|no_technical_content||keys in JavaScript梗图，无实际key字段。
+82|no_technical_content||newsletter个人订阅截图，无技术正文。
+83|insufficient_technical_detail||PyHook目录和空cmd，无APIhook运行/捕获。
+84|distilled|fuzz|两个seed432结果字典只是候选扩增，须来源/规则/去重/预算，不代表有效密码，未登录破解。
+85|distilled|passive,source|完整网络工具图连接、DNS、抓包、route、配置、副作用类别，工具名不证明网络覆盖。
+86|distilled|auth,logic,impact|100邮件title无限admin/daily notification触发emailbomb，缺send/配额终态，奖/修复阶段分开。
+87|distilled|auth,logic,impact|另一100邮件employeeinvite validation/emailbomb，按对象/动作/recipients预算验证，不发送。
+88|distilled|references/by-type/desktop-client.md|WorkSpaces3.1.6.2064ProcessStart/--uri嵌gpulauncher，只初始启动未展示calcchild，须decode/argv再消费。
+89|no_technical_content||DirSearchGopher标志，无扫描证据。
+90|no_technical_content||Diamondleague个人徽章，无漏洞机制。
+91|no_technical_content||AESpasswdstore锁标志，算法名非实现证明。
+92|distilled|host|反向代理public/internal app图仅架构，authority/路由/实际内部内容需证据。
+93|distilled|host,redirect|Apple baseline GET XFHost userinfo式输入→302Location，支持URL生成线索不证明internalapp访问，敏感头未复制。
+94|distilled|source,auth|NTLMgenerator Created多格式/OPEN/BROWSE提示与SCF/zoom等skip，版本/reader/触发/回包分别留证。
+95|distilled|graphql,access|VoiceCreator文字声称subscribers，query实际creator.email_settings.confirmed_email，无response/actor，不补全名单。
+96|no_technical_content||DOMXSS视频封面，无保存步骤。
+97|no_technical_content||WORDS标志，无生成规则。
+98|no_technical_content||NoSQL视频封面，无query/机制。
+99|distilled|xss|裁切URL及semangkablogorigin alert，缺source/sink/reader/trigger，保留截图观察边界。
+100|distilled|impact,report|红队奖励表多类别全Critical，无consumer/证据，不能当通用等级对照。
+101|no_technical_content||MSRC历史署名页面，技术正文未保存。
+102|distilled|references/by-type/prototype-pollution.md|控制台主动defineProperty原型并报告CLOSURE_BASE_PATH Polluted，不证明应用source或可利用gadget。
+103|distilled|xss|代码片段类型强转/字串索引拼constructor/Function，21行起裁切且缺末尾调用，不证明无括号alert实际成功。
+104|distilled|xss|BrowserStackMac/Safari14.1选择页无XSS输入/执行，历史latest非当前，版本选择不同于测试receipt。
+105|distilled|lfi,cmd|黑白LFI/log示意完整已读，合并74前提，图中shell/DoS不是实测。

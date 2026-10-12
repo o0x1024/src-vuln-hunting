@@ -1,0 +1,607 @@
+{
+  "2": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "人工子域检查需要保留已查入口与证据"
+  },
+  "4": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "限流绕过要证明同一窗口中的服务端计数"
+  },
+  "5": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "服务索引与常用端口不能替代实时资产对照"
+  },
+  "7": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "限流绕过要证明同一窗口中的服务端计数"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "邀请邮件与支持页面弹窗需要区分渲染器"
+  },
+  "11": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "邀请邮件与支持页面弹窗需要区分渲染器"
+  },
+  "17": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "索引输出转扫描时保留字段与范围"
+  },
+  "18": {
+    "dis": "merged",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "重定向转XSS须证明目的地址的实际消费"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "优惠兑换应核对代码的主体与使用次数"
+  },
+  "20": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "文件名与秘密关键词检索只生成归属候选"
+  },
+  "21": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "密码重置字段更换必须验证令牌绑定和最终登录"
+  },
+  "25": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "服务索引与常用端口不能替代实时资产对照"
+  },
+  "27": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "邮箱样式载荷要核对校验器和后续消费"
+  },
+  "29": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "源站IP候选需保持同一应用与访问条件"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "按需部署的云训练环境要核对隔离与清理"
+  },
+  "36": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "服务索引与常用端口不能替代实时资产对照"
+  },
+  "38": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "源代码压缩包和备份后缀需确认最小私有内容"
+  },
+  "39": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "格式后缀与权限图需要同一对象的角色对照"
+  },
+  "42": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "文件名与秘密关键词检索只生成归属候选"
+  },
+  "43": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "Base64解码应保留原始字节与实际工具约定"
+  },
+  "50": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "源站IP候选需保持同一应用与访问条件"
+  },
+  "52": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "设备密码字段匹配要确认型号与访问边界"
+  },
+  "54": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "面板指纹与管理动作权限须独立核对"
+  },
+  "55": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "面板指纹与管理动作权限须独立核对"
+  },
+  "59": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL测试要绑定查询位置而非参数清单"
+  },
+  "62": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "方法覆盖头不能直接升级为命令执行"
+  },
+  "67": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "历史CVE批量命中需复核实例与浏览器消费"
+  },
+  "74": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL测试要绑定查询位置而非参数清单"
+  },
+  "75": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "端点词表和输出文件需保持原始origin"
+  },
+  "79": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "带外模板要用独立标记确定触发类型"
+  },
+  "80": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "混合XSS载荷需还原解码和HTML修复过程"
+  },
+  "81": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "浏览器历史与笔记要绑定真实请求状态"
+  },
+  "84": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "端点词表和输出文件需保持原始origin"
+  },
+  "85": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "历史CVE批量命中需复核实例与浏览器消费"
+  },
+  "86": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "邀请邮件与支持页面弹窗需要区分渲染器"
+  },
+  "87": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "聊天附件的存储路径与可执行处理必须分开证明"
+  },
+  "88": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "漏洞链不能自行扩展项目授权范围"
+  },
+  "89": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "训练环境的PHP包装器结果不能直接推广"
+  },
+  "90": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "混合XSS载荷需还原解码和HTML修复过程"
+  },
+  "91": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "历史WAF载荷需要双重对照"
+  },
+  "92": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "服务索引与常用端口不能替代实时资产对照"
+  },
+  "93": {
+    "dis": "corrected",
+    "targets": "references/by-type/graphql.md",
+    "note": "GraphQL批量请求应核对每个操作的计数与授权"
+  },
+  "94": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "奖励关键词检索必须回到原始项目规则"
+  },
+  "95": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "签名交易请求先保持业务与身份条件有效"
+  },
+  "96": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "端点词表和输出文件需保持原始origin"
+  },
+  "98": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "源代码压缩包和备份后缀需确认最小私有内容"
+  },
+  "99": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "服务索引与常用端口不能替代实时资产对照"
+  },
+  "101": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "历史提交发现的密钥不能直接复用"
+  },
+  "103": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "服务器取址证据须排除客户端与代理直接请求"
+  },
+  "107": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "新增数据源和图标哈希要保留来源差异"
+  },
+  "108": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "源代码压缩包和备份后缀需确认最小私有内容"
+  },
+  "112": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "新增数据源和图标哈希要保留来源差异"
+  },
+  "113": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "历史WAF载荷需要双重对照"
+  },
+  "115": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "混合XSS载荷需还原解码和HTML修复过程"
+  },
+  "117": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "训练环境的PHP包装器结果不能直接推广"
+  },
+  "122": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "浏览器Hook演示不替代初始XSS证据"
+  },
+  "126": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "混合XSS载荷需还原解码和HTML修复过程"
+  },
+  "127": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "重定向转XSS须证明目的地址的实际消费"
+  },
+  "129": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL测试要绑定查询位置而非参数清单"
+  },
+  "130": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "退订状态要对照地址绑定与授权规则"
+  },
+  "132": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "新增数据源和图标哈希要保留来源差异"
+  },
+  "133": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "浏览器Hook演示不替代初始XSS证据"
+  },
+  "134": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "浏览器Hook演示不替代初始XSS证据"
+  },
+  "135": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "源代码压缩包和备份后缀需确认最小私有内容"
+  },
+  "137": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "SVG动画事件候选须核对实际插入方式"
+  },
+  "139": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "源站IP候选需保持同一应用与访问条件"
+  },
+  "140": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "面板指纹与管理动作权限须独立核对"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "命令替换与带外响应需要直接因果关联"
+  },
+  "147": {
+    "dis": "corrected",
+    "targets": "references/by-type/jwt.md",
+    "note": "弱JWT秘密候选需证明签名验证与受保护消费"
+  },
+  "150": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "SOAP训练方法清单应分别验证读写和解析"
+  },
+  "151": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "历史漏洞分类时间线只用于组织假设"
+  },
+  "152": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "CIDR候选不能从通配域名范围自动推导"
+  },
+  "153": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SQL测试要绑定查询位置而非参数清单"
+  },
+  "154": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "CIDR候选不能从通配域名范围自动推导"
+  },
+  "155": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "CMS指纹需要核对实际版本与可达配置"
+  },
+  "156": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "重复报告回执不能证明协作者泄露了方法"
+  },
+  "157": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "格式后缀与权限图需要同一对象的角色对照"
+  },
+  "159": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "漏洞链不能自行扩展项目授权范围"
+  },
+  "160": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "面板指纹与管理动作权限须独立核对"
+  },
+  "161": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "历史CVE批量命中需复核实例与浏览器消费"
+  },
+  "162": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "浏览器历史与笔记要绑定真实请求状态"
+  },
+  "166": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "截图超时调整需保留失败原因和浏览器状态"
+  },
+  "171": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "安全信誉结果不证明DNS接管条件"
+  },
+  "172": {
+    "dis": "merged",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "安全信誉结果不证明DNS接管条件"
+  },
+  "174": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "端点词表和输出文件需保持原始origin"
+  },
+  "175": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "API分类与历史版本要变成具体不变量"
+  },
+  "176": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "SVG动画事件候选须核对实际插入方式"
+  },
+  "178": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "候选受限时保留失败条件再换入口"
+  },
+  "181": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "限流绕过要证明同一窗口中的服务端计数"
+  },
+  "182": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "API分类与历史版本要变成具体不变量"
+  },
+  "184": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "API分类与历史版本要变成具体不变量"
+  },
+  "185": {
+    "dis": "merged",
+    "targets": "references/experiment-design.md",
+    "note": "SOAP训练方法清单应分别验证读写和解析"
+  },
+  "191": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SYSDATE时间候选要验证语义和延迟对照"
+  },
+  "194": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "漏洞链不能自行扩展项目授权范围"
+  },
+  "199": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "历史提交发现的密钥不能直接复用"
+  },
+  "201": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "服务器取址证据须排除客户端与代理直接请求"
+  },
+  "205": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "代理会话示意图要保留已有执行前提"
+  },
+  "206": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "Referrer与登录路径定位不等于认证绕过"
+  },
+  "208": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "服务器取址证据须排除客户端与代理直接请求"
+  },
+  "210": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "登录响应中的个人字段须区分枚举与数据越权"
+  },
+  "217": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "密码重置混合清单需拆开实际消费边界"
+  },
+  "219": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "历史CVE批量命中需复核实例与浏览器消费"
+  },
+  "221": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "API分类与历史版本要变成具体不变量"
+  },
+  "222": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "测试框架的创建读回示例要区分真实与模拟"
+  },
+  "223": {
+    "dis": "merged",
+    "targets": "references/experiment-design.md",
+    "note": "测试框架的创建读回示例要区分真实与模拟"
+  },
+  "224": {
+    "dis": "corrected",
+    "targets": "references/by-type/document-rendering.md",
+    "note": "file协议载荷必须绑定实际渲染环境"
+  },
+  "226": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "无线去认证工具属于有副作用的隔离实验"
+  },
+  "227": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "简历上传目录要核对公开意图与最小对象"
+  },
+  "228": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "SYSDATE时间候选要验证语义和延迟对照"
+  },
+  "231": {
+    "dis": "merged",
+    "targets": "references/by-type/document-rendering.md",
+    "note": "file协议载荷必须绑定实际渲染环境"
+  },
+  "233": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "包上传的编码路径需逐层验证写入边界"
+  },
+  "236": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "文件名与秘密关键词检索只生成归属候选"
+  },
+  "238": {
+    "dis": "merged",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "源站IP候选需保持同一应用与访问条件"
+  },
+  "240": {
+    "dis": "merged",
+    "targets": "references/by-type/graphql.md",
+    "note": "GraphQL批量请求应核对每个操作的计数与授权"
+  },
+  "241": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "AD权限图须对应实际DACL与有效身份"
+  },
+  "244": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "服务索引与常用端口不能替代实时资产对照"
+  },
+  "246": {
+    "dis": "merged",
+    "targets": "references/by-type/document-rendering.md",
+    "note": "file协议载荷必须绑定实际渲染环境"
+  },
+  "247": {
+    "dis": "merged",
+    "targets": "references/by-type/document-rendering.md",
+    "note": "file协议载荷必须绑定实际渲染环境"
+  },
+  "248": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "XSS升级标题需要逐跳补齐权限证据"
+  },
+  "249": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "XSS升级标题需要逐跳补齐权限证据"
+  },
+  "250": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "XSS升级标题需要逐跳补齐权限证据"
+  }
+}

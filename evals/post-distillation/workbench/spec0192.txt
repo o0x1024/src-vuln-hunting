@@ -1,0 +1,151 @@
+1|corrected|references/by-type/authn-session.md|保存图证0192-1-auth：机制与验证条件
+2|excluded||完整保存正文/有意义替代文字已实际读完；Jwt account takeover by Mohamed 🤩；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+3|excluded||完整保存正文/有意义替代文字已实际读完；New Release ‼️；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+4|excluded||完整保存正文/有意义替代文字已实际读完；Manual SQL Injection Exploitation Step by Step；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+5|excluded||完整保存正文/有意义替代文字已实际读完；100$ credit on Linode (Akamai) VPS!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+6|corrected|references/discovery/web-and-api.md|保存正文0192：Servlet 矩阵参数需比较解析边界
+7|corrected|references/by-type/info-secrets.md|保存图证0192-7-secret：机制与验证条件
+8|corrected|references/discovery/passive-and-services.md,references/discovery/web-and-api.md|保存图证0192-8-passive：机制与验证条件；保存图证0192-8-web：机制与验证条件
+9|excluded||完整保存正文/有意义替代文字已实际读完；Yay, I was awarded a $69,000 bounty on @Hacker0x01! [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+10|excluded||完整保存正文/有意义替代文字已实际读完；Powerful OSINT Tool；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+11|excluded||完整保存正文/有意义替代文字已实际读完；I have just experienced @thehackergpt and it works nice. It is fed with various bug bounty reports and may help you on your works!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+12|corrected|references/by-type/idor-access-control.md,references/business-modeling.md,references/discovery/web-and-api.md|保存图证0192-12-access：机制与验证条件；保存图证0192-12-business：机制与验证条件；保存图证0192-12-web：机制与验证条件
+13|corrected|references/by-type/authn-session.md,references/by-type/host-header.md|保存图证0192-13-auth：机制与验证条件；保存图证0192-13-host：机制与验证条件
+14|excluded||完整保存正文/有意义替代文字已实际读完；Hello,；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+15|excluded||完整保存正文/有意义替代文字已实际读完；start week with 250$ bounty. report title : steal outh token through ??***??；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+16|corrected|references/by-type/xss.md|保存正文0192：AEM childrenlist 的反射须匹配渲染上下文
+17|excluded||完整保存正文/有意义替代文字已实际读完；[外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+18|corrected|references/by-type/ldap-xpath.md,references/discovery/passive-and-services.md|保存图证0192-18-ldap：机制与验证条件；保存图证0192-18-passive：机制与验证条件
+19|corrected|references/source-audit.md,references/discovery/web-and-api.md|保存图证0192-19-source：机制与验证条件；保存图证0192-19-web：机制与验证条件
+20|excluded||完整保存正文/有意义替代文字已实际读完；Scope Updated in tiktok #bugbountytips #hackerone #bugbounty；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+21|corrected|references/by-type/xss.md|保存图证0192-21-xss：机制与验证条件
+22|excluded||完整保存正文/有意义替代文字已实际读完；sqlmap < ghauri；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+23|corrected|references/by-type/info-secrets.md|保存正文0192：JCR selector 输出和 SHA1 字段不能推断秘密
+24|excluded||完整保存正文/有意义替代文字已实际读完；HTTP Request Smuggling leads to Cache Poisoning；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+25|corrected|references/by-type/xss.md|保存正文0192：eval(name) 依赖可控浏览器上下文
+26|excluded||完整保存正文/有意义替代文字已实际读完；I shared the bounty after many days and month. Alhamdulillah😇🤑；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+27|excluded||完整保存正文/有意义替代文字已实际读完；Tips and Tricks for Effective SQL Injection Testing using SQLMap Tamper Scripts；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+28|corrected|references/by-type/info-secrets.md|保存图证0192-28-secret：机制与验证条件
+29|excluded||完整保存正文/有意义替代文字已实际读完；nOAuth: Account Takeover via Microsoft Oauth；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+30|excluded||完整保存正文/有意义替代文字已实际读完；💻RCE due to Dependency Confusion Bug 💻；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+31|excluded||完整保存正文/有意义替代文字已实际读完；The Art of Social Engineering in Crypto Attacks；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+32|excluded||完整保存正文/有意义替代文字已实际读完；2FA bypasses are fun 🤩；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+33|corrected|references/targeted-fuzzing.md,references/discovery/records-and-incremental.md|保存图证0192-33-fuzz：机制与验证条件；保存图证0192-33-records：机制与验证条件
+34|corrected|references/scope-and-rules.md|保存正文0192：奖励例外不替代测试范围规则
+35|excluded||完整保存正文/有意义替代文字已实际读完；Sorry for the delayed😅；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+36|excluded||完整保存正文/有意义替代文字已实际读完；How to install slither using python-venv to analyze smart contracts；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+37|corrected|references/by-type/waf-bypass.md,references/by-type/cmd-injection-rce.md|保存图证0192-37-waf：机制与验证条件；保存图证0192-37-cmd：机制与验证条件
+38|excluded||完整保存正文/有意义替代文字已实际读完；Bug Bounty Tip:；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+39|excluded||完整保存正文/有意义替代文字已实际读完；9 Common Security Vulnerabilities in Web Applications；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+40|corrected|references/by-type/xss.md|保存正文0192：搜索词进入路径或页面不证明命令执行
+41|excluded||完整保存正文/有意义替代文字已实际读完；How to test horizontal and vertical privilege escalation.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+42|corrected|references/by-type/authn-session.md|保存正文0192：跨端 SSO 的 2FA 与旧会话状态分别核对
+43|excluded||完整保存正文/有意义替代文字已实际读完；Local file inclusion exploitation tool ⚙️；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+44|excluded||完整保存正文/有意义替代文字已实际读完；Check out this mind-blowing bug I discovered! 🐛；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+45|excluded||完整保存正文/有意义替代文字已实际读完；Har Har Mahadev🔱❤️；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+46|excluded||完整保存正文/有意义替代文字已实际读完；CVE-2023-41892 One Liner ⚡️🔥；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+47|corrected|references/by-type/info-secrets.md|保存图证0192：docker compose 是配置暴露候选
+48|excluded||完整保存正文/有意义替代文字已实际读完；Secure Code Review #1: Basics (Getting Started)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+49|corrected|references/by-type/xss.md,references/discovery/client-and-cloud.md|保存图证0192-49-xss：机制与验证条件；保存图证0192-49-client：机制与验证条件
+50|excluded||完整保存正文/有意义替代文字已实际读完；I got $6000 from #Apple；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+51|excluded||完整保存正文/有意义替代文字已实际读完；11.2 Lab: Exploiting XXE to perform SSRF attacks ｜ 2023；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+52|excluded||完整保存正文/有意义替代文字已实际读完；My personal XSS all-in-one payload Here；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+53|excluded||完整保存正文/有意义替代文字已实际读完；======================；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+54|excluded||完整保存正文/有意义替代文字已实际读完；One Bug at a Time: Admin Panel Access ｜ I’m now an Employee!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+55|excluded||完整保存正文/有意义替代文字已实际读完；🚨Reported -> Closed as Lacks Impact；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+56|corrected|references/discovery/web-and-api.md|保存图证0192-56-web：机制与验证条件；保存正文0192：ACL fuzz 标签需真实保护资源对照
+57|excluded||完整保存正文/有意义替代文字已实际读完；⚙️ Local File Inclusion Exploitation Tool !；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+58|excluded||完整保存正文/有意义替代文字已实际读完；Understanding Access Control；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+59|excluded||完整保存正文/有意义替代文字已实际读完；Good morning, Redbull 🙋‍♂️ @intigriti；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+60|corrected|references/discovery/web-and-api.md|保存正文0192：ACL fuzz 标签需真实保护资源对照
+61|excluded||完整保存正文/有意义替代文字已实际读完；Beyond Error Messages: Super Admin Deletion due to Broken Access Control (€€€)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+62|excluded||完整保存正文/有意义替代文字已实际读完；حلقة جديده من بودكاست البج باونتي نزلت من ساعه عاليوتيوب；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+63|corrected|references/by-type/subdomain-takeover.md|保存图证0192-63-takeover：机制与验证条件
+64|corrected|references/by-type/subdomain-takeover.md|保存图证0192-64-takeover：机制与验证条件
+65|corrected|references/by-type/open-redirect.md|保存图证0192-65-redirect：机制与验证条件
+66|excluded||完整保存正文/有意义替代文字已实际读完；“Open Redirects in Mobile Applications” A Growing Threat；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+67|excluded||完整保存正文/有意义替代文字已实际读完；How to start Bug Bounty and What is Learning path；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+68|corrected|references/by-type/host-header.md,references/by-type/ssrf.md|保存图证0192-68-host：机制与验证条件；保存图证0192-68-ssrf：机制与验证条件
+69|corrected|references/by-type/cmd-injection-rce.md,references/by-type/iot-security.md,references/source-audit.md|保存图证0192-69-cmd：机制与验证条件；保存图证0192-69-iot：机制与验证条件；保存图证0192-69-source：机制与验证条件
+70|corrected|references/by-type/xss.md|保存图证0192-70-xss：机制与验证条件
+71|corrected|references/by-type/xss.md|保存正文0192：iframe srcdoc 需要嵌套上下文检查
+72|excluded||完整保存正文/有意义替代文字已实际读完；I reported 8 duplicates on @Hacker0x01 in September only😂😂；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+73|excluded||完整保存正文/有意义替代文字已实际读完；i received some questions to speak about in @bsidesahmedabad；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+74|excluded||完整保存正文/有意义替代文字已实际读完；Check out @shifacyclewala debunking the #bugbountytips and teaching you step by step how to use them! 👌👌；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+75|excluded||完整保存正文/有意义替代文字已实际读完；Had an wonderful 2 days session on Web Application Hacking @bsidesahmedabad；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+76|corrected|references/by-type/authn-session.md,references/by-type/business-logic.md,references/scope-and-rules.md|保存图证0192-76-auth：机制与验证条件；保存图证0192-76-logic：机制与验证条件；保存正文0192：奖励例外不替代测试范围规则
+77|corrected|references/by-type/subdomain-takeover.md|保存正文0192：资源名可用与领取后域控制不同
+78|excluded||完整保存正文/有意义替代文字已实际读完；XSS Steal Cookies；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+79|corrected|references/by-type/idor-access-control.md|保存图证0192-79-access：机制与验证条件
+80|merged|references/by-type/subdomain-takeover.md|保存正文0192：资源名可用与领取后域控制不同
+81|excluded||完整保存正文/有意义替代文字已实际读完；🤖 HackerGPT 2.0 - now 3x better；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+82|excluded||完整保存正文/有意义替代文字已实际读完；no it's better to learn scraping xss payloads from #bugbountytips and github repos, imo.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+83|excluded||完整保存正文/有意义替代文字已实际读完；Hey Everyone,；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+84|excluded||完整保存正文/有意义替代文字已实际读完；🚀 Big News! Me & @sw33tLie just dropped Fleex v2.0! This release includes command refactoring, JSON config file, and introduces custom VPS support! Some features are；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+85|corrected|references/by-type/xss.md,references/by-type/idor-access-control.md|保存图证0192-85-xss：机制与验证条件；保存图证0192-85-access：机制与验证条件
+86|excluded||完整保存正文/有意义替代文字已实际读完；Python Google Dork；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+87|corrected|references/by-type/file-upload.md,references/by-type/lfi-path-traversal.md|保存图证0192-87-files：机制与验证条件；保存图证0192-87-lfi：机制与验证条件
+88|corrected|references/by-type/xss.md|保存图证0192-88-xss：机制与验证条件
+89|excluded||完整保存正文/有意义替代文字已实际读完；Is your mailbox safe ?!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+90|corrected|references/by-type/idor-access-control.md,references/by-type/info-secrets.md|保存图证0192-90-access：机制与验证条件；保存图证0192-90-secret：机制与验证条件
+91|excluded||完整保存正文/有意义替代文字已实际读完；#infosec conferences these days.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+92|excluded||完整保存正文/有意义替代文字已实际读完；Mass Account Takeover by Mares 🎉；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+93|corrected|references/by-type/sql-injection.md|保存图证0192-93-sql：机制与验证条件
+94|excluded||完整保存正文/有意义替代文字已实际读完；Best recon using @Netlas_io；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+95|merged|references/by-type/subdomain-takeover.md|保存正文0192：资源名可用与领取后域控制不同
+96|corrected|references/hunting-strategy.md,references/discovery/web-and-api.md|保存图证0192-96-strategy：机制与验证条件；保存图证0192-96-web：机制与验证条件
+97|excluded||完整保存正文/有意义替代文字已实际读完；Search Engines for Pentesters!!!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+98|excluded||完整保存正文/有意义替代文字已实际读完；Scan for Critical Atlassian Confluence Vulnerability (CVE-2023-22515)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+99|corrected|references/reporting.md|保存图证0192-99-report：机制与验证条件
+100|corrected|references/by-type/xss.md,references/by-type/waf-bypass.md|保存图证0192-100-xss：机制与验证条件；保存图证0192-100-waf：机制与验证条件
+101|corrected|references/scope-and-rules.md|保存正文0192：页面依赖 API 的授权须单独核对
+102|corrected|references/by-type/authn-session.md|保存图证0192-102-auth：机制与验证条件；保存正文0192：跨端 SSO 的 2FA 与旧会话状态分别核对
+103|corrected|references/by-type/xss.md|保存正文0192：returnTo 协议校验与脚本 sink
+104|corrected|references/by-type/desktop-client.md,references/source-audit.md|保存图证0192-104-desktop：机制与验证条件；保存图证0192-104-source：机制与验证条件
+105|excluded||完整保存正文/有意义替代文字已实际读完；What is a Prototype Pollution vulnerability and how does page-fetch help?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+106|corrected|references/by-type/desktop-client.md,references/by-type/lfi-path-traversal.md|保存图证0192-106-desktop：机制与验证条件；保存图证0192-106-lfi：机制与验证条件
+107|excluded||完整保存正文/有意义替代文字已实际读完；P1 XSS?；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+108|corrected|references/by-type/jwt.md,references/by-type/authn-session.md|保存图证0192-108-jwt：机制与验证条件；保存图证0192-108-auth：机制与验证条件
+109|corrected|references/by-type/desktop-client.md,references/source-audit.md|保存图证0192-109-desktop：机制与验证条件；保存图证0192-109-source：机制与验证条件
+110|excluded||完整保存正文/有意义替代文字已实际读完；HackerOne: The Vulnerabilities Final Response and Ethical Hacker’s Plight；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+111|excluded||完整保存正文/有意义替代文字已实际读完；Exploring XXE Vulnerabilities in GraphQL APIs；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+112|corrected|references/by-type/xss.md|保存图证0192-112-xss：机制与验证条件；保存正文0192：iframe srcdoc 需要嵌套上下文检查
+113|excluded||完整保存正文/有意义替代文字已实际读完；Cross-Site Scripting (XSS) in Web App Penetration Testing ｜ 2023；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+114|excluded||完整保存正文/有意义替代文字已实际读完；$1120: ATO Bug in Twitter’s；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+115|excluded||完整保存正文/有意义替代文字已实际读完；Slides of my talk in @bsidesahmedabad；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+116|excluded||完整保存正文/有意义替代文字已实际读完；AutLand Suite Microsocial v23.52 Full Activated – Social Media Marketing – Discount 100% OFF [外链] #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity #100；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+117|excluded||完整保存正文/有意义替代文字已实际读完；AutLand Suite Microsocial v23.52 Full Activated – Social Media Marketing – Discount 100% OFF [外链] #infosec #bugcrowd #bugbountytips #bugbountytip #CyberSecurity #100；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+118|corrected|references/targeted-fuzzing.md|保存正文0192：AI 词表来源不是覆盖证明
+119|excluded||完整保存正文/有意义替代文字已实际读完；Obyte’s Bug Bounty Program Offers up to $50,000 in Rewards；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+120|excluded||完整保存正文/有意义替代文字已实际读完；Abusing LFI vulnerabilities in file upload functionality；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+121|excluded||完整保存正文/有意义替代文字已实际读完；“Exploiting LFI vulnerabilities in cloud infrastructure” A step-by-step guide；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+122|excluded||完整保存正文/有意义替代文字已实际读完；“LFI attacks in modern web applications” Evading security controls；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+123|corrected|references/by-type/xss.md,references/discovery/client-and-cloud.md|保存图证0192-123-xss：机制与验证条件；保存图证0192-123-client：机制与验证条件
+124|corrected|references/by-type/lfi-path-traversal.md|保存正文0192：被拒绝的编码穿越须保留为反例
+125|corrected|references/by-type/xss.md|保存图证0192-125-xss：机制与验证条件
+126|excluded||完整保存正文/有意义替代文字已实际读完；today i rewarded 420$ bounty in hackerone public progrom.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+127|excluded||完整保存正文/有意义替代文字已实际读完；Bug bounty write ups review ｜ analyzing JS source code leads to api vulnerabilities (Arabic)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+128|corrected|references/by-type/authn-session.md|保存图证0192-128-auth：机制与验证条件
+129|excluded||完整保存正文/有意义替代文字已实际读完；Unleashing the Power of HostHunter: Revealing Hidden Hostnames!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+130|excluded||完整保存正文/有意义替代文字已实际读完；Monitor your (sub)domains, scan for vulnerabilities, scan ports, get screenshots of HTTP services, extract HTML/HTTP data, DNS bruteforcing/HTTP fuzzing, and more! R；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+131|excluded||完整保存正文/有意义替代文字已实际读完；Buckle up, readers! I've got a thrilling tale to share.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+132|corrected|references/cloud/cloud-misconfiguration.md,references/by-type/idor-access-control.md|保存图证0192-132-cloud：机制与验证条件；保存图证0192-132-access：机制与验证条件
+133|corrected|references/by-type/lfi-path-traversal.md|保存正文0192：Juniper 指纹与 PHPRC 文件响应分开
+134|excluded||完整保存正文/有意义替代文字已实际读完；Uncovering Security Vulnerabilities: A Deep Dive into an Eye-Opening Git Discovery；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+135|corrected|references/source-audit.md,references/by-type/cmd-injection-rce.md|保存图证0192-135-source：机制与验证条件；保存图证0192-135-cmd：机制与验证条件
+136|excluded||完整保存正文/有意义替代文字已实际读完；CRITICAL vulnerability in libcue can lead to RCE (CVE-2023-43641)；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+137|excluded||完整保存正文/有意义替代文字已实际读完；"🌍✨ Explore Custom International Orders! ✨🌍 No extra charges, just international shipping fees.；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+138|excluded||完整保存正文/有意义替代文字已实际读完；Explore Our Latest, In-Demand Design Now Available on Our Website!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+139|excluded||完整保存正文/有意义替代文字已实际读完；💻SQL Injection Attack ｜ $$$💻；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+140|excluded||完整保存正文/有意义替代文字已实际读完；"My presonal method to find privilege escalation" video is public now👇；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+141|excluded||完整保存正文/有意义替代文字已实际读完；How I Uncovered a Stored XSS in [外链]；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+142|corrected|references/by-type/desktop-client.md,references/source-audit.md,references/by-type/clickjacking.md|保存图证0192-142-desktop：机制与验证条件；保存图证0192-142-source：机制与验证条件；保存图证0192-142-click：机制与验证条件
+143|corrected|references/by-type/authn-session.md|保存正文0192：客户端 verify 改真不证明 OTP 绕过
+144|corrected|references/discovery/client-and-cloud.md,references/by-type/idor-access-control.md|保存图证0192-144-client：机制与验证条件；保存图证0192-144-access：机制与验证条件
+145|corrected|references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md|保存图证0192-145-passive：机制与验证条件；保存图证0192-145-records：机制与验证条件
+146|excluded||完整保存正文/有意义替代文字已实际读完；SQL Injection on HTTP Headers: Live Hacking；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+147|excluded||完整保存正文/有意义替代文字已实际读完；How to dig deep to found a good XSS in NFT platform；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+148|excluded||完整保存正文/有意义替代文字已实际读完；Woooooow Nice tool!!；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+149|excluded||完整保存正文/有意义替代文字已实际读完；how to dig deep to found a tricky xss via 0auth redirect in blockchain platform and get $700；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+150|excluded||完整保存正文/有意义替代文字已实际读完；“If I had six hours to chop down a tree, I’d spend the first four hours sharpening the axe.”；仅外链题名、宣传、未保存续篇、奖励/排名/状态或无独立可提炼机制；缺失图片及外链全文依用户按覆盖，不补造。
+151|corrected|references/by-type/xss.md|保存正文0192：混合闭合字符串必须匹配实际上下文

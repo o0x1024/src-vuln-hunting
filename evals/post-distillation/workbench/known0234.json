@@ -1,0 +1,71 @@
+[
+  {
+    "name": "1834957527861129488-02.png",
+    "sha256": "0e18bdc21d3e82250401b3d19be6061b138872b33b186c36101f53061066e967",
+    "prior": {
+      "sha256": "0e18bdc21d3e82250401b3d19be6061b138872b33b186c36101f53061066e967",
+      "example_post_id": "1426615994659844096",
+      "image_name": "1426615994659844096-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "MTNlogo，无SQL证据。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T05:56:22.111Z",
+      "batch": "media-0102"
+    }
+  },
+  {
+    "name": "1835050497268760780-02.jpg",
+    "sha256": "773574bb58c10dd108333ac26ccfcff2454022202c51f6b2f6dc8c09e1936cdf",
+    "prior": {
+      "sha256": "773574bb58c10dd108333ac26ccfcff2454022202c51f6b2f6dc8c09e1936cdf",
+      "example_post_id": "1509850710346956801",
+      "image_name": "1509850710346956801-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/client-and-cloud.md"
+      ],
+      "note": "两种JS正则提取；URL文本vs内容、sort-f/强制https、同文件tee风险需保留。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T12:30:32.949Z",
+      "batch": "media-0120"
+    }
+  },
+  {
+    "name": "1835612855699124712-02.png",
+    "sha256": "b64203ea63feae49f5293afd16664560ab375fea461711786a3cd4b9a348f5d4",
+    "prior": {
+      "sha256": "b64203ea63feae49f5293afd16664560ab375fea461711786a3cd4b9a348f5d4",
+      "example_post_id": "1696219899457318948",
+      "image_name": "1696219899457318948-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/sql-injection.md"
+      ],
+      "note": "Burp Collaborator HTTP GET output=nt%20service%5Cmssqlserver、WindowsPowerShell UA，时间2021片段。回连和字符串仅支持受控OOB执行线索，缺入口/SQL权限/任务关联，需唯一标记与最小命令因果证据，不能由用户名推完整SQL→RCE链。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T05:08:30.159Z",
+      "batch": "media-0182"
+    }
+  },
+  {
+    "name": "1836003255886782628-02.jpg",
+    "sha256": "eedffd3efd084d37c29bfd369ea852d009263e0d2413f448843de3b06cd5b19e",
+    "prior": {
+      "sha256": "eedffd3efd084d37c29bfd369ea852d009263e0d2413f448843de3b06cd5b19e",
+      "example_post_id": "1816773450943345011",
+      "image_name": "1816773450943345011-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/host-header.md",
+        "references/by-type/authn-session.md",
+        "references/by-type/request-smuggling.md",
+        "references/experiment-design.md"
+      ],
+      "note": "重置密码请求有两个Host且第二行前空白，可触发前后端首/末值或折行解析分歧。图片仅请求示例，没有实际邮件地址或token；重复Host应拒绝，空白如何解析取决于协议/代理。需自有邮箱验证生成链接的scheme/host及真实绑定，响应200不证明poisoning，Content-Length示例须按实际字节核对。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T21:24:49.024Z",
+      "batch": "media-0222"
+    }
+  }
+]

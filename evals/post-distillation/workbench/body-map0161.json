@@ -1,0 +1,412 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "管理端入口的路径与代理身份差异须回到同一业务动作"
+  },
+  "2": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "项目调试文件与编辑器交换文件需验证真实内容归属"
+  },
+  "3": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "压缩上传到 PHP 包含解释之间存在两道独立边界"
+  },
+  "4": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "历史 URL 和搜索索引中的 token 线索仍需验证用途与访问边界"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "盲 XSS 面板应保留事件来源并拆开附加扫描结论"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "正则黑盒模糊测试须跟踪验证与规范化的先后顺序"
+  },
+  "10": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "前端角色枚举只是查找服务端授权校验的起点"
+  },
+  "11": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "旧 Swagger UI 的 configUrl 消费者需与普通链接导航区分"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "多入口二步验证应共用服务端认证状态与凭据生命周期"
+  },
+  "16": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "LFI 管道的 root:x 命中须绑定单个请求与文件消费者"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "外部渗透清单须把授权范围与具体动作逐项绑定"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "图标哈希只产生服务候选而非漏洞实例"
+  },
+  "20": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "越范围资产的漏洞链须在触碰新边界前重新核授权"
+  },
+  "22": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "待验证邮箱更改后旧链接不能验证新地址"
+  },
+  "23": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "待验证邮箱更改后旧链接不能验证新地址"
+  },
+  "24": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "待验证邮箱更改后旧链接不能验证新地址"
+  },
+  "25": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "待验证邮箱更改后旧链接不能验证新地址"
+  },
+  "26": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "待验证邮箱更改后旧链接不能验证新地址"
+  },
+  "31": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "历史 URL 和搜索索引中的 token 线索仍需验证用途与访问边界"
+  },
+  "32": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "盲 XSS 面板应保留事件来源并拆开附加扫描结论"
+  },
+  "33": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "云评估与认证前后工具必须对应真实身份和资源"
+  },
+  "34": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "重定向白名单应约束整条实际跳转链"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "将不完整提示转为一个可证伪的实验假设"
+  },
+  "37": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "认证 SQL 片段需匹配真正查询结构与数据库方言"
+  },
+  "38": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "项目调试文件与编辑器交换文件需验证真实内容归属"
+  },
+  "40": {
+    "dis": "corrected",
+    "targets": "references/by-type/host-header.md",
+    "note": "HSTS 的主机状态键应在存取时采用相同规范化"
+  },
+  "42": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "登录查询接口的账户资料字段应在授权前最小化"
+  },
+  "49": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "共享 Analytics 标识和反向 DNS 只提供待核资产关联"
+  },
+  "61": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "图标哈希只产生服务候选而非漏洞实例"
+  },
+  "62": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "管理端入口的路径与代理身份差异须回到同一业务动作"
+  },
+  "63": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "认证 SQL 片段需匹配真正查询结构与数据库方言"
+  },
+  "64": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "域名标签层级统计不能依赖未转义点的正则"
+  },
+  "65": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "路径反射命中须核最终来源和真实浏览器上下文"
+  },
+  "66": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "默认凭据候选必须分清产品识别、真实登录与角色能力"
+  },
+  "67": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "源代码秘密扫描应绑定实际文件输入与匹配规则"
+  },
+  "68": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "模板与 XSS 混合字符串要按不同解释器逐段定位"
+  },
+  "69": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "ffuf 结果应从结构化字段提取并保存原始记录"
+  },
+  "70": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "命令混合字符串的 DNS、延迟与文件写入证据应分开"
+  },
+  "72": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "浏览器扩展的代理与身份隔离会改变实验环境"
+  },
+  "73": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "合并域名后批量 curl 应保留每条响应的身份与来源"
+  },
+  "74": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "新域名扫描流程的提交点应区分完成、失败与配置变化"
+  },
+  "76": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "双账户响应相同必须排除公共对象与共同拒绝"
+  },
+  "77": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "缓存污染定义必须补齐缓存键与另一访问者取值"
+  },
+  "79": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "DNS 解析器的完整率应由样本和错误状态验证"
+  },
+  "80": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "Activity 的可调用性与每个 WebView 消费者要逐项核验；WebView 文件与脚本能力须证明不可信内容实际可达"
+  },
+  "81": {
+    "dis": "corrected",
+    "targets": "references/by-type/xxe.md",
+    "note": "XXE 的回显、外部 DTD、错误与 XInclude 是不同通道"
+  },
+  "82": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "远程连接日志应按时间、会话和主机关联后再解释"
+  },
+  "83": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "路径中看似外部 URL 的重定向须核解析后的目的地"
+  },
+  "84": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "默认凭据候选必须分清产品识别、真实登录与角色能力"
+  },
+  "85": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "模型给出的编码绕过建议必须经过真实解析链对照"
+  },
+  "88": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "程序排除项与第三方集成影响应读取精确上下文"
+  },
+  "91": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "字典命中的状态码需与软404和训练目标分开"
+  },
+  "95": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "双编码路径需证明每层解码后都约束同一允许根"
+  },
+  "97": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "邮件冒用的投递结果、对齐验证与账户接管分开举证"
+  },
+  "98": {
+    "dis": "merged",
+    "targets": "references/experiment-design.md",
+    "note": "将不完整提示转为一个可证伪的实验假设"
+  },
+  "99": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "静态堆报告须核所有权与实际控制流的可达性"
+  },
+  "107": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "模型生成的目录列表不能当服务器执行证据"
+  },
+  "113": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "邮件连接参数的 SSRF 分阶段验证协议与前置认证"
+  },
+  "114": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "邮件连接参数的 SSRF 分阶段验证协议与前置认证"
+  },
+  "115": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "邮件连接参数的 SSRF 分阶段验证协议与前置认证"
+  },
+  "116": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "业务认领流程需验证最终授予结果而非中间电话提交"
+  },
+  "120": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "XSS 影响需由真实执行身份和可访问能力限定"
+  },
+  "123": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "更改 Content-Type 的 success 不等浏览器跨站 CSRF"
+  },
+  "124": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "静态 HTTP 服务命令只说明已有执行环境的服务能力"
+  },
+  "125": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "共享 Analytics 标识和反向 DNS 只提供待核资产关联"
+  },
+  "126": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "子域组合生成速度不能替代 DNS 与活服务覆盖"
+  },
+  "127": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "限流头的变化须确认权威计数键与总尝试预算"
+  },
+  "128": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "JS 正则提取的路径必须绑定调用代码与实际参数"
+  },
+  "129": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "多入口二步验证应共用服务端认证状态与凭据生命周期"
+  },
+  "130": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "依赖混淆候选须确认实际包解析与构建边界"
+  },
+  "133": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "定点插入扫描必须固定基线和自动改写字段"
+  },
+  "135": {
+    "dis": "merged",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "云评估与认证前后工具必须对应真实身份和资源"
+  },
+  "138": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssti.md",
+    "note": "模板注入应区别模板源拼接与数据参数渲染"
+  },
+  "139": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "正则黑盒模糊测试须跟踪验证与规范化的先后顺序"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "移动静态审计与被动 JS 规则需验证规则覆盖和数据流"
+  },
+  "144": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "历史 URL 和搜索索引中的 token 线索仍需验证用途与访问边界"
+  },
+  "145": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "旧依赖报告需分清实际 lock 来源与可达漏洞条件"
+  },
+  "146": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "旧依赖报告需分清实际 lock 来源与可达漏洞条件"
+  },
+  "151": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "多服务 token 测试前需核变量输入和凭据分发边界"
+  },
+  "155": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "来历不明的工具应从来源和执行边界评估而非版本宣传"
+  },
+  "156": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "移动静态审计与被动 JS 规则需验证规则覆盖和数据流"
+  },
+  "159": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "移动静态审计与被动 JS 规则需验证规则覆盖和数据流"
+  }
+}

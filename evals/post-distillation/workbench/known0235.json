@@ -1,0 +1,21 @@
+[
+  {
+    "name": "1837746882182885461-02.jpg",
+    "sha256": "ac7e77c2b66311d0d66a0da0ef8f755ed1a3c71a4d100cfa78836a79fc928978",
+    "prior": {
+      "sha256": "ac7e77c2b66311d0d66a0da0ef8f755ed1a3c71a4d100cfa78836a79fc928978",
+      "example_post_id": "1837357756833313232",
+      "image_name": "1837357756833313232-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/passive-and-services.md",
+        "references/discovery/web-and-api.md",
+        "references/experiment-design.md"
+      ],
+      "note": "同dork另一原图，search/maps残留说明全URL匹配不是全部目标资产，路径清单非漏洞证据。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T20:41:46.451Z",
+      "batch": "media-0220"
+    }
+  }
+]

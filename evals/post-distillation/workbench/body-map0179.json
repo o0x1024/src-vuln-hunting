@@ -1,0 +1,487 @@
+{
+  "3": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "频道资产条目保留采集上下文"
+  },
+  "4": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "LFI 编码与包装器按解码链验证"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "响应中的内网地址是拓扑线索"
+  },
+  "8": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "PTR 批量结果区别于正向解析"
+  },
+  "9": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "重定向流水线保留最终 authority 证据"
+  },
+  "12": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "JS 线索追到真正消费者"
+  },
+  "17": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "根对象示例先核对 schema 与认证结果"
+  },
+  "20": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "搜索规则页与鸣谢先确认许可"
+  },
+  "21": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "搜索规则页与鸣谢先确认许可"
+  },
+  "22": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "邀请角色非法值核对账户状态边界"
+  },
+  "23": {
+    "dis": "merged",
+    "targets": "references/by-type/business-logic.md",
+    "note": "邀请角色非法值核对账户状态边界"
+  },
+  "25": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "CT 工具输出保留证书历史与去重关系"
+  },
+  "28": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "SSRF 到 Windows 强制认证需要协议前提"
+  },
+  "32": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "Burp 显示字体调整不改变请求证据"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "FPM full status 暴露只按实际字段计影响"
+  },
+  "36": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "移动 Cloud Shell 示例区别于执行验证"
+  },
+  "39": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "报告 participants 列表校验报告 ACL"
+  },
+  "40": {
+    "dis": "merged",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "报告 participants 列表校验报告 ACL"
+  },
+  "42": {
+    "dis": "corrected",
+    "targets": "references/by-type/request-smuggling.md",
+    "note": "H2C 升级隧道核对逐请求策略边界"
+  },
+  "44": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "注册字段的 blind XSS 要绑定后台消费者"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "VDP 接受回执保留不公开条款"
+  },
+  "47": {
+    "dis": "corrected",
+    "targets": "references/by-type/cache-deception.md",
+    "note": "PURGE 接受响应不足以证明缓存驱逐影响"
+  },
+  "48": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "回调验证保留 token 与输入位置对应"
+  },
+  "49": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "深入项目靠可追溯的增量覆盖"
+  },
+  "51": {
+    "dis": "corrected",
+    "targets": "references/cloud/container-k8s-security.md",
+    "note": "worker 控制到 bastion 输出跨终端边界"
+  },
+  "52": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "私有 personal snippet 的评论操作绑定父对象"
+  },
+  "53": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "epic 关联需要两端授权与可见性检查"
+  },
+  "54": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "Kroki 语言校验值必须与取值来源一致"
+  },
+  "55": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "扫描器清单按角色与动作拆分"
+  },
+  "56": {
+    "dis": "corrected",
+    "targets": "references/by-type/graphql.md",
+    "note": "空过滤器不能代替 GraphQL 对象授权"
+  },
+  "57": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "WebDAV 认证限速与 Basic 编码分别验证"
+  },
+  "58": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "ASN 与索引服务发现分别核实权属"
+  },
+  "59": {
+    "dis": "corrected",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "邮箱到 Oculus 用户关联按隐私边界计影响"
+  },
+  "61": {
+    "dis": "corrected",
+    "targets": "references/by-type/ai-application.md",
+    "note": "生成子域候选仍需独立来源验证"
+  },
+  "68": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "技术指纹不能补成重定向复现"
+  },
+  "69": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md,references/scope-and-rules.md",
+    "note": "ASN 与索引服务发现分别核实权属；历史品牌范围描述逐项核对当前权属"
+  },
+  "70": {
+    "dis": "merged",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "重定向流水线保留最终 authority 证据"
+  },
+  "73": {
+    "dis": "corrected",
+    "targets": "references/by-type/ai-application.md",
+    "note": "RAG 架构图片与正文分开绑定来源"
+  },
+  "74": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "JS 线索追到真正消费者"
+  },
+  "75": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "CSRF 清单按真实浏览器与最终状态归因"
+  },
+  "80": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "URL 前缀切片校验与消费者解析要一致"
+  },
+  "81": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "SiteMinder Unicode 转义依赖真实解码 sink"
+  },
+  "82": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "索引凭据发现与后续利用链分段举证"
+  },
+  "83": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "延时型 SQL 假设排除并发与异步消费者"
+  },
+  "84": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "参数键去重保留接口与出现位置"
+  },
+  "85": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "官方反射 XSS 摘要保留执行证据缺口"
+  },
+  "86": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "家庭配对限制操作校验关系与动作权限"
+  },
+  "87": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "后台自动化流水线保持阶段输出类型"
+  },
+  "89": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "ASN 与索引服务发现分别核实权属"
+  },
+  "91": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "API 异常输入先定位消费语义"
+  },
+  "92": {
+    "dis": "merged",
+    "targets": "references/by-type/ai-application.md",
+    "note": "生成子域候选仍需独立来源验证"
+  },
+  "93": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "更换网络出口不能改变项目限速许可"
+  },
+  "94": {
+    "dis": "corrected",
+    "targets": "references/reporting.md,references/scope-and-rules.md",
+    "note": "重新评估报告靠新增受保护动作证据；私有项目邀请与修复回执不授权公开"
+  },
+  "95": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "严格 token 流程用宏保持真实事务关系"
+  },
+  "96": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "登录后 dest 必须按最终 URL 消费者校验"
+  },
+  "97": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "接管监控变化保留基线与失败集合"
+  },
+  "99": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "Ferox bash 先审参数展开和输出覆盖"
+  },
+  "100": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "接管监控变化保留基线与失败集合"
+  },
+  "101": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "延时型 SQL 假设排除并发与异步消费者"
+  },
+  "102": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": ".git 列表暴露与源码执行链分开"
+  },
+  "103": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "非标准 IPv4 统一规范化后检查地址边界"
+  },
+  "104": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "链接触发崩溃需要版本与异常轨迹"
+  },
+  "105": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "B2B owner 变更校验现任与目标资格"
+  },
+  "108": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "重新评估报告靠新增受保护动作证据"
+  },
+  "109": {
+    "dis": "merged",
+    "targets": "references/by-type/cache-deception.md",
+    "note": "PURGE 接受响应不足以证明缓存驱逐影响"
+  },
+  "111": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "转换名称字段区分渲染与持久传播"
+  },
+  "114": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "Jira 到 Bitbucket 链每一跳检查权限"
+  },
+  "115": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "ASN 与索引服务发现分别核实权属"
+  },
+  "117": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "Joomla public 参数不能决定配置 API 授权"
+  },
+  "118": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "2FA 修复覆盖全部会话签发路径"
+  },
+  "120": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "enabled 状态字段绑定管理权限与会话状态"
+  },
+  "122": {
+    "dis": "corrected",
+    "targets": "references/by-type/cache-deception.md",
+    "note": "404 缓存污染验证隔离 key 与干净读取"
+  },
+  "123": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "模板目录元数据只用于选择候选"
+  },
+  "125": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "关闭管理员 2FA 的题名保留动作前提"
+  },
+  "127": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "JS 候选与公开凭据文件按真实内容分类"
+  },
+  "129": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "APK 静态泄露候选保存规则与版本"
+  },
+  "130": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "深入项目靠可追溯的增量覆盖"
+  },
+  "132": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "JS 到上传执行链按消费者分段"
+  },
+  "134": {
+    "dis": "merged",
+    "targets": "references/by-type/ssrf.md",
+    "note": "非标准 IPv4 统一规范化后检查地址边界"
+  },
+  "135": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "JS 候选与公开凭据文件按真实内容分类"
+  },
+  "136": {
+    "dis": "merged",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "延时型 SQL 假设排除并发与异步消费者"
+  },
+  "140": {
+    "dis": "corrected",
+    "targets": "references/by-type/ai-application.md",
+    "note": "API 白皮书宣传不独立证明分类覆盖"
+  },
+  "141": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "目录数量与状态是历史发现元数据"
+  },
+  "142": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "YouTube 字样检查须绑定精确 authority"
+  },
+  "143": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "XSS 字符改写不能声称 Cloudfront 通用绕过"
+  },
+  "144": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "JS 候选与公开凭据文件按真实内容分类"
+  },
+  "145": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "爬虫首次到达路径保留导航与身份"
+  },
+  "146": {
+    "dis": "corrected",
+    "targets": "references/by-type/smart-contract.md",
+    "note": "验证者列表索引修复核对不变量"
+  },
+  "147": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "目录数量与状态是历史发现元数据"
+  },
+  "148": {
+    "dis": "corrected",
+    "targets": "references/by-type/oauth-oidc.md",
+    "note": "CASB integration 创建校验委托租户归属"
+  },
+  "149": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "修复确认与披露草稿审阅分别记录"
+  },
+  "151": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "Windows Hello 提示必须绑定密钥访问控制"
+  },
+  "152": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "公开报告附件审阅其独立敏感内容"
+  },
+  "155": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "回调验证保留 token 与输入位置对应"
+  },
+  "157": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "Android 深链写入与回包出口分开检查"
+  },
+  "159": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "FAQ 分类从 self XSS 到邀请用户要证明可达"
+  },
+  "160": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "Agartha 生成选项与漏洞验证分开"
+  }
+}

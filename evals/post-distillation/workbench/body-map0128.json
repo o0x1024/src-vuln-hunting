@@ -1,0 +1,587 @@
+{
+  "1": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；从 GitHub 线索到数据库界面需保留权限链；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "2": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；Shell 别名隐藏的网络与权限前提；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "6": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；活动类型在范围内与奖励资格分别核验；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "10": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；登录注册覆盖要按功能状态建立输入模型；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "15": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；凭据文件名清单需要映射真实消费者；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "16": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；凭据文件名清单需要映射真实消费者；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/by-type/ldap-xpath.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；AD 多模块启动日志要按模块记录完成状态；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "19": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；admin 文本匹配必须核验受限功能；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "20": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；crt.sh 别名及组织关联不能直接继承种子范围；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "21": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；聚合奖励项目通配符只产生政策候选；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "23": {
+    "dis": "merged",
+    "targets": "references/scope-and-rules.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；聚合奖励项目通配符只产生政策候选；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；模板字面量要检查插值语法而非只检查引号；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "27": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；onclick 的 HTML 实体需沿两层解析核验；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "28": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；删除响应 CSP 后的 XSS 观察要标明实验改动；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "30": {
+    "dis": "corrected",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；Jira CVE 的通用评分与平台优先级分别说明；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "31": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；收集请求和响应参数后按消费者分配候选；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "33": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；服务商名称命中与子域可认领性分别证明；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "34": {
+    "dis": "corrected",
+    "targets": "references/by-type/ldap-xpath.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；KrbRelay 的协议操作清单不是成功中继证据；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；字典词与扩展名的组合必须落到正确路径；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "37": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；给 URL 列表追加 FUZZ 需识别查询和分隔符；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "38": {
+    "dis": "new_knowledge",
+    "targets": "references/reporting.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；原入口的重定向与目标不可用分别留证；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "41": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；SQL 候选追加文件需防止混入旧批次；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "44": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；移动端和 Web 同一业务应比较服务端状态；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/by-type/ldap-xpath.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；ADReaper 帮助页的枚举类别不等于权限结果；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "47": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；私有 JS 可见性与其中接口的授权分别检查；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "49": {
+    "dis": "corrected",
+    "targets": "references/reporting.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；影响说明和引用报告都需落到本次证据；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "52": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；crt.sh 别名及组织关联不能直接继承种子范围；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "54": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；Smap 的索引输出要保留时间与数据来源；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "55": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；学习案例应复现因果条件并限定实验环境；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "57": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；自动化发现与手工业务判断分别衡量覆盖；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "59": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；反射流水线的过滤和替换要保留原参数身份；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "61": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；DOM 调试和目录发现需分别记录观察对象；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "63": {
+    "dis": "corrected",
+    "targets": "references/by-type/oauth-oidc.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；社交登录的可解码字段不等于可信身份声明；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "69": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；JavaScript 字符串转义要检查反斜杠与闭合字节；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "72": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；绝对路径及 null byte 片段取决于最终文件 API；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "75": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；自动化发现与手工业务判断分别衡量覆盖；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "79": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；攻击时间线示意要连接实际文件与进程事件；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "83": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；弱口令主张要限定登录消费者和实际权限；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "84": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md,references/discovery/records-and-incremental.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；Burp 速查表中的编辑转换与测试能力分开；Burp REST 的定义列表、任务提交与状态分别留证；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "87": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；开发文档线索需核对实际部署的动作与入口；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "89": {
+    "dis": "merged",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；弱口令主张要限定登录消费者和实际权限；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "92": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；扫描器的路径披露标签需回到响应原文；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "95": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；transitionend 片段需要实际过渡完成条件；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "97": {
+    "dis": "merged",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；绝对路径及 null byte 片段取决于最终文件 API；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "98": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；HTML 表单注入到 token 外送需要表单归属链；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "101": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；SVG 混合大小写和 Unicode 片段要按解析层核验；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "102": {
+    "dis": "corrected",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；开放重定向需证明超出实际允许目的地；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "105": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；eBPF 明文观察要说明进程与 TLS 边界；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "107": {
+    "dis": "corrected",
+    "targets": "references/by-type/request-smuggling.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；301 和回连地址不是请求走私边界证据；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "108": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；旧版 API 发出的管理员令牌仍需验证消费者；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "110": {
+    "dis": "new_knowledge",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；收藏工具仓库与执行可信度分别管理；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "112": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；Burp 与 ZAP 功能映射按操作证据核对；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "115": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；发现到截图的工具链要保留阶段输入身份；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "119": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；href 上下文中的整段 anchor 不是通用逃逸；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "120": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；技术指纹到已知漏洞须核适用构建与配置；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "121": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；目录重定向后 404 需比较路由规则；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "124": {
+    "dis": "merged",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；字典词与扩展名的组合必须落到正确路径；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "125": {
+    "dis": "merged",
+    "targets": "references/reporting.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；影响说明和引用报告都需落到本次证据；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "126": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；管理界面发现与具体 WSO2 漏洞分别判定；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "128": {
+    "dis": "new_knowledge",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；反射定义必须连接即时响应中的脚本消费者；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "129": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；标为 test 的仓库秘密仍需核用途和范围；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "130": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；提醒上次关注时间不等于完成测试覆盖；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "131": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；NTDS 取证建议应限定必要性与证据最小化；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "135": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；学习案例应复现因果条件并限定实验环境；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "136": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；管理界面发现与具体 WSO2 漏洞分别判定；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "137": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；ASN 到证书名流水线需保留网络与字段边界；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "139": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；git-dumper help 不证明仓库可恢复；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "143": {
+    "dis": "new_knowledge",
+    "targets": "references/reporting.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；未发现漏洞的报告要描述方法和覆盖限制；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "144": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；错误日志的会话片段要核有效性和归属；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "147": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；恶意文件扫描器的路径与更新参数分开核验；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "156": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；正反向代理图不能推导匿名或加密保证；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "160": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；注册重复身份、长输入和展示注入须分别验证；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "165": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；SQL 条件拼接示例需确认输入确实进入语法；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "168": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；双斜杠状态变化要证明同一受限处理器；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "169": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；粘贴站点和格式正则只提供秘密候选；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "171": {
+    "dis": "merged",
+    "targets": "references/by-type/open-redirect.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；开放重定向需证明超出实际允许目的地；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "172": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；重复投票参数需对照投票规则与持久状态；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "173": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；技术指纹到已知漏洞须核适用构建与配置；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "174": {
+    "dis": "new_knowledge",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；逐参数替换输出保持其他参数与来源不变；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "175": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；不可见管理界面的 stored XSS 仍需回连主体；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "178": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；学习案例应复现因果条件并限定实验环境；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "179": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；项目下载 IDOR 的报告标题需对象权限证据；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "180": {
+    "dis": "corrected",
+    "targets": "references/by-type/file-upload.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；插件 fuzz 的 fopen 告警需区分路径和网络消费者；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "181": {
+    "dis": "merged",
+    "targets": "references/hunting-strategy.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；学习案例应复现因果条件并限定实验环境；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "182": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；JavaScript URL 筛选需核查询后缀和命令形状；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "184": {
+    "dis": "merged",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；粘贴站点和格式正则只提供秘密候选；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "185": {
+    "dis": "new_knowledge",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；源码与黑盒功能发现要连接同一业务消费者；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "186": {
+    "dis": "merged",
+    "targets": "references/by-type/file-upload.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；插件 fuzz 的 fopen 告警需区分路径和网络消费者；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "189": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md,references/by-type/idor-access-control.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；404 主机上的文档线索可指向另一协议入口；管理设备数量不能替代管理员动作边界；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "190": {
+    "dis": "corrected",
+    "targets": "references/by-type/business-logic.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；大小写与拼写路由变化须对照同一限流动作；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "193": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；源码与黑盒功能发现要连接同一业务消费者；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "200": {
+    "dis": "corrected",
+    "targets": "references/by-type/crlf-response-splitting.md,references/by-type/authn-session.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；CRLF 设置跨子域 Cookie 需要响应和域作用域链；Cookie XSS 加 autocomplete 不自动泄漏凭据；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "202": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；CSRF 修改资料后需验证存储和受害者渲染；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "203": {
+    "dis": "corrected",
+    "targets": "references/business-modeling.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；支付网关跳转前的步骤不证明低价购买成立；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "204": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；额外等号导致状态变化要核参数实际解析；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "206": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；IDA 函数颜色与危险调用候选需追实际数据流；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "207": {
+    "dis": "merged",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；IDA 函数颜色与危险调用候选需追实际数据流；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "209": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；SQLMap 数据库名称输出仍需绑定注入请求；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "211": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；特定 CRS 和字符变换主张缺少原始链时不泛化；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "213": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；第三方脚本信任关系不自动继承测试许可；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "215": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；邀请角色参数要约束到邀请者的有效权限；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "221": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；仿登录页和文档下载需区分诱导界面与执行结果；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "224": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；混合内容处理与事件触发按实际浏览器核验；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "226": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；命令行 XSS 二分标签不能取代浏览器确认；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "227": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；BITB 中仿地址栏不能证明真实浏览器来源；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "228": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；命令行 XSS 二分标签不能取代浏览器确认；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "230": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；上传脚本到 LFI 后还需文件解释消费者；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "232": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；命令行 XSS 二分标签不能取代浏览器确认；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "234": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；内存事件时间线要保留证据源和因果限制；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "236": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；URL 分类器的 0.89 accuracy 不证明 XSS；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "237": {
+    "dis": "merged",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；JavaScript URL 筛选需核查询后缀和命令形状；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "239": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；开放端口管道交给 HTTP 工具前先核协议；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "240": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；挑战页观察不能证明所有防护部署可绕过；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "241": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；302 响应体中的命令结果应与输入和身份绑定；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "245": {
+    "dis": "new_knowledge",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；异常分支的参数名输出需要独立 HTML 编码；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "246": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；特殊 IP 表示应在实际 URL 消费者中规范化；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  },
+  "248": {
+    "dis": "corrected",
+    "targets": "references/cloud/cloud-misconfiguration.md",
+    "note": "完整保存正文及有意义替代文字已实际读完；公开 S3 搜索结果要核归属和具体访问能力；实际图片判断另记，缺失图片及外链全文依用户按覆盖。"
+  }
+}

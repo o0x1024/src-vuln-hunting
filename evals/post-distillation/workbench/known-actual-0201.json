@@ -1,0 +1,21 @@
+[
+  {
+    "name": "1738416686041297353-02.jpg",
+    "sha256": "f0d802159a88578cce4848dbfc626982d0c989a42ef154a0b7e9405b4d5213f1",
+    "prior": {
+      "sha256": "f0d802159a88578cce4848dbfc626982d0c989a42ef154a0b7e9405b4d5213f1",
+      "example_post_id": "1551919268442284034",
+      "image_name": "1551919268442284034-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/passive-and-services.md"
+      ],
+      "note": "54 g141 同Amass速查实际完整读，复用同主题但绑定该postURL。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T15:52:14.903Z",
+      "batch": "media-0130"
+    },
+    "detail": "original",
+    "viewed_at": "2026-10-11T10:31:35.359Z"
+  }
+]

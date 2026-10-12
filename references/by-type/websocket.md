@@ -102,3 +102,108 @@ ArgoCD2123094 webterminal session从2.6.0起打开后token过期仍能发websock
 已查看的原始图片：1713997838840152426-02.jpg。浏览器WebSocket open/isTrusted true/readyState1仅建立连接，isTrusted是浏览器事件来源不是peer可信或授权；无消息payload/跨源Origin/受害cookie。CSWSH需恶源带受害session能读写消息，XSS另证消息到HTMLsink；open不等applicationwideXSS/CSRF。
 
 来源：[保存帖1](https://x.com/i/status/1713997838840152426)。
+
+
+## 0226 图片 093 ws
+
+原始图片 `1813558608329662830-02.jpg` 已实际审阅。parameters.yml截图composer生成配置含数据库root/localhost3306、SMTP25 encryptionnull、WS0.0.0.0:8080、sessionnativefile、secret遮盖；配置实值与HTTP未授权可读是不同证据，监听0.0.0.0非公网证明，null需实际传输环境，不收集密码。
+
+来源：[保存帖1](https://x.com/i/status/1813558608329662830)。
+
+
+## 0230 正文 WAMP 与编码外观先定位协议消费者 ws
+
+WebSocket unusual/encrypted样貌经JS分析可识别序列化或WAMP的publish/subscribe/RPC，但编码不是加密证据。记录握手subprotocol、真实帧类型、realm/topic/procedure、会话principal和server权限；连接允许不等于任意调用/订阅。未保存(1/2)/(1/3)续篇按豁免，不补造越权payload或解密算法，未连接/发帧。
+
+来源：[保存帖1](https://x.com/i/status/1823986785745297810)、[保存帖2](https://x.com/i/status/1825180859814858806)、[保存帖3](https://x.com/i/status/1826093647630364698)。
+
+
+## 0231 正文 重复JSON字段桥接消息 ws
+
+Jitsi材料显示重复colibriClass等字段可能在JS和Java解析器、不同解析阶段得到不同值。比较原始字节到对象再到桥接消息的全部消费者，核首值/末值与类型分派，不把解析差异自动称原型污染或OS命令注入。真正原型污染还需共享原型属性写入及后续消费，消息身份/动作授权应独立验证；图示safeJsonParse和去类型字段为历史修复线索，未访问桥接服务。
+
+来源：[保存帖1](https://x.com/i/status/1827903985363423710)。
+
+
+## 保存图证0231-48-ws：1827903985363423710-02.jpg
+
+已核对保存图片 `1827903985363423710-02.jpg`。Jitsi历史摘要说明JSON重复colibriClass键使videobridge与clients对消息类型不同解读，导致会议未授权动作；title称PP而代码区只列safeJsonParse/移除type字段。需逐解析器duplicate-key规则、反序、实际type/权限消费者对照，自有会议模型核动作；未给prototype污染链，CommandInjection分类不证明OSshell，未发消息。
+
+来源：[保存帖1](https://x.com/i/status/1827903985363423710)。
+
+
+## 0232 正文 WAMP RPC的另一个procedure ws
+
+JS可暴露WAMP realm、procedure和CALL参数，需保留构造位置与实际序列化，WebSocket连接成功不代替每个RPC动作/对象授权。比较自有角色、租户和订阅/调用能力，另一个procedure可能有独立实现也可能同根因；未保存实际消息或响应，不把奖励卡当越权证据。
+
+来源：[保存帖1](https://x.com/i/status/1830455745256796599)。
+
+
+## 保存正文0234：JS 分析 WAMP RPC 的权限消费端（ws）
+
+保存正文只说通过 JS 分析发现 WAMP RPC 漏洞，截图仅报告标题。可提炼流程是从客户端调用点记录 realm、procedure、消息类型和调用主体，再比较正常角色与受限角色的服务端授权、对象和真实状态；静态 procedure 名或 WebSocket 连接成功不证明未授权调用。未保存续篇按覆盖，不补调用参数，不发 RPC 或执行。
+
+来源：[保存帖1](https://x.com/i/status/1834405314474717655)、[保存帖2](https://x.com/i/status/1835468643678974020)。
+
+
+## 保存正文0235：WAMP PubSub 要校验订阅和事件投递权限（ws）
+
+正文称 JS 分析发现 WAMP PubSub 漏洞，图片没有实际 topic/消息。追踪 realm、topic、订阅/发布/历史事件、角色与对象，并在每次投递及撤权时检查权限；WebSocket 成功握手或发现 topic 字符串不证明可读私有事件，不能把 RPC 调用权限等同 PubSub。采用自有发布者/订阅者的最小标记模型，不发送真实订阅或泄露他人数据。
+
+来源：[保存帖1](https://x.com/i/status/1836918197817081994)。
+
+
+## 保存图证0235-29-ws：1836956015981457697-02.jpg
+
+已核对保存图片 `1836956015981457697-02.jpg`。API Protocols 图混合 REST 架构、GraphQL 查询、SOAP/WebSocket/gRPC/MQTT/AMQP/SSE 与 EDA/EDI 架构/交换方式。按请求、消息、订阅、回调和对象解析记录身份与权限，而非仅 HTTP 路径；GraphQL 字段/RPC method/topic/事件消费者各需授权，SSE 单向与 WS 双向不同，XML 不自动 XXE，图不证明某目标实现或漏洞。
+
+来源：[保存帖1](https://x.com/i/status/1836956015981457697)。
+
+
+## 保存正文0236：UUID经WebSocket可得仍需对象授权（ws）
+
+正文称UUID容易从WebSocket泄露后IDOR，图片仅奖励。区分消息订阅ACL、identifier可见范围与后续对象操作权限，ID随机性不能替代serverACL。用自有角色/不同对象最小标记核各consumer及撤权，看到UUID不自动私密/接管，不订阅他人消息或遍历。
+
+来源：[保存帖1](https://x.com/i/status/1838831553843257608)。
+
+
+## 保存正文0236：JS与日志要绑定同一RPC主体和consumer（ws）
+
+正文称WAMP RPC演示ready但不含demo。记录JS调用点/realm/procedure和相关日志的主体、对象、参数与真实状态，以自有正常/受限角色单变量比较；字符串/日志时间/奖邮件不替代服务端授权回执，未补续篇或发送RPC。
+
+来源：[保存帖1](https://x.com/i/status/1840422445645467648)。
+
+
+## 保存正文0237：Pub/Sub 主题与功能开关的授权（ws）
+
+正文建议通过启用附加功能和审阅 JS 发现新的 WAMP 主题。功能与主题存在不等于低权限订阅成功；分别核 realm、连接身份、订阅权限、逐消息对象、保留消息与撤权生效。开启功能会改状态且不自动授权他人数据访问，缺失续篇按覆盖，不启用功能或交换消息。
+
+来源：[保存帖1](https://x.com/i/status/1842886909833683428)。
+
+
+## 保存图证0237-63-ws：1842886909833683428-02.jpg
+
+当前附件 `1842886909833683428-02.jpg`。已实际审阅保存的原始图片。报告通知显示低权限用户经 WebSocket 披露他人信息的标题、Low 3.4、Triaged Open 与私有可见性，并限制细节披露。结合保存正文的 Pub/Sub 线索，应核查 realm、订阅主题、消息对象和撤权后的服务端鉴权；通知未给出实际消息与权限对照，奖励和标题不能证明所有主题均可访问，不订阅或发送消息。
+
+来源：[保存帖1](https://x.com/i/status/1842886909833683428)。
+
+
+## 保存正文0238：WAMP 主题发现与消息授权（ws）
+
+额外功能与 JS 分析可提示新的 Pub/Sub 主题，但功能启用是状态变更且不授予主题或他人消息权限。核对 realm、主体、订阅和逐消息对象、历史与撤权；通知的 Low 3.8 与奖励仅表示处理记录，缺原始消息不能证明完整影响，不启用功能或订阅消息。
+
+来源：[保存帖1](https://x.com/i/status/1844528342889791606)。
+
+
+## 保存图证0238-33-ws：1844528342889791606-02.jpg
+
+当前附件 `1844528342889791606-02.jpg`。已实际审阅保存的原始图片。通知展示 WebSocket 低权限披露标题、Low 3.8、Triaged Open、Generic 访问控制弱点与私有可见性，另有披露许可限制。正文的额外功能与 JS 分析只提供主题发现线索；主题订阅、每条消息和撤权需独立检查，等级与奖金不能替代原始消息证据，不启用功能或读他人信息。
+
+来源：[保存帖1](https://x.com/i/status/1844528342889791606)。
+
+
+## 保存图片0244-19：1857029471431238131-04.jpg（ws）
+
+已审阅该内容原图，当前保存附件 1857029471431238131-04.jpg。OWASP目录末段有逻辑时序/次数/工作流/误用/上传、DOM/JS/HTML/CSS/资源/CORS/Flash/clickjacking/WebSocket/postMessage/storage/XSSI及GraphQL、报告附录；历史Flash项不代表现代默认能力，目录不证测试完成。按消费者和业务终态分组，API/schema可见性仍需权限证据，恶意文件/跨站动作另授权。
+
+来源：[保存帖1](https://x.com/i/status/1857029471431238131)。

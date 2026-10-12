@@ -1,0 +1,43 @@
+"""Exact-once receipt after repaired inline code; full observed final exit0 session30091/cd6702."""
+import ast,json,re
+from datetime import datetime,timezone
+from recover import T,A,W
+s=json.loads((A/'status.json').read_text());v=json.loads((A/'verification.json').read_text())
+assert s['body_reviewed_groups']==26243 and s['body_reviewed_posts']==27266 and s['remaining_body_groups']==25236
+assert s['media_visually_reviewed_unique_contents']==9037 and s['body_followup_groups']==0 and not s['all_posts_content_distilled']
+assert v['raw_source_documents_hash_verified']==52716 and v['semantic_review_groups']==26243 and v['semantic_review_posts']==27266
+assert v['local_markdown_links_checked']==5740 and v['broken_local_markdown_links']==0 and not v['all_posts_complete']
+assert v['reviewed_media_hashes_reverified']==9014
+fs=next(ast.literal_eval(n.value) for n in ast.parse((W/'native0172.py').read_text()).body if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='facets' for t in n.targets))
+assert fs==json.loads((W/'facets0172.json').read_text()) and len(fs)==74 and len({f for f,_,_ in fs})==33
+c=(T/'references/research/community-distillation.md').read_text()
+for f,title,body in fs:
+ txt=(T/'references'/f).read_text()
+ assert txt.count('## '+title)==1 and txt.count(body)==1 and c.count('| '+title+' |')==1,(f,title)
+b=json.loads((W/'batch-0172.json').read_text());ids={pid for r in b for pid in r['post_ids']}
+urls=[pid for _,_,body in fs for pid in re.findall(r'https://x\.com/i/status/(\d+)',body)]
+assert len(urls)==100 and all(pid in ids for pid in urls) and len(b)==160 and len(ids)==161
+actual=json.loads((W/'media-actual-0172.json').read_text());media=[json.loads(l) for l in (A/'media-reviews.jsonl').read_text().splitlines() if l.strip()]
+assert len(actual)==91
+for r in actual:
+ matches=[m for m in media if m['sha256']==r['sha256']]
+ assert len(matches)==1 and matches[0]['batch']=='media-0166' and matches[0]['reviewed_at']==r['viewed_at']
+reviews=[json.loads(l) for l in (A/'reviews.jsonl').read_text().splitlines() if l.strip()]
+for r in b:
+ matches=[m for m in reviews if m['body_sha256']==r['body_sha256']]
+ assert len(matches)==1 and matches[0]['batch']=='batch-0172' and set(matches[0]['post_ids'])==set(r['post_ids'])
+assert 'batch0172_final_checks' not in v
+now=datetime.now(timezone.utc).isoformat()
+pct=round(100*s['body_reviewed_posts']/s['total_posts'],2)
+assert pct==51.72
+v['batch0172_final_checks']=dict(checked_at=now,quick_validate='valid',git_diff_check='passed',runtime_source_dependency_scan='no_matches',native_facets_exactly_saved=74,source_URLs_bound_to_batch=100,full_verifier_exit=0,full_verifier_session=30091,full_verifier_final_chunk='cd6702',full_source_hashes=52716,rendered_links=5740,broken_links=0,post_coverage_percent=pct,user_waiver_missing_and_external='count_as_covered',primary_normative_read=json.loads((W/'normative0172.json').read_text()),no_waived_archive_fulltexts_fetched=True)
+for k in ['static_skill_validation_verified_at','git_diff_whitespace_verified_at','runtime_source_dependency_verified_at','skill_quick_validation_at','git_diff_whitespace_check_at','runtime_source_dependency_check_at']:v[k]=now
+(A/'verification.json').write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
+
+
+
+v["batch0172_final_checks"]["markdown_formatting_repair"]=dict(failed_session=8882,failed_final_chunk="6f0d3f",failure="bare function bracket interpreted as links",repaired="inline code marked in topic/routes/native audit",repair_chunk="5cd007",no_review_ledger_append=True)
+(A/"verification.json").write_text(json.dumps(v,ensure_ascii=False,indent=2)+"\n")
+prefix = 'CURRENT COMPLETED0172/media0166. ACTIVE unbudgeted goal 完成所有posts内容的提炼; allfalse. NEVER rerun successful native/media/record/finish0172. Next0173/media0167.\nVerified26,243groups27,266posts51.72%; remaining25,236groups25,450posts total51,479groups52,716posts. Media9,037=5,210D2,367N1,460I; availableexternal9014 inline3/9 priorunavailable20 links5740 broken0. Canonicalc3ba1c34b72295375ce4a5287ee3cc1b3a449702292fd40f2424f41fd78b6520.\nUser waiver missingimages/externalfulltexts covered nofetch/recovery/noinventreading; ALLsavedbodies/currentavailableimagesrequired. Standalone no source runtime dependency. RTK shell/no subagents/memorywrites/livecredentials/sourceexecution/install; preserve unrelatedchanges.\n0172 preparea3a805 inventory0006b4 160groups161posts38453chars first1646174301039603713 last1648578072608899073.97paths92unique1known91new179missingwaived. ALLcompletebody actual1–60 4ccfea;61–11077674e;111–1606dd963. Known1metadata7d31c5 xsshuntercardace1ceb8 N. All91neworiginal returnedSHA/time actual-0172.json91 notes0172.json91 actualmanualnotes;49D27N15I.74facets33topics100URLs96mapped70corrected26merged64excluded. No externalfulltextfetch normative0172=[].\nPersist249f91 build5d477a/precheck2d850a. NativeURLtail84->100 repaired5acf9f beforeappend; native306122/mediabe2404/bodye11d7f ONCE. Quick78e71avalid/git6293b3exit0/runtime97bad0exit1empty. Full59f77bsession8882FINAL6f0d3fexit1: bare parent function dispatch parsedMarkdownlinks. Actualcodeformattingonlyrepair5cd007 topic+communityroute+facets/nativeaudit equal/noledgerappend; fullrerunc2810csession30091FINALcd6702 OBSERVEDexit0 52716sources26243groups27266posts9037media9014hashes5740links0brokenallfalse. FinishONCE receipt verification.json.batch0172_final_checks freshgit required.\nPrincipal0172:GAUhttpx403!=accessible; emailcanonicalizationSMTPenvelope/headers; ImageMagickownCloudinstalled/uploadknownpath/previewconsumerMSLcropped; HTTPmethodsrolesobjectsameoperation; uploadMIMEextensionnotexecute; AEM/Waybackdatedscope; searchdorksnotconsumer; proxySSRFdiagramnotsecrets; MetaMaskBIDIoriginUIvsactualorigin; deleteaccountprotectedrequestrevocation; RollTokenrotationDoSnotstealing; resetHPPemailtoken/delivery; SOAPCDATAtextXSSnotXXE; organization/photo/comment/user_id401->200notdata; brokenlinksidentityNOclaim/contact; QuadraInspect/MobSFmenusnotanalysis; DigitalOceanprovider/namespaces; feedbackJSONsuccessfalse/AWSfieldsnotcredentials; Nucleiseveritycountsnotvulns; JEBlicensePIInotcredential; emailmixedSQLSSRFSMTPcandidatesNOdestructiveexecute; SSTIbracesnormalizationnotrender; inputtypes/LIKE/wildcards/$neqNOTuniversal; PHPiconv4xmemory134217728NOfileproof/DoS; formXMLJSONparserchain; upload20checklistconsumer; AkamaioriginownershipHostSNI/auth; logoutjavascriptNOexecute; PHPmailpreexistingexec; wpcronnotDoSCritical; xmlrpcmethod/pingbackDNSnotinternal; CORSsuffix/credentialbrowserdata;500MIMEsniffneedsbrowser; traversaldecode/fileconsumer; OOSarchivepath->scopefreshproof; APIversionglobalreplace; sitemapSQL#fragment/rawrequestbaseline; JSthreegrepregexlimits; financialprogressvscoverage/MacPythonissueonly1environment; errorlogP1titleNOJWTproof; local$0/rootpromptnotremoteWAF; SSPPsourcegadgetseparate; aggressiondepthbudget/fingerprintunknownNOnoWAF; hashparentfunctionsameorigin/CSP/967URLsNO967bugs; OOSLFIawardNOlicense; AIreportSVG->img changedNOinventCVSS/root; Nucleitemplatematchernegative; ArgoCDJWTaudOIDCgroupshistory; twoAirflowprovidersCVEsdifferentconditions/croppedconsumer; guillemetsnotHTMLNOsilentrepair; WAFfalsepositiveapplicationsemantics; payment11oldCVSSv2notbusinesscoverage; headerPitchfork125vsDNS123mismatch; API30matrixnotDoSsocialauth; UA403XCheckCacheableYESnotcachehit; sleep1/5/8~10xnozero/control/retries; CSRFotherinstanceambiguoussubject; GooglemetadataredirectheadersindexNOsecrets; deser25signaturebeforeparse/objectgraph; numericnodehiddennotprivate; proxysemicolonrouteequivalence; TrustedTypesemptyconsoleNOresult; iOSrebuildAndroidboundary; OracleSQLXMLmalformedhttppDNSNOTDBattribution; Pulsardefaultclaimnotcurrent; privateAPIIDownA/Bnotallusers. All49D bound exactfilename/post/target. Certificates/covers/cards/status/payment reviewed withoutinventing.\nNEXT0173/media0167 prepare160max40000ONCE thenactualALLcompletebodies/neworiginalimages<=6/callmanualnotes/returnedSHA/time. Build/precheckbeforeappend; native/media/bodyONCE; quick/git/runtime/fullsameprocessOBSERVEDexit0; finishONCE/HANDOFFprependhistory. Helpersdata0172/actual0172/notes0172/draft0172/reviewImageBatch0172/bodyReader0172/draftHelper0172/imageHelpers/counts0172/normative0172/checks0172/repair0172 live;loadclonesalwaysstore. Templatesbuild/precheck/native/finish0172. pct=round(100*posts/total,2), NEVERreplace100percentagebasewhenoldURLs100. No livehandles aftercompletion. Memory424–425 actual78f3d5 provenance01a11e72-23a9-7091-85bd-fb3171d2e135.\n\n'
+h=W/'HANDOFF.md';h.write_text(prefix+h.read_text())
+print(json.dumps(dict(groups=26243,posts=27266,media=9037,facets=74,percent=pct,all_complete=False,goal='active',receipt=now)))

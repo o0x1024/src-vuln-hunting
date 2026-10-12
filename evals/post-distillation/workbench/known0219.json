@@ -1,0 +1,253 @@
+[
+  {
+    "name": "1792563639301333308-02.png",
+    "sha256": "42ab0b8cfc683abeb9175cf45a2682597b0d9e1894853671fb2819426bd29523",
+    "prior": {
+      "sha256": "42ab0b8cfc683abeb9175cf45a2682597b0d9e1894853671fb2819426bd29523",
+      "example_post_id": "1792409914406588608",
+      "image_name": "1792409914406588608-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/authn-session.md",
+        "references/by-type/jwt.md",
+        "references/by-type/info-secrets.md",
+        "references/by-type/deserialization-rce.md",
+        "references/source-audit.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "badsecrets 表按框架列出 ViewState、Telerik、Flask、PeopleSoft、Django、Rails、JWT、JSF、Symfony、Express、Laravel 等格式与已知密钥检测条件，并标注框架模式、版本或键种类。先识别实际格式、编码、算法、签名 Cookie 模式及消费端版本，再用虚拟密钥和本地样本验证匹配；已知密钥命中、验签成功、服务端接受、授权变化和反序列化代码执行是分别需要证据的阶段。区分 HMAC 密钥与 RSA 私钥，公开 RSA 公钥不等于签名能力；不保存或使用真实密钥，不把各框架统一判为 RCE。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:47:13.199Z",
+      "batch": "media-0212"
+    }
+  },
+  {
+    "name": "1792777517377749292-02.jpg",
+    "sha256": "3da710955750772717280d584fd7b6572a5826e4408720913501d282b4cd00f6",
+    "prior": {
+      "sha256": "3da710955750772717280d584fd7b6572a5826e4408720913501d282b4cd00f6",
+      "example_post_id": "1791719543267528789",
+      "image_name": "1791719543267528789-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "XSRFProbe仓库分享封面，无浏览器跨站状态变化。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:46:24.693Z",
+      "batch": "media-0212"
+    }
+  },
+  {
+    "name": "1792855588491170296-02.jpg",
+    "sha256": "72d4f19d684f496a1e0d136d999e2d75ff2d0b02907a9043648b81c2ea5c6d0f",
+    "prior": {
+      "sha256": "72d4f19d684f496a1e0d136d999e2d75ff2d0b02907a9043648b81c2ea5c6d0f",
+      "example_post_id": "1570857432167120898",
+      "image_name": "1570857432167120898-02.jpg",
+      "disposition": "insufficient_technical_detail",
+      "targets": [],
+      "note": "20 个安全工具名称名单，仅资源索引。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T17:09:43.422Z",
+      "batch": "media-0135"
+    }
+  },
+  {
+    "name": "1793312821058347472-02.jpg",
+    "sha256": "3da67e2fb3d861eca56e8a3c4b3f68160ccdfc9b6258ef2d1b0bc80655fcb56a",
+    "prior": {
+      "sha256": "3da67e2fb3d861eca56e8a3c4b3f68160ccdfc9b6258ef2d1b0bc80655fcb56a",
+      "example_post_id": "1790015186696393111",
+      "image_name": "1790015186696393111-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "高级SQL课程仓库分享封面，未展开代码或消费者。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:40:19.503Z",
+      "batch": "media-0212"
+    }
+  },
+  {
+    "name": "1793324467143254419-03.jpg",
+    "sha256": "17d396b1910e9916bc340e3e9224974bbda6d24820ed01f423c5f813e100d470",
+    "prior": {
+      "sha256": "17d396b1910e9916bc340e3e9224974bbda6d24820ed01f423c5f813e100d470",
+      "example_post_id": "1570137442988204032",
+      "image_name": "1570137442988204032-02.jpg",
+      "disposition": "insufficient_technical_detail",
+      "targets": [],
+      "note": "nomore403 仓库宣传卡，无实际请求或拒绝原因。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T17:09:03.455Z",
+      "batch": "media-0135"
+    }
+  },
+  {
+    "name": "1793813590870569059-02.jpg",
+    "sha256": "0434b8c324176e3a53177383e1de8a37f65e5f90d3ec30c99566996574ab4b83",
+    "prior": {
+      "sha256": "0434b8c324176e3a53177383e1de8a37f65e5f90d3ec30c99566996574ab4b83",
+      "example_post_id": "1789677001189802094",
+      "image_name": "1789677001189802094-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/targeted-fuzzing.md",
+        "references/discovery/web-and-api.md",
+        "references/discovery/records-and-incremental.md",
+        "references/source-audit.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "Nuclei v2.9.15 reflection 模板先无结果后在缓存靶场匹配，同时deprecated protocol警告；debug只显示请求开头。反射matcher和Low标签不能证明XSS/CSRF/redirect。保存具体模板版本、原始请求、匹配段和失败覆盖，以离线惰性反射/编码/不存在字段夹具比较，不运行扫描器或泛化全类型漏洞。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:40:19.368Z",
+      "batch": "media-0212"
+    }
+  },
+  {
+    "name": "1793813590870569059-03.jpg",
+    "sha256": "c831e9b3b2cc04cc4c92ca5b11ec1a2696bc6a8f96b2f286db883d93808c719b",
+    "prior": {
+      "sha256": "c831e9b3b2cc04cc4c92ca5b11ec1a2696bc6a8f96b2f286db883d93808c719b",
+      "example_post_id": "1789677001189802094",
+      "image_name": "1789677001189802094-03.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/cache-deception.md",
+        "references/by-type/host-header.md",
+        "references/by-type/xss.md",
+        "references/discovery/web-and-api.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "debug请求多个头放不同canary，返回Varnish Age21/UA hit及og:image URL采用xfh canary；只支持头影响缓存表示的线索，缺少独立干净请求命中或脚本执行。离线逐头惰性输入、缓存键、MISS/HIT与正确Host构造对照，区分资源URL/属性编码/浏览器执行，不能凭反射推定共享投毒或SSRF。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:40:19.393Z",
+      "batch": "media-0212"
+    }
+  },
+  {
+    "name": "1793813590870569059-04.jpg",
+    "sha256": "e0419e134cc389d4a36e56a93313d904ee9f582761fe64473e628b5f32663eaa",
+    "prior": {
+      "sha256": "e0419e134cc389d4a36e56a93313d904ee9f582761fe64473e628b5f32663eaa",
+      "example_post_id": "1789677001189802094",
+      "image_name": "1789677001189802094-04.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/cache-deception.md",
+        "references/by-type/host-header.md",
+        "references/discovery/web-and-api.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "另一debug响应Age0/UA miss、og:image不同canary，下方Set-Cookie相关请求被裁切。对照缓存表示、请求头和键、独立无候选请求及失效后的输出，时间/随机数变化不自动是投毒。只保存靶场消费者和局部证据，不把Nuclei matcher当XSS/CSRF成功。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:40:19.433Z",
+      "batch": "media-0212"
+    }
+  },
+  {
+    "name": "1793878500035924060-02.jpg",
+    "sha256": "d2a2879a82834577b84f27472070951580b20f11a987dc238c696b62a9b84470",
+    "prior": {
+      "sha256": "d2a2879a82834577b84f27472070951580b20f11a987dc238c696b62a9b84470",
+      "example_post_id": "1689728814987776000",
+      "image_name": "1689728814987776000-02.jpg",
+      "disposition": "insufficient_technical_detail",
+      "targets": [],
+      "note": "API-Wordlist仓库预览，没有词条或有效端点。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T04:25:15.964Z",
+      "batch": "media-0180"
+    }
+  },
+  {
+    "name": "1794284849299112288-02.png",
+    "sha256": "6d7c57b8284ae69cd1bebe405150dbd4112c25bd8a9e496d4140f9c31b704838",
+    "prior": {
+      "sha256": "6d7c57b8284ae69cd1bebe405150dbd4112c25bd8a9e496d4140f9c31b704838",
+      "example_post_id": "1585468941480124416",
+      "image_name": "1585468941480124416-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "TikToklogo无监控机制。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T18:12:10.996Z",
+      "batch": "media-0140"
+    }
+  },
+  {
+    "name": "1794598785471140325-02.jpg",
+    "sha256": "0434b8c324176e3a53177383e1de8a37f65e5f90d3ec30c99566996574ab4b83",
+    "prior": {
+      "sha256": "0434b8c324176e3a53177383e1de8a37f65e5f90d3ec30c99566996574ab4b83",
+      "example_post_id": "1789677001189802094",
+      "image_name": "1789677001189802094-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/targeted-fuzzing.md",
+        "references/discovery/web-and-api.md",
+        "references/discovery/records-and-incremental.md",
+        "references/source-audit.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "Nuclei v2.9.15 reflection 模板先无结果后在缓存靶场匹配，同时deprecated protocol警告；debug只显示请求开头。反射matcher和Low标签不能证明XSS/CSRF/redirect。保存具体模板版本、原始请求、匹配段和失败覆盖，以离线惰性反射/编码/不存在字段夹具比较，不运行扫描器或泛化全类型漏洞。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:40:19.368Z",
+      "batch": "media-0212"
+    }
+  },
+  {
+    "name": "1794598785471140325-03.jpg",
+    "sha256": "c831e9b3b2cc04cc4c92ca5b11ec1a2696bc6a8f96b2f286db883d93808c719b",
+    "prior": {
+      "sha256": "c831e9b3b2cc04cc4c92ca5b11ec1a2696bc6a8f96b2f286db883d93808c719b",
+      "example_post_id": "1789677001189802094",
+      "image_name": "1789677001189802094-03.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/cache-deception.md",
+        "references/by-type/host-header.md",
+        "references/by-type/xss.md",
+        "references/discovery/web-and-api.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "debug请求多个头放不同canary，返回Varnish Age21/UA hit及og:image URL采用xfh canary；只支持头影响缓存表示的线索，缺少独立干净请求命中或脚本执行。离线逐头惰性输入、缓存键、MISS/HIT与正确Host构造对照，区分资源URL/属性编码/浏览器执行，不能凭反射推定共享投毒或SSRF。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:40:19.393Z",
+      "batch": "media-0212"
+    }
+  },
+  {
+    "name": "1794598785471140325-04.jpg",
+    "sha256": "e0419e134cc389d4a36e56a93313d904ee9f582761fe64473e628b5f32663eaa",
+    "prior": {
+      "sha256": "e0419e134cc389d4a36e56a93313d904ee9f582761fe64473e628b5f32663eaa",
+      "example_post_id": "1789677001189802094",
+      "image_name": "1789677001189802094-04.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/cache-deception.md",
+        "references/by-type/host-header.md",
+        "references/discovery/web-and-api.md",
+        "references/source-audit.md",
+        "references/discovery/records-and-incremental.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "另一debug响应Age0/UA miss、og:image不同canary，下方Set-Cookie相关请求被裁切。对照缓存表示、请求头和键、独立无候选请求及失效后的输出，时间/随机数变化不自动是投毒。只保存靶场消费者和局部证据，不把Nuclei matcher当XSS/CSRF成功。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T17:40:19.433Z",
+      "batch": "media-0212"
+    }
+  }
+]

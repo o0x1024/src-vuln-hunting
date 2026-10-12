@@ -1,0 +1,65 @@
+0|insufficient_technical_detail||wpeprivate泄露P1未解决标题与积分，无实际内容或302目的地；不能以目录名/302确认敏感读取。
+1|no_technical_content||Google虫子封面，无机制。
+2|distilled|references/by-type/idor-access-control.md|Burp POST username_exist与login字段，大面积遮盖且无响应；可得用户名不证明对象权限或登录身份，需自有AB操作结果。
+3|distilled|references/discovery/passive-and-services.md|CipherScan显示协议/cipher/PFS/曲线/证书信任/OCSP/顺序，仅该时间主机443握手组合；不能等同浏览器链全部正确/可利用或当前状态。
+4|no_technical_content||Monkey365标志无配置或权限证据。
+5|insufficient_technical_detail||SteaLinG菜单dump密码/历史/文件/telegram等，缺初始执行、权限和实现；菜单不是提权或无授权取数证明，未执行。
+6|insufficient_technical_detail||Duplicate/Medium/OpenRedirect侧栏，与正文Hyperlink injection名称不一致，无原始导航证据。
+7|distilled|references/by-type/idor-access-control.md|IDOR清单方法/ID/重复参数/通配/旧API/json/Referer/UUID/hash/导出/状态操作；加密与hash不等同，不上传用户标识到第三方解密，不用50–100请求默认预算，不以200或*证明全用户。
+8|insufficient_technical_detail||BackdoorPhish平台/伪装模板/端口菜单，已有交付执行与信任前提，不运行、菜单不证明shell。
+9|distilled|references/by-type/info-secrets.md|公司名language:python搜索1347results，需owner/repo和代码上下文，命中不等于敏感数据。
+10|distilled|references/by-type/idor-access-control.md|IDOR另一帖同清单当前图，条件同7。
+11|insufficient_technical_detail||供应链/Web3/云/车/ICS等趋势学习名称清单，无具体方法或预测证据。
+12|insufficient_technical_detail||XSS→ATO/cachepoisoning Triaged通知无请求；正文跨移动入口缓存假设需真实key/contenttype/浏览器consumer和最终身份，状态不证明链。
+13|distilled|references/by-type/authn-session.md|Cognito认证取token再访问自有资源概念图；无错配配置，认证与资源授权分开。
+14|no_technical_content||服务器攻击装饰图，无具体SSRF保护。
+15|distilled|references/by-type/cors.md|CORS管道截图重复正文，target=$(curl...)后grep没接变量、curl-I仅头、脚本语法残缺；反射Origin字符串不证明浏览器含凭据可读，真实GET/允许Origin/ACAC认证数据需对照。
+16|distilled|references/by-type/idor-access-control.md|反馈GET带email/count/page、Bearer/cookies响应PUBLIC评论及UUID；公开profile/UUID不是接管，实际身份/权限绑定与后续consumer必须证明，敏感值不复制。
+17|no_technical_content||活动梗图，无技术内容。
+18|distilled|references/by-type/info-secrets.md|Cloudflare误构建摘要称backend代码公开后修复，无artifact样本；确认实际bundle/map/源文件公开范围与敏感边界，Low不通用。
+19|insufficient_technical_detail||子域枚举工具logo合集，无benchmark样本或方法。
+20|distilled|references/by-type/idor-access-control.md|MTN步骤POST dashboardData发现email/id，userProfile修改请求换id/email后称存入另一账户；标识发现和写授权分别自有AB，独立读回，视频仅thumbnail未看。
+21|insufficient_technical_detail||CloudFront403请求失败，不能证明GraphQL SQL注入或WAF绕过/安全；网络阻断保留未完成。
+22|distilled|references/by-type/info-secrets.md|central_config JSON示例包含checkTokens false/cachevalidity/TTL/ActiveMQ等，大面积遮盖凭据；字段与可达消费者分开，配置公开不证明凭据有效或后端权限。
+23|distilled|references/by-type/ssrf.md|Acronis报告将autodiscover返回404+ActiveSync OutlookURL当41040证明；摘要历史裁决无利用迹象，公开正常发现协议响应不能独立证漏洞，实际认证前提/链条另验证。
+24|distilled|references/by-type/xss.md|Linkpop复发报告说明旧name留有blindscript，声称回归；旧存储值、当前新写入、渲染版本/浏览器与实际执行需对比，不从旧标记自动认定新回归。
+25|insufficient_technical_detail||Shopify collabs开户/onboarding首三步，无下游payload/consumer，不造完整XSS。
+26|distilled|references/hunting-strategy.md|视频/书到Labs到Notes再writeups/code review练习闭环；自有实验与真实授权资产分开，笔记绑定条件/负例而非payload库。
+27|distilled|references/by-type/xss.md|SelfXSS addlink输入javascript:示例，要分管理preview与公开linkconsumer、谁必须点/输入、origin与CSP，不从自执行或奖励推到其他用户。
+28|distilled|references/targeted-fuzzing.md|Fortinet模板管道子域/多个端口到Nuclei，模板内容未保存；每候选范围、版本、identity与写副作用核对，verbose不等于获授权、命中不确认admin。
+29|distilled|references/by-type/cmd-injection-rce.md|Metasploit会话与Defender实时/云开设置图，已有本地exe执行/进程身份；缺引擎版本/独立对照，无万能免杀证据。
+30|distilled|references/by-type/cmd-injection-rce.md|ClamAV0.105.1分段文件扫描0infected含空文件，未证明样本可执行/各片段完整/Defender全版本免杀。
+31|distilled|references/by-type/csrf.md|CSRF my-account.cfm更新信息到password reset摘要，底部攻击code未保存；需要真实跨站Cookie、token、Origin/SameSite与自有邮箱最终恢复绑定，不以POST必CSRF。
+32|distilled|references/by-type/idor-access-control.md|VendorId PII报告PoC遮盖，作者明确没测ATO；保留未验证用途，不从PII推接管或钓鱼。
+33|distilled|references/by-type/authn-session.md|EditUserProfile自有A/B同邮箱冲突、改userId后恢复A字段再用B邮箱+A密码登录序列；身份合并/目标选择/密码字段消费者逐步独立读回，302和B登录错误不是最终ATO，勿对他人操作。
+34|no_technical_content||Matano标志，无AWS配置或湖权限证据。
+35|distilled|references/by-type/idor-access-control.md|OA_HTML公开注册→本地登录→vacation rules搜索用户报告；注册资格、角色、目录预期公开和PII权限独立核对，不自动全目录漏洞。
+36|distilled|references/by-type/xss.md|ESI ms字段解析HTTP_HEADER{Cookie}与另title反射XSS摘要，HttpOnly只阻JS直读不阻服务端头再渲染；实际ESI启用/身份/输出缓存key/同源消费者及最终权限需分证，用自有非敏感头canary，不取cookie。
+37|distilled|references/by-type/info-secrets.md|研究者未知何因收到access request邮件，自述不知复现/是否曾注册且未得访问；邮件泄漏内容与membership/路由状态分开，不补造攻击流程，不给用户发测试邮件。
+38|distilled|references/by-type/ssrf.md|BlindSSRF图片只JS urlParam正则/decodeURI解释，未见服务器下载sink或回连；浏览器取URL参数不证明服务端请求，题名与可见证据不等同。
+39|distilled|references/discovery/records-and-incremental.md|RedEye timeline/graph原始任务与输出，任务、凭据与结果身份需时间关联；图边和ATT&CK标签不证明独立提权/资产授权，不复用显示hash。
+40|distilled|references/by-type/ssrf.md|download-url参数请求元数据路径，响应片段仅元数据键目录；目录可读不等于IAM凭据或云账户控制，最少自有非敏感标记/日志归因。
+41|distilled|references/by-type/subdomain-takeover.md|Netlify目标误配置接管摘要历史Resolved，无DNS/申领细节；记录供应商资源状态，不从404或LeftoverDebugCode标签当可注册或backdoor。
+42|distilled|references/discovery/records-and-incremental.md|文件名列表状态桶/GAU/httpxJS/dnsIP/secrets，未见实际脚本或覆盖；按批次来源、身份、时间与失败绑定，目录名不能算完成。
+43|no_technical_content||Monkey365封面标志无新技术。
+44|distilled|references/by-type/info-secrets.md|已发布profile版本切换后 verified/requested版本API额外返回email/UUID姓名摘要；发布态不自动授权私有字段，org/profile/version三层对象与版本保留政策自有AB匿名对照。
+45|distilled|references/by-type/sql-injection.md|组织API路径中的单引号+extractvalue错误候选请求截图，无响应；用自有常量错误回显与基线，数据库方言/权限可达另核对，不提取user()生产数据。
+46|distilled|references/by-type/info-secrets.md|git/config含remote与示例列源码名，称gitdumper拿全；config可见与objects可达/完整代码/凭据有效分别证，不批量恢复真实仓库，Duplicate/Critical不是现役影响。
+47|insufficient_technical_detail||Zabbix docs宣传封面无script API配置；正文执行功能需要调用者角色、script范围、server/proxy/agent权限及原生允许设计，不自动未认证RCE。
+48|no_technical_content||SQLi Triaged/Resolved奖励截屏，无注入数据流。
+49|distilled|references/by-type/authn-session.md|企业注册company.com子串+后缀拼接外域邮件建议；SMTP回连不证明账户verified/组织角色，严格邮箱域边界与受信issuer/membership，测试仅自有后缀收件不发他人。
+50|insufficient_technical_detail||GodGenesis C2监听提示，无会话或全杀软绕过证据。
+51|distilled|references/by-type/authn-session.md|Write管理控制台7.1.1界面与用户/LDAP设置菜单，正文defaultcreds称管理员；默认文档密码与当前有效凭据/持久principal/实际权限分开，不使用他人默认密码。
+52|distilled|references/targeted-fuzzing.md|KnoXSS API awk拼接URL到shell管道，输入引号/命令字符可改变生成脚本，外部服务上传目标/凭据副作用；候选→范围/认证→结构化请求→预算/结果对照，不执行sh生成内容。
+53|distilled|references/targeted-fuzzing.md|Nuclei40684多api/v2/cmdb/system/admin命中列表，版本/同源请求/权限与原始响应未知，多个端口重复不代表独立漏洞或admin修改权限。
+54|distilled|references/discovery/records-and-incremental.md|Recon脑图域来源→子域/httpx/端口→关键词→dorks→wayback→JSsecret→fuzz→手工；指定端口/名称筛选有漏项，字典倍率不是覆盖证据，主动前范围/协议/预算。
+55|no_technical_content||奖励金额与accounts文字遮盖，无IDOR实证。
+56|distilled|references/by-type/idor-access-control.md|IDOR清单同7/10，当前图完整；保留每方法/重复参数解析与下游导出边界，不默认批量或hash破解。
+57|no_technical_content||Android访谈两人视频截图，无技术内容。
+58|distilled|references/cloud/cloud-misconfiguration.md|subdomain→hiddenJS→外AWS→adminbypass→SSRF→凭据→bucket→API→RCE叙述链，无请求/权限；逐段身份/asset范围/产物有效/consumer前提，不使用泄露凭据或批量下载云。
+59|no_technical_content||Hacklido社区广告无漏洞机制。
+60|distilled|references/by-type/xss.md|GitHub Markdown渲染Sign in表单/input/button/textarea示例无提交/网络事件；HTML注入不自动脚本执行，form action/origin事件及用户交互与XSS分证，不收集凭据。
+61|distilled|references/by-type/authn-session.md|NIN OTP报告摘要与前两步，后续页面截断；发送到输入手机不证明该手机归属身份/NIN，挑战与最终验证状态需要自有测试身份，未保存bypass不造。
+62|insufficient_technical_detail||BugBounty cheatsheet类别/目录导航无实际测试方法。
+63|no_technical_content||Vulhub Docker标志，无容器/Compose运行配置或环境证据。
+

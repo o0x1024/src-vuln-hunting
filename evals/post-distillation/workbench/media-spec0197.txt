@@ -1,0 +1,78 @@
+0|distilled|references/by-type/subdomain-takeover.md|Mozilla 摘要称 mozgcp.net 的悬空 DNS 资源被注册并可托管内容，图无具体域、提供商或申请收据。对自有资源核 DNS→资源生命周期→可重新申请→域所有权/内容标记，保留不可重新申请及验证受阻反例；错误页和奖励不证明接管。
+1|distilled|references/by-type/subdomain-takeover.md|标题称 mozgcp.net，摘要实际写 mozaws.net；均声称悬空 DNS 被注册并可托管，未给精确记录/提供商。保留来源域名冲突，不能把标题当精确资产清单；用自有生命周期夹具逐项核 DNS 目标、可占用性和独立内容控制，不恢复隐藏子域或跨域授权。
+2|insufficient_technical_detail||PayPal client-side DoS 视频帧露出 Braintree locale/URL 正则、路径及存储处理片段，但人物和裁切挡住完整代码/输入，无异常栈或崩溃收据。不能还原 DoS 触发、ReDoS 或永久影响；奖励标题不证明机制。
+3|distilled|references/by-type/idor-access-control.md|Apache Airflow 摘要限定已认证且只获某 DAG 读取权的用户可读其它 DAG 的 task instance 信息，历史版本称 before 2.7.2；图无具体请求/响应。自有两个 DAG 和低权/管理员账户核列表/明细/批量 task_id 与 dag_id 联合归属、实际字段及拒绝对照；非匿名、非所有 DAG 管理权，历史版本主张不当当前产品证明。
+4|no_technical_content||waybackurls recon 视频封面、订阅宣传，无历史 URL、命令或技术结果。
+5|distilled|references/by-type/authn-session.md|密码重置 POST JSON 图在 email 字段两地址之间插入可见反斜杠 n 转义；无响应或邮件，不能由同 URL 宣称 ATO。跟踪 JSON 解码、邮箱语法、收件人处理和 reset token 主体绑定；自有两个邮箱比较普通/非法多地址输入、实际投递、链接绑定与最终账户状态。只接受一个规范地址，不转录真实邮箱或发送邮件；不得误归为 Host 投毒。
+6|distilled|references/reporting.md|DOM XSS 报告 triaged 通知明确 under examination、可能需补技术细节且当时不允许公开披露；技术内容遮挡。提炼状态与披露权限分离：已接收/分诊不代表根因验证、影响或公开许可，私下提供最小请求/上下文/实际影响证据并核当时规则；历史通知不当当前通用政策。
+7|no_technical_content||访谈人物和 How do you create 字幕，无自定义词表内容或来源生成方法。
+8|distilled|references/by-type/oauth-oidc.md,references/by-type/idor-access-control.md|CASB Microsoft integration 摘要称 confused deputy：对已有租户 UUID 改大小写可旁路先前修复并建新 integration，随后暴露敏感信息；修复限制相同租户多个集成。无原始请求/返回，不能认定任意枚举 UUID 可接管。自有两租户核 UUID 语义等价规范化、去重/租户所有权与授权绑定，对比原写法/大小写/无权租户，记录实际连接及字段；能建资源不证明所有数据读权。
+9|distilled|references/scope-and-rules.md|历史 scope 通知新增 *.threatdown.com 且 Eligible true。资产范围与奖励资格分别记录精确 wildcard、来源/时间，再核具体 host/动作/规则；品牌关联、裸根域、所有端口或当前政策不能由历史图自动授权。
+10|distilled|references/source-audit.md|Fortinet 演讲页解释给定长度按字节却与 ASCII-hex 长度混用，十六进制表示约两倍，解密越过 buffer 并 XOR 邻接内存。提炼长度单位/解码后边界/整数运算与分配容量一致性；图片是讲解无源码、调用入口或真实 RCE 收据。自有离线字节模型比较编码长度/解码长度/恰好边界与过长输入，需独立证明写越界及可利用性，不还原真实 exploit。
+11|distilled|references/source-audit.md|下一张内存/keystream/XOR 图将 buffer 终点与解密终点分开，邻接字节被改变而部分 00 保留；只是示意，不是崩溃或指针控制收据。自有内存模型在前后 canary 上核合法区与越界区变化，统一 byte/hex 单位并拒绝超出容量；不因图中零字节或 CVE 题名推导任意代码执行。
+12|distilled|references/discovery/passive-and-services.md,references/by-type/info-secrets.md|Burp site map 展示静态 JS 和 email addresses disclosed 的 informational 扫描告警，旁边编辑器为空，没有扩展导出结果。告警文字也说明邮箱出现不必然是漏洞；离线核来源/脚本内容和公开联系邮箱 vs受保护个人字段，再对比导出范围、去重、动态/无后缀漏项。scanner certainty/列表数不等确认泄露或完整 JS 覆盖，不转录 Cookie/邮箱。
+13|no_technical_content||Google Bard data exfiltration 宣传插画，无 PI 输入、渲染或外传证据。
+14|no_technical_content||RXSS on Card/Billing 与 credit-card privilege escalation 报告列表，无角色/请求/sink 或数据变更，triaged 不证明链。
+15|distilled|references/by-type/authn-session.md,references/by-type/cmd-injection-rce.md|JupyterLab 终端保存图含 pwd、id uid=1000(jovyan)、bash 与 uname，支持该会话中命令交互但非 root；正文称弱默认登录，图未呈现登录请求、实例/租户隔离或网络来源。自有部署核凭据策略、终端是否预期授权、用户/容器权限与资源边界，正常有权 notebook shell 是反例；server terminal 不自动等于未经认证 RCE 或宿主机权限。
+16|no_technical_content||XSS、ATO、email HTML 注入报告标题与 P3/金额，无事件触发、认证后果或邮件原文。
+17|no_technical_content||逻辑漏洞课程封面，只是主题宣传，没有应用状态/不变量/请求。
+18|no_technical_content||Drive PDF 名称列表，包括 API 风险/云安全/2020 报告等，只有目录和重复项，无文档全文或机制。
+19|no_technical_content||Drive Web App/CISSP/基础设施等 PDF 文件名，未打开全文，无独立测试内容。
+20|no_technical_content||Drive Pentest/AV-EDR/Buffer overflow 等文件元数据与尺寸/时间，题名不等机制或文档已读。
+21|no_technical_content||两名面具人物照片，无 SSRF 到 RCE 链。
+22|insufficient_technical_detail||空白手机网页与遮挡 URL，正文称 open redirect 但图无 Location、跳转过程、参数或目的地，不能推断空白页重定向机制。
+23|no_technical_content||Yogosha security misconfiguration 奖励通知，报告/金额遮挡，无 open redirect 技术细节。
+24|distilled|references/by-type/oauth-oidc.md,references/by-type/info-secrets.md|Nextcloud 摘要描述先取得数据库 dump 才可读明文 OAuth client_secret 并冒充 client，偏好不可恢复散列/至少加密；附 CVE-2023-45151。没有 dump 或令牌交换证据。区别服务器只需验证 secret 与需代 client 调用的可恢复用途，自有模型核存储形式、备份读权、轮换与最终 client 认证；client 身份不是任意用户 consent/授权码或全部账户权限，数据库读权前置不能省略。
+25|distilled|references/source-audit.md|curl hsts-preload.c 报告称 strcpy host 到 e->name 未检查长度，Steps 仍有占位符，状态 N/A 但标 Critical/zero-click。图无代码全文、分配容量或崩溃；不能接受其危险性宣称。离线审自有类似固定缓冲与动态分配样例，核来源、容量/终止字节、长度检查和调用入口，再用边界 canary 证明写越界；strcpy 名称或宽泛定义不证明 curl 核心 RCE。
+26|distilled|references/by-type/xss.md,references/by-type/open-redirect.md|WordPress 报告要求先正常认证，account/user 的 redirect_to 给 javascript scheme，再点 Continue；正文声称 XSS，图未显示浏览器执行。核可控跳转来源、URL 解析/协议白名单、实际导航 sink、CSP 和是否能影响其它受害者，用自有无害协议/拒绝对照。需要点击与已登录前置，不能从登录或潜在 steal-cookie 文字推断 ATO。
+27|no_technical_content||Discourse 页面及 I was hacking on Discourse 字幕，无 0day 输入或缺陷细节。
+28|no_technical_content||自动化收入 120k 封面，无任务/扫描结果、机制或成本数据。
+29|no_technical_content||Bypass WAF 403 lead to XSS via CSRF 的 P3 triaged 标题，没有 403 对照/请求/渲染 sink 或跨站条件。
+30|distilled|references/by-type/csrf.md,references/by-type/file-upload.md|Royal Canin 头像 CSRF 摘要要求外部托管 exploit 和图片，图称小于 200KB、imageName 与图片同目录；无完整代码、请求/浏览器 cookie 或状态收据。用自有跨站样例核方法/编码类型、Origin/token/SameSite、文件来源和实际头像变更，对比正常/拒绝；图片尺寸是例子前置，不能断言任意跨源读取文件，也不能由头像变更推出敏感信息访问或身份盗窃。
+31|distilled|references/by-type/host-header.md,references/by-type/idor-access-control.md|403 旁路图列多个客户端 IP 头与 Host localhost 候选，未给请求/结果。区别客户端自报值与可信代理维护值，核每层 trust/list选择、Host 虚拟路由、真实源 IP 和服务端保护对象权限。自有固定保护资源比较常规/伪造头/可信代理剥离、返回正文及拒绝，不由状态变化推断可读私有数据，字段名列表不等实际支持。
+32|distilled|references/by-type/info-secrets.md|debug.log 报告摘要声称外部可读服务器错误/用户名/密码，网址与身份遮挡，未给实际日志响应。核匿名/低权/运维读取政策、当前敏感字段和日志产生路径；自有样例比较公开示例/真敏感 canary 与拒绝。只改文件名不构成保密控制，应限制发布/日志脱敏与已暴露凭据轮换；不补造值或验证真实账户，High 不替代证据。
+33|distilled|references/by-type/subdomain-takeover.md|Mars 摘要称第三方资源 inactive/nonexistent 被占用并托管任意内容，域/资源/图片隐藏。提炼 DNS 解绑与可重新占用边界，用自有生命周期比较保留名称/所有权验证/独立内容标记；不因 inactive、奖励或潜在 steal 信息宣称所有服务可接管/数据可读。
+34|distilled|references/by-type/idor-access-control.md|FetLife 报告标题称未投票/未查看能见最高结果，但正文可见步骤实际点击 view result 并确认，还说明没追到确切代码/请求，最终 Informative。保留标题与步骤不一致、缩略请求不可读；自有投票样例分别核未投票/查看后/已投票及服务器返回 vs界面隐藏，公开结果政策为反例。类名/页面数据若存在也须独立证明，不能补写隐藏接口或越权机制。
+35|no_technical_content||财务机构报告 metadata 仅为 generic access control 标签、协作名单/triaged，目标/等级/金额遮挡，无角色/动作/结果。
+36|no_technical_content||Jio 奖励索取地址/电话通知，无 information disclosure 字段、请求或影响，通知不授权联系别人。
+37|distilled|references/by-type/info-secrets.md,references/source-audit.md|Azure GitHub workflow 图从 secrets 登录，创建 Cosmos/webapp，再命令替换取 endpoint/key 并 appsettings set；部分命令右侧裁切。代码示例无实际执行，核 Azure CLI 标准输出/错误、命令替换与下游命令是否再次输出配置、job secret mask 的注册范围。用自有假值夹具比较捕获变量/最小输出/脱敏；输入已定义 secret 不保证所有返回机密被遮盖，不创建云资源或用值。
+38|distilled|references/by-type/info-secrets.md|输出片段含 COSMOS_ENDPOINT 与 COSMOS_KEY 字段，值被模糊，可支持保存配置输出结构，无 CLI 命令上下文/读权/有效性。核日志访问范围、字段是否真凭据、轮换与保留，用自有占位 secret 比较打印/禁止打印及掩码；endpoint 与 key 不同敏感性，不恢复隐藏值。
+39|distilled|references/by-type/info-secrets.md|GitHub Actions 日志图对 APPINSIGHTS_INSTRUMENTATIONKEY 标注 No masking，另字段 ***，值隐藏。同 job 某值遮盖不保证所有派生/新取回字段遮盖，也需区分遥测公开标识、写入能力与真实认证密钥。自有假值核 stdout/stderr/返回 JSON 到日志和阅权，部分掩码不是全部保护；截图不证明当前所有 Azure CLI 版本泄露。
+40|distilled|references/by-type/info-secrets.md,references/source-audit.md|文章截图称完整遮盖返回值或捕获变量避免日志泄露，分开 create/delete pipeline 可能漏掉相关 secret；只显示 Pipeline A 的 secret 定义，B 的实际命令未保存。核每 job/操作输出与 mask 上下文、未知派生值，不因一个步骤定义 secret 就推全 pipeline 安全；自有假值比较创建/删除/错误分支日志，未保存全文按豁免，不补写 B 代码。
+41|distilled|references/scope-and-rules.md,references/discovery/records-and-incremental.md|历史 Fossil 通知新增 skagentitanium.com/.org false，移除 zegarkifossil.pl、zodiac.co false。Added/Removed 与 bounty eligible false 独立，不能将无奖金当无范围；每时点精确域与规则约束下一动作，移除资产停止在当前范围假设中使用。历史图不授权现在品牌全域/端口。
+42|distilled|references/scope-and-rules.md,references/discovery/records-and-incremental.md|同正文下一时点图反向变化：zegarkifossil.pl、zodiac.co Added false，skagentitanium.com/.org Removed false。正文重复不表示资产事件相同，逐 post/时间绑定图后核最新状态，不把不同时间事件合并成同一最终授权。
+43|distilled|references/scope-and-rules.md,references/discovery/records-and-incremental.md|第三状态图只有 skagentitanium.org Added false、zodiac.co Removed false；当前像素还复用于另三篇，SHA 同一内容但每篇来源/时点独立。范围与奖金分开、最新正式规则优先，历史反复增删不推为任意时点均可测。
+44|distilled|references/scope-and-rules.md,references/discovery/records-and-incremental.md|第四状态图 zodiac.co Added false、skagentitanium.org Removed false，另一个当前文件同 SHA。保留与前一图相反事件，按各帖时点/对象记录，false 不等 scope 外，移除域不继续沿旧授权测试；不因同正文/同图去掉不同来源。
+45|distilled|references/hunting-strategy.md|24 项 Burp 扩展名称/用途表包括授权矩阵、反射/参数、SSRF 回调、协议/文件/缓存等，无实现或运行准确率。可按检查边界组织工具而非扩展数当覆盖：先自有基线及单一假设，再核实际请求/结果和反例；反射、introspection、pingback、scanner 都是候选，不等相应漏洞成立，不安装运行扩展。
+46|distilled|references/hunting-strategy.md|资源目录按 CTF、Pentesting、Pwn/RE、Blue Team 列练习平台和课程，未含课程内容。提炼隔离练习→记录机制/前提/正反对照→迁移已授权应用的学习闭环，分类/数量不是生产技术证明或范围授权；不创建账户或安装环境。
+47|distilled|references/by-type/host-header.md,references/by-type/authn-session.md|CocoaPods 报告摘要给出邮件过滤器自动访问链接、X-Forwarded-Host 被用于验证 URL、过滤器访问伪域泄露 verification token 并声称 owner 账户接管。无完整 HTTP/邮件/回调/账户收据；逐段验证可信 URL 来源、邮件扫描器与真实受害者区别、token 单次/主体/时效及最终权限。自有离线邮件/URL模型比较 canonical/不可信 forwarded Host 和安全扫描重写，不发送邮件或用 token；自动访问不自动等于 ATO，第三方服务链需要明确授权。
+48|distilled|references/by-type/sql-injection.md,references/by-type/authn-session.md|认证 SQLi 候选表再现引号/注释、布尔与 UNION/散列式常量，没有数据库方言、列类型或会话结果。自有样例核字符串/数值/参数化与后置密码校验，以正常/恒真/恒假和最终主体作对照；词表候选不当有效凭据，不能由相同图内容生成独立漏洞。
+49|distilled|references/experiment-design.md|Burp Repeater 菜单明确 Paste URL as request，示例 example.com GET 与空响应；只是请求构建功能，未发送或收到结果。自有固定 URL 对照协议、Host/authority、编码路径/查询、端口和默认头，核生成的原始请求并在授权发送前补认证/方法/状态前提；粘贴成功不证明覆盖或请求成功。
+50|distilled|references/by-type/info-secrets.md,references/scope-and-rules.md|图中 subfinder -d TARGET.COM→httpx /auth.json、多端口/t80；正文错误含 http:// 域输入，图片不含协议，应记录差异。候选响应还需 JSON 内容/字段敏感性、身份/角色及合法公开配置对照，200/title/length 不证明泄露。多端口/并发先有明确范围预算，不执行管道，不将活跃子域扩为任意端口授权。
+51|distilled|references/impact-and-acceptance.md,references/by-type/info-secrets.md|MSRC 邮件称服务器 NRLM 原文拼写响应揭露系统信息，评 Moderate 且未达 immediate servicing bar，与正文 P3/NTLM 经验叙述区分。没有原始认证报文、字段/密码或 exploit，不能称 NTLM 哈希盗取/ATO。自有 challenge 样本核公开系统指纹与敏感身份字段，分别保留证据、影响、报告接受和修复优先级；历史邮件不当最新评分规则。
+52|distilled|references/discovery/passive-and-services.md,references/scope-and-rules.md|Vidoc 宣传图含根域/host/端口、DNS/技术、301 与 informative 清单、AI insights 按钮，未有任务收据或实际模型结果。目标条目/records 数与静态指纹仅为候选，核自有 scope、去重、端口/重定向归属及逐任务执行证据，YAML 兼容/速度/零配置不能保证检测正确或授权数千目标。
+53|no_technical_content||访谈人物帧，无“被忽略技巧”的文字或具体方法，缺失音视频不補造。
+54|distilled|references/hunting-strategy.md|保存社交文字称多花时间在目标“definitely get something”，无技术发现。提炼有界假设、学习应用和停止/转向标准：记录输入/权限/预期结果并设计正反对照，时间投入不保证漏洞或补足覆盖；奖励/接受状态不能作为确认。
+55|distilled|references/by-type/authn-session.md|DoD 重置报告正文称忘记密码时请求含临时密码，图显示 POST .nsf/forgotpassword.html、Cookie/头，实际密码/目标隐藏、请求体与响应未展示。需要区分客户端指定新密码、服务器返旧/临时密码及验证主体；自有正常/无凭证/错误令牌模型核归属、单次/到期、投递和最终认证。请求中字段存在不证明任意用户 ATO，不补写不可见 body 或真实密码。
+56|distilled|references/by-type/lfi-path-traversal.md|Cisco ASA/FTD CVE-2020-3452 摘要将 traversal 限定 WebVPN/AnyConnect 启用的 web services 文件系统，并明确不读 ASA/FTD 系统或底层 OS 文件；无原始请求/版本。保留文件命名空间与配置前置，在自有模型比较 web 内部 canary、不可读系统目录、正常/拒绝，真实字节才支持读取。无法从 arbitrary files 标题省略命名空间限制，VPN 用户冒充另需连续凭据/会话证据。
+57|distilled|references/by-type/xss.md|手动 RXSS 图为 Acunetix 练习页面，后方笔记只可见先搜索目标/参数、插入简单值等片段，浏览器无弹窗或反射上下文。提炼输入标记→源码上下文→实际 sink/事件的自有正常/转义对照，参数反射不等执行；不还原遮挡笔记或视练习站在线可测。
+58|no_technical_content||人物与 For simple applications 字幕没有 API use theft 实现、计量或认证边界。
+59|distilled|references/by-type/sql-injection.md|Burp GET 编码候选含 SLEEP(10/7)，200 但正文遮挡，底部 16,950 bytes/10,271 millis；正文称 SLEEP(1) 导致约 7 秒。单个耗时不证明重复求值 7 次或 SQLi，可能重试/排队/网络。自有低成本查询夹具比较正常/不执行分支/不同小延迟，核每行求值次数、日志及成组时间分布，区分数据库 sleep 和传输耗时，不运行延时探测。
+60|distilled|references/by-type/oauth-oidc.md|OAuth 示意图展示 authorization request/grant、code-like grant换 token、token取资源；不是 Snapchat pre-ATO 证据。核 client、AS、RS、用户会话/consent、code 单次/PKCE/redirect 和 issuer/audience/权限，正常授权资源访问作对照。流程图不涵盖账户合并/邮箱验证，不能还原外链 pre-hijacking 链。
+61|no_technical_content||Burp Suite Tools 课程封面，无工具操作/验证机制。
+62|distilled|references/by-type/info-secrets.md,references/discovery/passive-and-services.md|gitGraber 示例按 keyword 查询 GitHub、200、POSSIBLE AWS/Google Firebase/maps/Twilio token，commit 时间为 2019 且值遮挡。格式匹配仅候选，需记录 repo/commit/source/时间、资产归属及公开示例/客户端标识/撤销凭据反例；200 是搜索响应非 key 权限。离线自有假值核去重/脱敏和分类，不使用真实值或遍历第三方服务，real time 不抹掉历史数据。
+63|no_technical_content||访谈人物及 Let’s say a language 字幕无 AI chatbot 注入到权限影响的机制。
+64|distilled|references/by-type/request-smuggling.md,references/by-type/xss.md|客户端 desync 图显示持久 HTTP/1 连接：POST 声称 Content-Length40 后余留 GET，与后续 main.js GET 拼成队列第二请求，第二 302 Location 外域被当脚本响应。概念图非实际 wire；需自有离线字节模型核 body 消费、连接复用/响应顺序，再分别证明开放重定向、脚本导航/MIME/CSP和 origin，Cookie样例不当凭据。关闭连接/正确读body/拒绝异常请求是反例；不能从余留字节自动推所有浏览器或用户 XSS。
+65|distilled|references/by-type/request-smuggling.md,references/by-type/xss.md|保存 Flask PoC 代码定义一个 text/plain 脚本响应和 /exploit 自动提交 text/plain form 到另本地端口，textarea 名值制造 HTTP 文本；有 no-slash 注释。只静态读取未启动/执行；实际链需核浏览器 form序列化（含等号/CRLF）、字节长度、server早返回与连接复用、redirect及脚本类型/CSP。自有离线序列化/响应正反夹具验证预期，不执行 alert/cookie 或外域代码，PoC 名称不证明链成功。
+66|distilled|references/by-type/request-smuggling.md,references/by-type/xss.md|最终图 localhost:5000 页题名 CVE-2022-29361 desync to XSS，弹窗内容 localhost，段落称浏览器缓存后每次含同脚本页面触发。图支持保存本地示例弹窗但不能独立证明发起 origin/连接字节、缓存命中或 full compromise。自有离线链分别核响应配对、浏览器 origin/MIME/CSP、缓存键/有效期和 clean-cache/close-connection 对照，弹窗与真实权限后果分开；不把缓存传播宣称当全部用户长期感染。
+67|no_technical_content||signal/impact/1005 reputation 统计与百分位，无漏洞机制或覆盖证据。
+68|distilled|references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md|wc 表显示 httprobe103、httpx266、sorted327 行及字节数，未展示每行内容/实际探测结果。103+266=369，合并后327只能说明行级集合变化，需核协议/端口规范化、重复/空行与退出码；行数不等独立 host 或漏洞。自有固定输入比较各工具输出去重和真实采样证据。
+69|distilled|references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md|另一图只显示 sorted327 并注释42 Subs NotLive/Dup；注释不能区分未存活与重复。369→327差42可以是重复输出而非42死域，域/URL/端口粒度还须核，需自有集合差异、结果时间/失败原因和网络对照，不以 wc 判在线率。
+70|distilled|references/discovery/passive-and-services.md,references/discovery/records-and-incremental.md|步骤图先 cat *.txt→sort-u→subs，再两探测输出103/266并合并327，宣称42 NotLive/Dup。通配符可能包含旧输出/自身文件，不同工具协议粒度重复，最终只能确认保存行数说法，不能证明all hosts alive。自有固定源文件/临时输出核集合、规范化、去重与逐项收据，保留失败而不隐藏，不执行在线探测。
+71|distilled|references/source-audit.md,references/scope-and-rules.md|脚本从 Bugcrowd crowdstream accepted disclosures JSON 分页 results.target，grep wildcard 后 sed 清前缀，empty/length0停止；这不是当前scope清单。图中条件方括号结构/末端通配正则需离线核语法与 literal *.剥离，空响应也可能失败/限流。自有 JSON夹具比较正常/空页/错误/重复/字段缺失，保留页码/时间并设上限、checkcurl/jq；不运行脚本/cron/notify，不将历史披露target授权新扫描。
+72|distilled|references/source-audit.md,references/scope-and-rules.md|终端一行版同 Bugcrowd 历史 disclosure 分页/grep/sed并 anew roots.txt，输出仍可见 *.o2online.de 等 wildcard，与“root domains”承诺不一致；不转作当前授权清单。自有 fixture 核 literal*. 清除、排序去重、anew 返回/累积旧文件、页失败/限流与有界停止，输出候选数不代表新范围；不执行外网请求、cron 或通知。
+73|distilled|references/reporting.md|邮件更新 VRT 到认证绕过、priority none→P1，敏感标题遮挡；无认证请求或实际主体。保留分类/优先级变更与根因确认、最终资格分开，不能仅据中间 P1 宣称高危有效漏洞。
+74|distilled|references/reporting.md|同篇时间线给10分、VRT认证绕过后状态Informational再Duplicate；无技术机制。按最终状态/共同root cause与证据讨论复评，不将奖励分、分类、修复优先级混成有效性，也不重复拆同根因；历史状态不当平台普遍评分规则。
+75|no_technical_content||Udemy 课程页列学习目标/评分/历史更新时间/价格，无课程具体机制；不访问全文或购买，价格不作当前推荐。
+76|distilled|references/by-type/info-secrets.md|LEAKEY v1.0 菜单列 Slack/云服务/GitHub/支付等46类凭据字段，无代码、输入值或验证结果。any leaked credentials 宣传不保证格式兼容、当前有效或权限；离线先以自有假值和服务字段契约分类，区分 public ID/客户端 key 与密钥、保存脱敏来源，不把菜单项当全部覆盖。不向第三方提交真实凭据，认证/权限/副作用须独立许可与证据。
+

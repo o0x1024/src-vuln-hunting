@@ -1,0 +1,522 @@
+{
+  "2": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；复制开发代码后的权限差异要追服务端消费者；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "4": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Spring4Shell 检查器的 400 只能提示绑定路径；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "7": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md,references/targeted-fuzzing.md,references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Jhaddix recon 图的公司种子需要归属核验；Recon 流程中的探测和口令尝试应各有入口条件；自动化 recon 的合并节点要记录阶段产物；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "9": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；请求速率与奖金说明不能替代账户影响证据；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "15": {
+    "dis": "corrected",
+    "targets": "references/by-type/cmd-injection-rce.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；极短 PHP shell 仍依赖解释器和执行上下文；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "16": {
+    "dis": "corrected",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Linux 速查表要区分观察与环境修改；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "18": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；HTTP pipeline 的时序线索要排除队列与连接混杂；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "20": {
+    "dis": "new_knowledge",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；DOM Invader canary 应串起 source 到 sink；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "25": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；HTML 注释提取先确认工具究竟消费什么输入；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "26": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；页面所有链接依赖静态源码与动态 DOM 的边界；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "30": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；创造性和系统化要落实为可证伪假设；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "31": {
+    "dis": "corrected",
+    "targets": "references/by-type/host-header.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；重复 Host 的解析异常仍需密码重置消费者链；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "32": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；RapidDNS 与 Uncover 输出应保留查询来源和格式；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "34": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；筛选 JavaScript URL 要保留查询和结构化响应；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "35": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；JS 链接管道不能把 URL 当成本地文件名；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "37": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；定制 wordlist 应保留词语的页面和参数上下文；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "40": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；头像 UID 的对象越权与属性绑定需要分别证明；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "46": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Secret 检测器数量与 P1 宣传都不决定实际权限；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "47": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；用户编辑的 XSS、CSRF 与认证缺失要分别建模；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "48": {
+    "dis": "new_knowledge",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Base64 文件下载证据不能改称云 SSRF；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "49": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；重置邮件头中的发送 IP 不保证是 Web 源站；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "52": {
+    "dis": "new_knowledge",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；旧 APK 的接口线索需与服务端当前入口对照；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "54": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；RapidDNS 与 Uncover 输出应保留查询来源和格式；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "56": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；RapidDNS 与 Uncover 输出应保留查询来源和格式；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。；重复/相近线索并入本批同一方法，保留各原帖来源。"
+  },
+  "59": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；自动化 recon 的合并节点要记录阶段产物；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "60": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；子域扫描二十秒的主张要分速度与有效覆盖；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "61": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Jhaddix recon 图的公司种子需要归属核验；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "64": {
+    "dis": "corrected",
+    "targets": "references/discovery/web-and-api.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；HTML 注释提取先确认工具究竟消费什么输入；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "65": {
+    "dis": "merged",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；子域扫描二十秒的主张要分速度与有效覆盖；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。；重复/相近线索并入本批同一方法，保留各原帖来源。"
+  },
+  "66": {
+    "dis": "new_knowledge",
+    "targets": "references/expert-reasoning.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；漏洞大图应按边界检索而非套用全部标签；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "67": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Linux LFI 路径表要匹配实际进程的文件权限；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "72": {
+    "dis": "new_knowledge",
+    "targets": "references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；历史 VDP 规则截图只说明当时的约束；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "73": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Linux LFI 路径表要匹配实际进程的文件权限；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "75": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；多斜杠 traversal 要区分观察到的文件字节与 Nginx 根因；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "76": {
+    "dis": "corrected",
+    "targets": "references/by-type/ldap-xpath.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；LDAPShell 的名称不能代替目录 ACL 利用链；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "77": {
+    "dis": "merged",
+    "targets": "references/by-type/ldap-xpath.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；LDAPShell 的名称不能代替目录 ACL 利用链；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。；重复/相近线索并入本批同一方法，保留各原帖来源。"
+  },
+  "80": {
+    "dis": "new_knowledge",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；接管拒绝中的关键问题是可声明性；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "82": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；可预测 ID 和增加参数只是候选对象线索；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "84": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；RapidDNS 与 Uncover 输出应保留查询来源和格式；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。；重复/相近线索并入本批同一方法，保留各原帖来源。"
+  },
+  "85": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；公开搜索 dork 和无奖励投稿都不等于测试许可；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "94": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；OOB 回调之后不能直接推出内部文件读取；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "96": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；OOB 回调之后不能直接推出内部文件读取；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "97": {
+    "dis": "corrected",
+    "targets": "references/by-type/ssrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；代理路径返回外部页面还需确定取回主体；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "98": {
+    "dis": "corrected",
+    "targets": "references/by-type/mobile-android.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Flutter TLS 验证源码不是 pinning 绕过完成证据；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "100": {
+    "dis": "corrected",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；公开员工数据索引不是已暴露的秘密或入侵许可；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "111": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Dismap 的协议响应里可能已经包含拒绝信息；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "119": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Resend SMS 的 DELETE 差异需核二次认证状态；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "121": {
+    "dis": "merged",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Dismap 的协议响应里可能已经包含拒绝信息；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。；重复/相近线索并入本批同一方法，保留各原帖来源。"
+  },
+  "123": {
+    "dis": "corrected",
+    "targets": "references/by-type/lfi-path-traversal.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；LFI 管道的 root:x 字符串需要文件消费者对照；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "128": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；扫描器清单应映射到可观察检查能力；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "129": {
+    "dis": "corrected",
+    "targets": "references/targeted-fuzzing.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；扫描器清单应映射到可观察检查能力；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "130": {
+    "dis": "new_knowledge",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；能做什么应回答已观察的受限状态；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "131": {
+    "dis": "corrected",
+    "targets": "references/by-type/subdomain-takeover.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；损坏社交链接与可控品牌入口要分步核验；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "132": {
+    "dis": "new_knowledge",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；能做什么应回答已观察的受限状态；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "136": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；POST 换 GET 的反射需核 handler 和执行位置；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "137": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；模板字面量和图片事件片段仍受最终语法约束；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "138": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；历史 URL grep 的命中要解析回具体字段；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "139": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；公开搜索 dork 和无奖励投稿都不等于测试许可；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "143": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；XSS 一行管道的过滤器同时定义了遗漏范围；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "147": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/client-and-cloud.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Android 抓到 HTTPS 请求要说明代理和信任条件；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "150": {
+    "dis": "merged",
+    "targets": "references/by-type/ldap-xpath.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；LDAPShell 的名称不能代替目录 ACL 利用链；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。；重复/相近线索并入本批同一方法，保留各原帖来源。"
+  },
+  "153": {
+    "dis": "new_knowledge",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Burp 编解码扩展要区分初始与最后处理阶段；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "154": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；改响应 isAdmin 与添加朋友按钮都需独立状态核验；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "155": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Web 传感器图表计数不能替代漏洞实例；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "157": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Forgot password 的数字参数尚不是账户接管；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "158": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Forgot password 的数字参数尚不是账户接管；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "167": {
+    "dis": "new_knowledge",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；能做什么应回答已观察的受限状态；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "168": {
+    "dis": "new_knowledge",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；能做什么应回答已观察的受限状态；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "169": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；DumpXSS 的 Found 输出仍需浏览器执行证据；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "172": {
+    "dis": "corrected",
+    "targets": "references/by-type/csrf.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Origin null 不是单一可信来源的身份；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "175": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；HTTPS FUZZ 端口模板只覆盖其协议假设；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "176": {
+    "dis": "new_knowledge",
+    "targets": "references/impact-and-acceptance.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；能做什么应回答已观察的受限状态；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "177": {
+    "dis": "merged",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Web 传感器图表计数不能替代漏洞实例；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。；重复/相近线索并入本批同一方法，保留各原帖来源。"
+  },
+  "178": {
+    "dis": "corrected",
+    "targets": "references/expert-reasoning.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；注入分类必须说明语言、解析器和执行 sink；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "183": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；phpinfo 候选要确认正文而不是只有 200；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "189": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；扫描器 localhost 的归属取决于执行主体；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "190": {
+    "dis": "corrected",
+    "targets": "references/by-type/host-header.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；重置 JSON 的 Url 参数需追链接到 token 绑定；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "191": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；改响应 isAdmin 与添加朋友按钮都需独立状态核验；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "194": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；HTTP 状态速查表不提供权限或完成状态证明；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "198": {
+    "dis": "corrected",
+    "targets": "references/by-type/info-secrets.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Secret 检测器数量与 P1 宣传都不决定实际权限；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "201": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；自动化 recon 的合并节点要记录阶段产物；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "204": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；公司 recon 图应保存不同类型的关联边；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "205": {
+    "dis": "corrected",
+    "targets": "references/scope-and-rules.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；公开搜索 dork 和无奖励投稿都不等于测试许可；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "206": {
+    "dis": "new_knowledge",
+    "targets": "references/by-type/ldap-xpath.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；AD CS 模板 ACL 的单条属性写权需限定效果；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "207": {
+    "dis": "corrected",
+    "targets": "references/by-type/waf-bypass.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；数字实体 SVG 事件片段要核最终解析与事件；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "208": {
+    "dis": "corrected",
+    "targets": "references/hunting-strategy.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；创造性和系统化要落实为可证伪假设；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "209": {
+    "dis": "corrected",
+    "targets": "references/discovery/records-and-incremental.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Findomain 告警邮件的 severity 仍是工具标签；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "210": {
+    "dis": "new_knowledge",
+    "targets": "references/source-audit.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；SSH 速查表需区分连接、复制与配置生效；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "211": {
+    "dis": "corrected",
+    "targets": "references/by-type/request-smuggling.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；HRS 写入 Cookie 的 ATO 主张需要队列和身份链；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "213": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；加载器 help 与防护状态图不证明 EDR 绕过；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "214": {
+    "dis": "corrected",
+    "targets": "references/by-type/api-property-pollution.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Prototype pollution 到 XSS 或 RCE 需要具体 gadget；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "215": {
+    "dis": "corrected",
+    "targets": "references/by-type/smart-contract.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Weird ERC20 目录只能提示核验合约交互假设；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "218": {
+    "dis": "corrected",
+    "targets": "references/by-type/authn-session.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；ATO 技术名称清单要连接到认证消费者；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "221": {
+    "dis": "corrected",
+    "targets": "references/by-type/sql-injection.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；SQL 自动化管道必须绑定同一个候选产物；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "224": {
+    "dis": "corrected",
+    "targets": "references/by-type/document-rendering.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Self stored XSS 嵌入 file iframe 不自动成为 LFI；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "225": {
+    "dis": "corrected",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；XSS 一行管道的过滤器同时定义了遗漏范围；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "226": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；XSS 一行管道的过滤器同时定义了遗漏范围；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。；重复/相近线索并入本批同一方法，保留各原帖来源。"
+  },
+  "227": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；加载器 help 与防护状态图不证明 EDR 绕过；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "230": {
+    "dis": "corrected",
+    "targets": "references/by-type/desktop-client.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；7zip 帮助交互的提权标题仍缺权限前后对照；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "234": {
+    "dis": "corrected",
+    "targets": "references/by-type/idor-access-control.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；可预测 ID 和增加参数只是候选对象线索；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "235": {
+    "dis": "corrected",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；Shodan 产品版本命中不等于受影响构建；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "236": {
+    "dis": "corrected",
+    "targets": "references/experiment-design.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；子域扫描二十秒的主张要分速度与有效覆盖；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。"
+  },
+  "240": {
+    "dis": "merged",
+    "targets": "references/by-type/xss.md",
+    "note": "完整保存正文/有意义替代文字已实际读完；DumpXSS 的 Found 输出仍需浏览器执行证据；现有图片实际核验，缺失图片及外链全文按用户口径计覆盖，不补造。；重复/相近线索并入本批同一方法，保留各原帖来源。"
+  },
+  "228": {
+    "dis": "new_knowledge",
+    "targets": "references/discovery/passive-and-services.md",
+    "note": "完整保存正文和有意义替代文字实际读完；证书域名递归图原图实际核验，提炼去重/停止条件/关联归属边界；外链全文及缺失图片按用户计覆盖。"
+  }
+}

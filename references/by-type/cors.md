@@ -309,3 +309,372 @@ target.com.evil.com与eviltarget.com检验前/后缀包含误判；应按URL规�
 已查看的原始图片：1713999851283988719-02.jpg。client.amplifi.com /api/user CookieGET+Origin https://aaaa.ubnt.com.evil.com，响应ACAO同值ACACtrue JSON个人资料，后缀子串校验候选。Repeater可任意Origin且手工Cookie不同浏览器凭据流程；浏览器攻击origin fetch credentialsinclude实际读自有资料、SameSite/HTTPS/preflight对照，不以200推任意域都可。
 
 来源：[保存帖1](https://x.com/i/status/1713999851283988719)。
+
+
+## 保存图证0199-136-cors：1731350078084780406-02.jpg
+
+已核对保存图片 `1731350078084780406-02.jpg`。一行assetfinder→httpxfollowredirectthreads300→rush200curl Origin evil.com只grepc evil.com即VULTOCORS；反射body或任意header非ACAO/ACAC，未用实际浏览器读私有响应。对照自有允许/拒绝Origin、凭据模式、预检/redirect/header与非公开body，公共API无敏感权限为反例，不执行300线程外部扫描。
+
+来源：[保存帖1](https://x.com/i/status/1731350078084780406)。
+
+
+## 保存图片 1744788289096445998-02.jpg 的 cors 验证边界
+
+IAP→OAuth→授权/拒绝示意图拒绝页面可见当前 user 与 owner contact 邮箱；不直接证明任意邮箱或跨源读取。需要自有两身份核对被拒响应的信息是否公开预期、CORS ACAO/credentials/Vary、真实浏览器能否携带凭据并读到另一身份的字段。反射 origin、显示 own email 或导航到页面都是反例边界，图无 CORS header/浏览器 trace，不使用真实邮箱或请求云服务。
+
+图片证据：1744788289096445998-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1744788289096445998)。
+
+
+## 保存图片 1744788289096445998-03.jpg 的 cors 验证边界
+
+IAP PoC 代码 window.open target 后周期 XHR GET withCredentials/responseType document，在403时读 dd 邮箱并写 innerHTML；未展示 ACAO/ACAC 或实际浏览器结果。跨源带凭据可读需要真实 origin allow、credentials、cookie/SameSite/第三方限制及完整响应，window.open 不自动给 XHR 读权限；插 innerHTML 还需安全编码。用 mock 自有页面单次无个人数据标记对照，禁止1秒轮询真实目标、读取用户邮箱或复制秘密。
+
+图片证据：1744788289096445998-03.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1744788289096445998)。
+
+
+## 保存图片 1745119721052357095-02.png 的 cors 验证边界
+
+CORS 介绍明确 origin 为 scheme/host/port 与简单请求可免 preflight，故“所有产生副作用方法都需预检”的概括不成立。按实际浏览器方法、header/content-type/credentials、preflight 与最终响应对照：CORS控制跨源读取，CSRF防状态变更另需服务端校验；发请求不等于 JS能读，ACAO*不自动可凭据读取。图片底部 safelist 裁切/旧字段不当作完整当前规则，只用自有 mock 无状态请求验证。
+
+图片证据：1745119721052357095-02.png。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1745119721052357095)。
+
+
+## 0203 正文：凭据化跨源读取要求真实浏览器证据
+
+IAP示意与PoC周期XHR require实际ACAO/credentials、Vary缓存、cookie策略、origin和可见响应字段。403本身可能返回用户本人的错误信息，公开联系owner不自动是任意用户泄漏；只自有mock用单次非秘密标记比较允许/拒绝origin，window.open不替代CORS许可，不执行轮询或读取别人邮箱。
+
+来源：[保存帖1](https://x.com/i/status/1744788289096445998)。
+
+
+## 保存图片0204 1747096589494325335-03.jpg 的 cors 验证边界
+
+stage2 图列 robots/sitemap/.well-known、目录/注释/历史URL、JS与键、WAF、XSS、CORS、admin等候选。按功能与权限建立入口→实际消费点，正确 route 与随机不存在 route 对照排除统一软404；JS正则键、反射、扫描输出需分别用内容上下文、浏览器执行、实际跨域读取与自有低权限身份验证。历史 URL 和工具列表不证明当前暴露；泄漏候选不用于登录，链接接管不抢占。
+
+图片证据：1747096589494325335-03.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1747096589494325335)。
+
+
+## 保存图片0206 1752708472934973718-02.jpg 的 cors 验证边界
+
+Publitas CORS 摘要只有 ACAC:true 和遮挡 wp-json GET/Origin/Cookie 请求，响应及浏览器读未显示。ACAC单独不足，须核ACAO精确允许攻击源、凭据实际发送及浏览器可读敏感字段，以自有受保护/公开接口和合法/不允许origin比较；CORS读取与CSRF写入分开，手改Origin非浏览器证明，不能推出接管。
+
+图片证据：1752708472934973718-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1752708472934973718)。
+
+
+## 保存图片0207 1757723344307130488-02.jpg 的 cors 验证边界
+
+HTML XHR GET victim.example.com/endpoint withCredentials true，onreadystatechange读取responseText并innerHTML=alert返回值；缺实际CORS headers，示例域、浏览器origin/cookies未知。自有两个origin合成数据对照允许列表/拒绝/无凭据、SameSite与预检条件；发送请求成功或200不代表脚本能读取，alert副作用与页面写入不是泄露证明，不运行代码或访问域。
+
+图片证据：1757723344307130488-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1757723344307130488)。
+
+
+## 保存图片0208 1761813245109956730-02.jpg 的 cors 验证边界
+
+Burp GET/api/me带cookie和近似目标但不同的Origin，响应200反射该Origin且Access-Control-Allow-Credentials:true、返回本人样例身份字段；浏览器跨源可读性未在此图独立展示。核Origin完整scheme/host/port精确白名单、SameSite/credentials实际发送和响应私密性，以自有双origin惰性fixture比较合法、相似子域、无cookie和不同scheme负例。匹配Origin不等于攻击者可控制且可携带cookie；源帖标out-of-scope，技术现象不授权该目标，不复制cookie/邮箱或发送请求。
+
+图片证据：1761813245109956730-02.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1761813245109956730)。
+
+
+## 保存图片0208 1761813245109956730-03.jpg 的 cors 验证边界
+
+浏览器页面显示HTML/JS样式文本和弹窗内样例身份JSON，但地址及目标遮挡，未见完整XHR设置/网络凭据/Origin。将DOM注入能力、跨源请求凭据、服务器CORS授权和独立可读响应四层分别证明；用自有假DOM/双origin响应fixture与拒绝CORS/no-cookie/纯文本负例。弹窗不能独立确认远程受害者凭据、所有用户或ATO；正文out-of-scope限定保留，不补全隐去地址或执行脚本。
+
+图片证据：1761813245109956730-03.jpg。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1761813245109956730)。
+
+
+## 保存图片0210 1768353125679661090-02.png 的 cors 验证边界
+
+iframe示意同域可相互访问、crossdomain红叉是SOP简图，origin应为scheme/host/port而非仅域名，sandbox/document.domain/history状态影响另核。postMessage允许受控跨origin通信但不自动DOMaccess；验证event.origin/source/schema及危险sink，CORS对网络响应读取与iframeDOM权限分开，自有惰性消息模型/不同port负例，不把jQuery版本或5X奖励当漏洞链。
+
+图片证据：1768353125679661090-02.png。已核对完整可见像素；遮挡、裁切或未显示的请求结果不补造。
+
+来源：[保存帖1](https://x.com/i/status/1768353125679661090)。
+
+
+## 保存正文0214-cors：外部信任链不能替代范围许可
+
+作者称范围外资产 XSS 可影响范围内 CORS；保存内容没有完整 ACAO/ACAC、浏览器凭据模式或私有响应读取证据。跨源信任应沿实际来源、消费者和受保护数据逐段留证，用离线允许/拒绝 Origin 和公开/私有标记对照。技术关联与允许测试的范围是独立条件，文章声称获奖不授权访问范围外资产，也不能把 XSS、反射 Origin 和 ATO 合并为一项已证实漏洞。
+
+来源：[保存帖1](https://x.com/i/status/1777286082402345023)、[保存帖2](https://x.com/i/status/1777287188163793228)。
+
+
+## 保存图证0214-4-cors：1777287188163793228-02.jpg
+
+已实际核对完整保存图片 `1777287188163793228-02.jpg`。遮挡communityURL含style/animationstart样本并弹xss，图无CORSheaders或跨origin私有响应。事件属性实际上下文/动画触发/CSP与受影响origin另证，XSS→CORS须独立浏览器凭据读取消费者和允许origin；scope外站点不因链路自动获准。惰性文本/编码/无动画/CORS拒绝对照，不执行或请求外域。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1777287188163793228)。
+
+
+## 保存正文0218：服务端 Flask 请求不能模拟浏览器 CORS 授权（cors）
+
+正文询问用 Flask 绕过 CORS/CSRF。区分服务器自定义 Origin、浏览器读响应权限与携带受害者凭据改变状态；用离线浏览器状态模型比较 Origin 白名单、凭据模式、预检、SameSite 和 CSRF token 的主体绑定。服务端成功请求不证明浏览器可读敏感响应，也不自动让受害者会话执行动作，未搭建代理或向外部请求。
+
+来源：[保存帖1](https://x.com/i/status/1790672137352573162)。
+
+
+## 保存正文0219：反射模板命中不能同时确认多种漏洞（cors）
+
+正文列反射模板与多类型潜在攻击，当前复用图片显示历史Nuclei反射匹配和og:image头候选。分别核浏览器sink/CORS可读/CSRF动作、缓存键与独立请求、导航与OAuth允许目标，离线惰性正常/拒绝消费者作对照。工具Low与反射不是执行或共享缓存成功，模板deprecated提示和版本应保留，未运行扫描。
+
+来源：[保存帖1](https://x.com/i/status/1793813590870569059)、[保存帖2](https://x.com/i/status/1794598785471140325)。
+
+
+## 保存图证0220-33-cors：1796019646598094938-03.jpg
+
+已实际核对完整保存图片 `1796019646598094938-03.jpg`。Coffin 方法2显示 httpx/katana/JS、模板、扩展名、bxss、subzy、corsy 等串联，没有实际响应。katana 深度、被动来源、静态格式排除与 .js$ 过滤会丢失候选；模板路径/版本、并发、错误与范围要记录。远程脚本回连片段不作为执行指令，反射须与真实浏览器执行区分。自定义 Origin、Cookie 或 GoogleBot UA 的CORS输出须以两个受控来源、浏览器读响应及凭据状态对照；候选接管、LFI、跳转须各自确认资源归属与语义，工具名称和模板命中不补为成功链。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1796019646598094938)。
+
+
+## 保存图证0220-33-cors：1796125702112043158-03.jpg
+
+已实际核对完整保存图片 `1796125702112043158-03.jpg`。Coffin 方法2显示 httpx/katana/JS、模板、扩展名、bxss、subzy、corsy 等串联，没有实际响应。katana 深度、被动来源、静态格式排除与 .js$ 过滤会丢失候选；模板路径/版本、并发、错误与范围要记录。远程脚本回连片段不作为执行指令，反射须与真实浏览器执行区分。自定义 Origin、Cookie 或 GoogleBot UA 的CORS输出须以两个受控来源、浏览器读响应及凭据状态对照；候选接管、LFI、跳转须各自确认资源归属与语义，工具名称和模板命中不补为成功链。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1796125702112043158)。
+
+
+## 保存图证0223-25-cors：1804171544857346504-02.jpg
+
+已实际核对完整保存图片 `1804171544857346504-02.jpg`。CORS 单行命令用 gau || hakrawler || waybackurls || katana，实际是前项退出失败才继续，非结果并集。target=$(curl…) 的输出被赋值后再管到 grep，不能按作者意图传递；-I 与 -X GET 混用只取头，grep 任意包含 origin 的行也不验证 ACAO 语义。应区分合法 Origin 白名单、精确 ACAO、ACAC、预检和浏览器带凭据读取实际私有响应，排除公开内容及浏览器拒绝；此处为静态代码审阅，未请求目标。
+
+图片为现有保存字节；裁剪、遮挡和未显示响应不补造。
+
+来源：[保存帖1](https://x.com/i/status/1804171544857346504)。
+
+
+## 0225 Corsy全覆盖宣称 cors
+
+工具简介的all known misconfigurations不是覆盖证明，缺少版本、探测Origin、Cookie与浏览器请求证据。记录允许源匹配规则、credentials、预检、实际私有数据消费者和否定例；反射Origin或扫描器标签不自动构成跨站读取。
+
+来源：[保存帖1](https://x.com/i/status/1809712392617578771)。
+
+
+## 0225 原图060 cors
+
+OWA末图HTML5webmessaging/storageSQL/CORS/offline只有条目。区分postMessageorigin/source、WebSQL/存储实际解释器与现代实现/离线缓存身份边界，不把存储值当SQL自动执行或CORS开放当秘密读取。
+
+图像证据文件名：1809515495822897233-05.jpg。
+
+来源：[保存帖1](https://x.com/i/status/1809515495822897233)。
+
+
+## 0227 图片 1815438252608024941-02.jpg cors
+
+现有图片 1815438252608024941-02.jpg 的完整可见内容已按原图审阅。
+
+练习清单指出 CORS 不能仅判断白名单字符串是否出现在 Origin 中；按 scheme、host、port 解析并作精确允许列表匹配，检查 credentials 与可读敏感响应。其余私有工具、信息泄露、SSO token 重定向及 XSS 均为题目提示，需各自验证输入到消费端与受害者边界，不能凭清单确认泄露或令牌窃取。
+
+来源：[保存帖1](https://x.com/i/status/1815438252608024941)。
+
+
+## 0227 图片 1815483062849060921-02.jpg cors
+
+现有图片 1815483062849060921-02.jpg 的完整可见内容已按原图审阅。
+
+图片列出子域/CNAME、历史 URL、端口、GitHub、应用功能、CORS、重置密码邮件头/Host、iframe、访问控制、CSRF、SSRF、XSS/SSTI、令牌、限速、请求走私、重定向、社交登录 state、上传等候选检查面，应以资产—身份—对象—动作—证据映射驱动选择。Arjun 找隐藏参数而非保证隐藏端点；X-Forwarded-* 等头仅在受信代理链消费时影响身份或限速。CNAME 悬空不等于可接管，iframe 可嵌入不等于可诱发敏感动作，重置令牌与 OAuth state 应验证单次使用和会话绑定。MassScan、目录爆破和多 cookie 压力提示需独立授权及预算，不把列表当执行计划。
+
+来源：[保存帖1](https://x.com/i/status/1815483062849060921)。
+
+
+## 0228 正文 CORS 扫描标签不能代替浏览器读权限 cors
+
+第三方 Origin 和 ACAC None/缺失值不构成凭据跨源读取证明。确认精确 ACAO、ACAC、预检、重定向、Cookie/SameSite 和实际浏览器模式，用自有允许与拒绝 Origin 比较非公开受控响应；公共数据或 header/body 反射是反例，工具告警不可直接定级。
+
+来源：[保存帖1](https://x.com/i/status/1817819237341143496)。
+
+
+## 0228 正文 令牌生成与跨源读取需证明主体影响 cors
+
+手工 Burp Origin 反射、ACAC true 和 access_token 响应只是 header 与数据候选，POST 中 ACRM 不等于 OPTIONS 预检。用自有 Origin 的实际浏览器核凭据、SameSite、内容类型、预检和可读响应，区分匿名签发令牌与被害主体权限。两个过期字段不擅自换算同单位，令牌不转录或使用；第三方 Origin 和状态 200 不足证明接管。
+
+来源：[保存帖1](https://x.com/i/status/1818966853500154281)。
+
+
+## 0228 图证 47 cors 1817819237341143496-02.jpg
+
+已核对原始图片 `1817819237341143496-02.jpg`。扫描器称third party allowed/Medium，ACAO目标遮挡且ACAC:None。允许第三方Origin不自动成漏洞：需该源实际可控、响应非公开且浏览器具备合法认证/可读条件；凭据模式需要ACAC和合适cookie，URL token另查。工具标签和可托管源猜测不证明读取，未尝试外部源。
+
+来源：[保存帖1](https://x.com/i/status/1817819237341143496)。
+
+
+## 0228 图证 89 cors 1818966853500154281-02.jpg
+
+已核对原始图片 `1818966853500154281-02.jpg`。Burp 手工 POST 带第三方 Origin，响应有反射 ACAO、ACAC true 和 access_token 字段；未复制或使用令牌。手工 ACRM 请求头不构成 OPTIONS 预检，第三方域也不是自有验证源。需要浏览器自有 Origin、Cookie/SameSite、内容类型和预检证据，并区分匿名签发令牌与受害者权限数据；响应中两个过期字段的单位不能擅自等同。
+
+来源：[保存帖1](https://x.com/i/status/1818966853500154281)。
+
+
+## 0229 图证 34 cors 1820733885669425423-02.png
+
+已核对原始图片 `1820733885669425423-02.png`。示意恶意页面诱导 victim 请求 /api/sensitive 并读回数据，却标 NO CORS；缺少允许 header 时同源策略通常阻止跨源读，发请求与读响应不同。用自有浏览器 Origin 核 ACAO/ACAC、凭据、SameSite、预检及非公开受控响应，图无实际报文，不直接证明泄露。
+
+来源：[保存帖1](https://x.com/i/status/1820733885669425423)。
+
+
+## 保存图证0231-25-cors：1826990276084371899-02.jpg
+
+已核对保存图片 `1826990276084371899-02.jpg`。CORS一行[]/||工具拼接、$[curl]和if管道结构有错；curl-I与-XGET混淆body/header，grep第三方Origin任意位置非精确ACAO。需ACAO/ACAC、预检、CookieSameSite、实际自有浏览器读取非公开受控响应，公共数据/反射为反例；未扫描。
+
+来源：[保存帖1](https://x.com/i/status/1826990276084371899)。
+
+
+## 保存图证0232-52-cors：1829816420382781670-03.jpg
+
+已核对保存图片 `1829816420382781670-03.jpg`。Semgrep标php-permissive-cors头ACAO:*，图文称关闭SameOrigin限制过宽；星号对带credentials响应不能满足浏览器可读条件，公开资源可能正常，CORS不等于CSRF。核ACAC/Origin反射/预检/实际数据与浏览器，保存正文说CSRF但图片是CORS不同发现，不补造CSRF证据。
+
+来源：[保存帖1](https://x.com/i/status/1829816420382781670)。
+
+
+## 0233 正文 三类URL解析消费者 cors
+
+Absolute URL、Host值与浏览器CORS Origin对userinfo、端口、路径、fragment和编码的允许规则不同；把某载荷在所有上下文使用会造假候选。核输入原字节→校验→解码/IDNA→客户端或后端最终host/effectiveorigin，并考虑重定向再次校验、IPv4映射/非标准表示的实际支持。211是生成数量不是成功绕过数量，不访问工具/目标。
+
+来源：[保存帖1](https://x.com/i/status/1833198861663531389)、[保存帖2](https://x.com/i/status/1833249061631344871)。
+
+
+## 保存图证0233-71-cors：1833198861663531389-02.png
+
+已核对保存图片 `1833198861663531389-02.png`。URLvalidation工具图AbsoluteURL/HostHeader/CORS三上下文，allowed/attacker示例domains和211候选，仅8行反斜杠/编码@/#/:/;等可见。实际解析器的userinfo/authority/fragment、解码顺序/HostSNI和浏览器合法Origin分别核，candidate数量≠都可用/绕过，未生成实际目标或请求。
+
+来源：[保存帖1](https://x.com/i/status/1833198861663531389)。
+
+
+## 保存图证0233-73-cors：1833198861663531389-04.png
+
+已核对保存图片 `1833198861663531389-04.png`。工具说明3上下文与domainallowlist/fakerelative/loopback等wordlist、Intruderpercent/everything/specialchars/UnicodeEscape编码，右/下裁缺尾。转义应匹配HTTP字段/消费者，JS样式Unicodeescape不保证URL解码，重复编码可能改变host/CORS合法性；截图说明不是当前所有版本/工具兼容保证，不运行字典。
+
+来源：[保存帖1](https://x.com/i/status/1833198861663531389)。
+
+
+## 保存图证0233-74-cors：1833249061631344871-02.jpg
+
+已核对保存图片 `1833249061631344871-02.jpg`。另工具列表行33–45含%0D%0A/%0D、U2028/U2029、空格/@/&/;/fragment/子域后缀，211为生成数非已测。控制字符可被拒、解析分歧/显示混淆与SSRF/CORS/redirect消费者分开，简单包含example不证明allowed，最终host/effectiveOrigin与范围需核，未访问目标。
+
+来源：[保存帖1](https://x.com/i/status/1833249061631344871)。
+
+
+## 保存正文0235：crossdomain.xml 可见要确认实际消费客户端（cors）
+
+保存帖询问可访问/v1/crossdomain.xml，并没有策略内容或漏洞结果。文件200/公开路径不自动证明跨域敏感读：核策略域/端口/headers、客户端技术与实际加载、身份和非公开响应；现代浏览器CORS与历史策略不是同一机制。未读取外部文件或补造宽松策略。
+
+来源：[保存帖1](https://x.com/i/status/1837764272551583820)。
+
+
+## 保存图证0235-80-cors：1837888215371395474-02.jpg
+
+已核对保存图片 `1837888215371395474-02.jpg`。安全头图分 CSP/CORP、HSTS、Referrer/Permissions、nosniff、XFO/COOP/COEP，但策略用途有简化：CORP 不等通用CORS许可，COOP/COEP不能直接代替防iframe，nosniff不消除所有注入。应按浏览器上下文、头值、加载/嵌入行为和实际权限核生效，缺一个头不自动是漏洞，HSTS还有首访/域范围条件。未改配置或请求目标。
+
+来源：[保存帖1](https://x.com/i/status/1837888215371395474)。
+
+
+## 保存图证0236-84-cors：1840933480722510045-02.jpg
+
+已核对保存图片 `1840933480722510045-02.jpg`。CSRF流程图看ambient cookie、token缺/复用、格式、简单/复杂请求和CORS。预检/ACAO可见不等带凭据动作成功，JSON非自动免CSRF，SameSite/Origin/Referer/动作权限需实际浏览器证据；mobile-only无cookie也非绝对安全判断，图的Not Possible分支不能替代完整环境核验，不跨站发请求。
+
+来源：[保存帖1](https://x.com/i/status/1840933480722510045)。
+
+
+## 保存图证0237-52-cors：1842468217081495995-02.jpg
+
+当前附件 `1842468217081495995-02.jpg`。已实际审阅保存的原始图片。SendEmail 请求截图显示表单中的收件人、主题、正文及 opt-in 参数，响应 200 和 OK，并有通配 CORS 头。单次成功响应不证明邮件实际送达、匿名滥用或跨站读取带凭据响应；需独立核查服务端主体、收件人授权、同意状态、配额和浏览器凭据规则。不使用截图个人信息或发送邮件。
+
+来源：[保存帖1](https://x.com/i/status/1842468217081495995)。
+
+
+## 保存图证0238-80-cors：1845737400531898877-02.jpg
+
+当前附件 `1845737400531898877-02.jpg`。已实际审阅保存的原始图片。候选生成 UI 分 Absolute URL、Host header、CORS 并显示允许/攻击域字段与编码开关，保存图仅显示部分列表。不同消费者分别涉及 URL 规范主机、路由头及浏览器 Origin，不能互换输入模型；看似带允许域的字符串不保证解析为允许域或被浏览器接受，CORS 还需凭据及响应读权限证据。不生成请求、访问目标或补齐裁剪项。
+
+来源：[保存帖1](https://x.com/i/status/1845737400531898877)。
+
+
+## 保存图证0239-9-cors：1845896052911833336-02.jpg
+
+当前附件 `1845896052911833336-02.jpg`。已实际审阅保存的原始图片。API 清单本页含 CORS、日志、参数化、URL 秘密、分页、错误与会话。CORS 管浏览器跨源读取而非所有 API 请求或对象授权；分页不单独防止资源耗尽，JWT 与 Cookie 标志不代替撤销和期限状态。日志不能无差别保存秘密或全部响应，逐项记录主体和实际消费端，不执行请求或监控。
+
+来源：[保存帖1](https://x.com/i/status/1845896052911833336)。
+
+
+## 保存图证0239-76-cors：1847596832542904593-02.jpg
+
+当前附件 `1847596832542904593-02.jpg`。已实际审阅保存的原始图片。终端图为直接向外带服务的 GET/Host 与 200 回显、CORS 头，未显示目标服务器的触发请求或命令解释器。主机名含系统信息样式文字不证明动态命令执行，直接 curl 回显也不证明 RCE/SSRF；通配来源配凭据头不证明浏览器可读带凭据响应。不复用回执地址、执行命令或请求服务。
+
+来源：[保存帖1](https://x.com/i/status/1847596832542904593)。
+
+
+## 保存图片0240：附件015（cors）
+
+URL 候选 UI 区分绝对 URL、Host 与 CORS，显示编码开关及 220 计数，但图片只显示前若干行并横向裁剪。不同输入模型涉及解析器、路由或浏览器 Origin，不能互换；用户名分隔、反斜线、fragment 与多层解码需实际消费结果，不声称读完全部候选或执行。
+
+图片证据：`1848280112598544871-02.jpg`；仅保存图实际可见内容，未读取外链全文。
+
+来源：[保存帖1](https://x.com/i/status/1848280112598544871)。
+
+
+## 保存图片0240：附件075（cors）
+
+API 十类风险图是历史分类而非当前标准依据。对象授权、功能授权、返回字段和批量赋值分开验证；BOLA 不只禁止合法用户而是非预期跨对象权限，mass assignment 取决于服务器可写字段而非任意客户端参数，日志不足不直接证明攻击成功，未访问 API。
+
+图片证据：`1850117471824454055-02.jpg`；仅保存图实际可见内容，未读取外链全文。
+
+来源：[保存帖1](https://x.com/i/status/1850117471824454055)。
+
+
+## 保存图片0242：附件001·1852576505018363910-02.jpg（cors）
+
+目录分别列CORS扫描与CRLF/redirect工具。CORS要求实际浏览器跨源读取、身份/credential/敏感响应；CRLF需下游解析形成头/边界变化，工具标签不是漏洞证据，未安装或执行。
+
+图片证据：`1852576505018363910-02.jpg`；按原始内容摘要对应实际审阅，同摘要的不同帖附件保留独立来源与文件名。
+
+来源：[保存帖1](https://x.com/i/status/1852576505018363910)。
+
+
+## 保存图片0242：附件006·1852578499019596037-02.jpg（cors）
+
+null origin教学图用data:text/html object里的fetch读接口。opaque origin不等于任何任意可信站点，示例未显式credentials include；ACAO:null单独不足证明携带会话读取，需ACAC/cookie策略/预检/响应类型和浏览器上下文，未加载或请求。
+
+图片证据：`1852578499019596037-02.jpg`；按原始内容摘要对应实际审阅，同摘要的不同帖附件保留独立来源与文件名。
+
+来源：[保存帖1](https://x.com/i/status/1852578499019596037)。
+
+
+## 保存图片0244-19：1857029471431238131-04.jpg（cors）
+
+已审阅该内容原图，当前保存附件 1857029471431238131-04.jpg。OWASP目录末段有逻辑时序/次数/工作流/误用/上传、DOM/JS/HTML/CSS/资源/CORS/Flash/clickjacking/WebSocket/postMessage/storage/XSSI及GraphQL、报告附录；历史Flash项不代表现代默认能力，目录不证测试完成。按消费者和业务终态分组，API/schema可见性仍需权限证据，恶意文件/跨站动作另授权。
+
+来源：[保存帖1](https://x.com/i/status/1857029471431238131)。
+
+
+## 保存图证0247-171-cors：1867901386513674554-02.png
+
+已实际核对保存图片 `1867901386513674554-02.png` 的原始像素。响应截图 HTTP200 application/json、Cache-Control no-cache private、固定 Access-Control-Allow-Origin 与空数组 []，没有请求、会话或对象证据。200 空数组不能证明私有记录可读；固定 ACAO 无任意 Origin/credentials 对照不能认定 CORS 漏洞，private 指令也不等于完整缓存隔离证明。需定位请求身份、预期对象和真实后端消费者，未访问服务。
+
+来源：[保存帖1](https://x.com/i/status/1867901386513674554)。
+
+
+## 保存正文0249：本地 hosts 映射不改变 CORS 服务端规则（cors）
+
+正文说改etc/hosts映域到本地即可无需购域PoC。映射只影响本机解析，Origin仍由scheme/host/port决定，还需受信TLS、目标允许Origin/credentials与浏览器实际读私有body的证据；本地可打开页不证明真实攻击者或其他机器可重现。未编辑hosts、创建域或发浏览器请求。
+
+来源：[保存帖1](https://x.com/i/status/1874263995521392741)。

@@ -1,0 +1,132 @@
+[
+  {
+    "name": "1795161721209856051-02.png",
+    "sha256": "983774deed37d333e97db679485b11cddd4cb326beb7a0f617df01009730d09b",
+    "prior": {
+      "sha256": "983774deed37d333e97db679485b11cddd4cb326beb7a0f617df01009730d09b",
+      "example_post_id": "1794841551543378390",
+      "image_name": "1794841551543378390-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "漫画表情图，无IDOR请求/响应或PII证据。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T18:03:46.001Z",
+      "batch": "media-0213"
+    }
+  },
+  {
+    "name": "1795335235640717822-02.jpg",
+    "sha256": "bd0e4c933c8f0fb091b68baf48730c98982b18bff14e92b26c9e65c1d5b57e58",
+    "prior": {
+      "sha256": "bd0e4c933c8f0fb091b68baf48730c98982b18bff14e92b26c9e65c1d5b57e58",
+      "example_post_id": "1794798994557976847",
+      "image_name": "1794798994557976847-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "QR Code SQLInjection题名与二维码配图，无解码消费者或SQL证据；未扫描二维码或跟随内容，正文候选另核。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T18:03:45.981Z",
+      "batch": "media-0213"
+    }
+  },
+  {
+    "name": "1796574351892132252-02.jpg",
+    "sha256": "cd36ac94246432cc9bbbd49550c56a7259f203a195934cbe0c8de157b9d54c8a",
+    "prior": {
+      "sha256": "cd36ac94246432cc9bbbd49550c56a7259f203a195934cbe0c8de157b9d54c8a",
+      "example_post_id": "1503445859375198213",
+      "image_name": "1503445859375198213-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "GraphQLCoprepo卡无十项具体检测实现",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T11:51:20.312Z",
+      "batch": "media-0118"
+    }
+  },
+  {
+    "name": "1796821533827936473-02.png",
+    "sha256": "12385ecfa4a032a9c791e1ce999170825bdc15160aa940876fe55c53d0ae558b",
+    "prior": {
+      "sha256": "12385ecfa4a032a9c791e1ce999170825bdc15160aa940876fe55c53d0ae558b",
+      "example_post_id": "1755871904731127962",
+      "image_name": "1755871904731127962-02.png",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "仅Nextcloud logo。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T12:56:49.426Z",
+      "batch": "media-0201"
+    }
+  },
+  {
+    "name": "1797046651175203186-02.jpg",
+    "sha256": "cd36ac94246432cc9bbbd49550c56a7259f203a195934cbe0c8de157b9d54c8a",
+    "prior": {
+      "sha256": "cd36ac94246432cc9bbbd49550c56a7259f203a195934cbe0c8de157b9d54c8a",
+      "example_post_id": "1503445859375198213",
+      "image_name": "1503445859375198213-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "GraphQLCoprepo卡无十项具体检测实现",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T11:51:20.312Z",
+      "batch": "media-0118"
+    }
+  },
+  {
+    "name": "1797259212013306362-02.jpg",
+    "sha256": "26d87bc6196fd02e2e44ec7b10496e1a2f8e3e327bcc3a9ca826f697d173603a",
+    "prior": {
+      "sha256": "26d87bc6196fd02e2e44ec7b10496e1a2f8e3e327bcc3a9ca826f697d173603a",
+      "example_post_id": "1742387809560764626",
+      "image_name": "1742387809560764626-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/authn-session.md",
+        "references/source-audit.md"
+      ],
+      "note": "图区分可逆编码、密钥加密与摘要，但 Diffie-Hellman 是密钥协商，不能直接当数据加密；普通 MD5/SHA 摘要不能直接推荐用于密码存储。按真实数据格式/算法参数、密钥/盐、身份与完整性来源审阅，Base64 不保密，普通 hash 不证明真实性；用自造非秘密样本比较，不解码用户 token 或猜测密码。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T11:15:43.726Z",
+      "batch": "media-0197"
+    }
+  },
+  {
+    "name": "1797735856201224405-02.png",
+    "sha256": "dd6064b9e058598d908c6cd34e65fca1ec504fc419ef897440db987cef5f11fb",
+    "prior": {
+      "sha256": "dd6064b9e058598d908c6cd34e65fca1ec504fc419ef897440db987cef5f11fb",
+      "example_post_id": "1618005491124404224",
+      "image_name": "1618005491124404224-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/xss.md"
+      ],
+      "note": "26条XSS onclick/SVG/onerror/percent/entity/tab/javascript/iframe srcdoc/多反射/模板表达式，working注释无当前WAF证明；按HTML属性/URL/DOMdecoder/CSP分context，不保留窃cookie流程。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T20:57:33.192Z",
+      "batch": "media-0153"
+    }
+  },
+  {
+    "name": "1797821225819148786-02.png",
+    "sha256": "dae39e6074d73fa82341b2cf52ba155ff3fa7aa5bc5b0c48c20cbe32ef175d34",
+    "prior": {
+      "sha256": "dae39e6074d73fa82341b2cf52ba155ff3fa7aa5bc5b0c48c20cbe32ef175d34",
+      "example_post_id": "1772170704273736013",
+      "image_name": "1772170704273736013-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/ssrf.md",
+        "references/source-audit.md",
+        "references/discovery/client-and-cloud.md",
+        "references/experiment-design.md"
+      ],
+      "note": "localhost列表含短IPv4/int/hex/octal/userinfo@127、[::]和0000::1:80缺bracket；[::]是unspecified不等[::1]，socket行为依实现。惰性parse→canonicalhost→DNS/socket/redirect内网策略比较，userinfo白名单串不是host，拒非法或禁止私网负例，不连接内网。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T15:14:12.377Z",
+      "batch": "media-0206"
+    }
+  }
+]

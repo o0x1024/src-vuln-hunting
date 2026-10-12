@@ -1,0 +1,698 @@
+[
+  {
+    "i": 0,
+    "d": "D",
+    "a": "xss,source,experiment",
+    "n": "Java ProfileServlet从name/bio/website保存User再redirect，未显示渲染sink；所谓secure只调用未保存定义sanitizeInput且下半截被裁。存储值本身不证明XSS，需HTML/属性/URL各输出context编码、website协议策略及另一角色消费；无sink/全部文本节点为反例，不运行payload。"
+  },
+  {
+    "i": 1,
+    "d": "N",
+    "a": "",
+    "n": "仅ICMTC CTF2023赛事封面和组织介绍，无题目/机制/解答。"
+  },
+  {
+    "i": 2,
+    "d": "D",
+    "a": "fuzz,hrs,source,records",
+    "n": "uff README声称修改net/http与net/url，示意非法%9f、含空格头名与lowercase-header；均静态报文示例，未保存真实线上响应。核对工具版本/实际序列化和中间hop转换，header大小写本身在HTTP语义中不建立走私，非法编码拒绝为反例；不安装或发送。"
+  },
+  {
+    "i": 3,
+    "d": "I",
+    "a": "",
+    "n": "EC-Council常见漏洞图只有RCE/weakpassword/source/overflow/TLS/CMS/XSS/SQL/Host/ASP-PHP十类与无分母全球断言，没有可独立验证机制。"
+  },
+  {
+    "i": 4,
+    "d": "D",
+    "a": "web,auth,files,source,experiment",
+    "n": "WordPress14项清单含core/theme/plugin更新、强密码/WAF/禁用管理员文件编辑/登录认证/闲置会话/HTTPS/备份/VPN。核对实际版本、角色capability、备份可访问性和服务端会话失效；有插件/WAF/VPN不证明授权或XSS已安全，HTTPS只传输保护，未保存实测结果。"
+  },
+  {
+    "i": 5,
+    "d": "D",
+    "a": "passive,records,source",
+    "n": "DNS12步图混合localOS/routercache/hosts、递归解析器、root/TLD/authoritative与HTTP服务器；DNS查询是域名不是带http://URL，HTTP不由DNS服务器发送，缓存/TTL/负缓存可省步骤。记录解析时点/answers/CNAME/最终连接归属，不把示意流程或可解域名当活服务/授权。"
+  },
+  {
+    "i": 6,
+    "d": "D",
+    "a": "cloud,records,scope,source",
+    "n": "AWS/Azure/Google跨云服务旧名称表涉及对象/块存储/IAM/VPC/logs/compute等，只是功能映射；并非权限/网络默认行为等价，旧GoogleContainerEngine/AzureDocumentDB等不能视为当前版本建议。逐资源核对主体、policy、public访问与日志范围，产品名不证明泄漏或跨云已覆盖。"
+  },
+  {
+    "i": 7,
+    "d": "D",
+    "a": "auth,access,oauth,web,source,experiment",
+    "n": "API12项图含HTTPS/OAuth2/WebAuthn/HMAC分级keys/ACL/rate/version/whiteIP/gateway/errors/validation；图为原则未实测。OAuth2本身不等于身份认证，HMAC需防重放与canonical bytes、WebAuthn校验origin/RPID、ACL逐操作对象/字段，IP限速受代理与共享NAT影响，版本号/gateway不自动授权；不泄漏stack但保留内部审计。"
+  },
+  {
+    "i": 8,
+    "d": "D",
+    "a": "container,source,scope",
+    "n": "Kubernetes/Docker比较把K8s说成管理Docker集群、Pods叫Docker containers，遗漏CRI多runtime；Docker构建/运行与K8s调度/Swarm编排是不同层。实际网络/RBAC/namespace/宿主capabilities独立验证，安装时长/内置负载均衡不是安全隔离证据；旧示意不作当前产品规范。"
+  },
+  {
+    "i": 9,
+    "d": "D",
+    "a": "web,passive,source,records",
+    "n": "HTTP/HTTPS/FTP/TCP/IP/UDP/SMTP/SSH/IMAP九协议用途图。纠正TCP有序可靠不等于加密或应用数据真实性，UDP非总更快/无完整性，HTTPS需证书/端点校验，FTP不等于SFTP；按传输/应用/身份与明文风险分层记录，不由协议名断言服务器安全。"
+  },
+  {
+    "i": 10,
+    "d": "D",
+    "a": "cmd,source,fuzz",
+    "n": "25个cmd/exec/command/ping/query/code/run等参数名仅候选字典，没有调用链/响应。函数或配置消费者与shell/argv边界决定命令注入，query可能数据库、read只是字符串；用惰性本地污点路径与白名单对照，不发RCEpayload。"
+  },
+  {
+    "i": 11,
+    "d": "N",
+    "a": "",
+    "n": "Google邮件只显示New→Duplicate、canonical与重复不奖励通知，没有clickjacking页面/框架/敏感动作证据。"
+  },
+  {
+    "i": 12,
+    "d": "D",
+    "a": "fuzz,web,records,experiment",
+    "n": "ffuf1.0.2显示内网HTTP8080/FUZZ、GET、redirectfalse、calibrationfalse、40threads/10timeout/matcher多status，docs/manager/examples/shell均302Size0；2839/62276是中途进度非全扫描，不能把路由名当可登录管理或执行shell。比较Location/正文/随机不存在基线，响应候选不发实际请求。"
+  },
+  {
+    "i": 13,
+    "d": "N",
+    "a": "",
+    "n": "Apple2024April securityacknowledgements名单，只是致谢状态，没有漏洞/Wayback结果/奖励证明。"
+  },
+  {
+    "i": 14,
+    "d": "D",
+    "a": "xss,client,experiment",
+    "n": "手机地址栏blob:https://www.fbsbx…及www.fbsbx.com弹窗，只有blob文档执行/显示来源。需要blob内容创建者、原始受控上传/导航入口、origin/受害者交付/权限证明，自己生成blob不等于Facebook应用XSS，未保存链不补ATO。"
+  },
+  {
+    "i": 15,
+    "d": "N",
+    "a": "",
+    "n": "nowafpls仓库封面只有用途描述/统计，无填充代码或绕过响应。"
+  },
+  {
+    "i": 16,
+    "d": "N",
+    "a": "",
+    "n": "邮件只有两漏洞$3000payout批准/待处理，无默认登录请求、权限或实际到账。"
+  },
+  {
+    "i": 17,
+    "d": "D",
+    "a": "lfi,web,records,source,experiment",
+    "n": "LFI一行把gau||hakrawler||waybackurls||katana作为首次成功替代链非union，httpx paths替换/附加不保证命中原参数；100线程/随机UA/GETPOST/redirect/200+root:[x*]:0:0匹配只能产生候选。passwd正则可误报页面示例且遗漏其他文件，需实际本地消费者路径和内容格式/阴性基线，不请求敏感文件。"
+  },
+  {
+    "i": 18,
+    "d": "D",
+    "a": "source,records,experiment",
+    "n": "SAST工具语言表含SpotBugsJava/SonarQubeSemgrep多语言/nodejsscan/Bandit/gosec/flawfinder/.NET/phpcs/BrakemanRuby。按语言/框架/规则版本、污点建模、构建依赖和source-sink审计挑工具；旧表语言计数/第三方依赖宣传不保证覆盖，报警与可达运行消费者分开，不安装或运行归档工具。"
+  },
+  {
+    "i": 19,
+    "d": "D",
+    "a": "redirect,source,records,experiment",
+    "n": "redirect一行有while read host do;do语法错误；gau||等是首成功不是全部源，qsreplace替换所有参数、curl-s-L-I未引用host并跨跳转。grep恶意地址可匹配任意头/中间跳非最终导航，需结构化Location/每hoporigin/协议/阴性基线；不执行命令、不跟随外站。"
+  },
+  {
+    "i": 20,
+    "d": "D",
+    "a": "strategy,client,passive,records,experiment",
+    "n": "Nahamsec访谈Notes22区分verticalGoogle/archives/gau/hakrawler/JS与horizontal多子域工具，JS端点后缀/命名结构、授权/param-miner/reflector、逐功能和文档阅读。排名/耗时/个人作息不是成功因果，自动化输出/反射插件未证明XSS/IDOR，需清晰逐功能覆盖与实际消费者；不把表里的mosthackers断言当统计。"
+  },
+  {
+    "i": 21,
+    "d": "D",
+    "a": "access,web,experiment",
+    "n": "IDOR静态tip把/me→/user、GET→POST、JSONids:[1]四项同时变更且称alluserdata。一次只变一个请求维度并用两个允许测试对象/角色，逐数组元素授权、分页/公开字段/最终对象区分；未保存响应不能断言全集泄漏。"
+  },
+  {
+    "i": 22,
+    "d": "N",
+    "a": "",
+    "n": "H1通知只有Medium4.7/Pendingprogramreview，可变更severity/status与提交修复团队，没有实际CSRF/selfXSS链。"
+  },
+  {
+    "i": 23,
+    "d": "D",
+    "a": "xss,csrf,experiment,impact",
+    "n": "ThankYou页面firstname闭合片段和弹窗Cookie多值被遮挡；说明该保存浏览器文档执行，但无提交入口、CSRF请求、另一用户或认证Cookie属性。document.cookie可读analytics不能等于HttpOnly会话/ATO，需跨主体来源/消费者对照并保持遮挡，不抄用cookie/PII。"
+  },
+  {
+    "i": 24,
+    "d": "N",
+    "a": "",
+    "n": "仅讲者/麦克风与MIDDLEWARE字幕的视频封面，没有CSRF中间件代码或绕过步骤。"
+  },
+  {
+    "i": 25,
+    "d": "D",
+    "a": "oauth,redirect,source,experiment",
+    "n": "OAuthredirect_uri静态列表混合嵌套跳转、重复参数、%00、fragment、userinfo@、后缀域、反斜杠/CRLF与state。分别解析authority/path/query/decode次数、重复键选择与授权服务器精确注册URI，fragment和点段不自动换host、state不是redirect_uri。必须证明code/token到未注册接收方及PKCE/state限制，列表无结果不称ATO，不访问列表域。"
+  },
+  {
+    "i": 26,
+    "d": "D",
+    "a": "passive,records,scope",
+    "n": "OSINTHunter屏显示公开代理标valid、lang_fr/countryUK、空日期和Query关键词搜书籍/API词标题URL；这只是关键词搜索，代理valid日志未证明可信/匿名。保留查询参数、时点、来源、匹配标题字段和翻页状态，混合第三方结果不自动入范围，不连接代理或抓取。"
+  },
+  {
+    "i": 27,
+    "d": "D",
+    "a": "auth,access,web,source,experiment",
+    "n": "11种静态endpoint变体.json、?/??、../、反斜杠、尾slash、v2/v3、accountdetails、双ID/query、email都标bypassok但无真实response。追踪front/router/controller最终对象/版本/representation逐项ACL，改变路径后公开页或不同资源不是原对象绕过，多ID要逐元素检查；不要由图中文字断言成功。"
+  },
+  {
+    "i": 28,
+    "d": "D",
+    "a": "auth,web,source,experiment",
+    "n": "静态X-Original-URL/Referer示例同时把/api/getUser改成根路径并换头，再以200声称bypass；只能假设代理rewrite或Referer误当授权。固定路径单变量核对实际信任代理和最终handler/principal，200首页为反例，不把Referer当身份。"
+  },
+  {
+    "i": 29,
+    "d": "N",
+    "a": "",
+    "n": "keyFinder视频封面为Chromeextensions输入和下载目录，未显示代码检测/有效key/输出。"
+  },
+  {
+    "i": 30,
+    "d": "D",
+    "a": "files,web,records,experiment",
+    "n": "dirsearch扩展列表重复、多层归档/备份/源代码名及deep/force递归、exclude-size0B/randomUA/fullurl。这些仅候选，0B可能有信息头，SPA200和重定向会误报；逐目录预算/来源/停止条件、版本flag语义、Content-Type内容格式核对，不扫描/下载归档或秘密。"
+  },
+  {
+    "i": 31,
+    "d": "I",
+    "a": "",
+    "n": "Nextcloud#1356508只显示Read-onlyrestore标题、Resolved/Medium4.6/$500/CVE-2024-37315/评论时间，没有版本恢复请求或权限策略。"
+  },
+  {
+    "i": 32,
+    "d": "N",
+    "a": "",
+    "n": "monkey/postmessage邮箱插画，未显示sandbox通信代码/来源验证/数据外泄链。"
+  },
+  {
+    "i": 33,
+    "d": "I",
+    "a": "",
+    "n": "NextcloudmacOScodeinjection报告#2307625 onlyResolved/NoRating/$250/CVE-2024-37885/公告和评论，没有入口/运行权限/代码。"
+  },
+  {
+    "i": 34,
+    "d": "D",
+    "a": "cmd,source,experiment",
+    "n": "OScommandinjection手册可见定义/目录：分隔符、空白/换行/hex、quote/backslash/变量/wildcard，下面stockPOST请求仅头未显示参数/结果。shell方言、string vs argv、展开阶段/黑名单输入消费者决定机制，目录不是所有方式成功；只本地惰性语法对照，不运行命令/联络域。"
+  },
+  {
+    "i": 35,
+    "d": "D",
+    "a": "xss,files,source,experiment",
+    "n": "保存CVE-2024-36417条目描述SuiteCRM在7.14.4/8.6.1以前某些输入可加未验证iframe，但句尾被截、无请求/渲染。仅历史版本界线与输入→iframe假设，iframe嵌入可能是内容/点击诱导而非脚本执行；核对实际版本/输出context/sandbox/CSP及来源，不补造当前漏洞或RCE。"
+  },
+  {
+    "i": 36,
+    "d": "D",
+    "a": "access,source,experiment",
+    "n": "IDOR静态图403后附%20/%09/%0b等另含%1f与slash，无成功结果。proxy/router/trim/ID转换最终对象ACL要一致，状态变200但对象不同或首页是反例，逐允许虚拟对象对照，不使用真实用户ID。"
+  },
+  {
+    "i": 37,
+    "d": "D",
+    "a": "client,source,auth,graphql,nosql,xss,experiment",
+    "n": "右侧裁剪JSrecon清单覆盖静态keys/host/端点/comments/errors/混淆，runtimeCookie/localStorageflags、GraphQLdepth/ACL、MongoDB/JSON、eval/innerHTML/documentwrite/timers/Function/CSP/CORS。静态关键词不证明runtime状态/有效secret、introspection非ACL、functioncallback不等同字符串timer，逐source-sink角色/解析类型核对，不按清单自报全覆盖。"
+  },
+  {
+    "i": 38,
+    "d": "D",
+    "a": "files,secret,source,impact",
+    "n": "app/etc/local.xml浏览器图确有XMLusername/password/dbname字段全部遮挡，未显示完整URL/status、权限或实际值有效性。记录结构和最小字段泄漏假设/认证态/版本，保留遮挡不恢复或使用，CDATA不代表加密，不能推数据库登录/RCE。"
+  },
+  {
+    "i": 39,
+    "d": "D",
+    "a": "passive,web,client,records,source,scope",
+    "n": "Recon工具多类表proxy/subdomain/spider/fuzz/fingerprint/templates/email/exploit/secrets/api/ports/ssl/search，混合本地字典/实时扫描/第三方查询与邮件客户端/基础DNS。按实际输入/产物/版本/许可划类，fingerprint或exploitdb命中不等当前漏洞，工具存在不等执行/覆盖；不安装/联络/扫描。"
+  },
+  {
+    "i": 40,
+    "d": "D",
+    "a": "report,impact,scope",
+    "n": "源IPWAF标题邮件写USD70purchase、剩余20%需3个月内最多5次retest/5天接受窗口；正文70+19与图70不直接一致。这是该保存项目条件/待处理付款，未显示请求/ACL影响，不能推广当前通用规则或把purchase当到账；不提交/接受retest或付款信息。"
+  },
+  {
+    "i": 41,
+    "d": "I",
+    "a": "",
+    "n": "StoredXSS报告列表只见P3Triaged/UnresolvedDuplicate与遮挡标题，未保存输入/渲染/跨角色。"
+  },
+  {
+    "i": 42,
+    "d": "I",
+    "a": "",
+    "n": "另一独立StoredXSS/StealingCredentials列表只见P2P3NewTriagedDuplicate，没有Cookie/登入/取凭据链。"
+  },
+  {
+    "i": 43,
+    "d": "N",
+    "a": "",
+    "n": "CyberRoadmap为学习网站/课程/证书路线及宣传评论，无漏洞机制/实际结果；不作当前课程推荐。"
+  },
+  {
+    "i": 44,
+    "d": "I",
+    "a": "",
+    "n": "NagiosAccess HTTPbasic登录对话框有username与遮挡密码，尚未Login/无响应和权限，不能称默认凭据有效或EasyP1。"
+  },
+  {
+    "i": 45,
+    "d": "D",
+    "a": "passive,web,records,source,scope",
+    "n": "独立SHA完整ReconTools图，与先前相似但逐图核对proxy/subdomain/spider/fuzz/fingerprint/templates/email/exploit/secrets/api/ports/SSL/search。dig不是枚举全覆盖、mailclient和查询器不同于扫描器、同名工具不同版本；逐产物/规则/时点/许可记录，命中非漏洞/工具表非执行。"
+  },
+  {
+    "i": 46,
+    "d": "D",
+    "a": "xss,web,experiment,records",
+    "n": "X-Recon截图localhost1221/search.php与safe-search.php标XSSFound/NoXSS，屏反光斜拍/某些payload文字不可全读。只是工具labels未显示响应context/browserexecution，阳阴性应保留实际渲染证据及同输入编码对照；不从Found标签算真实目标XSS。"
+  },
+  {
+    "i": 47,
+    "d": "N",
+    "a": "",
+    "n": "仅X-Reconlogo，无代码/请求/结果。"
+  },
+  {
+    "i": 48,
+    "d": "D",
+    "a": "passive,web,records,source,scope",
+    "n": "另一独立SHA窄版ReconTools表已完整看，同样含proxy/subdomain/spider/fuzz/fingerprint/templates/email/exploit/secrets/api/ports/SSL/search；列表并不继承实际运行/范围，dig/mailclient/第三方索引与端口扫描产物不同，逐版本/输入/失败/时点记录，fingerprint非漏洞不运行。"
+  },
+  {
+    "i": 49,
+    "d": "N",
+    "a": "",
+    "n": "只有BAC类别变更和prioritynone→P2通知，无SQLi/XSS/模板结果或授权请求。"
+  },
+  {
+    "i": 50,
+    "d": "D",
+    "a": "web,xss,source,experiment,records",
+    "n": "Jira-Lensv1.0.2实屏有JSONExpectingvalue异常、若干NotVulnerable、CVE-2018-20824Vulnerable与CVE-2019-3402Maybe字符串；未显示请求响应/版本/browserexec。异常不是阴性完成，Maybe与工具High不替代确认；保存scanner版本/规则/实际消费者/反射context与错误，不访问显示第三方target。"
+  },
+  {
+    "i": 51,
+    "d": "N",
+    "a": "",
+    "n": "BugBounty入门图只有平台/课程/书/Youtube名单，无具体检查机制或当前可用性，不作为推荐。"
+  },
+  {
+    "i": 52,
+    "d": "D",
+    "a": "passive,web,client,records,scope",
+    "n": "subfinder2.6.6→httpx→hakrawler-u→grep域名串输出JS/robots/events/download/publichelp与fragments；grep正则点未转义且substr可落其他host/query，不是scope。区分bodyURL/fragment不发服务器请求、download候选非泄漏，每级时点/响应类型/来源/范围结构化记录，不爬取目标。"
+  },
+  {
+    "i": 53,
+    "d": "D",
+    "a": "xss,source,records,scope",
+    "n": "XSSmass一行awk取第三列依赖input格式，httpx后xargs替换@进sh-c可被URLshell语法注入；python3 http://xsstrike.py也非本地脚本路径。保留原URL/用惰性参数向量不插入shell源码，按crawl边界/认证态/预算，候选与脚本执行分开，不执行归档链。"
+  },
+  {
+    "i": 54,
+    "d": "I",
+    "a": "",
+    "n": "Bugcrowd列表P1Triaged/BrokenAuthentication及P3标题被遮挡，只有状态/个人story，未显示注册/认证/企业邮箱链。"
+  },
+  {
+    "i": 55,
+    "d": "N",
+    "a": "",
+    "n": "Bug-Bounty-Methodology仓库封面只有作者checklist用途/统计，无实际清单。"
+  },
+  {
+    "i": 56,
+    "d": "D",
+    "a": "fuzz,xss,source,records,experiment",
+    "n": "Arjun+KXSS终端对listproducts显示artist/cat Unfiltered[$]，仅美元字符反射不证明JS/HTMLsink或执行。保留参数/编码/请求前后状态，awk扁平化丢重复/依赖和POST类型，原值被清空也可能不同功能；不访问示例目标。"
+  },
+  {
+    "i": 57,
+    "d": "D",
+    "a": "ssrf,source,experiment,scope",
+    "n": "SSRF完整脑图含where/cloudmetadata、可读vsblind、URL/upload/webhooks/PDF、协议/redirect/DNS/numericIP/内网服务。按实际HTTP客户端/网络位置与最终connect授权核对；图把127/32当整个回环范围不准确，127/8类别与具体路由需分开，10/8/17216/12/192168/16仅地址分类不保证可达。OAST/回包不自动敏感影响，不执行内网扫端口/metadata/SMTP动作。"
+  },
+  {
+    "i": 58,
+    "d": "D",
+    "a": "passive,web,records,scope",
+    "n": "独立SHA另一subfinder2.6.6→httpx→hakrawler-u→grep域名图，完整同类robots/JS/events/download/fragments输出。字符串grep和未转义点不等结构化scope，fragment不向服务器发送、公开download页非授权绕过；保留来源/时点/每级结果不扫描。"
+  },
+  {
+    "i": 59,
+    "d": "D",
+    "a": "cmd,source,experiment",
+    "n": "svgtranslate源码getFile接route/api/file/{filename}/{lang}.png，filename经Title::normalize/cachegetPath，lang直接进入svgRenderer.render。只能确认入口到渲染参数，需下一consumer的shell/argv验证；filename的规范化不能替代lang约束，无运行响应不补RCE。"
+  },
+  {
+    "i": 60,
+    "d": "D",
+    "a": "cmd,source,experiment",
+    "n": "Renderer.php保存代码把非fallback lang直接拼进--accept-language，再Process::fromShellCommandline；SVG/PNG通过env占位而lang仍不可信shell源码，缺少quote/allowlist。区别shell metachar/argumentinject与合法language固定argv，最小离线惰性拼接对照，不运行命令；保存历史源码不证明当前部署未修。"
+  },
+  {
+    "i": 61,
+    "d": "D",
+    "a": "cmd,source,report,impact",
+    "n": "HTTP2svgtranslate图的lang包含命令分隔符，右侧二进制样响应尾有uid/gid/groups文本，支持该保存环境命令输出夹入结果的证据。请求仍带sessioncookie，不能单由标题称unauth；未显示status/完整响应/版本/root权限，所有cookie遮挡或只记录字段类别不抄值，不复放payload。"
+  },
+  {
+    "i": 62,
+    "d": "N",
+    "a": "",
+    "n": "cloud_enum仓库封面只有多云OSINT介绍/统计，无具体资源响应或publicpolicy。"
+  },
+  {
+    "i": 63,
+    "d": "I",
+    "a": "",
+    "n": "212像素宽长图标题MobileAppPentesting部分分类可见但多数节点细字在保存原始分辨率不可可靠读取；不放大猜补/从外链补全文，无法据此独立提炼步骤。"
+  },
+  {
+    "i": 64,
+    "d": "N",
+    "a": "",
+    "n": "仅IDOR英文展开标题/Matrix背景，无编码ID结果。"
+  },
+  {
+    "i": 65,
+    "d": "N",
+    "a": "",
+    "n": "仅Instagram/Facebook图标，无AI数据政策或漏洞技术。"
+  },
+  {
+    "i": 66,
+    "d": "I",
+    "a": "",
+    "n": "报告#2548479Critical10/TriagedOpen/ImproperAuth metadata及域名遮挡，无环境/认证请求或漏洞实现。"
+  },
+  {
+    "i": 67,
+    "d": "N",
+    "a": "",
+    "n": "仅讲者视频封面，没有namespace sanitizer代码/HTML结果。"
+  },
+  {
+    "i": 68,
+    "d": "N",
+    "a": "",
+    "n": "旅行app logo插画，无权限/采集流量/数据证据。"
+  },
+  {
+    "i": 69,
+    "d": "D",
+    "a": "ssrf,source,records,experiment",
+    "n": "SSRF一行grep=→qsreplace所有query→appendtmp-ssrf→httpx-fr。文字burpcollaborator_link是placeholder，重复append污染新旧样本；客户端redirect请求OAST不等服务端SSRF。每参数唯一标记/原URL/发起者/DNS或HTTP分类、阴性及消费链区分，不能从grep或callback推内网/敏感影响，不发请求。"
+  },
+  {
+    "i": 70,
+    "d": "N",
+    "a": "",
+    "n": "课程目录Introduction/InfoGathering/Burp/XSS/HostHeader/URLRedirect/ParameterTampering及文件数，只有章节无教学正文。"
+  },
+  {
+    "i": 71,
+    "d": "N",
+    "a": "",
+    "n": "另一课程目录CriticalFile/SourceDisclosure/CSRF/Takeover/SQL/command/upload/XXE/Thanks与文件数，无实际方法。"
+  },
+  {
+    "i": 72,
+    "d": "D",
+    "a": "waf,source,experiment,records",
+    "n": "nowafpls图实际XMLunion正文ContentLength77，AkamaiAccessDeniedHTML/response1413bytes与耗时显示，未见填充或后端成功。断言easilybypass与保存屏矛盾，只支持拒绝样本；固定语义/长度/consumer对比，并区分status缺失/边缘响应，不发请求或填充。"
+  },
+  {
+    "i": 73,
+    "d": "N",
+    "a": "",
+    "n": "仅UnderstandingWeb3BugBounties课程封面，无合约/交易/漏洞机制。"
+  },
+  {
+    "i": 74,
+    "d": "D",
+    "a": "android,files,source,experiment",
+    "n": "AndroidCVE正文配图只是adb pull本地tmp/wa.tar及tar-tf列WhatsApp缓存/profilepictures/places等，未展示漏洞触发、run-as权限、补丁级/数据库内容。adb访问前提与旧12/13版本需单列，不由已生成tar推任意app无需授权可读或当前设备受影响，不拉取个人数据。"
+  },
+  {
+    "i": 75,
+    "d": "D",
+    "a": "xss,source,experiment",
+    "n": "浏览器testphp示例站search页确有documentdomain弹窗，地址栏没有原payload，不能独立把Unicode事件属性和弹窗因果连起来；明确演示环境/输入位置/DOM/CSP以及阴性对照，title称过滤绕过不等真实平台发现，不访问或执行。"
+  },
+  {
+    "i": 76,
+    "d": "I",
+    "a": "",
+    "n": "仅四个403bypassGithub仓库链接，没有实际变体/代码/响应，能力名称不足机制。"
+  },
+  {
+    "i": 77,
+    "d": "N",
+    "a": "",
+    "n": "keyhacks仓库封面只有APIkey检查用途/猫图/统计，无具体consumer或有效key结果。"
+  },
+  {
+    "i": 78,
+    "d": "D",
+    "a": "access,logic,source,report,experiment",
+    "n": "H1#2516250可见官方summary/RCA：can?(:view,original_report)对limiteddisclosed也真，关闭duplicate未校验sameorganization；visibility不等操作/组织归属权限，所述取证仅一个原报告受影响。保留跨org/可见但无操作权限虚拟对象对照、最终状态/链接字段隐私，High8.2不是全报告泄漏，不操作真实平台。"
+  },
+  {
+    "i": 79,
+    "d": "D",
+    "a": "auth,logic,source,experiment",
+    "n": "Mozilla#2197244保存summary称POST/v1/account/destroy无需Authorization/2FA，bodyemail/authPW由已知password客户端计算；若发送不匹配邮箱authheader反而fail，staging例域。前提为已知密码非任意匿名删除，比较缺header/正确header/错principal与2FAstepup，保留最终删号证据未显示，不实际调用/计算凭据/删号。"
+  },
+  {
+    "i": 80,
+    "d": "D",
+    "a": "auth,source,experiment",
+    "n": "Drugs#2315420保存PoC称正确username/password后OTP页已发PHPsession/bbsessionhash，删除bb_refresh再refresh跳过OTP。仅截图报告叙述/视频封面无实际请求与后端受保护操作；关键是服务端记录MFA完成状态，Cookie缺失不能授完整会话，已知密码前提与匿名ATO区分，历史ResolvedCritical9.8非当前结论。"
+  },
+  {
+    "i": 81,
+    "d": "D",
+    "a": "strategy,passive,auth,access,source,records,experiment,scope",
+    "n": "完整25项methodology含CNAME/archives/ports/Git/web/CORS/resetemailheader/SMTPHost/iframe/ACL/history/Arjun/CSRF/SSRF/XSSSSTI/tokencrypto/Unicode/ratelimitIPheaders/dirs/smuggling/redirect/OAuth/cookies/file链/overflow。CNAME不证明claimability，Arjun发现参数非全部端点、IP头需要可信代理、iframe可加载非敏感点击、CookieDoS需跨client。各项建立consumer/角色/最小对照/证据/失败记录，不将清单当实际覆盖/通用bypass。"
+  },
+  {
+    "i": 82,
+    "d": "D",
+    "a": "fuzz,xss,records,source,experiment",
+    "n": "独立SHAArjun+KXSS终端另截图artist/cat Unfiltered[$]，完整核对只有字符反射，无HTMLcontext/JS执行；单参数空值与awk切分会丢重复/类型/依赖。原请求与最终consumer/baseline记录，不称真实XSS/不运行链。"
+  },
+  {
+    "i": 83,
+    "d": "D",
+    "a": "auth,host,source,experiment",
+    "n": "403header表大多数值127.0.0.1、端口/协议变体、Referrer拼错与XOriginalURL值IP，全部静态候选。只有后端实际信任相应代理头且ACL用被控制值才有效，头语义与URL/path/IP不能互代，XForwardedPort同名重复选择需保留；200页面不代表权限，不批量发头。"
+  },
+  {
+    "i": 84,
+    "d": "I",
+    "a": "",
+    "n": "Nextcloud#2289333移除sharedboard后看comments标题、ResolvedMedium4.3/CVE-2024-37883及评论/公告，无撤销访问请求/缓存条件。"
+  },
+  {
+    "i": 85,
+    "d": "D",
+    "a": "cmd,desktop,source,experiment",
+    "n": "curl#2550951保存summaryWindowsANSIAPI误用可使curl.exe命令行参数解析变化，测试Win10/11和curl8.8.0_1是历史自述，N/AHigh8.2未显示具体转换/argv或执行。追踪Unicode→codepage→argv与调用者输入边界、固定宽字符API/拒绝bestfit反例，不能归为任意OSRCE或当前curl版本。"
+  },
+  {
+    "i": 86,
+    "d": "D",
+    "a": "ssrf,desktop,source,experiment",
+    "n": "curl#2552179摘要BestFitUnicode到非UnicodeCP936表及superscriptdigits→ASCII，可改变hostname最终请求目标。原URL校验与转换后host/DNS/finalconnect必须同一边界，代码页/调用API/Windows前提限定；相关PHP-CGICVE只是背景不继承此次漏洞编号/当前所有中文OS结论，未保存请求结果只假设，不联网。"
+  },
+  {
+    "i": 87,
+    "d": "D",
+    "a": "web,desktop,source,experiment,impact",
+    "n": "curl#2552192summary恶意server不断响应header使libcurlheadersAPI存储无限长/数量，保存测试curl8.7.1/Linux详细构建历史；影响curl客户端不是服务端所有内存。区分headercount/bytes/累计重定向/超时/并发资源上限，以离线有限虚拟计数对照，不发送无界头或制造OOM，N/A6.3/版本非当前修复事实。"
+  },
+  {
+    "i": 88,
+    "d": "D",
+    "a": "fuzz,web,auth,records,experiment",
+    "n": "ffuf2.1.0dev200threads/frtrue/calibrationfalse/10timeout，uploads2005711与administrator2005829，其他同403290；进度6700/220546非完成。只有端点响应差异无admin认证或RFUbypass，多变量/redirect首页/通配页/非existent基线要比较，预算与失败记录，status/size非管理访问证明。"
+  },
+  {
+    "i": 89,
+    "d": "D",
+    "a": "auth,host,source,experiment",
+    "n": "独立SHA另一403header列表已完整核对127.0.0.1/port/scheme/原始URL/拼错Referer等候选；信任proxy/principal最终值而非header名字决定ACL，端口头不得作为IP，URL头必须实路径，图片没有真实response/bypass。不发送列表。"
+  },
+  {
+    "i": 90,
+    "d": "I",
+    "a": "",
+    "n": "Iframely邮件上半截只标题HighAPIKeyDisclosurefromJS及正文开头，未显示key/consumer/权限/服务方确认，不能称有效secret。"
+  },
+  {
+    "i": 91,
+    "d": "D",
+    "a": "secret,business,impact,source",
+    "n": "保存Iframely定价截图Business49USD/month10kquota、$3/1000extra、149Editorial只上部。这是历史套餐非账单，基础费不等增量损失、公开域限制key/缓存/免费额度是反例；若假设额外计费需绑定实际key权限和usage计量，离线virtualquota模型不使用key/生成账单。"
+  },
+  {
+    "i": 92,
+    "d": "D",
+    "a": "access,logic,source,experiment",
+    "n": "#2408480保存CVE-2021-39226描述/api/snapshots/:key或dashboardlowestdatabasekey可读，delete路径/deleteKey和public_mode真影响匿名删除，登录删除不受该mode；是历史受影响版本描述未保存wire结果。读/删/匿名/登录/publicmode/对象key逐项ACL矩阵，不推所有快照遍历/损失已发生，不调用或删除。"
+  },
+  {
+    "i": 93,
+    "d": "D",
+    "a": "passive,records,scope,source",
+    "n": "窄版工具/描述/命令表可见subfinder/amass/Sublist3r/chaos/assetfinder/gau/githubsubdomains/findomain/OneForAll/puredns/gobuster/shuffledns，底部截断。主动DNSwordlist/resolve和历史URL/API索引不同，不由fastest/latest等宣传当覆盖；保留version/source/rawdomain/IP/URL分类，wildcard与poisonedDNS需验证，实例域不授权扫描。"
+  },
+  {
+    "i": 94,
+    "d": "D",
+    "a": "desktop,records,source",
+    "n": "Linuxcheatsheet包括读文件/进程/permissions/SSH/network/compression/systeminfo与rm/cat>/kill/chmod/sshcopyid等变更。touch主要时间戳/不存在则创建，755实际owner rwx group/worldr-x，fg/bg/jobs不同；读观察与删除/写/权限/远程联网严格分开，路径/权限/退出码记录，不运行危险命令或将777设默认。"
+  },
+  {
+    "i": 95,
+    "d": "D",
+    "a": "lfi,cmd,auth,source,report,experiment",
+    "n": "PulseVPN#696276保存2019preauthfileread与postauthoverflow/command/read/write/session多CVE列表，截断PoC读passwd请求未响应。链到RCE必须另证登录/session来源和执行消费者，文件读不自动可执行；正文2000与图BountyNone冲突保留，历史patched2019描述不推当前版本/全部CVE都复现，不读取或复放。"
+  },
+  {
+    "i": 96,
+    "d": "D",
+    "a": "lfi,auth,source,experiment,report",
+    "n": "CiscoVPN#695429保存CVE2018-0296 dotpath file_list.json加path/sessions命令，path-as-is避免客户端点段规范化，-k关闭TLS验证并非漏洞修复。没有返回sessions/登录或版本，404fixed建议不是所有部署安全证明，正文750与图None冲突保留；本地虚拟normalize/ACL对照不读sessions/复放。"
+  },
+  {
+    "i": 97,
+    "d": "D",
+    "a": "takeover,host,source,experiment",
+    "n": "Netlify#2188240summary称unclaimedCNAME、改Host显示恶意内容；改Host选择其他租户不证明受害者自然DNS/Host映射可claim。需DNS时点、provider域绑定/唯一所有权和正常受害者导航的虚拟对照，Critical标题不证实任意子域接管；不注册或接管真实域。"
+  },
+  {
+    "i": 98,
+    "d": "D",
+    "a": "xss,auth,source,experiment",
+    "n": "#728001保存说明首个cookieNAME反射，借另一个mil子域已有XSS设置父域cookie后redirect触发。主体是名字不是只值，Domain/Path/publicsuffix/同名优先级与浏览器是否接受名字决定跨子域链；前置XSS需另证，响应/最终浏览器被截未显示，不解码或运行base64payload，不抄cookie，正文375与图None不直接一致。"
+  },
+  {
+    "i": 99,
+    "d": "D",
+    "a": "passive,records,scope",
+    "n": "ReconPhase1区分vertical单域子域与horizontal企业关联域/收购/CIDR/ASN。ASN是自治网络标识并非公司所有IP直接集合，CIDR可共享/委派；关联只候选，来源/时点/归属置信与范围分别记录，不由资产关联扩大许可。"
+  },
+  {
+    "i": 100,
+    "d": "D",
+    "a": "passive,records,scope,source",
+    "n": "ReverseWhois/ReverseDNS/NS/MX图含注册邮箱/历史whois和共享A/NS/MX推所有者，nslookuptypeNS显示多个akamai及authority结果。共享CDN/注册商/邮件托管是强反例，whoisprivacy和历史转手需考虑，TXT/CNAME等非穷尽；只来源关联不用第三方域邮箱做联络/扫描。"
+  },
+  {
+    "i": 101,
+    "d": "I",
+    "a": "",
+    "n": "Wordlists仓库文件名403/admin/api/Androidpermissions等只有目录/描述，无字典内容或使用/结果，不据文件名算技术机制。"
+  },
+  {
+    "i": 102,
+    "d": "D",
+    "a": "business,logic,access,experiment",
+    "n": "LinkedIn#2131224官方summary说premiumpricing篡改可免费SalesNavigator，title原IDR7022061.82→0/ResolvedHigh7.2，未显示请求/付款/entitlement实际。服务器绑定offer/region/currency/资格与最终权益/账单，合法免费trial或UI金额非绕过；离线virtual账单状态对照，不购买/claimoffer/生成实际交易。"
+  },
+  {
+    "i": 103,
+    "d": "I",
+    "a": "",
+    "n": "SaaS报告插画有priorities/预算等百分比但缺受访样本/时点/问题完整上下文，非漏洞消费者或可信当前统计，不推方法效果。"
+  },
+  {
+    "i": 104,
+    "d": "D",
+    "a": "auth,jwt,access,host,source,experiment",
+    "n": "reset8项清单OTPguess/tokenpredictability/JWT/IDOR/Host/tokenresponse/validation/HPP，无实际结果。核对server账户+action+session绑定、一次/过期/限速、每消费者重复参数选择与resetURL可信host；一份token不足统计可预测性，404/前端改响应非成功，离线虚拟数据不爆破或重置账户。"
+  },
+  {
+    "i": 105,
+    "d": "D",
+    "a": "desktop,records,source,scope,experiment",
+    "n": "Metasploitcheatsheet含DBhosts/services/vulns/workspaces、modules/options/sessions、db_nmap-sS-A、meterpreter读写/priv/tokensteal/portforward/route/clearev。workspace为逻辑隔离不等新物理DB，fingerprint/DBvulns记录不是独立确认、-A含更多探测；角色/已有session/平台权限前提和原始证据需分开，不运行利用/令牌盗用/清日志/横向动作。"
+  },
+  {
+    "i": 106,
+    "d": "D",
+    "a": "click,auth,experiment,scope",
+    "n": "Clickjacking说明以登录敏感页面如disable2FA/改邮箱密码/删号/删APIkey/开关为候选，建议第三方clickjackerURL测试。frame可嵌不等可诱导完成动作，需实际frameancestors/XFO/会话SameSite/重认证/交互可达性及最终state，使用本地虚拟页面且不把登录敏感URL传第三方，不实施敏感动作。"
+  },
+  {
+    "i": 107,
+    "d": "D",
+    "a": "graphql,logic,source,experiment,impact",
+    "n": "#2166697summary namedbasedbatching每请求75+reports、100request~6400/40s超过称500limit；下面仅cookie/csrfplaceholder及header，未见mutation/response。按实际resolver/业务动作计预算与身份/窗口，不只数HTTP请求；数量描述不替代最终记录去重/成本证明，离线虚拟计数对照，不发批量报告或DoS。"
+  },
+  {
+    "i": 108,
+    "d": "N",
+    "a": "",
+    "n": "仅Intigritiprofile933submissions/96%valid/rank13/rep1511，个人统计不证明无注册登录页fuzz漏洞。"
+  },
+  {
+    "i": 109,
+    "d": "D",
+    "a": "access,graphql,apip,source,experiment",
+    "n": "#2431495保存AutoSavePentestOpportunityinput可控package_name而政策称应由internalreviewstaff决定，示例premium名称与mutation裁剪未结果。字段级ACL按角色/操作/状态与真正套餐权益验证，未知字段拒绝/仅展示label为反例，静态成功字段名不等实际赋权，不提交Pentest表。"
+  },
+  {
+    "i": 110,
+    "d": "D",
+    "a": "access,graphql,passive,source,experiment,impact",
+    "n": "#2483666官方summary历史Wayback公开UUID后private/inactiveembeddedformGraphQL可读intro/structuredscope/efficiency，UUID不替代字段/状态授权；publicform与privateprogram字段权限不同，曾公开不表示永远公开。保留时间/撤销状态/角色字段矩阵/来源，Low3.7/$2500/fix是保存报告状态未当前复测，不拉私密数据。"
+  },
+  {
+    "i": 111,
+    "d": "D",
+    "a": "doc,ssrf,files,source,experiment,records",
+    "n": "Enjin#2545994官方summarylegacyCloudflareimagepricing允许外域resize，toggle关功能+purgecache；researcherHTML/SSRF/portscan/defacement为扩展主张，图无实际内网响应。外部图像渲染不自动脚本/内网SSRF/全站控制，核对originallowlist/format/sanitizer/cachekey/finalconnect，关闭后旧cache需另清，保存Low/CodeInjection分类不是RCE，不抓外域。"
+  },
+  {
+    "i": 112,
+    "d": "D",
+    "a": "strategy,client,passive,records,experiment",
+    "n": "独立SHA NahamsecNotes22访谈脑图已完整核对：vertical历史URLs/JS、horizontal多工具去重/httprobe、命名结构/端点、逐功能和API文档、授权/反射/参数工具，个人耗时/排名/作息非因果。插件Found不等XSS/IDOR，保存实际source-sink与失败/覆盖记录，不从名单推当前工具完整性。"
+  },
+  {
+    "i": 113,
+    "d": "D",
+    "a": "oauth,xss,auth,source,experiment,report",
+    "n": "WorldID#2515808官方summary state未按HTMLcontext编码插入form_post响应，CSP阻止JSXSS但注入可点击button外发form中的access_token；需极少用户交互非零点击。区分HTMLformaction/submit元素出站与任意JS、state协议绑定与输出编码/允许form-action，token有效权限/ATO需另证；$7000eventaward与sidebarNone口径单列，不读取/发token或补未保存fullblog。"
+  },
+  {
+    "i": 114,
+    "d": "I",
+    "a": "",
+    "n": "IdentityCards/Passports/OtherFiles曝光报告标题、P1Triaged/stillassessed/遮挡URL，未显示图片内容、目录或ACL请求，不据评级证明实际PII泄漏。"
+  },
+  {
+    "i": 115,
+    "d": "I",
+    "a": "",
+    "n": "另一独立SHA相似PII报告title/P1Triaged/stillassessed，无实际身份证/护照样本/权限/目录内容；不补造PII或下载。"
+  }
+]

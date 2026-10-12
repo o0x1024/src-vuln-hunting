@@ -1,0 +1,319 @@
+[
+  {
+    "name": "1731926279832613312-02.jpg",
+    "sha256": "d81f203fadd39cad98c6516c48c6ca97646fcc679e326d3572940318f06bd527",
+    "prior": {
+      "sha256": "d81f203fadd39cad98c6516c48c6ca97646fcc679e326d3572940318f06bd527",
+      "example_post_id": "1276941262843637761",
+      "image_name": "1276941262843637761-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/business-logic.md",
+        "references/business-modeling.md",
+        "references/by-type/authn-session.md"
+      ],
+      "note": "完整七步叙述员工优惠、随机ID、成功注册和识别卡，未展示请求/资格/领取权威状态；新增资格验证/身份声明/卡片/权益边界与合法公开反例，拒绝冒用/真实随机编号/兑现",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T05:20:53.145253+00:00",
+      "batch": "media-0032"
+    }
+  },
+  {
+    "name": "1731966745626480972-02.jpg",
+    "sha256": "924d3b0454d8fd1880ff88cc5ae31b1f0fddec8c4397257a5b0987446f782150",
+    "prior": {
+      "sha256": "924d3b0454d8fd1880ff88cc5ae31b1f0fddec8c4397257a5b0987446f782150",
+      "example_post_id": "1290725338285256706",
+      "image_name": "1290725338285256706-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/web-and-api.md",
+        "references/by-type/idor-access-control.md",
+        "references/targeted-fuzzing.md"
+      ],
+      "note": "完整getUserFUZZ版本后缀图有V1/V2/Beta文字，无完整端点真值/身份/对象/响应，不补IDOR或支持无限暴力",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T05:51:15.930083+00:00",
+      "batch": "media-0037"
+    }
+  },
+  {
+    "name": "1732068935661686951-02.jpg",
+    "sha256": "316fef99ce2fdf4d46fc98261ada797ed3f3d057315ffe4061935f449caeb8ec",
+    "prior": {
+      "sha256": "316fef99ce2fdf4d46fc98261ada797ed3f3d057315ffe4061935f449caeb8ec",
+      "example_post_id": "1313721800916783104",
+      "image_name": "1313721800916783104-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/authn-session.md",
+        "references/by-type/api-property-pollution.md"
+      ],
+      "note": "完整 mfa true/null 与 Location dashboard 示例；没有受保护操作、cookie/token 身份证明，客户端标志不能替代权威账号策略。示例敏感字段未复制。",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T07:26:12.950125+00:00",
+      "batch": "media-0049"
+    }
+  },
+  {
+    "name": "1732094193315741719-02.jpg",
+    "sha256": "0e53f0648e5dcdf18f4c79cc3702fb2ac5ce80efb2cb70c52dbfda5d6befbceb",
+    "prior": {
+      "sha256": "0e53f0648e5dcdf18f4c79cc3702fb2ac5ce80efb2cb70c52dbfda5d6befbceb",
+      "example_post_id": "1551411919868661761",
+      "image_name": "1551411919868661761-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/xss.md"
+      ],
+      "note": "46 g111 subfinder/Amasspassive/filterresolved/httprobe非标准端口81/8080/8443→waybackurls/kxss；文件名domain/domains拼写不一及追加旧数据，反射工具不是执行证明。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T15:51:46.172Z",
+      "batch": "media-0130"
+    }
+  },
+  {
+    "name": "1732332918041903415-01.png",
+    "sha256": "ba7b3bf47557991ac2923b3faba69558fa78175675f44ef76eab86fd57a07afd",
+    "prior": {
+      "sha256": "ba7b3bf47557991ac2923b3faba69558fa78175675f44ef76eab86fd57a07afd",
+      "example_post_id": "1399667502003617796",
+      "image_name": "1399667502003617796-01.png",
+      "disposition": "no_technical_content",
+      "review_scope": "entire original-resolution image visually inspected",
+      "note": "BUG品牌图标，完整可见图中没有技术步骤或机制",
+      "reviewed_at": "2026-10-09",
+      "targets": [],
+      "batch": "visual-avatars-0002"
+    }
+  },
+  {
+    "name": "1732332918041903415-02.jpg",
+    "sha256": "9e976abeb75a44c601a966bc18c1f6a92ab0c423db15a00bc7d962d225c5ce9d",
+    "prior": {
+      "sha256": "9e976abeb75a44c601a966bc18c1f6a92ab0c423db15a00bc7d962d225c5ce9d",
+      "example_post_id": "1514559159915606023",
+      "image_name": "1514559159915606023-02.jpg",
+      "disposition": "insufficient_technical_detail",
+      "targets": [],
+      "note": "原图 original 已实际完整查看并匹配 SHA256；AdvancedSQLInjection 仓库预览，没有查询或解析流程。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T12:54:26.762Z",
+      "batch": "media-0121"
+    }
+  },
+  {
+    "name": "1732334202753065399-02.jpg",
+    "sha256": "8f5e97d1d93db2c62eba4c103730c9f66aaa3069de6eb9f176b76e8e4b6ada69",
+    "prior": {
+      "sha256": "8f5e97d1d93db2c62eba4c103730c9f66aaa3069de6eb9f176b76e8e4b6ada69",
+      "example_post_id": "1639918426339819523",
+      "image_name": "1639918426339819523-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/xss.md"
+      ],
+      "note": "javascript中newline/tab/CR/C0前缀及大小写图，转义文字与真实控制字节区分，需最终URLparser/context不通用WAF绕过。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T22:52:41.951Z",
+      "batch": "media-0163"
+    }
+  },
+  {
+    "name": "1732679718380708225-02.png",
+    "sha256": "17e07233ae28e164be4764375be5f255f62d5d3e18c94078ec477f8ffe5ac688",
+    "prior": {
+      "sha256": "17e07233ae28e164be4764375be5f255f62d5d3e18c94078ec477f8ffe5ac688",
+      "example_post_id": "1640716370672521220",
+      "image_name": "1640716370672521220-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/file-upload.md"
+      ],
+      "note": "Firefox localhost/xss.xml 页面出现 localhost 提示框；正文的 XML 命名空间把节点放入 XHTML 脚本上下文。只证明此本地浏览器渲染条件，需核对实际上传响应 MIME、CSP、来源与脚本执行，不能推定任意 XML 上传均构成 XSS。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T22:53:48.338Z",
+      "batch": "media-0163"
+    }
+  },
+  {
+    "name": "1733524405282914756-02.jpg",
+    "sha256": "db20159f7f6a5bd3d8fd617420aaee2cb1016444eecae2a64682cbaf25585cf8",
+    "prior": {
+      "sha256": "db20159f7f6a5bd3d8fd617420aaee2cb1016444eecae2a64682cbaf25585cf8",
+      "example_post_id": "1297508869741174784",
+      "image_name": "1297508869741174784-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/lfi-path-traversal.md",
+        "references/by-type/cmd-injection-rce.md",
+        "references/source-audit.md"
+      ],
+      "note": "完整七项混合路径/系统命令/编码图，平台/解码/consumer不同非通用路径等价，未执行读取",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T06:07:52.213967+00:00",
+      "batch": "media-0040"
+    }
+  },
+  {
+    "name": "1733584803969015883-02.jpg",
+    "sha256": "81ed5d244fd60afda3019c23e5c027ab31bb5f8e4e79582592e36b0df4a7bd09",
+    "prior": {
+      "sha256": "81ed5d244fd60afda3019c23e5c027ab31bb5f8e4e79582592e36b0df4a7bd09",
+      "example_post_id": "1639694888689369088",
+      "image_name": "1639694888689369088-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/sql-injection.md"
+      ],
+      "note": "EmailSQL表JSON2002/200验证格式、引号500、quotedlocal绕filter并数据库length条件10延迟/11不延迟；HTTP状态与嵌入status区分，缺重复基线，不摘取实际DB。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T22:52:30.082Z",
+      "batch": "media-0163"
+    }
+  },
+  {
+    "name": "1733717841504030854-02.jpg",
+    "sha256": "4de9ddedb2ae365b279a5cc18e74c5d0d1cf94b04f150ae5da2ed80f24d7b93a",
+    "prior": {
+      "sha256": "4de9ddedb2ae365b279a5cc18e74c5d0d1cf94b04f150ae5da2ed80f24d7b93a",
+      "example_post_id": "1627231500990287873",
+      "image_name": "1627231500990287873-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/passive-and-services.md"
+      ],
+      "note": "chaos -d hackerone.com ｜ naabu -ports full ｜ httpx列多HTTP/HTTPS非标准端口与time1m29；共享CDN端口/域名不是独立资产，scope和host:port语义/错误步骤要保留，非漏洞。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T21:48:25.505Z",
+      "batch": "media-0157"
+    }
+  },
+  {
+    "name": "1733933883102793945-02.jpg",
+    "sha256": "c03b136e281e333946290e33b687733f3d7b4543329464f8f3e9d81bb927a87c",
+    "prior": {
+      "sha256": "c03b136e281e333946290e33b687733f3d7b4543329464f8f3e9d81bb927a87c",
+      "example_post_id": "1667229869615513601",
+      "image_name": "1667229869615513601-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/csrf.md"
+      ],
+      "note": "CSRF12项token remove/value/name/samelength/crossuser method/type Referer XSS/CORS oldFlash，cookiepreflight实际最终状态需要独立对照",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T01:44:15.805Z",
+      "batch": "media-0174"
+    }
+  },
+  {
+    "name": "1734097618886857183-02.jpg",
+    "sha256": "5342bc8da7d110b6f9153c6115bf335dd055ebf407a9026bcd77cc6a76ed4e41",
+    "prior": {
+      "sha256": "5342bc8da7d110b6f9153c6115bf335dd055ebf407a9026bcd77cc6a76ed4e41",
+      "example_post_id": "1703162860141195572",
+      "image_name": "1703162860141195572-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/csrf.md"
+      ],
+      "note": "CSRF清单含令牌缺失/空值/删字段/等长错值/跨自有账号替换、POST→GET、_method、替换Content-Type及Referrer缺失。每次只改一因素，保留实际状态变化；浏览器可发送性、Cookie SameSite、Origin/Referer检查、CORS预检需同时成立。_method仅框架支持时有效；meta referrer content=never为历史写法应验证浏览器行为，Flash过时方案不能作当前默认；XSS/CORS令牌读取是独立链，不自动证CSRF。仅清单无实际目标结果。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T06:17:32.449Z",
+      "batch": "media-0184"
+    }
+  },
+  {
+    "name": "1734088829081092516-02.jpg",
+    "sha256": "63863be0ca0eadd4b2e74c2fb1126084c1ae7e259caa28b094717e43b8872747",
+    "prior": {
+      "sha256": "63863be0ca0eadd4b2e74c2fb1126084c1ae7e259caa28b094717e43b8872747",
+      "example_post_id": "1635665841013358592",
+      "image_name": "1635665841013358592-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/open-redirect.md"
+      ],
+      "note": "25项open redirect路径/next/url/target/rurl/dest/return/checkout等候选参数，被称dorks但无搜索运算符或结果；需消费为Location/DOM导航和真实目标，不凭命名判漏洞。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T22:29:18.320Z",
+      "batch": "media-0161"
+    }
+  },
+  {
+    "name": "1734611569328492644-02.png",
+    "sha256": "af7f03d3ea1d6e4b260a4f40077358a25ba530eb3b6cceca0b73c2e0367bf7bb",
+    "prior": {
+      "sha256": "af7f03d3ea1d6e4b260a4f40077358a25ba530eb3b6cceca0b73c2e0367bf7bb",
+      "example_post_id": "1284461734108057601",
+      "image_name": "1284461734108057601-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/host-header.md",
+        "references/scope-and-rules.md"
+      ],
+      "note": "完整Hostlocalhost目录爆破图称特殊功能/内部端点/配置SSLkeys，没有真实请求；归既有连接/SNI/Host消费与独立内部能力许可，不继承爆破/秘密读取",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T05:37:26.625485+00:00",
+      "batch": "media-0035"
+    }
+  },
+  {
+    "name": "1735155151495713148-02.jpg",
+    "sha256": "9aab194ca02295b41fc2d31ccbff80f3600f0dc36b7c8ad0035fb8c5e4103894",
+    "prior": {
+      "sha256": "9aab194ca02295b41fc2d31ccbff80f3600f0dc36b7c8ad0035fb8c5e4103894",
+      "example_post_id": "1338233632830480386",
+      "image_name": "1338233632830480386-02.jpg",
+      "disposition": "insufficient_technical_detail",
+      "targets": [
+        "references/scope-and-rules.md",
+        "references/discovery/records-and-incremental.md",
+        "references/source-audit.md"
+      ],
+      "note": "完整bbscope项目卡聚合平台说明/统计，无descToo实现、正式条款或查询结果，不从卡授权",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T09:56:46.457Z",
+      "batch": "media-0061"
+    }
+  },
+  {
+    "name": "1735215548580114644-02.jpg",
+    "sha256": "8455e46ff3c4fe780c5bed0f4f8081f46a647273bb940970b15f45c75c228b9d",
+    "prior": {
+      "sha256": "8455e46ff3c4fe780c5bed0f4f8081f46a647273bb940970b15f45c75c228b9d",
+      "example_post_id": "1674130695923421191",
+      "image_name": "1674130695923421191-03.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/open-redirect.md"
+      ],
+      "note": "U+3002 全角句点与多斜杠 redirect_to 的 2020 年报告标为 New/Low/Private，无完整 Location 或导航结果。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T02:30:42.475Z",
+      "batch": "media-0176"
+    }
+  },
+  {
+    "name": "1735260850624114838-02.jpg",
+    "sha256": "844dc1d5c08248d8a5b68bd62695bf19af340ac7dfad4815c831fb8f82b82283",
+    "prior": {
+      "sha256": "844dc1d5c08248d8a5b68bd62695bf19af340ac7dfad4815c831fb8f82b82283",
+      "example_post_id": "1376432711137562625",
+      "image_name": "1376432711137562625-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/jwt.md",
+        "references/by-type/authn-session.md",
+        "references/source-audit.md",
+        "references/by-type/idor-access-control.md",
+        "references/experiment-design.md",
+        "references/scope-and-rules.md"
+      ],
+      "note": "JWT 故事截图区分旧令牌换发入口、其他验签入口、主体映射与新令牌消费点；归入新增令牌换发验签规则。截图叙述没有完整请求响应、算法和下游权限证据，不提升为当前可复现接管；未处理 APK 或伪造令牌。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-09T14:12:02.134Z",
+      "batch": "media-0079"
+    }
+  }
+]

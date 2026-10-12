@@ -1,0 +1,41 @@
+[
+  {
+    "name": "1859715763625742554-02.jpg",
+    "sha256": "8e18bb23c2f5b94b1d1f19160e87fde595d7367a1e27cfb9e873a8834db63d4f",
+    "prior": {
+      "sha256": "8e18bb23c2f5b94b1d1f19160e87fde595d7367a1e27cfb9e873a8834db63d4f",
+      "example_post_id": "1553360094305595392",
+      "image_name": "1553360094305595392-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/targeted-fuzzing.md"
+      ],
+      "note": "93 g226 scan4all仓库能力数量卡，密码/端口/PoCs/fingerprints分类不同风险和预算，规则数量非漏洞确认。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T15:53:35.058Z",
+      "batch": "media-0130"
+    }
+  },
+  {
+    "name": "1860757490801263018-02.jpg",
+    "sha256": "00ace41adcb32fbbd8e40e0c6e65f15b1eae70ccad2b9d269ebd8b42d9ff2340",
+    "prior": {
+      "sha256": "00ace41adcb32fbbd8e40e0c6e65f15b1eae70ccad2b9d269ebd8b42d9ff2340",
+      "example_post_id": "1348083581671784448",
+      "image_name": "1348083581671784448-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/passive-and-services.md",
+        "references/discovery/web-and-api.md",
+        "references/cloud/cloud-misconfiguration.md",
+        "references/discovery/records-and-incremental.md",
+        "references/source-audit.md",
+        "references/scope-and-rules.md"
+      ],
+      "note": "完整BigBountyReconUI目录配置日志备份WordPressSQL搜索员工SNSGit/CTCensysShodan/cloud及RCE等按钮，沿候选源vs主动动作分预算/真实输入输出和缺口，58宣传不58实现已读，不打开目标或员工查询",
+      "review_scope": "entire visible image including crop/redaction limits; no code execution or external destinations",
+      "reviewed_at": "2026-10-09T11:10:54.562Z",
+      "batch": "media-0067"
+    }
+  }
+]

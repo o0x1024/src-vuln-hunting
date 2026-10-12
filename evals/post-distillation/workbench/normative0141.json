@@ -1,0 +1,25 @@
+[
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7519.html",
+    "reference": "turn424view0",
+    "lines": "156–167,270–296",
+    "purpose": "JWT signed/encrypted forms and variable representation; not archive linked full text"
+  },
+  {
+    "url": "https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/DECODE.html",
+    "reference": "turn425view0",
+    "lines": "11–22",
+    "purpose": "DECODE comparison and short circuit search; not guarantee result error behavior"
+  },
+  {
+    "url": "https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html",
+    "reference": "turn425view1",
+    "lines": "953–973",
+    "purpose": "NOW/SYSDATE semantics and sysdate-is-now option"
+  },
+  {
+    "url": "https://support.atlassian.com/atlassian-knowledge-base/kb/faq-for-cve-2022-36804/",
+    "reference": "turn425search0",
+    "purpose": "Server/DC repository read precondition and Cloud exclusion; general information official text read"
+  }
+]

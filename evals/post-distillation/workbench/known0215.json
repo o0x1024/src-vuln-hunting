@@ -1,0 +1,163 @@
+[
+  {
+    "name": "1780345136544669813-02.jpg",
+    "sha256": "c97619af97006ab0b3a05b61135464e3bd4611374760719785ec8858ae012890",
+    "prior": {
+      "sha256": "c97619af97006ab0b3a05b61135464e3bd4611374760719785ec8858ae012890",
+      "example_post_id": "1779696012380229683",
+      "image_name": "1779696012380229683-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/cmd-injection-rce.md",
+        "references/targeted-fuzzing.md",
+        "references/discovery/web-and-api.md",
+        "references/source-audit.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "Nuclei 图含 reset.cgi db_prefix 的编码输入及 body regex、file prefix、状态 200 三项 AND 匹配。源参数是否到 shell、解码层及目标配置未显示，200 与像 uid 的文本可来自反射/静态页，不足以证明执行。regex 字符类把连字符放在 9 与 ( 之间，可能构成反向范围，且不能完整覆盖常见 id 输出；需离线解析模板与反射/静态阴性夹具，而非运行执行型扫描。保存 Critical 是模板声明，实际影响需独立证明。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T16:11:28.553Z",
+      "batch": "media-0208"
+    }
+  },
+  {
+    "name": "1780599705954902076-02.jpg",
+    "sha256": "a6432267b4e9f3f5d5ffa5c6608a68cc2804fa6366e989c2eb6edc575476aa97",
+    "prior": {
+      "sha256": "a6432267b4e9f3f5d5ffa5c6608a68cc2804fa6366e989c2eb6edc575476aa97",
+      "example_post_id": "1533789947425062914",
+      "image_name": "1533789947425062914-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/authn-session.md"
+      ],
+      "note": "8类2FA线索归服务端认证阶段/用户会话用途绑定",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T14:29:44.719Z",
+      "batch": "media-0126"
+    }
+  },
+  {
+    "name": "1781574530403807665-02.jpg",
+    "sha256": "6b1f18d79f6774615914d7630f7ebfd055eddbd1b95d7aabbc26cc555abf4450",
+    "prior": {
+      "sha256": "6b1f18d79f6774615914d7630f7ebfd055eddbd1b95d7aabbc26cc555abf4450",
+      "example_post_id": "1779401651620925734",
+      "image_name": "1779401651620925734-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md",
+        "references/by-type/authn-session.md",
+        "references/by-type/info-secrets.md",
+        "references/source-audit.md",
+        "references/experiment-design.md",
+        "references/impact-and-acceptance.md"
+      ],
+      "note": "UUID 型 api_tokens 对象的列表接口与 DELETE 接口需分别验证权限；知道 UUID 和能列出对象不等于有权删除。最小对照是两份自有身份、各自的惰性令牌对象及角色策略，核对同组织与跨组织边界、列表字段最小化、最终服务端拒绝/允许状态。低权限读取列表可能符合政策，不能把可枚举性自动判为 IDOR。图片没有实际 DELETE 结果，不执行撤销真实令牌。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T16:10:52.670Z",
+      "batch": "media-0208"
+    }
+  },
+  {
+    "name": "1782376724959039724-02.jpg",
+    "sha256": "8224b573649ef1c972de9602f656cc237225f8c6338a166dbc941c710b143d49",
+    "prior": {
+      "sha256": "8224b573649ef1c972de9602f656cc237225f8c6338a166dbc941c710b143d49",
+      "example_post_id": "1543673085106454528",
+      "image_name": "1543673085106454528-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/experiment-design.md"
+      ],
+      "note": "技巧图01数据库/表单/渲染/Markdown/资源预算；不同消费者与有限测试边界分开。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T15:14:17.743Z",
+      "batch": "media-0128"
+    }
+  },
+  {
+    "name": "1782750060096459047-02.jpg",
+    "sha256": "640a41caec7b5d3d3dcb021945cc39ec442dc1a4c2cf3b2657127547735e5c2d",
+    "prior": {
+      "sha256": "640a41caec7b5d3d3dcb021945cc39ec442dc1a4c2cf3b2657127547735e5c2d",
+      "example_post_id": "1543673085106454528",
+      "image_name": "1543673085106454528-03.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/experiment-design.md"
+      ],
+      "note": "技巧图02 HTTP0.9/缓存/方法覆盖/JSONMIME/八进制；每层实际解释需证明。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T15:14:17.754Z",
+      "batch": "media-0128"
+    }
+  },
+  {
+    "name": "1783026138434138119-02.jpg",
+    "sha256": "c3f5fd0f92c7f8af8d90f676900f6d3526f56ada6195ec703687c4d8ef5849f3",
+    "prior": {
+      "sha256": "c3f5fd0f92c7f8af8d90f676900f6d3526f56ada6195ec703687c4d8ef5849f3",
+      "example_post_id": "1543673085106454528",
+      "image_name": "1543673085106454528-04.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/experiment-design.md"
+      ],
+      "note": "技巧图03时间摘要/CSVcurl/GitLab/IDOR形状/JS转换；不由候选推出成功，不使用秘密。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T15:14:17.768Z",
+      "batch": "media-0128"
+    }
+  },
+  {
+    "name": "1783389205462425796-02.jpg",
+    "sha256": "c4fa113722808300d1cf5d9526d621e9477f659006d6e89dd5a1b7b862fb4925",
+    "prior": {
+      "sha256": "c4fa113722808300d1cf5d9526d621e9477f659006d6e89dd5a1b7b862fb4925",
+      "example_post_id": "1543673085106454528",
+      "image_name": "1543673085106454528-05.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/experiment-design.md"
+      ],
+      "note": "技巧图04 IKE/多语/盲XSS/邮箱域角色/Pages；握手、回调与可信控制逐项区别。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T15:14:17.778Z",
+      "batch": "media-0128"
+    }
+  },
+  {
+    "name": "1783085322793853433-02.jpg",
+    "sha256": "5c05e2259409209870f2574cfc8cf81d1a2ec81982c6a1a2230ce55263b6e80f",
+    "prior": {
+      "sha256": "5c05e2259409209870f2574cfc8cf81d1a2ec81982c6a1a2230ce55263b6e80f",
+      "example_post_id": "1592829029807423488",
+      "image_name": "1592829029807423488-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "ATO钓鱼illustration封面无IDOR/接管机制。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T18:45:17.592Z",
+      "batch": "media-0143"
+    }
+  },
+  {
+    "name": "1783388731388592162-02.jpg",
+    "sha256": "cd9f07b4fb50c8787ac74750a1b7921ae0dc8cf5c581d2d46ed4cdac3f4d3c1e",
+    "prior": {
+      "sha256": "cd9f07b4fb50c8787ac74750a1b7921ae0dc8cf5c581d2d46ed4cdac3f4d3c1e",
+      "example_post_id": "1552476201913966592",
+      "image_name": "1552476201913966592-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/discovery/web-and-api.md"
+      ],
+      "note": "68 g177 collector仓库卡声称entiredomainXSSvulnerableparams；作为覆盖声明纠正，同146实际help/抓取只是候选。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-10T15:52:44.156Z",
+      "batch": "media-0130"
+    }
+  }
+]

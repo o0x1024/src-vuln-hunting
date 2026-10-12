@@ -1,0 +1,244 @@
+[
+  {
+    "name": "1742282112131277040-02.jpg",
+    "sha256": "1a125177bbe478c462d992f6bf25275a2ecc1bde07a76c925c7e5c8823fd1388",
+    "prior": {
+      "sha256": "1a125177bbe478c462d992f6bf25275a2ecc1bde07a76c925c7e5c8823fd1388",
+      "example_post_id": "1737504542529335735",
+      "image_name": "1737504542529335735-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "SQLi 两个报告标题与 Critical 标签，无查询或响应；参数候选仅从正文提炼。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:25:09.766Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1742463306043126120-02.jpg",
+    "sha256": "c8b0a1ee82ef5cd465fdf818e275d4b3683a204561413bbf569b834fd0cb0826",
+    "prior": {
+      "sha256": "c8b0a1ee82ef5cd465fdf818e275d4b3683a204561413bbf569b834fd0cb0826",
+      "example_post_id": "1737503381436956940",
+      "image_name": "1737503381436956940-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "Blind XSS 奖励截图无注入或回调证据。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:24:43.578Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1742463306043126120-03.jpg",
+    "sha256": "664773a90857db32041bf687eeefdef8a4f1673fd2fd23e451dae8d2716b6502",
+    "prior": {
+      "sha256": "664773a90857db32041bf687eeefdef8a4f1673fd2fd23e451dae8d2716b6502",
+      "example_post_id": "1737503381436956940",
+      "image_name": "1737503381436956940-03.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/xss.md",
+        "references/scope-and-rules.md"
+      ],
+      "note": "营销邮件底部退订/帮助链接提供潜在输入到后台流程定位，截图本身无注入。核对收件者、链接归属、后台消费者和范围，授权自有账号惰性标记而非给外部人员发载荷；第三方邮件平台不自动在范围内。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:24:43.583Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1742508604350242853-02.jpg",
+    "sha256": "12f215e568f2a5c024a4809625009f787e65e7a5da0f36b8a171fbe7b49e1b93",
+    "prior": {
+      "sha256": "12f215e568f2a5c024a4809625009f787e65e7a5da0f36b8a171fbe7b49e1b93",
+      "example_post_id": "1737554925037720063",
+      "image_name": "1737554925037720063-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/file-upload.md",
+        "references/discovery/passive-and-services.md"
+      ],
+      "note": "Google 招聘摘要 Choose file/Upload PDF 仅发现候选上传入口，括号/管道查询语法需按实际引擎核对；搜索结果不证明当前表单、文件消费者或漏洞。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:25:09.790Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1742508604350242853-03.jpg",
+    "sha256": "1c001fd5a335a1e99212b748dad5b50ffbafcb5cbe1d9f2f73b1ae823bc8be0e",
+    "prior": {
+      "sha256": "1c001fd5a335a1e99212b748dad5b50ffbafcb5cbe1d9f2f73b1ae823bc8be0e",
+      "example_post_id": "1737554925037720063",
+      "image_name": "1737554925037720063-03.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/file-upload.md"
+      ],
+      "note": "招聘 Resume Upload PDF 文件选择控件，没有网络请求/落盘/响应；区分客户端 accept、服务端 MIME/魔数/路径与读取者，不提交文件。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:25:09.795Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1742750196256399581-02.png",
+    "sha256": "a955f5f2a99ac16954e3240d9402b6285ea4f9f0efefb51e2d525a71947ebf0e",
+    "prior": {
+      "sha256": "a955f5f2a99ac16954e3240d9402b6285ea4f9f0efefb51e2d525a71947ebf0e",
+      "example_post_id": "1737577204484341865",
+      "image_name": "1737577204484341865-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/file-upload.md"
+      ],
+      "note": "multipart 上传清单将同 .php 文件的 part MIME 从 PHP 换成 image/jpeg；核对 filename、声明 MIME、魔数、重编码、落盘路径与最终响应消费者。客户端声明可改不证明接受或执行，使用惰性文件对照，不运行 PHP。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:25:09.815Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1742825695313793109-02.png",
+    "sha256": "d0c3ba8f9dcfd788b9fcd02beb8a24ddfe600054f2a3e3e077d6926ef20d0168",
+    "prior": {
+      "sha256": "d0c3ba8f9dcfd788b9fcd02beb8a24ddfe600054f2a3e3e077d6926ef20d0168",
+      "example_post_id": "1736349370763919374",
+      "image_name": "1736349370763919374-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/idor-access-control.md",
+        "references/by-type/api-property-pollution.md"
+      ],
+      "note": "IDOR清单分公开/私有、账号ID、方法与参数名替换、编码；优先两自有账号，不能枚举真实用户。Base64/MD5不可统称可逆解码，POST200可能不同handler或未执行；比较同对象所有者、当前主体和权威状态，删除/密钥/价格动作不默认测试。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:16:32.303Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1743006889711976608-02.png",
+    "sha256": "133f8f5116bf6dce11f65525f403058844aa6a383cc82214cba2e9b1849dd678",
+    "prior": {
+      "sha256": "133f8f5116bf6dce11f65525f403058844aa6a383cc82214cba2e9b1849dd678",
+      "example_post_id": "1736093582669328782",
+      "image_name": "1736093582669328782-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/xss.md",
+        "references/by-type/authn-session.md"
+      ],
+      "note": "状态参数onfocus/autofocus截图有document.cookie提示框，支持该页面上下文执行线索；当前会话/实际引号输出及用户焦点动作需另证，HttpOnly不可读。示例cookie未提取/复制，不能直接升级到ATO或无交互Stored XSS。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:15:31.999Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1743112585216483719-02.jpg",
+    "sha256": "42680df3b977517767447519f2bf6bf05eb5cce6461551d09a5bd0e18ad88bb5",
+    "prior": {
+      "sha256": "42680df3b977517767447519f2bf6bf05eb5cce6461551d09a5bd0e18ad88bb5",
+      "example_post_id": "1737143951361245266",
+      "image_name": "1737143951361245266-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/file-upload.md",
+        "references/by-type/cmd-injection-rce.md",
+        "references/discovery/records-and-incremental.md"
+      ],
+      "note": "OAST DNS/HTTP 截图有 curl POST 的 uid/gid www-data 文本；与正文上传执行链相联系但缺唯一 nonce 和服务端原始日志，文本可伪造。对照上传落点、惰性文件可达性与授权专用回调归因，不运行代码或传出命令结果。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:23:09.094Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1743671267381932428-02.jpg",
+    "sha256": "320821f2785d657aa0f8772a29b4ed42b3be850e29b6746682a1ffbff08917c5",
+    "prior": {
+      "sha256": "320821f2785d657aa0f8772a29b4ed42b3be850e29b6746682a1ffbff08917c5",
+      "example_post_id": "1737410587972550779",
+      "image_name": "1737410587972550779-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/business-modeling.md",
+        "references/by-type/idor-access-control.md"
+      ],
+      "note": "第二版业务逻辑清单列价格/负数/数学表达式、资料 ID、购物车、评价与优惠券，底部续页缺失不补。按服务端金额与状态不变量、资格和两自有账号所有权最小对照；输入表达式可能仅字符串，重复评价不自动等于竞态或经济影响。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:24:04.627Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1743958155791360164-02.jpg",
+    "sha256": "70c93218bec04b87c4140623f10ab2b09a3fca2f4de4366c7dd49f1fd4ea245f",
+    "prior": {
+      "sha256": "70c93218bec04b87c4140623f10ab2b09a3fca2f4de4366c7dd49f1fd4ea245f",
+      "example_post_id": "1737000336542351586",
+      "image_name": "1737000336542351586-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/open-redirect.md",
+        "references/by-type/ssrf.md"
+      ],
+      "note": "scheme 与正反斜杠及百分号编码的 URL 变体列表，没有请求结果。先比较各解析器对协议、authority 和解码次数的结果，再核对最终导航或服务端取址，允许名单按规范化 origin 比较；变体本身不能证明绕过。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:22:37.323Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1744033653334974827-02.jpg",
+    "sha256": "61945869d3578b2993b23ad5ef23c4c3a6b174a972571ee2c64536d8d8a9386e",
+    "prior": {
+      "sha256": "61945869d3578b2993b23ad5ef23c4c3a6b174a972571ee2c64536d8d8a9386e",
+      "example_post_id": "1737851944855884082",
+      "image_name": "1737851944855884082-02.jpg",
+      "disposition": "no_technical_content",
+      "targets": [],
+      "note": "huntr 漏洞标题、赏金与 CVE 列表，缺正文代码与请求，不按标题推机制。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:26:09.008Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1744199748477739516-02.jpg",
+    "sha256": "96b4878738a47667298e00ddc9be0edb19f8e7263023eb4f746c59c1f8df2471",
+    "prior": {
+      "sha256": "96b4878738a47667298e00ddc9be0edb19f8e7263023eb4f746c59c1f8df2471",
+      "example_post_id": "1737661816208081163",
+      "image_name": "1737661816208081163-02.jpg",
+      "disposition": "distilled",
+      "targets": [
+        "references/by-type/desktop-client.md",
+        "references/by-type/authn-session.md"
+      ],
+      "note": "Outlook 提醒音 UNC 参数触发外部取址/NTLM 示意图，需核对版本、自动处理、网络和身份策略。图示没有真实认证日志，不接收凭据或发送邮件；自有隔离账户日志可分取址与认证。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:25:38.407Z",
+      "batch": "media-0195"
+    }
+  },
+  {
+    "name": "1744456440465482003-02.png",
+    "sha256": "1ad13b2ce2910f483fd339804f4f579a9461fb089907e85fc6da3e7b65306ce8",
+    "prior": {
+      "sha256": "1ad13b2ce2910f483fd339804f4f579a9461fb089907e85fc6da3e7b65306ce8",
+      "example_post_id": "1737078974768087386",
+      "image_name": "1737078974768087386-02.png",
+      "disposition": "distilled",
+      "targets": [
+        "references/business-modeling.md",
+        "references/by-type/idor-access-control.md"
+      ],
+      "note": "业务清单混合价格、负数/表达式、购物车、评价资格/范围/重复与他人资料 ID。分别对照服务端金额/状态不变量、两自有账号所有权、已购资格及幂等；字符串表达式不等于计算，200 或前端标记不证明最终权益。",
+      "review_scope": "entire visible image; small text, crop and redaction limits explicitly retained; no source execution or external destinations",
+      "reviewed_at": "2026-10-11T10:22:37.352Z",
+      "batch": "media-0195"
+    }
+  }
+]
