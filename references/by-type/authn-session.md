@@ -45,3 +45,9 @@
 ## 归档案例补充：客户端封装与中间件
 
 客户端签名重建只是恢复有效实验请求；还需核对服务端绑定的实际身份，避免把 UI 字段/新 token 当接管。中间件案例按当前部署、入口和补丁加载情况判断，维护者公告优先于转载的影响描述。见 [小程序](miniapp-security.md)、[源码审计](../source-audit.md)。
+
+## 实战素材（未复现）
+
+同类语料桶：[x-auth-1（147 条）](../research/x-auth-1.md)、[x-exp-auth（279 条）](../research/x-exp-auth.md)、[x-residual-auth（4 条）](../research/x-residual-auth.md)
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。

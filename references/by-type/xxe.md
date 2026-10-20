@@ -22,3 +22,9 @@ HackerOne #312543 的历史入口是 Site Audit 下载并解析 sitemap，而非
 - [H1-xxe · Report #312543: XXE in Site Audit](https://hackerone.com/reports/312543)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 实战素材（未复现）
+
+同类语料桶：[x-xxe-1（10 条）](../research/x-xxe-1.md)、[x-exp-xxe（8 条）](../research/x-exp-xxe.md)
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。

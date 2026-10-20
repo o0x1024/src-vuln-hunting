@@ -35,3 +35,9 @@
 - [PMNH-waf · RCE via SSTI on Spring Boot Error Page with Akamai WAF Bypass](https://www.pmnh.site/post/writeup_spring_el_waf_bypass/)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 实战素材（未复现）
+
+同类语料桶：[x-rce-1（69 条）](../research/x-rce-1.md)、[x-exp-rce（40 条）](../research/x-exp-rce.md)、[x-residual-rce（7 条）](../research/x-residual-rce.md)
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。

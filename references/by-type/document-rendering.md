@@ -24,3 +24,9 @@
 不能从 PDF 的 Producer 字符串推断确切运行版本、参数或漏洞。wkhtmltopdf 的 [官方参数说明](https://wkhtmltopdf.org/usage/wkhtmltopdf.txt) 与实际启动参数需一起核对；历史文章的默认本地文件访问描述不自动适用于当前部署。
 
 只有达到 [技术确认](../verification.md) 和 [影响/收录](../impact-and-acceptance.md) 门槛才形成候选；其余保留已证明的有限能力。对应研究见 [K09–K10](../research/crawl-xz-patterns.md)，路径处理继续读 [路径穿越](lfi-path-traversal.md)。
+
+## 实战素材（未复现）
+
+相关语料桶（非本类专属）：[x-file-1（79 条）](../research/x-file-1.md)
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。

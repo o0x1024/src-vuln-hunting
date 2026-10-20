@@ -21,3 +21,9 @@
 - [GH-actions · Secure use reference](https://docs.github.com/en/actions/reference/security/secure-use)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 实战素材（未复现）
+
+同类语料桶：本类在 [X 语料索引](../research/x-corpus.md) 中未单独归桶，可按类名在该表检索
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。

@@ -20,3 +20,9 @@
 交付版本/签名、设备与 OS、实际入口/调用链、entitlements 证据、攻击与准备权限、复现材料及未覆盖模块。受理、奖励、技术影响分别判断。隐私合规线索需要对应地区/业务的有效规则，不把一般隐私建议直接认定为法律违规或安全漏洞。
 
 资料：[Apple 运行时安全](https://support.apple.com/en-au/guide/security/sec15bfe098e/web)（读取沙箱与 entitlements 部分）、[MASVS](https://mas.owasp.org/MASVS/)（读取控制组概览）。这些仅支持边界与覆盖方向，具体 OS/API 行为在执行前按目标版本核对；未宣称已读所有关联域、Keychain 或 ATS API 文档。[来源登记](../research/sources.json)，2026-09-17。
+
+## 实战素材（未复现）
+
+同类语料桶：[x-mobile-1（8 条）](../research/x-mobile-1.md)、[x-exp-mobile（2 条）](../research/x-exp-mobile.md)
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。

@@ -54,3 +54,9 @@ Cloudflare 和 AWS 的厂商资料用于约束假设；没有该目标配置时�
 ## 归档案例补充：内容编码和双解析器
 
 对有文档/流量/代码依据的 Content-Encoding，支持未知时先辨明支持情况，用小型普通标记核对压缩前后大小、媒体类型、最终解码值和同一业务路径；415、不解析 body、忽略字段分别记录。不能继承文章的产品成功率，也不构造高膨胀数据。验证器与恢复器的实现/版本/输入类型必须分别记录，CTF 额外依赖不能视为目标已有。见 [K11–K12](../research/crawl-xz-patterns.md)。
+
+## 实战素材（未复现）
+
+同类语料桶：[x-waf-1（116 条）](../research/x-waf-1.md)、[x-exp-waf（98 条）](../research/x-exp-waf.md)、[x-residual-waf_bypass（3 条）](../research/x-residual-waf_bypass.md)
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。

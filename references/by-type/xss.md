@@ -41,3 +41,9 @@ DOM 场景追踪 source 到实际 sink，保存浏览器运行证据。存储场
 ## 归档案例补充：导出消费者
 
 同一输入可能进入浏览器预览和服务端文档消费者，分别确认执行位置及权限。PDF 排版变化不等于 XSS→SSRF→文件读取链已成立，见 [文档处理](document-rendering.md)。
+
+## 实战素材（未复现）
+
+同类语料桶：[x-xss-1（300 条）](../research/x-xss-1.md)、[x-xss-2（300 条）](../research/x-xss-2.md)、[x-xss-3（266 条）](../research/x-xss-3.md)、[x-exp-xss（209 条）](../research/x-exp-xss.md)、[x-residual-xss（111 条）](../research/x-residual-xss.md)
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。

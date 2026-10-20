@@ -21,3 +21,9 @@ JSON 中有 `__proto__`、响应回显该键、对象有同名自身属性都不
 - [PS-proto · Prototype pollution](https://portswigger.net/web-security/prototype-pollution)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 实战素材（未复现）
+
+相关语料桶（非本类专属）：[x-exp-api（180 条）](../research/x-exp-api.md)、[x-api-1（23 条）](../research/x-api-1.md)
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。

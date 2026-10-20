@@ -21,3 +21,9 @@ NXDOMAIN、404、旧指纹命中、同名资源看似可创建，不单独证明
 - [Azure-dns · Prevent dangling DNS entries and avoid subdomain takeover](https://learn.microsoft.com/en-us/azure/security/fundamentals/subdomain-takeover)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 实战素材（未复现）
+
+同类语料桶：[x-recon-1（253 条）](../research/x-recon-1.md)、[x-exp-recon（214 条）](../research/x-exp-recon.md)、[x-recovered-recon（83 条）](../research/x-recovered-recon.md)
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。

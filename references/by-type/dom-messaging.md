@@ -22,3 +22,9 @@ DOM clobbering 则追踪可控 HTML 命名属性是否改变代码读取的对�
 - [PS-clobber · DOM clobbering](https://portswigger.net/web-security/dom-based/dom-clobbering)
 
 资料核对日期：2026-09-14。来源的证据层级与历史日期见 [来源登记](../research/sources.json)；实验安排是本 skill 的综合设计，不表示已在当前目标复现。
+
+## 实战素材（未复现）
+
+相关语料桶（非本类专属）：[x-exp-xss（209 条）](../research/x-exp-xss.md)、[x-xss-1（300 条）](../research/x-xss-1.md)
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。

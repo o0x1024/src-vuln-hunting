@@ -45,6 +45,7 @@ description: 指导 AI 助手在明确授权的 SRC/众测项目中进行信息�
 | 发现资产、接口、指纹 | [资产发现](references/asset-discovery.md) |
 | 选择高频覆盖或条件专题 | [检测入口](references/vuln-detection.md)、[专题索引](references/vulnerability-catalog.md) |
 | 检索先知/奇安信归档、迁移历史研究 | [归档研究检索](references/research/crawl-xz-integration.md) |
+| 查 x.com 实战语料（4,771 条，按漏洞类归并） | [X 语料索引](references/research/x-corpus.md)；技术桶读 `references/research/x-<类>-<序号>.md`，经验桶读 `references/research/x-exp-<类>.md`，回收清单读 `references/research/x-recovered-*.md` 与 `x-residual-*.md` |
 | 已获准源码、框架路由或补丁分析 | [源码审计](references/source-audit.md) |
 | AI、客户端或设备材料，需要建立跨端资产/身份关系 | [AI 与设备发现](references/discovery/ai-and-devices.md) |
 | 大模型、RAG、Agent、工具或沙箱边界 | [AI 应用安全](references/by-type/ai-application.md) |
@@ -53,7 +54,6 @@ description: 指导 AI 助手在明确授权的 SRC/众测项目中进行信息�
 | PC 本地服务、更新器，或授权车端组件 | [PC 客户端](references/by-type/desktop-client.md)、[汽车终端](references/by-type/automotive-security.md)，按实际产品选读 |
 | 当前项目采用小米 SRC 规则 | [MiSRC 版本、分层、附件与奖励资格](references/policies/xiaomi-misrc.md)；不作为其他项目默认规则 |
 | 小程序身份/接口、文档导出/后台渲染 | [小程序](references/by-type/miniapp-security.md)、[文档处理](references/by-type/document-rendering.md) |
-| 采纳 HackerOne/X 技巧、核对历史案例 | [社区经验](references/research/community-notes.md) |
 | 对象、功能、租户授权 | [访问控制](references/by-type/idor-access-control.md) |
 | 权限、数据可见性、开放策略或业务预期有争议 | [业务预期与权限判定](references/business-intent.md) |
 | 登录、会话与联邦身份 | [认证与会话](references/by-type/authn-session.md) |

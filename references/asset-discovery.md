@@ -45,3 +45,11 @@
 ## 方法核对
 
 2026-09-16 核对 [OWASP WSTG 4.2 信息收集目录](https://owasp.github.io/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/) 的搜索、内容、指纹、入口、路径和架构分类。本流程是本 skill 的 Agent 执行设计；分类存在不表示当前目标已覆盖，资料中的动作仍受当前授权约束。代理映射的历史反例保留于 [K14](research/crawl-xz-patterns.md)。
+
+## 实战素材（未复现）
+
+同类语料桶：[x-recon-1（253 条）](research/x-recon-1.md)、[x-exp-recon（214 条）](research/x-exp-recon.md)、[x-recovered-recon（83 条）](research/x-recovered-recon.md)、[x-residual-recon（43 条）](research/x-residual-recon.md)
+同类语料桶：[x-tooling-1（208 条）](research/x-tooling-1.md)、[x-exp-tooling（16 条）](research/x-exp-tooling.md)、[x-residual-tooling（6 条）](research/x-residual-tooling.md)、[x-recovered-toolchain（11 条）](research/x-recovered-toolchain.md)
+同类语料桶：[x-recovered-dork（24 条）](research/x-recovered-dork.md)、[x-recovered-testcase（68 条）](research/x-recovered-testcase.md)
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。

@@ -40,7 +40,8 @@ python3 scripts/search_research.py "K04" --adopted-only
 ## 知识与数据的位置
 
 - [研究模式与反例](crawl-xz-patterns.md)：按 K01–K16 引用的可迁移检查点。
-- [全量机器索引](crawl-xz-index.json)：查询入口、哈希、完整性与逐篇处置；按需查询，不整体加载。
+- 全量机器索引 `crawl-xz-index.json`：查询入口、哈希、完整性与逐篇处置；按需查询，不整体加载。
+  该索引**不随 skill 分发**（体积超限且为生成物），需用下节的生成器从本地受控缓存重建到暂存目录后再检索。
 - [段落复核记录](crawl-xz-curation.json)：人工/Agent 复核范围及哈希，作为已采纳状态的输入。
 - [来源登记](sources.json)：已用于专题的一手资料和归档来源。
 - [索引生成器](../../scripts/build_research_index.py) 与 [检索器](../../scripts/search_research.py)：只操作本地受控文件，不请求目标或执行来源代码。

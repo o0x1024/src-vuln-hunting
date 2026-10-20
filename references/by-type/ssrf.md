@@ -44,3 +44,9 @@ URL 导入、预览、截图、PDF、webhook、代理或下载。先确认功能
 ## 归档案例补充：文档任务归因
 
 HTML/PDF 预览、转换和后台抓取分别归因到任务与消费者；格式保留、外部回包或浏览器弹窗不能直接证明后台越界请求。优先项目指定的无害验证方式，详见 [文档处理](document-rendering.md)。
+
+## 实战素材（未复现）
+
+同类语料桶：[x-ssrf-1（54 条）](../research/x-ssrf-1.md)、[x-exp-ssrf（63 条）](../research/x-exp-ssrf.md)、[x-residual-ssrf（10 条）](../research/x-residual-ssrf.md)
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。

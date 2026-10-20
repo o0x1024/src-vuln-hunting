@@ -34,3 +34,9 @@
 提供拓扑、起始角色、网络条件、设备/固件/哈希、调用或协议链、真实结果、复现限制及清理。评级参考 [MiSRC](../policies/xiaomi-misrc.md) 或当前项目，网络前提与交互差异必须入报告。
 
 [OWASP IoT Security Testing Guide 项目](https://owasp.org/projects/iot-security-testing-guide) 作为设备测试方法入口，本轮只核对项目介绍，未将其全部测试条目当已读或已执行；本文件流程是 skill 的综合设计。[来源登记](../research/sources.json) 保存查阅范围。
+
+## 实战素材（未复现）
+
+同类语料桶：本类在 [X 语料索引](../research/x-corpus.md) 中未单独归桶，可按类名在该表检索
+
+贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。
