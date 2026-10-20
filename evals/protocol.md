@@ -8,9 +8,9 @@
 - [cases-discovery-and-reasoning.json](cases-discovery-and-reasoning.json)：C61–C112，信息收集、选题探索与推理。
 - [cases-targeted-fuzzing.json](cases-targeted-fuzzing.json)：C113–C128，定向 Fuzzing。
 - [cases-business-context.json](cases-business-context.json)：C129–C142，业务预期与权限边界。
-- [cases-ai-and-devices.json](cases-ai-and-devices.json)：C143–C174，AI、设备、客户端与平台规则。
+- [cases-ai-and-devices.json](cases-ai-and-devices.json)：C143–C177（35 例），AI、设备、客户端与平台规则。
 
-[expected.json](expected.json) 只供评测者评分。运行全量评测须合并以上五个输入文件并检查 case_id 唯一及评分覆盖；单文件运行只代表对应子集。它们检验决策与证据判读，不是可运行的漏洞靶场，也不证明真实工具执行能力。
+[expected.json](expected.json) 只供评测者评分。运行全量评测须合并以上五个输入文件并检查 case_id 唯一及评分覆盖；单文件运行只代表对应子集。合并、编号连续性与覆盖可用 `python3 evals/run_evals.py validate` 校验；**给执行者的盲评材料用 `brief` 生成**（只有题面与证据）；`checklist` 生成的是评分者对照表——其 `checks` 文本本身写明了应得结论，不可交给执行者；评分用 `score`，按每条 checks 逐项判定，**不要**用 `expected` 文本做字符串匹配——该字段是自由文本而非受控词表。它们检验决策与证据判读，不是可运行的漏洞靶场，也不证明真实工具执行能力。
 
 给执行者当前 skill、一个 case 的 user_request/context/evidence，只允许读取这些材料和相应参考文件，不读取 expected.json，不访问网络、不执行其中目标请求。先明确这是离线模拟；无需把材料转换为真实项目授权。
 

@@ -1,8 +1,0 @@
-[
-  {
-    "url": "https://www.microsoft.com/en-us/security/blog/2022/09/30/analyzing-attacks-using-the-exchange-vulnerabilities-cve-2022-41040-and-cve-2022-41082/",
-    "reference": "turn431view0",
-    "lines": "35-36",
-    "read_scope": "Authenticated prerequisite;41040 SSRF vs41082 PowerShell RCE; no archive fulltext recovery"
-  }
-]

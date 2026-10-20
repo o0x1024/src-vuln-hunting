@@ -1,9 +1,0 @@
-[
-  "BMW报告状态Triaged(Open)、Critical9.1、ImproperAccessControl Generic，无请求/响应/对象/授权边界；分类不证明技术机制。",
-  "Bugcrowd披露报告IncreaseRank标题/P3/$900/日期，未展示排序计算或请求；奖金不证明操纵机制。",
-  "反射XSS奖金额$250及沟通：作者认为XSS应High/Critical，triager保留Medium6.1，侧栏Medium4.7；评分口径/时间不同不能当统一标准，无实际载荷或回归结果。",
-  "GET/HTTP2 Host127.0.0.1回应WordPressmysqli getaddrinfo失败、文件路径/行号及数据库连接错误；无正常Host基线，不能证明Host触发内网访问、数据库名可控或SSRF，原文明确fuzz未有结果。",
-  "Gmail issue沟通：若不再复现可能例行维护/升级，未因本报告开内部修复ticket；作者Fixed描述不能证明修复归因，无显示名称伪装PoC。",
-  "Telegram日志通知含curl/7.64.1 GET/HTTP1.1、代理/来源头、空请求体、时间及IP遮挡；说明通知捕获一请求，来源头可伪造，不定位SSRF/XXE/盲XSS，未发送任何通知。",
-  "GoogleCloudDNS接管文章封面，无DNS记录/zone归属/解析链或可认领资源；外链全文用户豁免，不补造接管步骤。"
-]
