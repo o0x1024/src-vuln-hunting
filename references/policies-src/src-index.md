@@ -12,7 +12,7 @@
 - 单平台详情见同目录 `<src_id>.md`，每份含：收录范围 / 等级与奖励 / 忽略不收项 / 测试红线 / 报告要求 / 处理流程与时限 / 易错点 / 来源。
 - 跨平台通用测试红线见 [SRC行业安全测试规范](industry-testing-standard.md)（14 条，多家 SRC 联合签署）。
 - 另有补充全文：[字节跳动规则全文 V6](bytedance-v6-fulltext.md)。
-- 已有的深度政策文件：[小米 MiSRC](../xiaomi-misrc.md)、[贝壳 BKSRC](../beike-bksrc.md)、[京东 JSRC](../jd-jsrc.md)（按项目选用，不作默认）。
+- 已有的深度政策文件：[小米 MiSRC](../policies/xiaomi-misrc.md)、[贝壳 BKSRC](../policies/beike-bksrc.md)、[京东 JSRC](../policies/jd-jsrc.md)（按项目选用，不作默认）。
 
 ## 头部大厂
 
@@ -138,8 +138,8 @@
 
 | src_id | 名称 | 主页 | 状态 | 版本/日期 | 备注 |
 |---|---|---|---|---|---|
-| [wps](wps.md) | 金山办公WPS SRC | https://security.wps.cn/ | official | V1.0 | 安全币=CVSS奖励分×等级×业务系数,仅兑礼品;数据≤10条不落地 |
-| [kanyun](kanyun.md) | 看云控股YSRC(猿辅导系) | https://security.kanyun.com/ | official | V1.7(2026-07-28) | 重要业务严重6000猿币;隐私合规类不收;非金山云 |
+| [vendor-a](vendor-a.md) | 厂商 A（匿名化条目） | `<redacted>` | official | V1.0 | 安全币=CVSS奖励分×等级×业务系数,仅兑礼品;数据≤10条不落地 |
+| [kanyun](kanyun.md) | 看云控股YSRC(猿辅导系) | https://security.kanyun.com/ | official | V1.7(2026-07-28) | 重要业务严重6000猿币;隐私合规类不收;非厂商 A 云 |
 | [ucloud](ucloud.md) | UCloud USRC | https://src.ucloud.cn/ | official | V1.3(2026-09-24) | 生产严重1000-3000安全币;云上客户业务不计贡献 |
 | [dbapp](dbapp.md) | 安恒信息DSRC | https://security.dbappsecurity.com.cn/ | official | 快照2021-06 | 严重150-200金币(旧快照);正文需JS渲染 |
 | [sangfor](sangfor.md) | 深信服SSRC | https://security.sangfor.com.cn/ | secondary | 未标注 | 规则文档存在但未公开索引;口袋助理越权类暂停收录 |

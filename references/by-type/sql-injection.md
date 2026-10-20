@@ -44,3 +44,10 @@ ORM 的条件绑定与原始表达式可能走不同实现，跟到具体重载�
 同类语料桶：[x-sqli-1（193 条）](../research/x-sqli-1.md)、[x-exp-sqli（42 条）](../research/x-exp-sqli.md)、[x-residual-sqli（26 条）](../research/x-residual-sqli.md)
 
 贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。
+
+## 同类项目成交语料补充（匿名归档，未复现）
+
+来源：[corpus-web-injection.md](../research/corpus-web-injection.md)（真实提交→审结记录，未经复现；来源已匿名，归档无忽略原因字段，勿当规则）。
+
+- 语料中手工单请求 + 人工对照是主流，`sqlmap` 全切片 0 次命中；工具不是障碍，但报告需要可读的对照证据。
+- RESTful 路径中的裸 ID 段（`/rules/10815/update`）容易被排除在参数测试之外，应单独覆盖。

@@ -44,3 +44,10 @@
 同类语料桶：[x-file-1（79 条）](../research/x-file-1.md)、[x-residual-lfi_traversal（13 条）](../research/x-residual-lfi_traversal.md)
 
 贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。
+
+## 同类项目成交语料补充（匿名归档，未复现）
+
+来源：[corpus-web-infoleak.md](../research/corpus-web-infoleak.md)（真实提交→审结记录，未经复现；来源已匿名，归档无忽略原因字段，勿当规则）。
+
+- 下载/预览代理的 `path`/`file` 参数是主要入口（`download?path=` 直接读系统文件），需与"签名 URL 可访问是否算漏洞"的判定区分。
+- 对象存储 key 校验可被特殊字符绕过（如空 key 触发后端签名列桶），应作为独立检查点。

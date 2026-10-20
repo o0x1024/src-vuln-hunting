@@ -29,3 +29,12 @@
 同类语料桶：[x-infodisc-1（44 条）](../research/x-infodisc-1.md)、[x-exp-infoleak（13 条）](../research/x-exp-infoleak.md)
 
 贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。
+
+## 同类项目成交语料补充（匿名归档，未复现）
+
+来源：[corpus-web-infoleak.md](../research/corpus-web-infoleak.md)（真实提交→审结记录，未经复现；来源已匿名，归档无忽略原因字段，勿当规则）。
+
+- 同一形态的结论会随时间反转：内网地址类泄漏在 2022 年成批中危结算，2025 年后同类常不给等级——报前必须核对最近一年口径。
+- 定级看三件事：可控范围（可列桶/可遍历 > 单文件）、身份字段齐全度（姓名/手机号/证件/工号）、凭据能否落到控制面。
+- 调试端点固定检查表：`debug/pprof`、`metrics`、`nginx_status`、`actuator/*`、`druid`、`swagger|v3/api-docs`、`grafana`、`apollo`；遇 IP 白名单试 `True-Client-IP: 127.0.0.1` 类头。
+- 影响量化四件套：条数、容量、字段、新鲜度；只回显路径或裸 base64、凭据外带验证均不足以作为证据。

@@ -3,7 +3,7 @@
 - 状态: official；置信度: 高
 - 来源: https://security.kanyun.com/index.php?m=&c=page&a=view&id=23（查阅于 2026-10-12）；规则版本/更新: V1.7（2026-07-28）
 > 公开规则检索摘要，供选题与定级预判；非授权，不保证当前有效，提交前必须核对官方原文。
-> ⚠️ 主体澄清：security.kanyun.com 是**看云控股（猿辅导系）YSRC**，不是金山云。按公司名检索时极易混淆。
+> ⚠️ 主体澄清：security.kanyun.com 是**看云控股（猿辅导系）YSRC**，不是厂商 A 云。按公司名检索时极易混淆。
 
 ## 收录范围
 收录域名：zhenguanyu / yuanfudao / yuantiku / yuansouti / xiaoyuankousuan / banmaaike / ybccode / skypeople / gridcoffee / moliyuezi。
@@ -33,7 +33,7 @@
 
 ## 易错点
 - 域名清单是白名单式：清单外资产先确认归属，勿默认可测。
-- "kanyun"≠金山云（金山云为 security.kanyun.com 之外的主体），定级与奖励不可跨用。
+- "kanyun"≠厂商 A 云（厂商 A 云为 security.kanyun.com 之外的主体），定级与奖励不可跨用。
 
 ## 来源
 - [YSRC 评分标准 V1.7](https://security.kanyun.com/index.php?m=&c=page&a=view&id=23)

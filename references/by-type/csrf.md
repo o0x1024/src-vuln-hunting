@@ -28,3 +28,10 @@ SameSite 的 site 与 origin 不同；用真实浏览器记录 cookie 是否发�
 同类语料桶：[x-csrf_cors-1（20 条）](../research/x-csrf_cors-1.md)、[x-exp-csrf（24 条）](../research/x-exp-csrf.md)
 
 贴子原文为他人自述、未经复现，只作载荷与思路线索；命中条件、影响判定与报告口径一律以本文协议为准。
+
+## 同类项目成交语料补充（匿名归档，未复现）
+
+来源：[corpus-web-upload-misc.md](../research/corpus-web-upload-misc.md)（真实提交→审结记录，未经复现；来源已匿名，归档无忽略原因字段，勿当规则）。
+
+- 写类型 CSRF（78.8%）明显高于读类型：优先找能改变账号/权限/资金状态的接口。
+- 读类型需证明可跨源取得具体数据，仅"请求成功"不足。

@@ -172,7 +172,7 @@
   2. https://medium.com/@lokeshdlk77/stealing-facebook-mailchimp-application-oauth-2-0-access-token-3af51f89f5b0
   3. https://medium.com/a-bugz-life/the-wondeful-world-of-oauth-bug-bounty-edition-af3073b354c1
   4. https://gauravnarwani.com/misconfigured-oauth-to-account-takeover/
-  5. https://medium.com/@Jacksonkv22/oauth-misconfiguration-lead-to-complete-account-takeover-c8e4e89a96a
+  5. https://medium.com/@Jacofficenkv22/oauth-misconfiguration-lead-to-complete-account-takeover-c8e4e89a96a
 - IDOR to ATO:
   - register on website
   - in account settings we have a parameter called ID

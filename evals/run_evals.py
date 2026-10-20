@@ -3,6 +3,7 @@
 
 子命令：
   validate   校验 5 个用例文件与 expected.json 的结构、编号连续性、覆盖与词表问题
+  structure  校验 skill 目录结构：深度上限、孤儿文件、相对链接、叶子体积
   run        运行全部 test_*.py（unittest，确定性离线回归，零网络请求）
   checklist  生成评分者对照表 _out/checklist.md（含 checks，自带预期结论，不可交给执行者）
   brief      生成盲评材料 _out/brief.md（只有题面与证据，不含 checks 与 expected）
@@ -291,12 +292,14 @@ def score(results_path: Path, cases_dir: Path = EVALS) -> int:
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description="离线评测集统一入口")
-    parser.add_argument("command", choices=("validate", "run", "checklist", "brief", "score", "all"))
+    parser.add_argument("command", choices=("validate", "structure", "run", "checklist", "brief", "score", "all"))
     parser.add_argument("--results", type=Path, help="score 用的结果文件（JSON）")
     args = parser.parse_args(argv)
 
     if args.command == "validate":
         return validate()
+    if args.command == "structure":
+        return subprocess.call([sys.executable, str(EVALS / "check_structure.py")])
     if args.command == "run":
         return run()
     if args.command == "checklist":
@@ -308,6 +311,7 @@ def main(argv=None) -> int:
             parser.error("score 需要 --results <path>")
         return score(args.results)
     rc = validate()
+    rc |= subprocess.call([sys.executable, str(EVALS / "check_structure.py")])
     rc |= run()
     rc |= brief()
     rc |= checklist()
