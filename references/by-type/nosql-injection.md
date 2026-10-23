@@ -1,5 +1,8 @@
 # NoSQL 注入
 
+> **同类语料桶（非本类专属，先读再动手）**：[x-sqli-1（193 条）](../research/x-sqli-1.md)、[x-exp-sqli（42 条）](../research/x-exp-sqli.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 适用信号：结构化查询、JSON 筛选或 NoSQL 错误线索
 
 ## 检查与最小实验

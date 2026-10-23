@@ -1,5 +1,8 @@
 # HTTP 请求走私与 desync
 
+> **同类语料桶（先读经验桶再动手）**：[x-smuggling-1（10 条）](../research/x-smuggling-1.md)、[x-exp-smuggling（6 条）](../research/x-exp-smuggling.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 适用信号：前后端协议转换、请求边界解析差异、连接复用
 
 ## 检查与最小实验

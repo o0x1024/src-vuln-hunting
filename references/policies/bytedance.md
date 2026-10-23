@@ -5,7 +5,7 @@
 - [《字节跳动安全响应中心安全报告处置规则 V6.0》](https://q2a1fk6o03.feishu.cn/docx/WPOHdeVdLoJgPfx25VmcfVJxnde)（飞书云文档；正文全文已提取，见同目录 [bytedance-v6-fulltext.md](bytedance-v6-fulltext.md)，439 块约 1.65 万字符）。
 - [官方站 SRC 栏目](https://security.bytedance.com/src/)（历史公开摘要；与本文件冲突时以 V6.0 及平台当前生效版本为准）。
 
-已知缺口：V6.0 中"核心系统/一般系统/敏感信息/巨量/大量"定义表、开源项目收取 list、附录一版本管理均为内嵌 sheet，成长体系等级权益为图片，本次未提取；引用这些表前回原文核对。评分规则不定期修订、平台发布即生效。本文件为决策摘要，不是完整规则或永久有效的授权；记录 project、policy_version（V6.0）、checked_at、适用条款与证据引用；规则不清只阻塞相关定级、收录或奖励判断，不抹去技术事实。本文取代 [src-policy-examples.md](../policies/src-policy-examples.md) 样例 A（同规则的无出处用户材料，sample_only）。
+已知缺口：V6.0 中"核心系统/一般系统/敏感信息/巨量/大量"定义表、开源项目收取 list、附录一版本管理均为内嵌 sheet，成长体系等级权益为图片，本次未提取；引用这些表前回原文核对。评分规则不定期修订、平台发布即生效。本文件为决策摘要，不是完整规则或永久有效的授权；记录 project、policy_version（V6.0）、checked_at、适用条款与证据引用；规则不清只阻塞相关定级、收录或奖励判断，不抹去技术事实。本文取代 [src-policy-examples.md](src-policy-examples.md) 样例 A（同规则的无出处用户材料，sample_only）。
 
 ## 适用与版本判据
 

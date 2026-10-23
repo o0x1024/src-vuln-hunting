@@ -1,6 +1,9 @@
 # iOS 应用条件专题
 
-触发：获准 IPA、源码、entitlements、正常流量或测试设备。先记录 Bundle ID、签名/Team、版本/构建号、iOS/设备、包来源/哈希、调试/重签/越狱状态。不能用 HyperOS 的核心业务、补丁字段或守护计划资格为 iOS 定级；小米项目具体适用性未知时记 rule_review。
+> **同类语料桶（先读经验桶再动手）**：[x-mobile-1（8 条）](../research/x-mobile-1.md)、[x-exp-mobile（2 条）](../research/x-exp-mobile.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
+触发：获准 IPA、源码、entitlements、正常流量或测试设备。先记录 Bundle ID、签名/Team、版本/构建号、iOS/设备、包来源/哈希、调试/重签/越狱状态。不能用某个平台的业务分层、补丁字段或奖励资格为 iOS 定级；当前项目是否覆盖 iOS 未知时记 rule_review。
 
 ## 从材料到最小验证
 

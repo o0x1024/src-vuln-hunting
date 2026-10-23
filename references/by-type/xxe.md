@@ -1,5 +1,8 @@
 # XXE 与隐式 XML 入口
 
+> **同类语料桶（先读经验桶再动手）**：[x-xxe-1（10 条）](../research/x-xxe-1.md)、[x-exp-xxe（8 条）](../research/x-exp-xxe.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 适用信号：XML/SOAP、sitemap、SVG、Office 文件或 XML 中间处理
 
 ## 检查与最小实验

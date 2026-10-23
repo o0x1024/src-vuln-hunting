@@ -1,5 +1,8 @@
 # 竞态与 TOCTOU
 
+> **同类语料桶（先读经验桶再动手）**：[x-logic-1（16 条）](../research/x-logic-1.md)、[x-exp-logic（9 条）](../research/x-exp-logic.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 适用信号：单次额度、检查后写入、跨接口共享状态
 
 ## 检查与最小实验

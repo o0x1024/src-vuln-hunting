@@ -1,5 +1,8 @@
 # 浏览器输入与脚本执行
 
+> **同类语料桶（先读经验桶再动手）**：[x-xss-1（300 条）](../research/x-xss-1.md)、[x-xss-2（300 条）](../research/x-xss-2.md)、[x-xss-3（266 条）](../research/x-xss-3.md)、[x-exp-xss（209 条）](../research/x-exp-xss.md)、[x-residual-xss（111 条）](../research/x-residual-xss.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 ## 适用信号与前提
 
 搜索/评论/昵称/上传内容进入 HTML、属性、JS 或 DOM。先记录输入来源、输出上下文、编码和浏览器路径；准备获准测试页面/账号，避免触发真实用户或管理员会话。

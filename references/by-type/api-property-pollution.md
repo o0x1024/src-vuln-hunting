@@ -1,5 +1,8 @@
 # API 属性授权、批量赋值与服务端参数污染
 
+> **同类语料桶（先读经验桶再动手）**：[x-api-1（23 条）](../research/x-api-1.md)、[x-exp-api（180 条）](../research/x-exp-api.md)、[x-residual-api（4 条）](../research/x-residual-api.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 适用信号：响应出现隐藏字段、复杂 JSON、BFF 转发或批量接口
 
 ## 检查与最小实验

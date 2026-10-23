@@ -1,5 +1,8 @@
 # 反序列化与不安全对象处理
 
+> **同类语料桶（先读经验桶再动手）**：[x-rce-1（69 条）](../research/x-rce-1.md)、[x-exp-rce（40 条）](../research/x-exp-rce.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 ## 适用信号与前提
 
 序列化请求体、Cookie、对象类型标记、服务端调用栈或获准源码中的反序列化入口。Java/PHP/Python/.NET 各有不同格式和危险条件；Base64、rememberMe、库名本身不是漏洞。

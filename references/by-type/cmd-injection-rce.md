@@ -1,5 +1,8 @@
 # 系统命令与参数注入
 
+> **同类语料桶（先读经验桶再动手）**：[x-rce-1（69 条）](../research/x-rce-1.md)、[x-exp-rce（40 条）](../research/x-exp-rce.md)、[x-residual-rce（7 条）](../research/x-residual-rce.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 ## 适用信号与前提
 
 网络诊断、文件转换、导出和系统工具参数。先观察正常功能、输入到执行器的数据流和组件版本。模板渲染与表达式入口读取 [SSTI](ssti.md)。

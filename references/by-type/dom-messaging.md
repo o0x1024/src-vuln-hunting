@@ -1,5 +1,8 @@
 # postMessage 与 DOM clobbering
 
+> **同类语料桶（非本类专属，先读再动手）**：[x-exp-xss（209 条）](../research/x-exp-xss.md)、[x-xss-1（300 条）](../research/x-xss-1.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 适用信号：message 监听器、iframe 通信、HTML id/name 进入全局属性
 
 ## 检查与最小实验

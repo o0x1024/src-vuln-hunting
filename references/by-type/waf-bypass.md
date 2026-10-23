@@ -1,5 +1,8 @@
 # WAF 绕过与逐层解析差异
 
+> **同类语料桶（先读经验桶再动手）**：[x-waf-1（116 条）](../research/x-waf-1.md)、[x-exp-waf（98 条）](../research/x-exp-waf.md)、[x-residual-waf_bypass（3 条）](../research/x-residual-waf_bypass.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 适用信号：已有具体漏洞假设受过滤影响，或正常流量/文档/代码/错误提示了某个可验证的接口解析差异；不作为无依据载荷扫描起点
 
 ## 先定位限制发生在哪一层

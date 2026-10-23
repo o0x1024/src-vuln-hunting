@@ -1,5 +1,8 @@
 # 认证、会话与授权回调
 
+> **同类语料桶（先读经验桶再动手）**：[x-auth-1（147 条）](../research/x-auth-1.md)、[x-exp-auth（279 条）](../research/x-exp-auth.md)、[x-residual-auth（4 条）](../research/x-residual-auth.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 ## 适用信号与前提
 
 登录、找回、验证码、会话刷新、JWT、OAuth/OIDC/SSO 回调。使用自建账号、独立浏览器/令牌存储及获准回调地址；短信/邮件触发纳入动作许可和次数预算。

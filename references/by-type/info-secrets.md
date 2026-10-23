@@ -1,5 +1,8 @@
 # 信息暴露、调试资源与凭据泄露
 
+> **同类语料桶（先读经验桶再动手）**：[x-infodisc-1（44 条）](../research/x-infodisc-1.md)、[x-exp-infoleak（13 条）](../research/x-exp-infoleak.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 适用信号：JS/source map、日志、备份、构建产物或代码历史
 
 ## 检查与最小实验

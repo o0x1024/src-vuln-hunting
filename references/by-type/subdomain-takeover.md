@@ -1,5 +1,8 @@
 # 悬空 DNS 与子域接管
 
+> **同类语料桶（先读经验桶再动手）**：[x-recon-1（253 条）](../research/x-recon-1.md)、[x-exp-recon（214 条）](../research/x-exp-recon.md)、[x-recovered-recon（83 条）](../research/x-recovered-recon.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 适用信号：CNAME 指向失效第三方资源、停用站点或域绑定错误
 
 ## 检查与最小实验

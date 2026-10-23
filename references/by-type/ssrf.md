@@ -1,5 +1,8 @@
 # 服务端请求边界
 
+> **同类语料桶（先读经验桶再动手）**：[x-ssrf-1（54 条）](../research/x-ssrf-1.md)、[x-exp-ssrf（63 条）](../research/x-exp-ssrf.md)、[x-residual-ssrf（10 条）](../research/x-residual-ssrf.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 ## 适用信号与前提
 
 URL 导入、预览、截图、PDF、webhook、代理或下载。先确认功能是否本来允许外部请求及被禁止的目的地/协议边界；准备获准的受控接收端、唯一随机标记和日志。

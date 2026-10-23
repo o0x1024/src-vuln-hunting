@@ -1,5 +1,8 @@
 # CORS 跨源读取
 
+> **同类语料桶（先读经验桶再动手）**：[x-csrf_cors-1（20 条）](../research/x-csrf_cors-1.md)、[x-exp-csrf（24 条）](../research/x-exp-csrf.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 适用信号：API 返回 ACAO/ACAC 或允许不可信来源
 
 ## 检查与最小实验

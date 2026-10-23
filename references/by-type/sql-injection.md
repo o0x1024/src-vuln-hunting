@@ -1,5 +1,8 @@
 # SQL 查询输入验证
 
+> **同类语料桶（先读经验桶再动手）**：[x-sqli-1（193 条）](../research/x-sqli-1.md)、[x-exp-sqli（42 条）](../research/x-exp-sqli.md)、[x-residual-sqli（26 条）](../research/x-residual-sqli.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 ## 适用信号与前提
 
 查询、筛选、排序、分页、JSON/表单参数及存储后被检索的输入。报错或组件指纹只构成线索；先捕获正常请求与响应基线，识别可能数据库和驱动条件。

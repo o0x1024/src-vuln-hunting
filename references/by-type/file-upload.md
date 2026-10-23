@@ -1,5 +1,8 @@
 # 上传、处理与文件访问
 
+> **同类语料桶（先读经验桶再动手）**：[x-file-1（79 条）](../research/x-file-1.md)、[x-exp-file（14 条）](../research/x-exp-file.md)、[x-residual-upload（1 条）](../research/x-residual-upload.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 ## 适用信号与前提
 
 头像、附件、导入、富文本、解压、预览和异步文件处理。准备自建文件及已知上传/访问规则，记录存储 origin、访问权限和处理组件。

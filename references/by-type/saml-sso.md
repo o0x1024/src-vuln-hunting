@@ -1,5 +1,8 @@
 # SAML SSO
 
+> **同类语料桶（先读经验桶再动手）**：[x-auth-1（147 条）](../research/x-auth-1.md)、[x-exp-auth（279 条）](../research/x-exp-auth.md)
+> 需要提升危害、判断值不值得交，或当前思路挖不动时，先读这些语料与 [成交语料索引](../research/corpus-index.md) 的过审率表，再回到下面的实验设计。
+
 适用信号：企业 IdP/SP、SAMLResponse、Assertion 消费
 
 ## 检查与最小实验
